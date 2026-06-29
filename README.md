@@ -960,7 +960,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **ABI & Calldata Decoder** _(stub, awaits wire-up)_: Decodes raw calldata, event logs, and revert reasons against known ABIs or guessed selectors. Re-encodes edited parameters and supports nested structs, dynamic arrays, and EIP-712 typed data.
 
-- ⬜ **ZK Circuit Playground** _(planned)_: Authors and proves Circom, Halo2, and Noir circuits with witness inspection and constraint visualization. Generates Groth16/PLONK proofs locally and exports Solidity verifier contracts.
+- ✅ **ZK Circuit Playground** _(stub, awaits wire-up)_: Authors and proves Circom, Halo2, and Noir circuits with witness inspection and constraint visualization. Generates Groth16/PLONK proofs locally and exports Solidity verifier contracts.
 
 - ⬜ **Merkle & Accumulator Builder** _(planned)_: Constructs Merkle trees, Merkle Patricia tries, Verkle trees, and RSA accumulators from arbitrary leaf sets. Generates and verifies inclusion and non-inclusion proofs with format export for common verifier contracts.
 
