@@ -4691,7 +4691,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Oral History Studio** _(stub, awaits wire-up)_: Multi-track recorder with local Whisper transcription, speaker diarization, and timestamped name/place tagging. Exports interview transcripts as linked sources attached to the relevant INDI records in the tree.
 
-- ⬜ **Paleography OCR** _(planned)_: Handwriting recognition tuned for parish registers, ship manifests, and probate scripts (Secretary hand, Kurrent, Sutterlin, Spencerian). Outputs editable text with per-token confidence so a researcher can correct ambiguous letters in place.
+- ✅ **Paleography OCR** _(stub, awaits wire-up)_: Handwriting recognition tuned for parish registers, ship manifests, and probate scripts (Secretary hand, Kurrent, Sutterlin, Spencerian). Outputs editable text with per-token confidence so a researcher can correct ambiguous letters in place.
 
 - ⬜ **Census Record Harvester** _(planned)_: Parses US, UK, Canadian, and Irish census images or HTML into structured household rows. Auto-links suggested INDI matches in the open tree using fuzzy name, age, and birthplace scoring.
 
