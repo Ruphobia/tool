@@ -3766,7 +3766,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Chord and Scale Explorer** _(stub, awaits wire-up)_: Interactive dictionary of chords, scales, and modes with on-keyboard and on-fretboard visualization, interval spelling, mode rotations, and inversion browsing. Plays each selection through a built-in sampler or WebMIDI device.
 
-- ⬜ **Harmonic Analyzer** _(planned)_: Parses a score or chord list and produces Roman numeral analysis, functional labels (T/PD/D), secondary dominants, modal interchange tags, and pivot-chord modulation points. Highlights ambiguous regions and offers AI-integrated alternate readings with rationale.
+- ✅ **Harmonic Analyzer** _(stub, awaits wire-up)_: Parses a score or chord list and produces Roman numeral analysis, functional labels (T/PD/D), secondary dominants, modal interchange tags, and pivot-chord modulation points. Highlights ambiguous regions and offers AI-integrated alternate readings with rationale.
 
 - ⬜ **Score Notation Editor** _(planned)_: WYSIWYG engraver for multi-staff scores with proper beaming, slurs, dynamics, articulations, and lyrics. Imports and exports MusicXML, MEI, MIDI, ABC, and LilyPond, and renders engraver-quality PDF and SVG.
 
