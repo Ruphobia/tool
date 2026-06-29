@@ -305,7 +305,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Git workbench** _(in testing)_: Local VCS interface for staging, committing, branching, rebasing, cherry-picking, and stash management, with AI-drafted commit messages and PR descriptions derived from the staged diff.
 
-- ⬜ **History explorer** _(planned)_: Commit graph, blame, and pickaxe browser that traces how a line, function, or file evolved, with AI narration of the reasoning behind a change cluster.
+- ✅ **History explorer** _(in testing)_: Commit graph, blame, and pickaxe browser that traces how a line, function, or file evolved, with AI narration of the reasoning behind a change cluster.
 
 - ⬜ **Refactor engine** _(planned)_: Symbol-aware rename, extract, inline, and move operations across the repo, with AI-proposed multi-file refactors previewed as a diff before apply.
 
