@@ -2674,7 +2674,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **IQ recorder and classifier** _(stub, awaits wire-up)_: Captures baseband to SigMF, WAV, or cfile with metadata, and replays into demodulators or external GNU Radio flowgraphs. AI-integrated signal classifier proposes modulation, baud, and likely service from a short capture.
 
-- ⬜ **Band plan and regulatory checker** _(planned)_: Holds IARU Region 1/2/3 band plans, FCC Part 97/15/87/80/90 allocations, and ITU footnotes. Validates a planned transmission against license class privileges, power limits, mode restrictions, and channel spacing.
+- ✅ **Band plan and regulatory checker** _(stub, awaits wire-up)_: Holds IARU Region 1/2/3 band plans, FCC Part 97/15/87/80/90 allocations, and ITU footnotes. Validates a planned transmission against license class privileges, power limits, mode restrictions, and channel spacing.
 
 - ⬜ **GNU Radio flowgraph runner** _(planned)_: Loads .grc flowgraphs, parameterizes them, and runs them headless against live SDR hardware or recorded IQ. Captures sink outputs (audio, file, ZMQ) and pipes them into the logger or classifier.
 
