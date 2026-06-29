@@ -274,7 +274,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ⬜ **Bibliography Generator** _(planned)_: Renders bibliographies and in-text citations through a bundled CSL engine with the full Zotero style repository. Outputs to HTML, RTF, DOCX, LaTeX, and Typst with style-specific quirks honored.
 
-- ⬜ **Footnote and Endnote Manager** _(planned)_: Tracks footnotes, endnotes, ibid/op-cit short forms, and cross-references across long documents. Renumbers and re-resolves automatically when sections move or sources change.
+- ✅ **Footnote and Endnote Manager** _(in testing)_: Tracks footnotes, endnotes, ibid/op-cit short forms, and cross-references across long documents. Renumbers and re-resolves automatically when sections move or sources change.
 
 - ✅ **Attachment Deduper** _(in testing)_: Content-hash and perceptual-hash detection for duplicate PDFs, supplementary files, and figures. Proposes merges that preserve annotations, notes, and citation-key history.
 
