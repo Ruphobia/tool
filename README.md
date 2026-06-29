@@ -4754,7 +4754,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Snore and Apnea Audio Analyzer** _(stub, awaits wire-up)_: Records overnight audio locally and runs on-device detection for snoring, apnea-suggestive silences, and arousals. Outputs an event timeline aligned with the hypnogram and a rough AHI proxy with clear non-diagnostic disclaimers.
 
-- ⬜ **Caffeine and Stimulant Tracker** _(planned)_: Logs caffeine, theanine, nicotine, and other stimulant doses with timing and computes residual concentration curves using configurable half-lives. Flags doses likely to suppress adenosine load at target bedtime.
+- ✅ **Caffeine and Stimulant Tracker** _(stub, awaits wire-up)_: Logs caffeine, theanine, nicotine, and other stimulant doses with timing and computes residual concentration curves using configurable half-lives. Flags doses likely to suppress adenosine load at target bedtime.
 
 - ⬜ **Supplement and Pharmacology Log** _(planned)_: Tracks melatonin, magnesium, glycine, apigenin, and (gated, with safety notes) galantamine or choline use for REM augmentation. Correlates dose and timing with subsequent sleep architecture and lucidity outcomes.
 
