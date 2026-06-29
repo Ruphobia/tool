@@ -2052,7 +2052,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **ODE/PDE solver** _(stub, awaits wire-up)_: Numerical and symbolic solver for ordinary and partial differential equations with selectable stiffness-aware integrators (RK45, BDF, DOPRI, implicit), boundary-condition editor, and convergence diagnostics.
 
-- ⬜ **Curve fitter** _(planned)_: Nonlinear least-squares, robust, and Bayesian regression with model library, residual diagnostics, and confidence/prediction bands. AI-integrated proposal of candidate functional forms from a scatter plot.
+- ✅ **Curve fitter** _(stub, awaits wire-up)_: Nonlinear least-squares, robust, and Bayesian regression with model library, residual diagnostics, and confidence/prediction bands. AI-integrated proposal of candidate functional forms from a scatter plot.
 
 - ⬜ **Statistics workbench** _(planned)_: Descriptive statistics, hypothesis tests, distribution fitting, bootstrap/MCMC, and Bayesian inference with prior/posterior visualization and effect-size reporting.
 
