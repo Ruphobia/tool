@@ -752,7 +752,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **State Machine Editor** _(stub, awaits wire-up)_: Hierarchical FSM designer with transitions, guards, entry/exit actions, parallel regions, and statechart export. Live replay shows the active state path against recorded gameplay traces.
 
-- ⬜ **Sound Effect Forge** _(planned)_: Sfxr/Bfxr-style procedural SFX synthesizer with parameter randomization, mutation history, and project-wide variation banks. Includes a denoiser, normalizer, and game-engine-ready WAV/OGG export.
+- ✅ **Sound Effect Forge** _(stub, awaits wire-up)_: Sfxr/Bfxr-style procedural SFX synthesizer with parameter randomization, mutation history, and project-wide variation banks. Includes a denoiser, normalizer, and game-engine-ready WAV/OGG export.
 
 - ⬜ **Tracker Studio** _(planned)_: Pattern-based music tracker with chiptune and sample instruments, MIDI import, looped section markers, and interactive music states. Renders deterministic stems for layering by gameplay events.
 
