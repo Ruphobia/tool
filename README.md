@@ -2412,7 +2412,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Water quality kinetics** _(stub, awaits wire-up)_: Models chlorine residual decay (bulk + wall reaction), DBP formation (THM/HAA), nitrification in distribution, and corrosion indices (Langelier, Ryznar, CCPP). Couples to the network solver for age-and-quality propagation through the system.
 
-- ⬜ **Leak locator** _(planned)_: Acoustic correlation and pressure-transient leak detection from time-series sensor data. Cross-correlates hydrophone signals to estimate leak position along a pipe segment and runs inverse transient analysis against the hydraulic model; AI-integrated anomaly flagging from DMA night-flow patterns.
+- ✅ **Leak locator** _(stub, awaits wire-up)_: Acoustic correlation and pressure-transient leak detection from time-series sensor data. Cross-correlates hydrophone signals to estimate leak position along a pipe segment and runs inverse transient analysis against the hydraulic model; AI-integrated anomaly flagging from DMA night-flow patterns.
 
 - ⬜ **IDF curve generator** _(planned)_: Fits intensity-duration-frequency curves from rainfall gauge records or NOAA Atlas 14 grids. Outputs design storms (Chicago, NRCS, alternating block, Huff) at user-selected return periods for the runoff and routing tools.
 
