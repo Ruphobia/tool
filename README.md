@@ -999,7 +999,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **ROM Patch Studio** _(stub, awaits wire-up)_: Applies and authors IPS, BPS, UPS, and Xdelta patches, with header-aware ROM splitting and merging plus translation-patch sanity checks against known-good base hashes.
 
-- ⬜ **PCB Silkscreen Reader** _(planned)_: Photographs board images and uses OCR plus AI to extract component designators, IC part numbers, and revision marks into a structured parts list tied to the catalog.
+- ✅ **PCB Silkscreen Reader** _(stub, awaits wire-up)_: Photographs board images and uses OCR plus AI to extract component designators, IC part numbers, and revision marks into a structured parts list tied to the catalog.
 
 - ⬜ **Decap and Die-Shot Library** _(planned)_: Archive of die photos and reverse-engineered netlists for custom chips (SID, VIC-II, Paula, Denise, ULA, etc.) with annotated functional blocks and links to FPGA reimplementations.
 
