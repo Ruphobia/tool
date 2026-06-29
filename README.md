@@ -644,7 +644,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Vector DB inspector** _(stub, awaits wire-up)_: Browses FAISS, Qdrant, Milvus, Weaviate, Pinecone, and pgvector collections; runs k-NN queries with score breakdown, visualizes embeddings via UMAP/t-SNE, and reports recall against a labeled probe set.
 
-- ⬜ **Search index manager** _(planned)_: Manages Elasticsearch, OpenSearch, and Meilisearch indices with analyzer testing, mapping editor, reindex orchestrator, and query DSL playground with relevance scoring breakdown.
+- ✅ **Search index manager** _(stub, awaits wire-up)_: Manages Elasticsearch, OpenSearch, and Meilisearch indices with analyzer testing, mapping editor, reindex orchestrator, and query DSL playground with relevance scoring breakdown.
 
 - ⬜ **Query history and snippets** _(planned)_: Persistent local history of every executed query with full-text search, tag/star, parameter capture, shareable snippet library, and replay against a different connection.
 
