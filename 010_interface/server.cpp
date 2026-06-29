@@ -341,8 +341,31 @@ void handle_chat(const httplib::Request & req, httplib::Response & res) {
                 emit("layer", {{"name", "entities"}, {"content", ents.empty() ? "(none)" : ents}});
 
                 // Visible Wikipedia lookup as its own thinking layer.
+                // Combine title-suggestion (good for entity names) AND
+                // full-text search (good for conceptual questions). Dedupe
+                // by article title.
                 {
-                    const std::string wk = kb::render_for_prompt(cleaned, 3);
+                    auto sug = kb::suggest(cleaned, 3);
+                    auto srh = kb::search (cleaned, 4);
+                    std::string wk;
+                    if (!sug.available || !srh.available) {
+                        wk = "(knowledge offline)";
+                    } else {
+                        std::unordered_set<std::string> seen;
+                        auto add = [&](const std::vector<kb::WikiHit> & hits) {
+                            for (const auto & h : hits) {
+                                if (!seen.insert(h.title).second) continue;
+                                wk.append("- ").append(h.title);
+                                if (!h.snippet.empty()) {
+                                    wk.append(": ").append(h.snippet);
+                                }
+                                wk.push_back('\n');
+                            }
+                        };
+                        add(sug.hits);
+                        add(srh.hits);
+                        if (wk.empty()) wk = "(no matches)";
+                    }
                     emit("layer", {{"name", "wikipedia"}, {"content", wk}});
                 }
 
