@@ -4672,7 +4672,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Radio link planner** _(stub, awaits wire-up)_: Plots line-of-sight and Fresnel-zone clearance across terrain between two coordinates for VHF/UHF simplex, repeater, or Meshtastic/LoRa links. Estimates path loss, fade margin, and antenna height needed for a target link budget.
 
-- ⬜ **Celestial navigation aid** _(planned)_: Identifies stars and planets, reduces sextant sights to a line of position, and derives latitude from Polaris altitude or noon-sun observations. Includes a pre-computed almanac for sun, moon, and navigational stars at any date and location.
+- ✅ **Celestial navigation aid** _(stub, awaits wire-up)_: Identifies stars and planets, reduces sextant sights to a line of position, and derives latitude from Polaris altitude or noon-sun observations. Includes a pre-computed almanac for sun, moon, and navigational stars at any date and location.
 
 - ⬜ **Land navigation toolkit** _(planned)_: Converts between lat/lon, UTM, and MGRS, applies local magnetic declination, computes pace count over slope, and walks dead-reckoning legs with cumulative error estimates. Reads topo contours for slope angle, viewshed, and water-flow direction.
 
