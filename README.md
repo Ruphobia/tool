@@ -385,7 +385,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Component scaffolder** _(stub, awaits wire-up)_: Generates idiomatic components for React, Vue, Svelte, Solid, Qwik, or Lit with props/slots, typed signatures, co-located styles, and a matching test file. AI-integrated naming and prop inference from a natural-language sketch.
 
-- ⬜ **Bundler config tuner** _(planned)_: Edits and diff-previews Vite, Webpack, Rollup, esbuild, Rspack, or Turbopack configs with plugin presets, alias rewriting, code-splitting hints, and tree-shaking diagnostics.
+- ✅ **Bundler config tuner** _(stub, awaits wire-up)_: Edits and diff-previews Vite, Webpack, Rollup, esbuild, Rspack, or Turbopack configs with plugin presets, alias rewriting, code-splitting hints, and tree-shaking diagnostics.
 
 - ⬜ **Live dev server** _(planned)_: Boots an HMR dev server with framework auto-detect, port reuse, HTTPS via mkcert, network exposure, and a request/response timeline overlay.
 
