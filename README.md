@@ -567,7 +567,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Errata tracker** _(stub, awaits wire-up)_: Maintains per-silicon-revision errata lists and cross-references them against the firmware's used peripherals and feature flags. Surfaces relevant errata on build and links to vendor workarounds.
 
-- ⬜ **Fuzzer and property tester** _(planned)_: Drives libFuzzer, AFL++, and Hypothesis-style property tests against parsers, protocol stacks, and state machines built for host or QEMU. Reports crashes with minimized reproducers.
+- ✅ **Fuzzer and property tester** _(stub, awaits wire-up)_: Drives libFuzzer, AFL++, and Hypothesis-style property tests against parsers, protocol stacks, and state machines built for host or QEMU. Reports crashes with minimized reproducers.
 
 - ⬜ **Code-size optimizer** _(planned)_: Suggests link-time GC, LTO, function outlining, table consolidation, and printf-removal opportunities ranked by bytes saved. AI rewrites size-bloat hotspots and validates equivalence on a test suite.
 
