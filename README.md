@@ -1212,7 +1212,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Reverse outliner** _(stub, awaits wire-up)_: Parses an existing draft into scene and chapter cards with auto-summarized purpose, conflict, stakes, and outcome per node. Useful for revision passes, structural audits, and producing back-of-envelope synopses for queries.
 
-- ⬜ **Pacing visualizer** _(planned)_: Per-scene tension, word count, dialogue ratio, and POV plotted across the manuscript as a strip chart. Surfaces sag points, POV imbalance, and chapters that overrun typical length for the chosen genre.
+- ✅ **Pacing visualizer** _(stub, awaits wire-up)_: Per-scene tension, word count, dialogue ratio, and POV plotted across the manuscript as a strip chart. Surfaces sag points, POV imbalance, and chapters that overrun typical length for the chosen genre.
 
 - ⬜ **Sensitivity and bias reader** _(planned)_: Flags stereotypes, slurs, dated terminology, and representation gaps in cast and sourcing. AI-integrated rationale links to a citable style or community reference rather than issuing a verdict; suppression and override rules per project.
 
