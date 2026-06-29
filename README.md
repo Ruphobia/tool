@@ -4248,7 +4248,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Card Trick Notation** _(stub, awaits wire-up)_: Plain-text format for recording card routines with deck state, controls, forces, switches, and reveals. Renders to step diagrams and replays the full deck sequence at any point in the routine.
 
-- ⬜ **Sleight Video Annotator** _(planned)_: Frame-accurate tagging of double lifts, passes, palms, steals, and loads on recorded sessions. AI-assisted hand and object tracking builds a searchable sleight library across years of practice footage.
+- ✅ **Sleight Video Annotator** _(stub, awaits wire-up)_: Frame-accurate tagging of double lifts, passes, palms, steals, and loads on recorded sessions. AI-assisted hand and object tracking builds a searchable sleight library across years of practice footage.
 
 - ⬜ **Siteswap Editor** _(planned)_: Live editor for vanilla, synchronous, and multiplex siteswap with 3D ball animation, beat clock, and validity checking. Exports to Juggling Lab, prechac, and passing patterns for two or more jugglers.
 
