@@ -3867,7 +3867,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Vocoder and talkbox** _(stub, awaits wire-up)_: Channel and phase vocoders with carrier/modulator routing, formant shifting, and cross-synthesis between arbitrary signals.
 
-- ⬜ **Granular and concatenative synthesis lab** _(planned)_: Grain-cloud synthesizer with corpus-based concatenative mode driven by target-audio descriptors (centroid, MFCC, loudness).
+- ✅ **Granular and concatenative synthesis lab** _(stub, awaits wire-up)_: Grain-cloud synthesizer with corpus-based concatenative mode driven by target-audio descriptors (centroid, MFCC, loudness).
 
 - ⬜ **Speech toolkit** _(planned)_: AI-integrated speech-to-text (Whisper-class) with diarization, forced alignment, phoneme labeling, and TTS voices; supports timestamped subtitle export and voice cloning workflows.
 
