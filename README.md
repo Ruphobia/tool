@@ -2349,7 +2349,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Seismic Load Calculator** _(stub, awaits wire-up)_: Computes ASCE 7 equivalent lateral force, modal response, and base shear from site class, Ss/S1, and risk category. Distributes story shears and produces drift checks.
 
-- ⬜ **Wind Load Calculator** _(planned)_: Generates ASCE 7 main wind-force and components-and-cladding pressures from exposure, topography, and building geometry. Produces pressure zone diagrams on plan and elevation.
+- ✅ **Wind Load Calculator** _(stub, awaits wire-up)_: Generates ASCE 7 main wind-force and components-and-cladding pressures from exposure, topography, and building geometry. Produces pressure zone diagrams on plan and elevation.
 
 - ⬜ **HVAC Load Calculator** _(planned)_: Performs Manual J / ASHRAE block and room-by-room heating and cooling load calculations from envelope, infiltration, internal gains, and design temperatures. Sizes equipment with bin-hour validation.
 
