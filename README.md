@@ -4359,7 +4359,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Esports, speedrunning, competitive game analytics
 
-- ⬜ **Replay Scrubber** _(planned)_: Frame-accurate replay viewer with per-frame scrubbing, variable playback speed, A/B loop markers, and side-by-side run comparison. Supports common replay containers (Quake DEM, Source DEM, StarCraft .rep, Dolphin/RetroArch states) plus raw video with OCR-derived timestamps.
+- ✅ **Replay Scrubber** _(stub, awaits wire-up)_: Frame-accurate replay viewer with per-frame scrubbing, variable playback speed, A/B loop markers, and side-by-side run comparison. Supports common replay containers (Quake DEM, Source DEM, StarCraft .rep, Dolphin/RetroArch states) plus raw video with OCR-derived timestamps.
 
 - ⬜ **Input Overlay** _(planned)_: Live and recorded input-display overlay that renders controller/keyboard state per frame, with configurable skins for arcade sticks, gamepads, and KB+M. Reads from local capture devices, TAS movie files, or replay-extracted input streams.
 
