@@ -2703,7 +2703,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Turbo and Supercharger Sizing** _(stub, awaits wire-up)_: Plots required mass flow and pressure ratio against compressor maps loaded as polylines, with surge and choke margins highlighted. AI-integrated starting point picks a turbo from target power, altitude, and engine displacement.
 
-- ⬜ **AFR and Lambda Analyzer** _(planned)_: Reads wideband O2 logs, correlates lambda against load, RPM, and coolant temperature, and highlights lean spikes, transient enrichment errors, and closed-loop trim drift. Generates fuel table correction suggestions in percent.
+- ✅ **AFR and Lambda Analyzer** _(stub, awaits wire-up)_: Reads wideband O2 logs, correlates lambda against load, RPM, and coolant temperature, and highlights lean spikes, transient enrichment errors, and closed-loop trim drift. Generates fuel table correction suggestions in percent.
 
 - ⬜ **Spring and Motion Ratio Calculator** _(planned)_: Solves wheel rate, spring rate, ride frequency, and damping ratio from suspension geometry, sprung mass, and motion ratio. Includes a coilover preload, droop, and bump-stop engagement model with corner-by-corner output.
 
