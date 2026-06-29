@@ -930,7 +930,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Cipher Playground** _(stub, awaits wire-up)_: Encrypts and decrypts payloads with AES (GCM, CBC, CTR, XTS), ChaCha20-Poly1305, AES-SIV, and legacy ciphers for educational use. Visualizes block-by-block transformations, IV/nonce reuse failures, and padding oracle behavior.
 
-- ⬜ **Hash Lab** _(planned)_: Computes SHA-2, SHA-3, BLAKE2/3, Keccak, RIPEMD, and Argon2/scrypt/bcrypt digests with side-by-side comparison. Includes length-extension attack simulator and collision search against truncated outputs.
+- ✅ **Hash Lab** _(stub, awaits wire-up)_: Computes SHA-2, SHA-3, BLAKE2/3, Keccak, RIPEMD, and Argon2/scrypt/bcrypt digests with side-by-side comparison. Includes length-extension attack simulator and collision search against truncated outputs.
 
 - ⬜ **KDF Tuner** _(planned)_: Benchmarks Argon2id, scrypt, PBKDF2, and HKDF parameters against a target derivation time on the local hardware. AI-integrated recommendation of parameters given a threat model and latency budget.
 
