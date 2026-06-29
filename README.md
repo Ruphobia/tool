@@ -4061,7 +4061,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Damascus Layer Calculator** _(stub, awaits wire-up)_: Plans pattern-welded billet stacks: starting layer count, folds, target layer count, drawn length, and finished thickness. Previews canister, ladder, raindrop, and mosaic patterns and estimates etch contrast from alloy nickel content.
 
-- ⬜ **Ring and Chain Sizer** _(planned)_: Converts ring sizes across US, UK, EU, JP, and CN scales; computes blank length from finger size, profile, and metal stretch. For chains, derives wire gauge, link aspect ratio, and weave density for byzantine, jens pind, foxtail, and european weaves.
+- ✅ **Ring and Chain Sizer** _(stub, awaits wire-up)_: Converts ring sizes across US, UK, EU, JP, and CN scales; computes blank length from finger size, profile, and metal stretch. For chains, derives wire gauge, link aspect ratio, and weave density for byzantine, jens pind, foxtail, and european weaves.
 
 - ⬜ **Gemstone Setting Reference** _(planned)_: Catalogs prong, bezel, channel, pave, flush, and tension settings with seat geometry, undercut angles, and bur sizes for cushion, round, oval, marquise, and fancy cuts. Warns on cleavage planes, heat sensitivity, and acid intolerance per species.
 
