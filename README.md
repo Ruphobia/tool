@@ -4120,7 +4120,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pose mannequin** _(stub, awaits wire-up)_: Poses a 3D figure via IK handles or imported BVH/Mixamo clips, controls camera, lighting, and lens length, and exports turnaround sheets or single-frame references with adjustable line-art shading.
 
-- ⬜ **Gesture session timer** _(planned)_: Runs timed life-drawing sessions over a local pose library or user folder, with configurable 30s/1m/2m/5m/10m intervals, warmup ramps, and grayscale or silhouette modes.
+- ✅ **Gesture session timer** _(stub, awaits wire-up)_: Runs timed life-drawing sessions over a local pose library or user folder, with configurable 30s/1m/2m/5m/10m intervals, warmup ramps, and grayscale or silhouette modes.
 
 - ⬜ **Kiln schedule planner** _(planned)_: Builds segmented ramp/hold/cool firing schedules by cone and atmosphere (oxidation, reduction, salt, raku), estimates work-heat via Orton cone tables, and exports controller programs for Bartlett, Skutt, and Genesis profiles.
 
