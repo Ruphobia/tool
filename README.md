@@ -3470,7 +3470,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **LCA inventory builder** _(stub, awaits wire-up)_: Assembles life-cycle inventories with process flows from ecoinvent, USLCI, and Agribalyse libraries. Runs ReCiPe, TRACI, CML, and ILCD impact assessment methods with contribution and sensitivity analysis.
 
-- ⬜ **Carbon footprint calculator** _(planned)_: Computes GHG inventories across Scope 1/2/3 using EPA, DEFRA, IPCC AR6, and EXIOBASE emission factors. Supports product, organizational, and project boundaries with biogenic carbon and land-use change accounting.
+- ✅ **Carbon footprint calculator** _(stub, awaits wire-up)_: Computes GHG inventories across Scope 1/2/3 using EPA, DEFRA, IPCC AR6, and EXIOBASE emission factors. Supports product, organizational, and project boundaries with biogenic carbon and land-use change accounting.
 
 - ⬜ **Invasive species alert** _(planned)_: Cross-references occurrence streams against GISD, CABI, and EDDMapS invasive lists for the target region. Projects invasion fronts from current detections and AI-integrated risk scoring on climate suitability and propagule pressure.
 
