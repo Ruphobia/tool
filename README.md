@@ -3384,7 +3384,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Geometric morphometrics** _(stub, awaits wire-up)_: Performs Procrustes superimposition, PCA, CVA, and thin-plate-spline warps on 2D/3D landmark and semi-landmark configurations. Imports TPS and Morphologika files and outputs deformation grids and disparity plots.
 
-- ⬜ **Phylogenetics workbench** _(planned)_: Edits character-taxon matrices in NEXUS/TNT format, runs parsimony, maximum likelihood, and tip-dated Bayesian inference, and visualizes consensus trees with bootstrap/posterior support. Maps stratigraphic ranges and computes ghost lineages.
+- ✅ **Phylogenetics workbench** _(stub, awaits wire-up)_: Edits character-taxon matrices in NEXUS/TNT format, runs parsimony, maximum likelihood, and tip-dated Bayesian inference, and visualizes consensus trees with bootstrap/posterior support. Maps stratigraphic ranges and computes ghost lineages.
 
 - ⬜ **Taxonomy browser** _(planned)_: Browses paleobiological and zoological taxonomy with synonymy lists, type specimens, stratigraphic ranges, and paleogeographic occurrences sourced from PBDB, GBIF, ITIS, and the Treatise on Invertebrate Paleontology. Resolves authorities and flags nomina dubia.
 
