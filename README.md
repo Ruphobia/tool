@@ -3916,7 +3916,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Dye Recipe Tracker** _(stub, awaits wire-up)_: Logs immersion, low-water, acid, fiber-reactive, and natural dye recipes with weight-of-fiber percentages, depth of shade, mordants, water hardness, and temperature curves. Reproduces a target color from a recorded swatch and predicts recipe scaling.
 
-- ⬜ **Yarn Substitution Calculator** _(planned)_: Matches a target yarn by gauge, wraps per inch, fiber blend, twist, and weight category against a personal stash database. Recomputes ball quantity needed for a given pattern when substituting.
+- ✅ **Yarn Substitution Calculator** _(stub, awaits wire-up)_: Matches a target yarn by gauge, wraps per inch, fiber blend, twist, and weight category against a personal stash database. Recomputes ball quantity needed for a given pattern when substituting.
 
 - ⬜ **Stitch Library** _(planned)_: Searchable reference of embroidery, knit, crochet, sashiko, and tatting stitches with diagrams, video loops, and tension notes. Insertable into patterns as named stitches with parameters.
 
