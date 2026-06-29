@@ -417,7 +417,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Web component forge** _(stub, awaits wire-up)_: Compiles custom elements with Shadow DOM, slots, attribute/property reflection, and CSS parts; emits framework wrappers (React, Vue, Angular) for cross-framework reuse.
 
-- ⬜ **State store designer** _(planned)_: Models stores for Zustand, Redux Toolkit, Pinia, XState, or Jotai with action/selector codegen, devtools wiring, and a state-diagram view of transitions.
+- ✅ **State store designer** _(stub, awaits wire-up)_: Models stores for Zustand, Redux Toolkit, Pinia, XState, or Jotai with action/selector codegen, devtools wiring, and a state-diagram view of transitions.
 
 - ⬜ **HTTP client** _(planned)_: Composes and sends arbitrary HTTP/HTTPS requests with full control over method, headers, body, auth, and TLS options. Saves request collections, environments, and variables; replays from cURL, HAR, or OpenAPI. AI-integrated drafting of requests from natural-language descriptions of an endpoint and synthesis of follow-up calls from observed responses.
 
