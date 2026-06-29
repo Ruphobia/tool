@@ -4566,7 +4566,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **HRV analyzer** _(stub, awaits wire-up)_: Parses raw RR-interval files into time-domain (RMSSD, SDNN, pNN50) and frequency-domain (LF, HF, LF/HF) metrics, with rolling baseline and readiness scoring.
 
-- ⬜ **Sleep dashboard** _(planned)_: Ingests stage data from Oura, Whoop, Apple Health, or Polar exports and plots hypnogram, sleep efficiency, latency, and SWS/REM ratios; includes a chronotype and jet-lag shifter.
+- ✅ **Sleep dashboard** _(stub, awaits wire-up)_: Ingests stage data from Oura, Whoop, Apple Health, or Polar exports and plots hypnogram, sleep efficiency, latency, and SWS/REM ratios; includes a chronotype and jet-lag shifter.
 
 - ⬜ **Training load PMC** _(planned)_: Computes TSS/TRIMP, chronic training load (CTL), acute load (ATL), and form (TSB) on the Banister impulse-response model, with acute:chronic workload ratio flags and ramp-rate warnings.
 
