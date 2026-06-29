@@ -1220,7 +1220,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Manuscript typesetter** _(stub, awaits wire-up)_: LaTeX and Pandoc backed page layout with running heads, drop caps, microtype, ligature handling, widow and orphan control, and CMYK or grayscale output. Produces press-ready PDF, accessible EPUB, and reflowable HTML from one source.
 
-- ⬜ **Ebook compiler** _(planned)_: EPUB3, MOBI, AZW3, and KFX builds with embedded fonts, accessible navigation, MathML, SVG cover, and image optimization. Validates against epubcheck and KDP Previewer rules and reports failures inline with the offending file and line.
+- ✅ **Ebook compiler** _(stub, awaits wire-up)_: EPUB3, MOBI, AZW3, and KFX builds with embedded fonts, accessible navigation, MathML, SVG cover, and image optimization. Validates against epubcheck and KDP Previewer rules and reports failures inline with the offending file and line.
 
 - ⬜ **Submission tracker** _(planned)_: Query log per agent, editor, or publication with status timeline (queried, partial, full, passed, offered, withdrawn), simultaneous-submission rules, and follow-up reminders. Imports Submittable, QueryTracker, and Duotrope exports and respects per-market response-time norms.
 
