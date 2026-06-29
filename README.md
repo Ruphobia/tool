@@ -4549,7 +4549,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Trip Journal & Photo Geotagger** _(stub, awaits wire-up)_: Bundles GPX tracks, photos, weather snapshots, and free-form notes into per-trip records with automatic photo geotagging from track timestamps. AI drafts trip reports in classic American Alpine Journal or guidebook prose styles.
 
-- ⬜ **Wilderness Medicine Reference** _(planned)_: Offline quick reference for WFR-level assessments, drug dosing, fracture/dislocation reduction, environmental injuries (HACE, HAPE, hypothermia, lightning), and evacuation decision trees. Includes patient SOAP note templates exportable as PDF.
+- ✅ **Wilderness Medicine Reference** _(stub, awaits wire-up)_: Offline quick reference for WFR-level assessments, drug dosing, fracture/dislocation reduction, environmental injuries (HACE, HAPE, hypothermia, lightning), and evacuation decision trees. Includes patient SOAP note templates exportable as PDF.
 
 
 #### Sports analytics, fitness, nutrition, coaching
