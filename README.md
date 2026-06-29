@@ -2096,7 +2096,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Data importer** _(stub, awaits wire-up)_: Loader for CSV, HDF5, Parquet, FITS, NetCDF, oscilloscope (Tektronix, LeCroy), Touchstone S-parameter, and lab-instrument formats with automatic schema and unit detection.
 
-- ⬜ **LaTeX formula editor** _(planned)_: Live-rendered LaTeX/MathJax editor with palette, OCR from sketches or screenshots, and bidirectional conversion to symbolic CAS expressions.
+- ✅ **LaTeX formula editor** _(stub, awaits wire-up)_: Live-rendered LaTeX/MathJax editor with palette, OCR from sketches or screenshots, and bidirectional conversion to symbolic CAS expressions.
 
 - ⬜ **Material property database** _(planned)_: Searchable library of mechanical, thermal, optical, and electrical properties for metals, polymers, ceramics, composites, and semiconductors with temperature-dependent curves and provenance.
 
