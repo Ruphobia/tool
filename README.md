@@ -4188,7 +4188,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Healing Log** _(stub, awaits wire-up)_: Per-client journal capturing daily photos, exudate notes, pain scores, and intervention events with automatic timeline view. Flags deviations from expected healing curves and suggests when to escalate to a physician.
 
-- ⬜ **Design Library** _(planned)_: Tagged archive of flash, custom commissions, and reference images with style, motif, body zone, and client provenance metadata. Semantic search finds visually similar pieces from natural-language prompts.
+- ✅ **Design Library** _(stub, awaits wire-up)_: Tagged archive of flash, custom commissions, and reference images with style, motif, body zone, and client provenance metadata. Semantic search finds visually similar pieces from natural-language prompts.
 
 - ⬜ **Anatomy and Risk Atlas** _(planned)_: Interactive map of nerve, vessel, and lymphatic structures relevant to piercing and scarification, with depth and danger-zone overlays. Cites primary anatomical sources per region.
 
