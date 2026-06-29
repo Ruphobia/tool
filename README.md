@@ -1611,7 +1611,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Citation and footnote formatter** _(stub, awaits wire-up)_: Generates Chicago notes-bibliography, Turabian, MLA, and discipline-specific archival citations (box/folder/item, shelfmark, MS conventions). Imports CSL styles and produces clean BibTeX/CSL-JSON output.
 
-- ⬜ **Prosopography database** _(planned)_: Tracks persons, roles, offices, and relationships with explicit uncertainty, multiple attestations per assertion, and source-grounded provenance per claim. Models the Factoid Prosopography pattern used by PBW and PASE.
+- ✅ **Prosopography database** _(stub, awaits wire-up)_: Tracks persons, roles, offices, and relationships with explicit uncertainty, multiple attestations per assertion, and source-grounded provenance per claim. Models the Factoid Prosopography pattern used by PBW and PASE.
 
 - ⬜ **Historical gazetteer** _(planned)_: Resolves place names across periods against Pleiades, GeoNames, World Historical Gazetteer, and Wikidata. Handles renamings, boundary shifts, and ambiguous toponyms; emits stable Linked Places URIs.
 
