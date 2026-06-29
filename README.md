@@ -3690,7 +3690,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Astrophotography Planner** _(stub, awaits wire-up)_: Computes optimal exposure for stars from focal length and declination via the NPF rule, predicts star trail arcs, charts deep-sky object visibility and transit times, schedules ISS passes, and outputs polar alignment offsets for an equatorial mount.
 
-- ⬜ **Shot List Builder** _(planned)_: Structured planner for scenes, shots, takes, and setups with fields for lens, filter, lighting, action, dialogue, and coverage. Exports to CSV, PDF, and EDL-compatible formats and links each row to storyboard frames.
+- ✅ **Shot List Builder** _(stub, awaits wire-up)_: Structured planner for scenes, shots, takes, and setups with fields for lens, filter, lighting, action, dialogue, and coverage. Exports to CSV, PDF, and EDL-compatible formats and links each row to storyboard frames.
 
 - ⬜ **Storyboard Composer** _(planned)_: Frame-by-frame storyboard editor with aspect-ratio guides, figure and prop placement, camera position and lens indicator, and arrow annotations for movement. AI-integrated rough sketch generation from a shot description and reference image.
 
