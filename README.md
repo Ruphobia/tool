@@ -3977,7 +3977,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Koji and Miso Schedule** _(stub, awaits wire-up)_: Schedules koji incubation, salt-cure timing, and miso aging milestones for shiro, aka, and hatcho styles. Adjusts moromi turning intervals based on logged temperature and humidity readings.
 
-- ⬜ **Lacto-Fermentation Acidity Tracker** _(planned)_: Records brine salinity, pH, and titratable acidity for kimchi, sauerkraut, kosher dills, and giardiniera. Computes lactic acid percentage from titration volumes and warns when pH stalls outside safe descent curves.
+- ✅ **Lacto-Fermentation Acidity Tracker** _(stub, awaits wire-up)_: Records brine salinity, pH, and titratable acidity for kimchi, sauerkraut, kosher dills, and giardiniera. Computes lactic acid percentage from titration volumes and warns when pH stalls outside safe descent curves.
 
 - ⬜ **Hot Sauce Capsaicin Calculator** _(planned)_: Estimates Scoville heat units from pepper varietal mass ratios and dilution factors in the final sauce. Accepts HPLC-style capsaicinoid input when available and back-solves blend ratios to hit a target SHU.
 
