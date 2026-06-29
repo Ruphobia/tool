@@ -1394,7 +1394,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Trademark Screener** _(stub, awaits wire-up)_: Searches USPTO TESS, EUIPO, and WIPO Madrid databases for word and design marks, runs phonetic (Soundex, Metaphone) and visual similarity checks, classifies under Nice classes, and produces a clearance memo.
 
-- ⬜ **Docket Calendar** _(planned)_: Case and deadline tracker that computes hearing, response, appeal, and statute-of-limitations dates from filing dates and applicable court rules (federal, state, local, ex-US). ICS export, per-matter reminders, and a chain-of-deadlines view.
+- ✅ **Docket Calendar** _(stub, awaits wire-up)_: Case and deadline tracker that computes hearing, response, appeal, and statute-of-limitations dates from filing dates and applicable court rules (federal, state, local, ex-US). ICS export, per-matter reminders, and a chain-of-deadlines view.
 
 - ⬜ **E-Signature** _(planned)_: Signs PDFs and contracts with a stored cryptographic identity (PAdES, eIDAS-style), embeds the signature certificate and audit trail (IP, timestamp, document hash, geolocation), and emits a signed PDF plus a sidecar JSON manifest. Operates entirely offline.
 
