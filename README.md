@@ -1783,7 +1783,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Narrative Structure Analyzer** _(stub, awaits wire-up)_: Annotates a text against Campbell's monomyth, Propp's 31 functions, Greimas actantial model, and Freytag pyramid simultaneously. Outputs beat alignment charts and flags missing or inverted functions.
 
-- ⬜ **Mythography Database** _(planned)_: Local triple-store for entities (gods, heroes, places, objects, tales) with typed relations (parent-of, slays, transforms-into, cognate-with). Imports from Theoi, Encyclopedia Mythica dumps, and user-curated bibliographies.
+- ✅ **Mythography Database** _(stub, awaits wire-up)_: Local triple-store for entities (gods, heroes, places, objects, tales) with typed relations (parent-of, slays, transforms-into, cognate-with). Imports from Theoi, Encyclopedia Mythica dumps, and user-curated bibliographies.
 
 - ⬜ **Comparative Etymology Tracer** _(planned)_: Tracks divine and heroic names across reconstructed proto-languages (PIE, Proto-Uralic, Proto-Bantu) with sound-law derivations. Cites Watkins, Mallory, Pokorny, and flags contested reconstructions.
 
