@@ -512,6 +512,16 @@ body {
   overflow-wrap: anywhere;
   font: inherit;
 }
+.ai-headline a,
+.chat-msg.ai .body a {
+  color: var(--accent);
+  text-decoration: underline;
+}
+.ai-headline a:hover,
+.chat-msg.ai .body a:hover {
+  color: var(--accent2);
+}
+.ai-headline strong { color: var(--fg); font-weight: 700; }
 
 /* ----- file tree ----- */
 #files-tree { font-size: 12px; }

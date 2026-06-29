@@ -1617,7 +1617,7 @@ chatForm.addEventListener('submit', async e => {
 
   const onFinal = j => {
     summary.textContent = `thinking (${layerCount} layers)`;
-    headlinePre.textContent = computeHeadline(j);
+    headlinePre.innerHTML = formatChatMarkdown(computeHeadline(j));
     // Tag info goes INSIDE the chain, not the visible headline.
     const tag = document.createElement('div');
     tag.className = 'layer';
@@ -1677,6 +1677,25 @@ chatForm.addEventListener('submit', async e => {
   }
 });
 
+// Light, safe markdown rendering for AI headlines. We escape ALL HTML first,
+// then re-introduce the tiny subset we care about:
+//   [label](http(s)://…) → opens in a new tab
+//   **bold**             → <strong>
+// Anything else stays as escaped text so the Mouser links the components
+// tool emits become clickable without exposing us to script injection.
+function formatChatMarkdown(text) {
+  const esc = String(text).replace(/[&<>"']/g, c => ({
+    '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+  }[c]));
+  let out = esc.replace(
+    /\[([^\]\n]+)\]\((https?:\/\/[^\s)]+)\)/g,
+    (_m, label, url) =>
+      `<a href="${url}" target="_blank" rel="noopener noreferrer">${label}</a>`
+  );
+  out = out.replace(/\*\*([^*\n][^*]*?)\*\*/g, '<strong>$1</strong>');
+  return out;
+}
+
 function computeHeadline(j) {
   const h = j.handler || {};
   if (h.kind === 'shell') {
@@ -1727,7 +1746,7 @@ function renderAIResponse(msgEl, j) {
   const pre = document.createElement('pre');
   pre.style.margin = '0';
   pre.style.whiteSpace = 'pre-wrap';
-  pre.textContent = headline;
+  pre.innerHTML = formatChatMarkdown(headline);
   body.appendChild(pre);
 
   // Tag line
