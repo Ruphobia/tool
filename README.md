@@ -2179,7 +2179,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Unit and conversion calculator** _(stub, awaits wire-up)_: Symbolic unit-aware calculator with engineering constants, dimensional analysis, and conversions across SI, imperial, and shop-floor units. Handles compound units like N·m/rad and W/(m·K).
 
-- ⬜ **Pump and fan sizer** _(planned)_: Selects centrifugal and positive-displacement pumps and fans against a system curve with NPSH, efficiency, and viscosity corrections. Outputs operating point, power draw, and recommended drive.
+- ✅ **Pump and fan sizer** _(stub, awaits wire-up)_: Selects centrifugal and positive-displacement pumps and fans against a system curve with NPSH, efficiency, and viscosity corrections. Outputs operating point, power draw, and recommended drive.
 
 - ⬜ **Pressure vessel and piping calculator** _(planned)_: ASME BPVC Section VIII and B31.1/B31.3 thickness, stress, and code compliance calculations for shells, heads, nozzles, and piping. Includes flange rating lookup.
 
