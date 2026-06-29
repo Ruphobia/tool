@@ -4830,7 +4830,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **General trivia and quiz** _(stub, awaits wire-up)_: categorized trivia banks (history, geography, science, sports, etc.) with question-generation, difficulty scaling, multiplayer mode, party-game format, AI-generated questions from a topic seed.
 
-- ⬜ **Music history and recognition** _(planned)_: Shazam-style audio fingerprinting, song/album metadata, lyrics, music-video matching, genre/era browsing, discography of an artist.
+- ✅ **Music history and recognition** _(stub, awaits wire-up)_: Shazam-style audio fingerprinting, song/album metadata, lyrics, music-video matching, genre/era browsing, discography of an artist.
 
 - ⬜ **Pop culture timeline** _(planned)_: year-by-year cultural reference: hit songs, top films, news events, fashion, technology releases. Useful for period-correct writing, escape-room design, themed parties, and quick context for historical research.
 
