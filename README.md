@@ -1828,7 +1828,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Finite-State Lab** _(stub, awaits wire-up)_: Builds, composes, and visualizes finite-state acceptors and transducers (FSA/FST) for morphology and phonology, with regex-to-automaton conversion, determinization, minimization, and derivative-based regex debugging.
 
-- ⬜ **Dialect Atlas** _(planned)_: Plots lexical, phonetic, and syntactic variants on isogloss maps from datasets like WALS, ASJP, and the Linguistic Atlas Projects. Supports side-by-side regional comparison and clustering by feature similarity.
+- ✅ **Dialect Atlas** _(stub, awaits wire-up)_: Plots lexical, phonetic, and syntactic variants on isogloss maps from datasets like WALS, ASJP, and the Linguistic Atlas Projects. Supports side-by-side regional comparison and clustering by feature similarity.
 
 - ⬜ **Language Identifier** _(planned)_: Detects language and script from short or mixed-language input using n-gram and Unicode-block classifiers, with per-span tagging for code-switching and confidence scores. Bundles offline models for 200+ languages.
 
