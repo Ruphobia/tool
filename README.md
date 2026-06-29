@@ -4813,7 +4813,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **ESC, motor, prop matching** _(stub, awaits wire-up)_: kV vs. battery vs. prop diameter and pitch sizing for given target speed/thrust; thermal and current-draw checks; current sensor and ESC current limit verification.
 
-- ⬜ **CG and balance calculator** _(planned)_: for fixed-wing planes, helis, multirotors: balance point from layout, neutral-point and static-margin calculation, payload effect.
+- ✅ **CG and balance calculator** _(stub, awaits wire-up)_: for fixed-wing planes, helis, multirotors: balance point from layout, neutral-point and static-margin calculation, payload effect.
 
 - ⬜ **Battery cycle log** _(planned)_: tracks LiPo/Li-ion pack charge cycles, internal resistance trend, voltage sag under load, abuse events. Flags packs near end-of-life.
 
