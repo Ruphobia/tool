@@ -2267,7 +2267,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Surface Finish And Coating Selector** _(stub, awaits wire-up)_: Compares anodize types (I/II/III, hardcoat), passivation, electropolishing, electroplating (Zn, Ni, Cr, Cu, Au, Ag, Sn), PVD/DLC, powder coat, and paint systems by hardness, thickness, color, corrosion class (ASTM B117 hours), and cost.
 
-- ⬜ **Tribology And Wear Estimator** _(planned)_: Archard wear-rate calculator with a friction-coefficient lookup for dry, boundary, and lubricated sliding pairs (steel-on-steel, bronze-on-steel, PTFE, UHMWPE, ceramics). Estimates PV limits for plain bearings.
+- ✅ **Tribology And Wear Estimator** _(stub, awaits wire-up)_: Archard wear-rate calculator with a friction-coefficient lookup for dry, boundary, and lubricated sliding pairs (steel-on-steel, bronze-on-steel, PTFE, UHMWPE, ceramics). Estimates PV limits for plain bearings.
 
 - ⬜ **Fatigue And S-N Curve Tool** _(planned)_: Plots S-N curves for common alloys, applies Goodman/Soderberg/Gerber mean-stress corrections, and estimates endurance limit from UTS with surface, size, loading, temperature, and reliability factors per Shigley.
 
