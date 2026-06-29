@@ -2388,7 +2388,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Civil utility (water, waste, sanitation)
 
-- ⬜ **Pressurized network solver** _(planned)_: EPANET-style hydraulic engine for looped water distribution networks. Solves steady-state and extended-period simulation with Hazen-Williams, Darcy-Weisbach, or Chezy-Manning headloss, supports pumps, valves (PRV/PSV/FCV/TCV), tanks, and demand patterns, and reports node pressures, link flows, and tank trajectories.
+- ✅ **Pressurized network solver** _(stub, awaits wire-up)_: EPANET-style hydraulic engine for looped water distribution networks. Solves steady-state and extended-period simulation with Hazen-Williams, Darcy-Weisbach, or Chezy-Manning headloss, supports pumps, valves (PRV/PSV/FCV/TCV), tanks, and demand patterns, and reports node pressures, link flows, and tank trajectories.
 
 - ⬜ **Pipe friction calculator** _(planned)_: Solves the Colebrook-White equation iteratively (and Swamee-Jain explicit form) for friction factor given Reynolds number and relative roughness. Cross-checks against Hazen-Williams and Manning, with a roughness library for new and aged ductile iron, PVC, HDPE, concrete, and lined steel.
 
