@@ -1679,7 +1679,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Scribal Hand Classifier** _(stub, awaits wire-up)_: Identifies and clusters scribal hands across folios using AI-assisted paleographic feature extraction (letter morphology, ductus, ligature inventory). Outputs dated comparisons against the Schøyen, BL Digitised Manuscripts, and Vatican reference corpora.
 
-- ⬜ **Lacuna Reconstructor** _(planned)_: Proposes restorations for damaged papyri and parchment lacunae using context-conditioned language models trained on Greek, Latin, Coptic, Hebrew, and Aramaic corpora. Reports candidate fills with letter-width fit, parallels in extant witnesses, and confidence intervals.
+- ✅ **Lacuna Reconstructor** _(stub, awaits wire-up)_: Proposes restorations for damaged papyri and parchment lacunae using context-conditioned language models trained on Greek, Latin, Coptic, Hebrew, and Aramaic corpora. Reports candidate fills with letter-width fit, parallels in extant witnesses, and confidence intervals.
 
 - ⬜ **Marginalia Notebook** _(planned)_: Captures glosses, nota bene marks, maniculae, and corrector hands as first-class annotations anchored to image regions and TEI loci. Supports cross-manuscript queries (e.g., all scholia on Iliad 1.1) and ownership-mark provenance chains.
 
