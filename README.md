@@ -3048,7 +3048,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Plaque and CFU counter** _(stub, awaits wire-up)_: Counts plaques, colonies, and zones of inhibition from plate photos with shape and intensity filters, edge artifact rejection, and dilution series back-calculation to titer.
 
-- ⬜ **Restriction and cloning planner** _(planned)_: Searches for restriction sites, plans isocaudomer swaps, simulates digests, ligations, Gateway, and TOPO reactions, and predicts agarose gel band patterns.
+- ✅ **Restriction and cloning planner** _(stub, awaits wire-up)_: Searches for restriction sites, plans isocaudomer swaps, simulates digests, ligations, Gateway, and TOPO reactions, and predicts agarose gel band patterns.
 
 - ⬜ **qPCR and dPCR analyzer** _(planned)_: Ingests amplification curves, computes Cq via second derivative max, performs standard curve, efficiency, and melt analysis, and runs ddCt or Pfaffl relative quantification with reference gene validation (geNorm, NormFinder).
 
