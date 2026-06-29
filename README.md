@@ -889,7 +889,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Log Analyzer** _(stub, awaits wire-up)_: Ingests syslog, Windows EVTX, JSON, and arbitrary text logs into a queryable timeline with field extraction and pivot tables. AI-integrated anomaly highlighting and natural-language search over the parsed corpus.
 
-- ⬜ **Memory Forensics Explorer** _(planned)_: Drives Volatility/Rekall-style plugins over RAM captures to enumerate processes, network sockets, injected code, handles, and registry hives. Surfaces hidden processes and DLL hollowing indicators.
+- ✅ **Memory Forensics Explorer** _(stub, awaits wire-up)_: Drives Volatility/Rekall-style plugins over RAM captures to enumerate processes, network sockets, injected code, handles, and registry hives. Surfaces hidden processes and DLL hollowing indicators.
 
 - ⬜ **Disk Image Browser** _(planned)_: Mounts and walks raw, E01, AFF4, and VMDK images read-only with NTFS, ext4, APFS, HFS+, and FAT support. Shows MFT entries, journals, deleted files, alternate data streams, and timestamp anomalies.
 
