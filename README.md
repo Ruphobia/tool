@@ -2910,7 +2910,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Spectrum viewer** _(stub, awaits wire-up)_: Loads JCAMP-DX, mzML, nmrML, Bruker, and CSV traces with peak picking, integration, baseline and phase correction, deconvolution, and side-by-side overlay of predicted versus measured.
 
-- ⬜ **Periodic table explorer** _(planned)_: Interactive table with isotopes, electron configurations, oxidation states, ionization energies, electronegativities, atomic radii, abundances, and crystal structures; filterable and plottable by any property.
+- ✅ **Periodic table explorer** _(stub, awaits wire-up)_: Interactive table with isotopes, electron configurations, oxidation states, ionization energies, electronegativities, atomic radii, abundances, and crystal structures; filterable and plottable by any property.
 
 - ⬜ **Electronic lab notebook** _(planned)_: Date-stamped entries with embedded structures, procedures, observations, attached spectra, photographs, and reaction templates; cross-links reagents, products, equipment, and hazards so a synthesis is reproducible from the record alone.
 
