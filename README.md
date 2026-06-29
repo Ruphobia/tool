@@ -2375,7 +2375,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Earthwork Calculator** _(stub, awaits wire-up)_: Computes cut/fill volumes between existing and proposed surfaces from contour or TIN input. Produces mass-haul diagrams and grading-balance optimization.
 
-- ⬜ **Concrete Mix Designer** _(planned)_: Proportions concrete mixes by ACI 211 absolute-volume method targeting strength, slump, and durability class. Tracks SCM substitution, embodied carbon, and cost per cubic yard.
+- ✅ **Concrete Mix Designer** _(stub, awaits wire-up)_: Proportions concrete mixes by ACI 211 absolute-volume method targeting strength, slump, and durability class. Tracks SCM substitution, embodied carbon, and cost per cubic yard.
 
 - ⬜ **Rebar Detailer** _(planned)_: Lays out reinforcement for slabs, beams, walls, and footings with development length, splice, and hook checks per ACI 318. Produces bar bending schedules and weight takeoffs.
 
