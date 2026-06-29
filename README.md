@@ -484,7 +484,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Signing identity vault** _(stub, awaits wire-up)_: Tracks iOS certificates, provisioning profiles, App Store Connect API keys, Android keystores, and Play upload keys; surfaces expirations, mismatched team IDs, entitlement drift, and missing capabilities before they break a build.
 
-- ⬜ **Crash log symbolicator** _(planned)_: Resolves iOS .crash and .ips reports against dSYM bundles and Android stack traces against ProGuard/R8 mapping files, producing readable frames with source line attribution and a deduplicated grouping per signature.
+- ✅ **Crash log symbolicator** _(stub, awaits wire-up)_: Resolves iOS .crash and .ips reports against dSYM bundles and Android stack traces against ProGuard/R8 mapping files, producing readable frames with source line attribution and a deduplicated grouping per signature.
 
 - ⬜ **Bundle size analyzer** _(planned)_: Decomposes IPA and APK/AAB payloads into per-framework, per-asset, and per-language contributions, diffs against the previous release, and AI-suggests removals (unused locales, duplicate fonts, oversized PNGs) ranked by byte impact.
 
