@@ -3721,7 +3721,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Animation, VFX, and 3D rendering
 
-- ⬜ **Keyframe Animator** _(planned)_: Dope-sheet and curve-editor based keyframe authoring with TCB, Bezier, and stepped tangents, onion skinning, and per-channel easing. AI-integrated suggestion of in-between keys and natural easing curves from a sparse pose set.
+- ✅ **Keyframe Animator** _(stub, awaits wire-up)_: Dope-sheet and curve-editor based keyframe authoring with TCB, Bezier, and stepped tangents, onion skinning, and per-channel easing. AI-integrated suggestion of in-between keys and natural easing curves from a sparse pose set.
 
 - ⬜ **Rigging Studio** _(planned)_: Skeleton, IK/FK, spline, and ribbon rig builder with weight painting, corrective shape keys, and constraint graphs. Generates control rigs from a mesh plus joint hints, with auto-skinning via heat or biharmonic methods.
 
