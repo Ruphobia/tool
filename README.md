@@ -2046,7 +2046,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Constants reference** _(stub, awaits wire-up)_: Searchable table of CODATA physical constants, particle properties, material constants, and astronomical data with uncertainties and citation back to source year.
 
-- ⬜ **Equation library** _(planned)_: Browsable catalog of canonical equations across mechanics, EM, thermo, QM, relativity, and statistical mechanics, with variable definitions, assumptions, and one-click insertion into the symbolic or numerical workspace.
+- ✅ **Equation library** _(stub, awaits wire-up)_: Browsable catalog of canonical equations across mechanics, EM, thermo, QM, relativity, and statistical mechanics, with variable definitions, assumptions, and one-click insertion into the symbolic or numerical workspace.
 
 - ⬜ **Plotter 2D/3D** _(planned)_: Function, parametric, implicit, vector-field, contour, and surface plotting with interactive pan/zoom/rotate, LaTeX axis labels, and export to SVG/PNG/PGF. AI-integrated axis and styling suggestions from the data shape.
 
