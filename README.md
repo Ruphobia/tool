@@ -2908,7 +2908,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Mass spectrum workbench** _(stub, awaits wire-up)_: Predicts EI, ESI, and APCI fragmentation trees; computes isotope envelopes and exact masses; matches an observed spectrum against a candidate structure or a local library, with AI-integrated formula generation from accurate mass.
 
-- ⬜ **Spectrum viewer** _(planned)_: Loads JCAMP-DX, mzML, nmrML, Bruker, and CSV traces with peak picking, integration, baseline and phase correction, deconvolution, and side-by-side overlay of predicted versus measured.
+- ✅ **Spectrum viewer** _(stub, awaits wire-up)_: Loads JCAMP-DX, mzML, nmrML, Bruker, and CSV traces with peak picking, integration, baseline and phase correction, deconvolution, and side-by-side overlay of predicted versus measured.
 
 - ⬜ **Periodic table explorer** _(planned)_: Interactive table with isotopes, electron configurations, oxidation states, ionization energies, electronegativities, atomic radii, abundances, and crystal structures; filterable and plottable by any property.
 
