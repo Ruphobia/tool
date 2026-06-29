@@ -2365,7 +2365,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Daylight & Solar Analyzer** _(stub, awaits wire-up)_: Computes solar position, shading, daylight factor, and glare metrics from massing and window geometry. Generates annual sDA/ASE maps and overhang/fin optimization sweeps.
 
-- ⬜ **Code Checker** _(planned)_: Cross-references IBC, IRC, IECC, ASHRAE 90.1, NFPA 13, and ADA against a project model for occupancy, egress, fire rating, envelope U-value, and accessibility. AI-integrated citation of the specific section that triggers each finding.
+- ✅ **Code Checker** _(stub, awaits wire-up)_: Cross-references IBC, IRC, IECC, ASHRAE 90.1, NFPA 13, and ADA against a project model for occupancy, egress, fire rating, envelope U-value, and accessibility. AI-integrated citation of the specific section that triggers each finding.
 
 - ⬜ **Egress & Occupancy Planner** _(planned)_: Computes occupant load, required exits, travel distance, and corridor/stair widths from a floor plan. Highlights dead-end and common-path violations live as the plan edits.
 
