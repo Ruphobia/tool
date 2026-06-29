@@ -4738,7 +4738,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sleep Cycle Calculator** _(stub, awaits wire-up)_: Computes candidate bedtimes or wake times in 90-minute (or user-tuned) ultradian increments, factoring sleep-onset latency. Outputs alarm targets aligned to predicted REM exits.
 
-- ⬜ **WBTB Alarm Composer** _(planned)_: Builds multi-stage alarm sequences for wake-back-to-bed protocols: primary wake, awake-window length, mantra rehearsal cue, and re-entry alarm. Adapts to last night's onset latency and the running cycle estimate.
+- ✅ **WBTB Alarm Composer** _(stub, awaits wire-up)_: Builds multi-stage alarm sequences for wake-back-to-bed protocols: primary wake, awake-window length, mantra rehearsal cue, and re-entry alarm. Adapts to last night's onset latency and the running cycle estimate.
 
 - ⬜ **Chronotype Quiz** _(planned)_: Administers the Morningness-Eveningness Questionnaire (MEQ), Munich Chronotype Questionnaire (MCTQ), and AutoMEQ. Reports chronotype score, mid-sleep on free days corrected for sleep debt (MSFsc), and social jetlag.
 
