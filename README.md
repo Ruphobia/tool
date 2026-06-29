@@ -934,7 +934,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **KDF Tuner** _(stub, awaits wire-up)_: Benchmarks Argon2id, scrypt, PBKDF2, and HKDF parameters against a target derivation time on the local hardware. AI-integrated recommendation of parameters given a threat model and latency budget.
 
-- ⬜ **Certificate Inspector** _(planned)_: Parses X.509 certs, CSRs, CRLs, and full chains, validating signatures, hostname matching, key usage, SAN entries, and CT log inclusion. Renders the trust path against system and custom root stores and flags policy violations.
+- ✅ **Certificate Inspector** _(stub, awaits wire-up)_: Parses X.509 certs, CSRs, CRLs, and full chains, validating signatures, hostname matching, key usage, SAN entries, and CT log inclusion. Renders the trust path against system and custom root stores and flags policy violations.
 
 - ⬜ **TLS Probe** _(planned)_: Connects to a host, enumerates offered ciphersuites, ALPN, OCSP stapling, session resumption, and post-quantum hybrid support. Highlights deprecated suites, weak DH parameters, and certificate transparency gaps.
 
