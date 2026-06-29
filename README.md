@@ -1978,7 +1978,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Magnetics designer** _(stub, awaits wire-up)_: Sizing and winding calculator for inductors, transformers, common-mode chokes, and flyback transformers with core-loss and saturation modeling. Pulls AL and saturation curves from a vendored ferrite database.
 
-- ⬜ **Battery and power-budget planner** _(planned)_: Cell modeling (Li-ion, LiFePO4, NiMH, lead-acid, supercaps) with state-of-charge curves, cycle-life estimates, and load-profile runtime predictions. Sizes regulators, fuses, and protection circuits to match.
+- ✅ **Battery and power-budget planner** _(stub, awaits wire-up)_: Cell modeling (Li-ion, LiFePO4, NiMH, lead-acid, supercaps) with state-of-charge curves, cycle-life estimates, and load-profile runtime predictions. Sizes regulators, fuses, and protection circuits to match.
 
 - ⬜ **Connector and cable designer** _(planned)_: Pinout planning for ribbon, JST, Molex, D-sub, and circular connectors with cable-loss, voltage-drop, and shielding calculators. Generates wiring diagrams and crimp-spec sheets.
 
