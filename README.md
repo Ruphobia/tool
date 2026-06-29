@@ -1652,7 +1652,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Glyph and Script Palette** _(stub, awaits wire-up)_: Searchable palette for every script in scope (Greek, Hebrew, Syriac, Coptic, Devanagari, cuneiform, hieroglyphic, Linear B, runic, Ogham, Phoenician, Ugaritic) with diacritics, breathing marks, vowel points, cantillation, and combining sequences. Inserts at cursor with normalization to NFC/NFD.
 
-- ⬜ **IPA Reconstruction Lab** _(planned)_: Reconstructs probable pronunciations for attested and unattested forms using comparative method rules: PIE, Proto-Semitic, Proto-Indo-Iranian, and intermediate stages. Outputs IPA with stress, vowel length, and tonal accent, plus audio synthesis where periodization permits.
+- ✅ **IPA Reconstruction Lab** _(stub, awaits wire-up)_: Reconstructs probable pronunciations for attested and unattested forms using comparative method rules: PIE, Proto-Semitic, Proto-Indo-Iranian, and intermediate stages. Outputs IPA with stress, vowel length, and tonal accent, plus audio synthesis where periodization permits.
 
 - ⬜ **Critical Apparatus Editor** _(planned)_: Authors TEI-conformant critical editions with sigla management, variant readings, conjectures, and lemma-keyed apparatus entries. Renders the Leiden conventions for papyrology (square brackets, dots under, underdot) and outputs print-ready PDF via XeLaTeX.
 
