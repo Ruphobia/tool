@@ -3698,7 +3698,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Camera Move Planner** _(stub, awaits wire-up)_: Designs dolly, crane, slider, and gimbal paths with keyframed position, rotation, focus, and zoom; simulates motion blur and parallax against a depth-mapped scene plate, and exports MoCo-compatible motion data.
 
-- ⬜ **Focus Stacker** _(planned)_: Aligns a bracketed focus series with subpixel registration, fuses by maximum local contrast or depth-map weighting, retouches halos and motion artifacts, and outputs a single deep-focus frame with optional depth pass.
+- ✅ **Focus Stacker** _(stub, awaits wire-up)_: Aligns a bracketed focus series with subpixel registration, fuses by maximum local contrast or depth-map weighting, retouches halos and motion artifacts, and outputs a single deep-focus frame with optional depth pass.
 
 - ⬜ **HDR Merger** _(planned)_: Aligns and combines bracketed exposures into a 32-bit float radiance map, deghosts moving elements, and tone-maps via global (Reinhard, Drago) or local (Mantiuk, Durand) operators with controllable contrast preservation.
 
