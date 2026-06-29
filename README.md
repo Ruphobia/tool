@@ -1268,7 +1268,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Real estate, insurance, actuarial
 
-- ⬜ **Amortization schedule builder** _(planned)_: Generates a payment-by-payment table for fixed, ARM, interest-only, and balloon mortgages, with principal/interest split, remaining balance, and effects of extra principal payments or recasts.
+- ✅ **Amortization schedule builder** _(stub, awaits wire-up)_: Generates a payment-by-payment table for fixed, ARM, interest-only, and balloon mortgages, with principal/interest split, remaining balance, and effects of extra principal payments or recasts.
 
 - ⬜ **Mortgage scenario comparator** _(planned)_: Compares loan offers side by side across rate, term, points, PMI, and closing costs, computing APR, total interest, and break-even points between scenarios.
 
