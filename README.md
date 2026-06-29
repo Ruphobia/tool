@@ -3704,7 +3704,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Color Grading Suite** _(stub, awaits wire-up)_: Node-based grading with lift/gamma/gain wheels, log/linear curves, qualifier-driven secondaries, scopes (waveform, vectorscope, parade, histogram), and ACES/Rec.709/Rec.2020 working spaces. Renders to ProRes and DNxHR.
 
-- ⬜ **LUT Designer** _(planned)_: Authors 1D and 3D LUTs from before/after frame pairs or from explicit gain/contrast/sat operations, converts between .cube, .3dl, and .lut formats at arbitrary cube sizes, and validates round-trip accuracy with a ColorChecker reference.
+- ✅ **LUT Designer** _(stub, awaits wire-up)_: Authors 1D and 3D LUTs from before/after frame pairs or from explicit gain/contrast/sat operations, converts between .cube, .3dl, and .lut formats at arbitrary cube sizes, and validates round-trip accuracy with a ColorChecker reference.
 
 - ⬜ **Film Stock Emulator** _(planned)_: Models grain structure, spectral sensitivity, characteristic curves, halation, and reciprocity behavior for catalogued color and B&W stocks (Portra, Velvia, Tri-X, Cinestill, and others), applied as a post-process pass on linear input.
 
