@@ -1623,7 +1623,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Correspondence network analyzer** _(stub, awaits wire-up)_: Builds sender-recipient and mention networks from letter corpora, computes centrality and community structure, and renders force-directed layouts in the Gephi/Cytoscape mode. Imports CMIF (Correspondence Metadata Interchange Format).
 
-- ⬜ **Provenance chain tracker** _(planned)_: Records chain-of-custody for documents and objects from creation through repositories and private collections. Uses PROV-O/W3C PROV serialization and flags gaps, contradictions, and suspect transfers.
+- ✅ **Provenance chain tracker** _(stub, awaits wire-up)_: Records chain-of-custody for documents and objects from creation through repositories and private collections. Uses PROV-O/W3C PROV serialization and flags gaps, contradictions, and suspect transfers.
 
 - ⬜ **Regesta builder** _(planned)_: Produces structured summaries (regesta) of charters and diplomatic documents with parties, dispositive act, date clause, witnesses, and dating elements. Templates follow Bohmer and MGH conventions.
 
