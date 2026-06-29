@@ -3441,7 +3441,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Argo float fetcher** _(stub, awaits wire-up)_: Queries the Argo GDAC for profiles by region, date, WMO ID, or float type (core, BGC, deep). Builds trajectory maps and overlays T/S casts against climatology (WOA, Roemmich-Gilson).
 
-- ⬜ **Carbonate chemistry calculator** _(planned)_: Runs CO2SYS-style computations across DIC, alkalinity, pH, pCO2, and aragonite/calcite saturation with selectable K1/K2 constants and total/seawater pH scales for ocean acidification work.
+- ✅ **Carbonate chemistry calculator** _(stub, awaits wire-up)_: Runs CO2SYS-style computations across DIC, alkalinity, pH, pCO2, and aragonite/calcite saturation with selectable K1/K2 constants and total/seawater pH scales for ocean acidification work.
 
 - ⬜ **Sound speed profile builder** _(planned)_: Generates c(z) profiles via Mackenzie, Chen-Millero, and Del Grosso equations from CTD casts or climatology, exports to Bellhop/Kraken envfiles, and previews ray traces for sonar range prediction.
 
