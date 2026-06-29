@@ -1288,7 +1288,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Life table generator** _(stub, awaits wire-up)_: Constructs period or cohort life tables from raw deaths and exposure, smooths qx via Whittaker-Henderson or Kannisto, and graduates with confidence bands.
 
-- ⬜ **Life contingencies pricer** _(planned)_: Prices term, whole life, endowment, and annuities (immediate, deferred, joint-life, last-survivor) from a chosen mortality table and interest assumption, returning net and gross premiums with loadings and reserves.
+- ✅ **Life contingencies pricer** _(stub, awaits wire-up)_: Prices term, whole life, endowment, and annuities (immediate, deferred, joint-life, last-survivor) from a chosen mortality table and interest assumption, returning net and gross premiums with loadings and reserves.
 
 - ⬜ **Loss triangle reserve estimator** _(planned)_: Loads claim development triangles (paid, incurred, counts) and runs chain-ladder with volume-weighted, simple-average, and selected LDFs; outputs ultimates, IBNR, and Mack standard errors.
 
