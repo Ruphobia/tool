@@ -413,7 +413,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **PWA kit** _(stub, awaits wire-up)_: Builds web app manifests, generates icon sets at required sizes, and scaffolds service-worker caching strategies (stale-while-revalidate, network-first, offline fallback) via Workbox.
 
-- ⬜ **E2E recorder** _(planned)_: Records browser interactions into Playwright or Cypress specs, auto-stabilizes selectors with data-testid hints, and replays in headed/headless modes with trace viewer hooks.
+- ✅ **E2E recorder** _(stub, awaits wire-up)_: Records browser interactions into Playwright or Cypress specs, auto-stabilizes selectors with data-testid hints, and replays in headed/headless modes with trace viewer hooks.
 
 - ⬜ **Web component forge** _(planned)_: Compiles custom elements with Shadow DOM, slots, attribute/property reflection, and CSS parts; emits framework wrappers (React, Vue, Angular) for cross-framework reuse.
 
