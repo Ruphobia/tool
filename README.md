@@ -983,7 +983,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Disk Image Forge** _(stub, awaits wire-up)_: Converts and validates D64, D71, D81, G64, NIB, DSK, ADF, ST, IMG, IMD, and HFE; preserves error info and weak-bit data where the source format supports it.
 
-- ⬜ **Floppy Flux Workbench** _(planned)_: Ingests KryoFlux, Greaseweazle, and Applesauce flux streams, visualizes bit cells per track, detects common copy protections, and reconstructs sectors with confidence scores.
+- ✅ **Floppy Flux Workbench** _(stub, awaits wire-up)_: Ingests KryoFlux, Greaseweazle, and Applesauce flux streams, visualizes bit cells per track, detects common copy protections, and reconstructs sectors with confidence scores.
 
 - ⬜ **Capacitor Atlas** _(planned)_: Per-board capacitor lists (value, voltage, ESR target, polarity, footprint) with vendor part numbers and reform-versus-replace decisions logged per individual unit.
 
