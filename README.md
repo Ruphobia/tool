@@ -2175,7 +2175,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Photogrammetry and scan-to-CAD** _(stub, awaits wire-up)_: Reconstructs meshes from photo sets or structured-light scans, then converts them to parametric features and primitives. AI-integrated segmentation of scans into recognizable mechanical features.
 
-- ⬜ **Standards reference** _(planned)_: Searchable index of ISO, ANSI, ASME, DIN, JIS, AGMA, AWS, and ASTM standards with cross-references, tolerance tables, and fit charts. AI-integrated answers cite the specific clause and edition.
+- ✅ **Standards reference** _(stub, awaits wire-up)_: Searchable index of ISO, ANSI, ASME, DIN, JIS, AGMA, AWS, and ASTM standards with cross-references, tolerance tables, and fit charts. AI-integrated answers cite the specific clause and edition.
 
 - ⬜ **Unit and conversion calculator** _(planned)_: Symbolic unit-aware calculator with engineering constants, dimensional analysis, and conversions across SI, imperial, and shop-floor units. Handles compound units like N·m/rad and W/(m·K).
 
