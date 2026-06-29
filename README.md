@@ -4744,7 +4744,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Circadian Phase Estimator** _(stub, awaits wire-up)_: Estimates dim-light melatonin onset (DLMO) and core body temperature minimum from logged sleep midpoints, light exposure, and (optionally) HRV troughs. Produces a phase-advance or phase-delay recommendation window.
 
-- ⬜ **Light Exposure Logger** _(planned)_: Tracks bright-light dose (lux times minutes) and red-shifted evening exposure, either from manual entries or phone ambient-light sensor sampling. Flags deviations from a target circadian light schedule.
+- ✅ **Light Exposure Logger** _(stub, awaits wire-up)_: Tracks bright-light dose (lux times minutes) and red-shifted evening exposure, either from manual entries or phone ambient-light sensor sampling. Flags deviations from a target circadian light schedule.
 
 - ⬜ **Sleep Debt Ledger** _(planned)_: Maintains a rolling acute and chronic sleep debt against a configurable need (default 7.5 to 8.5 h), with weighted recency. Projects recovery sleep required to return to baseline.
 
