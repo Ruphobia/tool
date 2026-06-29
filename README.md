@@ -1259,7 +1259,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **OCR Grader** _(stub, awaits wire-up)_: Extracts handwritten or photographed student work, segments it into answer regions, and matches each to an expected solution. Surfaces low-confidence regions for instructor review.
 
-- ⬜ **Syllabus Planner** _(planned)_: Lays out a course week by week with topics, readings, assessments, holidays, and pacing constraints. Solves for even workload, prerequisite ordering, and review-week placement.
+- ✅ **Syllabus Planner** _(stub, awaits wire-up)_: Lays out a course week by week with topics, readings, assessments, holidays, and pacing constraints. Solves for even workload, prerequisite ordering, and review-week placement.
 
 - ⬜ **Exit Ticket Designer** _(planned)_: Generates one to three question formative checks tied to a lesson's stated objectives, with an expected-response key and a misconception map. Outputs to print, slide, or classroom-runner format.
 
