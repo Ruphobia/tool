@@ -823,7 +823,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Avatar IK Tuner** _(stub, awaits wire-up)_: Full-body and hand IK solver playground (FABRIK, two-bone, Final-IK style) driven by HMD plus two controllers, with shoulder hint constraints, elbow popping diagnostics, and finger curl retarget. Previews on a swappable humanoid rig.
 
-- ⬜ **Mesh Reconstruction Viewer** _(planned)_: Inspector for room-scale scene meshes from Quest, HoloLens, ARKit, and LIDAR scans, with per-face confidence shading, hole-fill preview, and semantic labels (floor, wall, ceiling, furniture).
+- ✅ **Mesh Reconstruction Viewer** _(stub, awaits wire-up)_: Inspector for room-scale scene meshes from Quest, HoloLens, ARKit, and LIDAR scans, with per-face confidence shading, hole-fill preview, and semantic labels (floor, wall, ceiling, furniture).
 
 - ⬜ **WebXR Live Preview** _(planned)_: Spins up a local WebXR session of the current scene over HTTPS / ADB reverse, with hot-reload of glTF assets and a desktop emulated controller for non-headset iteration. Logs runtime feature support per device.
 
