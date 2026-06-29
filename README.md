@@ -3825,7 +3825,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Parametric and graphic EQ** _(stub, awaits wire-up)_: Linear-phase and minimum-phase EQ with dynamic bands, mid/side processing, spectrum overlay, and match-EQ from reference tracks. AI-integrated EQ-curve suggestion from a target tonal reference.
 
-- ⬜ **Dynamics processor suite** _(planned)_: Compressor, limiter, expander, gate, multiband compressor, and transient shaper with sidechain, lookahead, and gain-reduction visualization.
+- ✅ **Dynamics processor suite** _(stub, awaits wire-up)_: Compressor, limiter, expander, gate, multiband compressor, and transient shaper with sidechain, lookahead, and gain-reduction visualization.
 
 - ⬜ **Loudness and metering suite** _(planned)_: True-peak, RMS, LUFS (integrated/short-term/momentary), LRA, K-system, VU, PPM, correlation, vectorscope, and goniometer meters compliant with EBU R128 and ITU-R BS.1770.
 
