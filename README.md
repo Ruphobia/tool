@@ -178,7 +178,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Decisions folder maintainer** _(in testing)_: auto-maintains `<project>/.tool/decisions/` with ADR-style entries ("we picked X over Y because Z") so the project's architectural reasoning lives somewhere other than chat history.
 
-- ⬜ **Project memory** _(planned)_: a knowledge base per project that accumulates across the lifetime of the project. AI tools both read from it (recall prior decisions and observations) and write to it (after each substantive session). Distinct from the per-session context and the Wikipedia knowledge base.
+- ✅ **Project memory** _(in testing)_: a knowledge base per project that accumulates across the lifetime of the project. AI tools both read from it (recall prior decisions and observations) and write to it (after each substantive session). Distinct from the per-session context and the Wikipedia knowledge base.
 
 - ⬜ **Personal/editable memory** _(planned)_: the AI's persistent knowledge about the user: preferences, style notes, recurring jurisdictions, owned equipment, accepted risk profile, recurring contacts. Visible and editable in the UI (browse, edit, merge, forget, export/import). Mirrors the model used by Claude Code's memory system.
 
