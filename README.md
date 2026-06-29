@@ -2552,7 +2552,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Launch Window Finder** _(stub, awaits wire-up)_: Computes daily launch windows from a given site to a target orbit or interplanetary trajectory, honoring inclination reachability, ascending-node alignment, eclipse, range-safety azimuth, and lighting constraints.
 
-- ⬜ **Re-entry Calculator** _(planned)_: Simulates ballistic and lifting re-entry trajectories with selectable atmosphere and drag models, reporting peak g-load, peak heating rate, integrated heat load, downrange/crossrange, and a landing footprint ellipse.
+- ✅ **Re-entry Calculator** _(stub, awaits wire-up)_: Simulates ballistic and lifting re-entry trajectories with selectable atmosphere and drag models, reporting peak g-load, peak heating rate, integrated heat load, downrange/crossrange, and a landing footprint ellipse.
 
 - ⬜ **Atmosphere Model Browser** _(planned)_: Evaluates US Standard 1976, NRLMSISE-00, Jacchia-Bowman, and exponential atmospheres for density, temperature, pressure, and composition versus altitude, with solar/geomagnetic activity inputs.
 
