@@ -439,7 +439,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Traceroute and latency map** _(stub, awaits wire-up)_: Runs ICMP, UDP, and TCP traceroutes with per-hop RTT histograms and renders the path on a geolocated map using offline GeoIP and ASN data. Supports MTR-style continuous probing and loss tracking.
 
-- ⬜ **Port scanner** _(planned)_: Performs TCP connect, SYN, and UDP scans across user-defined host and port ranges with banner grabbing and service fingerprinting. Annotates open ports with likely service identities from a local signature database.
+- ✅ **Port scanner** _(stub, awaits wire-up)_: Performs TCP connect, SYN, and UDP scans across user-defined host and port ranges with banner grabbing and service fingerprinting. Annotates open ports with likely service identities from a local signature database.
 
 - ⬜ **TLS and certificate inspector** _(planned)_: Connects to a host on any port and reports the negotiated protocol, cipher suite, ALPN value, and full certificate chain with trust path validation. Flags weak parameters, expiry windows, and SAN mismatches; parses local PEM, DER, and PKCS#12 files.
 
