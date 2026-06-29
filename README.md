@@ -3000,7 +3000,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sequence viewer** _(stub, awaits wire-up)_: Renders DNA, RNA, and protein sequences with ORF detection, six-frame translation, restriction sites, GC content tracks, and codon usage heatmaps. Supports FASTA, GenBank, EMBL, and GFF3 with synteny ribbons across loaded records.
 
-- ⬜ **BLAST runner** _(planned)_: Executes local blastn, blastp, blastx, tblastn, and psiblast against bundled or custom databases. Parses results into hit tables, alignment views, and taxonomy breakdowns; supports remote NCBI fallback when offline corpora miss.
+- ✅ **BLAST runner** _(stub, awaits wire-up)_: Executes local blastn, blastp, blastx, tblastn, and psiblast against bundled or custom databases. Parses results into hit tables, alignment views, and taxonomy breakdowns; supports remote NCBI fallback when offline corpora miss.
 
 - ⬜ **Multiple sequence aligner** _(planned)_: Aligns nucleotide or protein sets via MAFFT, MUSCLE, or Clustal Omega with column conservation scoring and consensus extraction. Exports to Stockholm, FASTA, and PHYLIP.
 
