@@ -2149,7 +2149,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **3D printing failure diagnoser** _(stub, awaits wire-up)_: Analyzes photos or videos of failed prints to identify warping, stringing, layer shifts, under/over extrusion, and adhesion issues. AI-integrated recommendation of slicer and hardware fixes.
 
-- ⬜ **G-code visualizer** _(planned)_: Renders toolpaths layer by layer or move by move with feed-rate, retract, and extrusion highlighting. Detects collisions, air-printing, and excessive travel.
+- ✅ **G-code visualizer** _(stub, awaits wire-up)_: Renders toolpaths layer by layer or move by move with feed-rate, retract, and extrusion highlighting. Detects collisions, air-printing, and excessive travel.
 
 - ⬜ **Kinematics simulator** _(planned)_: Assembles rigid bodies with revolute, prismatic, cylindrical, and gear joints; runs forward and inverse kinematics with collision detection. Plots position, velocity, acceleration, and joint torque over time.
 
