@@ -2125,7 +2125,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **CFD solver** _(stub, awaits wire-up)_: Steady and unsteady incompressible/compressible flow with turbulence models, conjugate heat transfer, and porous media. Mesh generation from CAD with boundary layer refinement.
 
-- ⬜ **Topology optimizer** _(planned)_: SIMP and level-set topology optimization under stress, displacement, and manufacturability constraints, with mesh export to CAD reconstruction. AI-integrated suggestion of design space, loads, and constraints from a functional description.
+- ✅ **Topology optimizer** _(stub, awaits wire-up)_: SIMP and level-set topology optimization under stress, displacement, and manufacturability constraints, with mesh export to CAD reconstruction. AI-integrated suggestion of design space, loads, and constraints from a functional description.
 
 - ⬜ **Tolerance stackup analyzer** _(planned)_: Worst-case, RSS, and Monte Carlo tolerance stackup with GD&T support including position, profile, runout, and bonus tolerance. Sensitivity report identifies the dimensions driving variation.
 
