@@ -1398,7 +1398,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **E-Signature** _(stub, awaits wire-up)_: Signs PDFs and contracts with a stored cryptographic identity (PAdES, eIDAS-style), embeds the signature certificate and audit trail (IP, timestamp, document hash, geolocation), and emits a signed PDF plus a sidecar JSON manifest. Operates entirely offline.
 
-- ⬜ **Redaction Tool** _(planned)_: Irreversibly blacks out text and image regions in PDFs and images, strips XMP and EXIF metadata, flattens form fields and layers, and produces a redaction log coded per FOIA exemption, GDPR pseudonymization, or privilege type.
+- ✅ **Redaction Tool** _(stub, awaits wire-up)_: Irreversibly blacks out text and image regions in PDFs and images, strips XMP and EXIF metadata, flattens form fields and layers, and produces a redaction log coded per FOIA exemption, GDPR pseudonymization, or privilege type.
 
 - ⬜ **Compliance Framework Mapper** _(planned)_: Maintains a control matrix mapping each control (encryption at rest, access review, breach notification, data minimization) across GDPR, CCPA, HIPAA, PCI DSS, SOC 2, ISO 27001, and NIST 800-53, with per-control evidence attachments and gap reporting.
 
