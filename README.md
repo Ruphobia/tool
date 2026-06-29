@@ -2027,7 +2027,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Spectrometer Designer** _(stub, awaits wire-up)_: Designs and analyzes Czerny-Turner, Echelle, Offner, and FT spectrometers, predicting spectral range, resolution, throughput, and stray light from grating, slit, detector, and folding-mirror choices. AI-integrated suggestion of layout topology from target resolving power and spectral band.
 
-- ⬜ **Holography Designer** _(planned)_: Designs and simulates off-axis, in-line, and computer-generated holograms with iterative Fourier transform (Gerchberg-Saxton) and direct binary search algorithms; previews diffraction efficiency, speckle, and reconstruction under arbitrary illumination.
+- ✅ **Holography Designer** _(stub, awaits wire-up)_: Designs and simulates off-axis, in-line, and computer-generated holograms with iterative Fourier transform (Gerchberg-Saxton) and direct binary search algorithms; previews diffraction efficiency, speckle, and reconstruction under arbitrary illumination.
 
 - ⬜ **Adaptive Optics Simulator** _(planned)_: Closed-loop AO simulator with Kolmogorov/von Karman turbulence screens, Shack-Hartmann or pyramid wavefront sensors, deformable mirror models, and controller (integral, LQG, predictive) design; reports residual wavefront error, Strehl, and temporal bandwidth.
 
