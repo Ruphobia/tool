@@ -360,7 +360,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Per-language toolchains
 
-- ⬜ **C and C++ toolchain** _(planned)_: a tool for native C/C++ development: compiler integration (gcc/clang/msvc), build systems (make/cmake/ninja/bazel), sanitizers (asan/ubsan/tsan/msan), valgrind, gdb/lldb integration, package management (vcpkg/conan), single-header library finder.
+- ✅ **C and C++ toolchain** _(stub, awaits wire-up)_: a tool for native C/C++ development: compiler integration (gcc/clang/msvc), build systems (make/cmake/ninja/bazel), sanitizers (asan/ubsan/tsan/msan), valgrind, gdb/lldb integration, package management (vcpkg/conan), single-header library finder.
 
 - ⬜ **Python environment** _(planned)_: a tool for Python development: venv/uv/pipx environment management, pip/poetry/uv package install, pytest harness, mypy/pyright type checking, jupyter notebook integration, debugger, profile/cProfile viewer, pyenv version switcher.
 
