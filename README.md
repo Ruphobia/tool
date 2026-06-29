@@ -2220,7 +2220,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Welding Parameter Calculator** _(stub, awaits wire-up)_: Computes amperage, voltage, wire feed speed, travel speed, shielding gas mix, and filler diameter for MIG, TIG, stick, and flux-core across common steel, stainless, and aluminum joints, with heat input, distortion, and bead profile estimates.
 
-- ⬜ **Joinery Planner** _(planned)_: Designs mortise-and-tenon, dovetail, box, finger, lap, half-blind, and Domino joints with parametric sizing, grain orientation, and glue clearance; exports DXF or G-code for templates, router jigs, and CNC.
+- ✅ **Joinery Planner** _(stub, awaits wire-up)_: Designs mortise-and-tenon, dovetail, box, finger, lap, half-blind, and Domino joints with parametric sizing, grain orientation, and glue clearance; exports DXF or G-code for templates, router jigs, and CNC.
 
 - ⬜ **Wood Movement Calculator** _(planned)_: Predicts seasonal dimensional change from species, grain orientation, starting and target moisture content, and ambient humidity range; flags panels and joints likely to cup, split, or bind.
 
