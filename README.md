@@ -4324,7 +4324,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **PGN repertoire workbench** _(stub, awaits wire-up)_: Parses, merges, and queries PGN libraries into a unified opening tree with transposition detection, move-frequency stats, and ECO classification. Supports tagging variations as 'main line', 'sideline', or 'avoid' and exports Lichess-study-compatible PGN.
 
-- ⬜ **Lichess/chess.com explorer** _(planned)_: Queries the Lichess opening explorer and master games database for any FEN, returning move frequency, win percentages by rating band, and example games. Caches results locally for offline repertoire work.
+- ✅ **Lichess/chess.com explorer** _(stub, awaits wire-up)_: Queries the Lichess opening explorer and master games database for any FEN, returning move frequency, win percentages by rating band, and example games. Caches results locally for offline repertoire work.
 
 - ⬜ **Syzygy tablebase probe** _(planned)_: Resolves 7-piece endgame positions against local or remote Syzygy tablebases, returning WDL and DTZ values plus the principal variation. Used to verify engine evaluations in technical endgames.
 
