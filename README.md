@@ -2753,7 +2753,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Fluids & Capacities Database** _(stub, awaits wire-up)_: Engine oil grade and capacity, coolant type, ATF/CVT/MTF, brake fluid spec, power steering, differential, transfer case, and refrigerant charge by vehicle. Flags incompatible mixes (e.g., DOT 3/4/5, OAT/IAT coolants, PAG vs POE oils).
 
-- ⬜ **Torque Spec & Fastener Lookup** _(planned)_: OEM torque specifications for wheel lugs, head bolts, cam caps, suspension, brake calipers, and oil drain plugs. Includes torque-angle sequences, reuse rules for stretch bolts, and unit conversion between ft-lb, Nm, and in-lb.
+- ✅ **Torque Spec & Fastener Lookup** _(stub, awaits wire-up)_: OEM torque specifications for wheel lugs, head bolts, cam caps, suspension, brake calipers, and oil drain plugs. Includes torque-angle sequences, reuse rules for stretch bolts, and unit conversion between ft-lb, Nm, and in-lb.
 
 - ⬜ **Wiring Diagram & Pinout Browser** _(planned)_: Renders interactive vehicle wiring diagrams with connector pinouts, ground points, fuse box maps, and CAN bus topology. Supports search by circuit, component, or DTC and overlays measured voltages from a connected multimeter or scope.
 
