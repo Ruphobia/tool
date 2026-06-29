@@ -1022,7 +1022,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Linked notebook** _(stub, awaits wire-up)_: Zettelkasten-style wiki with bidirectional links, a backlinks pane, tag index, and a graph view of the whole vault. AI-suggested links and tags from note content.
 
-- ⬜ **Daily journal** _(planned)_: Date-indexed free-form journal with a calendar grid, daily / weekly / monthly templates, and full-text search across years. AI-integrated weekly and monthly digests.
+- ✅ **Daily journal** _(stub, awaits wire-up)_: Date-indexed free-form journal with a calendar grid, daily / weekly / monthly templates, and full-text search across years. AI-integrated weekly and monthly digests.
 
 - ⬜ **Kanban board** _(planned)_: Card lanes with WIP limits, swimlanes, labels, and per-card checklists. Cards link bidirectionally to tasks, notes, and documents. AI-integrated auto-routing of incoming cards by content.
 
