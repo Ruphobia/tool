@@ -2029,7 +2029,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Holography Designer** _(stub, awaits wire-up)_: Designs and simulates off-axis, in-line, and computer-generated holograms with iterative Fourier transform (Gerchberg-Saxton) and direct binary search algorithms; previews diffraction efficiency, speckle, and reconstruction under arbitrary illumination.
 
-- ⬜ **Adaptive Optics Simulator** _(planned)_: Closed-loop AO simulator with Kolmogorov/von Karman turbulence screens, Shack-Hartmann or pyramid wavefront sensors, deformable mirror models, and controller (integral, LQG, predictive) design; reports residual wavefront error, Strehl, and temporal bandwidth.
+- ✅ **Adaptive Optics Simulator** _(stub, awaits wire-up)_: Closed-loop AO simulator with Kolmogorov/von Karman turbulence screens, Shack-Hartmann or pyramid wavefront sensors, deformable mirror models, and controller (integral, LQG, predictive) design; reports residual wavefront error, Strehl, and temporal bandwidth.
 
 - ⬜ **Nonlinear Optics Calculator** _(planned)_: Computes phase matching (angle, temperature, quasi-phase) for SHG/SFG/DFG/OPO in biaxial and uniaxial crystals, plus self-phase modulation, soliton number, B-integral, and supercontinuum estimates for pulse propagation through fibers and bulk media.
 
