@@ -1351,7 +1351,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Subscription Auditor** _(stub, awaits wire-up)_: Detects recurring charges from transaction history, clusters duplicates and price hikes, estimates annualized spend, and suggests cancellations ranked by cost-per-use. Flags free-trial conversions and anniversary renewal windows.
 
-- ⬜ **LBO & M&A Modeler** _(planned)_: Models leveraged buyouts and acquisitions with sources-and-uses, debt schedule (revolver, term loans, mezzanine, PIK), purchase-price allocation, and IRR/MOIC waterfalls across sponsor, management, and lenders. Supports stub-period and multi-tranche refinancing.
+- ✅ **LBO & M&A Modeler** _(stub, awaits wire-up)_: Models leveraged buyouts and acquisitions with sources-and-uses, debt schedule (revolver, term loans, mezzanine, PIK), purchase-price allocation, and IRR/MOIC waterfalls across sponsor, management, and lenders. Supports stub-period and multi-tranche refinancing.
 
 
 #### Legal, patents, trademarks, compliance
