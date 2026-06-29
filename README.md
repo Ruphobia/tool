@@ -2656,7 +2656,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Digital mode bridge** _(stub, awaits wire-up)_: Wraps WSJT-X (FT8, FT4, JT65, Q65, MSK144), JS8Call, fldigi (PSK31, RTTY, Olivia, Contestia), and VARA. Routes decodes into the ADIF log and exposes a programmatic API for automated CQ, sked, and grid-square chasing.
 
-- ⬜ **NEC antenna designer** _(planned)_: Edits wire and surface geometries, runs NEC2, NEC4, and MININEC engines, and plots 2D/3D gain patterns, SWR sweeps, current distribution, and near-field. Supports radials, lossy ground, tapered elements, and Sommerfeld-Norton modeling.
+- ✅ **NEC antenna designer** _(stub, awaits wire-up)_: Edits wire and surface geometries, runs NEC2, NEC4, and MININEC engines, and plots 2D/3D gain patterns, SWR sweeps, current distribution, and near-field. Supports radials, lossy ground, tapered elements, and Sommerfeld-Norton modeling.
 
 - ⬜ **Smith chart and matching** _(planned)_: Plots impedance and admittance with frequency markers, computes L, Pi, T, and stub matching networks, and shows Q-circles and VSWR contours. Synthesizes a schematic with realistic component Q and self-resonance.
 
