@@ -3012,7 +3012,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Plasmid editor** _(stub, awaits wire-up)_: Edits circular constructs with restriction cloning, Gibson, Golden Gate, and Type IIS workflows. Validates junctions, autosuggests overhangs, and exports SBOL and SnapGene-compatible GenBank.
 
-- ⬜ **Variant caller** _(planned)_: Calls SNPs, indels, and structural variants on bacterial, viral, and eukaryotic data with bcftools, GATK, or LoFreq for low-frequency variants in viral quasispecies.
+- ✅ **Variant caller** _(stub, awaits wire-up)_: Calls SNPs, indels, and structural variants on bacterial, viral, and eukaryotic data with bcftools, GATK, or LoFreq for low-frequency variants in viral quasispecies.
 
 - ⬜ **Pangenome analyzer** _(planned)_: Builds core and accessory gene matrices via Roary, Panaroo, or PPanGGOLiN, computes presence-absence, gene gain-loss, and rarefaction curves across isolate sets.
 
