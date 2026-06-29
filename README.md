@@ -4118,7 +4118,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Anatomy reference viewer** _(stub, awaits wire-up)_: Displays a layered écorché of skeleton, deep muscle, superficial muscle, fascia, and skin with per-layer opacity, sex/build presets, and labeled origins and insertions.
 
-- ⬜ **Pose mannequin** _(planned)_: Poses a 3D figure via IK handles or imported BVH/Mixamo clips, controls camera, lighting, and lens length, and exports turnaround sheets or single-frame references with adjustable line-art shading.
+- ✅ **Pose mannequin** _(stub, awaits wire-up)_: Poses a 3D figure via IK handles or imported BVH/Mixamo clips, controls camera, lighting, and lens length, and exports turnaround sheets or single-frame references with adjustable line-art shading.
 
 - ⬜ **Gesture session timer** _(planned)_: Runs timed life-drawing sessions over a local pose library or user folder, with configurable 30s/1m/2m/5m/10m intervals, warmup ramps, and grayscale or silhouette modes.
 
