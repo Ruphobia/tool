@@ -2737,7 +2737,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Cooling System Calculator** _(stub, awaits wire-up)_: Sizes radiator core area, fan CFM, oil cooler, and intercooler from engine heat rejection, coolant flow, and ambient conditions. Plots coolant and IAT temperatures over a simulated track stint.
 
-- ⬜ **VIN Decoder and Service Notebook** _(planned)_: Decodes VINs to year/make/model/engine/build options against an offline NHTSA-derived database, and keeps a maintenance log with parts, fluids, torque specs, and mileage reminders per vehicle.
+- ✅ **VIN Decoder and Service Notebook** _(stub, awaits wire-up)_: Decodes VINs to year/make/model/engine/build options against an offline NHTSA-derived database, and keeps a maintenance log with parts, fluids, torque specs, and mileage reminders per vehicle.
 
 - ⬜ **VIN Decoder & Service Schedule** _(planned)_: Decodes 17-character VINs against NHTSA vPIC data to identify make, model, year, engine, plant, and equipment. Generates the OEM-recommended maintenance schedule with mileage and time intervals, due-soon alerts, and per-vehicle service history.
 
