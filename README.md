@@ -1712,7 +1712,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Theological Lexicon** _(stub, awaits wire-up)_: A cross-referenced glossary of doctrinal, mystical, and ritual terminology (e.g., kenosis, tawhid, sunyata, halakhah, dharma, theosis) with etymology, tradition-of-origin, and conceptual neighbors. AI assists by surfacing analogous concepts across traditions when prompted.
 
-- ⬜ **Ritual Database** _(planned)_: Structured records of rites (liturgies, sacraments, pujas, salat, sadhana, sacrifice) with components: officiants, instruments, gestures, recitations, temporal constraints, and required objects. Filterable by tradition, life-cycle stage, or functional category.
+- ✅ **Ritual Database** _(stub, awaits wire-up)_: Structured records of rites (liturgies, sacraments, pujas, salat, sadhana, sacrifice) with components: officiants, instruments, gestures, recitations, temporal constraints, and required objects. Filterable by tradition, life-cycle stage, or functional category.
 
 - ⬜ **Sacred Geography Atlas** _(planned)_: GIS layer of pilgrimage sites, holy cities, sanctuaries, monasteries, and contested loci with diachronic boundaries of religious polities. Includes route data for hajj, Camino, Shikoku 88, Char Dham, and historical missionary networks.
 
