@@ -2503,7 +2503,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Fatigue and S-N analyzer** _(stub, awaits wire-up)_: Rainflow counting and Miner-rule damage against DNV-RP-C203, BS 7608, and API 579 curves; mean-stress and weld-class corrections.
 
-- ⬜ **Corrosion and metallurgy advisor** _(planned)_: Galvanic series, mixed-potential, CO2/H2S corrosion (de Waard-Milliams), and NACE MR0175 sour-service envelope; material selection notes for CRAs.
+- ✅ **Corrosion and metallurgy advisor** _(stub, awaits wire-up)_: Galvanic series, mixed-potential, CO2/H2S corrosion (de Waard-Milliams), and NACE MR0175 sour-service envelope; material selection notes for CRAs.
 
 - ⬜ **Pump and compressor curve tool** _(planned)_: Affinity laws, NPSH margin, surge and stonewall checks; overlays vendor curves on system head and shifts for speed, impeller trim, and viscosity.
 
