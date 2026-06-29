@@ -2493,7 +2493,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **ALARA dose planner** _(stub, awaits wire-up)_: Time, distance, and shielding optimizer for a work package against zone dose-rate maps; tracks collective and individual dose budgets per task.
 
-- ⬜ **Activation and waste classifier** _(planned)_: 10 CFR 61 Class A/B/C and IAEA categorization from neutron flux, irradiation history, and material composition; long-lived nuclide flagging.
+- ✅ **Activation and waste classifier** _(stub, awaits wire-up)_: 10 CFR 61 Class A/B/C and IAEA categorization from neutron flux, irradiation history, and material composition; long-lived nuclide flagging.
 
 - ⬜ **Containment thermal-hydraulics sketcher** _(planned)_: Lumped-parameter blowdown, pressure-suppression, and hydrogen-burn estimates for LOCA scenarios; PCT and containment pressure timelines.
 
