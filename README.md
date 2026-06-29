@@ -2701,7 +2701,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Volumetric Efficiency Calculator** _(stub, awaits wire-up)_: Back-calculates VE and BSFC from MAF/MAP, intake air temperature, RPM, displacement, and injector duty cycle. Plots VE surfaces against load and RPM for tuning verification against logged data.
 
-- ⬜ **Turbo and Supercharger Sizing** _(planned)_: Plots required mass flow and pressure ratio against compressor maps loaded as polylines, with surge and choke margins highlighted. AI-integrated starting point picks a turbo from target power, altitude, and engine displacement.
+- ✅ **Turbo and Supercharger Sizing** _(stub, awaits wire-up)_: Plots required mass flow and pressure ratio against compressor maps loaded as polylines, with surge and choke margins highlighted. AI-integrated starting point picks a turbo from target power, altitude, and engine displacement.
 
 - ⬜ **AFR and Lambda Analyzer** _(planned)_: Reads wideband O2 logs, correlates lambda against load, RPM, and coolant temperature, and highlights lean spikes, transient enrichment errors, and closed-loop trim drift. Generates fuel table correction suggestions in percent.
 
