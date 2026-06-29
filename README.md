@@ -2038,7 +2038,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Physics and math
 
-- ⬜ **Symbolic CAS** _(planned)_: Computer algebra system for simplification, expansion, factoring, solving equations, limits, derivatives, integrals, series, and matrix algebra. AI-integrated translation of natural-language problem statements into canonical symbolic expressions and step-by-step derivations.
+- ✅ **Symbolic CAS** _(stub, awaits wire-up)_: Computer algebra system for simplification, expansion, factoring, solving equations, limits, derivatives, integrals, series, and matrix algebra. AI-integrated translation of natural-language problem statements into canonical symbolic expressions and step-by-step derivations.
 
 - ⬜ **Numerical kernel** _(planned)_: Jupyter-style interactive notebook with NumPy/SciPy/Julia kernels, persistent variable state, and inline plot rendering. Routes natural-language requests to generated code blocks the user can review and re-run.
 
