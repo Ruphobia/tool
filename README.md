@@ -608,7 +608,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Databases
 
-- ⬜ **SQL console** _(planned)_: Multi-dialect SQL editor (Postgres, MySQL, SQLite, MSSQL, Oracle, DuckDB, ClickHouse) with autocomplete from live introspected schemas, parameter binding, result grid with pivot and chart preview, and per-tab transaction control.
+- ✅ **SQL console** _(stub, awaits wire-up)_: Multi-dialect SQL editor (Postgres, MySQL, SQLite, MSSQL, Oracle, DuckDB, ClickHouse) with autocomplete from live introspected schemas, parameter binding, result grid with pivot and chart preview, and per-tab transaction control.
 
 - ⬜ **Connection manager** _(planned)_: Stores connection profiles with SSH tunneling, TLS, IAM/Kerberos auth, secrets-manager passthrough, and per-environment color coding to mark production read-only sessions.
 
