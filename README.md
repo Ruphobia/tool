@@ -3655,7 +3655,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Screenshot and capture** _(stub, awaits wire-up)_: Region, window, and scrolling-page capture with annotation, redaction, and screen recording to MP4/WebM. Pipes captures directly into the editor or generator.
 
-- ⬜ **Image diff** _(planned)_: Pixel, perceptual (SSIM/LPIPS/DISTS), and structural diff with side-by-side and onion-skin views. Useful for regression checks on generated assets.
+- ✅ **Image diff** _(stub, awaits wire-up)_: Pixel, perceptual (SSIM/LPIPS/DISTS), and structural diff with side-by-side and onion-skin views. Useful for regression checks on generated assets.
 
 - ⬜ **Trainer** _(planned)_: Local LoRA, DreamBooth, textual-inversion, and ControlNet training over diffusion backbones with mixed-precision and gradient-checkpointing. Live loss/sample previews during runs.
 
