@@ -2084,7 +2084,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **N-body integrator** _(stub, awaits wire-up)_: Symplectic and high-order N-body simulator for celestial mechanics and molecular dynamics with adaptive timestepping, energy-drift monitoring, and Barnes-Hut/FMM acceleration.
 
-- ⬜ **Signal processing lab** _(planned)_: FFT, STFT, wavelet, filter design (FIR/IIR, Butterworth/Chebyshev/elliptic), windowing, spectrogram, and system-identification tools. AI-integrated filter recommendation from a measured noise profile.
+- ✅ **Signal processing lab** _(stub, awaits wire-up)_: FFT, STFT, wavelet, filter design (FIR/IIR, Butterworth/Chebyshev/elliptic), windowing, spectrogram, and system-identification tools. AI-integrated filter recommendation from a measured noise profile.
 
 - ⬜ **Control systems designer** _(planned)_: Transfer-function and state-space modeling with root-locus, Bode, Nyquist, Nichols, pole placement, LQR/LQG, and PID auto-tuning against a plant model.
 
