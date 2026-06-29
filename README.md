@@ -1976,7 +1976,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Antenna designer** _(stub, awaits wire-up)_: Method-of-moments and FDTD solvers for wire, patch, and PCB-trace antennas with VSWR, radiation pattern, gain, and efficiency plots. Templates for common ISM-band designs.
 
-- ⬜ **Magnetics designer** _(planned)_: Sizing and winding calculator for inductors, transformers, common-mode chokes, and flyback transformers with core-loss and saturation modeling. Pulls AL and saturation curves from a vendored ferrite database.
+- ✅ **Magnetics designer** _(stub, awaits wire-up)_: Sizing and winding calculator for inductors, transformers, common-mode chokes, and flyback transformers with core-loss and saturation modeling. Pulls AL and saturation curves from a vendored ferrite database.
 
 - ⬜ **Battery and power-budget planner** _(planned)_: Cell modeling (Li-ion, LiFePO4, NiMH, lead-acid, supercaps) with state-of-charge curves, cycle-life estimates, and load-profile runtime predictions. Sizes regulators, fuses, and protection circuits to match.
 
