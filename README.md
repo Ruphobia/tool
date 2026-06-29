@@ -1693,7 +1693,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Orthographic Normalizer** _(stub, awaits wire-up)_: Normalizes itacism, iotacism, scriptio continua, nu-movable, plene/defective spellings, and matres lectionis without destroying the diplomatic transcription. Keeps a reversible mapping layer so collation can run on normalized forms while display preserves the original.
 
-- ⬜ **Lectionary and Pericope Mapper** _(planned)_: Maps Gospel, Pauline, prophetologion, and synagogue lectionary cycles to the source texts they cite. Resolves incipit/explicit boundaries and reconciles Byzantine, Jerusalem, and Coptic liturgical orders.
+- ✅ **Lectionary and Pericope Mapper** _(stub, awaits wire-up)_: Maps Gospel, Pauline, prophetologion, and synagogue lectionary cycles to the source texts they cite. Resolves incipit/explicit boundaries and reconciles Byzantine, Jerusalem, and Coptic liturgical orders.
 
 - ⬜ **Provenance and Dating Estimator** _(planned)_: Estimates date and scriptorium of a manuscript from script style, decoration, parchment preparation, and ink chemistry inputs. Combines radiocarbon priors with paleographic and codicological evidence into a posterior date range.
 
