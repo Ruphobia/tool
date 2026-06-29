@@ -3780,7 +3780,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Reharmonization Assistant** _(stub, awaits wire-up)_: Generates substitution options for a given progression including tritone subs, secondary dominants, modal interchange, line-cliche fills, and negative-harmony mirrors, with AI-integrated ranking against a target style or reference track.
 
-- ⬜ **Voicing Optimizer** _(planned)_: Computes idiomatic chord voicings (drop-2, drop-3, shell, rootless, quartal, spread) for piano, guitar, or arbitrary ensembles, optimizing voice leading across a progression and respecting instrument range and playability.
+- ✅ **Voicing Optimizer** _(stub, awaits wire-up)_: Computes idiomatic chord voicings (drop-2, drop-3, shell, rootless, quartal, spread) for piano, guitar, or arbitrary ensembles, optimizing voice leading across a progression and respecting instrument range and playability.
 
 - ⬜ **Key and Tempo Detector** _(planned)_: Analyzes audio or MIDI to estimate key, mode, tonic confidence, tempo, downbeat positions, time signature, and tempo map. Outputs a click track and beat grid aligned to the source.
 
