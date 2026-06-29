@@ -2511,7 +2511,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Subsea riser and umbilical analyzer** _(stub, awaits wire-up)_: Catenary, lazy-wave, and steel catenary riser configurations with VIV fatigue screening per DNV-RP-F204; touchdown-point fatigue hot spots.
 
-- ⬜ **Materials property database** _(planned)_: Indexed steels, nickel alloys, titanium, concrete, and composites with creep, fracture toughness, KIC, and irradiation-embrittlement (RTndt shift) curves.
+- ✅ **Materials property database** _(stub, awaits wire-up)_: Indexed steels, nickel alloys, titanium, concrete, and composites with creep, fracture toughness, KIC, and irradiation-embrittlement (RTndt shift) curves.
 
 - ⬜ **Standards and code lookup** _(planned)_: Indexed ASME, API, ABS, DNV, ISO, ASTM, IAEA, ICRP, and NRC references with AI-assisted clause finder and citation cross-walk between codes.
 
