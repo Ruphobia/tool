@@ -1016,7 +1016,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Slide composer** _(stub, awaits wire-up)_: Deck builder with text, images, diagrams, charts, speaker notes, and a presenter view with timer. Markdown-to-slides import and PPTX/PDF export. AI-integrated outline drafting and layout suggestion from a topic.
 
-- ⬜ **Outline editor** _(planned)_: Hierarchical bullet outliner with infinite nesting, fold and zoom, drag-reorder, and bidirectional conversion to and from a long-form document or a slide deck.
+- ✅ **Outline editor** _(stub, awaits wire-up)_: Hierarchical bullet outliner with infinite nesting, fold and zoom, drag-reorder, and bidirectional conversion to and from a long-form document or a slide deck.
 
 - ⬜ **Mind map** _(planned)_: Radial node-and-link concept-map canvas with auto-layout, collapsible branches, and export to outline or document. AI-assisted expansion of any node into child nodes from the surrounding context.
 
