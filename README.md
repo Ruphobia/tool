@@ -2570,7 +2570,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Gravity Assist Planner** _(stub, awaits wire-up)_: Designs single and multi-flyby trajectories using patched-conics with v-infinity matching, periapsis altitude constraints, and Tisserand parameter plots for tour design across moons or planets.
 
-- ⬜ **Mission Timeline Planner** _(planned)_: Sequences mission phases, maneuvers, ground passes, eclipses, and deliverables on a Gantt-style timeline with dependencies, resource consumption, and automatic conflict detection against the propagated ephemeris.
+- ✅ **Mission Timeline Planner** _(stub, awaits wire-up)_: Sequences mission phases, maneuvers, ground passes, eclipses, and deliverables on a Gantt-style timeline with dependencies, resource consumption, and automatic conflict detection against the propagated ephemeris.
 
 - ⬜ **Rendezvous & Proximity Ops** _(planned)_: Plans and visualizes rendezvous, station-keeping, and docking using Clohessy-Wiltshire and Tschauner-Hempel relative motion, with V-bar/R-bar approach corridors, plume cone checks, and abort trajectories.
 
