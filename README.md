@@ -3712,7 +3712,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Composition Overlay** _(stub, awaits wire-up)_: Live and still-image overlay grid with rule of thirds, golden ratio and spiral, diagonal method, dynamic symmetry, action and title safe areas, and arbitrary aspect ratio masking for cropping decisions.
 
-- ⬜ **Photo Catalog** _(planned)_: Local-first DAM with content-addressed storage, tag and rating hierarchies, smart collections, face and scene clustering, similarity search via image embeddings, and non-destructive edit history per asset.
+- ✅ **Photo Catalog** _(stub, awaits wire-up)_: Local-first DAM with content-addressed storage, tag and rating hierarchies, smart collections, face and scene clustering, similarity search via image embeddings, and non-destructive edit history per asset.
 
 - ⬜ **Print Soft Proofer** _(planned)_: Previews an image under a paper and printer ICC profile with selectable rendering intent, marks out-of-gamut pixels, simulates D50 viewing illuminant, and predicts ink coverage for fine-art and commercial print workflows.
 
