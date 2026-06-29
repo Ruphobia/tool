@@ -492,7 +492,9 @@ void handle_chat(const httplib::Request & req, httplib::Response & res) {
                 // command acts (the latter catches "find me X and write to a
                 // file" — without this, the shell handler tries to scrape a
                 // catalog page and usually fails). Runs only when the user
-                // has a Mouser key configured.
+                // has a Mouser key configured. Also catches follow-ups like
+                // "write it to a file" / "give me all of those" by pulling
+                // the most recent components response from session memory.
                 bool served_by_components = false;
                 if ((act.act == "question" || act.act == "command") &&
                     components::has_credentials())
@@ -502,46 +504,101 @@ void handle_chat(const httplib::Request & req, httplib::Response & res) {
                                    {"content",
                                     std::string("is_parts_request=") +
                                     (it.is_parts_request ? "true" : "false") +
+                                    " use_last_results=" +
+                                    (it.use_last_results ? "true" : "false") +
+                                    " want_full_list=" +
+                                    (it.want_full_list   ? "true" : "false") +
+                                    " write_to_file=" +
+                                    (it.write_to_file    ? "true" : "false") +
                                     " keyword=\"" + it.keyword + "\"" +
-                                    (it.write_to_file
-                                       ? " write_to=" + it.filename
-                                       : "") +
+                                    (it.filename.empty() ? "" : " file=" + it.filename) +
                                     " " + it.reasoning}});
-                    if (it.is_parts_request) {
-                        auto parts = components::search(it.keyword, /*limit=*/20);
-                        std::string a = components::format_results(parts, it.keyword);
-                        context::append("components", "response", a, it.keyword);
 
-                        handler["kind"]    = "components_answer";
-                        handler["keyword"] = it.keyword;
-
+                    auto write_or_inline = [&](const std::string & content,
+                                               int n_parts,
+                                               const std::string & keyword_meta) {
+                        handler["kind"] = "components_answer";
+                        if (!keyword_meta.empty()) handler["keyword"] = keyword_meta;
                         if (it.write_to_file && !it.filename.empty()) {
-                            // Write into the chat's cwd if we have one, else
-                            // the process cwd. Best-effort — if the write
-                            // fails we still hand the user the inline answer.
                             std::string root = cwd.empty() ? std::string(".") : cwd;
                             std::string full =
                                 root + (root.back() == '/' ? "" : "/") + it.filename;
                             std::ofstream f(full, std::ios::binary | std::ios::trunc);
                             if (f) {
-                                f.write(a.data(), a.size());
+                                f.write(content.data(), content.size());
                                 handler["file_path"] = full;
-                                handler["answer"]    =
-                                    "Wrote " + std::to_string(parts.size()) +
-                                    " parts to `" + full + "`.\n\n" + a;
+                                handler["answer"] =
+                                    "Wrote " + std::to_string(n_parts) +
+                                    " parts to `" + full + "`.";
                                 context::append("components", "file_written", full);
                             } else {
                                 handler["answer"] =
                                     "Could not write " + full + " (open failed). "
-                                    "Here are the results inline:\n\n" + a;
+                                    "Here are the results inline:\n\n" + content;
                             }
                         } else {
-                            handler["answer"] = a;
+                            handler["answer"] = content;
                         }
+                    };
+
+                    if (it.is_parts_request) {
+                        auto parts = components::search(it.keyword, /*limit=*/30);
+                        const int rows = (it.want_full_list || it.write_to_file)
+                                           ? static_cast<int>(parts.size())
+                                           : 5;
+                        std::string a = components::format_results(parts, it.keyword, rows);
+                        context::append("components", "response", a, it.keyword);
+                        write_or_inline(a, static_cast<int>(parts.size()), it.keyword);
                         emit("layer", {{"name", "mouser"},
                                        {"content", std::to_string(parts.size()) +
                                                    " parts; keyword=" + it.keyword}});
                         served_by_components = true;
+                    } else if (it.use_last_results) {
+                        // Pull the most recent components/response row from the
+                        // current session so follow-ups work conversationally.
+                        auto rows = context::by_layer("components", 25);
+                        std::string last;
+                        std::string last_keyword;
+                        for (const auto & r : rows) {
+                            if (r.kind == "response") {
+                                last         = r.content;
+                                last_keyword = r.meta;
+                                break;
+                            }
+                        }
+                        if (last.empty()) {
+                            handler["kind"]   = "components_answer";
+                            handler["answer"] =
+                                "No previous parts list in this session to reuse. "
+                                "Ask for a search first (e.g. \"find a 3.3V "
+                                "switching regulator, 1A, in stock\").";
+                            served_by_components = true;
+                        } else {
+                            // Approx part count = number of \n\n separated rows
+                            // after the header; cheaper than re-querying.
+                            int approx = 0;
+                            for (std::size_t i = 0; i + 1 < last.size(); ++i)
+                                if (last[i] == '\n' && last[i+1] == '\n') ++approx;
+                            // If the user asked for the FULL list and the cached
+                            // version is truncated (has "more — ask" hint), we
+                            // need to re-search and emit everything. Re-run.
+                            if (it.want_full_list &&
+                                last.find("more — ask") != std::string::npos &&
+                                !last_keyword.empty())
+                            {
+                                auto parts = components::search(last_keyword, 30);
+                                last = components::format_results(
+                                    parts, last_keyword,
+                                    static_cast<int>(parts.size()));
+                                approx = static_cast<int>(parts.size());
+                                context::append("components", "response", last, last_keyword);
+                            }
+                            write_or_inline(last, approx, last_keyword);
+                            emit("layer", {{"name", "mouser"},
+                                           {"content", "reused last results"
+                                                       " (keyword=" + last_keyword + ")"}});
+                            served_by_components = true;
+                        }
                     }
                 }
 

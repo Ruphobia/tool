@@ -31,6 +31,8 @@ struct Intent {
     std::string reasoning;        // short LLM-emitted rationale (for the layer trail)
     bool        write_to_file    = false;
     std::string filename;         // suggested .md filename when write_to_file
+    bool        use_last_results = false; // "save the previous list", "write it to a file"
+    bool        want_full_list   = false; // "give me all the results", "show everything"
 };
 
 // True if `settings/credentials.json` has a non-empty `mouser.api_key`.
@@ -50,8 +52,10 @@ std::vector<Part> search(std::string_view keyword, int limit = 10);
 
 // Render the result set as a chat-friendly markdown block. Empty / single-
 // item summaries handled inside. `keyword` is included so the user sees
-// what Mouser was actually queried for.
+// what Mouser was actually queried for. `max_shown` caps the rendered
+// row count; pass a number larger than parts.size() to include all.
 std::string format_results(const std::vector<Part> & parts,
-                           std::string_view keyword);
+                           std::string_view keyword,
+                           int max_shown = 5);
 
 }

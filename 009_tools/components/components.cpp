@@ -98,47 +98,58 @@ bool has_credentials() {
 
 Intent extract_intent(std::string_view prompt) {
     static constexpr const char * kSystem =
-        "You decide whether the user wants to FIND or BUY a specific "
-        "electronic component (resistor, capacitor, voltage regulator, IC, "
-        "MCU, transistor, connector, LED, inductor, crystal, etc.) WITH "
-        "given specifications. Phrases like \"find me a …\", \"I need a …\","
-        " \"list 5 …\", \"source a …\" all count, including when followed by"
-        " \"and write/save the list to a file\".\n"
+        "You decide what the user wants regarding electronic components.\n"
         "Output STRICT JSON only — no prose, no code fences. Schema:\n"
         "{\n"
-        "  \"is_parts_request\": boolean,\n"
-        "  \"keyword\": string,        // short Mouser search query (3-10 words)\n"
-        "  \"write_to_file\": boolean, // true iff the user asked to write/save"
-                                       " the results to a file\n"
-        "  \"filename\": string,       // suggested .md filename if write_to_file,"
-                                       " else \"\"\n"
-        "  \"explain\":  string        // one terse sentence on the call\n"
+        "  \"is_parts_request\":  boolean, // NEW search for a specific component"
+                                          " WITH specs (\"find me a 3.3V regulator …\")\n"
+        "  \"use_last_results\":  boolean, // user is referring to the PRIOR parts"
+                                          " result (\"write it to a file\", \"save"
+                                          " the list\", \"give me all of those\")\n"
+        "  \"want_full_list\":    boolean, // user asked for ALL results / a complete"
+                                          " list (\"give me all\", \"show everything\")\n"
+        "  \"write_to_file\":     boolean, // user asked to write/save results to a"
+                                          " file (md / file / markdown)\n"
+        "  \"keyword\":           string,  // Mouser keyword (only when"
+                                          " is_parts_request); 3-10 words, lead"
+                                          " with component type then key specs\n"
+        "  \"filename\":          string,  // .md filename if write_to_file else \"\"\n"
+        "  \"explain\":           string   // one terse sentence on the call\n"
         "}\n"
         "Rules:\n"
-        "- \"keyword\" must be a real Mouser keyword search; lead with the "
-        "component type (\"3.3V switching regulator\"), then key specs "
-        "(\"1A SMD\", \"12V input\"). No verbs, no \"I need\", no quotes inside.\n"
-        "- A purely conceptual question (e.g. \"how does a buck converter "
-        "work\") is NOT a parts request → is_parts_request=false.\n"
-        "- \"filename\" must be a simple lowercase-with-dashes name ending in"
-        " \".md\" (e.g. \"regulators.md\", \"3v3-bucks.md\"). No paths, no"
-        " spaces. If the user didn't ask to save, leave it \"\".\n"
-        "- If unsure about is_parts_request, prefer false.\n"
+        "- Conceptual / how-does-it-work questions are NEITHER parts requests NOR"
+        " follow-ups → all booleans false.\n"
+        "- A short follow-up like \"write it to a file\", \"save those\", \"now"
+        " give me all of them\", \"that was plain text, make it markdown\" sets"
+        " use_last_results=true and keyword=\"\" (the previous keyword is reused"
+        " server-side).\n"
+        "- is_parts_request and use_last_results are MUTUALLY EXCLUSIVE — set at"
+        " most one to true.\n"
+        "- keyword MUST preserve user-stated topology words (\"switching\","
+        " \"buck\", \"boost\", \"LDO\", \"linear\") when they appear in the"
+        " original prompt — these are critical for filtering.\n"
+        "- No verbs in keyword, no \"I need\", no quotes inside the string.\n"
+        "- filename: simple lowercase-with-dashes ending in \".md\" (e.g."
+        " \"regulators.md\", \"3v3-bucks.md\"). No paths. \"\" if not saving.\n"
+        "- If unsure, set is_parts_request=false and use_last_results=false.\n"
         "- Output exactly one JSON object. No markdown.";
 
-    std::string raw = qwen14b::generate(kSystem, prompt, /*max_new_tokens=*/224);
+    std::string raw = qwen14b::generate(kSystem, prompt, /*max_new_tokens=*/256);
     json j = parse_loose_json(raw);
     Intent out;
     if (j.is_object()) {
         out.is_parts_request = j.value("is_parts_request", false);
+        out.use_last_results = j.value("use_last_results", false);
+        out.want_full_list   = j.value("want_full_list",   false);
+        out.write_to_file    = j.value("write_to_file",    false);
         out.keyword          = trim(j.value("keyword",     std::string{}));
-        out.reasoning        = trim(j.value("explain",     std::string{}));
-        out.write_to_file    = j.value("write_to_file", false);
         out.filename         = trim(j.value("filename",    std::string{}));
+        out.reasoning        = trim(j.value("explain",     std::string{}));
     } else {
         out.reasoning = "intent JSON parse failed; raw=" + raw.substr(0, 240);
     }
-    if (out.keyword.empty()) out.is_parts_request = false;
+    if (out.keyword.empty())            out.is_parts_request = false;
+    if (out.is_parts_request)           out.use_last_results = false;
     // Sanity-strip the filename: keep [a-z0-9._-] only and force .md ending.
     if (out.write_to_file) {
         std::string clean;
@@ -227,16 +238,69 @@ std::vector<Part> search(std::string_view keyword_sv, int limit) {
         }
         out.push_back(std::move(pt));
     }
+
+    // Topology filter: Mouser's keyword search ranks loosely; "switching
+    // regulator" returns LDOs near the top because they match on
+    // "regulator". Post-filter so user-stated topology actually sticks.
+    auto lower = [](std::string s) {
+        for (auto & c : s) c = static_cast<char>(
+            std::tolower(static_cast<unsigned char>(c)));
+        return s;
+    };
+    std::string kw_lc = lower(keyword);
+    const bool want_switching =
+        kw_lc.find("switch")  != std::string::npos ||
+        kw_lc.find("buck")    != std::string::npos ||
+        kw_lc.find("boost")   != std::string::npos ||
+        kw_lc.find("smps")    != std::string::npos;
+    const bool want_linear =
+        !want_switching && (
+            kw_lc.find("ldo")    != std::string::npos ||
+            kw_lc.find("linear") != std::string::npos);
+    if (want_switching || want_linear) {
+        auto contains_token = [](const std::string & hay,
+                                 const std::string & needle) {
+            auto pos = hay.find(needle);
+            if (pos == std::string::npos) return false;
+            // ensure it's a whole token (avoid hits like "underline" for "line")
+            const auto before = pos == 0 ? ' ' : hay[pos - 1];
+            const auto after  = pos + needle.size() >= hay.size()
+                                ? ' ' : hay[pos + needle.size()];
+            auto edge = [](char c){
+                return !std::isalpha(static_cast<unsigned char>(c));
+            };
+            return edge(before) && edge(after);
+        };
+        std::vector<Part> kept;
+        kept.reserve(out.size());
+        for (auto & p : out) {
+            std::string d = lower(p.desc) + " " + lower(p.category);
+            bool drop = false;
+            if (want_switching) {
+                if (contains_token(d, "ldo") || contains_token(d, "linear"))
+                    drop = true;
+            } else if (want_linear) {
+                if (contains_token(d, "switching") ||
+                    contains_token(d, "buck")     ||
+                    contains_token(d, "boost"))
+                    drop = true;
+            }
+            if (!drop) kept.push_back(std::move(p));
+        }
+        out = std::move(kept);
+    }
     return out;
 }
 
 std::string format_results(const std::vector<Part> & parts,
-                           std::string_view keyword) {
+                           std::string_view keyword,
+                           int max_shown) {
     if (parts.empty()) {
         return std::string("No Mouser hits for `") + std::string(keyword) +
                "`. Try widening the keyword (drop a spec or two) or check the "
                "Mouser API key in Settings → API Credentials…";
     }
+    if (max_shown <= 0) max_shown = 5;
 
     // Sort: cheapest in-stock first. Parse "$x.yz" loosely.
     std::vector<std::size_t> order(parts.size());
@@ -253,10 +317,11 @@ std::string format_results(const std::vector<Part> & parts,
         [&](std::size_t a, std::size_t b) { return price_key(a) < price_key(b); });
 
     std::ostringstream out;
-    out << "Mouser results for `" << keyword << "` (cheapest in-stock first):\n\n";
+    out << "# Mouser results for `" << keyword << "`\n";
+    out << "_Sorted by lowest unit price, in-stock only._\n\n";
     int shown = 0;
     for (std::size_t idx : order) {
-        if (shown >= 5) break;
+        if (shown >= max_shown) break;
         const Part & p = parts[idx];
         out << (shown + 1) << ". **" << p.mfg_part_no << "** — " << p.mfg << "\n";
         if (!p.desc.empty()) out << "   " << p.desc << "\n";
@@ -278,9 +343,9 @@ std::string format_results(const std::vector<Part> & parts,
         out << "\n";
         ++shown;
     }
-    if (parts.size() > 5) {
-        out << "_+ " << (parts.size() - 5) << " more results — narrow the query"
-            << " to see them._\n";
+    if (static_cast<int>(parts.size()) > shown) {
+        out << "_+ " << (parts.size() - shown) << " more — ask \"give me all"
+            << " the results\" or \"write them to a file\" for the full list._\n";
     }
     return out.str();
 }
