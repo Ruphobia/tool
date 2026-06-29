@@ -1400,7 +1400,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Redaction Tool** _(stub, awaits wire-up)_: Irreversibly blacks out text and image regions in PDFs and images, strips XMP and EXIF metadata, flattens form fields and layers, and produces a redaction log coded per FOIA exemption, GDPR pseudonymization, or privilege type.
 
-- ⬜ **Compliance Framework Mapper** _(planned)_: Maintains a control matrix mapping each control (encryption at rest, access review, breach notification, data minimization) across GDPR, CCPA, HIPAA, PCI DSS, SOC 2, ISO 27001, and NIST 800-53, with per-control evidence attachments and gap reporting.
+- ✅ **Compliance Framework Mapper** _(stub, awaits wire-up)_: Maintains a control matrix mapping each control (encryption at rest, access review, breach notification, data minimization) across GDPR, CCPA, HIPAA, PCI DSS, SOC 2, ISO 27001, and NIST 800-53, with per-control evidence attachments and gap reporting.
 
 - ⬜ **Export Control Screener** _(planned)_: Classifies a product or technology under ECCN, USML, and HTS codes, screens parties against OFAC SDN, BIS Entity and Denied Persons lists, and EU consolidated lists, and emits a screening record per transaction with re-screen triggers on list updates.
 
