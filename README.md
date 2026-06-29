@@ -1206,7 +1206,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Fact-checker** _(stub, awaits wire-up)_: Extracts factual claims from the draft and pairs each with cited or candidate sources, marking unsupported assertions. AI-integrated claim extraction with per-source confidence and a side panel for journalist sign-off.
 
-- ⬜ **Interview transcriber** _(planned)_: Local-first ASR with speaker diarization, timestamped paragraphs, confidence-marked tokens, and click-to-play audio sync. Exports to plain text, SRT, VTT, or directly into the quote vault with source-file pointers preserved.
+- ✅ **Interview transcriber** _(stub, awaits wire-up)_: Local-first ASR with speaker diarization, timestamped paragraphs, confidence-marked tokens, and click-to-play audio sync. Exports to plain text, SRT, VTT, or directly into the quote vault with source-file pointers preserved.
 
 - ⬜ **Quote vault** _(planned)_: Searchable store of speaker-attributed quotes with source clip pointer, consent and embargo status, on-record flag, and topic tags. One-click insertion drops a properly attributed pull quote into the active draft.
 
