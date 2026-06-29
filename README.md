@@ -3036,7 +3036,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Antibody and epitope mapper** _(stub, awaits wire-up)_: Numbers antibody sequences (IMGT, Kabat, Chothia, AHo), models Fv structures via ABodyBuilder, and predicts linear and conformational B-cell and T-cell epitopes (BepiPred, DiscoTope, NetMHCpan).
 
-- ⬜ **HLA typer and neoantigen pipeline** _(planned)_: Calls class I and II HLA types from sequencing data via OptiType or arcasHLA and ranks candidate neoepitopes by binding affinity, presentation, and immunogenicity.
+- ✅ **HLA typer and neoantigen pipeline** _(stub, awaits wire-up)_: Calls class I and II HLA types from sequencing data via OptiType or arcasHLA and ranks candidate neoepitopes by binding affinity, presentation, and immunogenicity.
 
 - ⬜ **BCR/TCR repertoire analyzer** _(planned)_: Processes AIRR-seq data with MiXCR or IgBLAST; computes V(D)J usage, CDR3 diversity (Shannon, Simpson, D50), clonotype tracking, and lineage trees via Change-O.
 
