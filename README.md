@@ -3922,7 +3922,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Colorway Palette Builder** _(stub, awaits wire-up)_: Extracts palettes from reference images and matches each color to thread, floss, yarn, and bead inventories. Tests palettes against simulated daylight and tungsten white points and exports a colorway sheet.
 
-- ⬜ **Tufting Rug Designer** _(planned)_: Designs cut-pile and loop-pile rugs with pile-direction arrows, color blocks, and backing dimensions. Computes yarn poundage per color and generates a projector-ready outline for the tufting cloth.
+- ✅ **Tufting Rug Designer** _(stub, awaits wire-up)_: Designs cut-pile and loop-pile rugs with pile-direction arrows, color blocks, and backing dimensions. Computes yarn poundage per color and generates a projector-ready outline for the tufting cloth.
 
 - ⬜ **Smocking Pleat Calculator** _(planned)_: Computes pleater rod counts, dot grids, and fabric width for English, North American, and counterchange smocking. Generates dot transfer sheets and predicts finished panel width from gather ratio.
 
