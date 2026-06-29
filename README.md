@@ -4106,7 +4106,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Color vision simulator** _(stub, awaits wire-up)_: Renders an image or palette as seen under protanopia, deuteranopia, tritanopia, achromatopsia, and low-contrast vision, and scores adjacent swatch pairs for confusability.
 
-- ⬜ **Pigment mixer** _(planned)_: Simulates subtractive paint mixing using a Kubelka-Munk two-constant model over a built-in library of watercolor, oil, acrylic, and gouache pigments with lightfastness, granulation, and staining metadata.
+- ✅ **Pigment mixer** _(stub, awaits wire-up)_: Simulates subtractive paint mixing using a Kubelka-Munk two-constant model over a built-in library of watercolor, oil, acrylic, and gouache pigments with lightfastness, granulation, and staining metadata.
 
 - ⬜ **Value and notan studio** _(planned)_: Posterizes a reference image to 2 to 9 value steps, generates thumbnail variants, and overlays a notan mask so light/dark composition can be judged independently of hue.
 
