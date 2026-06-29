@@ -1284,7 +1284,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Cap stack and waterfall modeler** _(stub, awaits wire-up)_: Stacks senior debt, mezz, preferred equity, and common equity, then runs a distribution waterfall with hurdles, IRR lookbacks, catch-ups, and promote splits for GP/LP returns.
 
-- ⬜ **Mortality table browser** _(planned)_: Loads standard tables (SOA 2017 CSO, Annuity 2012, US Life Tables, AM92) and queries qx, px, lx, dx, ex, and select-and-ultimate cells with table-vs-table comparison plots.
+- ✅ **Mortality table browser** _(stub, awaits wire-up)_: Loads standard tables (SOA 2017 CSO, Annuity 2012, US Life Tables, AM92) and queries qx, px, lx, dx, ex, and select-and-ultimate cells with table-vs-table comparison plots.
 
 - ⬜ **Life table generator** _(planned)_: Constructs period or cohort life tables from raw deaths and exposure, smooths qx via Whittaker-Henderson or Kannisto, and graduates with confidence bands.
 
