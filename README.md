@@ -519,7 +519,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Clock tree configurator** _(stub, awaits wire-up)_: Interactive clock tree editor showing PLLs, prescalers, mux selections, and resulting bus frequencies with constraint validation. Exports vendor-equivalent init code and flags overclock or jitter risks.
 
-- ⬜ **Peripheral register designer** _(planned)_: Register-level editor backed by SVD/CMSIS files with bitfield decoding, reserved-bit guards, and live diff against reset values. AI explains a register write in prose and proposes the inverse from a desired behavior.
+- ✅ **Peripheral register designer** _(stub, awaits wire-up)_: Register-level editor backed by SVD/CMSIS files with bitfield decoding, reserved-bit guards, and live diff against reset values. AI explains a register write in prose and proposes the inverse from a desired behavior.
 
 - ⬜ **Toolchain manager** _(planned)_: Installs and pins GCC, LLVM, Rust embedded, Zig, SDCC, IAR/Keil shims, and vendor SDKs into isolated environments per project. Records the exact toolchain hash with the build artifact.
 
