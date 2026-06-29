@@ -2644,7 +2644,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Award tracker** _(stub, awaits wire-up)_: Scores progress on DXCC, WAS, WAC, VUCC, IOTA, SOTA, POTA, and CQ zones per band and mode. Renders needed-entity heatmaps on an azimuthal map and surfaces openings where missing entities are workable now.
 
-- ⬜ **Contest logger** _(planned)_: Captures contest QSOs with super-check partial, real-time dupe checking, rate windows, and rover/multi-op section support. Exports Cabrillo for ARRL, CQ WW, WPX, NAQP, and IARU.
+- ✅ **Contest logger** _(stub, awaits wire-up)_: Captures contest QSOs with super-check partial, real-time dupe checking, rate windows, and rover/multi-op section support. Exports Cabrillo for ARRL, CQ WW, WPX, NAQP, and IARU.
 
 - ⬜ **Callsign lookup** _(planned)_: Queries QRZ, HamQTH, FCC ULS, Industry Canada, and OFCOM databases with an offline cache. Returns operator name, grid, license class, expiration, and prior QSO context from the local log.
 
