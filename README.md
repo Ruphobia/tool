@@ -2977,7 +2977,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Molecular Docking** _(stub, awaits wire-up)_: Protein-ligand docking (AutoDock Vina, smina, GNINA) and protein-protein docking (HADDOCK-style) with binding-site detection, pose scoring, and interaction-diagram rendering. Reads SMILES, MOL2, SDF, and PDB ligands; integrates with the chemistry specialist for ligand prep.
 
-- ⬜ **Sanger Trace Viewer** _(planned)_: Reads .ab1 and .scf chromatograms, calls and edits bases, trims by quality, assembles contigs from forward and reverse reads, and compares the consensus against a reference with mismatch highlighting.
+- ✅ **Sanger Trace Viewer** _(stub, awaits wire-up)_: Reads .ab1 and .scf chromatograms, calls and edits bases, trims by quality, assembles contigs from forward and reverse reads, and compares the consensus against a reference with mismatch highlighting.
 
 - ⬜ **Gel Simulator** _(planned)_: Predicts agarose and polyacrylamide gel banding from sequences, restriction digests, or PCR product lists at a given percentage and ladder. Useful for planning a digest before pipetting and for sanity-checking an unexpected band.
 
