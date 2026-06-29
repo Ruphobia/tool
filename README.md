@@ -848,7 +848,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Noise Model Designer** _(stub, awaits wire-up)_: GUI for building Kraus channels, depolarizing, amplitude/phase damping, Pauli, thermal, and crosstalk errors per-gate and per-qubit, with import of T1/T2/readout-error data from device backends.
 
-- ⬜ **Pulse Schedule Editor** _(planned)_: OpenPulse-style waveform editor with Gaussian, DRAG, and arbitrary envelopes, frame/phase tracking, calibrated single-qubit and two-qubit primitives, and an instruction schedule timeline aligned to the gate-level circuit.
+- ✅ **Pulse Schedule Editor** _(stub, awaits wire-up)_: OpenPulse-style waveform editor with Gaussian, DRAG, and arbitrary envelopes, frame/phase tracking, calibrated single-qubit and two-qubit primitives, and an instruction schedule timeline aligned to the gate-level circuit.
 
 - ⬜ **Quantum Notebook** _(planned)_: Python notebook accepting Qiskit and Cirq style syntax with inline circuit rendering, live state plots, and AI-integrated translation between framework dialects and natural-language prompts for circuit construction.
 
