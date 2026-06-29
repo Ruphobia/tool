@@ -4445,7 +4445,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Plumbing fixture-unit pipe sizer** _(stub, awaits wire-up)_: Sizes water supply mains and branches by WSFU per IPC/UPC Hunter curves, with simultaneous Hazen-Williams pressure-loss check across fittings and elevation; sizes DWV by DFU and slope.
 
-- ⬜ **Gas line sizer** _(planned)_: Sizes natural gas and LP piping per NFPA 54 longest-length and branch-length methods, given appliance BTU loads, pipe material (black iron, CSST, PE), inlet pressure, and allowable drop.
+- ✅ **Gas line sizer** _(stub, awaits wire-up)_: Sizes natural gas and LP piping per NFPA 54 longest-length and branch-length methods, given appliance BTU loads, pipe material (black iron, CSST, PE), inlet pressure, and allowable drop.
 
 - ⬜ **Manual J load calculator** _(planned)_: Performs ACCA Manual J8 room-by-room heating and cooling load calculations from envelope assemblies, orientation, infiltration (ACH50 to natural), and occupant/internal gains; outputs sensible, latent, and design CFM per room.
 
