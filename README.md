@@ -2318,7 +2318,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Water hammer simulator** _(stub, awaits wire-up)_: Simulates transient pressure surges via method of characteristics with pump trip, valve closure, and check-valve slam scenarios. Sizes surge tanks, air vessels, and relief devices to keep pressures within envelope.
 
-- ⬜ **Pneumatic actuator sizer** _(planned)_: Sizes single- and double-acting cylinders and rotary actuators from load, stroke, cycle time, and supply pressure. Computes air consumption (Nl/min), Cv of supply lines, and cushion requirements at end-of-stroke.
+- ✅ **Pneumatic actuator sizer** _(stub, awaits wire-up)_: Sizes single- and double-acting cylinders and rotary actuators from load, stroke, cycle time, and supply pressure. Computes air consumption (Nl/min), Cv of supply lines, and cushion requirements at end-of-stroke.
 
 - ⬜ **Hydraulic circuit designer** _(planned)_: Schematic editor for hydraulic power packs with pumps, valves, accumulators, and actuators; simulates flow, pressure, and load dynamics. Sizes reservoirs, coolers, and filters from duty cycle and contamination targets.
 
