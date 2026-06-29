@@ -3593,7 +3593,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Raster editor** _(stub, awaits wire-up)_: Layer-based bitmap editor with brushes, masks, blend modes, non-destructive adjustment layers, and selection tools. AI-integrated inpainting, outpainting, and generative fill operate on the active selection.
 
-- ⬜ **Vector editor** _(planned)_: Bezier-curve illustration surface with paths, boolean operations, gradient meshes, and SVG import/export. Supports AI-integrated raster-to-vector tracing and prompt-driven shape generation.
+- ✅ **Vector editor** _(stub, awaits wire-up)_: Bezier-curve illustration surface with paths, boolean operations, gradient meshes, and SVG import/export. Supports AI-integrated raster-to-vector tracing and prompt-driven shape generation.
 
 - ⬜ **Image generator** _(planned)_: Local text-to-image and image-to-image diffusion runner with controlnet, LoRA, IP-Adapter, and regional prompting. Routes prompts through the interpretation pipeline before sampling.
 
