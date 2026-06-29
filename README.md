@@ -2662,7 +2662,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Propagation predictor** _(stub, awaits wire-up)_: Runs VOACAP, ITURHFProp, P2P, and area coverage with current SSN, SFI, Kp, and aurora ingest from NOAA SWPC. Renders MUF/LUF maps, gray-line, sporadic-E, tropo ducting, and meteor scatter windows.
 
-- ⬜ **Transmission line calculator** _(planned)_: Computes coax and ladder line loss, velocity factor, electrical length, matched and mismatched line behavior, and balun/unun turn ratios. Includes a library of common cables (LMR, RG, Heliax, Andrew) with temperature derating.
+- ✅ **Transmission line calculator** _(stub, awaits wire-up)_: Computes coax and ladder line loss, velocity factor, electrical length, matched and mismatched line behavior, and balun/unun turn ratios. Includes a library of common cables (LMR, RG, Heliax, Andrew) with temperature derating.
 
 - ⬜ **RF filter designer** _(planned)_: Synthesizes lumped LC, microstrip, stripline, helical, and SAW filters with Butterworth, Chebyshev, elliptic, Bessel, and Gaussian responses. Outputs schematic, layout estimate, and Touchstone S-parameters for cascade simulation.
 
