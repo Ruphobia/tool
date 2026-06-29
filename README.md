@@ -2851,7 +2851,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **MPPT Tracker Modeler** _(stub, awaits wire-up)_: Simulates perturb-and-observe, incremental conductance, and sweep-based MPPT algorithms against time-varying irradiance and shading. Quantifies tracking efficiency and mismatch losses versus a global-MPP oracle.
 
-- ⬜ **Inverter Efficiency Mapper** _(planned)_: Loads CEC/Sandia inverter coefficients and renders the efficiency surface across DC input voltage and load fraction. Computes weighted CEC efficiency and predicts clipping losses at a chosen DC/AC ratio.
+- ✅ **Inverter Efficiency Mapper** _(stub, awaits wire-up)_: Loads CEC/Sandia inverter coefficients and renders the efficiency surface across DC input voltage and load fraction. Computes weighted CEC efficiency and predicts clipping losses at a chosen DC/AC ratio.
 
 - ⬜ **Load Profile Builder** _(planned)_: Constructs 8760-hour residential, commercial, or off-grid load shapes from appliance schedules, occupancy, HVAC, EV charging, and well pumps. Imports CSV smart-meter data and decomposes into base, thermal, and discretionary components.
 
