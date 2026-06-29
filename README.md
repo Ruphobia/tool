@@ -1921,7 +1921,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Back-translation QA** _(stub, awaits wire-up)_: Round-trips translations through reverse MT and AI-integrated semantic comparison against the source to flag meaning drift, omissions, and hallucinated content.
 
-- ⬜ **Lyric timing and karaoke** _(planned)_: Word-level and syllable-level lyric synchronization editor producing LRC, enhanced LRC, KAR, and ASS karaoke tags from audio plus text.
+- ✅ **Lyric timing and karaoke** _(stub, awaits wire-up)_: Word-level and syllable-level lyric synchronization editor producing LRC, enhanced LRC, KAR, and ASS karaoke tags from audio plus text.
 
 - ⬜ **Voice activity and segmenter** _(planned)_: VAD-driven slicing of long-form audio into utterance segments with silence trimming and overlap detection, used for ASR batching and TTS dataset preparation.
 
