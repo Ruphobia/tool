@@ -502,7 +502,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **UI flow recorder** _(stub, awaits wire-up)_: Captures user flows from a connected simulator/emulator and emits Maestro YAML, XCUITest Swift, and Espresso Kotlin equivalents, with element selectors stabilized via accessibility identifiers rather than coordinates.
 
-- ⬜ **Snapshot test diff viewer** _(planned)_: Compares Paparazzi, swift-snapshot-testing, and Roborazzi reference images against new runs, highlights pixel deltas with anti-aliasing tolerance, and lets the user accept or reject per-device baselines from one canvas.
+- ✅ **Snapshot test diff viewer** _(stub, awaits wire-up)_: Compares Paparazzi, swift-snapshot-testing, and Roborazzi reference images against new runs, highlights pixel deltas with anti-aliasing tolerance, and lets the user accept or reject per-device baselines from one canvas.
 
 - ⬜ **Storyboard and XML porter** _(planned)_: Converts UIKit storyboards/XIBs to SwiftUI and Android XML layouts to Jetpack Compose, preserving constraints, styles, and accessibility traits; flags constructs (segues, include tags) that need manual reconciliation.
 
