@@ -4607,7 +4607,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **GRIB weather router** _(stub, awaits wire-up)_: Reads GRIB1/GRIB2 wind, gust, pressure, wave, and current fields and computes isochrone-optimal routes against a polar with configurable comfort, gust, and squall-line penalties. Supports ensemble runs across GFS, ECMWF, ICON, and Arpege and reports route robustness across members.
 
-- ⬜ **Polar diagram workbench** _(planned)_: Edits, interpolates, and validates boat polars in ORC, PCX, and OpenCPN formats, fits VPP surfaces from logged true-wind/SOG/heel triples, and exports target boatspeed, target heel, and target VMG curves. Highlights gaps in the wind-angle/wind-speed coverage of the underlying log data.
+- ✅ **Polar diagram workbench** _(stub, awaits wire-up)_: Edits, interpolates, and validates boat polars in ORC, PCX, and OpenCPN formats, fits VPP surfaces from logged true-wind/SOG/heel triples, and exports target boatspeed, target heel, and target VMG curves. Highlights gaps in the wind-angle/wind-speed coverage of the underlying log data.
 
 - ⬜ **AIS decoder and viewer** _(planned)_: Decodes NMEA AIVDM/AIVDO sentences for message types 1-5, 18, 19, 21, 24, and 27, reconstructs vessel tracks, and computes CPA/TCPA against own ship. Filters by class, MMSI, navigation status, and bounding box, and tags targets with risk-of-collision flags per the configured CPA limit.
 
