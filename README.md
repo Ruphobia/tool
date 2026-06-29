@@ -599,7 +599,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Device tree editor** _(stub, awaits wire-up)_: Structured editor for Linux/Zephyr device trees with overlay support, binding validation, and live preview of the resolved tree. AI-integrated translation from natural-language hardware descriptions into DT fragments.
 
-- ⬜ **Compliance and EMC prep** _(planned)_: Checklists and pre-scan helpers for FCC, CE, RED, and radio module certifications with test-mode firmware stubs and reporting templates. Tracks artifacts required for the submission package.
+- ✅ **Compliance and EMC prep** _(stub, awaits wire-up)_: Checklists and pre-scan helpers for FCC, CE, RED, and radio module certifications with test-mode firmware stubs and reporting templates. Tracks artifacts required for the submission package.
 
 - ⬜ **Power budget estimator** _(planned)_: Spreadsheet-style model of duty cycles, sleep states, peripheral currents, and battery chemistry that outputs expected runtime and worst-case life. AI proposes firmware-side savings ranked by impact.
 
