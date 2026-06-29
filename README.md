@@ -846,7 +846,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Tensor Network Simulator** _(stub, awaits wire-up)_: MPS and PEPS based simulator with adjustable bond dimension, contraction order optimization, and entanglement-entropy tracking for circuits too wide for statevector methods.
 
-- ⬜ **Noise Model Designer** _(planned)_: GUI for building Kraus channels, depolarizing, amplitude/phase damping, Pauli, thermal, and crosstalk errors per-gate and per-qubit, with import of T1/T2/readout-error data from device backends.
+- ✅ **Noise Model Designer** _(stub, awaits wire-up)_: GUI for building Kraus channels, depolarizing, amplitude/phase damping, Pauli, thermal, and crosstalk errors per-gate and per-qubit, with import of T1/T2/readout-error data from device backends.
 
 - ⬜ **Pulse Schedule Editor** _(planned)_: OpenPulse-style waveform editor with Gaussian, DRAG, and arbitrary envelopes, frame/phase tracking, calibrated single-qubit and two-qubit primitives, and an instruction schedule timeline aligned to the gate-level circuit.
 
