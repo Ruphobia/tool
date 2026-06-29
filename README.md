@@ -1464,7 +1464,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Table extractor** _(stub, awaits wire-up)_: Pulls tables out of PDF and scanned pages to CSV, TSV, or Markdown using rule-based detection with model-assisted cell merging and header inference.
 
-- ⬜ **Figure and diagram extractor** _(planned)_: Crops images, charts, and diagrams from documents with their captions and references, exporting to PNG or SVG and indexing them for later search by caption text or visual similarity.
+- ✅ **Figure and diagram extractor** _(stub, awaits wire-up)_: Crops images, charts, and diagrams from documents with their captions and references, exporting to PNG or SVG and indexing them for later search by caption text or visual similarity.
 
 - ⬜ **Scan cleaner** _(planned)_: Deskews, despeckles, dewarps, and rebinarizes scanned pages, with batch presets for book scans, receipts, and whiteboards. Suggests cleanup parameters from a sample page using an AI quality estimator.
 
