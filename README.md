@@ -721,7 +721,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Certificate manager** _(stub, awaits wire-up)_: Tracks local x509 certificates and ACME-issued certs with expiry calendar, SAN list, and chain validation. Drives certbot, acme.sh, or step-ca to issue, renew, and deploy certs to configured services.
 
-- ⬜ **Secrets vault** _(planned)_: Local encrypted store for API keys, SSH keys, passwords, and tokens, with per-entry rotation reminders and clipboard auto-clear. Exposes entries to other workbench tools through a scoped reference rather than raw value.
+- ✅ **Secrets vault** _(stub, awaits wire-up)_: Local encrypted store for API keys, SSH keys, passwords, and tokens, with per-entry rotation reminders and clipboard auto-clear. Exposes entries to other workbench tools through a scoped reference rather than raw value.
 
 - ⬜ **Package manager frontend** _(planned)_: Unified view over apt, dnf, pacman, nix, flatpak, and snap with installed lists, upgrade preview, orphan detection, and pinning. Shows full transaction logs and supports rollback where the backend allows it.
 
