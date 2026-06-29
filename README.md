@@ -2877,7 +2877,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Soiling, Snow & Degradation Model** _(stub, awaits wire-up)_: Applies monthly soiling losses, snow coverage from temperature and snowfall, and linear or step-wise module degradation across a 25-year horizon. Feeds the LCOE and lifetime-yield estimators.
 
-- ⬜ **LCOE & Payback Analyzer** _(planned)_: Computes levelized cost of energy, net present value, IRR, and simple/discounted payback with degradation, O&M, inverter replacements, ITC/rebates, and escalating utility rates. Sensitivity tornado on the top cost drivers.
+- ✅ **LCOE & Payback Analyzer** _(stub, awaits wire-up)_: Computes levelized cost of energy, net present value, IRR, and simple/discounted payback with degradation, O&M, inverter replacements, ITC/rebates, and escalating utility rates. Sensitivity tornado on the top cost drivers.
 
 - ⬜ **Thermal Performance Modeler** _(planned)_: Estimates cell temperature from POA irradiance, ambient, and wind via Sandia, NOCT, or PVsyst models, then applies temperature coefficients to module power. Compares roof-mount, ground-mount, and bifacial backside ventilation.
 
