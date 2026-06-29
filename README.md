@@ -3941,7 +3941,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Equilibrium Cure & Brine Calculator** _(stub, awaits wire-up)_: Solves salt, sugar, and nitrite (Prague #1 and #2) percentages by total system mass for wet, dry, and EQ cures; enforces safe ppm bounds and estimates dwell time by thickness.
 
-- ⬜ **Brewing Recipe Builder** _(planned)_: Designs all-grain, extract, and BIAB recipes with grain bill, mash schedule, hop schedule, and yeast; outputs OG, FG, ABV, SRM, and IBU under selectable Tinseth, Rager, and Garetz models.
+- ✅ **Brewing Recipe Builder** _(stub, awaits wire-up)_: Designs all-grain, extract, and BIAB recipes with grain bill, mash schedule, hop schedule, and yeast; outputs OG, FG, ABV, SRM, and IBU under selectable Tinseth, Rager, and Garetz models.
 
 - ⬜ **Mash Water Chemistry Designer** _(planned)_: Models source water plus salt and acid additions against style-appropriate sulfate, chloride, and calcium targets; predicts mash pH from grist color and acidulated malt percentage.
 
