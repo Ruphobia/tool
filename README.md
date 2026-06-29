@@ -1122,7 +1122,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **DMAIC notebook** _(stub, awaits wire-up)_: Structures Define, Measure, Analyze, Improve, Control phases with project charter, SIPOC, CTQ tree, data-collection plan, hypothesis tests, and control plan, and tracks gate reviews and tollgate sign-offs.
 
-- ⬜ **Root-cause analyzer** _(planned)_: Combines Ishikawa fishbone, 5-Why ladders, and Pareto charts in one canvas, links causes to defect data, and surfaces AI-suggested cause categories from incident text and process variables.
+- ✅ **Root-cause analyzer** _(stub, awaits wire-up)_: Combines Ishikawa fishbone, 5-Why ladders, and Pareto charts in one canvas, links causes to defect data, and surfaces AI-suggested cause categories from incident text and process variables.
 
 - ⬜ **Fault tree and bowtie analyzer** _(planned)_: Constructs FTA and ETA diagrams with AND/OR/voting gates, computes top-event probability and minimal cut sets, and renders bowtie views joining threats, barriers, top events, consequences, and escalation factors.
 
