@@ -3116,7 +3116,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Anatomy Atlas Viewer** _(stub, awaits wire-up)_: Interactive 3D atlas built on permissive datasets (BodyParts3D, Z-Anatomy), with layer toggles for skeletal, muscular, vascular, nervous, and lymphatic systems and cross-section slicing.
 
-- ⬜ **DICOM Viewer** _(planned)_: Loads CT, MRI, PET, and ultrasound DICOM series locally with windowing presets, multi-planar reformatting, MIP/MinIP, measurement tools, and segmentation overlay support.
+- ✅ **DICOM Viewer** _(stub, awaits wire-up)_: Loads CT, MRI, PET, and ultrasound DICOM series locally with windowing presets, multi-planar reformatting, MIP/MinIP, measurement tools, and segmentation overlay support.
 
 - ⬜ **ICD / CPT / SNOMED Lookup** _(planned)_: Search and reverse-lookup across ICD-10/11, CPT, HCPCS, SNOMED CT, and LOINC code sets, with synonym expansion and AI-assisted mapping from free-text clinical phrases to candidate codes.
 
