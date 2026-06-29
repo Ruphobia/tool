@@ -2869,7 +2869,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Wind Turbine Power Curve Studio** _(stub, awaits wire-up)_: Loads or sketches power curves, applies air density correction, hub-height extrapolation, and wake losses, then crosses with the site resource to compute annual energy production and capacity factor.
 
-- ⬜ **Grid-Tie & Net Metering Calculator** _(planned)_: Models monthly bill impact under net metering, net billing, time-of-use, and demand charges, including export caps and true-up. Compares self-consumption vs full export economics.
+- ✅ **Grid-Tie & Net Metering Calculator** _(stub, awaits wire-up)_: Models monthly bill impact under net metering, net billing, time-of-use, and demand charges, including export caps and true-up. Compares self-consumption vs full export economics.
 
 - ⬜ **DC/AC Cable & Conduit Sizer** _(planned)_: Sizes conductors for voltage drop, ampacity, and temperature derating under NEC/IEC tables, including continuous-load 1.25x factors and conduit fill. Outputs a bill of materials with copper vs aluminum cost comparison.
 
