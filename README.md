@@ -4748,7 +4748,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sleep Debt Ledger** _(stub, awaits wire-up)_: Maintains a rolling acute and chronic sleep debt against a configurable need (default 7.5 to 8.5 h), with weighted recency. Projects recovery sleep required to return to baseline.
 
-- ⬜ **Nap Planner** _(planned)_: Schedules power (20 min), caffeine (20 min after 100 to 200 mg), and long (90 min) naps relative to current debt, circadian phase, and next obligation. Predicts sleep inertia severity at wake.
+- ✅ **Nap Planner** _(stub, awaits wire-up)_: Schedules power (20 min), caffeine (20 min after 100 to 200 mg), and long (90 min) naps relative to current debt, circadian phase, and next obligation. Predicts sleep inertia severity at wake.
 
 - ⬜ **Jet Lag Schedule Builder** _(planned)_: Generates a per-day light, darkness, melatonin, and meal schedule for a planned timezone shift using direction-of-travel and chronotype. Exports to ICS calendar.
 
