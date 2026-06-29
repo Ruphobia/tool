@@ -3931,7 +3931,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Cooking, brewing, fermentation, food science
 
-- ⬜ **Recipe Scaler** _(planned)_: Scales ingredients with non-linear adjustments for spices, leaveners, and salt; recomputes pan dimensions and bake times when geometry changes. AI suggests safe scaling bounds where a straight multiply would break the recipe.
+- ✅ **Recipe Scaler** _(stub, awaits wire-up)_: Scales ingredients with non-linear adjustments for spices, leaveners, and salt; recomputes pan dimensions and bake times when geometry changes. AI suggests safe scaling bounds where a straight multiply would break the recipe.
 
 - ⬜ **Nutrition Calculator** _(planned)_: Builds per-serving macro and micronutrient panels from USDA FDC and custom ingredients, with optional FDA-format Nutrition Facts label rendering and allergen flagging.
 
