@@ -4114,7 +4114,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Calligraphy nib simulator** _(stub, awaits wire-up)_: Simulates broad-edge, pointed-pen, and brush-pen strokes with pressure- and angle-driven contrast, supports historical hands (Italic, Copperplate, Uncial, Kufic, Sōsho), and produces guide sheets at requested x-height and slant.
 
-- ⬜ **Brushwork trainer** _(planned)_: Plays stepped exercises for pressure control, hairline-to-swell transitions, ovals, and ductus drills, with AI-integrated stroke analysis that scores the user trace against the target path for smoothness and angle.
+- ✅ **Brushwork trainer** _(stub, awaits wire-up)_: Plays stepped exercises for pressure control, hairline-to-swell transitions, ovals, and ductus drills, with AI-integrated stroke analysis that scores the user trace against the target path for smoothness and angle.
 
 - ⬜ **Anatomy reference viewer** _(planned)_: Displays a layered écorché of skeleton, deep muscle, superficial muscle, fascia, and skin with per-layer opacity, sex/build presets, and labeled origins and insertions.
 
