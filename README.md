@@ -2622,7 +2622,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **METAR/TAF decoder** _(stub, awaits wire-up)_: Parses raw METAR, SPECI, TAF, PIREP, and AIRMET/SIGMET text into structured fields with plain-English summaries. Chains stations along a planned route and flags ceiling, visibility, wind, and icing trends against personal minimums.
 
-- ⬜ **Flight planner** _(planned)_: Builds VFR and IFR routes with winds aloft interpolation, fuel burn from POH performance, alternates selection, and great-circle or airway routing. Exports to ForeFlight, SimBrief, FltPlan, and GPX, and renders the plog with time, distance, and fuel per leg.
+- ✅ **Flight planner** _(stub, awaits wire-up)_: Builds VFR and IFR routes with winds aloft interpolation, fuel burn from POH performance, alternates selection, and great-circle or airway routing. Exports to ForeFlight, SimBrief, FltPlan, and GPX, and renders the plog with time, distance, and fuel per leg.
 
 - ⬜ **Weight and balance calculator** _(planned)_: Stores per-tail aircraft envelopes, station arms, and useful load. Plots CG against the forward and aft envelope across fuel burn, validates zero-fuel and ramp limits, and supports multi-leg loading scenarios.
 
