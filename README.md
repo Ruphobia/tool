@@ -4299,7 +4299,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Campaign Log** _(stub, awaits wire-up)_: Session-keyed journal capturing recap notes, quests, loot, XP awards, and player decisions with auto-cross-linking to World Bible entities. AI drafts session summaries from raw notes and produces player-facing recaps with spoilers redacted.
 
-- ⬜ **GM Screen Reference** _(planned)_: Configurable reference panel of conditions, actions-in-combat, cover/cone rules, travel pace, downtime activities, and ruling cheatsheets per system. User-pinnable cards and house-rule overlays sit beside official text.
+- ✅ **GM Screen Reference** _(stub, awaits wire-up)_: Configurable reference panel of conditions, actions-in-combat, cover/cone rules, travel pace, downtime activities, and ruling cheatsheets per system. User-pinnable cards and house-rule overlays sit beside official text.
 
 - ⬜ **Monster Compendium** _(planned)_: Searchable bestiary with full stat blocks, CR/level, tags, environments, lore, and reaction/legendary actions across SRD-licensed sources. Includes a stat-block editor with CR estimator and homebrew validation.
 
