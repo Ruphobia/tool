@@ -3,6 +3,8 @@
 #include "llama.h"
 #include "../../model_chunks.hpp"
 
+extern "C" void physics_shutdown_if_loaded();
+
 #include <algorithm>
 #include <cstdio>
 #include <cstring>
@@ -42,6 +44,9 @@ std::string strip(const std::string & s) {
 
 Runtime * get_runtime_locked() {
     if (g_runtime) return g_runtime;
+
+    // Evict the physics model (if it's holding GPU 1) before we load.
+    physics_shutdown_if_loaded();
 
     llama_model_params mp = llama_model_default_params();
     mp.n_gpu_layers = 999;
@@ -89,6 +94,17 @@ void shutdown() {
     delete g_runtime;
     g_runtime = nullptr;
 }
+
+}  // namespace coder
+
+// Cross-shutdown handshake — called by physics::get_runtime_locked() before
+// it loads. The function name is at file scope (no namespace) so it pairs
+// with the matching extern "C" declared in physics.hpp.
+extern "C" void coder_shutdown_if_loaded() {
+    coder::shutdown();
+}
+
+namespace coder {
 
 std::string generate(std::string_view system_prompt,
                      std::string_view user_msg,

@@ -7,7 +7,6 @@
 <link rel="stylesheet" href="/toastui-editor.min.css">
 <link rel="stylesheet" href="/toastui-editor-dark.min.css">
 <link rel="stylesheet" href="/app.css">
-<script src="/toastui-editor.min.js" defer></script>
 </head>
 <body>
 
@@ -52,16 +51,26 @@
   <div class="resizer" data-target="pane-files"></div>
 
   <section id="pane-editor" class="pane">
-    <div class="pane-header" id="editor-title">Editor</div>
+    <div class="pane-header editor-tab-bar">
+      <div class="editor-tabs" id="editor-tabs"></div>
+    </div>
     <div class="pane-body" id="editor-body">
-      <em class="hint">No file selected</em>
+      <div class="editor-empty hint">No file open. Use File → Open Folder, then click a file.</div>
     </div>
   </section>
 
   <div class="resizer" data-target="pane-chat"></div>
 
   <aside id="pane-chat" class="pane">
-    <div class="pane-header">AI</div>
+    <div class="pane-header">
+      <span style="flex:1">AI</span>
+      <div class="menu-item ai-menu" data-menu="ai">
+        <button class="pane-action" title="AI options">🧠</button>
+        <div class="menu-dropdown" id="menu-ai">
+          <button data-action="clear-context">Clear context</button>
+        </div>
+      </div>
+    </div>
     <div class="pane-body" id="chat-log"></div>
     <form id="chat-form" class="pane-footer">
       <input id="chat-input" type="text" placeholder="ask, command, observe…" autocomplete="off">
@@ -100,6 +109,7 @@
   </div>
 </div>
 
+<script src="/toastui-editor.min.js"></script>
 <script src="/app.js"></script>
 </body>
 </html>

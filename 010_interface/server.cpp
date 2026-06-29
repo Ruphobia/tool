@@ -16,6 +16,7 @@
 #include "../009_tools/answer.hpp"
 #include "../009_tools/statement.hpp"
 #include "../009_tools/shell/shell.hpp"
+#include "../009_tools/physics/physics.hpp"
 
 #include <nlohmann/json.hpp>
 
@@ -269,8 +270,13 @@ void handle_terminal_exec(const httplib::Request & req, httplib::Response & res)
     res.set_content(out.dump(), "application/json");
 }
 
-// POST /api/chat {message: "..."}
-// Runs the full pipeline non-interactively (auto-commits on disambiguation).
+// POST /api/chat {message: "...", cwd: "..."}
+// Streams Server-Sent Events as each pipeline layer completes:
+//   event: layer   data: {"name":"cleanup","content":"..."}
+//   event: layer   data: {"name":"classify","content":"..."}
+//   ...
+//   event: final   data: {"act":..., "final":..., "handler":..., "expertise":...}
+// Client uses fetch() + reader to parse and render incrementally.
 void handle_chat(const httplib::Request & req, httplib::Response & res) {
     json body = json::parse(req.body, nullptr, false);
     if (!body.is_object() || !body.contains("message")) {
@@ -281,135 +287,155 @@ void handle_chat(const httplib::Request & req, httplib::Response & res) {
     const std::string message = body["message"].get<std::string>();
     const std::string cwd     = body.value("cwd", std::string{});
 
-    json layers = json::array();
-    auto add_layer = [&](const std::string & name, const std::string & content) {
-        layers.push_back({{"name", name}, {"content", content}});
-    };
+    res.set_chunked_content_provider("text/event-stream",
+        [message, cwd](std::size_t /*offset*/, httplib::DataSink & sink) -> bool {
+            auto emit = [&](const char * evt, const json & data) {
+                std::string s = "event: ";
+                s.append(evt);
+                s.append("\ndata: ");
+                s.append(data.dump());
+                s.append("\n\n");
+                sink.write(s.data(), s.size());
+            };
 
-    context::next_turn();
-    context::append("user", "input", message);
+            try {
+                context::next_turn();
+                context::append("user", "input", message);
 
-    const std::string cleaned = prompt_cleanup::clean(message);
-    context::append("cleanup", "output", cleaned);
-    add_layer("cleanup", cleaned);
+                const std::string cleaned = prompt_cleanup::clean(message);
+                context::append("cleanup", "output", cleaned);
+                emit("layer", {{"name", "cleanup"}, {"content", cleaned}});
 
-    classify::Result act = classify::analyze(cleaned);
-    {
-        std::string s = "act=" + act.act + " subtype=" + act.subtype;
-        if (!act.tags.empty()) {
-            s += " tags=";
-            for (std::size_t i = 0; i < act.tags.size(); ++i) {
-                if (i) s += ",";
-                s += act.tags[i];
+                classify::Result act = classify::analyze(cleaned);
+                std::string cls = "act=" + act.act + " subtype=" + act.subtype;
+                if (!act.tags.empty()) {
+                    cls += " tags=";
+                    for (std::size_t i = 0; i < act.tags.size(); ++i) {
+                        if (i) cls += ",";
+                        cls += act.tags[i];
+                    }
+                }
+                context::append("classify", "act", act.act);
+                context::append("classify", "subtype", act.subtype);
+                emit("layer", {{"name", "classify"}, {"content", cls}});
+
+                if (act.act == "acknowledgment") {
+                    json fin;
+                    fin["act"]       = {{"act", act.act}, {"subtype", act.subtype}, {"tags", act.tags}};
+                    fin["final"]     = "(noted)";
+                    fin["handler"]   = {{"kind", "noted"}};
+                    fin["expertise"] = "";
+                    emit("final", fin);
+                    sink.done();
+                    return false;
+                }
+
+                std::string ents;
+                for (const auto & m : entities::extract(cleaned)) {
+                    std::string row = m.original + " => " + m.canonical;
+                    if (!m.summary.empty()) row += ": " + m.summary;
+                    context::append("entities", "resolved", row, m.original);
+                    if (!ents.empty()) ents += "\n";
+                    ents += row;
+                }
+                emit("layer", {{"name", "entities"}, {"content", ents.empty() ? "(none)" : ents}});
+
+                // Visible Wikipedia lookup as its own thinking layer.
+                {
+                    const std::string wk = kb::render_for_prompt(cleaned, 3);
+                    emit("layer", {{"name", "wikipedia"}, {"content", wk}});
+                }
+
+                const auto words = unique_words_in_order(cleaned);
+                const std::string defs = build_stylize_defs(words);
+                context::append("dictionary", "defs", defs);
+                emit("layer", {{"name", "dictionary"}, {"content", defs}});
+
+                const auto interpretations = stylize::precise(cleaned, defs);
+                std::string interp_block;
+                for (const auto & i : interpretations) {
+                    const std::string lab = i.label.empty() ? "default" : i.label;
+                    std::string row = "[" + lab + "] " + i.text;
+                    context::append("stylize", "interpretation", row, lab);
+                    if (!interp_block.empty()) interp_block += "\n";
+                    interp_block += row;
+                }
+                emit("layer", {{"name", "stylize"}, {"content", interp_block}});
+
+                const std::string field = expertise::classify(cleaned);
+                context::append("expertise", "label", field);
+                emit("layer", {{"name", "expertise"}, {"content", field}});
+
+                disambiguate::Decision decision = disambiguate::decide(cleaned, interpretations, field);
+                if (decision.needs_question && !interpretations.empty()) {
+                    decision.needs_question = false;
+                    decision.chosen_label = interpretations[0].label.empty()
+                        ? std::string("default") : interpretations[0].label;
+                    decision.reasoning = "auto-commit (chat v1 skips interactive questions)";
+                }
+                context::append("disambiguate", "commit", decision.chosen_label, decision.reasoning);
+                emit("layer", {{"name", "disambiguate"},
+                               {"content", "commit: " + decision.chosen_label + " — " + decision.reasoning}});
+
+                const std::string final_text =
+                    stylize::render_final(cleaned, decision.chosen_label, defs);
+                context::append("stylize", "final", final_text, decision.chosen_label);
+                emit("layer", {{"name", "render_final"}, {"content", final_text}});
+
+                json handler;
+                if (act.act == "command") {
+                    const auto sh = shell_tool::execute(final_text, cwd);
+                    context::append("shell", "command", sh.command);
+                    context::append("shell", "output",  sh.stdout_text,
+                                    "exit=" + std::to_string(sh.exit_code));
+                    handler["kind"]      = "shell";
+                    handler["command"]   = sh.command;
+                    handler["stdout"]    = sh.stdout_text;
+                    handler["exit_code"] = sh.exit_code;
+                    emit("layer", {{"name", "shell"},
+                                   {"content", sh.command + "\n" + sh.stdout_text +
+                                               "\n[exit " + std::to_string(sh.exit_code) + "]"}});
+                } else if (act.act == "question") {
+                    // Route physics questions to the physics-specialist
+                    // (Qwen3-14B reasoning) on GPU 1; everything else uses
+                    // the general answer handler on GPU 0.
+                    std::string field_lc;
+                    field_lc.reserve(field.size());
+                    for (char c : field) field_lc.push_back(
+                        static_cast<char>(std::tolower(static_cast<unsigned char>(c))));
+                    const bool is_physics = field_lc.find("physics") != std::string::npos;
+                    const std::string a = is_physics
+                        ? physics::answer(final_text)
+                        : answer::respond(final_text);
+                    context::append("answer", "response", a, is_physics ? "physics" : "");
+                    handler["kind"]   = is_physics ? "physics_answer" : "answer";
+                    handler["answer"] = a;
+                    emit("layer", {{"name", is_physics ? "physics" : "answer"}, {"content", a}});
+                } else if (act.act == "statement") {
+                    bool persistent = false;
+                    for (const auto & t : act.tags) if (t == "persistent") persistent = true;
+                    const std::string msg = statement::ingest(cleaned, final_text, persistent);
+                    handler["kind"]    = "statement";
+                    handler["message"] = msg;
+                    emit("layer", {{"name", "statement"}, {"content", msg}});
+                } else {
+                    handler["kind"]    = "none";
+                    handler["message"] = "no handler for act=" + act.act;
+                }
+
+                json fin;
+                fin["act"]       = {{"act", act.act}, {"subtype", act.subtype}, {"tags", act.tags}};
+                fin["final"]     = final_text;
+                fin["handler"]   = handler;
+                fin["expertise"] = field;
+                emit("final", fin);
+            } catch (const std::exception & ex) {
+                emit("error", json{{"error", ex.what()}});
             }
+            sink.done();
+            return false;
         }
-        add_layer("classify", s);
-    }
-    context::append("classify", "act", act.act);
-    context::append("classify", "subtype", act.subtype);
-
-    // Short-circuit: acknowledgment / correction
-    if (act.act == "acknowledgment") {
-        json out;
-        out["layers"]     = layers;
-        out["act"]        = {{"act", act.act}, {"subtype", act.subtype}, {"tags", act.tags}};
-        out["final"]      = "(noted)";
-        out["handler"]    = {{"kind", "noted"}};
-        out["expertise"]  = "";
-        res.set_content(out.dump(), "application/json");
-        return;
-    }
-
-    // Entities
-    {
-        std::string ents;
-        for (const auto & m : entities::extract(cleaned)) {
-            std::string row = m.original + " => " + m.canonical;
-            if (!m.summary.empty()) row += ": " + m.summary;
-            context::append("entities", "resolved", row, m.original);
-            if (!ents.empty()) ents += "\n";
-            ents += row;
-        }
-        add_layer("entities", ents.empty() ? "(none)" : ents);
-    }
-
-    const auto words = unique_words_in_order(cleaned);
-    const std::string defs = build_stylize_defs(words);
-    context::append("dictionary", "defs", defs);
-    add_layer("dictionary", defs);
-
-    const auto interpretations = stylize::precise(cleaned, defs);
-    {
-        std::string s;
-        for (const auto & i : interpretations) {
-            const std::string lab = i.label.empty() ? "default" : i.label;
-            std::string row = "[" + lab + "] " + i.text;
-            context::append("stylize", "interpretation", row, lab);
-            if (!s.empty()) s += "\n";
-            s += row;
-        }
-        add_layer("stylize", s);
-    }
-
-    const std::string field = expertise::classify(cleaned);
-    context::append("expertise", "label", field);
-    add_layer("expertise", field);
-
-    // Auto-commit (no interactive disambiguation for v1 chat).
-    disambiguate::Decision decision = disambiguate::decide(cleaned, interpretations, field);
-    if (decision.needs_question && !interpretations.empty()) {
-        // Force commit on the first interpretation.
-        decision.needs_question = false;
-        decision.chosen_label = interpretations[0].label.empty()
-            ? std::string("default") : interpretations[0].label;
-        decision.reasoning = "auto-commit (chat v1 skips interactive questions)";
-    }
-    context::append("disambiguate", "commit", decision.chosen_label, decision.reasoning);
-    add_layer("disambiguate",
-              "commit: " + decision.chosen_label + " — " + decision.reasoning);
-
-    const std::string final_text =
-        stylize::render_final(cleaned, decision.chosen_label, defs);
-    context::append("stylize", "final", final_text, decision.chosen_label);
-    add_layer("render_final", final_text);
-
-    json handler;
-    if (act.act == "command") {
-        const auto sh = shell_tool::execute(final_text, cwd);
-        context::append("shell", "command", sh.command);
-        context::append("shell", "output",  sh.stdout_text,
-                        "exit=" + std::to_string(sh.exit_code));
-        handler["kind"]      = "shell";
-        handler["command"]   = sh.command;
-        handler["stdout"]    = sh.stdout_text;
-        handler["exit_code"] = sh.exit_code;
-        add_layer("shell", sh.command + "\n" + sh.stdout_text +
-                           "\n[exit " + std::to_string(sh.exit_code) + "]");
-    } else if (act.act == "question") {
-        const std::string a = answer::respond(final_text);
-        context::append("answer", "response", a);
-        handler["kind"]   = "answer";
-        handler["answer"] = a;
-        add_layer("answer", a);
-    } else if (act.act == "statement") {
-        bool persistent = false;
-        for (const auto & t : act.tags) if (t == "persistent") persistent = true;
-        const std::string msg = statement::ingest(cleaned, final_text, persistent);
-        handler["kind"]    = "statement";
-        handler["message"] = msg;
-        add_layer("statement", msg);
-    } else {
-        handler["kind"]    = "none";
-        handler["message"] = "no handler for act=" + act.act;
-    }
-
-    json out;
-    out["layers"]    = layers;
-    out["act"]       = {{"act", act.act}, {"subtype", act.subtype}, {"tags", act.tags}};
-    out["final"]     = final_text;
-    out["handler"]   = handler;
-    out["expertise"] = field;
-    res.set_content(out.dump(), "application/json");
+    );
 }
 
 }
@@ -442,6 +468,10 @@ void run(const std::string & host, int port) {
     srv.Delete("/api/fs/delete",   handle_fs_delete);
     srv.Post("/api/terminal/exec", handle_terminal_exec);
     srv.Post("/api/chat",          handle_chat);
+    srv.Post("/api/context/clear", [](const httplib::Request &, httplib::Response & r) {
+        context::new_session();
+        r.set_content(R"({"ok":true})", "application/json");
+    });
     srv.Post("/api/quit", [](const httplib::Request &, httplib::Response & r) {
         r.set_content(R"({"ok":true})", "application/json");
         std::thread([]{ web_server::stop(); }).detach();

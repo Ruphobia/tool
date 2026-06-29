@@ -53,6 +53,10 @@ body {
   background: var(--bg3); border: 1px solid var(--border);
   z-index: 100;
 }
+/* Pane-header dropdowns anchor to the right edge */
+.ai-menu { position: relative; }
+.ai-menu .menu-dropdown { left: auto; right: 0; }
+.ai-menu .pane-action { font-size: 14px; padding: 0 4px; }
 .menu-dropdown button {
   display: block; width: 100%; text-align: left;
   background: none; border: none; color: var(--fg);
@@ -145,10 +149,21 @@ body {
 
 .hint { color: var(--fg-dim); font-style: italic; }
 
-/* editor body has zero padding so editable surfaces fill it */
-#pane-editor .pane-body { padding: 0; }
+/* editor body holds absolutely-positioned per-file surfaces */
+#pane-editor .pane-body { padding: 0; position: relative; }
+.editor-empty {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  text-align: center; padding: 20px;
+}
+.editor-surface {
+  position: absolute; inset: 0;
+  display: none; flex-direction: column;
+  background: var(--bg);
+}
+.editor-surface.active { display: flex; }
 .editor-textarea {
-  width: 100%; height: 100%;
+  flex: 1; width: 100%; height: 100%;
   background: var(--bg); color: var(--fg);
   border: none; outline: none; resize: none;
   padding: 8px 10px;
@@ -159,13 +174,13 @@ body {
   font: 14px/1.55 "Segoe UI", -apple-system, sans-serif;
   white-space: pre-wrap;
 }
-.editor-readonly { padding: 8px 10px; }
+.editor-readonly { padding: 8px 10px; overflow: auto; height: 100%; }
 .editor-readonly pre {
   margin: 0;
   font: 12px/1.45 "Cascadia Mono", monospace;
   white-space: pre-wrap;
 }
-/* Toast UI Editor host: fill the editor body */
+/* Toast UI Editor host: fills its surface */
 .md-editor-host {
   width: 100%; height: 100%;
   display: flex; flex-direction: column;
@@ -175,9 +190,37 @@ body {
   flex: 1; min-height: 0;
   border: none;
 }
-#editor-title .dirty-dot {
-  color: var(--accent2); margin-right: 4px;
+
+/* ----- editor tab strip ----- */
+.editor-tab-bar { padding: 0; min-height: 26px; }
+.editor-tabs {
+  display: flex; flex: 1; overflow-x: auto;
+  background: var(--bg3);
 }
+.editor-tab {
+  display: flex; align-items: center; gap: 6px;
+  padding: 4px 4px 4px 12px; cursor: pointer; user-select: none;
+  border-right: 1px solid var(--border);
+  color: var(--fg-dim);
+  white-space: nowrap;
+  font-size: 12px;
+  text-transform: none; letter-spacing: 0;
+  max-width: 220px;
+}
+.editor-tab.active { color: var(--fg); background: var(--bg); }
+.editor-tab:hover  { color: var(--fg); }
+.editor-tab .label {
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.editor-tab .dirty {
+  color: var(--accent2);
+  visibility: hidden;
+}
+.editor-tab.dirty .dirty { visibility: visible; }
+.editor-tab .x {
+  padding: 0 4px; border-radius: 2px; color: var(--fg-dim);
+}
+.editor-tab .x:hover { color: var(--fg); background: var(--bg3); }
 
 /* ----- resizers ----- */
 .resizer {
@@ -252,7 +295,17 @@ body {
   margin-bottom: 2px;
 }
 .chain .layer .payload {
-  color: var(--fg); white-space: pre-wrap; word-wrap: break-word;
+  color: var(--fg);
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+}
+.ai-headline {
+  margin: 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+  font: inherit;
 }
 
 /* ----- file tree ----- */

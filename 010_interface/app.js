@@ -48,12 +48,31 @@ document.querySelectorAll('[data-action]').forEach(el => {
 
 function handleMenuAction(action) {
   switch (action) {
-    case 'open-folder': openFolderPicker(); break;
-    case 'new-file':    createInRoot('file');   break;
-    case 'new-folder':  createInRoot('folder'); break;
-    case 'delete':      deleteSelected();   break;
-    case 'quit':        fetch('/api/quit', {method:'POST'}); break;
+    case 'open-folder':   openFolderPicker(); break;
+    case 'new-file':      createInRoot('file');   break;
+    case 'new-folder':    createInRoot('folder'); break;
+    case 'delete':        deleteSelected();   break;
+    case 'quit':          fetch('/api/quit', {method:'POST'}); break;
+    case 'clear-context': clearContext(); break;
   }
+}
+
+// Also wire the AI pane's brain-icon dropdown the same way as the top menu.
+document.querySelectorAll('.ai-menu').forEach(item => {
+  item.addEventListener('click', e => {
+    e.stopPropagation();
+    document.querySelectorAll('.menu-item').forEach(o => {
+      if (o !== item) o.classList.remove('open');
+    });
+    item.classList.toggle('open');
+  });
+});
+
+async function clearContext() {
+  try {
+    await fetch('/api/context/clear', { method: 'POST' });
+  } catch {}
+  chatLog.innerHTML = '';
 }
 
 // ---- pane hide/show + drag resize -------------------------------------
@@ -184,7 +203,7 @@ async function loadPickerPath(path) {
     const li = document.createElement('li');
     li.textContent = e.name;
     if (!e.is_dir) li.classList.add('is-file');
-    else li.addEventListener('dblclick', () => loadPickerPath(joinPath(data.path, e.name)));
+    else li.addEventListener('click', () => loadPickerPath(joinPath(data.path, e.name)));
     pickerList.appendChild(li);
   }
 }
@@ -194,9 +213,12 @@ function joinPath(base, name) {
 function commitOpenFolder(path) {
   state.rootDir = path;
   document.getElementById('files-root').textContent = path;
-  // open terminals reset to new project root
-  for (const t of Object.values(state.terminals)) t.cwd = path;
-  renderActiveTerminalCwd();
+  // open terminals reset to new project root; update their prompt lines too.
+  for (const [id, t] of Object.entries(state.terminals)) {
+    t.cwd = path;
+    const scr = termStack.querySelector(`.term-instance[data-id="${id}"] .term-screen`);
+    if (scr) renderPromptLine(scr, t.cwd, t.input || '');
+  }
   closeFolderPicker();
   refreshFileTree();
 }
@@ -238,12 +260,20 @@ function renderEntries(into, parentPath, entries) {
   }
 }
 const editorBody  = document.getElementById('editor-body');
-const editorTitle = document.getElementById('editor-title');
+const editorTabs  = document.getElementById('editor-tabs');
 
-// File extension -> editor mode.
-//   prose     : textarea with spellcheck on (text-like)
-//   code      : textarea, monospace, no spellcheck (source files)
-//   binary    : read-only message
+// Per-open-file state:
+//   state.files[path] = {
+//     mode:          'markdown'|'prose'|'code'|'unknown',
+//     savedContent:  string (last saved content),
+//     surface:       <div.editor-surface> DOM element
+//     tab:           <div.editor-tab> DOM element
+//     getContent():  () -> current content string
+//     destroy():     () -> cleanup (e.g. mdEditor.destroy())
+//   }
+state.files = state.files || {};
+state.activeFilePath = state.activeFilePath || null;
+
 const EDITOR_MODES = {
   markdown: new Set(['md','markdown']),
   prose:    new Set(['txt','rst','text']),
@@ -264,14 +294,19 @@ function detectMode(path) {
   return 'unknown';
 }
 
-// Held while a Toast UI Editor is mounted; null otherwise. Used by
-// saveCurrentFile() so it can pull the markdown content via getMarkdown().
-let mdEditor = null;
-
 async function openFile(path) {
+  // Already open? Just switch to that tab.
+  if (state.files[path]) {
+    activateFile(path);
+    return;
+  }
+
+  // Hide the "no file open" placeholder once we have content.
+  const empty = editorBody.querySelector('.editor-empty');
+  if (empty) empty.remove();
+
   const r = await fetch('/api/fs/read?path=' + encodeURIComponent(path));
   if (!r.ok) {
-    editorBody.innerHTML = '';
     const w = document.createElement('div');
     w.className = 'editor-readonly';
     w.textContent = 'cannot read ' + path;
@@ -279,115 +314,212 @@ async function openFile(path) {
     return;
   }
   const j = await r.json();
-  state.openFile     = path;
-  state.savedContent = j.content;
-  state.dirty        = false;
-  updateEditorTitle();
-
-  // Tear down any previous markdown editor before swapping.
-  if (mdEditor) { try { mdEditor.destroy(); } catch {} mdEditor = null; }
-  editorBody.innerHTML = '';
   const mode = detectMode(path);
+
+  // Build surface (the per-file editor container, absolutely positioned).
+  const surface = document.createElement('div');
+  surface.className = 'editor-surface';
+  surface.dataset.path = path;
+  editorBody.appendChild(surface);
+
+  // CRITICAL: make this surface visible BEFORE constructing the editor.
+  // Toast UI Editor (and to a lesser extent <textarea>) measures container
+  // dimensions on instantiation; a `display:none` container yields zero
+  // dimensions and the editor renders blank. Hide existing surfaces first,
+  // show this new one, THEN construct.
+  for (const ff of Object.values(state.files)) ff.surface.classList.remove('active');
+  surface.classList.add('active');
+
+  // Register the file in state EARLY (before any editor construction) so
+  // change handlers that fire during init don't NPE on state.files[path].
+  state.files[path] = {
+    mode, savedContent: j.content,
+    surface, tab: null,
+    getContent: () => j.content,
+    destroy: () => {},
+    dirty: false,
+  };
+
+  let getContent;
+  let destroy = () => {};
+
   if (mode === 'markdown' && typeof toastui !== 'undefined') {
     const host = document.createElement('div');
     host.className = 'md-editor-host';
-    editorBody.appendChild(host);
-    mdEditor = new toastui.Editor({
-      el: host,
-      initialValue: j.content,
-      previewStyle: 'tab',           // tabbed Markdown / WYSIWYG view
-      initialEditType: 'wysiwyg',
-      theme: 'dark',
-      height: '100%',
-      usageStatistics: false,
-      autofocus: true,
-      hideModeSwitch: false,
-      toolbarItems: [
-        ['heading','bold','italic','strike'],
-        ['hr','quote'],
-        ['ul','ol','task','indent','outdent'],
-        ['table','link','image'],
-        ['code','codeblock'],
-      ],
-    });
-    mdEditor.on('change', () => {
-      const v = mdEditor.getMarkdown();
-      state.dirty = v !== state.savedContent;
-      updateEditorTitle();
-    });
-    // Ctrl+S inside the editor's iframe-rendered surface still bubbles to
-    // document, which our global handler catches.
-    return;
-  }
-  if (mode === 'prose' || mode === 'code') {
+    surface.appendChild(host);
+    try {
+      const editor = new toastui.Editor({
+        el: host,
+        initialValue: j.content,
+        previewStyle: 'tab',
+        initialEditType: 'wysiwyg',
+        theme: 'dark',
+        height: '100%',
+        usageStatistics: false,
+        hideModeSwitch: false,
+        toolbarItems: [
+          ['heading','bold','italic','strike'],
+          ['hr','quote'],
+          ['ul','ol','task','indent','outdent'],
+          ['table','link','image'],
+          ['code','codeblock'],
+        ],
+      });
+      editor.on('change', () => {
+        const v = editor.getMarkdown();
+        const f = state.files[path];
+        if (f) setFileDirty(path, v !== f.savedContent);
+      });
+      getContent = () => editor.getMarkdown();
+      destroy    = () => { try { editor.destroy(); } catch {} };
+    } catch (err) {
+      // Toast UI blew up. Fall back to a plain textarea showing the source
+      // so the user can at least see + edit the markdown.
+      console.error('Toast UI editor failed:', err);
+      host.remove();
+      const ta = document.createElement('textarea');
+      ta.className = 'editor-textarea prose';
+      ta.spellcheck = true;
+      ta.value = j.content;
+      ta.addEventListener('input', () => {
+        const f = state.files[path];
+        if (f) setFileDirty(path, ta.value !== f.savedContent);
+      });
+      ta.addEventListener('keydown', e => {
+        if ((e.ctrlKey || e.metaKey) && e.key === 's') {
+          e.preventDefault();
+          saveFile(path, ta.value);
+        }
+      });
+      surface.appendChild(ta);
+      getContent = () => ta.value;
+    }
+  } else if (mode === 'prose' || mode === 'code') {
     const ta = document.createElement('textarea');
     ta.className = 'editor-textarea' + (mode === 'prose' ? ' prose' : '');
     ta.spellcheck = (mode === 'prose');
     ta.value = j.content;
     ta.addEventListener('input', () => {
-      state.dirty = ta.value !== state.savedContent;
-      updateEditorTitle();
+      setFileDirty(path, ta.value !== state.files[path].savedContent);
     });
     ta.addEventListener('keydown', e => {
       if ((e.ctrlKey || e.metaKey) && e.key === 's') {
         e.preventDefault();
-        saveCurrentFile(ta.value);
+        saveFile(path, ta.value);
       }
     });
-    editorBody.appendChild(ta);
-    ta.focus();
+    surface.appendChild(ta);
+    getContent = () => ta.value;
   } else {
     const wrap = document.createElement('div');
     wrap.className = 'editor-readonly';
     const pre = document.createElement('pre');
     pre.textContent = j.content;
     wrap.appendChild(pre);
-    editorBody.appendChild(wrap);
+    surface.appendChild(wrap);
+    getContent = () => j.content;
   }
+
+  // Build tab
+  const tab = document.createElement('div');
+  tab.className = 'editor-tab';
+  tab.dataset.path = path;
+  tab.innerHTML = `<span class="dirty">●</span><span class="label"></span><span class="x" title="Close">×</span>`;
+  tab.querySelector('.label').textContent = path.split('/').pop();
+  tab.title = path;
+  tab.addEventListener('click', e => {
+    if (e.target.classList.contains('x')) return;
+    activateFile(path);
+  });
+  tab.querySelector('.x').addEventListener('click', e => {
+    e.stopPropagation();
+    closeFile(path);
+  });
+  editorTabs.appendChild(tab);
+
+  // Finalize the state entry — overwrite the early placeholder we wrote
+  // before editor construction with the real getContent / destroy + tab.
+  state.files[path].tab        = tab;
+  state.files[path].getContent = getContent;
+  state.files[path].destroy    = destroy;
+
+  activateFile(path);
+  saveState();
 }
 
-function updateEditorTitle() {
-  editorTitle.innerHTML = '';
-  if (state.openFile && state.dirty) {
-    const dot = document.createElement('span');
-    dot.className = 'dirty-dot';
-    dot.textContent = '●';
-    editorTitle.appendChild(dot);
+function activateFile(path) {
+  const f = state.files[path];
+  if (!f) return;
+  state.activeFilePath = path;
+  for (const [p, ff] of Object.entries(state.files)) {
+    ff.surface.classList.toggle('active', p === path);
+    ff.tab.classList.toggle('active', p === path);
   }
-  editorTitle.appendChild(
-    document.createTextNode(state.openFile || 'Editor'));
+  // Focus the editable surface for immediate typing / Ctrl+S.
+  const ta = f.surface.querySelector('textarea');
+  if (ta) ta.focus();
+  saveState();
 }
 
-async function saveCurrentFile(content) {
-  if (!state.openFile) return;
+function setFileDirty(path, dirty) {
+  const f = state.files[path];
+  if (!f) return;
+  f.dirty = dirty;
+  f.tab.classList.toggle('dirty', dirty);
+}
+
+async function saveFile(path, content) {
   try {
     const r = await fetch('/api/fs/write', {
       method:'POST', headers:{'Content-Type':'application/json'},
-      body: JSON.stringify({path: state.openFile, content}),
+      body: JSON.stringify({path, content}),
     });
     if (!r.ok) {
       const j = await r.json().catch(()=>({}));
       alert('save failed: ' + (j.error || r.status));
       return;
     }
-    state.savedContent = content;
-    state.dirty        = false;
-    updateEditorTitle();
+    const f = state.files[path];
+    if (f) {
+      f.savedContent = content;
+      setFileDirty(path, false);
+    }
   } catch (err) {
     alert('save failed: ' + err.message);
   }
 }
 
-// Global Ctrl+S: save active editor (textarea OR Toast UI Markdown editor).
+function closeFile(path) {
+  const f = state.files[path];
+  if (!f) return;
+  if (f.dirty && !confirm(`Discard unsaved changes to ${path.split('/').pop()}?`)) return;
+  try { f.destroy(); } catch {}
+  f.surface.remove();
+  f.tab.remove();
+  delete state.files[path];
+  if (state.activeFilePath === path) {
+    const next = Object.keys(state.files)[0];
+    if (next) activateFile(next);
+    else {
+      state.activeFilePath = null;
+      const empty = document.createElement('div');
+      empty.className = 'editor-empty hint';
+      empty.textContent = 'No file open. Use File → Open Folder, then click a file.';
+      editorBody.appendChild(empty);
+    }
+  }
+  saveState();
+}
+
+// Global Ctrl+S: save the currently active file.
 document.addEventListener('keydown', e => {
   if ((e.ctrlKey || e.metaKey) && e.key === 's') {
-    if (mdEditor) {
-      e.preventDefault();
-      saveCurrentFile(mdEditor.getMarkdown());
-      return;
-    }
-    const ta = editorBody.querySelector('textarea');
-    if (ta) { e.preventDefault(); saveCurrentFile(ta.value); }
+    const path = state.activeFilePath;
+    if (!path) return;
+    const f = state.files[path];
+    if (!f) return;
+    e.preventDefault();
+    saveFile(path, f.getContent());
   }
 });
 
@@ -432,12 +564,27 @@ function createInRoot(kind) {
   input.addEventListener('blur', () => commit());
 }
 async function deleteSelected() {
-  if (!state.openFile) { alert('No file selected'); return; }
-  if (!confirm('Delete ' + state.openFile + '?')) return;
-  await fetch('/api/fs/delete?path=' + encodeURIComponent(state.openFile), {method:'DELETE'});
-  state.openFile = null;
-  editorBody.innerHTML = '<em class="hint">No file selected</em>';
+  const path = state.activeFilePath;
+  if (!path) { alert('No file selected'); return; }
+  if (!confirm('Delete ' + path + '?')) return;
+  await fetch('/api/fs/delete?path=' + encodeURIComponent(path), {method:'DELETE'});
+  const f = state.files[path];
+  if (f) {
+    try { f.destroy(); } catch {}
+    f.surface.remove();
+    f.tab.remove();
+    delete state.files[path];
+  }
+  state.activeFilePath = Object.keys(state.files)[0] || null;
+  if (state.activeFilePath) activateFile(state.activeFilePath);
+  else {
+    const empty = document.createElement('div');
+    empty.className = 'editor-empty hint';
+    empty.textContent = 'No file open.';
+    editorBody.appendChild(empty);
+  }
   refreshFileTree();
+  saveState();
 }
 
 // ---- AI chat ----------------------------------------------------------
@@ -451,23 +598,112 @@ chatForm.addEventListener('submit', async e => {
   if (!text) return;
   chatInput.value = '';
   pushMsg('user', text);
-  const aiEl = pushMsg('ai', 'thinking…');
+
+  // Set up the AI message with a streaming "thinking" expander up-front.
+  // Layers append into the expander as SSE events arrive; the final event
+  // sets the visible headline (handler output).
+  const aiEl = pushMsg('ai', '');
+  const body = aiEl.querySelector('.body');
+  body.innerHTML = '';
+  const headlinePre = document.createElement('pre');
+  headlinePre.className = 'ai-headline';
+  headlinePre.textContent = 'thinking…';
+  body.appendChild(headlinePre);
+
+  const chain = document.createElement('details');
+  chain.className = 'chain';
+  chain.innerHTML = '<summary></summary><div class="layers"></div>';
+  const summary  = chain.querySelector('summary');
+  const layersEl = chain.querySelector('.layers');
+  summary.textContent = 'thinking… (0 layers)';
+  body.appendChild(chain);
+
+  let layerCount = 0;
+  const appendLayer = (name, content) => {
+    const div = document.createElement('div');
+    div.className = 'layer';
+    div.innerHTML = '<div class="lab"></div><div class="payload"></div>';
+    div.querySelector('.lab').textContent = name;
+    div.querySelector('.payload').textContent = content;
+    layersEl.appendChild(div);
+    ++layerCount;
+    summary.textContent = `thinking… (${layerCount} layer${layerCount === 1 ? '' : 's'})`;
+    chatLog.scrollTop = chatLog.scrollHeight;
+  };
+
+  const onFinal = j => {
+    summary.textContent = `thinking (${layerCount} layers)`;
+    headlinePre.textContent = computeHeadline(j);
+    // Tag info goes INSIDE the chain, not the visible headline.
+    const tag = document.createElement('div');
+    tag.className = 'layer';
+    tag.innerHTML = '<div class="lab">tags</div><div class="payload"></div>';
+    const act = j.act || {};
+    const tags = (act.tags || []).join(',');
+    tag.querySelector('.payload').textContent =
+      `[act=${act.act || '?'}${act.subtype ? ' subtype=' + act.subtype : ''}` +
+      `${tags ? ' tags=' + tags : ''}] [${j.expertise || '?'}]`;
+    layersEl.appendChild(tag);
+    if (j.handler && j.handler.kind === 'shell') refreshFileTreeIfOpen();
+    chatLog.scrollTop = chatLog.scrollHeight;
+  };
+
   try {
     const r = await fetch('/api/chat', {
-      method:'POST', headers:{'Content-Type':'application/json'},
-      body: JSON.stringify({message: text}),
+      method: 'POST', headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({message: text, cwd: state.rootDir || ''}),
     });
-    if (!r.ok) {
+    if (!r.ok || !r.body) {
       const j = await r.json().catch(()=>({error: 'request failed'}));
-      aiEl.querySelector('.body').textContent = j.error || 'error';
+      headlinePre.textContent = 'error: ' + (j.error || r.status);
       return;
     }
-    const j = await r.json();
-    renderAIResponse(aiEl, j);
+    const reader  = r.body.getReader();
+    const decoder = new TextDecoder();
+    let buf = '';
+    while (true) {
+      const { value, done } = await reader.read();
+      if (done) break;
+      buf += decoder.decode(value, { stream: true });
+
+      let sep;
+      while ((sep = buf.indexOf('\n\n')) !== -1) {
+        const eventText = buf.slice(0, sep);
+        buf = buf.slice(sep + 2);
+        let evtName = '';
+        let dataStr = '';
+        for (const line of eventText.split('\n')) {
+          if (line.startsWith('event: ')) evtName = line.slice(7).trim();
+          else if (line.startsWith('data: ')) {
+            dataStr += (dataStr ? '\n' : '') + line.slice(6);
+          }
+        }
+        if (!evtName) continue;
+        let payload;
+        try { payload = JSON.parse(dataStr); } catch { continue; }
+        if (evtName === 'layer')      appendLayer(payload.name, payload.content);
+        else if (evtName === 'final') onFinal(payload);
+        else if (evtName === 'error') {
+          headlinePre.textContent = 'error: ' + (payload.error || 'unknown');
+        }
+      }
+    }
   } catch (err) {
-    aiEl.querySelector('.body').textContent = 'network error: ' + err.message;
+    headlinePre.textContent = 'network error: ' + err.message;
   }
 });
+
+function computeHeadline(j) {
+  const h = j.handler || {};
+  if (h.kind === 'shell') {
+    const out = (h.stdout || '').trim();
+    if (h.exit_code === 0) return out ? out : 'done';
+    return (out ? out + '\n' : '') + '[exit ' + h.exit_code + ']';
+  }
+  if (h.kind === 'answer')                            return h.answer || '';
+  if (h.kind === 'statement' || h.kind === 'noted')   return h.message || '(noted)';
+  return j.final || '(no handler)';
+}
 
 function pushMsg(role, body) {
   const el = document.createElement('div');
@@ -551,7 +787,9 @@ const termStack = document.getElementById('term-stack');
 document.getElementById('term-new').addEventListener('click', () => newTerminal());
 
 function newTerminal() {
-  newTerminalAtCwd('T' + (state.nextTermId++), state.rootDir || '~');
+  const id = 'T' + (state.nextTermId++);
+  newTerminalAtCwd(id, state.rootDir || '~');
+  activateTerminal(id);
   saveState();
 }
 
@@ -820,7 +1058,8 @@ function saveState() {
   const root = document.documentElement;
   const s = {
     rootDir: state.rootDir,
-    openFile: state.openFile,
+    openFiles: Object.keys(state.files || {}),
+    activeFilePath: state.activeFilePath,
     panes: {
       filesHidden: document.getElementById('pane-files').classList.contains('collapsed'),
       chatHidden:  document.getElementById('pane-chat').classList.contains('collapsed'),
@@ -886,11 +1125,16 @@ async function restoreState() {
     newTerminal();
   }
 
-  // root folder + open file
+  // root folder + open files (multi-tab)
   if (s.rootDir) {
     commitOpenFolder(s.rootDir);
-    if (s.openFile) {
-      await openFile(s.openFile);
+    if (Array.isArray(s.openFiles)) {
+      for (const path of s.openFiles) {
+        await openFile(path);
+      }
+      if (s.activeFilePath && state.files[s.activeFilePath]) {
+        activateFile(s.activeFilePath);
+      }
     }
   }
 }
@@ -920,11 +1164,10 @@ let resizeSaveT = null;
   resizeSaveT = setTimeout(saveState, 250);
 }));
 
-// Warn on close if there are unsaved editor changes.
+// Warn on close if any open file has unsaved changes.
 window.addEventListener('beforeunload', e => {
-  if (state.dirty) {
-    e.preventDefault();
-    e.returnValue = '';
+  for (const f of Object.values(state.files || {})) {
+    if (f.dirty) { e.preventDefault(); e.returnValue = ''; return; }
   }
 });
 
