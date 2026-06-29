@@ -3300,7 +3300,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Catalog Browser** _(stub, awaits wire-up)_: Queries Gaia, 2MASS, SDSS, Pan-STARRS, SIMBAD, NED, VizieR, and MPC with cone, box, and crossmatch searches. Loads results as overlays on the sky chart and FITS viewer with persistent local caches.
 
-- ⬜ **Observatory Planner** _(planned)_: Generates nightly observing plans optimized for altitude, moon separation, twilight, meridian crossing, and target priorities. Produces airmass plots, finder charts, and exportable session scripts.
+- ✅ **Observatory Planner** _(stub, awaits wire-up)_: Generates nightly observing plans optimized for altitude, moon separation, twilight, meridian crossing, and target priorities. Produces airmass plots, finder charts, and exportable session scripts.
 
 - ⬜ **Solar Activity Monitor** _(planned)_: Pulls current and historical sunspot number, F10.7 flux, Kp/Ap, X-ray flux, and CME alerts from SWPC and SILSO. Overlays aurora oval forecasts on a world map for the user's location.
 
