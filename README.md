@@ -4215,7 +4215,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Magic Sheet Builder** _(stub, awaits wire-up)_: Lays out clickable channel buttons, group thumbnails, and palette tiles over a stage diagram. The designer pokes a position to recall a focus palette or to see at a glance what is live.
 
-- ⬜ **Photometric Calculator** _(planned)_: Computes throw distance, beam and field angles, footcandle/lux at the deck, edge falloff, and pool diameter from each fixture's photometric data and hang height.
+- ✅ **Photometric Calculator** _(stub, awaits wire-up)_: Computes throw distance, beam and field angles, footcandle/lux at the deck, edge falloff, and pool diameter from each fixture's photometric data and hang height.
 
 - ⬜ **Audio Patch Designer** _(planned)_: Documents the full signal flow: mics, DIs, stage box channels, console inputs, inserts, buses, matrix sends, amps, and speaker zones. Tracks snake counts, cable lengths, and rack U positions.
 
