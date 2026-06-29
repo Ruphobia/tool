@@ -922,7 +922,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Cryptography and blockchain
 
-- ⬜ **Key Forge** _(planned)_: Generates RSA, ECDSA, Ed25519, X25519, and post-quantum (ML-KEM, ML-DSA) keypairs with configurable parameters. Exports to PEM, DER, JWK, OpenSSH, and PGP formats with passphrase-protected variants.
+- ✅ **Key Forge** _(stub, awaits wire-up)_: Generates RSA, ECDSA, Ed25519, X25519, and post-quantum (ML-KEM, ML-DSA) keypairs with configurable parameters. Exports to PEM, DER, JWK, OpenSSH, and PGP formats with passphrase-protected variants.
 
 - ⬜ **Key Inspector** _(planned)_: Parses any key blob (PEM, DER, JWK, SSH, PGP, BIP32 xprv) and surfaces algorithm, curve, key size, fingerprints, and entropy estimates. Detects weak primes, low-entropy generation, and known compromised keys.
 
