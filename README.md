@@ -571,7 +571,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Code-size optimizer** _(stub, awaits wire-up)_: Suggests link-time GC, LTO, function outlining, table consolidation, and printf-removal opportunities ranked by bytes saved. AI rewrites size-bloat hotspots and validates equivalence on a test suite.
 
-- ⬜ **Symbol and call graph explorer** _(planned)_: Interactive call graph and reverse call graph from compiled artifacts with cycle and recursion detection. Useful for stack budgeting and dead-code hunting.
+- ✅ **Symbol and call graph explorer** _(stub, awaits wire-up)_: Interactive call graph and reverse call graph from compiled artifacts with cycle and recursion detection. Useful for stack budgeting and dead-code hunting.
 
 - ⬜ **Disassembler and binary diff** _(planned)_: Disassembles ARM, Thumb, RISC-V, AVR, Xtensa, and PIC binaries with cross-reference and string analysis. Diffs two builds at the instruction level and groups changes by function.
 
