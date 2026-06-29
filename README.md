@@ -1519,7 +1519,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Dataset and Code Provenance Tracker** _(stub, awaits wire-up)_: Resolves dataset and code artifacts cited in a paper to canonical sources (Zenodo, HuggingFace, OSF, GitHub, Figshare), records licenses, and snapshots versions. Diffs against the paper's claimed version when a release moves.
 
-- ⬜ **Reproducibility Sandbox** _(planned)_: Spins up a containerized environment from a paper's code repo, pinning Python/R/Julia toolchains, seeds, and dataset hashes. Runs the headline experiment and reports deltas against the paper's reported numbers.
+- ✅ **Reproducibility Sandbox** _(stub, awaits wire-up)_: Spins up a containerized environment from a paper's code repo, pinning Python/R/Julia toolchains, seeds, and dataset hashes. Runs the headline experiment and reports deltas against the paper's reported numbers.
 
 - ⬜ **Annotation and Margin-Notes Layer** _(planned)_: PDF and HTML annotation with highlights, threaded notes, tags, and backlinks across the library; notes are stored as portable JSON next to the source. AI suggests cross-references to your own prior notes when a passage echoes earlier reading.
 
