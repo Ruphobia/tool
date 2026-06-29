@@ -3056,7 +3056,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Mass spec and proteomics pipeline** _(stub, awaits wire-up)_: Runs MaxQuant, FragPipe, or DIA-NN on shotgun proteomics data, identifies and quantifies peptides and PTMs, and links results to UniProt and STRING for pathway context.
 
-- ⬜ **Metabolic model workbench** _(planned)_: Builds and curates genome-scale models via CarveMe or gapseq, runs FBA, FVA, and pFBA with COBRApy, and predicts essential genes and growth media.
+- ✅ **Metabolic model workbench** _(stub, awaits wire-up)_: Builds and curates genome-scale models via CarveMe or gapseq, runs FBA, FVA, and pFBA with COBRApy, and predicts essential genes and growth media.
 
 - ⬜ **Pathway and ontology enricher** _(planned)_: Maps gene or protein sets onto KEGG, Reactome, GO, and MetaCyc with hypergeometric or GSEA enrichment, and renders pathway diagrams with expression overlays.
 
