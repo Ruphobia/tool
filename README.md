@@ -4276,7 +4276,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Reveal Detector** _(stub, awaits wire-up)_: Scans performance video for tells: card flashes, palm knuckling, angle leaks, mic-bleed clicks, and shadow betrayals. AI flags vulnerable moments per camera position and suggests blocking or grip adjustments.
 
-- ⬜ **Mentalism Toolkit** _(planned)_: Pre-show work tracker, billet management, peek device inventory, swami and nail-writer consumables, and a dual reality log to keep stooged versus organic outcomes straight across a tour.
+- ✅ **Mentalism Toolkit** _(stub, awaits wire-up)_: Pre-show work tracker, billet management, peek device inventory, swami and nail-writer consumables, and a dual reality log to keep stooged versus organic outcomes straight across a tour.
 
 
 #### Tabletop RPG and world building
