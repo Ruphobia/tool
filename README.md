@@ -2650,7 +2650,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Repeater and satellite database** _(stub, awaits wire-up)_: Browses RepeaterBook, RFinder, and PNW data by location, band, tone, and mode (DMR, D-STAR, YSF, P25, M17). Predicts amateur satellite passes from current TLEs with Doppler tuning curves and squint angle.
 
-- ⬜ **Rig control bridge** _(planned)_: Talks Hamlib/rigctl to Yaesu, Icom, Kenwood, Elecraft, and FLEX radios for frequency, mode, split, and PTT. Integrates with logger, digital modes, rotators (rotctl), and the SDR console for transceive.
+- ✅ **Rig control bridge** _(stub, awaits wire-up)_: Talks Hamlib/rigctl to Yaesu, Icom, Kenwood, Elecraft, and FLEX radios for frequency, mode, split, and PTT. Integrates with logger, digital modes, rotators (rotctl), and the SDR console for transceive.
 
 - ⬜ **CW trainer and decoder** _(planned)_: Generates Koch and Farnsworth practice with adjustable WPM, character set, and weight, and decodes received audio with adaptive noise gating. Includes paddle/keyer simulation and contest-style head-copy drills.
 
