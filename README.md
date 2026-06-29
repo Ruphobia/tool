@@ -3967,7 +3967,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Spirit Proofing & Cuts Workbench** _(stub, awaits wire-up)_: Handles ABV and temperature correction, Pearson square dilution and blending, and heads/hearts/tails cut planning by congener volatility where legally applicable.
 
-- ⬜ **Coffee & Tea Extraction Bench** _(planned)_: Computes TDS, extraction yield, brew ratio, and grind setting for pour-over, espresso, immersion, and tea; logs refractometer reads against brew curves and roast profile.
+- ✅ **Coffee & Tea Extraction Bench** _(stub, awaits wire-up)_: Computes TDS, extraction yield, brew ratio, and grind setting for pour-over, espresso, immersion, and tea; logs refractometer reads against brew curves and roast profile.
 
 - ⬜ **Shelf-Life & Spoilage Modeler** _(planned)_: Predicts shelf life from water activity, pH, salt, and storage temperature using Q10 kinetics and published pathogen growth boundaries, with HACCP-style critical control point review.
 
