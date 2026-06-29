@@ -401,7 +401,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Type generator** _(stub, awaits wire-up)_: Derives TypeScript types, Zod/Valibot schemas, and form validators from JSON samples, SQL DDL, OpenAPI specs, or Prisma models with round-trip diffing.
 
-- ⬜ **Responsive preview** _(planned)_: Renders the running app side-by-side in device frames at chosen breakpoints with touch emulation, prefers-color-scheme/reduced-motion toggles, and synchronized scroll.
+- ✅ **Responsive preview** _(stub, awaits wire-up)_: Renders the running app side-by-side in device frames at chosen breakpoints with touch emulation, prefers-color-scheme/reduced-motion toggles, and synchronized scroll.
 
 - ⬜ **Layout inspector** _(planned)_: Overlays CSS grid tracks, flex axes, container queries, and stacking contexts on the live page; explains specificity wins and offers minimal selector rewrites.
 
