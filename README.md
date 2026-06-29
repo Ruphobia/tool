@@ -2914,7 +2914,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Electronic lab notebook** _(stub, awaits wire-up)_: Date-stamped entries with embedded structures, procedures, observations, attached spectra, photographs, and reaction templates; cross-links reagents, products, equipment, and hazards so a synthesis is reproducible from the record alone.
 
-- ⬜ **Chemical inventory** _(planned)_: Tracks reagents by CAS, location, container, amount, lot, purity, expiry, and supplier; logs check-outs against notebook entries, flags peroxide-formers past their date, and generates reorder lists.
+- ✅ **Chemical inventory** _(stub, awaits wire-up)_: Tracks reagents by CAS, location, container, amount, lot, purity, expiry, and supplier; logs check-outs against notebook entries, flags peroxide-formers past their date, and generates reorder lists.
 
 - ⬜ **Safety data lookup** _(planned)_: Pulls SDS data (GHS pictograms, H and P statements, flash point, LD50, exposure limits) for a compound by name or CAS. AI-integrated summary of the hazards, PPE, waste stream, and emergency response relevant to the specific procedure being planned.
 
