@@ -713,7 +713,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **DNS diagnostic console** _(stub, awaits wire-up)_: Runs dig, drill, and resolved queries against arbitrary nameservers with DNSSEC validation, trace, and EDNS options. Caches results and diffs zone-file changes across resolvers.
 
-- ⬜ **SSH and remote host manager** _(planned)_: Catalog of SSH hosts with known_hosts, identity file, jump host, and forwarding configuration per entry. Opens terminal, SFTP, or port-forward sessions and writes back to ~/.ssh/config.
+- ✅ **SSH and remote host manager** _(stub, awaits wire-up)_: Catalog of SSH hosts with known_hosts, identity file, jump host, and forwarding configuration per entry. Opens terminal, SFTP, or port-forward sessions and writes back to ~/.ssh/config.
 
 - ⬜ **VPN and tunnel manager** _(planned)_: Configures and toggles WireGuard, OpenVPN, and SSH tunnels with key generation, peer config export, and QR codes. Shows per-peer handshake age, transfer counters, and allowed-IP routing.
 
