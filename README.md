@@ -3022,7 +3022,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Virulence factor scanner** _(stub, awaits wire-up)_: Detects virulence determinants and pathogen-associated islands via VFDB, Virulencefinder, IslandViewer, and PHASTER for prophage discovery.
 
-- ⬜ **Taxonomic classifier** _(planned)_: Classifies metagenomic reads or MAGs with Kraken2, Bracken, MetaPhlAn, GTDB-Tk, or sourmash and reports relative abundance, alpha and beta diversity.
+- ✅ **Taxonomic classifier** _(stub, awaits wire-up)_: Classifies metagenomic reads or MAGs with Kraken2, Bracken, MetaPhlAn, GTDB-Tk, or sourmash and reports relative abundance, alpha and beta diversity.
 
 - ⬜ **Metagenome binner** _(planned)_: Bins contigs into MAGs via MetaBAT2, CONCOCT, and DAS_Tool, scores completeness and contamination with CheckM2, and annotates community function via HUMAnN.
 
