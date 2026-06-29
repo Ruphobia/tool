@@ -4588,7 +4588,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Fantasy draft optimizer** _(stub, awaits wire-up)_: Computes VBD/VORP from projections and replacement levels, scrapes ADP, and solves lineup construction under salary cap and positional constraints for DFS and season-long formats.
 
-- ⬜ **Body composition tracker** _(planned)_: Logs weight, skinfolds, bioimpedance, and DEXA scans; estimates body fat via Navy, Jackson-Pollock, and Durnin-Womersley with Kalman-smoothed lean-mass trajectory.
+- ✅ **Body composition tracker** _(stub, awaits wire-up)_: Logs weight, skinfolds, bioimpedance, and DEXA scans; estimates body fat via Navy, Jackson-Pollock, and Durnin-Womersley with Kalman-smoothed lean-mass trajectory.
 
 - ⬜ **Drill and play diagrammer** _(planned)_: Edits SVG court, field, ice, or pitch diagrams with route trees, screens, and defensive coverages; animates plays frame-by-frame and exports to GIF or video for film sessions.
 
