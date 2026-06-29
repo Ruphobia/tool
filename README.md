@@ -1026,7 +1026,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Kanban board** _(stub, awaits wire-up)_: Card lanes with WIP limits, swimlanes, labels, and per-card checklists. Cards link bidirectionally to tasks, notes, and documents. AI-integrated auto-routing of incoming cards by content.
 
-- ⬜ **Task inbox** _(planned)_: Flat capture surface for GTD-style next-actions with contexts, projects, energy, and time-required filters. AI-integrated triage that proposes context, project, and next-action verb for each captured item.
+- ✅ **Task inbox** _(stub, awaits wire-up)_: Flat capture surface for GTD-style next-actions with contexts, projects, energy, and time-required filters. AI-integrated triage that proposes context, project, and next-action verb for each captured item.
 
 - ⬜ **Calendar** _(planned)_: Day, week, month, and year views with multiple overlaid calendars, ICS import and export, recurrence rules, and time-zone handling. AI-integrated scheduling that proposes time slots from a meeting brief and flags conflicts.
 
