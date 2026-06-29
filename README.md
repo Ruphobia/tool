@@ -3192,7 +3192,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Census/ACS pull** _(stub, awaits wire-up)_: Queries Census Bureau APIs (Decennial, ACS 1/5-year, PEP) by geography (tract, block group, PUMA, county) and variable code, joins TIGER/Line shapefiles, and caches as a typed table with margin-of-error columns preserved.
 
-- ⬜ **Microdata explorer** _(planned)_: Loads IPUMS, CPS, and PUMS extracts with variable harmonization across years, applies replicate weights for variance estimation, and exposes a tabulation grid with crosstabs and significance flags.
+- ✅ **Microdata explorer** _(stub, awaits wire-up)_: Loads IPUMS, CPS, and PUMS extracts with variable harmonization across years, applies replicate weights for variance estimation, and exposes a tabulation grid with crosstabs and significance flags.
 
 - ⬜ **Shapefile/GIS overlay** _(planned)_: Reads shapefiles, GeoJSON, GeoPackage, and KML, reprojects between CRS (NAD83, WGS84, state plane), performs spatial joins, buffers, and dissolves, and renders choropleths with classed breaks (Jenks, quantile, equal interval).
 
