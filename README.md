@@ -2263,7 +2263,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Welding Procedure Helper** _(stub, awaits wire-up)_: Suggests filler-metal selection, preheat/interpass temperature, post-weld heat treatment, and shielding gas for MIG/TIG/stick/flux-core joining of two specified alloys. Includes carbon-equivalent and crack-susceptibility warnings.
 
-- ⬜ **Machinability And Speeds Lookup** _(planned)_: Recommended surface speeds, feeds, and tool materials for turning, milling, drilling, and tapping a given alloy with HSS, carbide, or ceramic tooling; includes machinability index relative to AISI 1212.
+- ✅ **Machinability And Speeds Lookup** _(stub, awaits wire-up)_: Recommended surface speeds, feeds, and tool materials for turning, milling, drilling, and tapping a given alloy with HSS, carbide, or ceramic tooling; includes machinability index relative to AISI 1212.
 
 - ⬜ **Surface Finish And Coating Selector** _(planned)_: Compares anodize types (I/II/III, hardcoat), passivation, electropolishing, electroplating (Zn, Ni, Cr, Cu, Au, Ag, Sn), PVD/DLC, powder coat, and paint systems by hardness, thickness, color, corrosion class (ASTM B117 hours), and cost.
 
