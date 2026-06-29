@@ -727,7 +727,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Hardware inventory** _(stub, awaits wire-up)_: Aggregates lshw, lspci, lsusb, dmidecode, and sensors output into a browsable hardware tree with firmware versions, temperatures, and fan speeds. Highlights drivers in use and lists kernel modules per device.
 
-- ⬜ **Performance profiler** _(planned)_: Wraps perf, eBPF, and bpftrace to record on-CPU and off-CPU profiles and render flamegraphs and latency histograms. AI-integrated narration of hot stacks and likely bottleneck classifications.
+- ✅ **Performance profiler** _(stub, awaits wire-up)_: Wraps perf, eBPF, and bpftrace to record on-CPU and off-CPU profiles and render flamegraphs and latency histograms. AI-integrated narration of hot stacks and likely bottleneck classifications.
 
 - ⬜ **Syscall and IO tracer** _(planned)_: Attaches strace, ltrace, or bpftrace probes to a running process and streams decoded syscalls, opened files, and network IO. Filters by syscall family and replays captured traces offline.
 
