@@ -208,7 +208,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Decision Log** _(in testing)_: Append-only journal of project decisions in an ADR-like template (context, options, decision, consequences) with bidirectional links to the entries and code they affect.
 
-- ⬜ **Personal Style Profile** _(planned)_: User-facing summary of preferences, idioms, recurring patterns, and people, editable as plain text and surfaced to assistants as a system-prompt fragment.
+- ✅ **Personal Style Profile** _(in testing)_: User-facing summary of preferences, idioms, recurring patterns, and people, editable as plain text and surfaced to assistants as a system-prompt fragment.
 
 - ⬜ **Salience Tuner** _(planned)_: Controls per-entry weight, decay rate, and pinning so frequently relevant memories stay hot while stale ones fade. Exposes a preview of what the assistant would currently retrieve.
 
