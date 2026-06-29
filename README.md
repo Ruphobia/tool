@@ -2249,7 +2249,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Jominy Hardenability Estimator** _(stub, awaits wire-up)_: Predicts the Jominy end-quench curve from steel composition using Grossmann/ideal-diameter correlations, and estimates the maximum section size that will through-harden in a given quench medium.
 
-- ⬜ **Strength Estimator** _(planned)_: Estimates yield strength, UTS, hardness, and ductility from composition, grain size (Hall-Petch), cold-work fraction, precipitate volume fraction, and temper. Includes Larson-Miller creep extrapolation for high-temperature service.
+- ✅ **Strength Estimator** _(stub, awaits wire-up)_: Estimates yield strength, UTS, hardness, and ductility from composition, grain size (Hall-Petch), cold-work fraction, precipitate volume fraction, and temper. Includes Larson-Miller creep extrapolation for high-temperature service.
 
 - ⬜ **Galvanic Corrosion Checker** _(planned)_: Looks up galvanic potentials in seawater and other electrolytes, flags incompatible material pairs by potential difference, and estimates area-ratio-weighted corrosion risk. Suggests insulating, coating, or sacrificial-anode mitigations.
 
