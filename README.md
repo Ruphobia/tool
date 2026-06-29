@@ -772,7 +772,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Procedural Generation Sandbox** _(stub, awaits wire-up)_: Live laboratory for noise, cellular automata, L-systems, wave function collapse, and graph rewriting, with seedable runs and parameter sweeps. AI-integrated suggestion of constraints from a few hand-drawn example outputs.
 
-- ⬜ **Navmesh & Pathfinding Lab** _(planned)_: Bakes navmeshes from level geometry, visualizes A*/JPS/HPA* searches step-by-step, and stress-tests with crowds of agents. Lets you tweak heuristics and agent radii with instant rebake.
+- ✅ **Navmesh & Pathfinding Lab** _(stub, awaits wire-up)_: Bakes navmeshes from level geometry, visualizes A*/JPS/HPA* searches step-by-step, and stress-tests with crowds of agents. Lets you tweak heuristics and agent radii with instant rebake.
 
 - ⬜ **Collision Shape Editor** _(planned)_: Per-sprite and per-mesh collider authoring with polygon, capsule, and compound shapes, plus auto-fit from alpha or mesh silhouettes. Previews collisions against test bodies with adjustable physics parameters.
 
