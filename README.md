@@ -4681,7 +4681,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Detailed genealogy and family history
 
-- ⬜ **GEDCOM Tree Editor** _(planned)_: Round-trip GEDCOM 5.5.1 / 7.0 editor with individual, family, source, and event records. Supports custom tags, multimedia links, and diff/merge between two trees on shared INDI keys.
+- ✅ **GEDCOM Tree Editor** _(stub, awaits wire-up)_: Round-trip GEDCOM 5.5.1 / 7.0 editor with individual, family, source, and event records. Supports custom tags, multimedia links, and diff/merge between two trees on shared INDI keys.
 
 - ⬜ **Autosomal Match Cluster Board** _(planned)_: Imports raw match lists from AncestryDNA, 23andMe, MyHeritage, and GEDmatch, then runs Leeds-method clustering plus configurable shared-cM thresholds. Renders the resulting groups as a colored matrix with drag-to-merge cluster assignment.
 
