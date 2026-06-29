@@ -819,7 +819,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Foveated Render Budget** _(stub, awaits wire-up)_: Per-frame GPU heatmap that breaks down cost by region (foveal, mid, peripheral) and shows headroom against the headset's target frame time. Suggests fixed and eye-tracked foveation parameters that hit the budget.
 
-- ⬜ **Gaze Heatmap Studio** _(planned)_: Aggregates eye-tracking sessions into fixation maps, scanpaths, and dwell heatmaps over the rendered scene. Useful for UI placement, attention studies, and validating foveated render falloff.
+- ✅ **Gaze Heatmap Studio** _(stub, awaits wire-up)_: Aggregates eye-tracking sessions into fixation maps, scanpaths, and dwell heatmaps over the rendered scene. Useful for UI placement, attention studies, and validating foveated render falloff.
 
 - ⬜ **Avatar IK Tuner** _(planned)_: Full-body and hand IK solver playground (FABRIK, two-bone, Final-IK style) driven by HMD plus two controllers, with shoulder hint constraints, elbow popping diagnostics, and finger curl retarget. Previews on a swappable humanoid rig.
 
