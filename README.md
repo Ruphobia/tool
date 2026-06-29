@@ -2044,7 +2044,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Unit converter** _(stub, awaits wire-up)_: Bidirectional converter across SI, imperial, CGS, natural/Planck, astronomical, and engineering units with dimensional-analysis checks. Flags dimensionally inconsistent expressions before evaluation.
 
-- ⬜ **Constants reference** _(planned)_: Searchable table of CODATA physical constants, particle properties, material constants, and astronomical data with uncertainties and citation back to source year.
+- ✅ **Constants reference** _(stub, awaits wire-up)_: Searchable table of CODATA physical constants, particle properties, material constants, and astronomical data with uncertainties and citation back to source year.
 
 - ⬜ **Equation library** _(planned)_: Browsable catalog of canonical equations across mechanics, EM, thermo, QM, relativity, and statistical mechanics, with variable definitions, assumptions, and one-click insertion into the symbolic or numerical workspace.
 
