@@ -1633,7 +1633,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Genealogy and GEDCOM editor** _(stub, awaits wire-up)_: Edits family trees with per-fact source citations, conflicting evidence handling, and DNA match notes. Imports and exports GEDCOM 7 and GEDCOM-X.
 
-- ⬜ **OCR ground-truth manager** _(planned)_: Curates page-aligned ground truth in PAGE-XML and ALTO for training HTR/OCR models. Tracks transcriber, normalization rules, and inter-annotator agreement on held-out lines.
+- ✅ **OCR ground-truth manager** _(stub, awaits wire-up)_: Curates page-aligned ground truth in PAGE-XML and ALTO for training HTR/OCR models. Tracks transcriber, normalization rules, and inter-annotator agreement on held-out lines.
 
 
 #### Ancient languages and paleography
