@@ -1666,7 +1666,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Manuscript Image Annotator** _(stub, awaits wire-up)_: IIIF-compatible viewer for high-resolution manuscript folios with deep zoom, region selection, and layered annotations for transcription, codicology, and decoration. AI-assisted line and column segmentation accelerates initial markup; corrections feed back into the OCR model.
 
-- ⬜ **Translation Drafting Assistant** _(planned)_: Produces draft English translations of ancient passages with morphological tooltips, alternative renderings, and citations to standard reference grammars (Smyth, Gildersleeve, Gesenius, Whitney, GAG). Flags hapax legomena, textual cruces, and idioms for human review.
+- ✅ **Translation Drafting Assistant** _(stub, awaits wire-up)_: Produces draft English translations of ancient passages with morphological tooltips, alternative renderings, and citations to standard reference grammars (Smyth, Gildersleeve, Gesenius, Whitney, GAG). Flags hapax legomena, textual cruces, and idioms for human review.
 
 - ⬜ **Sign and Glyph Frequency Profiler** _(planned)_: Computes character, sign, lemma, and collocation frequencies across selected corpora (PHI, TLG, Perseus, ETCSL, ORACC, GRETIL, Sefaria). Generates Zipf plots, hapax lists, and stylometric fingerprints for authorship and dating questions.
 
