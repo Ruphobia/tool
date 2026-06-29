@@ -3649,7 +3649,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Compositor** _(stub, awaits wire-up)_: Node-based image and video compositing with EXR multi-channel support, deep compositing, keyers, and 2.5D camera. Inspired by Natron/Nuke conventions.
 
-- ⬜ **Color grading** _(planned)_: Scene-referred grading with primary wheels, curves, qualifiers, and CDL/ACES workflows. Includes AI-integrated shot-match against a reference frame.
+- ✅ **Color grading** _(stub, awaits wire-up)_: Scene-referred grading with primary wheels, curves, qualifiers, and CDL/ACES workflows. Includes AI-integrated shot-match against a reference frame.
 
 - ⬜ **GIF and sprite toolkit** _(planned)_: Lossy GIF optimization, palette quantization, sprite-sheet packing, and APNG/WebP-animated output. Includes onion-skin frame review.
 
