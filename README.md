@@ -4459,7 +4459,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Envelope heat-loss stack** _(stub, awaits wire-up)_: Builds U-value assemblies layer by layer (framing fraction, cavity insulation, sheathing, cladding) with parallel-path and isothermal-planes methods; rolls up whole-building UA and design heat loss/gain.
 
-- ⬜ **Blower-door and infiltration estimator** _(planned)_: Converts blower-door CFM50 to ACH50, ACHnat, and equivalent leakage area using the LBL model with shielding and stack-height coefficients; suggests target tightness for the climate zone.
+- ✅ **Blower-door and infiltration estimator** _(stub, awaits wire-up)_: Converts blower-door CFM50 to ACH50, ACHnat, and equivalent leakage area using the LBL model with shielding and stack-height coefficients; suggests target tightness for the climate zone.
 
 - ⬜ **Energy retrofit payback ranker** _(planned)_: Ranks insulation, window, air-sealing, and equipment upgrades by simple payback and lifecycle NPV against local fuel prices and HDD/CDD data, with AI-integrated suggestion of bundles that hit a target HERS or utility rebate tier.
 
