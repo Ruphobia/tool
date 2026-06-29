@@ -4502,7 +4502,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Taxidermy Notebook** _(stub, awaits wire-up)_: Captures skinning measurements, eye-set references, pose sketches, form part numbers, tan recipes, and mount progress photos per specimen. Supplier order ledger and drying-time scheduler with humidity log integration.
 
-- ⬜ **Topo and Property Atlas** _(planned)_: Offline topo, satellite, and contour layers with public land, WMA, and parcel-line overlays sourced from county GIS. Marks stands, blinds, scrapes, food plots, boat ramps, and access trails with custom icon sets.
+- ✅ **Topo and Property Atlas** _(stub, awaits wire-up)_: Offline topo, satellite, and contour layers with public land, WMA, and parcel-line overlays sourced from county GIS. Marks stands, blinds, scrapes, food plots, boat ramps, and access trails with custom icon sets.
 
 - ⬜ **Wind and Scent Planner** _(planned)_: Models prevailing and forecast wind at each stand against terrain-driven thermals to recommend morning vs evening sits. Visualizes scent cones over the atlas and flags entry and exit routes that stay downwind of bedding.
 
