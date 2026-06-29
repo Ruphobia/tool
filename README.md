@@ -995,7 +995,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Filesystem Browser** _(stub, awaits wire-up)_: Mounts and edits CP/M, ProDOS, Apple DOS 3.3, Amiga FFS/OFS, CBM 1541, Atari DOS, and TRSDOS images at the file and sector level with undoable writes.
 
-- ⬜ **Repair Notebook** _(planned)_: Structured per-unit log of symptoms, scope traces, swap history, voltage-rail readings, and photos; AI surfaces similar prior cases and likely-next-checks from the notebook corpus.
+- ✅ **Repair Notebook** _(stub, awaits wire-up)_: Structured per-unit log of symptoms, scope traces, swap history, voltage-rail readings, and photos; AI surfaces similar prior cases and likely-next-checks from the notebook corpus.
 
 - ⬜ **ROM Patch Studio** _(planned)_: Applies and authors IPS, BPS, UPS, and Xdelta patches, with header-aware ROM splitting and merging plus translation-patch sanity checks against known-good base hashes.
 
