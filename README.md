@@ -2394,7 +2394,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pump curve matcher** _(stub, awaits wire-up)_: Plots manufacturer H-Q curves against system curves to find operating point, NPSH margin, and BEP distance. Handles parallel/series pumping, variable-speed (affinity laws), and wire-to-water efficiency; AI-integrated pump shortlist from a head/flow/duty target and a vendor catalog.
 
-- ⬜ **Open channel flow tool** _(planned)_: Manning's and Chezy solver for trapezoidal, circular, rectangular, and irregular cross-sections. Computes normal depth, critical depth, Froude number, and gradually-varied-flow profiles (M1/M2/S1/S2) for storm and sanitary conduits.
+- ✅ **Open channel flow tool** _(stub, awaits wire-up)_: Manning's and Chezy solver for trapezoidal, circular, rectangular, and irregular cross-sections. Computes normal depth, critical depth, Froude number, and gradually-varied-flow profiles (M1/M2/S1/S2) for storm and sanitary conduits.
 
 - ⬜ **TR-55 runoff calculator** _(planned)_: NRCS curve-number method for peak discharge and runoff volume from small watersheds. Includes the TR-20/TR-55 tabular hydrograph method, time-of-concentration via sheet/shallow/channel flow segments, and 24-hour Type I/IA/II/III rainfall distributions.
 
