@@ -1595,7 +1595,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### History and archival research
 
-- ⬜ **Timeline composer** _(planned)_: Builds multi-track chronologies with fuzzy date ranges, regnal/era dating, and confidence intervals. Renders parallel tracks for polities, persons, and events; exports to TimelineJS or static SVG.
+- ✅ **Timeline composer** _(stub, awaits wire-up)_: Builds multi-track chronologies with fuzzy date ranges, regnal/era dating, and confidence intervals. Renders parallel tracks for polities, persons, and events; exports to TimelineJS or static SVG.
 
 - ⬜ **Calendar converter** _(planned)_: Converts dates across Julian, Gregorian, Hijri, Hebrew, Coptic, Byzantine AM, French Republican, Mayan Long Count, and regnal years. Handles the 1582 cutover region-by-region and old-style year-start conventions.
 
