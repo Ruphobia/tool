@@ -2326,7 +2326,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Fluid properties database** _(stub, awaits wire-up)_: CoolProp/REFPROP-style lookup of density, viscosity, cp, k, Pr, surface tension, and saturation curves for water, refrigerants, oils, air, and mixtures. Returns properties along arbitrary T,P or T,x paths for use by other tools.
 
-- ⬜ **View factor calculator** _(planned)_: Computes radiation view factors between surface pairs (parallel, perpendicular, coaxial disks, cylinders) via closed-form and numerical contour integration. Assembles a view-factor matrix with reciprocity and summation checks.
+- ✅ **View factor calculator** _(stub, awaits wire-up)_: Computes radiation view factors between surface pairs (parallel, perpendicular, coaxial disks, cylinders) via closed-form and numerical contour integration. Assembles a view-factor matrix with reciprocity and summation checks.
 
 - ⬜ **Fan and duct noise predictor** _(planned)_: Predicts in-duct sound power from fans, dampers, and elbows per ASHRAE/AMCA methods and tracks attenuation through silencers, plenums, and terminations. Reports breakout noise and room NC at the diffuser.
 
