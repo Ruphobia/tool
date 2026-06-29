@@ -858,7 +858,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Algorithm Scaffolds** _(stub, awaits wire-up)_: Parameterized templates for QFT, Quantum Phase Estimation, Grover, Shor, HHL, Bernstein-Vazirani, Simon, Deutsch-Jozsa, and amplitude estimation, instantiable with chosen problem size and oracle wiring.
 
-- ⬜ **Hamiltonian Builder** _(planned)_: Editor for Pauli-string Hamiltonians and fermionic operators with Jordan-Wigner, Parity, and Bravyi-Kitaev mappings, second-quantized molecular input via PySCF, and Trotter/Suzuki decomposition into circuits.
+- ✅ **Hamiltonian Builder** _(stub, awaits wire-up)_: Editor for Pauli-string Hamiltonians and fermionic operators with Jordan-Wigner, Parity, and Bravyi-Kitaev mappings, second-quantized molecular input via PySCF, and Trotter/Suzuki decomposition into circuits.
 
 - ⬜ **Variational Solver Lab** _(planned)_: VQE and QAOA workbench with ansatz library (hardware-efficient, UCCSD, QAOA-p), pluggable classical optimizers (COBYLA, SPSA, Adam), gradient methods (parameter shift, SPSA), and live energy/landscape plots.
 
