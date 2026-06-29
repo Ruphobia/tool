@@ -1402,7 +1402,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Compliance Framework Mapper** _(stub, awaits wire-up)_: Maintains a control matrix mapping each control (encryption at rest, access review, breach notification, data minimization) across GDPR, CCPA, HIPAA, PCI DSS, SOC 2, ISO 27001, and NIST 800-53, with per-control evidence attachments and gap reporting.
 
-- ⬜ **Export Control Screener** _(planned)_: Classifies a product or technology under ECCN, USML, and HTS codes, screens parties against OFAC SDN, BIS Entity and Denied Persons lists, and EU consolidated lists, and emits a screening record per transaction with re-screen triggers on list updates.
+- ✅ **Export Control Screener** _(stub, awaits wire-up)_: Classifies a product or technology under ECCN, USML, and HTS codes, screens parties against OFAC SDN, BIS Entity and Denied Persons lists, and EU consolidated lists, and emits a screening record per transaction with re-screen triggers on list updates.
 
 - ⬜ **Litigation Hold Manager** _(planned)_: Issues hold notices, tracks custodian acknowledgments, suspends retention policies on named data sources (mail, chat, file shares, repos), and logs collection, preservation, and release events for evidentiary defensibility. Bates-stamps and produces a privilege log on export.
 
