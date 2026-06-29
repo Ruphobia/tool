@@ -870,7 +870,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Resource Estimator** _(stub, awaits wire-up)_: Reports qubit count, circuit depth, T-count, Toffoli-count, two-qubit-gate count, and projected wall-clock runtime on selected devices, including fault-tolerant overhead estimates for a chosen code distance.
 
-- ⬜ **Circuit Equivalence Checker** _(planned)_: Verifies two circuits implement the same unitary (or channel) up to global phase via ZX-calculus rewriting and Clifford-tableau methods, with a minimal counterexample basis state when they differ.
+- ✅ **Circuit Equivalence Checker** _(stub, awaits wire-up)_: Verifies two circuits implement the same unitary (or channel) up to global phase via ZX-calculus rewriting and Clifford-tableau methods, with a minimal counterexample basis state when they differ.
 
 - ⬜ **QASM and Format Bridge** _(planned)_: Round-trip import and export of OpenQASM 2/3, Quil, Cirq JSON, Qiskit QPY, and PennyLane tape, with a textual editor that stays in sync with the visual builder.
 
