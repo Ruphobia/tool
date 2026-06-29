@@ -3605,7 +3605,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Segmenter** _(stub, awaits wire-up)_: Click, box, and text-prompt segmentation built on SAM/SAM2 and Grounding-DINO. Exports masks, cutouts, and polygons for use elsewhere in the workbench.
 
-- ⬜ **Pose and depth extractor** _(planned)_: Runs OpenPose, DWPose, MiDaS, ZoeDepth, and normal map estimators to produce ControlNet conditioning maps. Visualizes overlays and saves the maps as reusable assets.
+- ✅ **Pose and depth extractor** _(stub, awaits wire-up)_: Runs OpenPose, DWPose, MiDaS, ZoeDepth, and normal map estimators to produce ControlNet conditioning maps. Visualizes overlays and saves the maps as reusable assets.
 
 - ⬜ **Tagger and captioner** _(planned)_: Image-to-text via WD14, BLIP, BLIP2, and a local VLM, producing booru tags, natural captions, and dense region descriptions. Writes results to sidecar files and the asset metadata store.
 
