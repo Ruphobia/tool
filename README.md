@@ -1257,7 +1257,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Socratic Tutor** _(stub, awaits wire-up)_: Drives dialogic practice by asking leading questions, probing reasoning, and refusing to volunteer the answer until the learner is close. AI-integrated with configurable persona, patience, and scaffolding depth.
 
-- ⬜ **OCR Grader** _(planned)_: Extracts handwritten or photographed student work, segments it into answer regions, and matches each to an expected solution. Surfaces low-confidence regions for instructor review.
+- ✅ **OCR Grader** _(stub, awaits wire-up)_: Extracts handwritten or photographed student work, segments it into answer regions, and matches each to an expected solution. Surfaces low-confidence regions for instructor review.
 
 - ⬜ **Syllabus Planner** _(planned)_: Lays out a course week by week with topics, readings, assessments, holidays, and pacing constraints. Solves for even workload, prerequisite ordering, and review-week placement.
 
