@@ -1734,7 +1734,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Mystical Praxis Codex** _(stub, awaits wire-up)_: Catalog of contemplative and ascetic techniques (hesychasm, dhikr, zazen, vipassana, kabbalistic meditation, hatha yoga, Ignatian exercises) with prerequisites, stages, and primary-source instructions. Cross-references phenomenological reports.
 
-- ⬜ **Field Ethnography Recorder** _(planned)_: Local-first capture tool for participant-observation: timestamped notes, audio, photos, and geotags bound to ritual event schemas. Enforces an IRB-style consent and provenance ledger for sensitive material.
+- ✅ **Field Ethnography Recorder** _(stub, awaits wire-up)_: Local-first capture tool for participant-observation: timestamped notes, audio, photos, and geotags bound to ritual event schemas. Enforces an IRB-style consent and provenance ledger for sensitive material.
 
 - ⬜ **Argument map editor** _(planned)_: Builds argument maps with premises, conclusions, attacks, and supports; imports Argdown syntax, exports to JSON-LD and SVG, and validates instantiations of Walton argument schemes.
 
