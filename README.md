@@ -1942,7 +1942,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **3D board viewer** _(stub, awaits wire-up)_: Renders the PCB stack with component bodies, solder mask, and silkscreen for visual inspection and mechanical fit checks. Exports STEP for enclosure CAD.
 
-- ⬜ **Footprint editor** _(planned)_: Creates and edits land patterns with IPC-compliant courtyards, pad stacks, and assembly drawings. AI-integrated generation of footprints from datasheet PDFs and dimensioned drawings.
+- ✅ **Footprint editor** _(stub, awaits wire-up)_: Creates and edits land patterns with IPC-compliant courtyards, pad stacks, and assembly drawings. AI-integrated generation of footprints from datasheet PDFs and dimensioned drawings.
 
 - ⬜ **Component library manager** _(planned)_: Unified parts database linking symbols, footprints, 3D models, datasheets, manufacturer part numbers, distributor stock, and lifecycle status. Deduplicates across libraries and tracks per-project BOMs.
 
