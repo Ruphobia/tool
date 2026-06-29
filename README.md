@@ -1917,7 +1917,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **SSML and prosody editor** _(stub, awaits wire-up)_: Visual editor for SSML markup with pitch, rate, emphasis, and break controls. Previews against the selected TTS engine with per-clause waveform inspection.
 
-- ⬜ **Caption renderer** _(planned)_: Burns soft subtitles into video with font, position, and karaoke effect support, or muxes them as sidecar tracks. Handles RTL, ruby text, and vertical layout.
+- ✅ **Caption renderer** _(stub, awaits wire-up)_: Burns soft subtitles into video with font, position, and karaoke effect support, or muxes them as sidecar tracks. Handles RTL, ruby text, and vertical layout.
 
 - ⬜ **Back-translation QA** _(planned)_: Round-trips translations through reverse MT and AI-integrated semantic comparison against the source to flag meaning drift, omissions, and hallucinated content.
 
