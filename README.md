@@ -4334,7 +4334,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Poker equity solver** _(stub, awaits wire-up)_: Computes hand-vs-hand and range-vs-range equity via exhaustive enumeration or Monte Carlo, supporting Hold'em, Omaha, and Stud variants. Returns equity distribution, board-texture breakdowns, and combo-by-combo grids.
 
-- ⬜ **GTO range explorer** _(planned)_: Loads precomputed solver outputs (PioSolver, GTO+, Wizard) and lets the user query node-by-node strategy frequencies, EV by combo, and exploitative deviations against custom opponent ranges. AI-integrated explanation translates solver output into plain-English heuristics.
+- ✅ **GTO range explorer** _(stub, awaits wire-up)_: Loads precomputed solver outputs (PioSolver, GTO+, Wizard) and lets the user query node-by-node strategy frequencies, EV by combo, and exploitative deviations against custom opponent ranges. AI-integrated explanation translates solver output into plain-English heuristics.
 
 - ⬜ **Hand history parser** _(planned)_: Parses PokerStars, GGPoker, and Hand2Note hand-history formats into a normalized schema with per-street action, pot odds, and showdown equities. Feeds leak-finder queries (e.g., '3-bet fold from BB vs CO').
 
