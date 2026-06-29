@@ -1728,7 +1728,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Canon and Apocrypha Tracker** _(stub, awaits wire-up)_: Tabulates inclusion status of every candidate text across canons (Catholic, Protestant, Ethiopian Orthodox, Tewahedo, rabbinic, Samaritan, Mandaean, various Buddhist canons, Daoist Daozang). Includes council decisions and dating ranges.
 
-- ⬜ **Hymnody and Chant Archive** _(planned)_: Searchable repository of hymns, chants, qawwali, kirtan, gregorian neumes, Byzantine ekphonetic notation, and shomyo with notation, audio, and lyric translations. Indexes by mode, occasion, and tradition.
+- ✅ **Hymnody and Chant Archive** _(stub, awaits wire-up)_: Searchable repository of hymns, chants, qawwali, kirtan, gregorian neumes, Byzantine ekphonetic notation, and shomyo with notation, audio, and lyric translations. Indexes by mode, occasion, and tradition.
 
 - ⬜ **Comparative Ethics Engine** _(planned)_: Queries normative positions across traditions on a given case (war, usury, sexuality, dietary law, end-of-life, environmental stewardship) with primary citations from each. AI synthesizes the spread of views and surfaces dissenting minorities.
 
