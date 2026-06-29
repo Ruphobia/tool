@@ -1433,7 +1433,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **UBO Graph Explorer** _(stub, awaits wire-up)_: Pulls corporate registry filings from Companies House, OpenCorporates, SEC EDGAR, and GLEIF LEI records; traces beneficial ownership through layered entities and highlights >25% control paths, nominees, and circular structures.
 
-- ⬜ **AML Risk Scorer** _(planned)_: Combines a policy DSL (country risk, occupation, product, channel, source-of-funds) with a gradient-boosted residual model; surfaces per-factor SHAP contributions to justify the score in a SAR or review note.
+- ✅ **AML Risk Scorer** _(stub, awaits wire-up)_: Combines a policy DSL (country risk, occupation, product, channel, source-of-funds) with a gradient-boosted residual model; surfaces per-factor SHAP contributions to justify the score in a SAR or review note.
 
 - ⬜ **Transaction Monitor** _(planned)_: Applies typology rules (structuring, smurfing, layering, rapid pass-through, sanctioned-corridor, mule-pattern) over a streaming ledger, opens cases above threshold, and drafts FinCEN SAR and goAML XML reports.
 
