@@ -2924,7 +2924,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Property predictor** _(stub, awaits wire-up)_: Estimates pKa, logP, logD, solubility, melting point, boiling point, vapor pressure, and basic ADMET descriptors from structure; reports species distribution versus pH and confidence intervals from the underlying model.
 
-- ⬜ **Crystallography viewer** _(planned)_: Loads CIF and PDB files and visualizes unit cell, symmetry operations, asymmetric unit, packing diagrams, and Miller planes; simulates powder XRD patterns and indexes a measured pattern against candidate cells.
+- ✅ **Crystallography viewer** _(stub, awaits wire-up)_: Loads CIF and PDB files and visualizes unit cell, symmetry operations, asymmetric unit, packing diagrams, and Miller planes; simulates powder XRD patterns and indexes a measured pattern against candidate cells.
 
 - ⬜ **Conformer and minimizer** _(planned)_: Runs UFF, MMFF, GAFF, and AMBER energy minimization and stochastic conformer search; reports relative energies, RMSDs, and Boltzmann populations and exports the lowest-energy ensemble for downstream calculation.
 
