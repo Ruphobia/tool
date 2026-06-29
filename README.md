@@ -1460,7 +1460,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Math and equation OCR** _(stub, awaits wire-up)_: Extracts LaTeX from cropped equations, screenshots, or hand-drawn formulas using a vision model. Renders the output back to verify and lets the user edit before insertion into notes.
 
-- ⬜ **Layout analyzer** _(planned)_: Detects page regions (columns, headers, footers, captions, figures, tables, footnotes) and emits a structured tree. Drives the table, figure, and reflow extractors downstream.
+- ✅ **Layout analyzer** _(stub, awaits wire-up)_: Detects page regions (columns, headers, footers, captions, figures, tables, footnotes) and emits a structured tree. Drives the table, figure, and reflow extractors downstream.
 
 - ⬜ **Table extractor** _(planned)_: Pulls tables out of PDF and scanned pages to CSV, TSV, or Markdown using rule-based detection with model-assisted cell merging and header inference.
 
