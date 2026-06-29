@@ -681,7 +681,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Systemd unit manager** _(stub, awaits wire-up)_: Browse, start, stop, enable, disable, mask, and edit systemd units and their drop-ins, with dependency graph and timer view. AI-integrated drafting of unit files from a plain-language service description.
 
-- ⬜ **Journal browser** _(planned)_: Filterable view of the systemd journal with boot, unit, priority, and time-range facets. AI-integrated clustering of repeated error patterns and summarization of long failure runs into a single explanation.
+- ✅ **Journal browser** _(stub, awaits wire-up)_: Filterable view of the systemd journal with boot, unit, priority, and time-range facets. AI-integrated clustering of repeated error patterns and summarization of long failure runs into a single explanation.
 
 - ⬜ **Log aggregator** _(planned)_: Tails arbitrary log files and journald streams into one searchable timeline with regex, severity, and source filters. AI-integrated anomaly highlighting against a learned baseline of normal log volume and content.
 
