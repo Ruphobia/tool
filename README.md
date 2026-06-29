@@ -1662,7 +1662,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Epigraphy Workbench** _(stub, awaits wire-up)_: Handles inscriptions with EpiDoc tagging: lacunae, restorations, abbreviations, ligatures, and editorial sigla. Indexes by find-spot, date, and corpus (CIL, IG, KAI, RIB) with map view and squeeze image overlay.
 
-- ⬜ **Cognate and Etymology Tracer** _(planned)_: Traces a word back through attested stages and reconstructed proto-forms with regular sound correspondences shown step by step. Links to Indo-European (LIV, NIL), Semitic (SED), and Dravidian etymological databases bundled locally.
+- ✅ **Cognate and Etymology Tracer** _(stub, awaits wire-up)_: Traces a word back through attested stages and reconstructed proto-forms with regular sound correspondences shown step by step. Links to Indo-European (LIV, NIL), Semitic (SED), and Dravidian etymological databases bundled locally.
 
 - ⬜ **Manuscript Image Annotator** _(planned)_: IIIF-compatible viewer for high-resolution manuscript folios with deep zoom, region selection, and layered annotations for transcription, codicology, and decoration. AI-assisted line and column segmentation accelerates initial markup; corrections feed back into the OCR model.
 
