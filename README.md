@@ -2855,7 +2855,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Load Profile Builder** _(stub, awaits wire-up)_: Constructs 8760-hour residential, commercial, or off-grid load shapes from appliance schedules, occupancy, HVAC, EV charging, and well pumps. Imports CSV smart-meter data and decomposes into base, thermal, and discretionary components.
 
-- ⬜ **Battery Bank Sizer** _(planned)_: Sizes a battery bank for target days of autonomy, depth-of-discharge limits, and round-trip efficiency, with chemistry-specific derating (LiFePO4, NMC, lead-acid AGM, flow). Reports usable kWh, cycle life at the chosen DoD, and replacement cadence.
+- ✅ **Battery Bank Sizer** _(stub, awaits wire-up)_: Sizes a battery bank for target days of autonomy, depth-of-discharge limits, and round-trip efficiency, with chemistry-specific derating (LiFePO4, NMC, lead-acid AGM, flow). Reports usable kWh, cycle life at the chosen DoD, and replacement cadence.
 
 - ⬜ **Battery Chemistry Comparator** _(planned)_: Side-by-side comparison of energy density, cycle life vs DoD, calendar aging, temperature derating, C-rate limits, and $/kWh-cycle across chemistries. Highlights the break-even crossover for a given duty cycle.
 
