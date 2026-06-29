@@ -2133,7 +2133,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Drawing generator** _(stub, awaits wire-up)_: Produces dimensioned 2D drawings from 3D models with section, detail, and isometric views, BOM tables, and title block templating. Auto-projects views and infers reasonable dimensioning.
 
-- ⬜ **Bearing and shaft designer** _(planned)_: Sizes ball, roller, plain, and thrust bearings with L10 life, dynamic load, and shaft fit calculations. Generates shoulder, fillet, and keyway dimensions per ISO standards.
+- ✅ **Bearing and shaft designer** _(stub, awaits wire-up)_: Sizes ball, roller, plain, and thrust bearings with L10 life, dynamic load, and shaft fit calculations. Generates shoulder, fillet, and keyway dimensions per ISO standards.
 
 - ⬜ **Gear designer** _(planned)_: Designs spur, helical, bevel, worm, and planetary gear trains with AGMA strength and pitting calculations, then exports involute profiles to CAD or DXF. Includes ratio solver for a target reduction.
 
