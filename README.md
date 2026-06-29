@@ -3136,7 +3136,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Drug Identifier** _(stub, awaits wire-up)_: Identifies pills by imprint, shape, color, and scoring against the NLM Pillbox / RxImage data; supports photo upload with AI-integrated visual matching as a triage step before manufacturer confirmation.
 
-- ⬜ **Medical Image Segmenter** _(planned)_: Runs local segmentation models (TotalSegmentator, MONAI) on CT/MRI volumes for organs, lesions, and vessels, with manual brush/polygon correction and volumetric statistics export.
+- ✅ **Medical Image Segmenter** _(stub, awaits wire-up)_: Runs local segmentation models (TotalSegmentator, MONAI) on CT/MRI volumes for organs, lesions, and vessels, with manual brush/polygon correction and volumetric statistics export.
 
 - ⬜ **Pathway Browser** _(planned)_: Visualizes biochemical and signaling pathways (Reactome, KEGG-equivalent open data, WikiPathways) with gene/protein/metabolite overlays and drug-target annotation.
 
