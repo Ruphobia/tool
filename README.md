@@ -1484,7 +1484,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Highlight exporter** _(stub, awaits wire-up)_: Dumps annotations to Markdown, Org, Obsidian, or Anki packages, grouped by book, tag, or color, with surrounding context windows and optional model-generated synthesis per highlight cluster.
 
-- ⬜ **Document summarizer** _(planned)_: Produces per-section, per-chapter, and whole-document summaries at selectable depth, with extractive quote pulls alongside abstractive paraphrase. Caches summaries per content hash so they survive reopen.
+- ✅ **Document summarizer** _(stub, awaits wire-up)_: Produces per-section, per-chapter, and whole-document summaries at selectable depth, with extractive quote pulls alongside abstractive paraphrase. Caches summaries per content hash so they survive reopen.
 
 - ⬜ **Glossary and index builder** _(planned)_: Identifies domain terms, named entities, and recurring symbols across a book or corpus, building a clickable glossary with first-mention pages and AI-integrated definitions grounded in the source text.
 
