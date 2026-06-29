@@ -879,7 +879,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Hash Workbench** _(stub, awaits wire-up)_: Computes MD5, SHA-1, SHA-256, SHA-512, BLAKE3, CRC32, ssdeep, and TLSH for files, text, or byte ranges. Supports batch verification against checksum manifests and similarity matching across known-bad corpora.
 
-- ⬜ **PCAP Analyzer** _(planned)_: Parses pcap/pcapng captures with per-packet decoding, flow reconstruction, and protocol stats. Provides display filters, follow-stream views, TLS metadata extraction, and AI-assisted explanation of suspicious conversations.
+- ✅ **PCAP Analyzer** _(stub, awaits wire-up)_: Parses pcap/pcapng captures with per-packet decoding, flow reconstruction, and protocol stats. Provides display filters, follow-stream views, TLS metadata extraction, and AI-assisted explanation of suspicious conversations.
 
 - ⬜ **Vulnerability Scanner Driver** _(planned)_: Drives Nmap NSE, Nuclei templates, and OpenVAS-style checks against targets with a unified result schema. Deduplicates findings, ranks by exploitability, and links each finding to CVE/CWE references.
 
