@@ -443,7 +443,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **TLS and certificate inspector** _(stub, awaits wire-up)_: Connects to a host on any port and reports the negotiated protocol, cipher suite, ALPN value, and full certificate chain with trust path validation. Flags weak parameters, expiry windows, and SAN mismatches; parses local PEM, DER, and PKCS#12 files.
 
-- ⬜ **Web scraper** _(planned)_: Fetches pages with a configurable user agent, throttle, and concurrency, and extracts data via CSS selectors, XPath, or JSONPath. AI-integrated selector synthesis from a natural-language description of the target field and adaptive re-selection when a page layout shifts.
+- ✅ **Web scraper** _(stub, awaits wire-up)_: Fetches pages with a configurable user agent, throttle, and concurrency, and extracts data via CSS selectors, XPath, or JSONPath. AI-integrated selector synthesis from a natural-language description of the target field and adaptive re-selection when a page layout shifts.
 
 - ⬜ **Headless browser** _(planned)_: Drives Chromium or Firefox in headless mode for JavaScript-rendered pages, screenshots, PDF export, and DOM snapshotting. Records HAR and exposes the page's network, console, and performance traces; scripts via a Playwright-style API.
 
