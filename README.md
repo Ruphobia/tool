@@ -2560,7 +2560,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Attitude Dynamics Simulator** _(stub, awaits wire-up)_: Propagates rigid-body attitude using quaternions, MRPs, or Euler angles under reaction wheel, CMG, magnetic torquer, and RCS actuation, with gravity gradient, aero, SRP, and residual dipole disturbance torques.
 
-- ⬜ **RCS & Thruster Sizer** _(planned)_: Sizes reaction control thrusters and propellant tanks from required impulse bits, minimum-impulse pulses, slew rate, and translation delta-v, accounting for plume impingement and duty cycle.
+- ✅ **RCS & Thruster Sizer** _(stub, awaits wire-up)_: Sizes reaction control thrusters and propellant tanks from required impulse bits, minimum-impulse pulses, slew rate, and translation delta-v, accounting for plume impingement and duty cycle.
 
 - ⬜ **Link Budget Calculator** _(planned)_: Builds RF and optical link budgets between spacecraft and ground stations or relay satellites, computing EIRP, free-space loss, atmospheric and rain attenuation, G/T, C/N0, Eb/N0, and margin versus required BER.
 
