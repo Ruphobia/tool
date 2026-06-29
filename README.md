@@ -948,7 +948,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Address Toolkit** _(stub, awaits wire-up)_: Encodes and decodes Bitcoin (P2PKH, P2SH, bech32, taproot), Ethereum (EIP-55, ENS), Solana, Cosmos bech32, and Monero address formats. Validates checksums, reverses to underlying script or public key, and flags vanity patterns.
 
-- ⬜ **Blockchain Explorer** _(planned)_: Queries Bitcoin, Ethereum, L2 rollups, Solana, and Cosmos chains via local node RPC or vendored archival mirrors. Renders blocks, transactions, mempool state, fee histograms, and reorg history with offline-capable caches.
+- ✅ **Blockchain Explorer** _(stub, awaits wire-up)_: Queries Bitcoin, Ethereum, L2 rollups, Solana, and Cosmos chains via local node RPC or vendored archival mirrors. Renders blocks, transactions, mempool state, fee histograms, and reorg history with offline-capable caches.
 
 - ⬜ **Transaction Builder** _(planned)_: Constructs raw transactions for Bitcoin (PSBT), Ethereum (EIP-1559, EIP-4844 blob), Solana, and Cosmos with manual fee, nonce, and signature control. Simulates execution against a forked state before broadcast.
 
