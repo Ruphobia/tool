@@ -3515,7 +3515,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Cross-Section Builder** _(stub, awaits wire-up)_: Draws a section line on a map and extrudes a geological cross-section from a DEM plus mapped contacts, dips, and unit polygons. Supports vertical exaggeration, fault offsets, and apparent-dip correction along oblique transects.
 
-- ⬜ **Geochemistry Plotter** _(planned)_: Standard rock-geochemistry diagrams: TAS, AFM, QAPF, Harker, Pearce, spider/REE-normalized multielement plots, and ternary classifiers. Accepts whole-rock CSV input with normalization to chondrite, primitive mantle, or NMORB.
+- ✅ **Geochemistry Plotter** _(stub, awaits wire-up)_: Standard rock-geochemistry diagrams: TAS, AFM, QAPF, Harker, Pearce, spider/REE-normalized multielement plots, and ternary classifiers. Accepts whole-rock CSV input with normalization to chondrite, primitive mantle, or NMORB.
 
 - ⬜ **CIPW Norm Calculator** _(planned)_: Computes the CIPW normative mineralogy of an igneous rock from a major-element whole-rock analysis, with iron oxidation handled by user ratio or empirical adjustment. Reports normative percentages and a derived rock classification.
 
