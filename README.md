@@ -2695,7 +2695,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Dyno Chart Plotter** _(stub, awaits wire-up)_: Imports chassis or engine dyno runs (CSV, SAE J1349) and overlays power and torque curves with correction factors, smoothing, and run-to-run delta comparison. Computes area-under-curve, peak holds, and powerband width.
 
-- ⬜ **Gear Ratio Designer** _(planned)_: Models transmission, final drive, and tire circumference to plot shift points, road speed per gear, and engine RPM crossover against a power curve. Solves for ideal ratios given target top speed, launch RPM, or course-specific shift count.
+- ✅ **Gear Ratio Designer** _(stub, awaits wire-up)_: Models transmission, final drive, and tire circumference to plot shift points, road speed per gear, and engine RPM crossover against a power curve. Solves for ideal ratios given target top speed, launch RPM, or course-specific shift count.
 
 - ⬜ **Engine Geometry Lab** _(planned)_: Computes bore, stroke, rod ratio, deck height, swept and clearance volume, static and dynamic compression ratio, and piston speed. Includes a valve-event and cam-timing visualizer with overlap, LSA, and effective duration.
 
