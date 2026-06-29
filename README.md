@@ -3478,7 +3478,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Bioacoustic classifier** _(stub, awaits wire-up)_: Processes audio recordings with BirdNET, Perch, BatDetect2, and Koogu for bird, bat, and anuran identification. Generates spectrograms, detection timestamps, vocal activity rates, and species accumulation curves.
 
-- ⬜ **Remote sensing indexer** _(planned)_: Pulls Sentinel-2, Landsat, MODIS, and PlanetScope tiles via STAC and computes NDVI, EVI, NDWI, NBR, and tasseled cap indices. Builds time series for phenology, deforestation alerts, and burn severity mapping.
+- ✅ **Remote sensing indexer** _(stub, awaits wire-up)_: Pulls Sentinel-2, Landsat, MODIS, and PlanetScope tiles via STAC and computes NDVI, EVI, NDWI, NBR, and tasseled cap indices. Builds time series for phenology, deforestation alerts, and burn severity mapping.
 
 - ⬜ **Protected area overlay** _(planned)_: Queries WDPA, OECMs, KBA, and Natura 2000 polygons against project footprints. Computes coverage, gap analysis against Aichi/30x30 targets, and management category breakdowns.
 
