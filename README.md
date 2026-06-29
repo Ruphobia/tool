@@ -4254,7 +4254,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Stack and Setup Manager** _(stub, awaits wire-up)_: Tracks memorized deck orders such as Mnemonica, Aronson, and Si Stebbins with key card lookup, stay-stack analysis after cuts and faros, and printable reference indices for the wallet.
 
-- ⬜ **Props Inventory** _(planned)_: Catalog of cards, coins, clubs, balls, silks, gimmicks, and consumables with condition tracking, retire-by dates, repair logs, travel case assignments, and per-routine load lists.
+- ✅ **Props Inventory** _(stub, awaits wire-up)_: Catalog of cards, coins, clubs, balls, silks, gimmicks, and consumables with condition tracking, retire-by dates, repair logs, travel case assignments, and per-routine load lists.
 
 - ⬜ **Stage Plot Designer** _(planned)_: Top-down stage diagrams with prop positions, blocking marks, light angles, audience risers, and sightline cones. Computes blind spots and exposure risk from any seat in the house.
 
