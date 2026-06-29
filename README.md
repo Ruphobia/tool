@@ -387,7 +387,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Bundler config tuner** _(stub, awaits wire-up)_: Edits and diff-previews Vite, Webpack, Rollup, esbuild, Rspack, or Turbopack configs with plugin presets, alias rewriting, code-splitting hints, and tree-shaking diagnostics.
 
-- ⬜ **Live dev server** _(planned)_: Boots an HMR dev server with framework auto-detect, port reuse, HTTPS via mkcert, network exposure, and a request/response timeline overlay.
+- ✅ **Live dev server** _(stub, awaits wire-up)_: Boots an HMR dev server with framework auto-detect, port reuse, HTTPS via mkcert, network exposure, and a request/response timeline overlay.
 
 - ⬜ **Component playground** _(planned)_: Storybook-style isolated render harness with controls/args, viewport switcher, MDX docs, interaction tests, and snapshot capture per story.
 
