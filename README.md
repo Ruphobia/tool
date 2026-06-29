@@ -3220,7 +3220,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Inequality and segregation metrics** _(stub, awaits wire-up)_: Computes Gini, Theil T/L, Atkinson, and 90/10 ratios for income/wealth distributions, plus dissimilarity, isolation, exposure, and Moran's I for residential segregation, with decomposition by group and geography.
 
-- ⬜ **Polling aggregator** _(planned)_: Pulls survey results from public archives (Roper, FiveThirtyEight, election polling repos), normalizes likely-voter/registered-voter screens and party-ID weightings, and fits a state-space poll-of-polls with house-effect and mode-effect adjustments.
+- ✅ **Polling aggregator** _(stub, awaits wire-up)_: Pulls survey results from public archives (Roper, FiveThirtyEight, election polling repos), normalizes likely-voter/registered-voter screens and party-ID weightings, and fits a state-space poll-of-polls with house-effect and mode-effect adjustments.
 
 - ⬜ **Codebook manager** _(planned)_: Generates and maintains DDI/Codebook-compliant data dictionaries with variable labels, value labels, skip patterns, and provenance for survey and administrative datasets, with diff views across waves and harmonization mappings.
 
