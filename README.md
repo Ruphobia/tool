@@ -4533,7 +4533,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Knot Reference Library** _(stub, awaits wire-up)_: Interactive 3D knot reference covering climbing, sailing, rescue, and fishing knots with step-by-step tying animations, strength ratings, and use-case tags. Searchable by function (load-bearing, slip, bend, hitch) and by rope diameter.
 
-- ⬜ **Gear List Manager** _(planned)_: Builds packing lists per activity template (alpine climb, ski tour, paragliding XC, multi-day backpack) with weight totals, base/consumable splits, and redundancy flags. Tracks owned inventory and suggests swaps to hit a target pack weight.
+- ✅ **Gear List Manager** _(stub, awaits wire-up)_: Builds packing lists per activity template (alpine climb, ski tour, paragliding XC, multi-day backpack) with weight totals, base/consumable splits, and redundancy flags. Tracks owned inventory and suggests swaps to hit a target pack weight.
 
 - ⬜ **Weather Window Planner** _(planned)_: Aggregates multi-model forecasts (GFS, ECMWF, HRRR, ICON, MeteoBlue) for a target coordinate and stacks precipitation, freezing level, wind aloft, and CAPE across the next 10 days. AI summarizes the best send/launch/tour windows with caveats.
 
