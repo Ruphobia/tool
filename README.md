@@ -159,7 +159,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **File format translators** _(in testing)_: a collection of converters between common file formats: pandoc-style document conversion, image format conversion, point-cloud format conversion, audio/video transcoding, archive (zip/tar/7z) repacking. Single-command invocation, batch mode, AI-suggested target format from the use case.
 
-- ⬜ **Document reader (RAG)** _(planned)_: a tool for ingesting documents (Word, PDF, plain text, HTML, datasheets) into a per-project retrieval index, so the AI can answer questions grounded in the user's own documents. Distinct from the Wikipedia knowledge base.
+- ✅ **Document reader (RAG)** _(in testing)_: a tool for ingesting documents (Word, PDF, plain text, HTML, datasheets) into a per-project retrieval index, so the AI can answer questions grounded in the user's own documents. Distinct from the Wikipedia knowledge base.
 
 - ⬜ **Safety and legality advisor** _(planned)_: a pipeline stage and callable tool. Reads the procedure being recommended, identifies the (material, process, activity) tuple, looks up real physical hazards and real legal/regulatory exposure (federal/state/international where relevant), and prepends a direct factual preface and inline warnings to the answer. Never refuses. Never hedges. Tells you the mechanism and the citation; then the answer continues. Backed by a material-safety database and a regulatory-citation database.
 
