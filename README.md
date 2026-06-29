@@ -242,7 +242,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ⬜ **Wayback Sweeper** _(planned)_: Queries the Internet Archive CDX API for snapshot history of a URL or host and bulk-fetches selected captures. Useful for recovering deleted pages and diffing content drift over time.
 
-- ⬜ **API Harvester** _(planned)_: Declarative HTTP client for paginated REST and GraphQL endpoints with auth, retry, backoff, and cursor/offset/keyset pagination strategies. Streams results into the same ingest pipeline as the crawler.
+- ✅ **API Harvester** _(in testing)_: Declarative HTTP client for paginated REST and GraphQL endpoints with auth, retry, backoff, and cursor/offset/keyset pagination strategies. Streams results into the same ingest pipeline as the crawler.
 
 - ✅ **Deduplicating Ingest** _(in testing)_: Canonicalizes URLs, hashes content with SimHash and MinHash, and merges near-duplicate records across sources. Tracks provenance so the original fetch context is never lost.
 
