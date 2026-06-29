@@ -74,11 +74,19 @@ Runtime * get_runtime_locked() {
     }
 
     mtmd_context_params vp = mtmd_context_params_default();
-    vp.use_gpu          = true;
+    // mtmd has no main_gpu setting; with use_gpu=true the vision tower's
+    // compute graph allocates on device 0 by default (≈14 GB for a full
+    // Qwen3-VL dynamic-resolution batch — OOMs on a P100 that already
+    // holds cleanup + qwen14b). Run vision encoding on CPU; the LLM still
+    // runs on GPU 1 for decode. Vision calls are infrequent (user drags
+    // an image), so the ~5-15s CPU encode time is acceptable. Cap image
+    // tokens so dynamic-resolution doesn't explode the patch count.
+    vp.use_gpu          = false;
     vp.print_timings    = false;
-    vp.n_threads        = 4;
+    vp.n_threads        = 8;
     vp.flash_attn_type  = LLAMA_FLASH_ATTN_TYPE_DISABLED;
     vp.warmup           = false;
+    vp.image_max_tokens = 1024;
 
     mtmd_context * vctx = mtmd_init_from_file(kMmprojRelPath, model, vp);
     if (!vctx) {

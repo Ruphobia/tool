@@ -227,14 +227,32 @@ body {
 .paint-toolbar .paint-size-label {
   font: 11px monospace; color: var(--fg-dim); min-width: 36px;
 }
-.paint-toolbar .paint-save {
-  margin-left: auto;
-  background: var(--accent); color: #fff;
-  border: 1px solid var(--accent); border-radius: 3px;
-  font: inherit; font-weight: 600; font-size: 12px;
-  padding: 3px 12px; cursor: pointer;
+.paint-toolbar .paint-sep {
+  width: 1px; align-self: stretch; background: var(--border);
+  margin: 0 4px;
 }
-.paint-toolbar .paint-save:hover { background: var(--accent2); }
+.paint-toolbar .paint-undo,
+.paint-toolbar .paint-redo,
+.paint-toolbar .paint-zoom-in,
+.paint-toolbar .paint-zoom-out {
+  background: var(--bg); color: var(--fg);
+  border: 1px solid var(--border); border-radius: 3px;
+  font: inherit; font-size: 14px; line-height: 1;
+  padding: 3px 8px; cursor: pointer;
+  min-width: 26px;
+}
+.paint-toolbar .paint-undo:hover,
+.paint-toolbar .paint-redo:hover,
+.paint-toolbar .paint-zoom-in:hover,
+.paint-toolbar .paint-zoom-out:hover {
+  background: var(--bg3); border-color: var(--accent);
+}
+.paint-toolbar .paint-zoom-label {
+  font: 11px monospace; color: var(--fg);
+  min-width: 48px; text-align: center;
+  cursor: pointer; user-select: none;
+}
+.paint-toolbar .paint-zoom-label:hover { color: var(--accent); }
 .paint-stack {
   flex: 1 1 auto;
   min-height: 0;

@@ -491,6 +491,13 @@ async function openFile(path) {
       const f = state.files[path];
       if (!f) return;
       if (m === 'edit') f.buildPaint();
+      // Toggling back to view: refresh the <img> from the live canvas so
+      // unsaved edits are still visible. (When saved, the file is also
+      // re-fetched fresh — both paths converge on showing current state.)
+      if (m === 'view' && f.paint) {
+        const v = f.surface.querySelector('.image-view-wrap img');
+        if (v) v.src = f.paint.snapshotDataURL();
+      }
       f.imgMode = m;
       const v = f.surface.querySelector('.image-view-wrap');
       const e = f.surface.querySelector('.image-edit-wrap');
@@ -693,10 +700,11 @@ function buildEditorTab(path, mode) {
 
 // ===== Image paint editor (MS-Paint-style) ==============================
 // Builds a canvas + toolbar inside `host`. Returns an object exposing
-// .save() and .getCanvas(). The canvas is initialized from `srcImg` once
-// the image's natural dimensions are known.
+// .save(), .undo(), .redo(), .copy(), .cut(), .paste(), .pasteBlob(),
+// .deleteSelection(), .hasSelection(), .getCanvas(), .zoom(direction).
+// Saving is keyboard-only (Ctrl+S); the toolbar has tools / color / size
+// / zoom — no save button.
 function buildPaintEditor(host, srcImg, path) {
-  // Toolbar (color picker, brush size, tool select, save).
   const toolbar = document.createElement('div');
   toolbar.className = 'paint-toolbar';
   toolbar.innerHTML =
@@ -704,15 +712,22 @@ function buildPaintEditor(host, srcImg, path) {
     `<button data-tool="eraser" class="paint-tool"        title="Eraser">⌫</button>` +
     `<button data-tool="line"   class="paint-tool"        title="Line">／</button>` +
     `<button data-tool="rect"   class="paint-tool"        title="Rectangle">▭</button>` +
+    `<button data-tool="select" class="paint-tool"        title="Select (drag a rectangle, then Ctrl+C / Ctrl+X / Ctrl+V / Del)">⛶</button>` +
+    `<span class="paint-sep"></span>` +
     `<input  type="color" class="paint-color" value="#ff2222" title="Color">` +
     `<input  type="range" class="paint-size"  min="1" max="60" value="4" title="Brush size">` +
     `<span   class="paint-size-label">4px</span>` +
-    `<button class="paint-save" title="Save (Ctrl+S)">Save</button>`;
+    `<span class="paint-sep"></span>` +
+    `<button class="paint-undo"     title="Undo (Ctrl+Z)">↶</button>` +
+    `<button class="paint-redo"     title="Redo (Ctrl+Y)">↷</button>` +
+    `<span class="paint-sep"></span>` +
+    `<button class="paint-zoom-out" title="Zoom out (Ctrl+Wheel)">−</button>` +
+    `<span class="paint-zoom-label" title="Zoom (click to reset)">100%</span>` +
+    `<button class="paint-zoom-in"  title="Zoom in (Ctrl+Wheel)">+</button>`;
   host.appendChild(toolbar);
 
-  // Canvas stack: base (committed pixels) + overlay (preview for shapes).
-  // The .paint-canvases wrapper sits on .paint-stack (which centers + scrolls),
-  // and the overlay is absolutely positioned over the base inside it.
+  // Canvas stack: base (committed pixels) + overlay (preview / selection).
+  // .paint-canvases wraps both and grows / shrinks with zoom.
   const stack = document.createElement('div');
   stack.className = 'paint-stack';
   host.appendChild(stack);
@@ -726,45 +741,76 @@ function buildPaintEditor(host, srcImg, path) {
   inner.appendChild(base);
   inner.appendChild(overlay);
 
-  const state = {
+  const st = {
     tool: 'brush',
     color: '#ff2222',
     size: 4,
+    zoom: 1,
     drawing: false,
     startX: 0, startY: 0,
     lastX: 0,  lastY: 0,
+    selection: null,         // {x, y, w, h} in canvas pixels
+    selecting: false,        // mid-drag for select tool
+    clipboard: null,         // HTMLCanvasElement holding copied pixels
   };
 
-  // Resize canvases to match the natural image dimensions (or, if the image
-  // is huge, the displayed size — keep 1:1 for fidelity).
+  const bctx = base.getContext('2d');
+  const octx = overlay.getContext('2d');
+
+  // ----- canvas init + zoom ---------------------------------------------
+  const applyZoom = () => {
+    const w = base.width  * st.zoom;
+    const h = base.height * st.zoom;
+    inner.style.width    = w + 'px';
+    inner.style.height   = h + 'px';
+    base.style.width     = w + 'px';
+    base.style.height    = h + 'px';
+    overlay.style.width  = w + 'px';
+    overlay.style.height = h + 'px';
+    const pct = Math.round(st.zoom * 100);
+    toolbar.querySelector('.paint-zoom-label').textContent = pct + '%';
+  };
   const initCanvases = () => {
     const w = srcImg.naturalWidth  || srcImg.width  || 600;
     const h = srcImg.naturalHeight || srcImg.height || 400;
     base.width    = w; base.height    = h;
     overlay.width = w; overlay.height = h;
-    base.getContext('2d').drawImage(srcImg, 0, 0, w, h);
+    bctx.drawImage(srcImg, 0, 0, w, h);
+    applyZoom();
   };
   if (srcImg.complete && srcImg.naturalWidth) initCanvases();
   else srcImg.addEventListener('load', initCanvases, { once: true });
 
-  // Tool buttons.
+  // ----- toolbar wiring -------------------------------------------------
   toolbar.querySelectorAll('.paint-tool').forEach(btn => {
     btn.addEventListener('click', () => {
-      state.tool = btn.dataset.tool;
+      st.tool = btn.dataset.tool;
       toolbar.querySelectorAll('.paint-tool').forEach(b =>
         b.classList.toggle('active', b === btn));
+      // Switching tools clears any drag-in-progress preview.
+      if (st.tool !== 'select') { clearSelection(); }
+      redrawOverlay();
     });
   });
   toolbar.querySelector('.paint-color').addEventListener('input', e => {
-    state.color = e.target.value;
+    st.color = e.target.value;
   });
   const sizeInput = toolbar.querySelector('.paint-size');
   const sizeLabel = toolbar.querySelector('.paint-size-label');
   sizeInput.addEventListener('input', e => {
-    state.size = parseInt(e.target.value, 10);
-    sizeLabel.textContent = state.size + 'px';
+    st.size = parseInt(e.target.value, 10);
+    sizeLabel.textContent = st.size + 'px';
   });
+  toolbar.querySelector('.paint-undo').addEventListener('click', () => undo());
+  toolbar.querySelector('.paint-redo').addEventListener('click', () => redo());
+  toolbar.querySelector('.paint-zoom-in').addEventListener('click',
+    () => zoom(+1));
+  toolbar.querySelector('.paint-zoom-out').addEventListener('click',
+    () => zoom(-1));
+  toolbar.querySelector('.paint-zoom-label').addEventListener('click',
+    () => zoomReset());
 
+  // ----- pointer helpers ------------------------------------------------
   // Map a pointer event to canvas-pixel coordinates (handles CSS scaling).
   const ptFromEvent = e => {
     const r = base.getBoundingClientRect();
@@ -774,19 +820,13 @@ function buildPaintEditor(host, srcImg, path) {
     };
   };
 
-  const bctx = base.getContext('2d');
-  const octx = overlay.getContext('2d');
-
   const drawStroke = (ctx, x0, y0, x1, y1) => {
     ctx.lineCap   = 'round';
     ctx.lineJoin  = 'round';
-    ctx.strokeStyle = state.color;
-    ctx.lineWidth = state.size;
-    if (state.tool === 'eraser') {
-      ctx.globalCompositeOperation = 'destination-out';
-    } else {
-      ctx.globalCompositeOperation = 'source-over';
-    }
+    ctx.strokeStyle = st.color;
+    ctx.lineWidth = st.size;
+    ctx.globalCompositeOperation = (st.tool === 'eraser')
+      ? 'destination-out' : 'source-over';
     ctx.beginPath();
     ctx.moveTo(x0, y0);
     ctx.lineTo(x1, y1);
@@ -794,68 +834,256 @@ function buildPaintEditor(host, srcImg, path) {
     ctx.globalCompositeOperation = 'source-over';
   };
 
+  // ----- undo / redo ----------------------------------------------------
+  const undoStack = [];
+  const redoStack = [];
+  const MAX_UNDO = 30;
+  const snapshot = () => {
+    const c = document.createElement('canvas');
+    c.width = base.width; c.height = base.height;
+    c.getContext('2d').drawImage(base, 0, 0);
+    return c;
+  };
+  const pushUndo = () => {
+    undoStack.push(snapshot());
+    if (undoStack.length > MAX_UNDO) undoStack.shift();
+    redoStack.length = 0;
+  };
+  const restoreSnapshot = src => {
+    bctx.globalCompositeOperation = 'source-over';
+    bctx.clearRect(0, 0, base.width, base.height);
+    bctx.drawImage(src, 0, 0);
+  };
+  const undo = () => {
+    if (!undoStack.length) return;
+    redoStack.push(snapshot());
+    restoreSnapshot(undoStack.pop());
+    markImageDirty(path);
+  };
+  const redo = () => {
+    if (!redoStack.length) return;
+    undoStack.push(snapshot());
+    restoreSnapshot(redoStack.pop());
+    markImageDirty(path);
+  };
+
+  // ----- selection ------------------------------------------------------
+  const clearSelection = () => { st.selection = null; };
+  let antsTimer = null;
+  let antsOffset = 0;
+  const startAnts = () => {
+    if (antsTimer) return;
+    antsTimer = setInterval(() => {
+      antsOffset = (antsOffset + 1) % 8;
+      redrawOverlay();
+    }, 100);
+  };
+  const stopAnts = () => { if (antsTimer) { clearInterval(antsTimer); antsTimer = null; } };
+  const redrawOverlay = () => {
+    octx.clearRect(0, 0, overlay.width, overlay.height);
+    if (st.selection) {
+      const { x, y, w, h } = st.selection;
+      octx.lineWidth = Math.max(1, 1 / st.zoom);
+      octx.setLineDash([4, 4]);
+      octx.lineDashOffset = -antsOffset;
+      octx.strokeStyle = '#000';
+      octx.strokeRect(x + 0.5, y + 0.5, w - 1, h - 1);
+      octx.strokeStyle = '#fff';
+      octx.lineDashOffset = -antsOffset + 4;
+      octx.strokeRect(x + 0.5, y + 0.5, w - 1, h - 1);
+      octx.setLineDash([]);
+      startAnts();
+    } else {
+      stopAnts();
+    }
+  };
+
+  // ----- pointer events on overlay -------------------------------------
   overlay.addEventListener('pointerdown', e => {
+    if (e.button !== 0) return;
     overlay.setPointerCapture(e.pointerId);
     const p = ptFromEvent(e);
-    state.drawing = true;
-    state.startX = p.x; state.startY = p.y;
-    state.lastX  = p.x; state.lastY  = p.y;
-    if (state.tool === 'brush' || state.tool === 'eraser') {
+    st.drawing = true;
+    st.startX = p.x; st.startY = p.y;
+    st.lastX  = p.x; st.lastY  = p.y;
+    if (st.tool === 'select') {
+      st.selecting = true;
+      clearSelection();
+      stopAnts();
+      octx.clearRect(0, 0, overlay.width, overlay.height);
+      return;
+    }
+    // Any non-select drawing tool: snapshot for undo, then start.
+    pushUndo();
+    if (st.tool === 'brush' || st.tool === 'eraser') {
       drawStroke(bctx, p.x, p.y, p.x + 0.01, p.y + 0.01);  // dot
     }
   });
   overlay.addEventListener('pointermove', e => {
-    if (!state.drawing) return;
+    if (!st.drawing) return;
     const p = ptFromEvent(e);
-    if (state.tool === 'brush' || state.tool === 'eraser') {
-      drawStroke(bctx, state.lastX, state.lastY, p.x, p.y);
-      state.lastX = p.x; state.lastY = p.y;
+    if (st.tool === 'brush' || st.tool === 'eraser') {
+      drawStroke(bctx, st.lastX, st.lastY, p.x, p.y);
+      st.lastX = p.x; st.lastY = p.y;
+      markImageDirty(path);
+    } else if (st.tool === 'select') {
+      const sx = Math.min(st.startX, p.x);
+      const sy = Math.min(st.startY, p.y);
+      const sw = Math.abs(p.x - st.startX);
+      const sh = Math.abs(p.y - st.startY);
+      st.selection = { x: sx, y: sy, w: sw, h: sh };
+      redrawOverlay();
     } else {
-      // Preview shape on the overlay.
+      // Live shape preview on overlay.
       octx.clearRect(0, 0, overlay.width, overlay.height);
-      octx.strokeStyle = state.color;
-      octx.lineWidth   = state.size;
+      octx.strokeStyle = st.color;
+      octx.lineWidth   = st.size;
       octx.lineCap     = 'round';
-      if (state.tool === 'line') {
+      if (st.tool === 'line') {
         octx.beginPath();
-        octx.moveTo(state.startX, state.startY);
+        octx.moveTo(st.startX, st.startY);
         octx.lineTo(p.x, p.y);
         octx.stroke();
-      } else if (state.tool === 'rect') {
-        const x = Math.min(state.startX, p.x);
-        const y = Math.min(state.startY, p.y);
-        const w = Math.abs(p.x - state.startX);
-        const h = Math.abs(p.y - state.startY);
+      } else if (st.tool === 'rect') {
+        const x = Math.min(st.startX, p.x);
+        const y = Math.min(st.startY, p.y);
+        const w = Math.abs(p.x - st.startX);
+        const h = Math.abs(p.y - st.startY);
         octx.strokeRect(x, y, w, h);
       }
     }
-    markImageDirty(path);
   });
   overlay.addEventListener('pointerup', e => {
-    if (!state.drawing) return;
-    state.drawing = false;
+    if (!st.drawing) return;
+    st.drawing = false;
     const p = ptFromEvent(e);
-    if (state.tool === 'line') {
-      drawStroke(bctx, state.startX, state.startY, p.x, p.y);
-    } else if (state.tool === 'rect') {
-      bctx.strokeStyle = state.color;
-      bctx.lineWidth   = state.size;
-      const x = Math.min(state.startX, p.x);
-      const y = Math.min(state.startY, p.y);
-      const w = Math.abs(p.x - state.startX);
-      const h = Math.abs(p.y - state.startY);
+    if (st.tool === 'select') {
+      st.selecting = false;
+      if (st.selection && (st.selection.w < 2 || st.selection.h < 2)) {
+        clearSelection();
+        octx.clearRect(0, 0, overlay.width, overlay.height);
+      } else {
+        redrawOverlay();
+      }
+      return;
+    }
+    if (st.tool === 'line') {
+      drawStroke(bctx, st.startX, st.startY, p.x, p.y);
+    } else if (st.tool === 'rect') {
+      bctx.strokeStyle = st.color;
+      bctx.lineWidth   = st.size;
+      const x = Math.min(st.startX, p.x);
+      const y = Math.min(st.startY, p.y);
+      const w = Math.abs(p.x - st.startX);
+      const h = Math.abs(p.y - st.startY);
       bctx.strokeRect(x, y, w, h);
     }
     octx.clearRect(0, 0, overlay.width, overlay.height);
     markImageDirty(path);
   });
 
-  toolbar.querySelector('.paint-save').addEventListener('click', () =>
-    saveImageFile(path));
+  // ----- zoom -----------------------------------------------------------
+  const ZOOM_STEPS = [0.1, 0.25, 0.5, 0.75, 1, 1.5, 2, 3, 4, 6, 8, 12, 16];
+  const zoom = dir => {
+    const i = ZOOM_STEPS.findIndex(z => Math.abs(z - st.zoom) < 0.001);
+    const cur = (i >= 0) ? i : ZOOM_STEPS.findIndex(z => z >= st.zoom);
+    const next = Math.max(0, Math.min(ZOOM_STEPS.length - 1,
+                                      (cur < 0 ? ZOOM_STEPS.length - 1 : cur) + dir));
+    st.zoom = ZOOM_STEPS[next];
+    applyZoom();
+    redrawOverlay();
+  };
+  const zoomReset = () => { st.zoom = 1; applyZoom(); redrawOverlay(); };
+
+  // Ctrl+Wheel anywhere in the stack zooms (centered on cursor).
+  stack.addEventListener('wheel', e => {
+    if (!(e.ctrlKey || e.metaKey)) return;
+    e.preventDefault();
+    zoom(e.deltaY < 0 ? +1 : -1);
+  }, { passive: false });
+
+  // ----- copy / cut / paste / delete -----------------------------------
+  const copyRegion = () => {
+    if (!st.selection) return null;
+    const { x, y, w, h } = st.selection;
+    const tmp = document.createElement('canvas');
+    tmp.width = Math.max(1, Math.round(w));
+    tmp.height = Math.max(1, Math.round(h));
+    tmp.getContext('2d').drawImage(
+      base, Math.round(x), Math.round(y),
+      tmp.width, tmp.height, 0, 0, tmp.width, tmp.height);
+    return tmp;
+  };
+  const writeToSystemClipboard = canvas => {
+    if (!navigator.clipboard || !window.ClipboardItem) return;
+    canvas.toBlob(blob => {
+      if (!blob) return;
+      try {
+        navigator.clipboard.write([new ClipboardItem({ [blob.type]: blob })])
+          .catch(() => {});
+      } catch {}
+    }, 'image/png');
+  };
+
+  const copy = () => {
+    const c = copyRegion();
+    if (!c) return;
+    st.clipboard = c;
+    writeToSystemClipboard(c);
+  };
+  const cut = () => {
+    const c = copyRegion();
+    if (!c) return;
+    st.clipboard = c;
+    writeToSystemClipboard(c);
+    pushUndo();
+    const { x, y, w, h } = st.selection;
+    bctx.clearRect(Math.round(x), Math.round(y), Math.round(w), Math.round(h));
+    markImageDirty(path);
+    redrawOverlay();
+  };
+  const deleteSelection = () => {
+    if (!st.selection) return;
+    pushUndo();
+    const { x, y, w, h } = st.selection;
+    bctx.clearRect(Math.round(x), Math.round(y), Math.round(w), Math.round(h));
+    clearSelection();
+    octx.clearRect(0, 0, overlay.width, overlay.height);
+    markImageDirty(path);
+  };
+  const pasteCanvas = pasted => {
+    if (!pasted) return;
+    pushUndo();
+    const px = st.selection ? Math.round(st.selection.x) : 0;
+    const py = st.selection ? Math.round(st.selection.y) : 0;
+    bctx.drawImage(pasted, px, py);
+    // Make the pasted region the new selection so the user can move/edit it.
+    st.selection = { x: px, y: py, w: pasted.width, h: pasted.height };
+    st.tool = 'select';
+    toolbar.querySelectorAll('.paint-tool').forEach(b =>
+      b.classList.toggle('active', b.dataset.tool === 'select'));
+    markImageDirty(path);
+    redrawOverlay();
+  };
+  const paste = () => pasteCanvas(st.clipboard);
+  const pasteBlob = async blob => {
+    const bmp = await createImageBitmap(blob);
+    const tmp = document.createElement('canvas');
+    tmp.width = bmp.width; tmp.height = bmp.height;
+    tmp.getContext('2d').drawImage(bmp, 0, 0);
+    pasteCanvas(tmp);
+  };
 
   return {
-    save: () => saveImageFile(path),
-    getCanvas: () => base,
+    save:            () => saveImageFile(path),
+    getCanvas:       () => base,
+    undo, redo,
+    copy, cut, paste, pasteBlob,
+    deleteSelection,
+    hasSelection:    () => !!st.selection,
+    zoom, zoomReset,
+    snapshotDataURL: () => base.toDataURL(),
+    destroy:         () => { stopAnts(); },
   };
 }
 
@@ -994,6 +1222,64 @@ document.addEventListener('keydown', e => {
       saveImageFile(path);
     } else {
       saveFile(path, f.getContent());
+    }
+  }
+});
+
+// Image-edit keyboard shortcuts: Ctrl+Z / Ctrl+Y (or Ctrl+Shift+Z) /
+// Ctrl+C / Ctrl+X / Ctrl+V / Delete. Only active when an image tab is in
+// edit mode. We don't intercept browser copy/cut/paste inside text inputs.
+document.addEventListener('keydown', e => {
+  const path = state.activeFilePath;
+  if (!path) return;
+  const f = state.files[path];
+  if (!f || f.mode !== 'image' || f.imgMode !== 'edit' || !f.paint) return;
+  // Don't hijack keys while typing into an input/textarea anywhere.
+  const t = e.target;
+  if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' ||
+            t.isContentEditable)) return;
+  const meta = e.ctrlKey || e.metaKey;
+  if (meta && e.key.toLowerCase() === 'z' && !e.shiftKey) {
+    e.preventDefault(); f.paint.undo();
+  } else if (meta && (e.key.toLowerCase() === 'y' ||
+                      (e.key.toLowerCase() === 'z' && e.shiftKey))) {
+    e.preventDefault(); f.paint.redo();
+  } else if (meta && e.key.toLowerCase() === 'c') {
+    if (!f.paint.hasSelection()) return;
+    e.preventDefault(); f.paint.copy();
+  } else if (meta && e.key.toLowerCase() === 'x') {
+    if (!f.paint.hasSelection()) return;
+    e.preventDefault(); f.paint.cut();
+  } else if (meta && e.key.toLowerCase() === 'v') {
+    // OS-clipboard paste flows through the 'paste' event below; this only
+    // fires for internal-only-clipboard fallback. preventDefault keeps the
+    // browser from inserting text somewhere unhelpful.
+    e.preventDefault(); f.paint.paste();
+  } else if ((e.key === 'Delete' || e.key === 'Backspace') &&
+             f.paint.hasSelection()) {
+    e.preventDefault(); f.paint.deleteSelection();
+  } else if (meta && (e.key === '+' || e.key === '=')) {
+    e.preventDefault(); f.paint.zoom(+1);
+  } else if (meta && e.key === '-') {
+    e.preventDefault(); f.paint.zoom(-1);
+  } else if (meta && e.key === '0') {
+    e.preventDefault(); f.paint.zoomReset();
+  }
+});
+
+// Paste an image from the OS clipboard into the active image-edit canvas.
+document.addEventListener('paste', e => {
+  const path = state.activeFilePath;
+  if (!path) return;
+  const f = state.files[path];
+  if (!f || f.mode !== 'image' || f.imgMode !== 'edit' || !f.paint) return;
+  const items = e.clipboardData ? e.clipboardData.items : [];
+  for (const item of items) {
+    if (item.type && item.type.startsWith('image/')) {
+      e.preventDefault();
+      const blob = item.getAsFile();
+      if (blob) f.paint.pasteBlob(blob);
+      return;
     }
   }
 });
