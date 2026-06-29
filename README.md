@@ -946,7 +946,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Mnemonic & HD Wallet Studio** _(stub, awaits wire-up)_: Generates and parses BIP39/SLIP39 mnemonics, derives BIP32/BIP44/BIP84/BIP86 paths across coins, and exports xpub/xprv. Validates passphrase variants, surfaces address gaps, and detects path collisions across wallets.
 
-- ⬜ **Address Toolkit** _(planned)_: Encodes and decodes Bitcoin (P2PKH, P2SH, bech32, taproot), Ethereum (EIP-55, ENS), Solana, Cosmos bech32, and Monero address formats. Validates checksums, reverses to underlying script or public key, and flags vanity patterns.
+- ✅ **Address Toolkit** _(stub, awaits wire-up)_: Encodes and decodes Bitcoin (P2PKH, P2SH, bech32, taproot), Ethereum (EIP-55, ENS), Solana, Cosmos bech32, and Monero address formats. Validates checksums, reverses to underlying script or public key, and flags vanity patterns.
 
 - ⬜ **Blockchain Explorer** _(planned)_: Queries Bitcoin, Ethereum, L2 rollups, Solana, and Cosmos chains via local node RPC or vendored archival mirrors. Renders blocks, transactions, mempool state, fee histograms, and reorg history with offline-capable caches.
 
