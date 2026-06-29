@@ -4821,7 +4821,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Race track timer and lap analyzer** _(stub, awaits wire-up)_: transponder integration, lap-time charts, sector splits, fastest-clean-lap, comparison across drivers/sessions.
 
-- ⬜ **Model-specific build databases** _(planned)_: wiring diagrams, BOM, settings dumps for popular open-source RC projects (Apex, X-Class, F3F sailplanes, scale RC boats), pulled from RCGroups, GitHub repos, and community wikis.
+- ✅ **Model-specific build databases** _(stub, awaits wire-up)_: wiring diagrams, BOM, settings dumps for popular open-source RC projects (Apex, X-Class, F3F sailplanes, scale RC boats), pulled from RCGroups, GitHub repos, and community wikis.
 
 
 #### Entertainment, trivia, pop culture
