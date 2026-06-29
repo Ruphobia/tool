@@ -482,7 +482,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Asset density optimizer** _(stub, awaits wire-up)_: Audits @1x/@2x/@3x and mdpi through xxxhdpi raster assets, flags missing densities, recompresses PNG/WebP losslessly, and proposes vector replacements (PDF for iOS, VectorDrawable for Android) where viable.
 
-- ⬜ **Signing identity vault** _(planned)_: Tracks iOS certificates, provisioning profiles, App Store Connect API keys, Android keystores, and Play upload keys; surfaces expirations, mismatched team IDs, entitlement drift, and missing capabilities before they break a build.
+- ✅ **Signing identity vault** _(stub, awaits wire-up)_: Tracks iOS certificates, provisioning profiles, App Store Connect API keys, Android keystores, and Play upload keys; surfaces expirations, mismatched team IDs, entitlement drift, and missing capabilities before they break a build.
 
 - ⬜ **Crash log symbolicator** _(planned)_: Resolves iOS .crash and .ips reports against dSYM bundles and Android stack traces against ProGuard/R8 mapping files, producing readable frames with source line attribution and a deduplicated grouping per signature.
 
