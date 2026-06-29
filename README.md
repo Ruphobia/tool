@@ -3965,7 +3965,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Smoke, Roast & Stall Modeler** _(stub, awaits wire-up)_: Predicts internal temperature curves for low-and-slow cooks including the evaporative stall; recommends wood, rub, and wrap timing by protein cut and target bark.
 
-- ⬜ **Spirit Proofing & Cuts Workbench** _(planned)_: Handles ABV and temperature correction, Pearson square dilution and blending, and heads/hearts/tails cut planning by congener volatility where legally applicable.
+- ✅ **Spirit Proofing & Cuts Workbench** _(stub, awaits wire-up)_: Handles ABV and temperature correction, Pearson square dilution and blending, and heads/hearts/tails cut planning by congener volatility where legally applicable.
 
 - ⬜ **Coffee & Tea Extraction Bench** _(planned)_: Computes TDS, extraction yield, brew ratio, and grind setting for pour-over, espresso, immersion, and tea; logs refractometer reads against brew curves and roast profile.
 
