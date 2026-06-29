@@ -4289,7 +4289,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Initiative Tracker** _(stub, awaits wire-up)_: Round/turn tracker with HP, conditions, concentration, durations, lair actions, and legendary action slots. Supports hidden GM rolls, surprise rounds, delayed/readied actions, and reaction tagging; auto-decrements timed effects on turn transitions.
 
-- ⬜ **World Bible** _(planned)_: Linked knowledge graph of places, factions, NPCs, deities, items, and events with bidirectional references, timeline pinning, and tag-based filtering. AI assists with consistency checks (contradictions, dangling references) and on-demand expansion of stub entries.
+- ✅ **World Bible** _(stub, awaits wire-up)_: Linked knowledge graph of places, factions, NPCs, deities, items, and events with bidirectional references, timeline pinning, and tag-based filtering. AI assists with consistency checks (contradictions, dangling references) and on-demand expansion of stub entries.
 
 - ⬜ **Random Table Generator** _(planned)_: Authoring and rolling environment for nested weighted tables with recursion, conditional branches, and inline dice expressions. Imports common formats (Perchance, RollTables, Foundry) and exposes tables as macros to other modules.
 
