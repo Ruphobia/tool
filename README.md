@@ -1224,7 +1224,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Submission tracker** _(stub, awaits wire-up)_: Query log per agent, editor, or publication with status timeline (queried, partial, full, passed, offered, withdrawn), simultaneous-submission rules, and follow-up reminders. Imports Submittable, QueryTracker, and Duotrope exports and respects per-market response-time norms.
 
-- ⬜ **Public-records desk** _(planned)_: FOIA and FOI request drafter with per-agency templates, statutory deadline tracking, appeal scaffolding, redaction OCR, and response indexer. Cross-links released documents to draft sections that cite them.
+- ✅ **Public-records desk** _(stub, awaits wire-up)_: FOIA and FOI request drafter with per-agency templates, statutory deadline tracking, appeal scaffolding, redaction OCR, and response indexer. Cross-links released documents to draft sections that cite them.
 
 
 #### Education and pedagogy
