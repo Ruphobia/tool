@@ -343,7 +343,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Stack trace analyzer** _(in testing)_: Pastes or ingests a crash or traceback, resolves frames to source, surfaces the relevant blame and recent commits, and asks the pipeline for a ranked list of plausible fixes.
 
-- ⬜ **Benchmark harness** _(planned)_: Microbenchmark and end-to-end timing runner with statistical confidence, regression tracking across commits, and AI commentary on why a delta likely appeared.
+- ✅ **Benchmark harness** _(stub, awaits wire-up)_: Microbenchmark and end-to-end timing runner with statistical confidence, regression tracking across commits, and AI commentary on why a delta likely appeared.
 
 - ⬜ **Container sandbox** _(planned)_: Disposable rootless containers and ephemeral VMs for running untrusted code, reproducible builds, and matrix testing across distros, language versions, and architectures.
 
