@@ -4790,7 +4790,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Behavioral activation planner** _(stub, awaits wire-up)_: Schedules mastery and pleasure activities on a weekly grid, with pre/post mood and engagement ratings (0-10). Suggests activities from the user's own historical high-rated entries (AI-integrated ranking).
 
-- ⬜ **Exposure hierarchy builder** _(planned)_: Constructs a SUDS-rated fear hierarchy with steps, planned exposures, expectancy vs outcome ratings, and inhibitory-learning prompts. Logs trial-by-trial SUDS curves to visualize habituation.
+- ✅ **Exposure hierarchy builder** _(stub, awaits wire-up)_: Constructs a SUDS-rated fear hierarchy with steps, planned exposures, expectancy vs outcome ratings, and inhibitory-learning prompts. Logs trial-by-trial SUDS curves to visualize habituation.
 
 - ⬜ **Reframing assistant** _(planned)_: Takes a hot thought plus distortion tags and drafts balanced alternative thoughts grounded in the user's stated evidence. AI-integrated, with deterministic citation of which evidence lines justify each reframe.
 
