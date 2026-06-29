@@ -1842,7 +1842,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Conlang Workbench** _(stub, awaits wire-up)_: Integrated environment for constructed languages: phoneme inventory, phonotactic constraints, lexicon with custom fields, generative word forge, and chained sound-change diachronics. Exports a printable grammar and dictionary.
 
-- ⬜ **Rhyme & Meter Scanner** _(planned)_: Finds perfect, slant, and consonance rhymes from pronouncing dictionaries (CMU, Espeak phonemes) and scans verse for iambic, trochaic, anapestic, and quantitative meter. Marks ictus, caesura, and enjambment.
+- ✅ **Rhyme & Meter Scanner** _(stub, awaits wire-up)_: Finds perfect, slant, and consonance rhymes from pronouncing dictionaries (CMU, Espeak phonemes) and scans verse for iambic, trochaic, anapestic, and quantitative meter. Marks ictus, caesura, and enjambment.
 
 - ⬜ **Treebank Viewer** _(planned)_: Loads Universal Dependencies, Penn Treebank, and SUD corpora, renders trees, and queries with Grew, TGrep2, or a built-in pattern language. Computes inter-annotator agreement and label distributions.
 
