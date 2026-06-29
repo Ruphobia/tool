@@ -1138,7 +1138,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Acceptance sampling planner** _(stub, awaits wire-up)_: Builds single, double, and sequential sampling plans per ANSI/ASQ Z1.4 and Z1.9, MIL-STD-105E, and Dodge-Romig, plots OC, AOQ, ASN, and ATI curves, and computes producer and consumer risks at given AQL/LTPD.
 
-- ⬜ **Weibull reliability analyzer** _(planned)_: Fits Weibull, lognormal, exponential, and Gumbel distributions to life and time-to-failure data with MLE and rank regression, handles right-, left-, and interval-censoring, and computes MTBF, B10, hazard, and reliability with confidence bounds.
+- ✅ **Weibull reliability analyzer** _(stub, awaits wire-up)_: Fits Weibull, lognormal, exponential, and Gumbel distributions to life and time-to-failure data with MLE and rank regression, handles right-, left-, and interval-censoring, and computes MTBF, B10, hazard, and reliability with confidence bounds.
 
 - ⬜ **JSA and permit-to-work builder** _(planned)_: Decomposes tasks into steps, hazards, and controls per ANSI/ASSP Z10 and OSHA 1910 references, generates hot-work, confined-space, energized-work, and lockout/tagout permits, and emits PPE matrices and isolation lists.
 
