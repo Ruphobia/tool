@@ -1980,7 +1980,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Battery and power-budget planner** _(stub, awaits wire-up)_: Cell modeling (Li-ion, LiFePO4, NiMH, lead-acid, supercaps) with state-of-charge curves, cycle-life estimates, and load-profile runtime predictions. Sizes regulators, fuses, and protection circuits to match.
 
-- ⬜ **Connector and cable designer** _(planned)_: Pinout planning for ribbon, JST, Molex, D-sub, and circular connectors with cable-loss, voltage-drop, and shielding calculators. Generates wiring diagrams and crimp-spec sheets.
+- ✅ **Connector and cable designer** _(stub, awaits wire-up)_: Pinout planning for ribbon, JST, Molex, D-sub, and circular connectors with cable-loss, voltage-drop, and shielding calculators. Generates wiring diagrams and crimp-spec sheets.
 
 - ⬜ **Test fixture and ICT planner** _(planned)_: Lays out bed-of-nails test points, pogo-pin grids, and boundary-scan chains. Generates a per-board test plan with pass/fail thresholds wired to the bench bridge.
 
