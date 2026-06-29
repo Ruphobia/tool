@@ -3175,7 +3175,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Bayesian analysis workbench** _(stub, awaits wire-up)_: Fits Bayesian t-tests, ANOVA, regression, and brms-style multilevel models with prior elicitation helpers and posterior diagnostics. Reports Bayes factors, credible intervals, and posterior predictive checks.
 
-- ⬜ **Pre-registration drafter** _(planned)_: Fills OSF and AsPredicted templates from the experiment design, hypotheses, and planned analyses already specified in the workbench. Locks the protocol with a hash for later deviation tracking.
+- ✅ **Pre-registration drafter** _(stub, awaits wire-up)_: Fills OSF and AsPredicted templates from the experiment design, hypotheses, and planned analyses already specified in the workbench. Locks the protocol with a hash for later deviation tracking.
 
 - ⬜ **Vignette factorial designer** _(planned)_: Builds factorial vignette and conjoint stimuli by combining attribute levels, with fractional-factorial reduction and balanced presentation across respondents. Exports to survey runners with per-respondent randomization.
 
