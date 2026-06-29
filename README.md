@@ -270,7 +270,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ⬜ **Annotation Workbench** _(planned)_: PDF and EPUB reader with highlights, sticky notes, ink, and rectangular region captures. Annotations stay in an open sidecar format and sync back into note items linked to page anchors.
 
-- ⬜ **In-Text Citation Inserter** _(planned)_: Editor plugin and standalone picker that inserts citations into Markdown, LaTeX, Pandoc, Typst, Org, and word processor documents. Supports author-date, numeric, footnote, and prefix-suffix-locator variants.
+- ✅ **In-Text Citation Inserter** _(in testing)_: Editor plugin and standalone picker that inserts citations into Markdown, LaTeX, Pandoc, Typst, Org, and word processor documents. Supports author-date, numeric, footnote, and prefix-suffix-locator variants.
 
 - ⬜ **Bibliography Generator** _(planned)_: Renders bibliographies and in-text citations through a bundled CSL engine with the full Zotero style repository. Outputs to HTML, RTF, DOCX, LaTeX, and Typst with style-specific quirks honored.
 
