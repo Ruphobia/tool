@@ -216,7 +216,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Semantic Recall Probe** _(in testing)_: Query box that runs hybrid keyword plus vector search over memory, shows ranked hits with highlighted spans, and explains why each entry matched.
 
-- ⬜ **Knowledge Graph View** _(planned)_: Interactive graph of entries linked by references, tags, people, and projects, with clustering, path-finding between two notes, and orphan detection.
+- ✅ **Knowledge Graph View** _(in testing)_: Interactive graph of entries linked by references, tags, people, and projects, with clustering, path-finding between two notes, and orphan detection.
 
 - ✅ **People and Relationships** _(in testing)_: Lightweight CRM-style records for collaborators and contacts with aliases, roles, project affiliations, and links to entries that mention them.
 
