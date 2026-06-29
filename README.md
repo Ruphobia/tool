@@ -4766,7 +4766,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Polyphasic Schedule Designer** _(stub, awaits wire-up)_: Models Everyman, Uberman, Dymaxion, Biphasic, and custom segmented schedules with core and nap placement on a 24-hour circadian curve. Simulates expected REM and SWS allocation and adaptation-period sleep deprivation.
 
-- ⬜ **Mood log with valence-arousal grid** _(planned)_: Logs mood as a two-axis point (valence x arousal) plus tags, notes, and contextual fields (sleep, caffeine, social). Renders Daylio-style streaks and weekly heatmaps over the local store.
+- ✅ **Mood log with valence-arousal grid** _(stub, awaits wire-up)_: Logs mood as a two-axis point (valence x arousal) plus tags, notes, and contextual fields (sleep, caffeine, social). Renders Daylio-style streaks and weekly heatmaps over the local store.
 
 - ⬜ **CBT thought record** _(planned)_: Structured template with situation, automatic thought, evidence-for/against, cognitive-distortion tags (Burns' list), and reframe. AI-integrated distortion classifier suggests likely distortions from the thought text.
 
