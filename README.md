@@ -1335,7 +1335,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Amortization & Loan Designer** _(stub, awaits wire-up)_: Schedules amortization for mortgages, auto loans, student loans, and custom instruments with fixed, variable, balloon, interest-only, or step-rate terms; compares prepayment, refinance, and recast strategies side by side with total-interest and break-even analysis.
 
-- ⬜ **Option Pricer** _(planned)_: Prices European and American options via Black-Scholes-Merton, binomial, and Monte Carlo with Greeks, implied volatility solver, and dividend handling. Includes a payoff-diagram builder for multi-leg strategies (spreads, condors, straddles).
+- ✅ **Option Pricer** _(stub, awaits wire-up)_: Prices European and American options via Black-Scholes-Merton, binomial, and Monte Carlo with Greeks, implied volatility solver, and dividend handling. Includes a payoff-diagram builder for multi-leg strategies (spreads, condors, straddles).
 
 - ⬜ **Bond Math Workbench** _(planned)_: Computes price, yield-to-maturity, yield-to-call, duration (Macaulay, modified, effective), and convexity for fixed- and floating-rate bonds; plots yield curves and runs parallel-shift and key-rate scenarios on a held portfolio.
 
