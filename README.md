@@ -803,7 +803,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **360 Video Studio** _(stub, awaits wire-up)_: Viewer and light editor for equirectangular, cubemap, and VR180 footage with stereo pair alignment, seam blending, stabilization, and overlay tracks (subtitles, hotspots). Exports to MP4, MKV, and a WebXR-ready package.
 
-- ⬜ **Hand Pose Authoring** _(planned)_: Design and record per-finger grip, pinch, point, and ASL-style poses against a skeletal rig, with blend trees between poses and a recognizer that fires events on match. Supports OpenXR hand-tracking joint conventions.
+- ✅ **Hand Pose Authoring** _(stub, awaits wire-up)_: Design and record per-finger grip, pinch, point, and ASL-style poses against a skeletal rig, with blend trees between poses and a recognizer that fires events on match. Supports OpenXR hand-tracking joint conventions.
 
 - ⬜ **Stereo View Inspector** _(planned)_: Side-by-side per-eye render preview with adjustable IPD, vergence, and zero-parallax distance; highlights pixels with excessive stereo disparity that cause eye strain. Useful for tuning UI placement and depth budgets.
 
