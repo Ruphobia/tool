@@ -1807,7 +1807,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Performance Variant Tracker** _(stub, awaits wire-up)_: Logs successive retellings of the same tale by a single performer or across performers to study oral-formulaic variation. Computes lexical and structural drift between sessions using Parry-Lord style formula detection.
 
-- ⬜ **Citation and Provenance Manager** _(planned)_: BibTeX-compatible reference store specialized for folklore: handles informant attribution, collection-date fields, archive call numbers, and rights status (public domain vs restricted ethnographic material).
+- ✅ **Citation and Provenance Manager** _(stub, awaits wire-up)_: BibTeX-compatible reference store specialized for folklore: handles informant attribution, collection-date fields, archive call numbers, and rights status (public domain vs restricted ethnographic material).
 
 
 #### Linguistics and conlanging
