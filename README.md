@@ -3462,7 +3462,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Occurrence record harvester** _(stub, awaits wire-up)_: Pulls species occurrence records from GBIF, iNaturalist, eBird, VertNet, and BOLD by taxon, bounding box, or date range. Normalizes Darwin Core fields, flags georeferencing issues, and deduplicates across sources.
 
-- ⬜ **Diversity index calculator** _(planned)_: Computes Shannon, Simpson, Pielou evenness, Chao1, ACE, Hill numbers, and Faith's PD from community matrices. Supports alpha, beta (Jaccard, Bray-Curtis, Sorensen), and gamma diversity with rarefaction and extrapolation curves.
+- ✅ **Diversity index calculator** _(stub, awaits wire-up)_: Computes Shannon, Simpson, Pielou evenness, Chao1, ACE, Hill numbers, and Faith's PD from community matrices. Supports alpha, beta (Jaccard, Bray-Curtis, Sorensen), and gamma diversity with rarefaction and extrapolation curves.
 
 - ⬜ **Landscape fragmentation analyzer** _(planned)_: Computes FRAGSTATS-style patch, class, and landscape metrics: patch density, edge density, mean nearest neighbor, contagion, Shannon's landscape diversity, and effective mesh size from categorical land cover rasters.
 
