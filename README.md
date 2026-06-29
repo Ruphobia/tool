@@ -4576,7 +4576,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Wearable file importer** _(stub, awaits wire-up)_: Parses .fit, .tcx, .gpx, and CSV exports from Garmin, Strava, Wahoo, Polar, Apple Health, and Whoop into a normalized activity/stream schema with deduplication.
 
-- ⬜ **Play-by-play loader** _(planned)_: Pulls play-by-play and tracking data from nflfastR, pybaseball (Statcast), nba_api, hockey-reference, and StatsBomb open data into tidy long-format frames keyed by game/possession/event.
+- ✅ **Play-by-play loader** _(stub, awaits wire-up)_: Pulls play-by-play and tracking data from nflfastR, pybaseball (Statcast), nba_api, hockey-reference, and StatsBomb open data into tidy long-format frames keyed by game/possession/event.
 
 - ⬜ **Expected-value model fitter** _(planned)_: Trains xG (soccer), xT/EPV (basketball), wOBA/xwOBA (baseball), EPA/WP (football) models on shot or play features; outputs calibration plots, SHAP importances, and per-player residuals.
 
