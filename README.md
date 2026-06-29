@@ -3794,7 +3794,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Set Theory Workbench** _(stub, awaits wire-up)_: Pitch-class set calculator producing prime form, normal form, interval vector, Forte number, complement, Z-relations, and transformations (Tn, TnI). Visualizes set webs for 20th-century and post-tonal analysis.
 
-- ⬜ **Tuning and Temperament Lab** _(planned)_: Compares equal temperament, just intonation, meantone, well-tempered, and custom Scala scales. Plays intervals and chords in each tuning and visualizes cents deviation and harmonic-entropy curves.
+- ✅ **Tuning and Temperament Lab** _(stub, awaits wire-up)_: Compares equal temperament, just intonation, meantone, well-tempered, and custom Scala scales. Plays intervals and chords in each tuning and visualizes cents deviation and harmonic-entropy curves.
 
 - ⬜ **Modulation Planner** _(planned)_: Maps routes between any two keys via pivot chords, common-tone modulation, chromatic mediants, enharmonic reinterpretation, and direct shift, with audible previews and difficulty ranking by smoothness.
 
