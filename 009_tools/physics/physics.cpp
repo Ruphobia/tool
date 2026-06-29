@@ -48,8 +48,16 @@ std::string strip(const std::string & s) {
 }
 
 // Qwen3 emits a <think>...</think> reasoning block before the answer when
-// thinking mode is on. Strip it before returning the user-facing answer.
+// thinking mode is on. The opening <think> is a special token that often
+// isn't rendered by token_to_piece (special=false), so only the closing
+// </think> survives in our output. Strip everything up to and including
+// the last </think>, then fall back to a full <think>...</think> regex
+// if no </think> alone is present.
 std::string strip_think(const std::string & s) {
+    auto pos = s.rfind("</think>");
+    if (pos != std::string::npos) {
+        return strip(s.substr(pos + 8));   // 8 = strlen("</think>")
+    }
     static const std::regex re(R"(<think>[\s\S]*?</think>)", std::regex::optimize);
     return strip(std::regex_replace(s, re, ""));
 }

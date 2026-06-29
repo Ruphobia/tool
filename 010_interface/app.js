@@ -700,7 +700,9 @@ function computeHeadline(j) {
     if (h.exit_code === 0) return out ? out : 'done';
     return (out ? out + '\n' : '') + '[exit ' + h.exit_code + ']';
   }
-  if (h.kind === 'answer')                            return h.answer || '';
+  if (h.kind === 'answer' || h.kind === 'physics_answer') {
+    return h.answer || '';
+  }
   if (h.kind === 'statement' || h.kind === 'noted')   return h.message || '(noted)';
   return j.final || '(no handler)';
 }
