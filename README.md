@@ -3813,7 +3813,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Spectrogram analyzer** _(stub, awaits wire-up)_: STFT, CQT, mel, and reassigned spectrograms with adjustable window, hop, and color mapping; supports linear/log frequency axes and per-bin readout. AI-integrated event labeling and anomaly highlighting on spectrogram regions.
 
-- ⬜ **FFT and spectral inspector** _(planned)_: Interactive single-shot and rolling FFT view with windowing options (Hann, Hamming, Blackman-Harris, Kaiser, flat-top), peak picking, harmonic markers, and THD/SNR/SINAD/SFDR readouts.
+- ✅ **FFT and spectral inspector** _(stub, awaits wire-up)_: Interactive single-shot and rolling FFT view with windowing options (Hann, Hamming, Blackman-Harris, Kaiser, flat-top), peak picking, harmonic markers, and THD/SNR/SINAD/SFDR readouts.
 
 - ⬜ **Bode and pole-zero plotter** _(planned)_: Plots magnitude, phase, group delay, step, and impulse responses for arbitrary transfer functions; supports symbolic entry, s-domain to z-domain conversion, and interactive pole-zero dragging.
 
