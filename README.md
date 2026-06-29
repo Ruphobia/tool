@@ -383,7 +383,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Web development
 
-- ⬜ **Component scaffolder** _(planned)_: Generates idiomatic components for React, Vue, Svelte, Solid, Qwik, or Lit with props/slots, typed signatures, co-located styles, and a matching test file. AI-integrated naming and prop inference from a natural-language sketch.
+- ✅ **Component scaffolder** _(stub, awaits wire-up)_: Generates idiomatic components for React, Vue, Svelte, Solid, Qwik, or Lit with props/slots, typed signatures, co-located styles, and a matching test file. AI-integrated naming and prop inference from a natural-language sketch.
 
 - ⬜ **Bundler config tuner** _(planned)_: Edits and diff-previews Vite, Webpack, Rollup, esbuild, Rspack, or Turbopack configs with plugin presets, alias rewriting, code-splitting hints, and tree-shaking diagnostics.
 
