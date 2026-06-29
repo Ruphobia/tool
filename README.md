@@ -2048,7 +2048,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Equation library** _(stub, awaits wire-up)_: Browsable catalog of canonical equations across mechanics, EM, thermo, QM, relativity, and statistical mechanics, with variable definitions, assumptions, and one-click insertion into the symbolic or numerical workspace.
 
-- ⬜ **Plotter 2D/3D** _(planned)_: Function, parametric, implicit, vector-field, contour, and surface plotting with interactive pan/zoom/rotate, LaTeX axis labels, and export to SVG/PNG/PGF. AI-integrated axis and styling suggestions from the data shape.
+- ✅ **Plotter 2D/3D** _(stub, awaits wire-up)_: Function, parametric, implicit, vector-field, contour, and surface plotting with interactive pan/zoom/rotate, LaTeX axis labels, and export to SVG/PNG/PGF. AI-integrated axis and styling suggestions from the data shape.
 
 - ⬜ **ODE/PDE solver** _(planned)_: Numerical and symbolic solver for ordinary and partial differential equations with selectable stiffness-aware integrators (RK45, BDF, DOPRI, implicit), boundary-condition editor, and convergence diagnostics.
 
