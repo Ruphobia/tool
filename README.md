@@ -3210,7 +3210,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Causal inference kit** _(stub, awaits wire-up)_: Implements difference-in-differences (including Callaway-Sant'Anna and Sun-Abraham for staggered adoption), regression discontinuity with optimal bandwidth selection, instrumental variables (2SLS, LIML), synthetic control, and matching (propensity, Mahalanobis, CEM) with balance diagnostics.
 
-- ⬜ **Ideal-point estimator** _(planned)_: Estimates legislator and voter ideal points from roll call or survey response matrices using NOMINATE, IDEAL (Bayesian IRT), and Wordfish for text, and plots cutting lines and party medians over time.
+- ✅ **Ideal-point estimator** _(stub, awaits wire-up)_: Estimates legislator and voter ideal points from roll call or survey response matrices using NOMINATE, IDEAL (Bayesian IRT), and Wordfish for text, and plots cutting lines and party medians over time.
 
 - ⬜ **Network analysis canvas** _(planned)_: Loads edge lists and adjacency matrices for co-sponsorship, donation, citation, or interpersonal networks, computes degree, betweenness, eigenvector, and PageRank centralities, runs Louvain and Leiden community detection, and renders force-directed layouts.
 
