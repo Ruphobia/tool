@@ -3482,7 +3482,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Protected area overlay** _(stub, awaits wire-up)_: Queries WDPA, OECMs, KBA, and Natura 2000 polygons against project footprints. Computes coverage, gap analysis against Aichi/30x30 targets, and management category breakdowns.
 
-- ⬜ **Red List status checker** _(planned)_: Looks up IUCN Red List category, criteria, population trend, and threat codes via the Red List API for a species list. Cross-checks national lists (USFWS ESA, EU Habitats Directive, COSEWIC, CITES appendices) and flags taxonomic synonyms.
+- ✅ **Red List status checker** _(stub, awaits wire-up)_: Looks up IUCN Red List category, criteria, population trend, and threat codes via the Red List API for a species list. Cross-checks national lists (USFWS ESA, EU Habitats Directive, COSEWIC, CITES appendices) and flags taxonomic synonyms.
 
 - ⬜ **Conservation prioritization solver** _(planned)_: Runs Marxan and Zonation spatial prioritization with species, cost, and connectivity layers under area or representation targets. Outputs selection frequency maps, irreplaceability scores, and reserve network solutions.
 
