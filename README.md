@@ -1325,7 +1325,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Tax Form Filler** _(stub, awaits wire-up)_: Fills US and international tax forms (1040 and schedules, Schedule C, 1099, W-2, W-9, UK SA100, German EUR) from ledger data, with line-by-line provenance back to source transactions and an AI-integrated explanation of each computed figure.
 
-- ⬜ **Portfolio Tracker** _(planned)_: Tracks equity, ETF, bond, crypto, and cash holdings across multiple accounts and currencies; computes time-weighted and money-weighted returns, allocation drift, dividend income, and realized/unrealized gains with FIFO, LIFO, and average-cost lots.
+- ✅ **Portfolio Tracker** _(stub, awaits wire-up)_: Tracks equity, ETF, bond, crypto, and cash holdings across multiple accounts and currencies; computes time-weighted and money-weighted returns, allocation drift, dividend income, and realized/unrealized gains with FIFO, LIFO, and average-cost lots.
 
 - ⬜ **DCF & Scenario Modeler** _(planned)_: Builds discounted-cash-flow models with assumption sheets, sensitivity tables, and tornado charts; supports terminal value via Gordon growth or exit multiple. Side-by-side scenarios share drivers so one knob updates every linked output.
 
