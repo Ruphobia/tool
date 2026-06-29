@@ -1752,7 +1752,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Parallel text viewer** _(stub, awaits wire-up)_: Displays aligned passages across versions and traditions (LXX / MT / Vulgate, Synoptic Gospels, Talmudic sugyot with Rashi and Tosafot, Quranic qirāʾāt); synchronizes scrolling and color-codes divergences.
 
-- ⬜ **Lexicon lookup** _(planned)_: Queries domain lexica (LSJ, BDAG, HALOT, Jastrow, Monier-Williams, Lane, Du Cange) with sense disambiguation from surrounding context; cross-links each gloss to attestations in the loaded corpus.
+- ✅ **Lexicon lookup** _(stub, awaits wire-up)_: Queries domain lexica (LSJ, BDAG, HALOT, Jastrow, Monier-Williams, Lane, Du Cange) with sense disambiguation from surrounding context; cross-links each gloss to attestations in the loaded corpus.
 
 - ⬜ **Comparative-religion timeline** _(planned)_: Plots texts, councils, schisms, founders, dynasties, persecutions, and translation movements across traditions on a synchronizable timeline; filters by region, language, tradition, and confidence of dating.
 
