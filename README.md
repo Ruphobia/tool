@@ -3540,7 +3540,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Plant identification** _(stub, awaits wire-up)_: image-based species identification from leaf/flower/bark/fruit photos (PlantNet/iNaturalist-style flow), regional flora filter, look-alike disambiguation, edibility and toxicity tagging, care guidance per species.
 
-- ⬜ **Planting Calendar** _(planned)_: Generates per-crop sow, transplant, and harvest dates from local frost dates, day length, and hardiness zone. Supports succession planting, indoor starts, and ICS export to a calendar app.
+- ✅ **Planting Calendar** _(stub, awaits wire-up)_: Generates per-crop sow, transplant, and harvest dates from local frost dates, day length, and hardiness zone. Supports succession planting, indoor starts, and ICS export to a calendar app.
 
 - ⬜ **Soil Test Interpreter** _(planned)_: Parses lab reports (Mehlich-3, Bray, Olsen, Morgan, saturated paste) into normalized nutrient, CEC, base saturation, and pH metrics, then flags deficiencies and toxicities against crop-specific targets with AI-integrated narrative summaries of what the numbers actually mean.
 
