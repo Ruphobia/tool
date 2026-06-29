@@ -3146,7 +3146,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Nutrition and Metabolic Calculator** _(stub, awaits wire-up)_: Computes BMR/TDEE (Mifflin-St Jeor, Harris-Benedict), macronutrient targets, fluid maintenance (Holliday-Segar), TPN/PPN composition, and refeeding-syndrome risk.
 
-- ⬜ **Vitals and Growth Charts** _(planned)_: Plots longitudinal vitals and pediatric growth (WHO 0-2, CDC 2-20) with percentiles and Z-scores, BP percentiles for age/height/sex, and early-warning-score (NEWS2, PEWS) computation.
+- ✅ **Vitals and Growth Charts** _(stub, awaits wire-up)_: Plots longitudinal vitals and pediatric growth (WHO 0-2, CDC 2-20) with percentiles and Z-scores, BP percentiles for age/height/sex, and early-warning-score (NEWS2, PEWS) computation.
 
 
 #### Psychology and behavioral science
