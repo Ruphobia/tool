@@ -733,7 +733,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Config diff and version tracker** _(stub, awaits wire-up)_: Watches /etc and other configured directories, snapshots changes to a local git repo, and shows per-file history with author and timestamp. AI-integrated commit messages describing what the change does.
 
-- ⬜ **User and permission editor** _(planned)_: Manages local users, groups, sudoers entries, ACLs, and POSIX capabilities with a permission-impact preview before applying. Includes a recursive permission auditor for a given path.
+- ✅ **User and permission editor** _(stub, awaits wire-up)_: Manages local users, groups, sudoers entries, ACLs, and POSIX capabilities with a permission-impact preview before applying. Includes a recursive permission auditor for a given path.
 
 
 #### Game development
