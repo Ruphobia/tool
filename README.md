@@ -707,7 +707,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Packet inspector** _(stub, awaits wire-up)_: Live tcpdump and pcap capture per interface with BPF filter, decoded protocol layers, and follow-stream view. AI-integrated explanation of unfamiliar protocols and flagging of plaintext credentials or odd handshakes.
 
-- ⬜ **Port and connection viewer** _(planned)_: Shows listening sockets, established connections, and per-process socket ownership with reverse-DNS and geo annotation. Includes scan-from-here actions against a target host with nmap-style probes.
+- ✅ **Port and connection viewer** _(stub, awaits wire-up)_: Shows listening sockets, established connections, and per-process socket ownership with reverse-DNS and geo annotation. Includes scan-from-here actions against a target host with nmap-style probes.
 
 - ⬜ **Firewall rule editor** _(planned)_: Unified editor for nftables, iptables, ufw, and firewalld rule sets with live counters and packet trace. AI-integrated translation between human intent ("block all inbound except SSH from LAN") and concrete ruleset diffs.
 
