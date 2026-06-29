@@ -3179,7 +3179,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Vignette factorial designer** _(stub, awaits wire-up)_: Builds factorial vignette and conjoint stimuli by combining attribute levels, with fractional-factorial reduction and balanced presentation across respondents. Exports to survey runners with per-respondent randomization.
 
-- ⬜ **Ecological momentary assessment scheduler** _(planned)_: Designs ESM/EMA and diary protocols with signal-contingent, interval-contingent, and event-contingent prompts across days. Generates participant schedules, compliance dashboards, and aggregated multilevel-ready datasets.
+- ✅ **Ecological momentary assessment scheduler** _(stub, awaits wire-up)_: Designs ESM/EMA and diary protocols with signal-contingent, interval-contingent, and event-contingent prompts across days. Generates participant schedules, compliance dashboards, and aggregated multilevel-ready datasets.
 
 - ⬜ **Facial action coder** _(planned)_: Detects AU activations and intensities from video via an OpenFace-style pipeline, with head pose and gaze direction tracks. Aligns AU streams to event codes and stimulus onsets for time-locked analysis.
 
