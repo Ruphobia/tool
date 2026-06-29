@@ -3085,7 +3085,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Single-cell expression viewer** _(stub, awaits wire-up)_: Loads h5ad and loom matrices, computes Scanpy-style PCA, UMAP, and Leiden clustering, and supports marker-gene browsing and cluster annotation against reference atlases.
 
-- ⬜ **Liquid-handler protocol writer** _(planned)_: Generates Opentrons OT-2 Python and Hamilton Venus scripts from plate layouts, source/destination maps, and pipetting plans, with tip-tracking and deck-collision validation.
+- ✅ **Liquid-handler protocol writer** _(stub, awaits wire-up)_: Generates Opentrons OT-2 Python and Hamilton Venus scripts from plate layouts, source/destination maps, and pipetting plans, with tip-tracking and deck-collision validation.
 
 - ⬜ **EEG/MEG analyzer** _(planned)_: Loads EDF, BDF, BrainVision, FIF, and BIDS recordings, performs ICA artifact removal, time-frequency decomposition (Morlet, multitaper), source localization, and evoked-response averaging in an MNE-style workflow.
 
