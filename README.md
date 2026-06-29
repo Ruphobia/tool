@@ -153,7 +153,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Scripting tool** _(in testing)_: a tool for writing and executing scripts that automate work across the other tools. AI drafts the script, the user reviews and approves, the scripting tool runs it. Outputs feed back into the chat or the project tree.
 
-- ⬜ **Task scheduler** _(planned)_: a tool for breaking a long work process into a list of steps, scheduling them, executing them sequentially or in parallel where independent, and following through across many turns or days. Persists state so the work survives restarts.
+- ✅ **Task scheduler** _(in testing)_: a tool for breaking a long work process into a list of steps, scheduling them, executing them sequentially or in parallel where independent, and following through across many turns or days. Persists state so the work survives restarts.
 
 - ⬜ **Hex editor** _(planned)_: a binary file editor with offset/value display in hex, decimal, ASCII; structure templates for common formats (ELF, PE, PNG, GGUF, etc.); diff and patch over a binary; checksum and entropy view.
 
