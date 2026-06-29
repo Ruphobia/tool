@@ -2437,7 +2437,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Ship structural midship designer** _(stub, awaits wire-up)_: Section modulus, neutral axis, and hull-girder bending checks against IACS CSR longitudinal strength; plate buckling per DNV/ABS allowables.
 
-- ⬜ **Cathodic protection sizer** _(planned)_: Sacrificial-anode and ICCP current-demand sizing for ship hulls, jackets, and pipelines; coating breakdown factors per DNV-RP-B401 with anode mass and life.
+- ✅ **Cathodic protection sizer** _(stub, awaits wire-up)_: Sacrificial-anode and ICCP current-demand sizing for ship hulls, jackets, and pipelines; coating breakdown factors per DNV-RP-B401 with anode mass and life.
 
 - ⬜ **Well log analyzer** _(planned)_: Loads LAS and DLIS curves; computes Vsh from GR/SP, porosity from density-neutron, Sw via Archie or Indonesia, and net-pay flags with depth-aligned plotting.
 
