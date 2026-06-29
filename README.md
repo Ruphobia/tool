@@ -2251,7 +2251,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Strength Estimator** _(stub, awaits wire-up)_: Estimates yield strength, UTS, hardness, and ductility from composition, grain size (Hall-Petch), cold-work fraction, precipitate volume fraction, and temper. Includes Larson-Miller creep extrapolation for high-temperature service.
 
-- ⬜ **Galvanic Corrosion Checker** _(planned)_: Looks up galvanic potentials in seawater and other electrolytes, flags incompatible material pairs by potential difference, and estimates area-ratio-weighted corrosion risk. Suggests insulating, coating, or sacrificial-anode mitigations.
+- ✅ **Galvanic Corrosion Checker** _(stub, awaits wire-up)_: Looks up galvanic potentials in seawater and other electrolytes, flags incompatible material pairs by potential difference, and estimates area-ratio-weighted corrosion risk. Suggests insulating, coating, or sacrificial-anode mitigations.
 
 - ⬜ **Corrosion Compatibility Matrix** _(planned)_: Material-vs-chemical resistance grid covering common metals, plastics, and elastomers against acids, bases, solvents, fuels, salts, and foods at various temperatures, sourced from compiled vendor and NACE tables.
 
