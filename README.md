@@ -1872,7 +1872,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Diachronic Family Tree** _(stub, awaits wire-up)_: Models a language family as a branching tree with dated splits, inherited sound-change cascades, and contact-induced borrowing arrows. Re-running the cascade re-derives every daughter lexicon from the proto-lexicon, keeping the family internally consistent.
 
-- ⬜ **Conworld Linguistic Atlas** _(planned)_: Plots language and dialect regions on a world map with isoglosses, sprachbund boundaries, and contact zones. Each polygon links back to its lexicon, phonology, and demographic notes.
+- ✅ **Conworld Linguistic Atlas** _(stub, awaits wire-up)_: Plots language and dialect regions on a world map with isoglosses, sprachbund boundaries, and contact zones. Each polygon links back to its lexicon, phonology, and demographic notes.
 
 - ⬜ **Speech Synthesizer** _(planned)_: Renders conlang text as audio through a phoneme-to-acoustic pipeline (formant or neural backend) parameterized by the language's inventory and prosody. Useful for hearing the language and for stress-testing phonotactics by ear.
 
