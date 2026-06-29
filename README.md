@@ -2367,7 +2367,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Code Checker** _(stub, awaits wire-up)_: Cross-references IBC, IRC, IECC, ASHRAE 90.1, NFPA 13, and ADA against a project model for occupancy, egress, fire rating, envelope U-value, and accessibility. AI-integrated citation of the specific section that triggers each finding.
 
-- ⬜ **Egress & Occupancy Planner** _(planned)_: Computes occupant load, required exits, travel distance, and corridor/stair widths from a floor plan. Highlights dead-end and common-path violations live as the plan edits.
+- ✅ **Egress & Occupancy Planner** _(stub, awaits wire-up)_: Computes occupant load, required exits, travel distance, and corridor/stair widths from a floor plan. Highlights dead-end and common-path violations live as the plan edits.
 
 - ⬜ **Site Plan Tool** _(planned)_: Drafts site plans with parcel, setback, easement, parking, and stormwater layers over imported survey or GeoJSON. Computes lot coverage, FAR, and impervious area against zoning rules.
 
