@@ -4149,7 +4149,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Population and Census Tracker** _(stub, awaits wire-up)_: Local snapshot of PCGS, NGC, CAC, PSE, and PMG population reports per issue and grade. Computes rarity ratios, condition census standings, and registry-set scoring against user holdings.
 
-- ⬜ **Provenance and Pedigree Ledger** _(planned)_: Chain-of-custody log linking each item to prior owners, named collections (Eliasberg, Norweb, Pittman, Ferrari), auction lot numbers, and dated invoices. Generates a provenance dossier with citations for sale or insurance.
+- ✅ **Provenance and Pedigree Ledger** _(stub, awaits wire-up)_: Chain-of-custody log linking each item to prior owners, named collections (Eliasberg, Norweb, Pittman, Ferrari), auction lot numbers, and dated invoices. Generates a provenance dossier with citations for sale or insurance.
 
 - ⬜ **Condition and Conservation Log** _(planned)_: Per-item record of toning, planchet flaws, stamp gum state, hinge marks, fold lines, foxing, and prior interventions (cleaning, dipping, pressing, restoration). Tracks change over time with dated macro photos and notes.
 
