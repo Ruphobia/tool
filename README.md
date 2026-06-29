@@ -3623,7 +3623,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Panorama stitcher** _(stub, awaits wire-up)_: Feature-matched alignment, blending, and projection via Hugin/OpenCV with manual control-point editing. Handles spherical, cylindrical, and planar outputs.
 
-- ⬜ **Photogrammetry** _(planned)_: Structure-from-motion and multi-view stereo over image sets using COLMAP/OpenMVS to produce point clouds, meshes, and textured models. Optional Gaussian-splat export.
+- ✅ **Photogrammetry** _(stub, awaits wire-up)_: Structure-from-motion and multi-view stereo over image sets using COLMAP/OpenMVS to produce point clouds, meshes, and textured models. Optional Gaussian-splat export.
 
 - ⬜ **Video editor** _(planned)_: Non-linear timeline with multi-track audio/video, trimming, transitions, keyframed effects, and proxy editing. Renders via the transcoder with project-level color management.
 
