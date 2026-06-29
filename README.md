@@ -4038,7 +4038,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **FoodPairingEngine** _(stub, awaits wire-up)_: AI-assisted pairing across coffee, tea, wine, beer, and spirits given a dish, cooking technique, and dominant flavor compounds. Cross-references aromatic congruence and contrast strategies with cited tasting precedents.
 
-- ⬜ **SensoryWheel** _(planned)_: Tags tastings against SCA, WSET, BJCP, and spirits flavor wheels with shared aroma compound mappings. Cross-references descriptors across modalities and tracks personal vocabulary calibration.
+- ✅ **SensoryWheel** _(stub, awaits wire-up)_: Tags tastings against SCA, WSET, BJCP, and spirits flavor wheels with shared aroma compound mappings. Cross-references descriptors across modalities and tracks personal vocabulary calibration.
 
 
 #### Traditional crafts: horology, blacksmithing, jewelry, glassblowing, pottery, leatherwork, cobbling
