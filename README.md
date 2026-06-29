@@ -1718,7 +1718,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Exegesis Notebook** _(stub, awaits wire-up)_: A pericope-anchored workspace for verse-by-verse commentary that links primary text, traditional commentators (Rashi, Ibn Kathir, Aquinas, Sankara, Buddhaghosa), and the user's notes. AI drafts comparative readings on request and flags reasoning lineage.
 
-- ⬜ **Manuscript Variant Apparatus** _(planned)_: Critical apparatus tooling for textual criticism: collates witnesses (Masoretic, LXX, DSS, Vulgate, Peshitta, Quranic qira'at, Buddhist recensions) with conjectural emendation notes. Renders Nestle-Aland-style apparatus and stemma diagrams.
+- ✅ **Manuscript Variant Apparatus** _(stub, awaits wire-up)_: Critical apparatus tooling for textual criticism: collates witnesses (Masoretic, LXX, DSS, Vulgate, Peshitta, Quranic qira'at, Buddhist recensions) with conjectural emendation notes. Renders Nestle-Aland-style apparatus and stemma diagrams.
 
 - ⬜ **Denominational Comparator** _(planned)_: Side-by-side doctrinal matrices for sects and schools (e.g., Sunni/Shia/Ibadi madhhabs, Theravada/Mahayana/Vajrayana, Orthodox/Catholic/Protestant/Oriental, Vaishnava/Shaiva/Shakta/Smarta). Compares positions on canon, ritual, ecclesiology, soteriology, and authority.
 
