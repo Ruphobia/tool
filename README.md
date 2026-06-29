@@ -282,7 +282,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ⬜ **Literature Review Synthesizer** _(planned)_: AI-assisted summarizer that drafts thematic literature reviews, evidence tables, and PRISMA-style flow records from a selected reading list, with every claim linked to a cited passage in the library.
 
-- ⬜ **Quote and Passage Index** _(planned)_: Searchable index of highlighted passages and pulled quotes with source, locator, and surrounding context. Generates blockquote-ready snippets in any citation style on demand.
+- ✅ **Quote and Passage Index** _(in testing)_: Searchable index of highlighted passages and pulled quotes with source, locator, and surrounding context. Generates blockquote-ready snippets in any citation style on demand.
 
 - ⬜ **Reading Queue and Tracker** _(planned)_: Kanban-style queue with priority, read status, time-to-read estimates, and spaced re-read prompts. Logs reading sessions and per-item dwell time for retrospective analytics.
 
