@@ -1091,7 +1091,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Standup and status synthesizer** _(stub, awaits wire-up)_: Compiles per-person daily notes, ticket transitions, commits, and time entries into a standup digest and a weekly status report. AI rewrites raw activity into prose at a chosen audience level (team, manager, stakeholder).
 
-- ⬜ **Resource and capacity planner** _(planned)_: Per-person availability calendar with PTO, on-call, and meeting load, overlaid against committed work to expose over- and under-allocation. Plans across a quarter at team-resolution and per-week at individual-resolution.
+- ✅ **Resource and capacity planner** _(stub, awaits wire-up)_: Per-person availability calendar with PTO, on-call, and meeting load, overlaid against committed work to expose over- and under-allocation. Plans across a quarter at team-resolution and per-week at individual-resolution.
 
 - ⬜ **Workflow designer** _(planned)_: State-machine editor for ticket lifecycles, with per-state required fields, transition guards, and automation hooks (assign on transition, post to channel, open follow-up). Workflows are versioned and applicable per project.
 
