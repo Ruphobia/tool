@@ -1805,7 +1805,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Genealogy Graph** _(stub, awaits wire-up)_: Interactive graph of divine and heroic lineages with support for non-tree relations (multiple parentage, self-generation, reincarnation cycles, syncretic merges). Renders Hesiodic, Norse, Vedic, and Mayan family trees from the database.
 
-- ⬜ **Performance Variant Tracker** _(planned)_: Logs successive retellings of the same tale by a single performer or across performers to study oral-formulaic variation. Computes lexical and structural drift between sessions using Parry-Lord style formula detection.
+- ✅ **Performance Variant Tracker** _(stub, awaits wire-up)_: Logs successive retellings of the same tale by a single performer or across performers to study oral-formulaic variation. Computes lexical and structural drift between sessions using Parry-Lord style formula detection.
 
 - ⬜ **Citation and Provenance Manager** _(planned)_: BibTeX-compatible reference store specialized for folklore: handles informant attribution, collection-date fields, archive call numbers, and rights status (public domain vs restricted ethnographic material).
 
