@@ -1925,7 +1925,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Voice activity and segmenter** _(stub, awaits wire-up)_: VAD-driven slicing of long-form audio into utterance segments with silence trimming and overlap detection, used for ASR batching and TTS dataset preparation.
 
-- ⬜ **Pronunciation lexicon** _(planned)_: Project-scoped dictionary of custom pronunciations, homograph disambiguation rules, and proper-noun overrides shared by ASR, TTS, and forced alignment.
+- ✅ **Pronunciation lexicon** _(stub, awaits wire-up)_: Project-scoped dictionary of custom pronunciations, homograph disambiguation rules, and proper-noun overrides shared by ASR, TTS, and forced alignment.
 
 
 #### Electronics and EDA
