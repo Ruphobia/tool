@@ -3611,7 +3611,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Visual search** _(stub, awaits wire-up)_: CLIP/SigLIP embedding index over the local image library with text and image queries, duplicate detection, and near-duplicate clustering. Returns ranked thumbnails with similarity scores.
 
-- ⬜ **OCR** _(planned)_: Text recognition over images and PDFs using PaddleOCR/Tesseract/TrOCR with layout analysis and language autodetection. Outputs searchable text, hOCR, and editable overlay layers.
+- ✅ **OCR** _(stub, awaits wire-up)_: Text recognition over images and PDFs using PaddleOCR/Tesseract/TrOCR with layout analysis and language autodetection. Outputs searchable text, hOCR, and editable overlay layers.
 
 - ⬜ **Color tools** _(planned)_: Palette extraction, harmony generation, LUT authoring, gamut checking, and color-blindness simulation. Includes AI-integrated palette suggestion conditioned on a reference image or mood prompt.
 
