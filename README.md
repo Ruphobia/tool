@@ -4344,7 +4344,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Frame data lookup** _(stub, awaits wire-up)_: Queries fighting-game frame-data sets (Street Fighter, Tekken, Guilty Gear, Smash Ultimate) by character and move, returning startup, active, recovery, on-block, and cancel-routes. Supports punish-window queries ('what punishes Ryu cr.MK on block?').
 
-- ⬜ **Emulator RAM watcher** _(planned)_: Attaches to RetroArch, BizHawk, or Dolphin via their memory APIs, exposing live RAM watches, save-state diffing, and Lua hook injection. Used for randomizer routing, RNG manipulation research, and TAS scripting.
+- ✅ **Emulator RAM watcher** _(stub, awaits wire-up)_: Attaches to RetroArch, BizHawk, or Dolphin via their memory APIs, exposing live RAM watches, save-state diffing, and Lua hook injection. Used for randomizer routing, RNG manipulation research, and TAS scripting.
 
 - ⬜ **Speedrun split timer** _(planned)_: LiveSplit-compatible timer with autosplitters, gold-split tracking, sum-of-best, and run history. Imports splits.io files and exports run attempts as JSON for pacing analysis.
 
