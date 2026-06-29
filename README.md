@@ -1431,7 +1431,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Address Verifier** _(stub, awaits wire-up)_: Validates and standardizes addresses against USPS, Royal Mail PAF, AusPost, Canada Post, and UPU formats; geocodes to lat/lon and cross-checks against utility, credit header, and electoral roll sources where licensed.
 
-- ⬜ **UBO Graph Explorer** _(planned)_: Pulls corporate registry filings from Companies House, OpenCorporates, SEC EDGAR, and GLEIF LEI records; traces beneficial ownership through layered entities and highlights >25% control paths, nominees, and circular structures.
+- ✅ **UBO Graph Explorer** _(stub, awaits wire-up)_: Pulls corporate registry filings from Companies House, OpenCorporates, SEC EDGAR, and GLEIF LEI records; traces beneficial ownership through layered entities and highlights >25% control paths, nominees, and circular structures.
 
 - ⬜ **AML Risk Scorer** _(planned)_: Combines a policy DSL (country risk, occupation, product, channel, source-of-funds) with a gradient-boosted residual model; surfaces per-factor SHAP contributions to justify the score in a SAR or review note.
 
