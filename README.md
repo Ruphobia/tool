@@ -441,7 +441,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Port scanner** _(stub, awaits wire-up)_: Performs TCP connect, SYN, and UDP scans across user-defined host and port ranges with banner grabbing and service fingerprinting. Annotates open ports with likely service identities from a local signature database.
 
-- ⬜ **TLS and certificate inspector** _(planned)_: Connects to a host on any port and reports the negotiated protocol, cipher suite, ALPN value, and full certificate chain with trust path validation. Flags weak parameters, expiry windows, and SAN mismatches; parses local PEM, DER, and PKCS#12 files.
+- ✅ **TLS and certificate inspector** _(stub, awaits wire-up)_: Connects to a host on any port and reports the negotiated protocol, cipher suite, ALPN value, and full certificate chain with trust path validation. Flags weak parameters, expiry windows, and SAN mismatches; parses local PEM, DER, and PKCS#12 files.
 
 - ⬜ **Web scraper** _(planned)_: Fetches pages with a configurable user agent, throttle, and concurrency, and extracts data via CSS selectors, XPath, or JSONPath. AI-integrated selector synthesis from a natural-language description of the target field and adaptive re-selection when a page layout shifts.
 
