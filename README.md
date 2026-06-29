@@ -817,7 +817,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Haptic Pattern Designer** _(stub, awaits wire-up)_: Timeline editor for controller and glove haptics: amplitude, frequency, and waveform per actuator, with crossfade and event-driven triggers. Exports to common runtime formats (OpenXR haptic, bHaptics, Interhaptics-compatible JSON).
 
-- ⬜ **Foveated Render Budget** _(planned)_: Per-frame GPU heatmap that breaks down cost by region (foveal, mid, peripheral) and shows headroom against the headset's target frame time. Suggests fixed and eye-tracked foveation parameters that hit the budget.
+- ✅ **Foveated Render Budget** _(stub, awaits wire-up)_: Per-frame GPU heatmap that breaks down cost by region (foveal, mid, peripheral) and shows headroom against the headset's target frame time. Suggests fixed and eye-tracked foveation parameters that hit the budget.
 
 - ⬜ **Gaze Heatmap Studio** _(planned)_: Aggregates eye-tracking sessions into fixation maps, scanpaths, and dwell heatmaps over the rendered scene. Useful for UI placement, attention studies, and validating foveated render falloff.
 
