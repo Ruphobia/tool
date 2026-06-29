@@ -3112,7 +3112,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Dosage Calculator** _(stub, awaits wire-up)_: Computes weight-, BSA-, and renal-adjusted dosing for adult, pediatric, and neonatal patients, with Cockcroft-Gault / CKD-EPI eGFR, ideal body weight, and infusion rate (mL/hr) conversions.
 
-- ⬜ **Pharmacokinetics Simulator** _(planned)_: Models plasma concentration over time for one-, two-, and three-compartment PK with IV bolus, infusion, and oral absorption; supports population variability and Monte Carlo dosing-regimen exploration.
+- ✅ **Pharmacokinetics Simulator** _(stub, awaits wire-up)_: Models plasma concentration over time for one-, two-, and three-compartment PK with IV bolus, infusion, and oral absorption; supports population variability and Monte Carlo dosing-regimen exploration.
 
 - ⬜ **Anatomy Atlas Viewer** _(planned)_: Interactive 3D atlas built on permissive datasets (BodyParts3D, Z-Anatomy), with layer toggles for skeletal, muscular, vascular, nervous, and lymphatic systems and cross-section slicing.
 
