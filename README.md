@@ -3904,7 +3904,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Cross-Stitch Charter** _(stub, awaits wire-up)_: Converts photos and artwork into counted cross-stitch charts with floss palette mapping to DMC, Anchor, Madeira, and Sulky. Controls aida count, chart size, color count, dithering, and backstitch outlines, and exports printable symbol charts.
 
-- ⬜ **Knit Chart Editor** _(planned)_: Designs colorwork, lace, and cable charts with standard stitch symbols, repeat boxes, and no-stitch cells. Computes row and stitch counts from a gauge swatch and exports written instructions alongside the chart.
+- ✅ **Knit Chart Editor** _(stub, awaits wire-up)_: Designs colorwork, lace, and cable charts with standard stitch symbols, repeat boxes, and no-stitch cells. Computes row and stitch counts from a gauge swatch and exports written instructions alongside the chart.
 
 - ⬜ **Crochet Chart Editor** _(planned)_: Symbol-based charts for amigurumi, granny squares, filet, Tunisian, and freeform crochet on rectangular and radial grids. Generates written pattern text from the chart with standard US or UK terminology.
 
