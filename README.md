@@ -4217,7 +4217,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Photometric Calculator** _(stub, awaits wire-up)_: Computes throw distance, beam and field angles, footcandle/lux at the deck, edge falloff, and pool diameter from each fixture's photometric data and hang height.
 
-- ⬜ **Audio Patch Designer** _(planned)_: Documents the full signal flow: mics, DIs, stage box channels, console inputs, inserts, buses, matrix sends, amps, and speaker zones. Tracks snake counts, cable lengths, and rack U positions.
+- ✅ **Audio Patch Designer** _(stub, awaits wire-up)_: Documents the full signal flow: mics, DIs, stage box channels, console inputs, inserts, buses, matrix sends, amps, and speaker zones. Tracks snake counts, cable lengths, and rack U positions.
 
 - ⬜ **Speaker Coverage Predictor** _(planned)_: Maps SPL coverage, direct-to-reverberant ratio, and STI across the seating plan from speaker placement, aim angles, splay, and a venue acoustic model in the MAPP/EASE lineage.
 
