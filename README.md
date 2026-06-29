@@ -4012,7 +4012,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **EspressoShotLog** _(stub, awaits wire-up)_: Per-shot record of dose, yield, time, grind setting, basket, water temp, pressure profile, TDS, and extraction yield. Trends results per bean over time and surfaces drift in grinder or beans.
 
-- ⬜ **ExtractionCalculator** _(planned)_: Solves brew ratio, TDS, and extraction yield for pour-over, immersion, and espresso given any two known variables. Includes refractometer correction factors per method.
+- ✅ **ExtractionCalculator** _(stub, awaits wire-up)_: Solves brew ratio, TDS, and extraction yield for pour-over, immersion, and espresso given any two known variables. Includes refractometer correction factors per method.
 
 - ⬜ **WaterChemistryBuilder** _(planned)_: Targets coffee and brewing water recipes (SCA, Hendon, Rao, Burton, Pilsen) by computing CaCl2, MgSO4, NaHCO3, and CaSO4 additions from a source water report. Outputs mash, sparge, and dilution blends.
 
