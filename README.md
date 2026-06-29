@@ -3337,7 +3337,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Body condition scorer** _(stub, awaits wire-up)_: Species-specific BCS scoring (1-5 or 1-9 scales) for canids, felids, equids, ruminants, psittacines, raptors, chelonians, and cetaceans with photo references for each score. Optional photogrammetric estimation of girth/length ratios from a calibrated image.
 
-- ⬜ **Wildlife telemetry analyzer** _(planned)_: Ingests GPS/Argos/VHF collar fixes (Movebank, Vectronic, Lotek formats), filters for DOP and speed outliers, and computes home ranges (MCP, KDE, AKDE, LoCoH), step-selection functions, and migration phenology. Renders tracks on offline tiles with utilization-distribution overlays.
+- ✅ **Wildlife telemetry analyzer** _(stub, awaits wire-up)_: Ingests GPS/Argos/VHF collar fixes (Movebank, Vectronic, Lotek formats), filters for DOP and speed outliers, and computes home ranges (MCP, KDE, AKDE, LoCoH), step-selection functions, and migration phenology. Renders tracks on offline tiles with utilization-distribution overlays.
 
 - ⬜ **Occupancy and capture-recapture** _(planned)_: Fits single- and multi-season occupancy, N-mixture, and spatially explicit capture-recapture models (PRESENCE/unmarked/secr/oSCR style) to detection histories from camera traps and acoustic arrays. Reports detection probability, density estimates, and goodness-of-fit diagnostics.
 
