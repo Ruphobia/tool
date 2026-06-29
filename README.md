@@ -389,7 +389,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Live dev server** _(stub, awaits wire-up)_: Boots an HMR dev server with framework auto-detect, port reuse, HTTPS via mkcert, network exposure, and a request/response timeline overlay.
 
-- ⬜ **Component playground** _(planned)_: Storybook-style isolated render harness with controls/args, viewport switcher, MDX docs, interaction tests, and snapshot capture per story.
+- ✅ **Component playground** _(stub, awaits wire-up)_: Storybook-style isolated render harness with controls/args, viewport switcher, MDX docs, interaction tests, and snapshot capture per story.
 
 - ⬜ **Accessibility auditor** _(planned)_: Runs axe-core, Pa11y, and ARIA validators against routes or stories, then groups violations by impact with code-locating fixes and contrast remediation suggestions.
 
