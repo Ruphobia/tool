@@ -3902,7 +3902,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Embroidery Digitizer** _(stub, awaits wire-up)_: Converts raster or vector art into machine-stitch files (DST, PES, EXP, JEF, VP3) with auto-underlay, density, push-pull compensation, stitch direction, and color stops. AI-integrated auto-digitize that proposes fills, satins, and run paths from an input image.
 
-- ⬜ **Cross-Stitch Charter** _(planned)_: Converts photos and artwork into counted cross-stitch charts with floss palette mapping to DMC, Anchor, Madeira, and Sulky. Controls aida count, chart size, color count, dithering, and backstitch outlines, and exports printable symbol charts.
+- ✅ **Cross-Stitch Charter** _(stub, awaits wire-up)_: Converts photos and artwork into counted cross-stitch charts with floss palette mapping to DMC, Anchor, Madeira, and Sulky. Controls aida count, chart size, color count, dithering, and backstitch outlines, and exports printable symbol charts.
 
 - ⬜ **Knit Chart Editor** _(planned)_: Designs colorwork, lace, and cable charts with standard stitch symbols, repeat boxes, and no-stitch cells. Computes row and stitch counts from a gauge swatch and exports written instructions alongside the chart.
 
