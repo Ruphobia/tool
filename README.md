@@ -226,7 +226,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ⬜ **Export and Import** _(planned)_: Round-trippable export to plain markdown plus JSON sidecars, with import from Obsidian vaults, Logseq graphs, Apple Notes dumps, and Claude/ChatGPT memory exports.
 
-- ⬜ **Privacy and Scope Guard** _(planned)_: Per-entry visibility labels (local-only, project-shared, assistant-visible, redacted) with a preflight check that warns before any entry leaves the local store via sync, share, or model context.
+- ✅ **Privacy and Scope Guard** _(in testing)_: Per-entry visibility labels (local-only, project-shared, assistant-visible, redacted) with a preflight check that warns before any entry leaves the local store via sync, share, or model context.
 
 - ⬜ **Site Crawler** _(planned)_: Configurable BFS/DFS crawler with depth limits, per-host concurrency, politeness delays, and resumable checkpoints. Honors robots.txt, sitemap.xml, and per-domain rate budgets.
 
