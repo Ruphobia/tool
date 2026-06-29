@@ -3987,7 +3987,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Water-Bath and Pressure Canning Guide** _(stub, awaits wire-up)_: Provides validated process times for high-acid and low-acid recipes indexed by jar size, altitude, and product density. Cross-references USDA and NCHFP guidance and refuses to generate schedules outside tested parameter envelopes.
 
-- ⬜ **Brewing and Mead Hydrometer Lab** _(planned)_: Tracks original and final gravity, temperature-corrected SG, ABV, attenuation, and FAN for beer, wine, mead, and cider. Estimates yeast pitch rates and predicts fermentation finish from logged Brix and gravity curves.
+- ✅ **Brewing and Mead Hydrometer Lab** _(stub, awaits wire-up)_: Tracks original and final gravity, temperature-corrected SG, ABV, attenuation, and FAN for beer, wine, mead, and cider. Estimates yeast pitch rates and predicts fermentation finish from logged Brix and gravity curves.
 
 - ⬜ **Vinegar and Acetification Monitor** _(planned)_: Logs surface vs submerged acetification batches with alcohol-by-volume input, ambient O2 access, and titrated acidity output. Predicts mother-of-vinegar maturation timing and flags stuck conversions.
 
