@@ -2011,7 +2011,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Laser Resonator Designer** _(stub, awaits wire-up)_: Designs linear and ring cavities with arbitrary mirror, lens, and gain-medium chains; computes stability (g1 g2), eigenmode size at each surface, longitudinal mode spacing, and thermal-lens-aware mode shifts. Plots stability diagrams and resonator round-trip Gaussian propagation.
 
-- ⬜ **Interferogram Analyzer** _(planned)_: Loads single-frame, phase-shifted, or carrier-fringe interferograms; performs Fourier-transform fringe analysis, quality-guided phase unwrapping, tilt/piston removal, and Zernike fitting to produce calibrated surface or wavefront maps.
+- ✅ **Interferogram Analyzer** _(stub, awaits wire-up)_: Loads single-frame, phase-shifted, or carrier-fringe interferograms; performs Fourier-transform fringe analysis, quality-guided phase unwrapping, tilt/piston removal, and Zernike fitting to produce calibrated surface or wavefront maps.
 
 - ⬜ **Optical Bench Layout** _(planned)_: Top-down 2D and 3D scene editor for breadboard layouts with hole-grid snapping, mounted-component library (mirrors, mounts, posts, cages, kinematics), beam path visualization, and BOM export with vendor part numbers.
 
