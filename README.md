@@ -2190,7 +2190,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Maker fab and personal manufacturing
 
-- ⬜ **FDM Slicer** _(planned)_: Slices STL/3MF/STEP meshes into G-code for FDM printers with per-object settings, variable layer height, tree and organic supports, ironing, and seam control. AI-integrated suggestion of starting parameters from material, geometry, and target strength.
+- ✅ **FDM Slicer** _(stub, awaits wire-up)_: Slices STL/3MF/STEP meshes into G-code for FDM printers with per-object settings, variable layer height, tree and organic supports, ironing, and seam control. AI-integrated suggestion of starting parameters from material, geometry, and target strength.
 
 - ⬜ **Resin Slicer** _(planned)_: Slices meshes into masked layer images for MSLA, DLP, and SLA printers with anti-aliasing, light PWM, hollow-and-drain, automatic raft and support trees, and per-layer exposure compensation.
 
