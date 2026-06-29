@@ -4711,7 +4711,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Cemetery and Burial Mapper** _(stub, awaits wire-up)_: Imports BillionGraves / Find a Grave exports plus user GPS walks, and stores headstone photos with plot coordinates. Renders cemetery maps showing family clustering and unassigned adjacent plots worth investigating.
 
-- ⬜ **Source Citation Manager** _(planned)_: Generates citations in Evidence Explained, NGSQ, and Chicago formats with templates per record type (census, vital, church, probate). Tracks evidence quality (original / derivative, primary / secondary) and surfaces conflicting source claims on the same fact.
+- ✅ **Source Citation Manager** _(stub, awaits wire-up)_: Generates citations in Evidence Explained, NGSQ, and Chicago formats with templates per record type (census, vital, church, probate). Tracks evidence quality (original / derivative, primary / secondary) and surfaces conflicting source claims on the same fact.
 
 - ⬜ **Brick Wall Research Planner** _(planned)_: Given a stuck ancestor, the LLM proposes prioritized next steps (specific microfilm rolls, FHL catalog numbers, FAN-club candidates, DNA targets) with rationale. Tracks completed and pending tasks per research question in a kanban-style log.
 
