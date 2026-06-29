@@ -3643,7 +3643,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Object tracker** _(stub, awaits wire-up)_: Multi-object tracking (ByteTrack, OC-SORT) and mask propagation (SAM2, XMem, Cutie) across video for rotoscoping and effect attachment. Exports per-frame masks and bounding boxes.
 
-- ⬜ **Stabilizer** _(planned)_: Camera-path smoothing and rolling-shutter correction using gyroflow-style and learned methods. Visualizes motion before commit and supports crop-aware output framing.
+- ✅ **Stabilizer** _(stub, awaits wire-up)_: Camera-path smoothing and rolling-shutter correction using gyroflow-style and learned methods. Visualizes motion before commit and supports crop-aware output framing.
 
 - ⬜ **Motion graphics** _(planned)_: Keyframed 2D animation and lower-third compositor with Lottie/Bodymovin import and SVG-on-timeline support. Exports to MP4, transparent WebM, GIF, and APNG.
 
