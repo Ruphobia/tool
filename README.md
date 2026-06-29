@@ -4128,7 +4128,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Maquette viewer** _(stub, awaits wire-up)_: Loads STL, OBJ, PLY, and 3MF maquettes with PBR or matcap shading, measures distances/angles/cross-sections, slices for armature planning, and snapshots reference views at standard sculptor angles.
 
-- ⬜ **Papercraft unfolder** _(planned)_: Unfolds a 3D mesh into flat polygon strips with user-controlled cut and glue-tab seams, optimizes for sheet count and tab visibility, and exports printable PDF/SVG with fold-direction line styles.
+- ✅ **Papercraft unfolder** _(stub, awaits wire-up)_: Unfolds a 3D mesh into flat polygon strips with user-controlled cut and glue-tab seams, optimizes for sheet count and tab visibility, and exports printable PDF/SVG with fold-direction line styles.
 
 - ⬜ **Tessellation and pattern designer** _(planned)_: Constructs repeating motifs across all 17 wallpaper groups, 7 frieze groups, and Penrose/quasiperiodic tilings, with live symmetry constraints and seamless tile export for textiles, mosaic, or stained-glass cartoons.
 
