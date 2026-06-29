@@ -2111,7 +2111,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Parametric CAD sketcher** _(stub, awaits wire-up)_: 2D constraint-based sketcher and 3D parametric modeler with feature tree, boolean operations, lofts, sweeps, and revolves. AI-integrated generation of sketches and feature trees from natural language descriptions or reference images.
 
-- ⬜ **Mesh editor** _(planned)_: Imports, repairs, and edits STL/OBJ/3MF meshes with hole filling, decimation, remeshing, and boolean operations. Includes non-manifold detection and automatic repair suggestions.
+- ✅ **Mesh editor** _(stub, awaits wire-up)_: Imports, repairs, and edits STL/OBJ/3MF meshes with hole filling, decimation, remeshing, and boolean operations. Includes non-manifold detection and automatic repair suggestions.
 
 - ⬜ **STEP/IGES converter** _(planned)_: Converts between STEP, IGES, BREP, STL, 3MF, OBJ, DXF, and SVG with healing of broken topology. Preserves assembly structure and metadata where possible.
 
