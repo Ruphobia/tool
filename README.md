@@ -1905,7 +1905,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Diarization and speaker tool** _(stub, awaits wire-up)_: Speaker turn segmentation, speaker embedding clustering, and named-speaker labeling persisted across sessions and projects.
 
-- ⬜ **Speech denoiser** _(planned)_: Noise reduction, dereverberation, and bandwidth extension tuned for ASR and TTS input quality. AI-integrated model selection from a captured noise profile of the source clip.
+- ✅ **Speech denoiser** _(stub, awaits wire-up)_: Noise reduction, dereverberation, and bandwidth extension tuned for ASR and TTS input quality. AI-integrated model selection from a captured noise profile of the source clip.
 
 - ⬜ **Dubbing studio** _(planned)_: Replaces source dialogue with translated speech timed to original mouth motion, with rate-stretch, take selection, and preservation of music-and-effects stems.
 
