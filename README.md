@@ -3912,7 +3912,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Beading Pattern Layout** _(stub, awaits wire-up)_: Grid-correct layouts for peyote, brick, herringbone, loom, right-angle weave, and bead crochet ropes. Maintains bead palettes keyed to Miyuki, Toho, and Czech codes and counts beads per color for the bill of materials.
 
-- ⬜ **Quilt Block Designer** _(planned)_: Block library and layout canvas with fabric swatches, sashing, borders, and on-point sets. Auto-computes piecing yardage, cutting list, and half-square-triangle math, and renders a fabric-colored preview.
+- ✅ **Quilt Block Designer** _(stub, awaits wire-up)_: Block library and layout canvas with fabric swatches, sashing, borders, and on-point sets. Auto-computes piecing yardage, cutting list, and half-square-triangle math, and renders a fabric-colored preview.
 
 - ⬜ **Dye Recipe Tracker** _(planned)_: Logs immersion, low-water, acid, fiber-reactive, and natural dye recipes with weight-of-fiber percentages, depth of shade, mordants, water hardness, and temperature curves. Reproduces a target color from a recorded swatch and predicts recipe scaling.
 
