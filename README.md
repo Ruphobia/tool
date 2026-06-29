@@ -1984,7 +1984,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Test fixture and ICT planner** _(stub, awaits wire-up)_: Lays out bed-of-nails test points, pogo-pin grids, and boundary-scan chains. Generates a per-board test plan with pass/fail thresholds wired to the bench bridge.
 
-- ⬜ **Reliability and FMEA** _(planned)_: MTBF prediction (MIL-HDBK-217, Telcordia, IEC 62380), derating reports, and failure-mode tables linked to schematic nets. AI-integrated drafting of FMEA rows from the schematic and known stress conditions.
+- ✅ **Reliability and FMEA** _(stub, awaits wire-up)_: MTBF prediction (MIL-HDBK-217, Telcordia, IEC 62380), derating reports, and failure-mode tables linked to schematic nets. AI-integrated drafting of FMEA rows from the schematic and known stress conditions.
 
 - ⬜ **Reverse-engineering board scanner** _(planned)_: Aligns photos of top and bottom copper, traces nets, and reconstructs a schematic from a physical board. AI-integrated identification of unmarked SMD parts from package, markings, and surrounding context.
 
