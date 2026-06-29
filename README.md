@@ -3290,7 +3290,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Polar Alignment** _(stub, awaits wire-up)_: Computes polar alignment error from drift exposures or three-point plate solves, then displays altitude/azimuth adjustment vectors. Tracks convergence as the user nudges the mount.
 
-- ⬜ **Autoguider** _(planned)_: Locks on a guide star or multi-star centroid and emits pulse-guide corrections to the mount via ST-4 or ASCOM. Computes RMS, peak, and seeing estimates with calibration assistant.
+- ✅ **Autoguider** _(stub, awaits wire-up)_: Locks on a guide star or multi-star centroid and emits pulse-guide corrections to the mount via ST-4 or ASCOM. Computes RMS, peak, and seeing estimates with calibration assistant.
 
 - ⬜ **Orbital Simulator** _(planned)_: Integrates N-body trajectories for solar-system bodies, spacecraft, and arbitrary scenarios using symplectic or Runge-Kutta integrators with JPL ephemerides as initial conditions. Includes patched-conics and lambert-solver helpers for mission design sketches.
 
