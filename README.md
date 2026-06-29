@@ -3595,7 +3595,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Vector editor** _(stub, awaits wire-up)_: Bezier-curve illustration surface with paths, boolean operations, gradient meshes, and SVG import/export. Supports AI-integrated raster-to-vector tracing and prompt-driven shape generation.
 
-- ⬜ **Image generator** _(planned)_: Local text-to-image and image-to-image diffusion runner with controlnet, LoRA, IP-Adapter, and regional prompting. Routes prompts through the interpretation pipeline before sampling.
+- ✅ **Image generator** _(stub, awaits wire-up)_: Local text-to-image and image-to-image diffusion runner with controlnet, LoRA, IP-Adapter, and regional prompting. Routes prompts through the interpretation pipeline before sampling.
 
 - ⬜ **Inpainter** _(planned)_: Mask-driven local regeneration over an existing image with edge-aware blending and seed control. Reuses the active generator and prompt context.
 
