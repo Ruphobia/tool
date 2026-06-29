@@ -901,7 +901,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Strings Triage** _(stub, awaits wire-up)_: Extracts ASCII, UTF-8, UTF-16, and stack-string candidates from binaries and dumps, classifying them into URLs, IPs, paths, registry keys, and credentials. AI-integrated clustering groups likely indicators.
 
-- ⬜ **Certificate and Key Inspector** _(planned)_: Parses X.509 certificates, CSRs, PEM/DER/PKCS#12 bundles, SSH keys, and JWKs with chain validation, revocation checks, and key strength analysis. Flags weak curves, short moduli, and pinning mismatches.
+- ✅ **Certificate and Key Inspector** _(stub, awaits wire-up)_: Parses X.509 certificates, CSRs, PEM/DER/PKCS#12 bundles, SSH keys, and JWKs with chain validation, revocation checks, and key strength analysis. Flags weak curves, short moduli, and pinning mismatches.
 
 - ⬜ **Crypto Playground** _(planned)_: Interactive encode/decode and encrypt/decrypt across base64/32/85, hex, URL, AES/ChaCha modes, RSA, ECC, HMAC, KDFs, and JWT. Chainable recipe pipeline in the style of CyberChef with local-only execution.
 
