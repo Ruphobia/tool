@@ -1724,7 +1724,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Prayer and Liturgy Translator** _(stub, awaits wire-up)_: Source-aware translator for liturgical texts that preserves meter, refrain structure, and theological loading. Handles common forms: psalmody, sutra recitation, mantra, doxology, kaddish, dua, and supports phonetic transliteration for non-reading users.
 
-- ⬜ **Comparative Mythology Graph** _(planned)_: Knowledge graph of deities, archetypes, cosmogonies, eschatons, and culture heroes with typed edges for cognates, syncretisms, and influence vectors. Supports Dumezilian, Eliadean, and historicist queries.
+- ✅ **Comparative Mythology Graph** _(stub, awaits wire-up)_: Knowledge graph of deities, archetypes, cosmogonies, eschatons, and culture heroes with typed edges for cognates, syncretisms, and influence vectors. Supports Dumezilian, Eliadean, and historicist queries.
 
 - ⬜ **Canon and Apocrypha Tracker** _(planned)_: Tabulates inclusion status of every candidate text across canons (Catholic, Protestant, Ethiopian Orthodox, Tewahedo, rabbinic, Samaritan, Mandaean, various Buddhist canons, Daoist Daozang). Includes council decisions and dating ranges.
 
