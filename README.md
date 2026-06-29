@@ -821,7 +821,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Gaze Heatmap Studio** _(stub, awaits wire-up)_: Aggregates eye-tracking sessions into fixation maps, scanpaths, and dwell heatmaps over the rendered scene. Useful for UI placement, attention studies, and validating foveated render falloff.
 
-- ⬜ **Avatar IK Tuner** _(planned)_: Full-body and hand IK solver playground (FABRIK, two-bone, Final-IK style) driven by HMD plus two controllers, with shoulder hint constraints, elbow popping diagnostics, and finger curl retarget. Previews on a swappable humanoid rig.
+- ✅ **Avatar IK Tuner** _(stub, awaits wire-up)_: Full-body and hand IK solver playground (FABRIK, two-bone, Final-IK style) driven by HMD plus two controllers, with shoulder hint constraints, elbow popping diagnostics, and finger curl retarget. Previews on a swappable humanoid rig.
 
 - ⬜ **Mesh Reconstruction Viewer** _(planned)_: Inspector for room-scale scene meshes from Quest, HoloLens, ARKit, and LIDAR scans, with per-face confidence shading, hole-fill preview, and semantic labels (floor, wall, ceiling, furniture).
 
