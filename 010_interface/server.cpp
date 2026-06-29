@@ -23,6 +23,7 @@
 #include "../009_tools/components/components.hpp"
 
 #include <nlohmann/json.hpp>
+#include <curl/curl.h>
 
 #include <algorithm>
 #include <array>
@@ -934,6 +935,144 @@ void run(const std::string & host, int port) {
         f << j.dump(2);
         res.set_content(R"({"ok":true})", "application/json");
     });
+    // POST /api/download {url, cwd?, filename?}
+    // Server-side fetch via curl that writes into <cwd>/Downloads/<basename>.
+    // The tool runs on the user's server in the basement; pulling resources
+    // through the user's workstation browser would land downloads on the
+    // wrong machine. This endpoint keeps datasheets / schematic symbols /
+    // any URL the user picks on the same box as the project.
+    srv.Post("/api/download", [](const httplib::Request & req, httplib::Response & res) {
+        json body = json::parse(req.body, nullptr, false);
+        if (!body.is_object() || !body.contains("url")) {
+            res.status = 400;
+            res.set_content(R"({"error":"missing url"})", "application/json");
+            return;
+        }
+        const std::string url       = body["url"].get<std::string>();
+        const std::string cwd_in    = expand_home(body.value("cwd",      std::string{}));
+        const std::string suggested = body.value("filename", std::string{});
+        const std::string root      = cwd_in.empty() ? std::string(".") : cwd_in;
+        const std::string ddir      = root + (root.back() == '/' ? "" : "/") + "Downloads";
+
+        std::error_code ec;
+        fs::create_directories(ddir, ec);
+        if (ec) {
+            res.status = 500;
+            res.set_content(json{{"error", "mkdir " + ddir + ": " + ec.message()}}.dump(),
+                            "application/json");
+            return;
+        }
+
+        // Derive a sensible filename: prefer caller's suggestion, else
+        // basename from the URL (stripped of ?query / #fragment).
+        std::string fname = suggested;
+        if (fname.empty()) {
+            std::string clean_url = url;
+            auto cut = clean_url.find_first_of("?#");
+            if (cut != std::string::npos) clean_url.resize(cut);
+            auto slash = clean_url.find_last_of('/');
+            if (slash != std::string::npos) fname = clean_url.substr(slash + 1);
+        }
+        if (fname.empty()) fname = "download.bin";
+
+        // Sanitize: keep [A-Za-z0-9._-], collapse anything else to '_'.
+        std::string clean_fname;
+        for (char c : fname) {
+            if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') ||
+                (c >= '0' && c <= '9') || c == '.' || c == '-' || c == '_')
+                clean_fname.push_back(c);
+            else if (!clean_fname.empty() && clean_fname.back() != '_')
+                clean_fname.push_back('_');
+        }
+        if (clean_fname.empty() || clean_fname == ".") clean_fname = "download.bin";
+
+        // If file already exists, suffix with -1, -2, … so we don't clobber.
+        std::string full = ddir + "/" + clean_fname;
+        if (fs::exists(full)) {
+            std::string stem = clean_fname;
+            std::string ext;
+            auto dot = stem.find_last_of('.');
+            if (dot != std::string::npos && dot > 0) {
+                ext  = stem.substr(dot);
+                stem = stem.substr(0, dot);
+            }
+            for (int i = 1; i < 1000; ++i) {
+                std::string candidate = ddir + "/" + stem + "-" + std::to_string(i) + ext;
+                if (!fs::exists(candidate)) { full = candidate; break; }
+            }
+        }
+
+        FILE * f = std::fopen(full.c_str(), "wb");
+        if (!f) {
+            res.status = 500;
+            res.set_content(json{{"error", "fopen " + full}}.dump(),
+                            "application/json");
+            return;
+        }
+
+        CURL * c = curl_easy_init();
+        if (!c) {
+            std::fclose(f);
+            std::error_code rec;
+            fs::remove(full, rec);
+            res.status = 500;
+            res.set_content(R"({"error":"curl init failed"})", "application/json");
+            return;
+        }
+        char errbuf[CURL_ERROR_SIZE] = {0};
+        curl_easy_setopt(c, CURLOPT_URL,            url.c_str());
+        curl_easy_setopt(c, CURLOPT_WRITEFUNCTION,
+            +[](char * ptr, std::size_t s, std::size_t n, void * ud) -> std::size_t {
+                return std::fwrite(ptr, s, n, static_cast<FILE *>(ud));
+            });
+        curl_easy_setopt(c, CURLOPT_WRITEDATA,      f);
+        curl_easy_setopt(c, CURLOPT_FOLLOWLOCATION, 1L);
+        // Some CDNs (notably the Mouser datasheet host) return 403 to the
+        // default libcurl UA; a real-browser UA gets through.
+        curl_easy_setopt(c, CURLOPT_USERAGENT,
+            "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+            "(KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36");
+        curl_easy_setopt(c, CURLOPT_ERRORBUFFER,    errbuf);
+        curl_easy_setopt(c, CURLOPT_TIMEOUT,        180L);
+        curl_easy_setopt(c, CURLOPT_CONNECTTIMEOUT, 20L);
+
+        CURLcode rc = curl_easy_perform(c);
+        long http_code = 0;
+        curl_easy_getinfo(c, CURLINFO_RESPONSE_CODE, &http_code);
+        char * eff_url = nullptr;
+        curl_easy_getinfo(c, CURLINFO_EFFECTIVE_URL, &eff_url);
+        std::string final_url = eff_url ? eff_url : url;
+        curl_easy_cleanup(c);
+        std::fclose(f);
+
+        if (rc != CURLE_OK) {
+            std::error_code rec;
+            fs::remove(full, rec);
+            res.status = 502;
+            res.set_content(json{{"error",
+                std::string("curl: ") + (errbuf[0] ? errbuf : curl_easy_strerror(rc))}}.dump(),
+                "application/json");
+            return;
+        }
+        if (http_code < 200 || http_code >= 300) {
+            std::error_code rec;
+            fs::remove(full, rec);
+            res.status = 502;
+            res.set_content(json{{"error", "http " + std::to_string(http_code)},
+                                 {"url", final_url}}.dump(),
+                            "application/json");
+            return;
+        }
+
+        std::error_code sec;
+        auto sz = fs::file_size(full, sec);
+        res.set_content(json{
+            {"path",       full},
+            {"size",       sec ? 0 : static_cast<int64_t>(sz)},
+            {"final_url",  final_url},
+        }.dump(), "application/json");
+    });
+
     srv.Post("/api/quit", [](const httplib::Request &, httplib::Response & r) {
         r.set_content(R"({"ok":true})", "application/json");
         std::thread([]{ web_server::stop(); }).detach();

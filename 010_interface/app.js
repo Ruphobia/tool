@@ -732,7 +732,7 @@ async function openFile(path) {
         // Hide Toast UI's bottom-right mode switch; we put our own toggle
         // ON the tab (see addMdModeToggle below).
         previewStyle: 'vertical',
-        initialEditType: 'markdown',
+        initialEditType: 'wysiwyg',
         previewHighlight: true,
         theme: 'dark',
         height: '100%',
@@ -758,7 +758,7 @@ async function openFile(path) {
         try { editor.changeMode(m); } catch {}
         state.files[path].mdMode = m;
       };
-      state.files[path].mdMode = 'markdown';
+      state.files[path].mdMode = 'wysiwyg';
     } catch (err) {
       // Toast UI blew up. Fall back to a plain textarea showing the source
       // so the user can at least see + edit the markdown. Surface the
@@ -831,6 +831,7 @@ function buildEditorTab(path, mode) {
   let extra = '';
   if (mode === 'markdown') {
     extra = `<button class="md-toggle" title="Switch markdown source / rendered">Source</button>`;
+    // (label is updated after construction below to reflect actual mode)
   } else if (mode === 'image') {
     extra =
       `<button class="img-toggle" title="Toggle view / edit">Edit</button>` +
@@ -841,8 +842,14 @@ function buildEditorTab(path, mode) {
     `<span class="label"></span>` +
     extra +
     `<span class="x" title="Close">×</span>`;
-  tab.querySelector('.label').textContent = path.split('/').pop();
-  tab.title = path;
+  if (mode === 'browser' && path.startsWith('__browser:')) {
+    tab.querySelector('.label').textContent =
+      '🌐 ' + shortenUrlForTab(path.slice('__browser:'.length));
+    tab.title = path.slice('__browser:'.length);
+  } else {
+    tab.querySelector('.label').textContent = path.split('/').pop();
+    tab.title = path;
+  }
   tab.addEventListener('click', e => {
     if (e.target.classList.contains('x'))            return;
     if (e.target.classList.contains('md-toggle'))    return;
@@ -856,6 +863,11 @@ function buildEditorTab(path, mode) {
   });
   if (mode === 'markdown') {
     const btn = tab.querySelector('.md-toggle');
+    // Label always shows the OTHER mode (what you'll switch to on click).
+    const labelFor = (m) => m === 'markdown' ? 'Rendered' : 'Source';
+    // Sync to current state (default we set is 'wysiwyg' so this reads 'Source').
+    const f0 = state.files[path];
+    if (f0 && f0.mdMode) btn.textContent = labelFor(f0.mdMode);
     btn.addEventListener('click', e => {
       e.stopPropagation();
       const f = state.files[path];
@@ -866,7 +878,7 @@ function buildEditorTab(path, mode) {
       }
       const next = (f.mdMode === 'markdown') ? 'wysiwyg' : 'markdown';
       f.changeMode(next);
-      btn.textContent = (next === 'markdown') ? 'Source' : 'Rendered';
+      btn.textContent = labelFor(next);
     });
   } else if (mode === 'image') {
     const tbtn = tab.querySelector('.img-toggle');
@@ -1576,6 +1588,172 @@ chatPane.addEventListener('drop', e => {
   analyzeImage(path);
 });
 
+// Delegated click handler for links and download buttons emitted by
+// formatChatMarkdown. Keeps the rest of the rendered markdown inert.
+chatLog.addEventListener('click', e => {
+  const dl = e.target.closest('.chat-dl');
+  if (dl) {
+    e.preventDefault();
+    triggerDownload(dl.dataset.url);
+    return;
+  }
+  const lnk = e.target.closest('.chat-link');
+  if (lnk) {
+    e.preventDefault();
+    openBrowserTab(lnk.dataset.url);
+  }
+});
+
+// Server-side fetch into <project>/Downloads/. We report the saved path
+// back into the chat so the user can confirm and so a subsequent file-tree
+// refresh shows the new file.
+async function triggerDownload(url, suggestedName) {
+  const tag = pushMsg('ai', '↓ downloading: ' + url);
+  try {
+    const r = await fetch('/api/download', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        url,
+        cwd:      state.rootDir || '',
+        filename: suggestedName || '',
+      }),
+    });
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok) {
+      tag.querySelector('.body').textContent =
+        'download failed: ' + (j.error || r.status);
+      return;
+    }
+    const kb = j.size ? ' (' + Math.round(j.size / 1024) + ' KB)' : '';
+    tag.querySelector('.body').textContent = '↓ saved: ' + j.path + kb;
+    refreshFileTreeIfOpen();
+  } catch (err) {
+    tag.querySelector('.body').textContent = 'download error: ' + err.message;
+  }
+}
+
+// ===== In-tool browser tab =============================================
+// Mouser-style sites usually block iframing via X-Frame-Options, in which
+// case the iframe just stays blank. The toolbar's download button still
+// works because it pulls the URL server-side. For iframable sites
+// (datasheet PDFs on CDNs, archive.org, wikipedia, …) this gives a real
+// in-app navigation experience.
+function shortenUrlForTab(url) {
+  try {
+    const u = new URL(url);
+    let s = u.host;
+    if (u.pathname && u.pathname !== '/') {
+      const seg = u.pathname.split('/').filter(Boolean).pop();
+      if (seg) s += '/…/' + seg;
+    }
+    return s.length > 40 ? s.slice(0, 39) + '…' : s;
+  } catch { return url.slice(0, 40); }
+}
+
+function openBrowserTab(url) {
+  const tabKey = '__browser:' + url;
+  if (state.files[tabKey]) { activateFile(tabKey); return; }
+
+  const empty = editorBody.querySelector('.editor-empty');
+  if (empty) empty.remove();
+
+  const surface = document.createElement('div');
+  surface.className = 'editor-surface';
+  surface.dataset.path = tabKey;
+  editorBody.appendChild(surface);
+  for (const ff of Object.values(state.files)) ff.surface.classList.remove('active');
+  surface.classList.add('active');
+
+  const wrap = document.createElement('div');
+  wrap.className = 'browser-wrap';
+  wrap.innerHTML =
+    `<div class="browser-toolbar">
+       <button class="browser-back"     title="Back">◀</button>
+       <button class="browser-fwd"      title="Forward">▶</button>
+       <button class="browser-refresh"  title="Reload">⟲</button>
+       <input  class="browser-url" type="text" spellcheck="false">
+       <button class="browser-go"       title="Go">Go</button>
+       <button class="browser-download" title="Save current URL to project /Downloads/">📥</button>
+       <button class="browser-extern"   title="Open in workstation browser">↗</button>
+     </div>
+     <div class="browser-body"></div>`;
+  surface.appendChild(wrap);
+
+  const urlInput = wrap.querySelector('.browser-url');
+  const body     = wrap.querySelector('.browser-body');
+  urlInput.value = url;
+
+  const history  = [];
+  let   histIdx  = -1;
+
+  const render = () => {
+    body.innerHTML = '';
+    const iframe = document.createElement('iframe');
+    iframe.className = 'browser-iframe';
+    // sandbox keeps the embedded page from navigating the top window or
+    // popping new tabs without us seeing it. allow-scripts/forms so it
+    // remains interactive; allow-same-origin so it can fetch its own
+    // resources where the host permits.
+    iframe.setAttribute('sandbox',
+      'allow-scripts allow-forms allow-popups allow-same-origin');
+    iframe.src = history[histIdx];
+    body.appendChild(iframe);
+  };
+  const navigate = (newUrl) => {
+    if (!newUrl) return;
+    if (!/^https?:\/\//i.test(newUrl)) newUrl = 'https://' + newUrl;
+    // Truncate forward history if we navigated mid-history.
+    if (histIdx < history.length - 1) history.length = histIdx + 1;
+    history.push(newUrl);
+    histIdx = history.length - 1;
+    urlInput.value = newUrl;
+    state.files[tabKey].url = newUrl;
+    render();
+  };
+
+  wrap.querySelector('.browser-back').addEventListener('click', () => {
+    if (histIdx > 0) {
+      histIdx--;
+      urlInput.value = history[histIdx];
+      state.files[tabKey].url = history[histIdx];
+      render();
+    }
+  });
+  wrap.querySelector('.browser-fwd').addEventListener('click', () => {
+    if (histIdx < history.length - 1) {
+      histIdx++;
+      urlInput.value = history[histIdx];
+      state.files[tabKey].url = history[histIdx];
+      render();
+    }
+  });
+  wrap.querySelector('.browser-refresh').addEventListener('click', render);
+  wrap.querySelector('.browser-go').addEventListener('click',
+    () => navigate(urlInput.value));
+  urlInput.addEventListener('keydown', e => {
+    if (e.key === 'Enter') { e.preventDefault(); navigate(urlInput.value); }
+  });
+  wrap.querySelector('.browser-download').addEventListener('click',
+    () => triggerDownload(urlInput.value));
+  wrap.querySelector('.browser-extern').addEventListener('click',
+    () => window.open(urlInput.value, '_blank', 'noopener'));
+
+  state.files[tabKey] = {
+    mode:    'browser',
+    surface, tab: null,
+    savedContent: '',
+    getContent:   () => '',
+    destroy:      () => {},
+    dirty:        false,
+    url,
+  };
+  buildEditorTab(tabKey, 'browser');
+  activateFile(tabKey);
+  navigate(url);
+  saveState();
+}
+
 chatForm.addEventListener('submit', async e => {
   e.preventDefault();
   const text = chatInput.value.trim();
@@ -1687,7 +1865,7 @@ chatForm.addEventListener('submit', async e => {
 
 // Light, safe markdown rendering for AI headlines. We escape ALL HTML first,
 // then re-introduce the tiny subset we care about:
-//   [label](http(s)://…) → opens in a new tab
+//   [label](http(s)://…) → in-tool browser link + download icon
 //   **bold**             → <strong>
 // Anything else stays as escaped text so the Mouser links the components
 // tool emits become clickable without exposing us to script injection.
@@ -1698,7 +1876,10 @@ function formatChatMarkdown(text) {
   let out = esc.replace(
     /\[([^\]\n]+)\]\((https?:\/\/[^\s)]+)\)/g,
     (_m, label, url) =>
-      `<a href="${url}" target="_blank" rel="noopener noreferrer">${label}</a>`
+      `<a href="#" data-url="${url}" class="chat-link" ` +
+        `title="Open in tool browser">${label}</a>` +
+      ` <button class="chat-dl" data-url="${url}" type="button" ` +
+        `title="Download to project /Downloads/">📥</button>`
   );
   out = out.replace(/\*\*([^*\n][^*]*?)\*\*/g, '<strong>$1</strong>');
   return out;
@@ -2194,7 +2375,11 @@ async function restoreState() {
     commitOpenFolder(s.rootDir);
     if (Array.isArray(s.openFiles)) {
       for (const path of s.openFiles) {
-        await openFile(path);
+        if (path.startsWith('__browser:')) {
+          openBrowserTab(path.slice('__browser:'.length));
+        } else {
+          await openFile(path);
+        }
       }
       if (s.activeFilePath && state.files[s.activeFilePath]) {
         activateFile(s.activeFilePath);
