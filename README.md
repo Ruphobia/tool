@@ -4768,7 +4768,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Mood log with valence-arousal grid** _(stub, awaits wire-up)_: Logs mood as a two-axis point (valence x arousal) plus tags, notes, and contextual fields (sleep, caffeine, social). Renders Daylio-style streaks and weekly heatmaps over the local store.
 
-- ⬜ **CBT thought record** _(planned)_: Structured template with situation, automatic thought, evidence-for/against, cognitive-distortion tags (Burns' list), and reframe. AI-integrated distortion classifier suggests likely distortions from the thought text.
+- ✅ **CBT thought record** _(stub, awaits wire-up)_: Structured template with situation, automatic thought, evidence-for/against, cognitive-distortion tags (Burns' list), and reframe. AI-integrated distortion classifier suggests likely distortions from the thought text.
 
 - ⬜ **Consensus sleep diary** _(planned)_: Implements the Carney et al. Consensus Sleep Diary fields: bedtime, sleep latency, WASO, final awakening, time out of bed. Computes sleep efficiency, total sleep time, and rolling 7- and 14-day averages.
 
