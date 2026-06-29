@@ -2912,7 +2912,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Periodic table explorer** _(stub, awaits wire-up)_: Interactive table with isotopes, electron configurations, oxidation states, ionization energies, electronegativities, atomic radii, abundances, and crystal structures; filterable and plottable by any property.
 
-- ⬜ **Electronic lab notebook** _(planned)_: Date-stamped entries with embedded structures, procedures, observations, attached spectra, photographs, and reaction templates; cross-links reagents, products, equipment, and hazards so a synthesis is reproducible from the record alone.
+- ✅ **Electronic lab notebook** _(stub, awaits wire-up)_: Date-stamped entries with embedded structures, procedures, observations, attached spectra, photographs, and reaction templates; cross-links reagents, products, equipment, and hazards so a synthesis is reproducible from the record alone.
 
 - ⬜ **Chemical inventory** _(planned)_: Tracks reagents by CAS, location, container, amount, lot, purity, expiry, and supplier; logs check-outs against notebook entries, flags peroxide-formers past their date, and generates reorder lists.
 
