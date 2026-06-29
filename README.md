@@ -3028,7 +3028,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Viral genome workbench** _(stub, awaits wire-up)_: Performs reference-based viral consensus calling, Pangolin or Nextclade lineage assignment, glycoprotein cleavage site detection, and recombination scanning via RDP and 3SEQ.
 
-- ⬜ **Protein structure predictor** _(planned)_: Runs AlphaFold, ColabFold, ESMFold, or RoseTTAFold locally for monomer and complex prediction with confidence (pLDDT, PAE) overlays and PDB or mmCIF export.
+- ✅ **Protein structure predictor** _(stub, awaits wire-up)_: Runs AlphaFold, ColabFold, ESMFold, or RoseTTAFold locally for monomer and complex prediction with confidence (pLDDT, PAE) overlays and PDB or mmCIF export.
 
 - ⬜ **Structure viewer** _(planned)_: Renders proteins, ligands, and nucleic acids in cartoon, surface, and electrostatic modes via PyMOL or Mol* bindings with structural alignment via TM-align or Foldseek.
 
