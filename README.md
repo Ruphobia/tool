@@ -3233,7 +3233,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **NWP model field viewer** _(stub, awaits wire-up)_: Renders GFS, HRRR, NAM, RAP, ECMWF, ICON, and GEM output as filled contours, streamlines, and wind barbs over Cartopy basemaps; supports run cycle picker, forecast hour scrubber, and side-by-side model comparison.
 
-- ⬜ **Skew-T/Log-P sounding plotter** _(planned)_: Plots radiosonde, model, and dropsonde profiles with parcel paths, mixed-layer and most-unstable lifts, CAPE/CIN/LCL/LFC/EL, PWAT, and freezing levels using MetPy thermodynamics; loads RAOB, BUFKIT, and GFS/HRRR sounding files.
+- ✅ **Skew-T/Log-P sounding plotter** _(stub, awaits wire-up)_: Plots radiosonde, model, and dropsonde profiles with parcel paths, mixed-layer and most-unstable lifts, CAPE/CIN/LCL/LFC/EL, PWAT, and freezing levels using MetPy thermodynamics; loads RAOB, BUFKIT, and GFS/HRRR sounding files.
 
 - ⬜ **Hodograph & severe parameters** _(planned)_: Draws 0-1, 0-3, 0-6 km hodographs with storm motion (Bunkers right/left) and computes SRH, EHI, STP, SCP, SHIP, and effective bulk shear for severe weather analysis.
 
