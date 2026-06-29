@@ -4543,7 +4543,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Summit Log & Peak Bagger** _(stub, awaits wire-up)_: Tracks ascents against curated lists (14ers, Munros, Bulgers, Volcanic Seven, county highpoints, local 100-prominence) with date, partners, route, and conditions. Imports GPX summit waypoints and generates progress maps.
 
-- ⬜ **Anchor & Force Calculator** _(planned)_: Computes load distribution on multi-piece anchors (cordelette, equalette, quad), vector forces on top belays, fall factors, and pulley/Z-drag mechanical advantage. Flags configurations exceeding gear or sling MBS.
+- ✅ **Anchor & Force Calculator** _(stub, awaits wire-up)_: Computes load distribution on multi-piece anchors (cordelette, equalette, quad), vector forces on top belays, fall factors, and pulley/Z-drag mechanical advantage. Flags configurations exceeding gear or sling MBS.
 
 - ⬜ **Avalanche Beacon Drill Simulator** _(planned)_: Practice mode for transceiver search patterns (signal, coarse, fine, pinpoint) with timed scenarios, multiple burials, and spike-strike strategies. Logs search times and probe-strike accuracy across sessions.
 
