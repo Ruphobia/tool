@@ -2591,7 +2591,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Transition Predictor** _(stub, awaits wire-up)_: e^N envelope and database-Tollmien-Schlichting transition estimator that locates the natural transition point on each surface as a function of Ncrit, surface roughness, and pressure gradient. Integrates with the polar solver to refine drag at low Re.
 
-- ⬜ **Panel Method Studio** _(planned)_: 2D and 2.5D source-doublet panel method with linear-strength panels, Kutta condition enforcement, and wake relaxation. Visualizes panel-by-panel velocity, vorticity, and influence coefficients for teaching and debugging.
+- ✅ **Panel Method Studio** _(stub, awaits wire-up)_: 2D and 2.5D source-doublet panel method with linear-strength panels, Kutta condition enforcement, and wake relaxation. Visualizes panel-by-panel velocity, vorticity, and influence coefficients for teaching and debugging.
 
 - ⬜ **Vortex Lattice Method** _(planned)_: AVL-style 3D VLM for wings, tails, and canards with control surface deflections, dihedral, sweep, and twist. Returns span loading, induced drag, stability derivatives, and trim solutions.
 
