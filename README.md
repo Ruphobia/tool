@@ -2098,7 +2098,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **LaTeX formula editor** _(stub, awaits wire-up)_: Live-rendered LaTeX/MathJax editor with palette, OCR from sketches or screenshots, and bidirectional conversion to symbolic CAS expressions.
 
-- ⬜ **Material property database** _(planned)_: Searchable library of mechanical, thermal, optical, and electrical properties for metals, polymers, ceramics, composites, and semiconductors with temperature-dependent curves and provenance.
+- ✅ **Material property database** _(stub, awaits wire-up)_: Searchable library of mechanical, thermal, optical, and electrical properties for metals, polymers, ceramics, composites, and semiconductors with temperature-dependent curves and provenance.
 
 - ⬜ **Spectrum reference** _(planned)_: Atomic and molecular spectral-line database (NIST ASD, HITRAN) with line-list query, broadening models, and synthetic-spectrum generator for absorption and emission.
 
