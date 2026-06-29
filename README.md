@@ -480,7 +480,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Adaptive icon studio** _(stub, awaits wire-up)_: Previews Android adaptive icons across OEM mask shapes (circle, squircle, teardrop, rounded square), animates the parallax wiggle, and validates safe zone clearance for the foreground layer.
 
-- ⬜ **Asset density optimizer** _(planned)_: Audits @1x/@2x/@3x and mdpi through xxxhdpi raster assets, flags missing densities, recompresses PNG/WebP losslessly, and proposes vector replacements (PDF for iOS, VectorDrawable for Android) where viable.
+- ✅ **Asset density optimizer** _(stub, awaits wire-up)_: Audits @1x/@2x/@3x and mdpi through xxxhdpi raster assets, flags missing densities, recompresses PNG/WebP losslessly, and proposes vector replacements (PDF for iOS, VectorDrawable for Android) where viable.
 
 - ⬜ **Signing identity vault** _(planned)_: Tracks iOS certificates, provisioning profiles, App Store Connect API keys, Android keystores, and Play upload keys; surfaces expirations, mismatched team IDs, entitlement drift, and missing capabilities before they break a build.
 
