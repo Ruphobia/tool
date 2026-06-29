@@ -230,7 +230,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ⬜ **Site Crawler** _(planned)_: Configurable BFS/DFS crawler with depth limits, per-host concurrency, politeness delays, and resumable checkpoints. Honors robots.txt, sitemap.xml, and per-domain rate budgets.
 
-- ⬜ **Robots and Sitemap Inspector** _(planned)_: Parses robots.txt directives, crawl-delay hints, and sitemap indexes (including gzipped and nested). Surfaces disallowed paths, lastmod timestamps, and coverage gaps before a crawl starts.
+- ✅ **Robots and Sitemap Inspector** _(in testing)_: Parses robots.txt directives, crawl-delay hints, and sitemap indexes (including gzipped and nested). Surfaces disallowed paths, lastmod timestamps, and coverage gaps before a crawl starts.
 
 - ⬜ **Feed Reader** _(planned)_: Polls RSS, Atom, and JSON Feed sources with conditional GET (ETag, If-Modified-Since) and per-feed schedules. Normalizes entries into a common record shape for downstream ingest.
 
