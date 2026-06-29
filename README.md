@@ -3364,7 +3364,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Paleontology and archaeology
 
-- ⬜ **Ancient tools and weapons typology** _(planned)_: classifies hand-axes, projectile points, swords, bows, slings, etc. by typology/period/material/culture. Replica construction notebook (knapping, smelting, lashing), conservation/restoration log, experimental archaeology trial logger, regional comparison atlas.
+- ✅ **Ancient tools and weapons typology** _(stub, awaits wire-up)_: classifies hand-axes, projectile points, swords, bows, slings, etc. by typology/period/material/culture. Replica construction notebook (knapping, smelting, lashing), conservation/restoration log, experimental archaeology trial logger, regional comparison atlas.
 
 - ⬜ **Specimen catalog** _(planned)_: Tracks fossils, artifacts, and samples with accession numbers, provenience, taxonomy, collector, lithology, and curation status. Generates Darwin Core exports and printable specimen labels with QR codes for tray/drawer linking.
 
