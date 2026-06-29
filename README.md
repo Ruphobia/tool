@@ -740,7 +740,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sprite Editor** _(stub, awaits wire-up)_: Pixel-art canvas with layers, frame-by-frame animation, onion skinning, indexed palettes, and per-frame pivot points. Exports to spritesheets, GIF, APNG, or per-frame PNG with a sidecar atlas JSON.
 
-- ⬜ **Tilemap Composer** _(planned)_: Multi-layer 2D tilemap editor with autotiling rules (Wang/blob/47-tile), stamp brushes, randomized variants, and chunked streaming. AI-integrated rule inference from a small hand-painted example region.
+- ✅ **Tilemap Composer** _(stub, awaits wire-up)_: Multi-layer 2D tilemap editor with autotiling rules (Wang/blob/47-tile), stamp brushes, randomized variants, and chunked streaming. AI-integrated rule inference from a small hand-painted example region.
 
 - ⬜ **Particle Designer** _(planned)_: Visual emitter editor with curve-driven lifetime properties, sub-emitters, force fields, GPU and CPU backends, and live preview against a chosen game background. Exports to a portable JSON spec consumable by common engines.
 
