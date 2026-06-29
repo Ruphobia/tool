@@ -4578,7 +4578,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Play-by-play loader** _(stub, awaits wire-up)_: Pulls play-by-play and tracking data from nflfastR, pybaseball (Statcast), nba_api, hockey-reference, and StatsBomb open data into tidy long-format frames keyed by game/possession/event.
 
-- ⬜ **Expected-value model fitter** _(planned)_: Trains xG (soccer), xT/EPV (basketball), wOBA/xwOBA (baseball), EPA/WP (football) models on shot or play features; outputs calibration plots, SHAP importances, and per-player residuals.
+- ✅ **Expected-value model fitter** _(stub, awaits wire-up)_: Trains xG (soccer), xT/EPV (basketball), wOBA/xwOBA (baseball), EPA/WP (football) models on shot or play features; outputs calibration plots, SHAP importances, and per-player residuals.
 
 - ⬜ **Scouting notebook** _(planned)_: Bookmarks timestamped clips against a tag taxonomy (player, action, outcome) with hotkey tagging; AI-integrated summarization rolls per-player tendencies and weaknesses from accumulated notes.
 
