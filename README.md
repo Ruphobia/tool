@@ -2601,7 +2601,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **CFD Mesh Generator** _(stub, awaits wire-up)_: Generates structured C-meshes and O-meshes around airfoils and unstructured triangular/tetrahedral meshes around arbitrary STL geometry. Provides hyperbolic extrusion for boundary-layer prism layers with target y+ and growth ratio.
 
-- ⬜ **RANS Solver** _(planned)_: Local finite-volume Navier-Stokes solver for 2D and small 3D cases with Spalart-Allmaras and k-omega SST turbulence models, compressible and incompressible branches. Streams residuals, force coefficients, and convergence plots live during the run.
+- ✅ **RANS Solver** _(stub, awaits wire-up)_: Local finite-volume Navier-Stokes solver for 2D and small 3D cases with Spalart-Allmaras and k-omega SST turbulence models, compressible and incompressible branches. Streams residuals, force coefficients, and convergence plots live during the run.
 
 - ⬜ **Flow Visualizer** _(planned)_: Interactive viewer for pressure, Mach, vorticity, and velocity fields with streamlines, line integral convolution, isosurfaces, and animated particle traces. Reads VTK, CGNS, and the workbench's native solver output.
 
