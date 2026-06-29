@@ -2863,7 +2863,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Off-Grid System Sizer** _(stub, awaits wire-up)_: End-to-end sizing of array, battery, controller, and inverter against a load profile and worst-month solar resource, including loss-of-load probability. AI-integrated suggestion of a starting topology from constraints (budget, autonomy, climate).
 
-- ⬜ **Hybrid Dispatch Simulator** _(planned)_: Hourly dispatch of PV, battery, grid, wind, and diesel/propane generator under a chosen control strategy (cycle charging, load following, peak shaving). Reports renewable fraction, generator runtime, fuel use, and unmet load.
+- ✅ **Hybrid Dispatch Simulator** _(stub, awaits wire-up)_: Hourly dispatch of PV, battery, grid, wind, and diesel/propane generator under a chosen control strategy (cycle charging, load following, peak shaving). Reports renewable fraction, generator runtime, fuel use, and unmet load.
 
 - ⬜ **Wind Resource & Weibull Fitter** _(planned)_: Fits Weibull shape and scale parameters to measured or reanalysis wind speed time series and extrapolates to hub height via log or power law. Plots wind rose, turbulence intensity, and exceedance curves.
 
