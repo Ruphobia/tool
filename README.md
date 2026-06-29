@@ -4670,7 +4670,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **HF propagation forecaster** _(stub, awaits wire-up)_: Predicts band openings and maximum usable frequency for a given path using current solar flux, K-index, and ionospheric models. Recommends band and mode windows for NVIS, regional, and DX work over the next 24 hours.
 
-- ⬜ **Radio link planner** _(planned)_: Plots line-of-sight and Fresnel-zone clearance across terrain between two coordinates for VHF/UHF simplex, repeater, or Meshtastic/LoRa links. Estimates path loss, fade margin, and antenna height needed for a target link budget.
+- ✅ **Radio link planner** _(stub, awaits wire-up)_: Plots line-of-sight and Fresnel-zone clearance across terrain between two coordinates for VHF/UHF simplex, repeater, or Meshtastic/LoRa links. Estimates path loss, fade margin, and antenna height needed for a target link budget.
 
 - ⬜ **Celestial navigation aid** _(planned)_: Identifies stars and planets, reduces sextant sights to a line of position, and derives latitude from Polaris altitude or noon-sun observations. Includes a pre-computed almanac for sun, moon, and navigational stars at any date and location.
 
