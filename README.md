@@ -1492,7 +1492,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Document diff** _(stub, awaits wire-up)_: Compares two versions of a document at text, structural, and visual layers, showing inline word diffs, moved blocks, and overlay deltas on rendered pages. Useful for paper revisions, contract redlines, and standards updates.
 
-- ⬜ **Redactor** _(planned)_: Masks names, addresses, account numbers, and arbitrary regex or NER-detected spans, flattening the redactions into the page so the original text cannot be recovered. Previews redactions before commit.
+- ✅ **Redactor** _(stub, awaits wire-up)_: Masks names, addresses, account numbers, and arbitrary regex or NER-detected spans, flattening the redactions into the page so the original text cannot be recovered. Previews redactions before commit.
 
 - ⬜ **Text-to-speech narrator** _(planned)_: Reads documents aloud using a local TTS voice with adjustable rate, sentence highlighting in sync with playback, skip controls for footnotes and figures, and bookmark resume across sessions.
 
