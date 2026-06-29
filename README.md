@@ -3920,7 +3920,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Stitch Library** _(stub, awaits wire-up)_: Searchable reference of embroidery, knit, crochet, sashiko, and tatting stitches with diagrams, video loops, and tension notes. Insertable into patterns as named stitches with parameters.
 
-- ⬜ **Colorway Palette Builder** _(planned)_: Extracts palettes from reference images and matches each color to thread, floss, yarn, and bead inventories. Tests palettes against simulated daylight and tungsten white points and exports a colorway sheet.
+- ✅ **Colorway Palette Builder** _(stub, awaits wire-up)_: Extracts palettes from reference images and matches each color to thread, floss, yarn, and bead inventories. Tests palettes against simulated daylight and tungsten white points and exports a colorway sheet.
 
 - ⬜ **Tufting Rug Designer** _(planned)_: Designs cut-pile and loop-pile rugs with pile-direction arrows, color blocks, and backing dimensions. Computes yarn poundage per color and generates a projector-ready outline for the tufting cloth.
 
