@@ -4631,7 +4631,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **COLREGs and lights advisor** _(stub, awaits wire-up)_: Identifies a target's likely vessel type and status from observed light arcs, day shapes, or sound signals, and states the applicable steering and sailing rules with stand-on/give-way assignment. References specific rule numbers (5, 7, 13-18, 19) and quotes the rule text.
 
-- ⬜ **MOB and SAR pattern generator** _(planned)_: Drops a MOB datum, computes Williamson, Anderson, and Scharnow turn solutions for the current speed and rudder rate, and generates expanding-square, sector, and parallel-track search patterns sized from leeway and elapsed-time uncertainty. Outputs waypoints ready to push to the autopilot.
+- ✅ **MOB and SAR pattern generator** _(stub, awaits wire-up)_: Drops a MOB datum, computes Williamson, Anderson, and Scharnow turn solutions for the current speed and rudder rate, and generates expanding-square, sector, and parallel-track search patterns sized from leeway and elapsed-time uncertainty. Outputs waypoints ready to push to the autopilot.
 
 - ⬜ **Fuel, range, and provisioning calculator** _(planned)_: Computes range and endurance from tank capacity, engine fuel curve, hotel load, and current/wind drag, with a reserve policy. Sizes water, food, gas, and battery provisioning per crew per day and warns when a planned passage exceeds any single resource.
 
