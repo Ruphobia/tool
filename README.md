@@ -4003,7 +4003,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Recipe Scaling and Yield Tracker** _(stub, awaits wire-up)_: Scales fermentation and curing recipes by ingredient, batch volume, or vessel headspace while preserving ratio-critical parameters. Records actual yield, loss, and shrinkage against predicted values across runs.
 
-- ⬜ **Pantry and Culture Inventory** _(planned)_: Tracks live cultures (starters, mothers, koji, kefir grains), spice freshness, oil rancidity windows, and freezer cure stock. Issues refresh and feed reminders based on observed inactivity intervals.
+- ✅ **Pantry and Culture Inventory** _(stub, awaits wire-up)_: Tracks live cultures (starters, mothers, koji, kefir grains), spice freshness, oil rancidity windows, and freezer cure stock. Issues refresh and feed reminders based on observed inactivity intervals.
 
 
 #### Coffee, tea, wine, spirits, beverages
