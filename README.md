@@ -2489,7 +2489,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Decay heat estimator** _(stub, awaits wire-up)_: ANSI/ANS-5.1 fission-product decay heat and explicit chain integration for actinides; cooling curves from shutdown through long-term storage.
 
-- ⬜ **Criticality safety checker** _(planned)_: keff lookup against LEU/HEU handbook benchmarks and simplified MCNP-style fissile-array geometry; subcritical margin and double-contingency review.
+- ✅ **Criticality safety checker** _(stub, awaits wire-up)_: keff lookup against LEU/HEU handbook benchmarks and simplified MCNP-style fissile-array geometry; subcritical margin and double-contingency review.
 
 - ⬜ **ALARA dose planner** _(planned)_: Time, distance, and shielding optimizer for a work package against zone dose-rate maps; tracks collective and individual dose budgets per task.
 
