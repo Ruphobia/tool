@@ -1777,7 +1777,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pantheon Cross-Reference Atlas** _(stub, awaits wire-up)_: Side-by-side comparison grids of deities across cultures (Indo-European, Mesoamerican, West African, Polynesian, Sino-Tibetan, etc.), aligned by domain (sky, storm, trickster, underworld). Includes etymology trails and known syncretic identifications.
 
-- ⬜ **Folk Tale Variant Browser** _(planned)_: Collation viewer for variants of a single tale type across collectors and regions (Grimm, Afanasyev, Calvino, Lang, Jacobs, El-Shamy). Highlights diffs in plot beats, character roles, and locale-specific substitutions.
+- ✅ **Folk Tale Variant Browser** _(stub, awaits wire-up)_: Collation viewer for variants of a single tale type across collectors and regions (Grimm, Afanasyev, Calvino, Lang, Jacobs, El-Shamy). Highlights diffs in plot beats, character roles, and locale-specific substitutions.
 
 - ⬜ **Oral History Recorder** _(planned)_: Local audio capture with timestamped transcript, speaker labeling, and informant metadata (age, location, language, consent status). AI-assisted transcription and translation runs locally; original audio is the canonical artifact.
 
