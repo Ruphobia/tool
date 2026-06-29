@@ -2337,7 +2337,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Column Calculator** _(stub, awaits wire-up)_: Evaluates axial, biaxial bending, and slenderness capacity for steel W-shapes, HSS, concrete, and timber columns. Includes interaction diagrams and effective-length factor lookup.
 
-- ⬜ **Truss Solver** _(planned)_: Builds 2D and 3D pin-jointed trusses and solves member forces by method of joints or stiffness matrix. Supports parametric span/pitch sweeps with AI-integrated topology suggestion from load and span constraints.
+- ✅ **Truss Solver** _(stub, awaits wire-up)_: Builds 2D and 3D pin-jointed trusses and solves member forces by method of joints or stiffness matrix. Supports parametric span/pitch sweeps with AI-integrated topology suggestion from load and span constraints.
 
 - ⬜ **Frame Analyzer** _(planned)_: Performs linear and P-delta analysis of 2D moment frames with arbitrary releases, supports, and load cases. Exports envelope diagrams and unity-check tables per member.
 
