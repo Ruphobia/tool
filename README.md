@@ -2165,7 +2165,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Vendor and supplier search** _(stub, awaits wire-up)_: Searches McMaster, Misumi, Digi-Key, Grainger, and machine shop networks for parts matching a CAD model or spec sheet. AI-integrated extraction of part specs from a screenshot or description.
 
-- ⬜ **PLM/revision tracker** _(planned)_: Versions CAD, drawings, BOMs, and G-code with branching, diffing, and ECO/ECR workflows. Visual diff of geometry highlights added, removed, and changed features.
+- ✅ **PLM/revision tracker** _(stub, awaits wire-up)_: Versions CAD, drawings, BOMs, and G-code with branching, diffing, and ECO/ECR workflows. Visual diff of geometry highlights added, removed, and changed features.
 
 - ⬜ **OCR for drawings** _(planned)_: Extracts dimensions, tolerances, GD&T frames, notes, and title block data from scanned or photographed engineering drawings into a structured model. AI-integrated reconstruction of geometry from a complete drawing set.
 
