@@ -3533,7 +3533,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Tile Downloader** _(stub, awaits wire-up)_: Caches map tile pyramids (XYZ, WMTS, WMS) for an area of interest and zoom range into a local MBTiles or directory store for offline use. Throttles requests, resumes interrupted jobs, and reports tile coverage stats.
 
-- ⬜ **Field Notebook** _(planned)_: Geotagged structured note capture for outcrops, samples, and measurements (strike/dip, lithology, contacts, photos) with offline sync and map pin rendering. AI-integrated extraction of structured fields from free-text descriptions and photo OCR of sample labels.
+- ✅ **Field Notebook** _(stub, awaits wire-up)_: Geotagged structured note capture for outcrops, samples, and measurements (strike/dip, lithology, contacts, photos) with offline sync and map pin rendering. AI-integrated extraction of structured fields from free-text descriptions and photo OCR of sample labels.
 
 
 #### Agriculture and horticulture
