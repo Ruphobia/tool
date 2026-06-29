@@ -4697,7 +4697,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Immigration and Naturalization Search** _(stub, awaits wire-up)_: Cross-queries Ellis Island, Castle Garden, Hamburg, Bremen (reconstructed), and Canadian Border Crossings indices. Reconciles passenger manifests with later naturalization petitions and declarations of intent.
 
-- ⬜ **Military Service Reconstructor** _(planned)_: Pulls pension files, muster rolls, draft cards (WWI / WWII), and unit histories. Plots the soldier's movements on a campaign map and flags pension widows for spouse confirmation.
+- ✅ **Military Service Reconstructor** _(stub, awaits wire-up)_: Pulls pension files, muster rolls, draft cards (WWI / WWII), and unit histories. Plots the soldier's movements on a campaign map and flags pension widows for spouse confirmation.
 
 - ⬜ **Probate and Land Parser** _(planned)_: Extracts heirs, executors, witnesses, bequests, and metes-and-bounds descriptions from wills and deeds. Produces an inferred kinship graph and a polygon plat for land records that include surveyor calls.
 
