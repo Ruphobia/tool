@@ -4416,7 +4416,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Nitrogen cycle tracker** _(stub, awaits wire-up)_: Plots ammonia, nitrite, nitrate, and pH over the cycling period for a new tank. Flags stalls and estimates time-to-cycled from the curve shape using a fish-in or fishless protocol.
 
-- ⬜ **Water chemistry calculator** _(planned)_: Converts and reconciles GH, KH, TDS, conductivity, salinity, and specific gravity. Computes RO remineralization recipes for soft-water biotopes, blackwater tannins, or reef salt mixing targets.
+- ✅ **Water chemistry calculator** _(stub, awaits wire-up)_: Converts and reconciles GH, KH, TDS, conductivity, salinity, and specific gravity. Computes RO remineralization recipes for soft-water biotopes, blackwater tannins, or reef salt mixing targets.
 
 - ⬜ **Stocking and bioload calculator** _(planned)_: Estimates bioload from species, adult size, and activity profile against tank volume and filtration turnover. Warns on aggression, schooling minimums, and pH/temperature/hardness compatibility across the proposed list.
 
