@@ -3447,7 +3447,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Lagrangian drift simulator** _(stub, awaits wire-up)_: Tracks particle trajectories through HYCOM, CMEMS, or user-supplied velocity fields with Stokes drift and windage. Supports larval competency windows and beaching/MPA-intersection statistics.
 
-- ⬜ **Nautical chart viewer** _(planned)_: Renders S-57/S-101 ENCs and BSB raster charts with depth contours, navaids, and AIS overlay. Supports route planning with cross-track error, waypoint export to GPX, and tidal-height-aware UKC checks.
+- ✅ **Nautical chart viewer** _(stub, awaits wire-up)_: Renders S-57/S-101 ENCs and BSB raster charts with depth contours, navaids, and AIS overlay. Supports route planning with cross-track error, waypoint export to GPX, and tidal-height-aware UKC checks.
 
 - ⬜ **Coral DHW tracker** _(planned)_: Pulls NOAA Coral Reef Watch SST anomaly and Degree Heating Weeks for any reef polygon, tracks bleaching alert level history, and overlays in-situ HOBO logger data for ground-truth comparison.
 
