@@ -2427,7 +2427,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Hull resistance estimator** _(stub, awaits wire-up)_: Holtrop-Mennen displacement-hull and Savitsky planing-hull regressions across a speed range; outputs frictional, residuary, and total resistance with EHP/BHP and Froude/Reynolds context.
 
-- ⬜ **Seakeeping RAO analyzer** _(planned)_: Strip-theory heave, pitch, and roll response amplitude operators against JONSWAP, Pierson-Moskowitz, and Bretschneider spectra; reports significant motions, MII, and slamming/wetness counts.
+- ✅ **Seakeeping RAO analyzer** _(stub, awaits wire-up)_: Strip-theory heave, pitch, and roll response amplitude operators against JONSWAP, Pierson-Moskowitz, and Bretschneider spectra; reports significant motions, MII, and slamming/wetness counts.
 
 - ⬜ **Propeller series matcher** _(planned)_: Wageningen B-series and Gawn polynomial open-water curves matched to engine torque and hull wake; finds optimum diameter, pitch, and blade-area ratio for the design point.
 
