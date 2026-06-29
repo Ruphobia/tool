@@ -3935,7 +3935,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Nutrition Calculator** _(stub, awaits wire-up)_: Builds per-serving macro and micronutrient panels from USDA FDC and custom ingredients, with optional FDA-format Nutrition Facts label rendering and allergen flagging.
 
-- ⬜ **Baker's Percentage Workbench** _(planned)_: Edits formulas as baker's percentages with total dough weight, hydration, salt, and pre-ferment targets; back-solves any field from any other and validates against style ranges.
+- ✅ **Baker's Percentage Workbench** _(stub, awaits wire-up)_: Edits formulas as baker's percentages with total dough weight, hydration, salt, and pre-ferment targets; back-solves any field from any other and validates against style ranges.
 
 - ⬜ **Sous-Vide Pasteurization Table** _(planned)_: Computes time-to-pasteurization by core thickness and target log reduction for poultry, beef, pork, fish, and egg using published D and z values, with come-up time correction.
 
