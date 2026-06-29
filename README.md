@@ -4722,7 +4722,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Sleep science, wellness, mental health
 
-- ⬜ **Sleep Stage Logger** _(planned)_: Records sleep periods with manual stage entry (N1/N2/N3/REM/Wake) or timestamped wake-after-sleep-onset events. Computes total sleep time, sleep efficiency, and stage percentages from the log.
+- ✅ **Sleep Stage Logger** _(stub, awaits wire-up)_: Records sleep periods with manual stage entry (N1/N2/N3/REM/Wake) or timestamped wake-after-sleep-onset events. Computes total sleep time, sleep efficiency, and stage percentages from the log.
 
 - ⬜ **Wearable Data Importer** _(planned)_: Ingests CSV, FIT, JSON, and Apple Health XML exports from Oura, Whoop, Fitbit, Garmin, and Withings. Normalizes nightly summaries and per-epoch stage arrays into a single local schema.
 
