@@ -977,7 +977,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Vintage hardware preservation and retrocomputing
 
-- ⬜ **ROM Dumper Station** _(planned)_: Drives EPROM and cartridge programmers (TL866, Minipro, Retrode, custom MiSTer hookups), pulls dumps, hashes each pass, and stages results for ingestion with verify-by-reread on suspect sockets.
+- ✅ **ROM Dumper Station** _(stub, awaits wire-up)_: Drives EPROM and cartridge programmers (TL866, Minipro, Retrode, custom MiSTer hookups), pulls dumps, hashes each pass, and stages results for ingestion with verify-by-reread on suspect sockets.
 
 - ⬜ **BIOS and Firmware Catalog** _(planned)_: Searchable index of BIOS, kernal, and firmware images with SHA1, CRC32, MD5, board revision, source provenance, and No-Intro/TOSEC/Redump cross-references.
 
