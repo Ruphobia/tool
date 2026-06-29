@@ -533,7 +533,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **SWO/ITM/RTT console** _(stub, awaits wire-up)_: Live capture of SWO, ITM, and Segger RTT channels with timestamping, channel routing, and binary frame decoding. Streams into the workbench log pipeline for AI search and summarization.
 
-- ⬜ **Logic analyzer bridge** _(planned)_: Driver for sigrok, Saleae, and Kingst captures with protocol decoders for UART, SPI, I2C, CAN, LIN, 1-Wire, SDIO, I2S, and SWD. AI-integrated annotation of unknown bus traffic and anomaly flagging.
+- ✅ **Logic analyzer bridge** _(stub, awaits wire-up)_: Driver for sigrok, Saleae, and Kingst captures with protocol decoders for UART, SPI, I2C, CAN, LIN, 1-Wire, SDIO, I2S, and SWD. AI-integrated annotation of unknown bus traffic and anomaly flagging.
 
 - ⬜ **Bus protocol sniffer** _(planned)_: Live decode and replay for CAN/CAN-FD, LIN, Modbus, RS-485, BLE HCI, Zigbee, Thread, and USB packets via attached interfaces. Saves sessions as searchable transcripts.
 
