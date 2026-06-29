@@ -1856,7 +1856,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Word Generator** _(stub, awaits wire-up)_: Produces plausible lexemes from the active phonology and phonotactics with weighted phoneme and syllable-shape frequencies. AI biasing nudges output toward a target aesthetic (harsh, melodic, agglutinative-looking) described in natural language.
 
-- ⬜ **Lexicon Builder** _(planned)_: Stores dictionary entries with part of speech, IPA, glosses, semantic domains, etymology pointers, example sentences, and recorded audio. Searchable by gloss, phonetic shape, semantic field, or morphological template.
+- ✅ **Lexicon Builder** _(stub, awaits wire-up)_: Stores dictionary entries with part of speech, IPA, glosses, semantic domains, etymology pointers, example sentences, and recorded audio. Searchable by gloss, phonetic shape, semantic field, or morphological template.
 
 - ⬜ **Morphology Sketcher** _(planned)_: Defines inflectional and derivational templates, declension and conjugation paradigms, and morphophonemic sandhi rules. Auto-fills paradigm tables from stems and surfaces irregulars for manual override.
 
