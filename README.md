@@ -4301,7 +4301,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **GM Screen Reference** _(stub, awaits wire-up)_: Configurable reference panel of conditions, actions-in-combat, cover/cone rules, travel pace, downtime activities, and ruling cheatsheets per system. User-pinnable cards and house-rule overlays sit beside official text.
 
-- ⬜ **Monster Compendium** _(planned)_: Searchable bestiary with full stat blocks, CR/level, tags, environments, lore, and reaction/legendary actions across SRD-licensed sources. Includes a stat-block editor with CR estimator and homebrew validation.
+- ✅ **Monster Compendium** _(stub, awaits wire-up)_: Searchable bestiary with full stat blocks, CR/level, tags, environments, lore, and reaction/legendary actions across SRD-licensed sources. Includes a stat-block editor with CR estimator and homebrew validation.
 
 - ⬜ **Spell And Item Library** _(planned)_: Filterable catalog of spells, magic items, mundane gear, and crafting recipes with school/level/rarity/source filters and per-system attunement and slot rules. Items link to character sheets and loot tables for one-click assignment.
 
