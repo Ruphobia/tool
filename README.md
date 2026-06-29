@@ -1214,7 +1214,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pacing visualizer** _(stub, awaits wire-up)_: Per-scene tension, word count, dialogue ratio, and POV plotted across the manuscript as a strip chart. Surfaces sag points, POV imbalance, and chapters that overrun typical length for the chosen genre.
 
-- ⬜ **Sensitivity and bias reader** _(planned)_: Flags stereotypes, slurs, dated terminology, and representation gaps in cast and sourcing. AI-integrated rationale links to a citable style or community reference rather than issuing a verdict; suppression and override rules per project.
+- ✅ **Sensitivity and bias reader** _(stub, awaits wire-up)_: Flags stereotypes, slurs, dated terminology, and representation gaps in cast and sourcing. AI-integrated rationale links to a citable style or community reference rather than issuing a verdict; suppression and override rules per project.
 
 - ⬜ **Anachronism checker** _(planned)_: Cross-references vocabulary, named entities, technologies, and brand mentions against the story's stated period or setting. Flags terms postdating the era using etymology and product-launch data from vendored Wiktionary and reference dumps.
 
