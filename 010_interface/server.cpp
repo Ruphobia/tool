@@ -499,7 +499,11 @@ void handle_chat(const httplib::Request & req, httplib::Response & res) {
                 if ((act.act == "question" || act.act == "command") &&
                     components::has_credentials())
                 {
-                    components::Intent it = components::extract_intent(final_text);
+                    // Use the cleaned (de-noised) user text, not render_final,
+                    // which often inflates the prompt into a verbose
+                    // dictionary-style restatement that confuses keyword
+                    // extraction.
+                    components::Intent it = components::extract_intent(cleaned);
                     emit("layer", {{"name", "parts_intent"},
                                    {"content",
                                     std::string("is_parts_request=") +
@@ -542,16 +546,26 @@ void handle_chat(const httplib::Request & req, httplib::Response & res) {
                     };
 
                     if (it.is_parts_request) {
-                        auto parts = components::search(it.keyword, /*limit=*/30);
+                        std::string used_keyword;
+                        auto parts = components::search_with_retry(
+                            it.keyword, used_keyword, /*limit=*/30, /*retries=*/3);
                         const int rows = (it.want_full_list || it.write_to_file)
                                            ? static_cast<int>(parts.size())
                                            : 5;
-                        std::string a = components::format_results(parts, it.keyword, rows);
-                        context::append("components", "response", a, it.keyword);
-                        write_or_inline(a, static_cast<int>(parts.size()), it.keyword);
+                        std::string a = components::format_results(parts, used_keyword, rows);
+                        if (used_keyword != it.keyword) {
+                            a = std::string("_(broadened search from `") +
+                                it.keyword + "` to `" + used_keyword +
+                                "` — initial query had no hits.)_\n\n" + a;
+                        }
+                        context::append("components", "response", a, used_keyword);
+                        write_or_inline(a, static_cast<int>(parts.size()), used_keyword);
                         emit("layer", {{"name", "mouser"},
                                        {"content", std::to_string(parts.size()) +
-                                                   " parts; keyword=" + it.keyword}});
+                                                   " parts; keyword=" + used_keyword +
+                                                   (used_keyword != it.keyword
+                                                     ? " (was: " + it.keyword + ")"
+                                                     : "")}});
                         served_by_components = true;
                     } else if (it.use_last_results) {
                         // Pull the most recent components/response row from the

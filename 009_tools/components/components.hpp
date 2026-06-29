@@ -50,6 +50,15 @@ Intent extract_intent(std::string_view prompt);
 // (Mouser caps individual responses at 50).
 std::vector<Part> search(std::string_view keyword, int limit = 10);
 
+// Search with progressive relaxation: if the initial keyword returns 0
+// hits, drop the trailing token and retry, up to `max_retries` times.
+// Returns the parts found AND, via `final_keyword`, the keyword that
+// actually produced them (may be shorter than the input).
+std::vector<Part> search_with_retry(std::string_view keyword,
+                                    std::string & final_keyword,
+                                    int limit = 20,
+                                    int max_retries = 3);
+
 // Render the result set as a chat-friendly markdown block. Empty / single-
 // item summaries handled inside. `keyword` is included so the user sees
 // what Mouser was actually queried for. `max_shown` caps the rendered

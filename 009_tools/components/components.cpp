@@ -90,6 +90,57 @@ std::string trim(const std::string & s) {
     return s.substr(a, b - a + 1);
 }
 
+// Fix common LLM keyword failure modes: slug-style hyphenation, "3v3"
+// shorthand, accidental quoting. Mouser keyword search wants natural
+// phrase queries with spaces.
+std::string sanitize_keyword(const std::string & kw_in) {
+    std::string kw = trim(kw_in);
+    // strip surrounding quotes
+    if (kw.size() >= 2 &&
+        ((kw.front() == '"' && kw.back() == '"') ||
+         (kw.front() == '\'' && kw.back() == '\'')))
+        kw = kw.substr(1, kw.size() - 2);
+
+    // Slug → words: if no space at all but multiple hyphens, treat as slug.
+    if (kw.find(' ') == std::string::npos) {
+        int hyphens = 0;
+        for (char c : kw) if (c == '-') ++hyphens;
+        if (hyphens >= 2) {
+            for (char & c : kw) if (c == '-') c = ' ';
+        }
+    }
+    // "3v3" → "3.3V" — Mouser indexes the decimal form.
+    {
+        static const std::regex re(R"((\d+)v(\d+))",
+                                   std::regex::optimize | std::regex::icase);
+        kw = std::regex_replace(kw, re, "$1.$2V");
+    }
+    // Bare "v" suffix on a number → uppercase V ("12v" → "12V"). Only
+    // when followed by a non-digit so we don't break "3.3V" we just made.
+    {
+        static const std::regex re(R"((\d+(?:\.\d+)?)v(?=$|[^A-Za-z0-9]))",
+                                   std::regex::optimize | std::regex::icase);
+        kw = std::regex_replace(kw, re, "$1V");
+    }
+    // Collapse whitespace.
+    {
+        static const std::regex re(R"(\s+)", std::regex::optimize);
+        kw = std::regex_replace(kw, re, " ");
+    }
+    return trim(kw);
+}
+
+// Last-ditch retry helper: drop the trailing token to widen the search.
+// Returns empty when nothing more can be dropped meaningfully.
+std::string relax_keyword(const std::string & kw) {
+    auto pos = kw.find_last_of(' ');
+    if (pos == std::string::npos) return {};
+    std::string out = kw.substr(0, pos);
+    // Must still have a component noun (≥ 2 tokens) to be useful.
+    if (out.find(' ') == std::string::npos) return {};
+    return out;
+}
+
 }  // namespace
 
 bool has_credentials() {
@@ -101,37 +152,47 @@ Intent extract_intent(std::string_view prompt) {
         "You decide what the user wants regarding electronic components.\n"
         "Output STRICT JSON only — no prose, no code fences. Schema:\n"
         "{\n"
-        "  \"is_parts_request\":  boolean, // NEW search for a specific component"
-                                          " WITH specs (\"find me a 3.3V regulator …\")\n"
-        "  \"use_last_results\":  boolean, // user is referring to the PRIOR parts"
-                                          " result (\"write it to a file\", \"save"
-                                          " the list\", \"give me all of those\")\n"
-        "  \"want_full_list\":    boolean, // user asked for ALL results / a complete"
-                                          " list (\"give me all\", \"show everything\")\n"
-        "  \"write_to_file\":     boolean, // user asked to write/save results to a"
-                                          " file (md / file / markdown)\n"
-        "  \"keyword\":           string,  // Mouser keyword (only when"
-                                          " is_parts_request); 3-10 words, lead"
-                                          " with component type then key specs\n"
+        "  \"is_parts_request\":  boolean, // NEW search for a specific component WITH specs\n"
+        "  \"use_last_results\":  boolean, // refers to the PRIOR parts result (\"write it to a file\")\n"
+        "  \"want_full_list\":    boolean, // ALL results / complete list (\"give me all\")\n"
+        "  \"write_to_file\":     boolean, // write/save to a file (md / markdown / file)\n"
+        "  \"keyword\":           string,  // Mouser keyword phrase — space-separated, NOT a slug\n"
         "  \"filename\":          string,  // .md filename if write_to_file else \"\"\n"
         "  \"explain\":           string   // one terse sentence on the call\n"
         "}\n"
-        "Rules:\n"
-        "- Conceptual / how-does-it-work questions are NEITHER parts requests NOR"
-        " follow-ups → all booleans false.\n"
-        "- A short follow-up like \"write it to a file\", \"save those\", \"now"
-        " give me all of them\", \"that was plain text, make it markdown\" sets"
-        " use_last_results=true and keyword=\"\" (the previous keyword is reused"
-        " server-side).\n"
-        "- is_parts_request and use_last_results are MUTUALLY EXCLUSIVE — set at"
-        " most one to true.\n"
-        "- keyword MUST preserve user-stated topology words (\"switching\","
-        " \"buck\", \"boost\", \"LDO\", \"linear\") when they appear in the"
-        " original prompt — these are critical for filtering.\n"
-        "- No verbs in keyword, no \"I need\", no quotes inside the string.\n"
-        "- filename: simple lowercase-with-dashes ending in \".md\" (e.g."
+        "\n"
+        "Critical rules for \"keyword\":\n"
+        "- Plain English phrase with SPACES between words. NEVER hyphenate the"
+        " whole thing into a slug.\n"
+        "- Lead with the component noun (\"switching regulator\", \"buck"
+        " converter\", \"ceramic capacitor\", \"MOSFET\", …) then the most"
+        " specific numeric spec.\n"
+        "- Preserve user topology words (\"switching\", \"buck\", \"boost\","
+        " \"LDO\", \"linear\") — they drive downstream filtering.\n"
+        "- Voltage notation: write \"3.3V\" not \"3v3\"; \"12V\" not \"12v\".\n"
+        "- Current: write \"1A\" not \"1amp\".\n"
+        "- No verbs, no \"I need\", no quotes inside.\n"
+        "\n"
+        "EXAMPLES of GOOD keywords:\n"
+        "  \"switching regulator 3.3V 1A 12V input\"\n"
+        "  \"buck converter 3.3V 1A\"\n"
+        "  \"ceramic capacitor 10uF 50V 0805\"\n"
+        "  \"voltage regulator 5V 500mA SOT-23\"\n"
+        "  \"N-channel MOSFET 60V 30A TO-220\"\n"
+        "EXAMPLES of BAD keywords (DO NOT do this):\n"
+        "  \"voltage-controller-12v-3v3-1a\"   ← slug, all hyphenated, mangled units\n"
+        "  \"I need a 3.3V regulator\"          ← verb, first person\n"
+        "  \"3v3\"                               ← shorthand, no component noun\n"
+        "  \"buck\"                              ← too short, no specs\n"
+        "\n"
+        "Other rules:\n"
+        "- Conceptual / how-does-it-work questions: all booleans false.\n"
+        "- Short follow-ups (\"write it to a file\", \"give me all of those\")"
+        " set use_last_results=true and keyword=\"\" (server reuses prior keyword).\n"
+        "- is_parts_request and use_last_results are MUTUALLY EXCLUSIVE.\n"
+        "- filename: lowercase-with-dashes ending in \".md\" (e.g."
         " \"regulators.md\", \"3v3-bucks.md\"). No paths. \"\" if not saving.\n"
-        "- If unsure, set is_parts_request=false and use_last_results=false.\n"
+        "- If unsure, set both is_parts_request and use_last_results to false.\n"
         "- Output exactly one JSON object. No markdown.";
 
     std::string raw = qwen14b::generate(kSystem, prompt, /*max_new_tokens=*/256);
@@ -148,6 +209,7 @@ Intent extract_intent(std::string_view prompt) {
     } else {
         out.reasoning = "intent JSON parse failed; raw=" + raw.substr(0, 240);
     }
+    out.keyword = sanitize_keyword(out.keyword);
     if (out.keyword.empty())            out.is_parts_request = false;
     if (out.is_parts_request)           out.use_last_results = false;
     // Sanity-strip the filename: keep [a-z0-9._-] only and force .md ending.
@@ -290,6 +352,23 @@ std::vector<Part> search(std::string_view keyword_sv, int limit) {
         out = std::move(kept);
     }
     return out;
+}
+
+std::vector<Part> search_with_retry(std::string_view keyword,
+                                    std::string & final_keyword,
+                                    int limit, int max_retries) {
+    std::string kw(keyword);
+    for (int i = 0; i <= max_retries; ++i) {
+        auto parts = search(kw, limit);
+        if (!parts.empty()) { final_keyword = kw; return parts; }
+        std::string next = relax_keyword(kw);
+        if (next.empty() || next == kw) break;
+        std::fprintf(stderr, "components: 0 hits for \"%s\"; retrying with "
+                             "\"%s\"\n", kw.c_str(), next.c_str());
+        kw = next;
+    }
+    final_keyword = kw;
+    return {};
 }
 
 std::string format_results(const std::vector<Part> & parts,
