@@ -2218,7 +2218,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **G-code Visualizer and Simulator** _(stub, awaits wire-up)_: Renders FDM, laser, and CNC G-code with toolpath coloring by speed, layer, or extruder; simulates material removal, detects collisions and rapids through stock, and verifies post-processor output before machine time.
 
-- ⬜ **Welding Parameter Calculator** _(planned)_: Computes amperage, voltage, wire feed speed, travel speed, shielding gas mix, and filler diameter for MIG, TIG, stick, and flux-core across common steel, stainless, and aluminum joints, with heat input, distortion, and bead profile estimates.
+- ✅ **Welding Parameter Calculator** _(stub, awaits wire-up)_: Computes amperage, voltage, wire feed speed, travel speed, shielding gas mix, and filler diameter for MIG, TIG, stick, and flux-core across common steel, stainless, and aluminum joints, with heat input, distortion, and bead profile estimates.
 
 - ⬜ **Joinery Planner** _(planned)_: Designs mortise-and-tenon, dovetail, box, finger, lap, half-blind, and Domino joints with parametric sizing, grain orientation, and glue clearance; exports DXF or G-code for templates, router jigs, and CNC.
 
