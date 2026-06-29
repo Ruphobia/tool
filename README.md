@@ -1764,7 +1764,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Isnād analyzer** _(stub, awaits wire-up)_: Parses hadith chains of transmission, scores each narrator against rijāl databases, and computes overall ṣaḥīḥ / ḥasan / ḍaʿīf grading; visualizes the transmission network and identifies common links.
 
-- ⬜ **Source-layer visualizer** _(planned)_: Overlays critical hypotheses on a text (JEPD for the Pentateuch, Q / M / L for the Synoptics, Markan priority variants, redactional strata) with color-coded spans; supports user-defined source theories and side-by-side comparison.
+- ✅ **Source-layer visualizer** _(stub, awaits wire-up)_: Overlays critical hypotheses on a text (JEPD for the Pentateuch, Q / M / L for the Synoptics, Markan priority variants, redactional strata) with color-coded spans; supports user-defined source theories and side-by-side comparison.
 
 - ⬜ **Sacred geography GIS** _(planned)_: Plots pilgrimage routes, holy sites, monasteries, episcopal sees, and council locations on Pelagios-linked maps; computes travel-time isochrones over reconstructed ancient road and sea networks.
 
