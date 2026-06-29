@@ -1415,7 +1415,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **ID OCR Pipeline** _(stub, awaits wire-up)_: Runs template-aware OCR across passport, driver license, and national ID layouts; extracts named fields (name, DOB, MRZ, document number, expiry, address) into a typed record with per-field confidence.
 
-- ⬜ **PDF417 Barcode Reader** _(planned)_: Decodes AAMVA PDF417 driver license barcodes, Code128, QR, and Aztec symbologies into structured demographic fields; cross-checks decoded values against visible OCR text for tamper signal.
+- ✅ **PDF417 Barcode Reader** _(stub, awaits wire-up)_: Decodes AAMVA PDF417 driver license barcodes, Code128, QR, and Aztec symbologies into structured demographic fields; cross-checks decoded values against visible OCR text for tamper signal.
 
 - ⬜ **Authenticity Inspector** _(planned)_: Runs tamper detection via Error Level Analysis, copy-move forensics, font-consistency checks, hologram region sampling, UV/IR layer review, and microprint inspection; renders a per-zone heatmap of suspect regions.
 
