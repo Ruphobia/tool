@@ -1327,7 +1327,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Portfolio Tracker** _(stub, awaits wire-up)_: Tracks equity, ETF, bond, crypto, and cash holdings across multiple accounts and currencies; computes time-weighted and money-weighted returns, allocation drift, dividend income, and realized/unrealized gains with FIFO, LIFO, and average-cost lots.
 
-- ⬜ **DCF & Scenario Modeler** _(planned)_: Builds discounted-cash-flow models with assumption sheets, sensitivity tables, and tornado charts; supports terminal value via Gordon growth or exit multiple. Side-by-side scenarios share drivers so one knob updates every linked output.
+- ✅ **DCF & Scenario Modeler** _(stub, awaits wire-up)_: Builds discounted-cash-flow models with assumption sheets, sensitivity tables, and tornado charts; supports terminal value via Gordon growth or exit multiple. Side-by-side scenarios share drivers so one knob updates every linked output.
 
 - ⬜ **Currency Converter** _(planned)_: Converts between fiat and crypto at spot or historical rates from vendored daily FX series, with offline fallback and pluggable live feeds. Handles cross-rate triangulation and inline conversion inside any other tool.
 
