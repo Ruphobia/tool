@@ -2261,7 +2261,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Composite Laminate Calculator** _(stub, awaits wire-up)_: Classical lamination theory solver for fiber-reinforced laminates: stacks plies of CFRP/GFRP/AFRP with user-defined orientations, computes ABD matrix, in-plane and bending stiffness, ply stresses, and Tsai-Wu/Tsai-Hill/max-stress failure indices.
 
-- ⬜ **Welding Procedure Helper** _(planned)_: Suggests filler-metal selection, preheat/interpass temperature, post-weld heat treatment, and shielding gas for MIG/TIG/stick/flux-core joining of two specified alloys. Includes carbon-equivalent and crack-susceptibility warnings.
+- ✅ **Welding Procedure Helper** _(stub, awaits wire-up)_: Suggests filler-metal selection, preheat/interpass temperature, post-weld heat treatment, and shielding gas for MIG/TIG/stick/flux-core joining of two specified alloys. Includes carbon-equivalent and crack-susceptibility warnings.
 
 - ⬜ **Machinability And Speeds Lookup** _(planned)_: Recommended surface speeds, feeds, and tool materials for turning, milling, drilling, and tapping a given alloy with HSS, carbide, or ceramic tooling; includes machinability index relative to AISI 1212.
 
