@@ -2078,7 +2078,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Heat-transfer solver** _(stub, awaits wire-up)_: Conduction, convection, and radiation problems with 1D/2D/3D meshes, time-stepping, view-factor computation, and thermal-resistance network builder.
 
-- ⬜ **Quantum mechanics sandbox** _(planned)_: Bound-state, scattering, and time-dependent Schrödinger solver in 1D/2D/3D with interactive potential editor, eigenstate viewer, and density-matrix evolution for open systems.
+- ✅ **Quantum mechanics sandbox** _(stub, awaits wire-up)_: Bound-state, scattering, and time-dependent Schrödinger solver in 1D/2D/3D with interactive potential editor, eigenstate viewer, and density-matrix evolution for open systems.
 
 - ⬜ **Relativity playground** _(planned)_: Special-relativity kinematics (Lorentz boosts, Minkowski diagrams) and general-relativity geodesic integrator for canonical metrics (Schwarzschild, Kerr, FLRW) with embedding-diagram and orbit visualization.
 
