@@ -3183,7 +3183,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Facial action coder** _(stub, awaits wire-up)_: Detects AU activations and intensities from video via an OpenFace-style pipeline, with head pose and gaze direction tracks. Aligns AU streams to event codes and stimulus onsets for time-locked analysis.
 
-- ⬜ **Eye-tracking analyzer** _(planned)_: Parses raw gaze samples into fixations and saccades (I-VT, I-DT), maps to AOIs, and computes dwell time, time-to-first-fixation, and transition matrices. Renders heatmaps and scanpaths over stimulus images.
+- ✅ **Eye-tracking analyzer** _(stub, awaits wire-up)_: Parses raw gaze samples into fixations and saccades (I-VT, I-DT), maps to AOIs, and computes dwell time, time-to-first-fixation, and transition matrices. Renders heatmaps and scanpaths over stimulus images.
 
 - ⬜ **Behavioral game lab** _(planned)_: Runs dictator, ultimatum, public goods, trust, and prisoner's dilemma paradigms with parameterized payoff structures and optional partner-matching protocols. Logs decisions, RTs, and earnings for multilevel analysis.
 
