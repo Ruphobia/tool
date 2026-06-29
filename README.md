@@ -4291,7 +4291,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **World Bible** _(stub, awaits wire-up)_: Linked knowledge graph of places, factions, NPCs, deities, items, and events with bidirectional references, timeline pinning, and tag-based filtering. AI assists with consistency checks (contradictions, dangling references) and on-demand expansion of stub entries.
 
-- ⬜ **Random Table Generator** _(planned)_: Authoring and rolling environment for nested weighted tables with recursion, conditional branches, and inline dice expressions. Imports common formats (Perchance, RollTables, Foundry) and exposes tables as macros to other modules.
+- ✅ **Random Table Generator** _(stub, awaits wire-up)_: Authoring and rolling environment for nested weighted tables with recursion, conditional branches, and inline dice expressions. Imports common formats (Perchance, RollTables, Foundry) and exposes tables as macros to other modules.
 
 - ⬜ **Hex And Grid Mapper** _(planned)_: Virtual tabletop canvas with square, hex (pointy/flat), and gridless modes; supports tokens, fog of war, dynamic line-of-sight, elevation layers, and measured templates. Exports battle maps to print-tiled PDFs or image atlases.
 
