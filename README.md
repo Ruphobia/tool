@@ -3132,7 +3132,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **ECG Caliper** _(stub, awaits wire-up)_: Loads 12-lead ECG images or waveforms and provides digital calipers for intervals (PR, QRS, QT, QTc Bazett/Fridericia/Framingham), axis calculation, and ischemia/arrhythmia pattern annotation.
 
-- ⬜ **Risk Score Calculator** _(planned)_: Library of validated clinical risk scores (CHA2DS2-VASc, HAS-BLED, Wells, PERC, MELD, APACHE II, SOFA, CURB-65, FRAX, ASCVD, Framingham) with inputs, score, and stratified recommendations.
+- ✅ **Risk Score Calculator** _(stub, awaits wire-up)_: Library of validated clinical risk scores (CHA2DS2-VASc, HAS-BLED, Wells, PERC, MELD, APACHE II, SOFA, CURB-65, FRAX, ASCVD, Framingham) with inputs, score, and stratified recommendations.
 
 - ⬜ **Drug Identifier** _(planned)_: Identifies pills by imprint, shape, color, and scoring against the NLM Pillbox / RxImage data; supports photo upload with AI-integrated visual matching as a triage step before manufacturer confirmation.
 
