@@ -3345,7 +3345,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Ethogram and behavior coder** _(stub, awaits wire-up)_: BORIS-style live and video behavior coding with user-defined ethograms, modifiers, point and state events, multi-subject scoring, and inter-observer reliability (Cohen's kappa, ICC). Exports event sequences for sequential and bout analysis.
 
-- ⬜ **Track and sign identifier** _(planned)_: Image-based identification of mammal tracks, scat, browse, and other field sign with morphometric measurement overlays (stride, straddle, pad dimensions) and regional species shortlists. AI-integrated suggestion ranked against a reference photo library.
+- ✅ **Track and sign identifier** _(stub, awaits wire-up)_: Image-based identification of mammal tracks, scat, browse, and other field sign with morphometric measurement overlays (stride, straddle, pad dimensions) and regional species shortlists. AI-integrated suggestion ranked against a reference photo library.
 
 - ⬜ **Parasitology bench** _(planned)_: Fecal egg count workflow (McMaster, Mini-FLOTAC, Wisconsin) with image-assisted ova/oocyst identification, FECR calculation for anthelmintic resistance, and a blood-smear differential counter. Tracks herd/colony parasite loads over time.
 
