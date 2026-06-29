@@ -1964,7 +1964,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Bench instrument bridge** _(stub, awaits wire-up)_: VISA/SCPI control of oscilloscopes, function generators, SMUs, DMMs, spectrum analyzers, VNAs, and electronic loads over USB, LAN, and GPIB. Records measurement sessions as replayable scripts.
 
-- ⬜ **Datasheet reader** _(planned)_: OCR and structured extraction of datasheet PDFs into searchable parameter tables, pinouts, application circuits, and reflow profiles. AI-integrated Q&A grounded in the loaded datasheet with page citations.
+- ✅ **Datasheet reader** _(stub, awaits wire-up)_: OCR and structured extraction of datasheet PDFs into searchable parameter tables, pinouts, application circuits, and reflow profiles. AI-integrated Q&A grounded in the loaded datasheet with page citations.
 
 - ⬜ **Logic analyzer and protocol decoder** _(planned)_: Captures from sigrok-compatible devices and decodes I2C, SPI, UART, CAN, LIN, USB, 1-Wire, Modbus, JTAG, and SWD. Cross-references decoded transactions with firmware source on hover.
 
