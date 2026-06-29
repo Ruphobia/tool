@@ -3054,7 +3054,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **ELISA and Luminex analyzer** _(stub, awaits wire-up)_: Fits 4PL and 5PL standard curves with weighted regression, back-calculates analyte concentrations, flags out-of-range wells, and computes inter and intra-plate CVs.
 
-- ⬜ **Mass spec and proteomics pipeline** _(planned)_: Runs MaxQuant, FragPipe, or DIA-NN on shotgun proteomics data, identifies and quantifies peptides and PTMs, and links results to UniProt and STRING for pathway context.
+- ✅ **Mass spec and proteomics pipeline** _(stub, awaits wire-up)_: Runs MaxQuant, FragPipe, or DIA-NN on shotgun proteomics data, identifies and quantifies peptides and PTMs, and links results to UniProt and STRING for pathway context.
 
 - ⬜ **Metabolic model workbench** _(planned)_: Builds and curates genome-scale models via CarveMe or gapseq, runs FBA, FVA, and pFBA with COBRApy, and predicts essential genes and growth media.
 
