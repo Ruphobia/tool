@@ -2741,7 +2741,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **VIN Decoder & Service Schedule** _(stub, awaits wire-up)_: Decodes 17-character VINs against NHTSA vPIC data to identify make, model, year, engine, plant, and equipment. Generates the OEM-recommended maintenance schedule with mileage and time intervals, due-soon alerts, and per-vehicle service history.
 
-- ⬜ **OBD-II Live Dashboard** _(planned)_: Connects to ELM327 (USB, Bluetooth, Wi-Fi) adapters to stream PIDs in real time: RPM, MAP, MAF, O2, fuel trims, coolant, intake air, timing advance. Logs sessions to CSV/Parquet and overlays multiple runs for diagnostic comparison.
+- ✅ **OBD-II Live Dashboard** _(stub, awaits wire-up)_: Connects to ELM327 (USB, Bluetooth, Wi-Fi) adapters to stream PIDs in real time: RPM, MAP, MAF, O2, fuel trims, coolant, intake air, timing advance. Logs sessions to CSV/Parquet and overlays multiple runs for diagnostic comparison.
 
 - ⬜ **DTC Fault-Code Lookup** _(planned)_: Resolves OBD-II generic and manufacturer-specific P/B/C/U codes with descriptions, common causes, and ranked fix probabilities. AI-assisted triage cross-references freeze-frame data, mileage, and prior repairs to suggest a diagnostic order.
 
