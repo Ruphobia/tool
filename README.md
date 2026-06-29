@@ -1781,7 +1781,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Oral History Recorder** _(stub, awaits wire-up)_: Local audio capture with timestamped transcript, speaker labeling, and informant metadata (age, location, language, consent status). AI-assisted transcription and translation runs locally; original audio is the canonical artifact.
 
-- ⬜ **Narrative Structure Analyzer** _(planned)_: Annotates a text against Campbell's monomyth, Propp's 31 functions, Greimas actantial model, and Freytag pyramid simultaneously. Outputs beat alignment charts and flags missing or inverted functions.
+- ✅ **Narrative Structure Analyzer** _(stub, awaits wire-up)_: Annotates a text against Campbell's monomyth, Propp's 31 functions, Greimas actantial model, and Freytag pyramid simultaneously. Outputs beat alignment charts and flags missing or inverted functions.
 
 - ⬜ **Mythography Database** _(planned)_: Local triple-store for entities (gods, heroes, places, objects, tales) with typed relations (parent-of, slays, transforms-into, cognate-with). Imports from Theoi, Encyclopedia Mythica dumps, and user-curated bibliographies.
 
