@@ -1826,7 +1826,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Etymology Explorer** _(stub, awaits wire-up)_: Looks up word histories from vendored Wiktionary and Etymonline dumps, drawing cognate and borrowing graphs across language families. AI-integrated hypothesis generation for missing intermediate forms with confidence flags.
 
-- ⬜ **Finite-State Lab** _(planned)_: Builds, composes, and visualizes finite-state acceptors and transducers (FSA/FST) for morphology and phonology, with regex-to-automaton conversion, determinization, minimization, and derivative-based regex debugging.
+- ✅ **Finite-State Lab** _(stub, awaits wire-up)_: Builds, composes, and visualizes finite-state acceptors and transducers (FSA/FST) for morphology and phonology, with regex-to-automaton conversion, determinization, minimization, and derivative-based regex debugging.
 
 - ⬜ **Dialect Atlas** _(planned)_: Plots lexical, phonetic, and syntactic variants on isogloss maps from datasets like WALS, ASJP, and the Linguistic Atlas Projects. Supports side-by-side regional comparison and clustering by feature similarity.
 
