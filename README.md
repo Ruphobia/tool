@@ -793,7 +793,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Scene Composer** _(stub, awaits wire-up)_: Local 3D scene builder with XR rig presets (HMD, controllers, hands, room bounds), glTF/USD/FBX import, and snap-grid layout. AI-integrated layout suggestion from a textual brief or reference image plus declared play-area dimensions.
 
-- ⬜ **Tracking Pose Inspector** _(planned)_: Live 6DoF pose stream viewer for HMD, controllers, hand joints, and body trackers over OpenXR / WebXR / OSC, with frame-by-frame jitter, drift, and dropout plots. Records sessions to replay against later builds.
+- ✅ **Tracking Pose Inspector** _(stub, awaits wire-up)_: Live 6DoF pose stream viewer for HMD, controllers, hand joints, and body trackers over OpenXR / WebXR / OSC, with frame-by-frame jitter, drift, and dropout plots. Records sessions to replay against later builds.
 
 - ⬜ **Spatial Audio Mixer** _(planned)_: Ambisonic (1st to 3rd order) and HRTF binaural mixer with per-source distance, occlusion, and reverb-zone controls. Includes head-locked rotation preview and A/B against a standard HRTF set.
 
