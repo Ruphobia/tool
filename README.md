@@ -583,7 +583,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Display and UI prototyper** _(stub, awaits wire-up)_: WYSIWYG editor for LVGL, TouchGFX, Slint, and SDL-on-MCU UIs with simulated render on host. Exports C/Rust code and asset blobs sized to the target's flash budget.
 
-- ⬜ **Font and asset packer** _(planned)_: Generates bitmap fonts, glyph subsets, image sprites, and audio clips compressed and aligned for embedded use. Reports per-asset cost in flash and RAM.
+- ✅ **Font and asset packer** _(stub, awaits wire-up)_: Generates bitmap fonts, glyph subsets, image sprites, and audio clips compressed and aligned for embedded use. Reports per-asset cost in flash and RAM.
 
 - ⬜ **DSP and filter designer** _(planned)_: Designs FIR, IIR, biquad, and adaptive filters with fixed-point quantization and CMSIS-DSP/ESP-DSP code emission. AI-integrated suggestion of filter topology from a captured noise profile.
 
