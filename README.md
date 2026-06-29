@@ -2771,7 +2771,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Parts Compatibility Checker** _(stub, awaits wire-up)_: Validates bottom bracket, headset, axle, brake mount, derailleur hanger, freehub, and seatpost standards against frame and component specs. For motos and cars, checks bolt patterns, hub bores, caliper mounts, and ECU/harness compatibility.
 
-- ⬜ **Tire Wear & Alignment Tracker** _(planned)_: Logs tread depth at multiple points per tire, projects remaining life by mileage, and flags wear patterns (inner/outer edge, cupping, feathering) indicative of toe, camber, or pressure issues. Tracks alignment specs before and after adjustment.
+- ✅ **Tire Wear & Alignment Tracker** _(stub, awaits wire-up)_: Logs tread depth at multiple points per tire, projects remaining life by mileage, and flags wear patterns (inner/outer edge, cupping, feathering) indicative of toe, camber, or pressure issues. Tracks alignment specs before and after adjustment.
 
 - ⬜ **Battery & Charging-System Analyzer** _(planned)_: Records resting voltage, cranking voltage, alternator output under load, and parasitic draw measurements over time. Estimates lead-acid, AGM, and Li-ion battery health from internal-resistance and CCA test results.
 
