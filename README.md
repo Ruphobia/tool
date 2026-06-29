@@ -1255,7 +1255,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Worked Example Generator** _(stub, awaits wire-up)_: Produces step-by-step solutions for a target problem, plus faded-step and hint-laddered variants for scaffolded practice. Renders math via LaTeX and code via syntax-highlighted blocks.
 
-- ⬜ **Socratic Tutor** _(planned)_: Drives dialogic practice by asking leading questions, probing reasoning, and refusing to volunteer the answer until the learner is close. AI-integrated with configurable persona, patience, and scaffolding depth.
+- ✅ **Socratic Tutor** _(stub, awaits wire-up)_: Drives dialogic practice by asking leading questions, probing reasoning, and refusing to volunteer the answer until the learner is close. AI-integrated with configurable persona, patience, and scaffolding depth.
 
 - ⬜ **OCR Grader** _(planned)_: Extracts handwritten or photographed student work, segments it into answer regions, and matches each to an expected solution. Surfaces low-confidence regions for instructor review.
 
