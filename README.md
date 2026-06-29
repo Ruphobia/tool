@@ -2773,7 +2773,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Tire Wear & Alignment Tracker** _(stub, awaits wire-up)_: Logs tread depth at multiple points per tire, projects remaining life by mileage, and flags wear patterns (inner/outer edge, cupping, feathering) indicative of toe, camber, or pressure issues. Tracks alignment specs before and after adjustment.
 
-- ⬜ **Battery & Charging-System Analyzer** _(planned)_: Records resting voltage, cranking voltage, alternator output under load, and parasitic draw measurements over time. Estimates lead-acid, AGM, and Li-ion battery health from internal-resistance and CCA test results.
+- ✅ **Battery & Charging-System Analyzer** _(stub, awaits wire-up)_: Records resting voltage, cranking voltage, alternator output under load, and parasitic draw measurements over time. Estimates lead-acid, AGM, and Li-ion battery health from internal-resistance and CCA test results.
 
 - ⬜ **Fuel Economy & Cost-of-Ownership Log** _(planned)_: Per-fillup MPG/L-per-100km tracking with rolling averages, plus depreciation, insurance, registration, fuel, parts, and labor totals. Computes cost-per-mile and break-even points for repairs vs replacement.
 
