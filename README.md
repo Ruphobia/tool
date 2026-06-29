@@ -3208,7 +3208,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Regression dashboard** _(stub, awaits wire-up)_: Fits OLS, GLM (logit, probit, Poisson, negative binomial), fixed/random effects, multilevel, and survival models, with cluster-robust and HC standard errors, and emits publication-ready regression tables (stargazer/modelsummary style) in LaTeX, HTML, and Markdown.
 
-- ⬜ **Causal inference kit** _(planned)_: Implements difference-in-differences (including Callaway-Sant'Anna and Sun-Abraham for staggered adoption), regression discontinuity with optimal bandwidth selection, instrumental variables (2SLS, LIML), synthetic control, and matching (propensity, Mahalanobis, CEM) with balance diagnostics.
+- ✅ **Causal inference kit** _(stub, awaits wire-up)_: Implements difference-in-differences (including Callaway-Sant'Anna and Sun-Abraham for staggered adoption), regression discontinuity with optimal bandwidth selection, instrumental variables (2SLS, LIML), synthetic control, and matching (propensity, Mahalanobis, CEM) with balance diagnostics.
 
 - ⬜ **Ideal-point estimator** _(planned)_: Estimates legislator and voter ideal points from roll call or survey response matrices using NOMINATE, IDEAL (Bayesian IRT), and Wordfish for text, and plots cutting lines and party medians over time.
 
