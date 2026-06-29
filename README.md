@@ -1699,7 +1699,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Concordance and Lexicon Workbench** _(stub, awaits wire-up)_: Generates lemmatized concordances and KWIC views across Greek, Hebrew, Aramaic, Latin, Coptic, Syriac, and Ge'ez corpora. Integrates LSJ, BDAG, HALOT, Lewis and Short, Sokoloff, and Crum with morphological tagging.
 
-- ⬜ **Collation Engine** _(planned)_: Performs automated witness collation (CollateX-style) with configurable tokenization for unpointed Hebrew, accented Greek, and unspaced majuscule. Emits variant graphs, alignment tables, and TEI apparatus seeded for editorial review.
+- ✅ **Collation Engine** _(stub, awaits wire-up)_: Performs automated witness collation (CollateX-style) with configurable tokenization for unpointed Hebrew, accented Greek, and unspaced majuscule. Emits variant graphs, alignment tables, and TEI apparatus seeded for editorial review.
 
 
 #### Religious studies and comparative religion
