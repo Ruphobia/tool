@@ -1631,7 +1631,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Watermark and codicology assistant** _(stub, awaits wire-up)_: Matches paper watermarks against Bernstein/Briquet/Piccard repertories from a traced or photographed image, and records quire structure, ruling pattern, and binding notes per manuscript.
 
-- ⬜ **Genealogy and GEDCOM editor** _(planned)_: Edits family trees with per-fact source citations, conflicting evidence handling, and DNA match notes. Imports and exports GEDCOM 7 and GEDCOM-X.
+- ✅ **Genealogy and GEDCOM editor** _(stub, awaits wire-up)_: Edits family trees with per-fact source citations, conflicting evidence handling, and DNA match notes. Imports and exports GEDCOM 7 and GEDCOM-X.
 
 - ⬜ **OCR ground-truth manager** _(planned)_: Curates page-aligned ground truth in PAGE-XML and ALTO for training HTR/OCR models. Tracks transcriber, normalization rules, and inter-annotator agreement on held-out lines.
 
