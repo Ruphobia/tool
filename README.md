@@ -1814,7 +1814,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **IPA Transcriber** _(stub, awaits wire-up)_: Converts orthographic text to broad or narrow IPA using G2P models for dozens of languages, with side-by-side stress, syllable, and tone markup. AI-integrated fallback for proper nouns, code-switched spans, and out-of-vocabulary tokens.
 
-- ⬜ **Phoneme Inventory Editor** _(planned)_: Builds and edits PHOIBLE-style consonant and vowel charts with feature matrices (place, manner, voicing, height, backness). Exports inventories to LaTeX, SVG, and machine-readable JSON for downstream sound-change and phonotactics tools.
+- ✅ **Phoneme Inventory Editor** _(stub, awaits wire-up)_: Builds and edits PHOIBLE-style consonant and vowel charts with feature matrices (place, manner, voicing, height, backness). Exports inventories to LaTeX, SVG, and machine-readable JSON for downstream sound-change and phonotactics tools.
 
 - ⬜ **Sound Change Applier** _(planned)_: Runs ordered rewrite rules over a wordlist in the style of SCA2 and Lexurgy, with feature-bundle conditioning, sound classes, and cascading sound laws. Diffs each derivation stage and flags rules that bleed, feed, or counterfeed.
 
