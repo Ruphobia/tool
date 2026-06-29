@@ -2487,7 +2487,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Cross-section viewer** _(stub, awaits wire-up)_: Loads ENDF/B-VIII and JEFF evaluations; plots resolved and unresolved resonances and reconstructs cross sections at user temperature with SLBW Doppler broadening.
 
-- ⬜ **Decay heat estimator** _(planned)_: ANSI/ANS-5.1 fission-product decay heat and explicit chain integration for actinides; cooling curves from shutdown through long-term storage.
+- ✅ **Decay heat estimator** _(stub, awaits wire-up)_: ANSI/ANS-5.1 fission-product decay heat and explicit chain integration for actinides; cooling curves from shutdown through long-term storage.
 
 - ⬜ **Criticality safety checker** _(planned)_: keff lookup against LEU/HEU handbook benchmarks and simplified MCNP-style fissile-array geometry; subcritical margin and double-contingency review.
 
