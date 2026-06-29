@@ -3278,7 +3278,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **FITS Viewer** _(stub, awaits wire-up)_: Loads FITS images and cubes with WCS-aware pan/zoom, header inspection, multiple stretch functions (linear, log, asinh, zscale), and side-by-side blink comparison. Includes region drawing, pixel statistics, and HDU navigation.
 
-- ⬜ **Image Stacker** _(planned)_: Aligns and combines astrophotography subexposures with star detection, registration, sigma-clipped stacking, and dark/flat/bias calibration. Supports drizzle integration, dithered mosaics, and per-frame quality scoring.
+- ✅ **Image Stacker** _(stub, awaits wire-up)_: Aligns and combines astrophotography subexposures with star detection, registration, sigma-clipped stacking, and dark/flat/bias calibration. Supports drizzle integration, dithered mosaics, and per-frame quality scoring.
 
 - ⬜ **Aperture Photometry** _(planned)_: Measures source brightness with circular, elliptical, or PSF-fitted apertures and annular sky subtraction. Outputs differential and absolute magnitudes against catalog comparison stars with airmass and color-term correction.
 
