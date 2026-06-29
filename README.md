@@ -4535,7 +4535,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Gear List Manager** _(stub, awaits wire-up)_: Builds packing lists per activity template (alpine climb, ski tour, paragliding XC, multi-day backpack) with weight totals, base/consumable splits, and redundancy flags. Tracks owned inventory and suggests swaps to hit a target pack weight.
 
-- ⬜ **Weather Window Planner** _(planned)_: Aggregates multi-model forecasts (GFS, ECMWF, HRRR, ICON, MeteoBlue) for a target coordinate and stacks precipitation, freezing level, wind aloft, and CAPE across the next 10 days. AI summarizes the best send/launch/tour windows with caveats.
+- ✅ **Weather Window Planner** _(stub, awaits wire-up)_: Aggregates multi-model forecasts (GFS, ECMWF, HRRR, ICON, MeteoBlue) for a target coordinate and stacks precipitation, freezing level, wind aloft, and CAPE across the next 10 days. AI summarizes the best send/launch/tour windows with caveats.
 
 - ⬜ **Paraglider Site Database** _(planned)_: Local database of launch and LZ sites with takeoff aspect, wind direction windows, hazards, regulations, and XC history. Cross-references current wind aloft, thermal index, and convergence forecasts to score flyability.
 
