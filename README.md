@@ -1315,7 +1315,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Ledger Workbench** _(stub, awaits wire-up)_: Plain-text double-entry general ledger in the Beancount/hledger tradition: posts journal entries, computes trial balance, income statement, and balance sheet from a single append-only file. AI-integrated classification proposes account splits from free-text memos and prior-coded transactions.
 
-- ⬜ **Invoice & Quote Builder** _(planned)_: Composes invoices, estimates, and quotes from line items, products, and contacts; renders to print-ready PDF with configurable templates, tax/VAT lines, and multi-currency totals. Tracks sent/paid/overdue state and emits matching ledger postings on payment.
+- ✅ **Invoice & Quote Builder** _(stub, awaits wire-up)_: Composes invoices, estimates, and quotes from line items, products, and contacts; renders to print-ready PDF with configurable templates, tax/VAT lines, and multi-currency totals. Tracks sent/paid/overdue state and emits matching ledger postings on payment.
 
 - ⬜ **Receipt & Document Capture** _(planned)_: Ingests receipts, bills, and statements via drag-drop or scan, runs OCR plus AI-integrated field extraction to populate vendor, date, amount, tax, and line items, and links the image to the resulting expense entry.
 
