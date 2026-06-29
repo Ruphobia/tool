@@ -4130,7 +4130,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Papercraft unfolder** _(stub, awaits wire-up)_: Unfolds a 3D mesh into flat polygon strips with user-controlled cut and glue-tab seams, optimizes for sheet count and tab visibility, and exports printable PDF/SVG with fold-direction line styles.
 
-- ⬜ **Tessellation and pattern designer** _(planned)_: Constructs repeating motifs across all 17 wallpaper groups, 7 frieze groups, and Penrose/quasiperiodic tilings, with live symmetry constraints and seamless tile export for textiles, mosaic, or stained-glass cartoons.
+- ✅ **Tessellation and pattern designer** _(stub, awaits wire-up)_: Constructs repeating motifs across all 17 wallpaper groups, 7 frieze groups, and Penrose/quasiperiodic tilings, with live symmetry constraints and seamless tile export for textiles, mosaic, or stained-glass cartoons.
 
 
 #### Numismatics, philately, collecting, antiques
