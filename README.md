@@ -1194,7 +1194,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Character bible** _(stub, awaits wire-up)_: Structured profiles with relationship graph, trait fields, voice samples, and arc tracker per character. AI-integrated continuity check surfaces later prose that contradicts earlier canonical facts with chapter and line references.
 
-- ⬜ **World atlas** _(planned)_: Wiki-style store for locations, factions, calendars, currencies, languages, and rules-of-magic or tech entries under custom schemas. Inline [[references]] resolve as backlinks across the manuscript and a map view plots geo entries.
+- ✅ **World atlas** _(stub, awaits wire-up)_: Wiki-style store for locations, factions, calendars, currencies, languages, and rules-of-magic or tech entries under custom schemas. Inline [[references]] resolve as backlinks across the manuscript and a map view plots geo entries.
 
 - ⬜ **Timeline editor** _(planned)_: Aeon-style multi-track timeline over a custom calendar with character arcs, world events, and POV scenes. Flags ordering inconsistencies between manuscript timestamps, timeline entries, and character ages.
 
