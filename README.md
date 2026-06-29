@@ -508,7 +508,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Vector asset converter** _(stub, awaits wire-up)_: Imports SVG, Figma, and Lottie sources and emits iOS PDF vector assets, Android VectorDrawable XML, Compose ImageVector, and Flutter flutter_svg-compatible output, normalizing fills, strokes, and tint behavior across targets.
 
-- ⬜ **Gradle and Xcode build profiler** _(planned)_: Captures build scans from Gradle and xcodebuild -showBuildTimingSummary, attributes wall-clock to modules, tasks, and Swift type-checking hotspots, and AI-suggests parallelism, caching, and module split changes ranked by expected savings.
+- ✅ **Gradle and Xcode build profiler** _(stub, awaits wire-up)_: Captures build scans from Gradle and xcodebuild -showBuildTimingSummary, attributes wall-clock to modules, tasks, and Swift type-checking hotspots, and AI-suggests parallelism, caching, and module split changes ranked by expected savings.
 
 
 #### Firmware and embedded
