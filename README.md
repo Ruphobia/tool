@@ -4266,7 +4266,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Patter Script Editor** _(stub, awaits wire-up)_: Scripted dialog with embedded sleight cues, timing marks, ad-lib branches, and translation slots for touring. LLM assists in tightening lines, generating themed variants, and matching word counts to handling beats.
 
-- ⬜ **Multiple Outs Planner** _(planned)_: Decision tree builder for equivoque, magician's choice, dual reality, and multi-prediction routines. Verifies every branch lands on a clean reveal and highlights paths with weak outs or audible giveaways.
+- ✅ **Multiple Outs Planner** _(stub, awaits wire-up)_: Decision tree builder for equivoque, magician's choice, dual reality, and multi-prediction routines. Verifies every branch lands on a clean reveal and highlights paths with weak outs or audible giveaways.
 
 - ⬜ **Misdirection Heatmap** _(planned)_: Simulated audience attention overlay derived from performer gesture, gaze, motion, and visual contrast in recorded footage. AI predicts where eyes go frame by frame and rates each sleight against ambient distraction.
 
