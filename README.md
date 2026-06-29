@@ -1609,7 +1609,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Archival finding-aid browser** _(stub, awaits wire-up)_: Parses and navigates EAD3 finding aids and EAC-CPF authority records. Renders the hierarchical fonds/series/file/item tree with scope notes and links to digital surrogates.
 
-- ⬜ **Citation and footnote formatter** _(planned)_: Generates Chicago notes-bibliography, Turabian, MLA, and discipline-specific archival citations (box/folder/item, shelfmark, MS conventions). Imports CSL styles and produces clean BibTeX/CSL-JSON output.
+- ✅ **Citation and footnote formatter** _(stub, awaits wire-up)_: Generates Chicago notes-bibliography, Turabian, MLA, and discipline-specific archival citations (box/folder/item, shelfmark, MS conventions). Imports CSL styles and produces clean BibTeX/CSL-JSON output.
 
 - ⬜ **Prosopography database** _(planned)_: Tracks persons, roles, offices, and relationships with explicit uncertainty, multiple attestations per assertion, and source-grounded provenance per claim. Models the Factoid Prosopography pattern used by PBW and PASE.
 
