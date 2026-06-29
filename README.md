@@ -307,7 +307,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **History explorer** _(in testing)_: Commit graph, blame, and pickaxe browser that traces how a line, function, or file evolved, with AI narration of the reasoning behind a change cluster.
 
-- ⬜ **Refactor engine** _(planned)_: Symbol-aware rename, extract, inline, and move operations across the repo, with AI-proposed multi-file refactors previewed as a diff before apply.
+- ✅ **Refactor engine** _(stub, awaits wire-up)_: Symbol-aware rename, extract, inline, and move operations across the repo, with AI-proposed multi-file refactors previewed as a diff before apply.
 
 - ⬜ **Build runner** _(planned)_: Unified front-end for make, cargo, npm, pip, go, gradle, and ad-hoc shells, with cached invocations, parallel targets, and AI parsing of build failures into actionable fixes.
 
