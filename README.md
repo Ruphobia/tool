@@ -311,7 +311,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Build runner** _(stub, awaits wire-up)_: Unified front-end for make, cargo, npm, pip, go, gradle, and ad-hoc shells, with cached invocations, parallel targets, and AI parsing of build failures into actionable fixes.
 
-- ⬜ **Test runner** _(planned)_: Discovers and executes unit, integration, and property tests across frameworks, surfaces failure deltas over time, and offers AI-generated test cases and fixtures from a function under cursor.
+- ✅ **Test runner** _(stub, awaits wire-up)_: Discovers and executes unit, integration, and property tests across frameworks, surfaces failure deltas over time, and offers AI-generated test cases and fixtures from a function under cursor.
 
 - ⬜ **Debugger** _(planned)_: DAP-based stepping debugger with watch expressions, conditional breakpoints, and reverse step where supported, plus AI explanation of variable state and likely root cause at a breakpoint.
 
