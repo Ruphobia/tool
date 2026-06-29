@@ -254,7 +254,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Link Graph Explorer** _(in testing)_: Builds the in-crawl link graph and exposes it for centrality, community detection, and broken-link queries. Drives seed expansion and helps spot orphan clusters.
 
-- ⬜ **Crawl Politeness Dashboard** _(planned)_: Live view of per-host request rates, error budgets, 4xx/5xx clusters, and robots violations. Lets the operator throttle, pause, or blacklist hosts without restarting jobs.
+- ✅ **Crawl Politeness Dashboard** _(in testing)_: Live view of per-host request rates, error budgets, 4xx/5xx clusters, and robots violations. Lets the operator throttle, pause, or blacklist hosts without restarting jobs.
 
 - ⬜ **Export and Replay** _(planned)_: Writes the harvested corpus to WARC, JSONL, Parquet, or Markdown bundles, and can replay a WARC back through the extractor without re-fetching. Keeps the knowledge base reproducible from cold storage.
 
