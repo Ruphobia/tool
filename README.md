@@ -2800,7 +2800,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **3D scene viewer** _(stub, awaits wire-up)_: Renders meshes, point clouds, coordinate frames, robot states, sensor readings, occupancy grids, and trajectories in a unified scene graph with time scrubbing, picking, and snapshot export.
 
-- ⬜ **Point cloud workbench** _(planned)_: Loads PLY, PCD, LAS, E57, and depth-image clouds, performs voxel downsampling, outlier removal, normal estimation, plane/cluster segmentation, and pairwise/global registration (ICP, GICP, NDT, Teaser++). AI-integrated semantic and instance segmentation against open-vocabulary prompts.
+- ✅ **Point cloud workbench** _(stub, awaits wire-up)_: Loads PLY, PCD, LAS, E57, and depth-image clouds, performs voxel downsampling, outlier removal, normal estimation, plane/cluster segmentation, and pairwise/global registration (ICP, GICP, NDT, Teaser++). AI-integrated semantic and instance segmentation against open-vocabulary prompts.
 
 - ⬜ **CAD import and conversion** _(planned)_: Converts STEP, IGES, JT, and Parasolid bodies to triangle meshes or implicit surfaces with topology preservation, assembly extraction into URDF link trees, and inertial-tensor computation from solid density.
 
