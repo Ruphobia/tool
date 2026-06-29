@@ -3359,7 +3359,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Wildlife disease surveillance** _(stub, awaits wire-up)_: Logs syndromic mortality and morbidity events, maps clusters, and runs SaTScan-style space-time scans for outbreaks (HPAI, CWD, white-nose, ranavirus, chytrid). Generates submission packets for state/federal wildlife health labs.
 
-- ⬜ **Morphometric and aging tool** _(planned)_: Records standard morphometrics (skull, wing chord, tarsus, carapace, dentition wear, cementum annuli, otolith rings) with species reference ranges for sex and age class determination. Supports DXA/CT-derived measurements and exports to Darwin Core.
+- ✅ **Morphometric and aging tool** _(stub, awaits wire-up)_: Records standard morphometrics (skull, wing chord, tarsus, carapace, dentition wear, cementum annuli, otolith rings) with species reference ranges for sex and age class determination. Supports DXA/CT-derived measurements and exports to Darwin Core.
 
 
 #### Paleontology and archaeology
