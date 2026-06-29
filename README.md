@@ -3466,7 +3466,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Landscape fragmentation analyzer** _(stub, awaits wire-up)_: Computes FRAGSTATS-style patch, class, and landscape metrics: patch density, edge density, mean nearest neighbor, contagion, Shannon's landscape diversity, and effective mesh size from categorical land cover rasters.
 
-- ⬜ **Connectivity modeler** _(planned)_: Builds resistance surfaces and runs Circuitscape current-flow and Conefor graph-theoretic connectivity (dPC, IIC) between habitat patches. Identifies pinch points, corridors, and critical stepping-stone nodes.
+- ✅ **Connectivity modeler** _(stub, awaits wire-up)_: Builds resistance surfaces and runs Circuitscape current-flow and Conefor graph-theoretic connectivity (dPC, IIC) between habitat patches. Identifies pinch points, corridors, and critical stepping-stone nodes.
 
 - ⬜ **LCA inventory builder** _(planned)_: Assembles life-cycle inventories with process flows from ecoinvent, USLCI, and Agribalyse libraries. Runs ReCiPe, TRACI, CML, and ILCD impact assessment methods with contribution and sensitivity analysis.
 
