@@ -1309,7 +1309,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Stocks and options analytics** _(stub, awaits wire-up)_: equity screener, fundamentals viewer, options chain + greeks, implied-volatility surface, payoff diagrams for multi-leg strategies, backtester for systematic strategies, position/P&L tracker. AI-integrated suggestion of hedges from a portfolio's beta/sector concentration.
 
-- ⬜ **Crypto trading and wallet tools** _(planned)_: exchange API integration (Coinbase/Kraken/Binance via API key), order book viewer, portfolio across chains (ETH/BTC/SOL/etc.), wallet inspector, transaction-fee optimizer, DEX swap interface, on-chain analytics (Etherscan/Solscan-style).
+- ✅ **Crypto trading and wallet tools** _(stub, awaits wire-up)_: exchange API integration (Coinbase/Kraken/Binance via API key), order book viewer, portfolio across chains (ETH/BTC/SOL/etc.), wallet inspector, transaction-fee optimizer, DEX swap interface, on-chain analytics (Etherscan/Solscan-style).
 
 - ⬜ **Prediction markets (Polymarket, Kalshi, Manifold)** _(planned)_: browse markets, view price history, execute trades through API where available, track positions, AI-integrated forecasting comparison vs. base rates and other markets.
 
