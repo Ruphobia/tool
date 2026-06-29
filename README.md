@@ -3288,7 +3288,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Imaging Sequencer** _(stub, awaits wire-up)_: Schedules multi-target imaging sessions with filter wheel, focuser, rotator, autoguider, and dome control. Handles autofocus runs, dithering between subs, weather aborts, and meridian flips.
 
-- ⬜ **Polar Alignment** _(planned)_: Computes polar alignment error from drift exposures or three-point plate solves, then displays altitude/azimuth adjustment vectors. Tracks convergence as the user nudges the mount.
+- ✅ **Polar Alignment** _(stub, awaits wire-up)_: Computes polar alignment error from drift exposures or three-point plate solves, then displays altitude/azimuth adjustment vectors. Tracks convergence as the user nudges the mount.
 
 - ⬜ **Autoguider** _(planned)_: Locks on a guide star or multi-star centroid and emits pulse-guide corrections to the mount via ST-4 or ASCOM. Computes RMS, peak, and seeing estimates with calibration assistant.
 
