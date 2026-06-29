@@ -2243,7 +2243,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **TTT/CCT Plotter** _(stub, awaits wire-up)_: Time-temperature-transformation and continuous-cooling-transformation curves for common steels, with overlay of a user-defined cooling profile to predict resulting microstructure (martensite, bainite, pearlite, ferrite) and approximate hardness.
 
-- ⬜ **Heat Treatment Scheduler** _(planned)_: Step-by-step recipe builder for anneal/normalize/quench/temper/age cycles with ramp rates, soak times, atmosphere, and quench medium. AI-integrated suggestion of a starting recipe from the alloy designation and a target hardness or microstructure.
+- ✅ **Heat Treatment Scheduler** _(stub, awaits wire-up)_: Step-by-step recipe builder for anneal/normalize/quench/temper/age cycles with ramp rates, soak times, atmosphere, and quench medium. AI-integrated suggestion of a starting recipe from the alloy designation and a target hardness or microstructure.
 
 - ⬜ **Hardness Converter** _(planned)_: Bidirectional conversion between Brinell, Rockwell B/C, Vickers, Knoop, Shore A/D, Leeb, and Mohs scales per ASTM E140, with approximate tensile-strength estimates for steels.
 
