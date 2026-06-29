@@ -405,7 +405,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Layout inspector** _(stub, awaits wire-up)_: Overlays CSS grid tracks, flex axes, container queries, and stacking contexts on the live page; explains specificity wins and offers minimal selector rewrites.
 
-- ⬜ **Route map** _(planned)_: Visualizes file-based router trees (Next, Remix, SvelteKit, Nuxt, SolidStart) with layout nesting, data-loader edges, and a coverage view of which routes have tests.
+- ✅ **Route map** _(stub, awaits wire-up)_: Visualizes file-based router trees (Next, Remix, SvelteKit, Nuxt, SolidStart) with layout nesting, data-loader edges, and a coverage view of which routes have tests.
 
 - ⬜ **SSR/SSG/ISR strategist** _(planned)_: Classifies each route by render mode, recommends caching headers and revalidation intervals, and generates the framework-specific config to enact the chosen strategy.
 
