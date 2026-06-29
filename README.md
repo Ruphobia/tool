@@ -1450,7 +1450,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **PDF reader** _(in testing)_: opens PDF documents in an editor tab, rendered inline by the browser's native PDF viewer. Read-only currently.
 
-- ⬜ **EPUB reader** _(planned)_: Reflowable reader for EPUB, MOBI, AZW3, and FB2 with adjustable typography, TOC navigation, bookmarks, and per-book reading state. Shares the same annotation store as the PDF reader.
+- ✅ **EPUB reader** _(stub, awaits wire-up)_: Reflowable reader for EPUB, MOBI, AZW3, and FB2 with adjustable typography, TOC navigation, bookmarks, and per-book reading state. Shares the same annotation store as the PDF reader.
 
 - ⬜ **Comic and manga reader** _(planned)_: Page and strip viewers for CBZ, CBR, and PDF comics with right-to-left mode, double-page spreads, panel-by-panel zoom, and per-volume reading position.
 
