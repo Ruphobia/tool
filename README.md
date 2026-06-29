@@ -3589,7 +3589,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Advanced raster image editor (Photoshop / GIMP class)** _(stub, awaits wire-up)_: layers, masks, blend modes, smart selections (lasso, magic wand, color range), healing/clone tools, content-aware fill, adjustment layers, color grading, photo retouching, compositing, plug-in/script architecture. Goes beyond the MS-Paint-style image editor for real photo work.
 
-- ⬜ **Vector graphics editor (Illustrator / Inkscape class)** _(planned)_: paths and beziers, boolean operations, gradients, typography (text on path, OpenType features), live filters, layered SVG export, vector effects. For logos, schematic illustrations, icons, layout artwork.
+- ✅ **Vector graphics editor (Illustrator / Inkscape class)** _(stub, awaits wire-up)_: paths and beziers, boolean operations, gradients, typography (text on path, OpenType features), live filters, layered SVG export, vector effects. For logos, schematic illustrations, icons, layout artwork.
 
 - ⬜ **Raster editor** _(planned)_: Layer-based bitmap editor with brushes, masks, blend modes, non-destructive adjustment layers, and selection tools. AI-integrated inpainting, outpainting, and generative fill operate on the active selection.
 
