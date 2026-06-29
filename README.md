@@ -1909,7 +1909,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Dubbing studio** _(stub, awaits wire-up)_: Replaces source dialogue with translated speech timed to original mouth motion, with rate-stretch, take selection, and preservation of music-and-effects stems.
 
-- ⬜ **Romanization and transliteration** _(planned)_: Bidirectional transliteration between scripts (Cyrillic, Arabic, Devanagari, Hebrew, CJK, Thai, Ge'ez, etc.) using configurable schemes such as BGN/PCGN, ISO 9, Hepburn, and Pinyin.
+- ✅ **Romanization and transliteration** _(stub, awaits wire-up)_: Bidirectional transliteration between scripts (Cyrillic, Arabic, Devanagari, Hebrew, CJK, Thai, Ge'ez, etc.) using configurable schemes such as BGN/PCGN, ISO 9, Hepburn, and Pinyin.
 
 - ⬜ **Corpus and concordance browser** _(planned)_: Parallel and monolingual corpus loader with KWIC concordance, collocation statistics, n-gram frequency lists, and span-level query.
 
