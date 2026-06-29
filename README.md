@@ -3906,7 +3906,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Knit Chart Editor** _(stub, awaits wire-up)_: Designs colorwork, lace, and cable charts with standard stitch symbols, repeat boxes, and no-stitch cells. Computes row and stitch counts from a gauge swatch and exports written instructions alongside the chart.
 
-- ⬜ **Crochet Chart Editor** _(planned)_: Symbol-based charts for amigurumi, granny squares, filet, Tunisian, and freeform crochet on rectangular and radial grids. Generates written pattern text from the chart with standard US or UK terminology.
+- ✅ **Crochet Chart Editor** _(stub, awaits wire-up)_: Symbol-based charts for amigurumi, granny squares, filet, Tunisian, and freeform crochet on rectangular and radial grids. Generates written pattern text from the chart with standard US or UK terminology.
 
 - ⬜ **Weaving Draft Editor** _(planned)_: Edits threading, tie-up, and treadling with live drawdown, network drafting, profile drafts, and color-and-weave previews. Supports multi-shaft looms up to 32 shafts and exports WIF for loom software.
 
