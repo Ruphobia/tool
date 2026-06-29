@@ -897,7 +897,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Disassembler/Decompiler Viewer** _(stub, awaits wire-up)_: Loads PE, ELF, Mach-O, and raw binaries with graph and linear views, symbol resolution, and decompiled C output via Ghidra/Radare backends. Pivots between cross-references, strings, and import tables.
 
-- ⬜ **Entropy Mapper** _(planned)_: Plots byte entropy across files and disk regions to surface packed, encrypted, or compressed sections. Overlays section boundaries, signature hits, and suspected key material for triage.
+- ✅ **Entropy Mapper** _(stub, awaits wire-up)_: Plots byte entropy across files and disk regions to surface packed, encrypted, or compressed sections. Overlays section boundaries, signature hits, and suspected key material for triage.
 
 - ⬜ **Strings Triage** _(planned)_: Extracts ASCII, UTF-8, UTF-16, and stack-string candidates from binaries and dumps, classifying them into URLs, IPs, paths, registry keys, and credentials. AI-integrated clustering groups likely indicators.
 
