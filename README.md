@@ -4069,7 +4069,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Glaze Chemistry Calculator** _(stub, awaits wire-up)_: Computes Seger and unity molecular formulae from raw material recipes, solves for limit-formula targets, and substitutes materials by available analyses. Flags eutectics, COE mismatch with the clay body, and food-safe boundaries for lead, barium, lithium, and cadmium.
 
-- ⬜ **Kiln Firing Schedule Builder** _(planned)_: Constructs multi-segment ramp-hold-cool programs for bisque, glaze, lustre, raku, and crystalline firings. Adjusts for kiln mass, element load, and cone deformation; predicts quartz inversion dwells and exports to Bartlett, Orton, and Skutt controller syntax.
+- ✅ **Kiln Firing Schedule Builder** _(stub, awaits wire-up)_: Constructs multi-segment ramp-hold-cool programs for bisque, glaze, lustre, raku, and crystalline firings. Adjusts for kiln mass, element load, and cone deformation; predicts quartz inversion dwells and exports to Bartlett, Orton, and Skutt controller syntax.
 
 - ⬜ **Clay Body Formulator** _(planned)_: Blends earthenware, stoneware, and porcelain bodies from feldspar, silica, kaolin, ball clay, and grog by target shrinkage, absorption, plasticity, and maturing cone. Predicts thermal expansion for glaze fit and warns on dunting and crawling risks.
 
