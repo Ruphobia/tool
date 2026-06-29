@@ -4174,7 +4174,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Stencil Transfer Designer** _(stub, awaits wire-up)_: Vectorizes line art and converts raster references into clean single-line stencils sized to print on thermal or hectograph paper. Supports mirroring, registration marks, and multi-page tiling for large back pieces.
 
-- ⬜ **Skin Tone Preview** _(planned)_: Renders the design over a calibrated swatch of Fitzpatrick types I through VI, simulating ink saturation, healing fade, and contrast loss on each tone. AI color-correction suggests adjusted palettes for darker skin.
+- ✅ **Skin Tone Preview** _(stub, awaits wire-up)_: Renders the design over a calibrated swatch of Fitzpatrick types I through VI, simulating ink saturation, healing fade, and contrast loss on each tone. AI color-correction suggests adjusted palettes for darker skin.
 
 - ⬜ **Body Placement Mockup** _(planned)_: Warps the design onto an uploaded body photo using pose-aware mesh fitting so the art follows curvature of limbs, ribs, and spine. Includes flexion poses to check stretch behavior.
 
