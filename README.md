@@ -266,7 +266,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Metadata Resolver** _(stub, awaits wire-up)_: Looks up records by DOI, ISBN, arXiv ID, PMID, PMC, ADS bibcode, or freeform title; merges results from Crossref, OpenAlex, DataCite, PubMed, and Semantic Scholar with provenance tracking.
 
-- ⬜ **PDF Ingestor** _(planned)_: Extracts metadata, references, and structural sections from PDFs using GROBID-style parsing, then proposes a CSL record. AI assists when scans, preprints, or malformed headers defeat heuristic extraction.
+- ✅ **PDF Ingestor** _(stub, awaits wire-up)_: Extracts metadata, references, and structural sections from PDFs using GROBID-style parsing, then proposes a CSL record. AI assists when scans, preprints, or malformed headers defeat heuristic extraction.
 
 - ⬜ **Annotation Workbench** _(planned)_: PDF and EPUB reader with highlights, sticky notes, ink, and rectangular region captures. Annotations stay in an open sidecar format and sync back into note items linked to page anchors.
 
