@@ -3140,7 +3140,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pathway Browser** _(stub, awaits wire-up)_: Visualizes biochemical and signaling pathways (Reactome, KEGG-equivalent open data, WikiPathways) with gene/protein/metabolite overlays and drug-target annotation.
 
-- ⬜ **Genomic Variant Annotator** _(planned)_: Annotates VCF variants against ClinVar, gnomAD, dbSNP, and OMIM with ACMG classification, pharmacogenomic (CPIC/PharmGKB) star-allele calling, and predicted protein effect.
+- ✅ **Genomic Variant Annotator** _(stub, awaits wire-up)_: Annotates VCF variants against ClinVar, gnomAD, dbSNP, and OMIM with ACMG classification, pharmacogenomic (CPIC/PharmGKB) star-allele calling, and predicted protein effect.
 
 - ⬜ **Microbiology Antibiogram** _(planned)_: Builds and queries local antibiograms from culture-and-sensitivity data, suggests empirical therapy by site of infection and local resistance patterns, and tracks MIC trends over time.
 
