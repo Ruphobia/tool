@@ -3544,7 +3544,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Soil Test Interpreter** _(stub, awaits wire-up)_: Parses lab reports (Mehlich-3, Bray, Olsen, Morgan, saturated paste) into normalized nutrient, CEC, base saturation, and pH metrics, then flags deficiencies and toxicities against crop-specific targets with AI-integrated narrative summaries of what the numbers actually mean.
 
-- ⬜ **Fertilizer Blend Calculator** _(planned)_: Solves NPK and micronutrient targets across arbitrary input materials (urea, MAP, KCl, gypsum, fish emulsion, compost analyses) using linear programming to minimize cost or salt index. Outputs per-bed application rates in lb/ac, g/m2, or tsp/gal.
+- ✅ **Fertilizer Blend Calculator** _(stub, awaits wire-up)_: Solves NPK and micronutrient targets across arbitrary input materials (urea, MAP, KCl, gypsum, fish emulsion, compost analyses) using linear programming to minimize cost or salt index. Outputs per-bed application rates in lb/ac, g/m2, or tsp/gal.
 
 - ⬜ **Irrigation Scheduler** _(planned)_: Computes daily and weekly water needs from reference ET (Penman-Monteith or Hargreaves), crop coefficient (Kc) curves, root depth, soil water holding capacity, and rainfall. Outputs run times per zone for drip, micro-spray, or overhead emitters.
 
