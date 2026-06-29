@@ -3673,7 +3673,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Watermark and provenance** _(stub, awaits wire-up)_: Visible watermarking plus invisible signatures (StegaStamp, Trustmark) and C2PA manifest read/write. Verifies and strips watermarks where licensing allows.
 
-- ⬜ **Steganography** _(planned)_: LSB and DCT hide/extract for text and small payloads inside images and audio-of-video tracks. Reports capacity and visual detectability estimates.
+- ✅ **Steganography** _(stub, awaits wire-up)_: LSB and DCT hide/extract for text and small payloads inside images and audio-of-video tracks. Reports capacity and visual detectability estimates.
 
 - ⬜ **3D viewer and converter** _(planned)_: Loads OBJ, GLTF, FBX, STL, USDZ, and PLY (including Gaussian splats) with turntable preview and format conversion. Bakes textures and renders thumbnails for the asset library.
 
