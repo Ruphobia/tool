@@ -447,7 +447,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Headless browser** _(stub, awaits wire-up)_: Drives Chromium or Firefox in headless mode for JavaScript-rendered pages, screenshots, PDF export, and DOM snapshotting. Records HAR and exposes the page's network, console, and performance traces; scripts via a Playwright-style API.
 
-- ⬜ **Webhook receiver** _(planned)_: Exposes a local or tunneled HTTPS endpoint that captures inbound webhook deliveries, logs full payloads and headers, and supports scripted responses. Replays captured requests against a chosen target for development.
+- ✅ **Webhook receiver** _(stub, awaits wire-up)_: Exposes a local or tunneled HTTPS endpoint that captures inbound webhook deliveries, logs full payloads and headers, and supports scripted responses. Replays captured requests against a chosen target for development.
 
 - ⬜ **API schema explorer** _(planned)_: Loads OpenAPI, AsyncAPI, GraphQL SDL, and gRPC reflection schemas, renders them as browsable trees, and generates example requests and typed client stubs. AI-integrated summary of an endpoint's purpose and likely failure modes from its schema and examples.
 
