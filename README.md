@@ -4582,7 +4582,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Scouting notebook** _(stub, awaits wire-up)_: Bookmarks timestamped clips against a tag taxonomy (player, action, outcome) with hotkey tagging; AI-integrated summarization rolls per-player tendencies and weaknesses from accumulated notes.
 
-- ⬜ **Rating system fitter** _(planned)_: Fits Elo, Glicko-2, TrueSkill, Massey, and Colley ratings on head-to-head results with margin-of-victory and home-field adjustment; exposes a prediction API for upcoming fixtures.
+- ✅ **Rating system fitter** _(stub, awaits wire-up)_: Fits Elo, Glicko-2, TrueSkill, Massey, and Colley ratings on head-to-head results with margin-of-victory and home-field adjustment; exposes a prediction API for upcoming fixtures.
 
 - ⬜ **Season Monte Carlo simulator** _(planned)_: Walks a remaining schedule N times from team strength priors to produce win-total distributions, playoff seeding odds, and championship probabilities with confidence bands.
 
