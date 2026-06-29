@@ -2153,7 +2153,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Kinematics simulator** _(stub, awaits wire-up)_: Assembles rigid bodies with revolute, prismatic, cylindrical, and gear joints; runs forward and inverse kinematics with collision detection. Plots position, velocity, acceleration, and joint torque over time.
 
-- ⬜ **Vibration analyzer** _(planned)_: Modal extraction and harmonic, random, and shock response on FEA models or measured FRF data. AI-integrated correlation of measured modes with simulated ones for model updating.
+- ✅ **Vibration analyzer** _(stub, awaits wire-up)_: Modal extraction and harmonic, random, and shock response on FEA models or measured FRF data. AI-integrated correlation of measured modes with simulated ones for model updating.
 
 - ⬜ **Heat transfer calculator** _(planned)_: Conduction, convection, and radiation calculators with fin, heat sink, and pipe network solvers. Includes view factor computation and transient lumped-capacitance models.
 
