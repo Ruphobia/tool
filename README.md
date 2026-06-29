@@ -3892,7 +3892,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sloper Block Library** _(stub, awaits wire-up)_: Parametric bodice, sleeve, skirt, trouser, and torso blocks driven by a measurement profile. Stores personal fit blocks with version history and exposes them as the base for any drafted pattern.
 
-- ⬜ **Garment Grader** _(planned)_: Applies grade rules across a size range with proportional, vector, or industry-standard grading. Visualizes nested sizes, edits grade points per landmark, and validates dart truing across the run.
+- ✅ **Garment Grader** _(stub, awaits wire-up)_: Applies grade rules across a size range with proportional, vector, or industry-standard grading. Visualizes nested sizes, edits grade points per landmark, and validates dart truing across the run.
 
 - ⬜ **Marker Nester** _(planned)_: Auto-nests pattern pieces onto fabric width with nap, stripe match, plaid match, and grain constraints to minimize yardage. Reports efficiency percent and lay length and exports cut files for manual or plotter cutting.
 
