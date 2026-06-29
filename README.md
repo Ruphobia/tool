@@ -768,7 +768,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Palette Workshop** _(stub, awaits wire-up)_: Color ramp and indexed palette designer with LCh-aware interpolation, dithering preview, palette extraction from reference images, and palette-swap testing across all sprites at once.
 
-- ⬜ **Save Format Editor** _(planned)_: Structured editor for save files with schema inference, hex/text dual view, checksum repair, and field-level diffing between saves. Useful for testing migrations, debugging corruption, and authoring fixture saves.
+- ✅ **Save Format Editor** _(stub, awaits wire-up)_: Structured editor for save files with schema inference, hex/text dual view, checksum repair, and field-level diffing between saves. Useful for testing migrations, debugging corruption, and authoring fixture saves.
 
 - ⬜ **Procedural Generation Sandbox** _(planned)_: Live laboratory for noise, cellular automata, L-systems, wave function collapse, and graph rewriting, with seedable runs and parameter sweeps. AI-integrated suggestion of constraints from a few hand-drawn example outputs.
 
