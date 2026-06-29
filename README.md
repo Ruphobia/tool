@@ -3725,7 +3725,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Rigging Studio** _(stub, awaits wire-up)_: Skeleton, IK/FK, spline, and ribbon rig builder with weight painting, corrective shape keys, and constraint graphs. Generates control rigs from a mesh plus joint hints, with auto-skinning via heat or biharmonic methods.
 
-- ⬜ **Mocap Cleanup** _(planned)_: Imports BVH, FBX, and C3D capture data, fixes marker swaps, gap fills, and foot-slide; retargets between skeletons of differing proportions. AI-assisted denoise and gap interpolation trained on locomotion priors.
+- ✅ **Mocap Cleanup** _(stub, awaits wire-up)_: Imports BVH, FBX, and C3D capture data, fixes marker swaps, gap fills, and foot-slide; retargets between skeletons of differing proportions. AI-assisted denoise and gap interpolation trained on locomotion priors.
 
 - ⬜ **Particle and Fluid Sim** _(planned)_: GPU-backed solver for SPH/FLIP fluids, smoke, fire, sand, and instanced particles with collision against signed-distance fields. Caches to OpenVDB and exports velocity fields for motion blur.
 
