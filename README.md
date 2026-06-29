@@ -3024,7 +3024,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Taxonomic classifier** _(stub, awaits wire-up)_: Classifies metagenomic reads or MAGs with Kraken2, Bracken, MetaPhlAn, GTDB-Tk, or sourmash and reports relative abundance, alpha and beta diversity.
 
-- ⬜ **Metagenome binner** _(planned)_: Bins contigs into MAGs via MetaBAT2, CONCOCT, and DAS_Tool, scores completeness and contamination with CheckM2, and annotates community function via HUMAnN.
+- ✅ **Metagenome binner** _(stub, awaits wire-up)_: Bins contigs into MAGs via MetaBAT2, CONCOCT, and DAS_Tool, scores completeness and contamination with CheckM2, and annotates community function via HUMAnN.
 
 - ⬜ **Viral genome workbench** _(planned)_: Performs reference-based viral consensus calling, Pangolin or Nextclade lineage assignment, glycoprotein cleavage site detection, and recombination scanning via RDP and 3SEQ.
 
