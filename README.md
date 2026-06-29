@@ -670,7 +670,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Seed data generator** _(stub, awaits wire-up)_: Produces realistic synthetic rows respecting foreign keys, unique constraints, and check constraints; learns distributions from a sample of production data when permitted.
 
-- ⬜ **Cost and storage profiler** _(planned)_: Reports per-table and per-index size, toast and bloat estimates, hot/cold row ratios, and projected monthly cost on cloud providers (RDS, Aurora, Cloud SQL, Atlas) given current growth.
+- ✅ **Cost and storage profiler** _(stub, awaits wire-up)_: Reports per-table and per-index size, toast and bloat estimates, hot/cold row ratios, and projected monthly cost on cloud providers (RDS, Aurora, Cloud SQL, Atlas) given current growth.
 
 
 #### General computing and sysadmin
