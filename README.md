@@ -4422,7 +4422,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Dosing calculator** _(stub, awaits wire-up)_: Computes dose volumes for Estimative Index (planted), two-part and Balling (reef), and trace supplementation given measured Ca, Alk, Mg, NO3, PO4, and Fe consumption rates.
 
-- ⬜ **PAR and PPFD planner** _(planned)_: Models light intensity at depth from fixture spectrum, mounting height, and tank or terrarium geometry. Flags photoperiod and PUR mismatches for coral, planted, or UVB-dependent reptile keepers.
+- ✅ **PAR and PPFD planner** _(stub, awaits wire-up)_: Models light intensity at depth from fixture spectrum, mounting height, and tank or terrarium geometry. Flags photoperiod and PUR mismatches for coral, planted, or UVB-dependent reptile keepers.
 
 - ⬜ **Species care database** _(planned)_: Local-first species sheet for fish, coral, herp, amphibian, and invertebrate species with temperature, pH, humidity, UVB, diet, social structure, and source citations; queryable by parameter overlap.
 
