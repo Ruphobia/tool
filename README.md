@@ -1874,7 +1874,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Conworld Linguistic Atlas** _(stub, awaits wire-up)_: Plots language and dialect regions on a world map with isoglosses, sprachbund boundaries, and contact zones. Each polygon links back to its lexicon, phonology, and demographic notes.
 
-- ⬜ **Speech Synthesizer** _(planned)_: Renders conlang text as audio through a phoneme-to-acoustic pipeline (formant or neural backend) parameterized by the language's inventory and prosody. Useful for hearing the language and for stress-testing phonotactics by ear.
+- ✅ **Speech Synthesizer** _(stub, awaits wire-up)_: Renders conlang text as audio through a phoneme-to-acoustic pipeline (formant or neural backend) parameterized by the language's inventory and prosody. Useful for hearing the language and for stress-testing phonotactics by ear.
 
 - ⬜ **Translation Workbench** _(planned)_: Edits parallel texts aligned at sentence and morpheme level with AI-assisted glossing, back-translation, and naturalness scoring. Flags lexicon gaps and proposes coinages consistent with the active phonology and morphology.
 
