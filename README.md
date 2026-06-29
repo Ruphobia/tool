@@ -1153,7 +1153,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **VRP solver** _(stub, awaits wire-up)_: Solves capacitated vehicle routing with time windows, pickup/delivery, heterogeneous fleet, and multi-depot constraints using OR-Tools / VROOM-style metaheuristics (guided local search, LNS). Imports OSM road networks for real travel times and exports per-driver manifests.
 
-- ⬜ **TSP playground** _(planned)_: Solves large symmetric and asymmetric TSPs via Lin-Kernighan (LKH-style), Concorde-style branch-and-cut for optimality, and Christofides for bounded approximation. Visualizes tour evolution and gap-to-lower-bound in real time.
+- ✅ **TSP playground** _(stub, awaits wire-up)_: Solves large symmetric and asymmetric TSPs via Lin-Kernighan (LKH-style), Concorde-style branch-and-cut for optimality, and Christofides for bounded approximation. Visualizes tour evolution and gap-to-lower-bound in real time.
 
 - ⬜ **Inventory policy designer** _(planned)_: Computes EOQ, (s,S), (R,Q), and base-stock policies with safety stock from target cycle service level or fill rate. Handles lead-time variability, stochastic demand distributions, and joint replenishment; AI-suggested policy class given demand-pattern fingerprint (smooth, erratic, intermittent, lumpy).
 
