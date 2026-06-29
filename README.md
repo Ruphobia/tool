@@ -3989,7 +3989,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Brewing and Mead Hydrometer Lab** _(stub, awaits wire-up)_: Tracks original and final gravity, temperature-corrected SG, ABV, attenuation, and FAN for beer, wine, mead, and cider. Estimates yeast pitch rates and predicts fermentation finish from logged Brix and gravity curves.
 
-- ⬜ **Vinegar and Acetification Monitor** _(planned)_: Logs surface vs submerged acetification batches with alcohol-by-volume input, ambient O2 access, and titrated acidity output. Predicts mother-of-vinegar maturation timing and flags stuck conversions.
+- ✅ **Vinegar and Acetification Monitor** _(stub, awaits wire-up)_: Logs surface vs submerged acetification batches with alcohol-by-volume input, ambient O2 access, and titrated acidity output. Predicts mother-of-vinegar maturation timing and flags stuck conversions.
 
 - ⬜ **Cheese Make Planner** _(planned)_: Walks through milk pasteurization, culture inoculation, rennet set, curd cut, cook, drain, press, brine, and affinage stages. Logs target pH and titratable acidity at each step and adjusts hold times when readings drift.
 
