@@ -3517,7 +3517,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Geochemistry Plotter** _(stub, awaits wire-up)_: Standard rock-geochemistry diagrams: TAS, AFM, QAPF, Harker, Pearce, spider/REE-normalized multielement plots, and ternary classifiers. Accepts whole-rock CSV input with normalization to chondrite, primitive mantle, or NMORB.
 
-- ⬜ **CIPW Norm Calculator** _(planned)_: Computes the CIPW normative mineralogy of an igneous rock from a major-element whole-rock analysis, with iron oxidation handled by user ratio or empirical adjustment. Reports normative percentages and a derived rock classification.
+- ✅ **CIPW Norm Calculator** _(stub, awaits wire-up)_: Computes the CIPW normative mineralogy of an igneous rock from a major-element whole-rock analysis, with iron oxidation handled by user ratio or empirical adjustment. Reports normative percentages and a derived rock classification.
 
 - ⬜ **Earthquake Feed** _(planned)_: Queries USGS, EMSC, and IRIS catalogs for events filtered by magnitude, depth, time window, and polygon. Plots epicenters on the map with focal-mechanism beachballs and links to per-event waveform pulls.
 
