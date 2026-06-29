@@ -4451,7 +4451,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Manual D duct designer** _(stub, awaits wire-up)_: Sizes supply and return trunks and branches using equal-friction or static-regain methods, given the available static pressure, fitting equivalent lengths, and target room CFM from the Manual J output.
 
-- ⬜ **Psychrometric tool** _(planned)_: Plots state points and processes (mixing, sensible heat, latent, cooling coil bypass) on a psychrometric chart for a given elevation; solves for SHR, enthalpy, dew point, and required reheat.
+- ✅ **Psychrometric tool** _(stub, awaits wire-up)_: Plots state points and processes (mixing, sensible heat, latent, cooling coil bypass) on a psychrometric chart for a given elevation; solves for SHR, enthalpy, dew point, and required reheat.
 
 - ⬜ **Refrigerant charge analyzer** _(planned)_: Computes superheat and subcooling targets for fixed-orifice and TXV systems from suction/liquid pressures and temperatures, with refrigerant property tables for R-410A, R-32, R-454B, and R-22; flags over/undercharge.
 
