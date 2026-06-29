@@ -2019,7 +2019,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **FDTD Nanophotonics Simulator** _(stub, awaits wire-up)_: Finite-difference time-domain solver for sub-wavelength structures (waveguides, resonators, metasurfaces, plasmonics) with PML boundaries, dispersive materials, mode and TFSF sources, and S-parameter, transmission, and near-to-far-field projection monitors.
 
-- ⬜ **Camera Imaging Calculator** _(planned)_: Computes depth of field, hyperfocal distance, diffraction limit, angle of view, exposure value, equivalent focal length, and pixel-limited resolution for arbitrary sensor and lens combinations, with side-by-side format comparison.
+- ✅ **Camera Imaging Calculator** _(stub, awaits wire-up)_: Computes depth of field, hyperfocal distance, diffraction limit, angle of view, exposure value, equivalent focal length, and pixel-limited resolution for arbitrary sensor and lens combinations, with side-by-side format comparison.
 
 - ⬜ **Radiometry Photometry Bench** _(planned)_: Converts between radiometric and photometric quantities (radiance, irradiance, luminance, illuminance, candela, lumen) under arbitrary spectra and observer functions; computes throughput, etendue, and source-detector link budgets with cosine and inverse-square geometry.
 
