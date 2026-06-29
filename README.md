@@ -622,7 +622,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Query builder** _(stub, awaits wire-up)_: Visual join and filter composer that emits dialect-correct SQL, supports CTEs, window functions, and lateral joins, and round-trips between graphical and text views.
 
-- ⬜ **EXPLAIN visualizer** _(planned)_: Renders EXPLAIN ANALYZE plans as a node graph with cost, rows, time, and buffer hits per operator; flags seq scans on large tables, bad estimates, and missing indexes with AI-integrated rewrite suggestions.
+- ✅ **EXPLAIN visualizer** _(stub, awaits wire-up)_: Renders EXPLAIN ANALYZE plans as a node graph with cost, rows, time, and buffer hits per operator; flags seq scans on large tables, bad estimates, and missing indexes with AI-integrated rewrite suggestions.
 
 - ⬜ **Index advisor** _(planned)_: Captures slow query logs or pg_stat_statements, proposes candidate indexes with hypothetical (HypoPG-style) testing, and reports redundant or unused indexes for removal.
 
