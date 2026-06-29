@@ -4024,7 +4024,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **WineTastingNotes** _(stub, awaits wire-up)_: Structured WSET SAT capture covering appearance, nose, palate, and conclusions, with grape, region, and producer taxonomy. Supports blind tasting modes and computes calibration accuracy over time.
 
-- ⬜ **CellarInventory** _(planned)_: Tracks bottle location, vintage, provenance, purchase price, storage conditions, and projected drink window. Alerts on bottles drifting past peak and supports cellar valuation snapshots.
+- ✅ **CellarInventory** _(stub, awaits wire-up)_: Tracks bottle location, vintage, provenance, purchase price, storage conditions, and projected drink window. Alerts on bottles drifting past peak and supports cellar valuation snapshots.
 
 - ⬜ **DistillationCalculator** _(planned)_: Logs wash ABV, parrot readings, vapor and liquid temperatures, and cut points across heads, hearts, and tails. Computes proofing-down, angel's share, and yield per fermentable; flags congener thresholds.
 
