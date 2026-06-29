@@ -2715,7 +2715,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Tire Pressure and Temperature Logger** _(stub, awaits wire-up)_: Captures internal/external IR tire temperatures, hot and cold pressures, and tread depth per corner across sessions. Plots inside/middle/outside temperature spread against camber and pressure to guide alignment changes.
 
-- ⬜ **Corner Weight and Setup Sheet** _(planned)_: Logs scale pad weights, computes cross-weight, front/rear and left/right bias, and tracks the effect of ride-height adjustments in real time. Stores per-event setup snapshots with alignment, sway bars, dampers, and tire data.
+- ✅ **Corner Weight and Setup Sheet** _(stub, awaits wire-up)_: Logs scale pad weights, computes cross-weight, front/rear and left/right bias, and tracks the effect of ride-height adjustments in real time. Stores per-event setup snapshots with alignment, sway bars, dampers, and tire data.
 
 - ⬜ **Brake Bias and Thermal Calculator** _(planned)_: Computes brake bias from master cylinder, caliper piston area, pad mu, and rotor radius, and estimates rotor temperature rise per stop from kinetic energy and cooling coefficients. Plots bias against deceleration and weight transfer.
 
