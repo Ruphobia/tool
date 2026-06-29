@@ -4685,7 +4685,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Autosomal Match Cluster Board** _(stub, awaits wire-up)_: Imports raw match lists from AncestryDNA, 23andMe, MyHeritage, and GEDmatch, then runs Leeds-method clustering plus configurable shared-cM thresholds. Renders the resulting groups as a colored matrix with drag-to-merge cluster assignment.
 
-- ⬜ **Segment Triangulator** _(planned)_: Loads chromosome browser CSVs and finds three-way triangulated segments above a user-set cM floor. Annotates each segment with candidate most-recent-common-ancestor couples pulled from linked trees.
+- ✅ **Segment Triangulator** _(stub, awaits wire-up)_: Loads chromosome browser CSVs and finds three-way triangulated segments above a user-set cM floor. Annotates each segment with candidate most-recent-common-ancestor couples pulled from linked trees.
 
 - ⬜ **Y-DNA and mtDNA Haplogroup Explorer** _(planned)_: Browses ISOGG / YFull haplotrees offline, places STR and SNP results on the tree, and estimates TMRCA between kits using infinite-alleles and Bayesian (BATWING-style) models.
 
