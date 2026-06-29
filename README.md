@@ -4354,7 +4354,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Randomizer seed analyzer** _(stub, awaits wire-up)_: Loads randomizer logic files (OoT, ALttP, Pokemon) for a given seed and computes item placement, required tricks, and shortest-path routes through dungeons. Surfaces logic-locked items and beatability checks.
 
-- ⬜ **ICCF/NAG annotator** _(planned)_: Normalizes chess move annotations (!, ?, !?, $14, $44) and Go/poker equivalents across PGN, SGF, and hand-history formats, mapping them to a unified severity/quality scale. Feeds study-card generation for spaced-repetition review of blunders and missed lines.
+- ✅ **ICCF/NAG annotator** _(stub, awaits wire-up)_: Normalizes chess move annotations (!, ?, !?, $14, $44) and Go/poker equivalents across PGN, SGF, and hand-history formats, mapping them to a unified severity/quality scale. Feeds study-card generation for spaced-repetition review of blunders and missed lines.
 
 
 #### Esports, speedrunning, competitive game analytics
