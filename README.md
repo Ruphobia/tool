@@ -3981,7 +3981,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Hot Sauce Capsaicin Calculator** _(stub, awaits wire-up)_: Estimates Scoville heat units from pepper varietal mass ratios and dilution factors in the final sauce. Accepts HPLC-style capsaicinoid input when available and back-solves blend ratios to hit a target SHU.
 
-- ⬜ **Dehydration and Curing Scheduler** _(planned)_: Plans drying schedules for jerky, biltong, charcuterie, and herbs with target water activity and equilibrium humidity. Models weight loss curves and flags hazard windows where surface case hardening or mold growth is likely.
+- ✅ **Dehydration and Curing Scheduler** _(stub, awaits wire-up)_: Plans drying schedules for jerky, biltong, charcuterie, and herbs with target water activity and equilibrium humidity. Models weight loss curves and flags hazard windows where surface case hardening or mold growth is likely.
 
 - ⬜ **Modified Atmosphere Packaging Reference** _(planned)_: Looks up recommended gas mixtures (CO2, N2, O2 residuals) for cheese, cured meats, produce, and coffee. Calculates headspace volume, gas flush durations, and OTR/MVTR film selection for a given shelf-life target.
 
