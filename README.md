@@ -3853,7 +3853,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Audio format converter** _(stub, awaits wire-up)_: Batch converter between WAV/FLAC/AIFF/MP3/Opus/Vorbis/AAC/ALAC with sample-rate, bit-depth, channel-layout, and metadata transforms; SoX/FFmpeg-backed.
 
-- ⬜ **Bode/network analyzer driver** _(planned)_: Drives sound-card and lab-instrument loopback measurements to characterize analog/digital signal chains: frequency response, THD+N, IMD, crosstalk, and phase. AI-integrated interpretation of measurement plots.
+- ✅ **Bode/network analyzer driver** _(stub, awaits wire-up)_: Drives sound-card and lab-instrument loopback measurements to characterize analog/digital signal chains: frequency response, THD+N, IMD, crosstalk, and phase. AI-integrated interpretation of measurement plots.
 
 - ⬜ **Signal generator** _(planned)_: Generates sine, square, triangle, sawtooth, white/pink/brown noise, sweeps (linear/log), MLS, chirps, multitones, and arbitrary user-defined waveforms with precise amplitude, phase, and DC offset control.
 
