@@ -2987,7 +2987,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Variant Annotator and Interpreter** _(stub, awaits wire-up)_: Annotates VCFs with gene models, consequence (VEP/SnpEff-style), population frequencies (gnomAD), clinical significance (ClinVar), and predicted impact (SIFT, PolyPhen, CADD, AlphaMissense). Filters and ranks for follow-up; outputs an annotated VCF and a candidate table.
 
-- ⬜ **Metagenomics Classifier** _(planned)_: Taxonomic profiling of microbiome reads with Kraken2/Bracken, Centrifuge, and MetaPhlAn backends, plus functional profiling (HUMAnN). Alpha/beta diversity, stacked barplots, and differential abundance against sample metadata.
+- ✅ **Metagenomics Classifier** _(stub, awaits wire-up)_: Taxonomic profiling of microbiome reads with Kraken2/Bracken, Centrifuge, and MetaPhlAn backends, plus functional profiling (HUMAnN). Alpha/beta diversity, stacked barplots, and differential abundance against sample metadata.
 
 - ⬜ **Bioinformatics Format Converter** _(planned)_: One-stop conversion across FASTA, FASTQ, GenBank, EMBL, GFF/GTF, BED, VCF, SAM/BAM/CRAM, PDB/mmCIF, NEXUS, PHYLIP, Stockholm, and Newick. Validates input, flags malformed records, and preserves annotations across compatible formats.
 
