@@ -1169,7 +1169,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Bullwhip simulator** _(stub, awaits wire-up)_: Runs the beer distribution game across a configurable echelon chain with adjustable ordering policies, lead times, and information sharing levels. Plots demand amplification, variance ratios, and inventory oscillation per echelon.
 
-- ⬜ **Facility location optimizer** _(planned)_: Solves p-median, p-center, set-cover, and capacitated facility location with fixed costs and assignment constraints via MILP. Performs sensitivity analysis on demand and overlays candidate sites on the map with weighted catchments.
+- ✅ **Facility location optimizer** _(stub, awaits wire-up)_: Solves p-median, p-center, set-cover, and capacitated facility location with fixed costs and assignment constraints via MILP. Performs sensitivity analysis on demand and overlays candidate sites on the map with weighted catchments.
 
 - ⬜ **Warehouse slotting tool** _(planned)_: Performs ABC / XYZ classification and cube-per-order indexing, then assigns SKUs to pick locations to minimize expected travel given affinity (order-line co-occurrence) and ergonomic golden-zone constraints. Compares S-shape, return, midpoint, and largest-gap routing.
 
