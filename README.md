@@ -4447,7 +4447,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Gas line sizer** _(stub, awaits wire-up)_: Sizes natural gas and LP piping per NFPA 54 longest-length and branch-length methods, given appliance BTU loads, pipe material (black iron, CSST, PE), inlet pressure, and allowable drop.
 
-- ⬜ **Manual J load calculator** _(planned)_: Performs ACCA Manual J8 room-by-room heating and cooling load calculations from envelope assemblies, orientation, infiltration (ACH50 to natural), and occupant/internal gains; outputs sensible, latent, and design CFM per room.
+- ✅ **Manual J load calculator** _(stub, awaits wire-up)_: Performs ACCA Manual J8 room-by-room heating and cooling load calculations from envelope assemblies, orientation, infiltration (ACH50 to natural), and occupant/internal gains; outputs sensible, latent, and design CFM per room.
 
 - ⬜ **Manual D duct designer** _(planned)_: Sizes supply and return trunks and branches using equal-friction or static-regain methods, given the available static pressure, fitting equivalent lengths, and target room CFM from the Manual J output.
 
