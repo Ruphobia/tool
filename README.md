@@ -3093,7 +3093,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Spike sorter** _(stub, awaits wire-up)_: Runs Kilosort and MountainSort drift-corrected template matching on Neuropixels and tetrode data, with manual curation of clusters, waveform inspection, and ISI, CCG, and refractory-period diagnostics.
 
-- ⬜ **Calcium imaging analyzer** _(planned)_: Performs NoRMCorre motion correction, CaImAn CNMF source extraction, dF/F trace generation, and spike inference from two-photon and miniscope recordings.
+- ✅ **Calcium imaging analyzer** _(stub, awaits wire-up)_: Performs NoRMCorre motion correction, CaImAn CNMF source extraction, dF/F trace generation, and spike inference from two-photon and miniscope recordings.
 
 - ⬜ **Pose tracker** _(planned)_: Trains and runs DeepLabCut and SLEAP keypoint models on behavioral video, with bout segmentation, kinematic feature extraction, and frame-level annotation review.
 
