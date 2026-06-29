@@ -3091,7 +3091,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **MRI/fMRI viewer** _(stub, awaits wire-up)_: Renders NIfTI and DICOM volumes with multiplanar reformat, BOLD activation overlays, motion-correction QC, and atlas-based parcellation lookup.
 
-- ⬜ **Spike sorter** _(planned)_: Runs Kilosort and MountainSort drift-corrected template matching on Neuropixels and tetrode data, with manual curation of clusters, waveform inspection, and ISI, CCG, and refractory-period diagnostics.
+- ✅ **Spike sorter** _(stub, awaits wire-up)_: Runs Kilosort and MountainSort drift-corrected template matching on Neuropixels and tetrode data, with manual curation of clusters, waveform inspection, and ISI, CCG, and refractory-period diagnostics.
 
 - ⬜ **Calcium imaging analyzer** _(planned)_: Performs NoRMCorre motion correction, CaImAn CNMF source extraction, dF/F trace generation, and spike inference from two-photon and miniscope recordings.
 
