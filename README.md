@@ -4332,7 +4332,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **SGF library indexer** _(stub, awaits wire-up)_: Ingests SGF collections (pro games, OGS/KGS archives), normalizes metadata, and builds a searchable index by player, rank, opening pattern, and board-region motif. Exposes joseki and fuseki frequency tables.
 
-- ⬜ **Poker equity solver** _(planned)_: Computes hand-vs-hand and range-vs-range equity via exhaustive enumeration or Monte Carlo, supporting Hold'em, Omaha, and Stud variants. Returns equity distribution, board-texture breakdowns, and combo-by-combo grids.
+- ✅ **Poker equity solver** _(stub, awaits wire-up)_: Computes hand-vs-hand and range-vs-range equity via exhaustive enumeration or Monte Carlo, supporting Hold'em, Omaha, and Stud variants. Returns equity distribution, board-texture breakdowns, and combo-by-combo grids.
 
 - ⬜ **GTO range explorer** _(planned)_: Loads precomputed solver outputs (PioSolver, GTO+, Wizard) and lets the user query node-by-node strategy frequencies, EV by combo, and exploitative deviations against custom opponent ranges. AI-integrated explanation translates solver output into plain-English heuristics.
 
