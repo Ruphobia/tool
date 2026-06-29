@@ -1278,7 +1278,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Comps analyzer** _(stub, awaits wire-up)_: Loads comparable sales, normalizes price per sqft, and applies grid adjustments (location, condition, GLA, beds/baths, lot, time) to produce an adjusted indicated value with a reconciled range.
 
-- ⬜ **DSCR and debt yield calculator** _(planned)_: Computes debt service coverage ratio, debt yield, LTV, and break-even occupancy for an income property given NOI and proposed loan terms, with sensitivity tables over rate and NOI.
+- ✅ **DSCR and debt yield calculator** _(stub, awaits wire-up)_: Computes debt service coverage ratio, debt yield, LTV, and break-even occupancy for an income property given NOI and proposed loan terms, with sensitivity tables over rate and NOI.
 
 - ⬜ **Refinance break-even analyzer** _(planned)_: Calculates the months-to-recover on a refinance by comparing new payment, closing costs, and remaining term against the existing loan, including cash-out and rate-and-term variants.
 
