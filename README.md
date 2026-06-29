@@ -1934,7 +1934,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **McMaster-Carr lookup** _(stub, awaits wire-up)_: look up mechanical hardware (fasteners, raw stock, fittings, tools) by part number or by description. Note: McMaster does not publish a free public REST API like Mouser; this works for browsing and pulling product pages/CAD files via the embedded server-side browser, with B2B PunchOut support for users with a McMaster business account.
 
-- ⬜ **Scope, logic analyzer, and bench-instrument integration** _(planned)_: drivers and viewers for common USB instruments: DSView/sigrok logic analyzers, USB scopes (Hantek, Rigol, Siglent), VNA (NanoVNA, miniVNA), bench DMM, programmable power supplies, electronic loads. Streams captures into the project tree, replays them in the AI chat for analysis.
+- ✅ **Scope, logic analyzer, and bench-instrument integration** _(stub, awaits wire-up)_: drivers and viewers for common USB instruments: DSView/sigrok logic analyzers, USB scopes (Hantek, Rigol, Siglent), VNA (NanoVNA, miniVNA), bench DMM, programmable power supplies, electronic loads. Streams captures into the project tree, replays them in the AI chat for analysis.
 
 - ⬜ **Schematic capture** _(planned)_: Hierarchical schematic editor with netlist export, ERC checks, and library symbol management. AI-integrated symbol lookup from partial pin descriptions and auto-completion of common subcircuits (bias networks, decoupling, level shifters).
 
