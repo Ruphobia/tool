@@ -1366,7 +1366,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Historical patent browser** _(stub, awaits wire-up)_: OCR + cleanup of 19th and early-20th century patents from USPTO/EPO/British archives. Searchable across original handwritten or letterpress text. Useful for prior-art beyond modern indexes and for engineering history research.
 
-- ⬜ **Contract Drafter** _(planned)_: Composes structured agreements (NDAs, MSAs, employment, IP assignment, SAFEs, leases, wills, powers of attorney) from a template library and a parameter sheet. AI-integrated drafting from a one-line description of the deal, with jurisdiction-aware clause selection and party-role substitution.
+- ✅ **Contract Drafter** _(stub, awaits wire-up)_: Composes structured agreements (NDAs, MSAs, employment, IP assignment, SAFEs, leases, wills, powers of attorney) from a template library and a parameter sheet. AI-integrated drafting from a one-line description of the deal, with jurisdiction-aware clause selection and party-role substitution.
 
 - ⬜ **Redline Diff** _(planned)_: Three-pane document comparison showing insertions, deletions, and moved blocks across DOCX, PDF (with OCR fallback), markdown, and plain text. Accept or reject per change, with export back to the original format and a changebar PDF for circulation.
 
