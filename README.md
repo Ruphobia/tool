@@ -1932,7 +1932,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Mouser parts** _(in testing)_: detects part-search intent in the prompt, extracts a sanitized Mouser keyword (slug-style failures and unit shorthand are normalized), POSTs to the Mouser keyword API with the InStock filter, sorts cheapest-first, drops mismatched topologies (LDO vs. switching, and vice versa), and renders a markdown list with clickable in-tool links. Retries with a relaxed keyword on zero hits. Optionally writes the full list to a markdown file in the project and opens it in the editor.
 
-- ⬜ **McMaster-Carr lookup** _(planned)_: look up mechanical hardware (fasteners, raw stock, fittings, tools) by part number or by description. Note: McMaster does not publish a free public REST API like Mouser; this works for browsing and pulling product pages/CAD files via the embedded server-side browser, with B2B PunchOut support for users with a McMaster business account.
+- ✅ **McMaster-Carr lookup** _(stub, awaits wire-up)_: look up mechanical hardware (fasteners, raw stock, fittings, tools) by part number or by description. Note: McMaster does not publish a free public REST API like Mouser; this works for browsing and pulling product pages/CAD files via the embedded server-side browser, with B2B PunchOut support for users with a McMaster business account.
 
 - ⬜ **Scope, logic analyzer, and bench-instrument integration** _(planned)_: drivers and viewers for common USB instruments: DSView/sigrok logic analyzers, USB scopes (Hantek, Rigol, Siglent), VNA (NanoVNA, miniVNA), bench DMM, programmable power supplies, electronic loads. Streams captures into the project tree, replays them in the AI chat for analysis.
 
