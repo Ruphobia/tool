@@ -885,7 +885,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Malware Sandbox Viewer** _(stub, awaits wire-up)_: Renders artifact reports from local sandbox runs (Cuckoo/CAPE/Detonate) with process tree, registry deltas, network IOCs, dropped files, and screenshots. Cross-references behaviors with MITRE ATT&CK techniques.
 
-- ⬜ **File Carver** _(planned)_: Scans raw disks, images, or memory dumps for file signatures and reconstructs allocated and unallocated fragments. Supports custom magic definitions, slack-space recovery, and entropy-aware boundary detection.
+- ✅ **File Carver** _(stub, awaits wire-up)_: Scans raw disks, images, or memory dumps for file signatures and reconstructs allocated and unallocated fragments. Supports custom magic definitions, slack-space recovery, and entropy-aware boundary detection.
 
 - ⬜ **Log Analyzer** _(planned)_: Ingests syslog, Windows EVTX, JSON, and arbitrary text logs into a queryable timeline with field extraction and pivot tables. AI-integrated anomaly highlighting and natural-language search over the parsed corpus.
 
