@@ -2743,7 +2743,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **OBD-II Live Dashboard** _(stub, awaits wire-up)_: Connects to ELM327 (USB, Bluetooth, Wi-Fi) adapters to stream PIDs in real time: RPM, MAP, MAF, O2, fuel trims, coolant, intake air, timing advance. Logs sessions to CSV/Parquet and overlays multiple runs for diagnostic comparison.
 
-- ⬜ **DTC Fault-Code Lookup** _(planned)_: Resolves OBD-II generic and manufacturer-specific P/B/C/U codes with descriptions, common causes, and ranked fix probabilities. AI-assisted triage cross-references freeze-frame data, mileage, and prior repairs to suggest a diagnostic order.
+- ✅ **DTC Fault-Code Lookup** _(stub, awaits wire-up)_: Resolves OBD-II generic and manufacturer-specific P/B/C/U codes with descriptions, common causes, and ranked fix probabilities. AI-assisted triage cross-references freeze-frame data, mileage, and prior repairs to suggest a diagnostic order.
 
 - ⬜ **Service Log & Receipts** _(planned)_: Per-vehicle ledger of oil changes, tire rotations, fluid flushes, filters, brake jobs, and timing belts. Captures odometer, parts numbers, fluid specs, torque values, cost, vendor, and scanned receipts; exports a complete service history PDF.
 
