@@ -547,7 +547,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Bootloader builder** _(stub, awaits wire-up)_: Templates and customizes MCUboot, U-Boot SPL, Tinyboot, and vendor bootloaders with slot layout, signing, and rollback policy. Produces signed update payloads in step with the application build.
 
-- ⬜ **OTA update designer** _(planned)_: Defines delta, A/B, and dual-bank update schemes with transport (BLE, Wi-Fi, LoRa, USB, UART) and rollback rules. Simulates power-loss at every stage and reports recoverability.
+- ✅ **OTA update designer** _(stub, awaits wire-up)_: Defines delta, A/B, and dual-bank update schemes with transport (BLE, Wi-Fi, LoRa, USB, UART) and rollback rules. Simulates power-loss at every stage and reports recoverability.
 
 - ⬜ **Secure provisioning console** _(planned)_: Generates and injects device keys, certificates, and unique identifiers into OTP/eFuse with audit logging. Integrates with HSMs and PKCS#11 tokens; AI walks through fuse-once decisions before they are committed.
 
