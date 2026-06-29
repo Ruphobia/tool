@@ -1501,7 +1501,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Federated Paper Search** _(stub, awaits wire-up)_: Queries arXiv, PubMed, Semantic Scholar, OpenAlex, CrossRef, JSTOR, and Google Scholar concurrently with deduplication on DOI and title hash. Returns unified records with abstracts, venues, and full-text links.
 
-- ⬜ **BibTeX/CSL Manager** _(planned)_: Local-first reference library with BibTeX, BibLaTeX, RIS, and CSL-JSON import/export, duplicate detection, and per-collection citation key schemes. Includes a CSL style editor with live preview against any selected entry.
+- ✅ **BibTeX/CSL Manager** _(stub, awaits wire-up)_: Local-first reference library with BibTeX, BibLaTeX, RIS, and CSL-JSON import/export, duplicate detection, and per-collection citation key schemes. Includes a CSL style editor with live preview against any selected entry.
 
 - ⬜ **Paper Chunker and RAG Indexer** _(planned)_: Parses PDFs into semantically coherent chunks honoring section, equation, table, and figure-caption boundaries, then embeds them into a local vector store. Supports cross-paper retrieval with citation-grounded answers.
 
