@@ -3343,7 +3343,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Species distribution modeler** _(stub, awaits wire-up)_: Trains MaxEnt / Random Forest / boosted-tree SDMs on occurrence records and WorldClim/Chelsa/soil rasters with k-fold spatial cross-validation and variable-importance plots. Projects to future climate scenarios and writes range rasters as GeoTIFF.
 
-- ⬜ **Ethogram and behavior coder** _(planned)_: BORIS-style live and video behavior coding with user-defined ethograms, modifiers, point and state events, multi-subject scoring, and inter-observer reliability (Cohen's kappa, ICC). Exports event sequences for sequential and bout analysis.
+- ✅ **Ethogram and behavior coder** _(stub, awaits wire-up)_: BORIS-style live and video behavior coding with user-defined ethograms, modifiers, point and state events, multi-subject scoring, and inter-observer reliability (Cohen's kappa, ICC). Exports event sequences for sequential and bout analysis.
 
 - ⬜ **Track and sign identifier** _(planned)_: Image-based identification of mammal tracks, scat, browse, and other field sign with morphometric measurement overlays (stride, straddle, pad dimensions) and regional species shortlists. AI-integrated suggestion ranked against a reference photo library.
 
