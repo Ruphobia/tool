@@ -2830,7 +2830,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Gait and legged-locomotion designer** _(stub, awaits wire-up)_: Authors stepping patterns, contact schedules, and CoM/ZMP references for bipeds and quadrupeds, tunes MPC and whole-body controllers, and plays results back in the physics simulator.
 
-- ⬜ **Behavior tree and FSM editor** _(planned)_: Visually composes behavior trees and finite-state machines for robot autonomy with BT.CPP, PyTrees, and SMACH export, blackboard inspection, and live-tick debugging against a running stack.
+- ✅ **Behavior tree and FSM editor** _(stub, awaits wire-up)_: Visually composes behavior trees and finite-state machines for robot autonomy with BT.CPP, PyTrees, and SMACH export, blackboard inspection, and live-tick debugging against a running stack.
 
 - ⬜ **Slicer for additive manufacturing** _(planned)_: Slices STL, 3MF, and STEP for FDM, SLA, and SLS with adaptive layer height, tree and lattice supports, infill patterns, and G-code or printer-native output, including simulated toolpath preview and collision check against printer envelope.
 
