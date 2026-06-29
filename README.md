@@ -813,7 +813,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Passthrough Compositor** _(stub, awaits wire-up)_: Mixed-reality compositing preview that layers virtual content over a recorded passthrough RGB / depth stream, with occlusion mask debugging, depth-test toggles, and lighting estimation overlays.
 
-- ⬜ **Photogrammetry and Splat Importer** _(planned)_: Loads NeRF, 3D Gaussian Splatting, and classic photogrammetry meshes; decimates, recenters, and rebakes them into XR-ready assets with collision proxies. AI-integrated cleanup of floaters and background bleed.
+- ✅ **Photogrammetry and Splat Importer** _(stub, awaits wire-up)_: Loads NeRF, 3D Gaussian Splatting, and classic photogrammetry meshes; decimates, recenters, and rebakes them into XR-ready assets with collision proxies. AI-integrated cleanup of floaters and background bleed.
 
 - ⬜ **Haptic Pattern Designer** _(planned)_: Timeline editor for controller and glove haptics: amplitude, frequency, and waveform per actuator, with crossfade and event-driven triggers. Exports to common runtime formats (OpenXR haptic, bHaptics, Interhaptics-compatible JSON).
 
