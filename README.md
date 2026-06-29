@@ -1627,7 +1627,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Regesta builder** _(stub, awaits wire-up)_: Produces structured summaries (regesta) of charters and diplomatic documents with parties, dispositive act, date clause, witnesses, and dating elements. Templates follow Bohmer and MGH conventions.
 
-- ⬜ **Historical units converter** _(planned)_: Converts pre-metric weights, measures, currencies, and prices across periods and polities, with purchasing-power equivalence via wage-basket and silver-content series. Cites the underlying source table per conversion.
+- ✅ **Historical units converter** _(stub, awaits wire-up)_: Converts pre-metric weights, measures, currencies, and prices across periods and polities, with purchasing-power equivalence via wage-basket and silver-content series. Cites the underlying source table per conversion.
 
 - ⬜ **Watermark and codicology assistant** _(planned)_: Matches paper watermarks against Bernstein/Briquet/Piccard repertories from a traced or photographed image, and records quire structure, ruling pattern, and binding notes per manuscript.
 
