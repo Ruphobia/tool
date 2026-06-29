@@ -1744,7 +1744,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Manuscript variant collator** _(stub, awaits wire-up)_: Aligns multiple witnesses of a text in CollateX style and produces a variant graph; emits TEI parallel-segmentation markup and supports manual override of disputed alignments.
 
-- ⬜ **Stemma builder** _(planned)_: Constructs manuscript family trees from variant data using Lachmannian, neighbor-joining, and RHM phylogenetic methods; visualizes contamination, lost archetypes, and bootstrap support.
+- ✅ **Stemma builder** _(stub, awaits wire-up)_: Constructs manuscript family trees from variant data using Lachmannian, neighbor-joining, and RHM phylogenetic methods; visualizes contamination, lost archetypes, and bootstrap support.
 
 - ⬜ **Concordance and KWIC** _(planned)_: Generates keyword-in-context indexes, frequency tables, and collocation profiles over user corpora; supports lemmatized queries and regex across Greek, Hebrew, Latin, Sanskrit, Pali, and Arabic.
 
