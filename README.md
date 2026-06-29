@@ -1640,7 +1640,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Polyglot Lexicon** _(stub, awaits wire-up)_: Offline dictionaries for Latin (Lewis & Short, Gaffiot), Greek (LSJ, Middle Liddell), Hebrew/Aramaic (BDB, HALOT-style entries), Sanskrit (Monier-Williams), Akkadian (CAD glosses), Sumerian (ePSD), and Coptic (Crum). Cross-references cognates and provides reverse-lookup from English glosses.
 
-- ⬜ **Morphological Parser** _(planned)_: Parses inflected wordforms across Latin, Greek, Hebrew, Sanskrit, and Akkadian, returning lemma, part of speech, and full morphological tags. Integrates Morpheus, CLTK, and Stanza models locally with confidence scores for ambiguous forms.
+- ✅ **Morphological Parser** _(stub, awaits wire-up)_: Parses inflected wordforms across Latin, Greek, Hebrew, Sanskrit, and Akkadian, returning lemma, part of speech, and full morphological tags. Integrates Morpheus, CLTK, and Stanza models locally with confidence scores for ambiguous forms.
 
 - ⬜ **Declension and Conjugation Tables** _(planned)_: Generates complete paradigms for any lemma: nominal declensions, verbal conjugations, participles, and irregular stems. Supports Latin five declensions, Greek thematic/athematic, Hebrew binyanim, Sanskrit ten classes, and Akkadian G/D/Š/N stems with side-by-side comparison.
 
