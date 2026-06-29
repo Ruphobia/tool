@@ -1126,7 +1126,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Fault tree and bowtie analyzer** _(stub, awaits wire-up)_: Constructs FTA and ETA diagrams with AND/OR/voting gates, computes top-event probability and minimal cut sets, and renders bowtie views joining threats, barriers, top events, consequences, and escalation factors.
 
-- ⬜ **HAZOP and LOPA workbook** _(planned)_: Walks process nodes with guideword and parameter prompts (No, More, Less, Reverse, As-Well-As), records deviations, causes, consequences, and safeguards, and runs Layer of Protection Analysis to derive required SIL per IEC 61511.
+- ✅ **HAZOP and LOPA workbook** _(stub, awaits wire-up)_: Walks process nodes with guideword and parameter prompts (No, More, Less, Reverse, As-Well-As), records deviations, causes, consequences, and safeguards, and runs Layer of Protection Analysis to derive required SIL per IEC 61511.
 
 - ⬜ **Risk-matrix heatmap** _(planned)_: Renders configurable likelihood-by-consequence matrices (3x3, 5x5, ISO 31000, MIL-STD-882) with calibrated probability bands, plots inherent vs residual risk, and exports ALARP demonstrations.
 
