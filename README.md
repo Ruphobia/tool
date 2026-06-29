@@ -3421,7 +3421,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **TEOS-10 calculator** _(stub, awaits wire-up)_: Computes absolute salinity, conservative temperature, in-situ and potential density, sound speed, freezing point, and specific volume anomaly using the GSW (Gibbs SeaWater) toolbox formulas.
 
-- ⬜ **Sonar log viewer** _(planned)_: Parses Lowrance SL2/SL3, Humminbird DAT, and XTF side-scan files. Displays waterfall sidescan and down-imaging with bottom-track overlay, GPS track, and per-ping water column extraction.
+- ✅ **Sonar log viewer** _(stub, awaits wire-up)_: Parses Lowrance SL2/SL3, Humminbird DAT, and XTF side-scan files. Displays waterfall sidescan and down-imaging with bottom-track overlay, GPS track, and per-ping water column extraction.
 
 - ⬜ **Ocean color analyzer** _(planned)_: Fetches and visualizes chlor-a, Kd490, PAR, and SST from MODIS-Aqua, VIIRS, Sentinel-3 OLCI, and PACE L2/L3 products. Performs time-series extraction over user-drawn ROIs with cloud masking.
 
