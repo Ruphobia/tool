@@ -815,7 +815,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Photogrammetry and Splat Importer** _(stub, awaits wire-up)_: Loads NeRF, 3D Gaussian Splatting, and classic photogrammetry meshes; decimates, recenters, and rebakes them into XR-ready assets with collision proxies. AI-integrated cleanup of floaters and background bleed.
 
-- ⬜ **Haptic Pattern Designer** _(planned)_: Timeline editor for controller and glove haptics: amplitude, frequency, and waveform per actuator, with crossfade and event-driven triggers. Exports to common runtime formats (OpenXR haptic, bHaptics, Interhaptics-compatible JSON).
+- ✅ **Haptic Pattern Designer** _(stub, awaits wire-up)_: Timeline editor for controller and glove haptics: amplitude, frequency, and waveform per actuator, with crossfade and event-driven triggers. Exports to common runtime formats (OpenXR haptic, bHaptics, Interhaptics-compatible JSON).
 
 - ⬜ **Foveated Render Budget** _(planned)_: Per-frame GPU heatmap that breaks down cost by region (foveal, mid, peripheral) and shows headroom against the headset's target frame time. Suggests fixed and eye-tracked foveation parameters that hit the budget.
 
