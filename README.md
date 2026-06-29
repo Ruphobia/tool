@@ -2400,7 +2400,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Stormwater network router** _(stub, awaits wire-up)_: SWMM-style 1D dynamic-wave solver for combined and separate sewer systems. Routes hydrographs through pipes, manholes, weirs, orifices, storage units, and pumps with surcharge and flooding tracking; supports LID controls (bioretention, permeable pavement, green roof).
 
-- ⬜ **BMP sizer** _(planned)_: Sizes stormwater best-management practices: detention/retention ponds (modified Puls routing), bioretention cells, infiltration trenches, swales, and sand filters. Computes water-quality volume, channel-protection volume, and overflow weir/orifice geometry against local design storms.
+- ✅ **BMP sizer** _(stub, awaits wire-up)_: Sizes stormwater best-management practices: detention/retention ponds (modified Puls routing), bioretention cells, infiltration trenches, swales, and sand filters. Computes water-quality volume, channel-protection volume, and overflow weir/orifice geometry against local design storms.
 
 - ⬜ **Sanitary sewer designer** _(planned)_: Gravity main sizing against minimum scour velocity (typically 2 ft/s) and maximum d/D ratios, with peaking factors (Harmon, Babbitt, Federov) from contributing population. Generates slope, invert, and cover profiles, flags drop manholes, and checks H2S generation risk via Pomeroy-Parkhurst.
 
