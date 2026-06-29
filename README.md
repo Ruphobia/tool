@@ -3060,7 +3060,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pathway and ontology enricher** _(stub, awaits wire-up)_: Maps gene or protein sets onto KEGG, Reactome, GO, and MetaCyc with hypergeometric or GSEA enrichment, and renders pathway diagrams with expression overlays.
 
-- ⬜ **Biosecurity screener** _(planned)_: Screens designed sequences against select agent and dual-use signature databases (e.g. IGSC-style) and flags hits with risk context before synthesis order export.
+- ✅ **Biosecurity screener** _(stub, awaits wire-up)_: Screens designed sequences against select agent and dual-use signature databases (e.g. IGSC-style) and flags hits with risk context before synthesis order export.
 
 - ⬜ **LIMS and sample tracker** _(planned)_: Tracks isolates, strains, plates, freezer boxes, passages, and chain of custody with barcode and QR generation, audit trails, and BioSample/SRA submission manifests.
 
