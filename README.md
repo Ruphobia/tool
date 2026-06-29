@@ -1095,7 +1095,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Workflow designer** _(stub, awaits wire-up)_: State-machine editor for ticket lifecycles, with per-state required fields, transition guards, and automation hooks (assign on transition, post to channel, open follow-up). Workflows are versioned and applicable per project.
 
-- ⬜ **Meeting notes and action extractor** _(planned)_: Notes surface with agenda, attendees, and timestamped sections, accepting pasted or recorded transcripts. AI-integrated extraction lifts action items, owners, due dates, and decisions into tickets and the decision log.
+- ✅ **Meeting notes and action extractor** _(stub, awaits wire-up)_: Notes surface with agenda, attendees, and timestamped sections, accepting pasted or recorded transcripts. AI-integrated extraction lifts action items, owners, due dates, and decisions into tickets and the decision log.
 
 - ⬜ **Stakeholder and RACI map** _(planned)_: Roster of stakeholders with role, interest, influence, and communication cadence, plus a RACI matrix per workstream. Drives reminder generation for status updates owed to each stakeholder.
 
