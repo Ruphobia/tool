@@ -2985,7 +2985,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sequence Property Calculator** _(stub, awaits wire-up)_: Computes molecular weight, isoelectric point, extinction coefficient, hydrophobicity (Kyte-Doolittle, GRAVY), instability index, codon adaptation index, and Tm for DNA/RNA/protein inputs. Batch mode over FASTA.
 
-- ⬜ **Variant Annotator and Interpreter** _(planned)_: Annotates VCFs with gene models, consequence (VEP/SnpEff-style), population frequencies (gnomAD), clinical significance (ClinVar), and predicted impact (SIFT, PolyPhen, CADD, AlphaMissense). Filters and ranks for follow-up; outputs an annotated VCF and a candidate table.
+- ✅ **Variant Annotator and Interpreter** _(stub, awaits wire-up)_: Annotates VCFs with gene models, consequence (VEP/SnpEff-style), population frequencies (gnomAD), clinical significance (ClinVar), and predicted impact (SIFT, PolyPhen, CADD, AlphaMissense). Filters and ranks for follow-up; outputs an annotated VCF and a candidate table.
 
 - ⬜ **Metagenomics Classifier** _(planned)_: Taxonomic profiling of microbiome reads with Kraken2/Bracken, Centrifuge, and MetaPhlAn backends, plus functional profiling (HUMAnN). Alpha/beta diversity, stacked barplots, and differential abundance against sample metadata.
 
