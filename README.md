@@ -2131,7 +2131,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **GD&T annotator** _(stub, awaits wire-up)_: Applies and validates ASME Y14.5 and ISO 1101 feature control frames on 2D drawings and 3D PMI views. AI-integrated suggestion of datums and tolerance schemes from part function.
 
-- ⬜ **Drawing generator** _(planned)_: Produces dimensioned 2D drawings from 3D models with section, detail, and isometric views, BOM tables, and title block templating. Auto-projects views and infers reasonable dimensioning.
+- ✅ **Drawing generator** _(stub, awaits wire-up)_: Produces dimensioned 2D drawings from 3D models with section, detail, and isometric views, BOM tables, and title block templating. Auto-projects views and infers reasonable dimensioning.
 
 - ⬜ **Bearing and shaft designer** _(planned)_: Sizes ball, roller, plain, and thrust bearings with L10 life, dynamic load, and shaft fit calculations. Generates shoulder, fillet, and keyway dimensions per ISO standards.
 
