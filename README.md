@@ -2459,7 +2459,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Fracture-pressure and pore-pressure predictor** _(stub, awaits wire-up)_: Eaton, Bowers, and Daines models for pore and frac pressure from seismic and offset logs; produces a depth-vs-pressure window for mud weight planning.
 
-- ⬜ **Block model and ore-grade estimator** _(planned)_: Ordinary kriging, indicator kriging, IDW, and nearest-neighbor estimation onto a regular block grid; leave-one-out cross-validation and variogram fitting.
+- ✅ **Block model and ore-grade estimator** _(stub, awaits wire-up)_: Ordinary kriging, indicator kriging, IDW, and nearest-neighbor estimation onto a regular block grid; leave-one-out cross-validation and variogram fitting.
 
 - ⬜ **Pit optimizer** _(planned)_: Lerchs-Grossmann and pseudoflow ultimate pit shells with nested pits by revenue factor; pushback sequencing and stripping-ratio rollups.
 
