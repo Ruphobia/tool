@@ -1014,7 +1014,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Spreadsheet** _(stub, awaits wire-up)_: Multi-sheet workbook with formulas, named ranges, conditional formatting, data validation, and CSV/XLSX/ODS exchange. AI-integrated formula synthesis from a plain-language description, data cleaning, and anomaly flagging.
 
-- ⬜ **Slide composer** _(planned)_: Deck builder with text, images, diagrams, charts, speaker notes, and a presenter view with timer. Markdown-to-slides import and PPTX/PDF export. AI-integrated outline drafting and layout suggestion from a topic.
+- ✅ **Slide composer** _(stub, awaits wire-up)_: Deck builder with text, images, diagrams, charts, speaker notes, and a presenter view with timer. Markdown-to-slides import and PPTX/PDF export. AI-integrated outline drafting and layout suggestion from a topic.
 
 - ⬜ **Outline editor** _(planned)_: Hierarchical bullet outliner with infinite nesting, fold and zoom, drag-reorder, and bidirectional conversion to and from a long-form document or a slide deck.
 
