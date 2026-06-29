@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>tool</title>
+<link rel="stylesheet" href="/toastui-editor.min.css">
+<link rel="stylesheet" href="/toastui-editor-dark.min.css">
+<link rel="stylesheet" href="/app.css">
+<script src="/toastui-editor.min.js" defer></script>
+</head>
+<body>
+
+<header id="menubar">
+  <div class="brand">tool</div>
+  <nav class="menu">
+    <div class="menu-item" data-menu="file">
+      File
+      <div class="menu-dropdown" id="menu-file">
+        <button data-action="open-folder">Open Folder…</button>
+        <button data-action="new-file">New File</button>
+        <button data-action="new-folder">New Folder</button>
+        <hr>
+        <button data-action="delete">Delete Selected</button>
+        <hr>
+        <button data-action="quit">Quit Server</button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="pane-toggles">
+    <button class="pane-toggle" data-toggle="pane-files"     title="Files panel">📁</button>
+    <button class="pane-toggle" data-toggle="pane-editor"    title="Editor panel">📝</button>
+    <button class="pane-toggle" data-toggle="pane-chat"      title="AI panel">🤖</button>
+    <button class="pane-toggle" data-toggle="terminal-bar"   title="Terminal panel">⌨</button>
+  </div>
+
+  <div class="status" id="status">starting…</div>
+</header>
+
+<main id="layout">
+  <aside id="pane-files" class="pane">
+    <div class="pane-header">
+      <span id="files-root">no folder open</span>
+      <button class="pane-action" data-action="open-folder" title="Open folder">📂</button>
+    </div>
+    <div class="pane-body" id="files-tree">
+      <em class="hint">Open a folder to begin (File → Open Folder)</em>
+    </div>
+  </aside>
+
+  <div class="resizer" data-target="pane-files"></div>
+
+  <section id="pane-editor" class="pane">
+    <div class="pane-header" id="editor-title">Editor</div>
+    <div class="pane-body" id="editor-body">
+      <em class="hint">No file selected</em>
+    </div>
+  </section>
+
+  <div class="resizer" data-target="pane-chat"></div>
+
+  <aside id="pane-chat" class="pane">
+    <div class="pane-header">AI</div>
+    <div class="pane-body" id="chat-log"></div>
+    <form id="chat-form" class="pane-footer">
+      <input id="chat-input" type="text" placeholder="ask, command, observe…" autocomplete="off">
+      <button type="submit">Send</button>
+    </form>
+  </aside>
+</main>
+
+<div class="resizer-h" id="resizer-terminal"></div>
+
+<footer id="terminal-bar">
+  <div class="term-tabs">
+    <div class="term-tabs-list" id="term-tabs-list"></div>
+    <button class="term-tab-new" id="term-new" title="New terminal (Ctrl+Shift+T)">+</button>
+  </div>
+  <div class="term-stack" id="term-stack"></div>
+</footer>
+
+<!-- Folder picker modal -->
+<div id="folder-picker" class="modal-overlay hidden">
+  <div class="modal">
+    <header class="modal-header">
+      <span>Open Folder</span>
+      <button type="button" id="picker-close" class="modal-close" title="Close">×</button>
+    </header>
+    <div class="modal-toolbar">
+      <button type="button" id="picker-up" title="Up">↑</button>
+      <input id="picker-path" type="text">
+      <button type="button" id="picker-go">Go</button>
+    </div>
+    <ul id="picker-list" class="modal-list"></ul>
+    <footer class="modal-footer">
+      <button type="button" id="picker-cancel">Cancel</button>
+      <button type="button" id="picker-open">Open this Folder</button>
+    </footer>
+  </div>
+</div>
+
+<script src="/app.js"></script>
+</body>
+</html>
