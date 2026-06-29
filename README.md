@@ -4695,7 +4695,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Census Record Harvester** _(stub, awaits wire-up)_: Parses US, UK, Canadian, and Irish census images or HTML into structured household rows. Auto-links suggested INDI matches in the open tree using fuzzy name, age, and birthplace scoring.
 
-- ⬜ **Immigration and Naturalization Search** _(planned)_: Cross-queries Ellis Island, Castle Garden, Hamburg, Bremen (reconstructed), and Canadian Border Crossings indices. Reconciles passenger manifests with later naturalization petitions and declarations of intent.
+- ✅ **Immigration and Naturalization Search** _(stub, awaits wire-up)_: Cross-queries Ellis Island, Castle Garden, Hamburg, Bremen (reconstructed), and Canadian Border Crossings indices. Reconciles passenger manifests with later naturalization petitions and declarations of intent.
 
 - ⬜ **Military Service Reconstructor** _(planned)_: Pulls pension files, muster rolls, draft cards (WWI / WWII), and unit histories. Plots the soldier's movements on a campaign map and flags pension widows for spouse confirmation.
 
