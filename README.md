@@ -325,7 +325,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **SBOM and license auditor** _(in testing)_: Generates CycloneDX/SPDX bills of materials, classifies licenses (PD, permissive, copyleft, share-alike, restricted), and warns when a transitive pull conflicts with the project's licensing intent.
 
-- ⬜ **Vulnerability scanner** _(planned)_: Cross-references the dependency tree and committed code against OSV, GHSA, and CVE feeds, with AI-explained exploit paths and patch suggestions.
+- ✅ **Vulnerability scanner** _(stub, awaits wire-up)_: Cross-references the dependency tree and committed code against OSV, GHSA, and CVE feeds, with AI-explained exploit paths and patch suggestions.
 
 - ✅ **Secret scanner** _(in testing)_: Detects committed credentials, API keys, and PEM blobs in the working tree and history, with entropy heuristics and AI confirmation to suppress obvious false positives.
 
