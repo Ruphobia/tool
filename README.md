@@ -3890,7 +3890,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pattern Drafter** _(stub, awaits wire-up)_: Parametric 2D garment pattern drafting with measurement tables, slopers, darts, seam allowances, notches, and grain lines. Exports tiled PDF, plotter HPGL, DXF-AAMA, and SVG. AI-integrated drafting from a natural-language brief plus body measurements that proposes a starting block and ease.
 
-- ⬜ **Sloper Block Library** _(planned)_: Parametric bodice, sleeve, skirt, trouser, and torso blocks driven by a measurement profile. Stores personal fit blocks with version history and exposes them as the base for any drafted pattern.
+- ✅ **Sloper Block Library** _(stub, awaits wire-up)_: Parametric bodice, sleeve, skirt, trouser, and torso blocks driven by a measurement profile. Stores personal fit blocks with version history and exposes them as the base for any drafted pattern.
 
 - ⬜ **Garment Grader** _(planned)_: Applies grade rules across a size range with proportional, vector, or industry-standard grading. Visualizes nested sizes, edits grade points per landmark, and validates dart truing across the run.
 
