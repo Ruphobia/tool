@@ -1968,7 +1968,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Logic analyzer and protocol decoder** _(stub, awaits wire-up)_: Captures from sigrok-compatible devices and decodes I2C, SPI, UART, CAN, LIN, USB, 1-Wire, Modbus, JTAG, and SWD. Cross-references decoded transactions with firmware source on hover.
 
-- ⬜ **Firmware toolchain** _(planned)_: Cross-compilation, flashing, and on-chip debugging for AVR, ARM Cortex-M, RISC-V, ESP32, and PIC via OpenOCD, probe-rs, and avrdude. Integrates with the schematic so pin assignments stay in sync with code.
+- ✅ **Firmware toolchain** _(stub, awaits wire-up)_: Cross-compilation, flashing, and on-chip debugging for AVR, ARM Cortex-M, RISC-V, ESP32, and PIC via OpenOCD, probe-rs, and avrdude. Integrates with the schematic so pin assignments stay in sync with code.
 
 - ⬜ **HDL workbench** _(planned)_: Verilog, VHDL, SystemVerilog, and Amaranth editor with Yosys synthesis, nextpnr place-and-route, and simulation via Verilator or Icarus. Targets ICE40, ECP5, Gowin, and Xilinx 7-series.
 
