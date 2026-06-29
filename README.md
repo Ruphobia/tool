@@ -1791,7 +1791,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Ritual and Festival Calendar** _(stub, awaits wire-up)_: Cross-cultural calendar of feast days, seasonal rites, and liturgical cycles keyed to lunar, solar, and agricultural reckonings. Links each entry to associated myths, hymns, and ethnographic sources.
 
-- ⬜ **Iconography Tagger** _(planned)_: Image library with attribute tagging (thunderbolt, caduceus, ankh, vajra, drum, twin-snake) and culture-of-origin metadata. Local vision model proposes attribute tags from uploaded artifact photos; tags are user-confirmed before commit.
+- ✅ **Iconography Tagger** _(stub, awaits wire-up)_: Image library with attribute tagging (thunderbolt, caduceus, ankh, vajra, drum, twin-snake) and culture-of-origin metadata. Local vision model proposes attribute tags from uploaded artifact photos; tags are user-confirmed before commit.
 
 - ⬜ **Primary Source Reader** _(planned)_: Annotated reader for canonical texts (Theogony, Eddas, Mahabharata, Popol Vuh, Kojiki, Kalevala, Epic of Gilgamesh) with parallel-column translations, line numbering, and inline philological notes.
 
