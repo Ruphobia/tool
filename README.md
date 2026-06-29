@@ -1105,7 +1105,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Project template library** _(stub, awaits wire-up)_: Reusable bundles of epics, tickets, workflows, fields, and roadmap entries instantiable into a new project with parameter substitution. Templates are diffable and updatable so spawned projects can pull upstream changes.
 
-- ⬜ **Cost and budget tracker** _(planned)_: Per-project ledger of estimated and actual cost from time entries, fixed costs, and external invoices, charted against budget over time. Drill-down by ticket, epic, or resource with burn-rate forecasting.
+- ✅ **Cost and budget tracker** _(stub, awaits wire-up)_: Per-project ledger of estimated and actual cost from time entries, fixed costs, and external invoices, charted against budget over time. Drill-down by ticket, epic, or resource with burn-rate forecasting.
 
 - ⬜ **Scope-change monitor** _(planned)_: Diff of sprint or release scope across snapshots, attributing each addition, removal, or resize to a user, time, and reason. AI-integrated classifier flags additions as in-scope clarification, true scope creep, or split-out work.
 
