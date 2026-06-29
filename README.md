@@ -4297,7 +4297,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Regional Map Sculptor** _(stub, awaits wire-up)_: Procedural overworld generator producing biomes, rivers, coastlines, settlements, and trade routes with editable splines and tectonic/climate simulation. Outputs labeled atlas pages and player-facing fog-redacted variants.
 
-- ⬜ **Campaign Log** _(planned)_: Session-keyed journal capturing recap notes, quests, loot, XP awards, and player decisions with auto-cross-linking to World Bible entities. AI drafts session summaries from raw notes and produces player-facing recaps with spoilers redacted.
+- ✅ **Campaign Log** _(stub, awaits wire-up)_: Session-keyed journal capturing recap notes, quests, loot, XP awards, and player decisions with auto-cross-linking to World Bible entities. AI drafts session summaries from raw notes and produces player-facing recaps with spoilers redacted.
 
 - ⬜ **GM Screen Reference** _(planned)_: Configurable reference panel of conditions, actions-in-combat, cover/cone rules, travel pace, downtime activities, and ruling cheatsheets per system. User-pinnable cards and house-rule overlays sit beside official text.
 
