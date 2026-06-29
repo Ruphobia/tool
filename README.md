@@ -905,7 +905,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Crypto Playground** _(stub, awaits wire-up)_: Interactive encode/decode and encrypt/decrypt across base64/32/85, hex, URL, AES/ChaCha modes, RSA, ECC, HMAC, KDFs, and JWT. Chainable recipe pipeline in the style of CyberChef with local-only execution.
 
-- ⬜ **Password Recovery Driver** _(planned)_: Frontend for hashcat and John the Ripper covering hash identification, wordlist/rule selection, mask attacks, and GPU job control. Tracks attack progress, ETA, and cracked artifacts across sessions.
+- ✅ **Password Recovery Driver** _(stub, awaits wire-up)_: Frontend for hashcat and John the Ripper covering hash identification, wordlist/rule selection, mask attacks, and GPU job control. Tracks attack progress, ETA, and cracked artifacts across sessions.
 
 - ⬜ **Network Topology Mapper** _(planned)_: Builds a host/service graph from scans, ARP tables, routing data, and passive capture. Highlights pivot paths, exposed admin services, and changes versus prior snapshots.
 
