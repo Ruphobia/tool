@@ -3568,7 +3568,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Hydroponic Solution Mixer** _(stub, awaits wire-up)_: Builds A/B stock tanks for hydroponics, fertigation, or foliar feeds from mineral salts (calcium nitrate, MKP, MgSO4, micros) to hit target ppm and EC with pH adjusted via acid or base. Validates ion balance and precipitation risk.
 
-- ⬜ **Crop Yield Model** _(planned)_: Estimates yield per crop using degree-day accumulation, light interception (LAI, PAR), water stress index, and nutrient sufficiency. Calibrates against entered historical harvest weights to localize predictions.
+- ✅ **Crop Yield Model** _(stub, awaits wire-up)_: Estimates yield per crop using degree-day accumulation, light interception (LAI, PAR), water stress index, and nutrient sufficiency. Calibrates against entered historical harvest weights to localize predictions.
 
 - ⬜ **Sun and Shade Analyzer** _(planned)_: Computes hour-by-hour solar exposure for any garden location given latitude, date range, and user-drawn obstructions (trees, fences, structures). Outputs daily light integral (DLI) heatmaps for siting beds, greenhouses, or PV-shaded agrivoltaics.
 
