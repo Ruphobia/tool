@@ -1142,7 +1142,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **JSA and permit-to-work builder** _(stub, awaits wire-up)_: Decomposes tasks into steps, hazards, and controls per ANSI/ASSP Z10 and OSHA 1910 references, generates hot-work, confined-space, energized-work, and lockout/tagout permits, and emits PPE matrices and isolation lists.
 
-- ⬜ **ISO and OSHA compliance crosswalk** _(planned)_: Maps controls across ISO 9001, 14001, 45001, 27001, IATF 16949, AS9100, OSHA 1910/1926, FDA 21 CFR 820, and EU MDR, highlights overlapping clauses, and tracks evidence artifacts per requirement.
+- ✅ **ISO and OSHA compliance crosswalk** _(stub, awaits wire-up)_: Maps controls across ISO 9001, 14001, 45001, 27001, IATF 16949, AS9100, OSHA 1910/1926, FDA 21 CFR 820, and EU MDR, highlights overlapping clauses, and tracks evidence artifacts per requirement.
 
 - ⬜ **Audit and nonconformance tracker** _(planned)_: Schedules internal, supplier, and certification audits with checklists derived from selected standards, logs findings as major, minor, observation, or OFI, and routes NCRs through root-cause, containment, correction, and verification.
 
