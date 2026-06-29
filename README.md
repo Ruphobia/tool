@@ -989,7 +989,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Emulator Harness** _(stub, awaits wire-up)_: Launches MAME, VICE, FS-UAE, Stella, Hatari, openMSX, and similar cores with auto-selected ROM sets, controller maps, and savestate routing keyed off the local catalog.
 
-- ⬜ **Schematic and Service Manual Archive** _(planned)_: Local index of board schematics, service manuals, and chip datasheets with vector search; AI extracts pinouts, test points, and known fault notes from scanned pages.
+- ✅ **Schematic and Service Manual Archive** _(stub, awaits wire-up)_: Local index of board schematics, service manuals, and chip datasheets with vector search; AI extracts pinouts, test points, and known fault notes from scanned pages.
 
 - ⬜ **Cassette Audio Codec** _(planned)_: Encodes PRG, TAP, and T64 payloads to WAV (standard ROM loader plus Turbo Tape, Novaload, and Freeload variants) and decodes recovered audio with adaptive filtering for stretched tapes.
 
