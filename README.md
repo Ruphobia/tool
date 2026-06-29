@@ -2989,7 +2989,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Metagenomics Classifier** _(stub, awaits wire-up)_: Taxonomic profiling of microbiome reads with Kraken2/Bracken, Centrifuge, and MetaPhlAn backends, plus functional profiling (HUMAnN). Alpha/beta diversity, stacked barplots, and differential abundance against sample metadata.
 
-- ⬜ **Bioinformatics Format Converter** _(planned)_: One-stop conversion across FASTA, FASTQ, GenBank, EMBL, GFF/GTF, BED, VCF, SAM/BAM/CRAM, PDB/mmCIF, NEXUS, PHYLIP, Stockholm, and Newick. Validates input, flags malformed records, and preserves annotations across compatible formats.
+- ✅ **Bioinformatics Format Converter** _(stub, awaits wire-up)_: One-stop conversion across FASTA, FASTQ, GenBank, EMBL, GFF/GTF, BED, VCF, SAM/BAM/CRAM, PDB/mmCIF, NEXUS, PHYLIP, Stockholm, and Newick. Validates input, flags malformed records, and preserves annotations across compatible formats.
 
 - ⬜ **Antibody and Epitope Designer** _(planned)_: Linear and conformational B-cell epitope prediction, MHC-I/II binding prediction (NetMHCpan-style), antibody CDR annotation (Kabat, Chothia, IMGT numbering), humanization suggestions, and developability flags (aggregation, deamidation, glycosylation sites).
 
