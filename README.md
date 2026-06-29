@@ -4207,7 +4207,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Cue Stack Programmer** _(stub, awaits wire-up)_: Builds ordered cue lists with audio, video, MIDI, OSC, and DMX cues. Supports fades, follow cues, wait times, loops, devamps, and continue actions in the QLab/SCS lineage.
 
-- ⬜ **Lighting Plot Drafter** _(planned)_: Drafts a 2D plot and section view with positions, pipes, booms, and fixtures pulled from a profile library; tracks channel, address, dimmer, circuit, color, gobo, accessory, and focus note per unit.
+- ✅ **Lighting Plot Drafter** _(stub, awaits wire-up)_: Drafts a 2D plot and section view with positions, pipes, booms, and fixtures pulled from a profile library; tracks channel, address, dimmer, circuit, color, gobo, accessory, and focus note per unit.
 
 - ⬜ **Console Syntax Editor** _(planned)_: Offers an Eos/grandMA-style command line over groups, palettes, presets, and cue lists. Edits intensity, focus, color, beam, and effect parameters with keypad-style syntax and tracking semantics.
 
