@@ -2640,7 +2640,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **ADS-B traffic console** _(stub, awaits wire-up)_: Decodes 1090ES and 978 UAT from a local dongle (dump1090/dump978), shows traffic with Mode S registry lookup, and logs tracks for replay. Cross-references with FlightAware and OpenSky for missing aircraft.
 
-- ⬜ **ADIF logbook** _(planned)_: Logs amateur radio QSOs across HF/VHF/UHF with band, mode, RST, grid, name, and contest exchanges. Imports and exports ADIF 3, deduplicates, and syncs to LoTW, eQSL, QRZ Logbook, and Club Log.
+- ✅ **ADIF logbook** _(stub, awaits wire-up)_: Logs amateur radio QSOs across HF/VHF/UHF with band, mode, RST, grid, name, and contest exchanges. Imports and exports ADIF 3, deduplicates, and syncs to LoTW, eQSL, QRZ Logbook, and Club Log.
 
 - ⬜ **Award tracker** _(planned)_: Scores progress on DXCC, WAS, WAC, VUCC, IOTA, SOTA, POTA, and CQ zones per band and mode. Renders needed-entity heatmaps on an azimuthal map and surfaces openings where missing entities are workable now.
 
