@@ -3647,7 +3647,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Motion graphics** _(stub, awaits wire-up)_: Keyframed 2D animation and lower-third compositor with Lottie/Bodymovin import and SVG-on-timeline support. Exports to MP4, transparent WebM, GIF, and APNG.
 
-- ⬜ **Compositor** _(planned)_: Node-based image and video compositing with EXR multi-channel support, deep compositing, keyers, and 2.5D camera. Inspired by Natron/Nuke conventions.
+- ✅ **Compositor** _(stub, awaits wire-up)_: Node-based image and video compositing with EXR multi-channel support, deep compositing, keyers, and 2.5D camera. Inspired by Natron/Nuke conventions.
 
 - ⬜ **Color grading** _(planned)_: Scene-referred grading with primary wheels, curves, qualifiers, and CDL/ACES workflows. Includes AI-integrated shot-match against a reference frame.
 
