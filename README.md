@@ -3382,7 +3382,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Mesh reconstruction lab** _(stub, awaits wire-up)_: Repairs, retopologizes, mirrors, and digitally rearticulates 3D fossil scans; segments matrix from bone, fills missing elements from bilateral counterparts, and aligns fragments via ICP. AI-integrated landmark suggestion seeds the alignment from comparable taxa.
 
-- ⬜ **Geometric morphometrics** _(planned)_: Performs Procrustes superimposition, PCA, CVA, and thin-plate-spline warps on 2D/3D landmark and semi-landmark configurations. Imports TPS and Morphologika files and outputs deformation grids and disparity plots.
+- ✅ **Geometric morphometrics** _(stub, awaits wire-up)_: Performs Procrustes superimposition, PCA, CVA, and thin-plate-spline warps on 2D/3D landmark and semi-landmark configurations. Imports TPS and Morphologika files and outputs deformation grids and disparity plots.
 
 - ⬜ **Phylogenetics workbench** _(planned)_: Edits character-taxon matrices in NEXUS/TNT format, runs parsimony, maximum likelihood, and tip-dated Bayesian inference, and visualizes consensus trees with bootstrap/posterior support. Maps stratigraphic ranges and computes ghost lineages.
 
