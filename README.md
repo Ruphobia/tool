@@ -911,7 +911,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **OSINT Aggregator** _(stub, awaits wire-up)_: Runs WHOIS, DNS, reverse DNS, passive DNS, ASN, certificate transparency, and threat-feed lookups in parallel for a target. Caches results offline and deduplicates indicators across sources.
 
-- ⬜ **Firmware and Binary Walker** _(planned)_: Performs binwalk-style recursive extraction of firmware images, archives, filesystems, and bootloaders. Detects embedded keys, hardcoded credentials, and known-vulnerable component versions.
+- ✅ **Firmware and Binary Walker** _(stub, awaits wire-up)_: Performs binwalk-style recursive extraction of firmware images, archives, filesystems, and bootloaders. Detects embedded keys, hardcoded credentials, and known-vulnerable component versions.
 
 - ⬜ **Timeline Builder** _(planned)_: Fuses filesystem MAC times, registry, browser history, log events, and prefetch into a super-timeline with filtering, tagging, and narrative annotation. AI-integrated reconstruction of likely event sequences from selected rows.
 
