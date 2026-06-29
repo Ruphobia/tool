@@ -1155,7 +1155,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **TSP playground** _(stub, awaits wire-up)_: Solves large symmetric and asymmetric TSPs via Lin-Kernighan (LKH-style), Concorde-style branch-and-cut for optimality, and Christofides for bounded approximation. Visualizes tour evolution and gap-to-lower-bound in real time.
 
-- ⬜ **Inventory policy designer** _(planned)_: Computes EOQ, (s,S), (R,Q), and base-stock policies with safety stock from target cycle service level or fill rate. Handles lead-time variability, stochastic demand distributions, and joint replenishment; AI-suggested policy class given demand-pattern fingerprint (smooth, erratic, intermittent, lumpy).
+- ✅ **Inventory policy designer** _(stub, awaits wire-up)_: Computes EOQ, (s,S), (R,Q), and base-stock policies with safety stock from target cycle service level or fill rate. Handles lead-time variability, stochastic demand distributions, and joint replenishment; AI-suggested policy class given demand-pattern fingerprint (smooth, erratic, intermittent, lumpy).
 
 - ⬜ **Demand forecaster** _(planned)_: Fits ARIMA, ETS (Holt-Winters), Theta, Croston / TSB for intermittent series, and gradient-boosted hierarchical models with reconciliation (MinT, bottom-up, top-down). Reports MAPE/WAPE/MASE with backtesting folds and prediction intervals.
 
