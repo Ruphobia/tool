@@ -1024,7 +1024,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Daily journal** _(stub, awaits wire-up)_: Date-indexed free-form journal with a calendar grid, daily / weekly / monthly templates, and full-text search across years. AI-integrated weekly and monthly digests.
 
-- ⬜ **Kanban board** _(planned)_: Card lanes with WIP limits, swimlanes, labels, and per-card checklists. Cards link bidirectionally to tasks, notes, and documents. AI-integrated auto-routing of incoming cards by content.
+- ✅ **Kanban board** _(stub, awaits wire-up)_: Card lanes with WIP limits, swimlanes, labels, and per-card checklists. Cards link bidirectionally to tasks, notes, and documents. AI-integrated auto-routing of incoming cards by content.
 
 - ⬜ **Task inbox** _(planned)_: Flat capture surface for GTD-style next-actions with contexts, projects, energy, and time-required filters. AI-integrated triage that proposes context, project, and next-action verb for each captured item.
 
