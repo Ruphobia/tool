@@ -4662,7 +4662,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Mushroom ID helper** _(stub, awaits wire-up)_: Photo-based mushroom identification with conservative scoring that hard-flags deadly look-alikes (Amanita, Galerina, Cortinarius) and refuses positive ID where spore print or microscopy is required. Cross-references regional fruiting calendars and substrate.
 
-- ⬜ **First-aid decision tree** _(planned)_: Triage and treatment walkthroughs for trauma, hemorrhage, hypothermia, hyperthermia, anaphylaxis, snakebite, and burns, with tourniquet timing, TXA window, and improvised splint guidance. Adapts to the kit on hand and projected time-to-evac.
+- ✅ **First-aid decision tree** _(stub, awaits wire-up)_: Triage and treatment walkthroughs for trauma, hemorrhage, hypothermia, hyperthermia, anaphylaxis, snakebite, and burns, with tourniquet timing, TXA window, and improvised splint guidance. Adapts to the kit on hand and projected time-to-evac.
 
 - ⬜ **Field pharmacy reference** _(planned)_: Drug reference covering shelf life beyond labeled expiry, vet and aquarium-grade substitutions with caveats, common antibiotic regimens by indication, and interaction warnings. Includes a dosing calculator for pediatric and weight-based adjustment.
 
