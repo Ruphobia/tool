@@ -1695,7 +1695,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Lectionary and Pericope Mapper** _(stub, awaits wire-up)_: Maps Gospel, Pauline, prophetologion, and synagogue lectionary cycles to the source texts they cite. Resolves incipit/explicit boundaries and reconciles Byzantine, Jerusalem, and Coptic liturgical orders.
 
-- ⬜ **Provenance and Dating Estimator** _(planned)_: Estimates date and scriptorium of a manuscript from script style, decoration, parchment preparation, and ink chemistry inputs. Combines radiocarbon priors with paleographic and codicological evidence into a posterior date range.
+- ✅ **Provenance and Dating Estimator** _(stub, awaits wire-up)_: Estimates date and scriptorium of a manuscript from script style, decoration, parchment preparation, and ink chemistry inputs. Combines radiocarbon priors with paleographic and codicological evidence into a posterior date range.
 
 - ⬜ **Concordance and Lexicon Workbench** _(planned)_: Generates lemmatized concordances and KWIC views across Greek, Hebrew, Aramaic, Latin, Coptic, Syriac, and Ge'ez corpora. Integrates LSJ, BDAG, HALOT, Lewis and Short, Sokoloff, and Crum with morphological tagging.
 
