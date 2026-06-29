@@ -3089,7 +3089,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **EEG/MEG analyzer** _(stub, awaits wire-up)_: Loads EDF, BDF, BrainVision, FIF, and BIDS recordings, performs ICA artifact removal, time-frequency decomposition (Morlet, multitaper), source localization, and evoked-response averaging in an MNE-style workflow.
 
-- ⬜ **MRI/fMRI viewer** _(planned)_: Renders NIfTI and DICOM volumes with multiplanar reformat, BOLD activation overlays, motion-correction QC, and atlas-based parcellation lookup.
+- ✅ **MRI/fMRI viewer** _(stub, awaits wire-up)_: Renders NIfTI and DICOM volumes with multiplanar reformat, BOLD activation overlays, motion-correction QC, and atlas-based parcellation lookup.
 
 - ⬜ **Spike sorter** _(planned)_: Runs Kilosort and MountainSort drift-corrected template matching on Neuropixels and tetrode data, with manual curation of clusters, waveform inspection, and ISI, CCG, and refractory-period diagnostics.
 
