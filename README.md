@@ -3694,7 +3694,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Storyboard Composer** _(stub, awaits wire-up)_: Frame-by-frame storyboard editor with aspect-ratio guides, figure and prop placement, camera position and lens indicator, and arrow annotations for movement. AI-integrated rough sketch generation from a shot description and reference image.
 
-- ⬜ **Lighting Diagram Designer** _(planned)_: Top-down 2D lighting plot with subjects, key/fill/back/rim sources, modifiers, flags, power levels, color temperatures, and gel selections. Renders a quick BRDF preview of the resulting key-to-fill ratio on a standard head model.
+- ✅ **Lighting Diagram Designer** _(stub, awaits wire-up)_: Top-down 2D lighting plot with subjects, key/fill/back/rim sources, modifiers, flags, power levels, color temperatures, and gel selections. Renders a quick BRDF preview of the resulting key-to-fill ratio on a standard head model.
 
 - ⬜ **Camera Move Planner** _(planned)_: Designs dolly, crane, slider, and gimbal paths with keyframed position, rotation, focus, and zoom; simulates motion blur and parallax against a depth-mapped scene plate, and exports MoCo-compatible motion data.
 
