@@ -3062,7 +3062,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Biosecurity screener** _(stub, awaits wire-up)_: Screens designed sequences against select agent and dual-use signature databases (e.g. IGSC-style) and flags hits with risk context before synthesis order export.
 
-- ⬜ **LIMS and sample tracker** _(planned)_: Tracks isolates, strains, plates, freezer boxes, passages, and chain of custody with barcode and QR generation, audit trails, and BioSample/SRA submission manifests.
+- ✅ **LIMS and sample tracker** _(stub, awaits wire-up)_: Tracks isolates, strains, plates, freezer boxes, passages, and chain of custody with barcode and QR generation, audit trails, and BioSample/SRA submission manifests.
 
 - ⬜ **Lab protocol and ELN** _(planned)_: Authors and runs protocols with step timers, reagent inventory deduction, instrument metadata capture, and signed read-only snapshots for compliance and reproducibility.
 
