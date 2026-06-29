@@ -1818,7 +1818,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sound Change Applier** _(stub, awaits wire-up)_: Runs ordered rewrite rules over a wordlist in the style of SCA2 and Lexurgy, with feature-bundle conditioning, sound classes, and cascading sound laws. Diffs each derivation stage and flags rules that bleed, feed, or counterfeed.
 
-- ⬜ **Morphology Glosser** _(planned)_: Segments wordforms into morphemes and produces Leipzig-format interlinear glosses with morpheme alignment, category tags, and free translation lines. AI-integrated guessing of analysis from parallel example sentences.
+- ✅ **Morphology Glosser** _(stub, awaits wire-up)_: Segments wordforms into morphemes and produces Leipzig-format interlinear glosses with morpheme alignment, category tags, and free translation lines. AI-integrated guessing of analysis from parallel example sentences.
 
 - ⬜ **Syntax Tree Builder** _(planned)_: Draws constituency and dependency trees from bracketed strings, CoNLL-U, or natural-language input, with drag-to-reattach editing and labeled arcs. Renders to PDF, SVG, and qtree/tikz-dependency.
 
