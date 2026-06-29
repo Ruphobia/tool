@@ -4784,7 +4784,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Stanley-Brown safety plan** _(stub, awaits wire-up)_: Guided builder for the six-step safety plan: warning signs, internal coping, social distractions, support contacts, professionals, and means restriction. Prints a wallet-card PDF and an on-device quick-access view.
 
-- ⬜ **Chronotype and circadian estimator** _(planned)_: Administers the MEQ and MCTQ, estimates chronotype and social jetlag, and approximates DLMO from sleep midpoint. Outputs a recommended light, melatonin, and meal-timing window.
+- ✅ **Chronotype and circadian estimator** _(stub, awaits wire-up)_: Administers the MEQ and MCTQ, estimates chronotype and social jetlag, and approximates DLMO from sleep midpoint. Outputs a recommended light, melatonin, and meal-timing window.
 
 - ⬜ **Sleep restriction scheduler** _(planned)_: CBT-I sleep restriction therapy calendar: sets prescribed time-in-bed from diary sleep efficiency, advances or holds windows by the 85/90% rule, and tracks adherence and TST drift week over week.
 
