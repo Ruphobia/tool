@@ -1887,7 +1887,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **TTS bench** _(stub, awaits wire-up)_: Text-to-speech rendering with voice picker, SSML editor, and per-phoneme prosody control. Compares outputs from multiple TTS engines side by side with A/B blind listening.
 
-- ⬜ **Voice cloning lab** _(planned)_: Few-shot voice cloning from short reference samples, with consent-tag metadata, speaker embedding inspection, and similarity scoring against ground truth. Exports cloned voices as portable speaker profiles.
+- ✅ **Voice cloning lab** _(stub, awaits wire-up)_: Few-shot voice cloning from short reference samples, with consent-tag metadata, speaker embedding inspection, and similarity scoring against ground truth. Exports cloned voices as portable speaker profiles.
 
 - ⬜ **G2P and phonetic transcriber** _(planned)_: Grapheme-to-phoneme conversion with IPA, X-SAMPA, and language-specific phone sets. Per-project lexicon overrides and pronunciation variants.
 
