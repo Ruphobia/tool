@@ -2483,7 +2483,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Reactor core point-kinetics sim** _(stub, awaits wire-up)_: Six-group delayed-neutron point kinetics with xenon, samarium, doppler, and moderator feedback; rod-worth curves and SCRAM transients.
 
-- ⬜ **Burnup and depletion tool** _(planned)_: Bateman-equation depletion across ENDF/B nuclides; tracks isotopic vector, reactivity letdown, and spent-fuel composition by assembly.
+- ✅ **Burnup and depletion tool** _(stub, awaits wire-up)_: Bateman-equation depletion across ENDF/B nuclides; tracks isotopic vector, reactivity letdown, and spent-fuel composition by assembly.
 
 - ⬜ **Cross-section viewer** _(planned)_: Loads ENDF/B-VIII and JEFF evaluations; plots resolved and unresolved resonances and reconstructs cross sections at user temperature with SLBW Doppler broadening.
 
