@@ -4760,7 +4760,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sleep Environment Audit** _(stub, awaits wire-up)_: Checklist plus optional sensor capture for bedroom temperature, humidity, CO2, noise floor, and lux at eye level. Scores the environment against evidence-based targets and recommends single-variable fixes.
 
-- ⬜ **Dream Incubation Planner** _(planned)_: Composes pre-sleep intention scripts targeting a chosen theme, person, or problem, with a brief rehearsal protocol and post-wake recall prompt. Uses an on-device model to draft and refine the intention text.
+- ✅ **Dream Incubation Planner** _(stub, awaits wire-up)_: Composes pre-sleep intention scripts targeting a chosen theme, person, or problem, with a brief rehearsal protocol and post-wake recall prompt. Uses an on-device model to draft and refine the intention text.
 
 - ⬜ **Sleep Paralysis and False Awakening Journal** _(planned)_: Specialized log for SP episodes, hypnagogic and hypnopompic imagery, and false awakenings, with severity, duration, and induction-attempt fields. Cross-references entries with the main dream journal and stage data.
 
