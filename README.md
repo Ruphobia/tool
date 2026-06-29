@@ -1525,7 +1525,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Author and Affiliation Disambiguator** _(stub, awaits wire-up)_: Resolves author identities across ORCID, OpenAlex, DBLP, and Semantic Scholar, merging duplicate profiles and tracking institutional moves over time. Surfaces collaboration networks and self-citation ratios per author.
 
-- ⬜ **Retraction and Errata Watch** _(planned)_: Monitors Retraction Watch, CrossRef update notices, PubPeer threads, and venue corrigenda for every paper in the local library. Marks affected citations in drafts and exports an impact report.
+- ✅ **Retraction and Errata Watch** _(stub, awaits wire-up)_: Monitors Retraction Watch, CrossRef update notices, PubPeer threads, and venue corrigenda for every paper in the local library. Marks affected citations in drafts and exports an impact report.
 
 - ⬜ **Writing and Citation Linter** _(planned)_: Lints manuscripts for missing citations, broken cross-references, undefined acronyms, inconsistent notation, and weak-claim/strong-claim mismatches against cited evidence. Integrates with LaTeX, Typst, Markdown, and Pandoc workflows.
 
