@@ -3312,7 +3312,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Light Pollution Map** _(stub, awaits wire-up)_: Renders Bortle/SQM sky-brightness maps from VIIRS data with limiting-magnitude estimates per filter and zenith angle. Suggests dark-sky sites within a chosen drive radius.
 
-- ⬜ **Radio Astronomy Toolkit** _(planned)_: Decodes hydrogen-line (1420 MHz) drift scans, pulsar dedispersion, and meteor-scatter detections from RTL-SDR/AirSpy inputs. Includes waterfall display, baseline subtraction, and galactic-plane survey mode.
+- ✅ **Radio Astronomy Toolkit** _(stub, awaits wire-up)_: Decodes hydrogen-line (1420 MHz) drift scans, pulsar dedispersion, and meteor-scatter detections from RTL-SDR/AirSpy inputs. Includes waterfall display, baseline subtraction, and galactic-plane survey mode.
 
 - ⬜ **Meteor Shower Forecaster** _(planned)_: Predicts ZHR, radiant position, and parent-body geometry for active and historical meteor showers. Cross-checks against user-supplied all-sky camera detections for automatic shower attribution.
 
