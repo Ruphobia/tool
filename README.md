@@ -521,7 +521,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Peripheral register designer** _(stub, awaits wire-up)_: Register-level editor backed by SVD/CMSIS files with bitfield decoding, reserved-bit guards, and live diff against reset values. AI explains a register write in prose and proposes the inverse from a desired behavior.
 
-- ⬜ **Toolchain manager** _(planned)_: Installs and pins GCC, LLVM, Rust embedded, Zig, SDCC, IAR/Keil shims, and vendor SDKs into isolated environments per project. Records the exact toolchain hash with the build artifact.
+- ✅ **Toolchain manager** _(stub, awaits wire-up)_: Installs and pins GCC, LLVM, Rust embedded, Zig, SDCC, IAR/Keil shims, and vendor SDKs into isolated environments per project. Records the exact toolchain hash with the build artifact.
 
 - ⬜ **Build orchestrator** _(planned)_: Unified driver for CMake, Make, PlatformIO, ESP-IDF, Zephyr west, NuttX, and Cargo embedded targets with reproducible builds and ccache integration. Surfaces warnings and size deltas across commits.
 
