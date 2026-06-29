@@ -2802,7 +2802,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Point cloud workbench** _(stub, awaits wire-up)_: Loads PLY, PCD, LAS, E57, and depth-image clouds, performs voxel downsampling, outlier removal, normal estimation, plane/cluster segmentation, and pairwise/global registration (ICP, GICP, NDT, Teaser++). AI-integrated semantic and instance segmentation against open-vocabulary prompts.
 
-- ⬜ **CAD import and conversion** _(planned)_: Converts STEP, IGES, JT, and Parasolid bodies to triangle meshes or implicit surfaces with topology preservation, assembly extraction into URDF link trees, and inertial-tensor computation from solid density.
+- ✅ **CAD import and conversion** _(stub, awaits wire-up)_: Converts STEP, IGES, JT, and Parasolid bodies to triangle meshes or implicit surfaces with topology preservation, assembly extraction into URDF link trees, and inertial-tensor computation from solid density.
 
 - ⬜ **Motion capture studio** _(planned)_: Ingests BVH, FBX, C3D, and live OptiTrack, Vicon, and Rokoko streams; cleans marker gaps, solves skeletons, retargets to arbitrary URDFs, and exports joint trajectories for replay or imitation learning.
 
