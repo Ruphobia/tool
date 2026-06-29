@@ -1101,7 +1101,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Changelog and release-notes generator** _(stub, awaits wire-up)_: Aggregates merged tickets, commits, and PRs between two release tags into grouped notes by category (feature, fix, breaking). AI-integrated rewrite produces user-facing copy at a chosen tone and length.
 
-- ⬜ **SLA and cycle-time analytics** _(planned)_: Distributions of lead time, cycle time, time-in-state, and reopen rate across any ticket query, with percentile bands and breach detection against configured SLAs. Cohort comparisons across teams, labels, or releases.
+- ✅ **SLA and cycle-time analytics** _(stub, awaits wire-up)_: Distributions of lead time, cycle time, time-in-state, and reopen rate across any ticket query, with percentile bands and breach detection against configured SLAs. Cohort comparisons across teams, labels, or releases.
 
 - ⬜ **Project template library** _(planned)_: Reusable bundles of epics, tickets, workflows, fields, and roadmap entries instantiable into a new project with parameter substitution. Templates are diffable and updatable so spawned projects can pull upstream changes.
 
