@@ -3753,7 +3753,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Cloth and Hair Sim** _(stub, awaits wire-up)_: XPBD-based cloth, hair card and strand grooming, with collisions, wind fields, and pinning maps; cached to Alembic and previewable in the viewport with self-collision toggles.
 
-- ⬜ **Crowd Director** _(planned)_: Agent-based crowd system with state-machine behaviors, navmesh pathing, animation-clip stitching, and per-agent variation. AI-integrated locomotion blending so feet stay planted across speeds.
+- ✅ **Crowd Director** _(stub, awaits wire-up)_: Agent-based crowd system with state-machine behaviors, navmesh pathing, animation-clip stitching, and per-agent variation. AI-integrated locomotion blending so feet stay planted across speeds.
 
 - ⬜ **USD Stage Editor** _(planned)_: Hierarchical USD composition browser with layer stacks, variants, references, payloads, and reference resolution. Provides a diff view between layers and an integrated USD-python script console.
 
