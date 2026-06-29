@@ -3018,7 +3018,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Strain typer** _(stub, awaits wire-up)_: Runs MLST, cgMLST, wgMLST, spaTyping, serotyping (SISTR, SeqSero, Kaptive), and SNP-based clustering for outbreak investigation. Outputs minimum spanning trees and transmission inference.
 
-- ⬜ **AMR profiler** _(planned)_: Screens isolates for resistance genes, plasmid replicons, and point mutations via AMRFinderPlus, CARD-RGI, ResFinder, and PlasmidFinder. Cross-references with EUCAST and CLSI breakpoint tables.
+- ✅ **AMR profiler** _(stub, awaits wire-up)_: Screens isolates for resistance genes, plasmid replicons, and point mutations via AMRFinderPlus, CARD-RGI, ResFinder, and PlasmidFinder. Cross-references with EUCAST and CLSI breakpoint tables.
 
 - ⬜ **Virulence factor scanner** _(planned)_: Detects virulence determinants and pathogen-associated islands via VFDB, Virulencefinder, IslandViewer, and PHASTER for prophage discovery.
 
