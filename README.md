@@ -2390,7 +2390,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pressurized network solver** _(stub, awaits wire-up)_: EPANET-style hydraulic engine for looped water distribution networks. Solves steady-state and extended-period simulation with Hazen-Williams, Darcy-Weisbach, or Chezy-Manning headloss, supports pumps, valves (PRV/PSV/FCV/TCV), tanks, and demand patterns, and reports node pressures, link flows, and tank trajectories.
 
-- ⬜ **Pipe friction calculator** _(planned)_: Solves the Colebrook-White equation iteratively (and Swamee-Jain explicit form) for friction factor given Reynolds number and relative roughness. Cross-checks against Hazen-Williams and Manning, with a roughness library for new and aged ductile iron, PVC, HDPE, concrete, and lined steel.
+- ✅ **Pipe friction calculator** _(stub, awaits wire-up)_: Solves the Colebrook-White equation iteratively (and Swamee-Jain explicit form) for friction factor given Reynolds number and relative roughness. Cross-checks against Hazen-Williams and Manning, with a roughness library for new and aged ductile iron, PVC, HDPE, concrete, and lined steel.
 
 - ⬜ **Pump curve matcher** _(planned)_: Plots manufacturer H-Q curves against system curves to find operating point, NPSH margin, and BEP distance. Handles parallel/series pumping, variable-speed (affinity laws), and wire-to-water efficiency; AI-integrated pump shortlist from a head/flow/duty target and a vendor catalog.
 
