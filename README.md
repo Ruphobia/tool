@@ -1196,7 +1196,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **World atlas** _(stub, awaits wire-up)_: Wiki-style store for locations, factions, calendars, currencies, languages, and rules-of-magic or tech entries under custom schemas. Inline [[references]] resolve as backlinks across the manuscript and a map view plots geo entries.
 
-- ⬜ **Timeline editor** _(planned)_: Aeon-style multi-track timeline over a custom calendar with character arcs, world events, and POV scenes. Flags ordering inconsistencies between manuscript timestamps, timeline entries, and character ages.
+- ✅ **Timeline editor** _(stub, awaits wire-up)_: Aeon-style multi-track timeline over a custom calendar with character arcs, world events, and POV scenes. Flags ordering inconsistencies between manuscript timestamps, timeline entries, and character ages.
 
 - ⬜ **Prose linter** _(planned)_: Longform-tuned style pass covering passive voice, filter words, adverb density, sentence-length variance, POV and tense drift, dialogue-tag overuse, and repeated openings. Configurable per project against AP, Chicago, MLA, or custom style guides.
 
