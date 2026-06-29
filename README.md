@@ -3843,7 +3843,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Music notation editor** _(stub, awaits wire-up)_: Score editor with staff layout, transposition, chord symbols, lyrics, articulations, MusicXML/LilyPond import/export, and bidirectional MIDI<->score conversion. AI-integrated automatic transcription from audio to notation.
 
-- ⬜ **Audio-to-MIDI transcription** _(planned)_: AI-integrated monophonic and polyphonic transcription of recordings to MIDI with onset/offset, pitch, and velocity estimation; drum hit detection and groove extraction.
+- ✅ **Audio-to-MIDI transcription** _(stub, awaits wire-up)_: AI-integrated monophonic and polyphonic transcription of recordings to MIDI with onset/offset, pitch, and velocity estimation; drum hit detection and groove extraction.
 
 - ⬜ **Beat, tempo, and key detection** _(planned)_: Detects BPM, downbeats, beat grid, time signature, and musical key/scale; supports variable-tempo mapping and warp-marker editing.
 
