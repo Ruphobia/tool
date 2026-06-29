@@ -1517,7 +1517,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Equation and Notation Workbench** _(stub, awaits wire-up)_: Extracts equations from PDFs into editable LaTeX, resolves symbol definitions across the paper, and aligns notation between multiple sources into a unified glossary. Renders inline with MathJax/KaTeX and supports symbolic diff.
 
-- ⬜ **Dataset and Code Provenance Tracker** _(planned)_: Resolves dataset and code artifacts cited in a paper to canonical sources (Zenodo, HuggingFace, OSF, GitHub, Figshare), records licenses, and snapshots versions. Diffs against the paper's claimed version when a release moves.
+- ✅ **Dataset and Code Provenance Tracker** _(stub, awaits wire-up)_: Resolves dataset and code artifacts cited in a paper to canonical sources (Zenodo, HuggingFace, OSF, GitHub, Figshare), records licenses, and snapshots versions. Diffs against the paper's claimed version when a release moves.
 
 - ⬜ **Reproducibility Sandbox** _(planned)_: Spins up a containerized environment from a paper's code repo, pinning Python/R/Julia toolchains, seeds, and dataset hashes. Runs the headline experiment and reports deltas against the paper's reported numbers.
 
