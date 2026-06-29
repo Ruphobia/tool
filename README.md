@@ -224,7 +224,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ⬜ **Memory Diff and Reconcile** _(planned)_: Three-way diff across machines or branches of the memory store with conflict resolution, useful when syncing personal memory between devices or merging a teammate's project memory.
 
-- ⬜ **Export and Import** _(planned)_: Round-trippable export to plain markdown plus JSON sidecars, with import from Obsidian vaults, Logseq graphs, Apple Notes dumps, and Claude/ChatGPT memory exports.
+- ✅ **Export and Import** _(in testing)_: Round-trippable export to plain markdown plus JSON sidecars, with import from Obsidian vaults, Logseq graphs, Apple Notes dumps, and Claude/ChatGPT memory exports.
 
 - ✅ **Privacy and Scope Guard** _(in testing)_: Per-entry visibility labels (local-only, project-shared, assistant-visible, redacted) with a preflight check that warns before any entry leaves the local store via sync, share, or model context.
 
