@@ -3603,7 +3603,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Background remover** _(stub, awaits wire-up)_: Foreground extraction via segmentation models (RMBG, BiRefNet, U2Net) with alpha refinement around hair and translucent edges. Supports batch processing and replacement backgrounds.
 
-- ⬜ **Segmenter** _(planned)_: Click, box, and text-prompt segmentation built on SAM/SAM2 and Grounding-DINO. Exports masks, cutouts, and polygons for use elsewhere in the workbench.
+- ✅ **Segmenter** _(stub, awaits wire-up)_: Click, box, and text-prompt segmentation built on SAM/SAM2 and Grounding-DINO. Exports masks, cutouts, and polygons for use elsewhere in the workbench.
 
 - ⬜ **Pose and depth extractor** _(planned)_: Runs OpenPose, DWPose, MiDaS, ZoeDepth, and normal map estimators to produce ControlNet conditioning maps. Visualizes overlays and saves the maps as reusable assets.
 
