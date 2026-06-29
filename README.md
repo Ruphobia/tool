@@ -1185,7 +1185,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Monte Carlo risk simulator** _(stub, awaits wire-up)_: Runs stochastic supply chain stress tests for supplier outages, port closures, and demand shocks with copula-correlated risk factors. Produces VaR, CVaR, and time-to-recovery distributions and identifies bottleneck nodes via sensitivity indices.
 
-- ⬜ **Isochrone analyzer** _(planned)_: Computes drive-time and walk-time catchments over an OSM-derived road graph for last-mile and depot-siting studies. Overlays population, demand density, and competitor coverage, and exports service polygons for downstream VRP and facility-location runs.
+- ✅ **Isochrone analyzer** _(stub, awaits wire-up)_: Computes drive-time and walk-time catchments over an OSM-derived road graph for last-mile and depot-siting studies. Overlays population, demand density, and competitor coverage, and exports service polygons for downstream VRP and facility-location runs.
 
 
 #### Writing, publishing, journalism
