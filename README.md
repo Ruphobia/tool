@@ -2628,7 +2628,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Chart viewer** _(stub, awaits wire-up)_: Renders georeferenced FAA sectional, TAC, IFR low/high enroute, terminal area, and approach plates with day/night palettes. Overlays the active route, airspace classes, MEAs, MOAs, and NOTAM polygons.
 
-- ⬜ **Approach plate library** _(planned)_: Indexes terminal procedure publications (IAP, STAR, DP, airport diagrams) by airport, procedure name, and equipment requirement. Supports briefing strips, missed-approach extraction, and minima lookup by aircraft category.
+- ✅ **Approach plate library** _(stub, awaits wire-up)_: Indexes terminal procedure publications (IAP, STAR, DP, airport diagrams) by airport, procedure name, and equipment requirement. Supports briefing strips, missed-approach extraction, and minima lookup by aircraft category.
 
 - ⬜ **Aircraft logbook** _(planned)_: Records flights with PIC/SIC, day/night, instrument actual/simulated, approaches, holds, and landings. Tracks currency for BFR, IPC, medical, type ratings, and rolling 90/6 requirements, and exports to LogTen, MyFlightbook, and FAA 8710 forms.
 
