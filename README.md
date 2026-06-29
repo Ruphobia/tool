@@ -1574,7 +1574,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Quantization bench** _(stub, awaits wire-up)_: Convert checkpoints to GGUF, AWQ, GPTQ, EXL2, and bitsandbytes formats and benchmark perplexity, latency, throughput, and VRAM at each quant level on a held-out eval set.
 
-- ⬜ **Eval harness** _(planned)_: Runs MMLU, HumanEval, GSM8K, BIG-Bench, MT-Bench, IFEval, and user-defined rubric evals against any local or routed model with per-task breakdown and confidence intervals. Supports LLM-as-judge with bias controls.
+- ✅ **Eval harness** _(stub, awaits wire-up)_: Runs MMLU, HumanEval, GSM8K, BIG-Bench, MT-Bench, IFEval, and user-defined rubric evals against any local or routed model with per-task breakdown and confidence intervals. Supports LLM-as-judge with bias controls.
 
 - ⬜ **Red-team console** _(planned)_: Adversarial-prompt and jailbreak battery, refusal-rate measurement, and abliteration verification suite specifically aimed at confirming an abliterated model behaves as claimed across categories.
 
