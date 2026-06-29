@@ -2814,7 +2814,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Transform tree inspector** _(stub, awaits wire-up)_: Visualizes the live TF/TF2 coordinate-frame graph, flags missing, stale, or cyclic transforms, and edits static transform publishers with side-by-side numeric and 3D representation.
 
-- ⬜ **ROS bag and MCAP inspector** _(planned)_: Opens .bag and .mcap recordings, indexes topics and message types, plots numeric channels, decodes image and point-cloud streams, and replays selected slices into the scene viewer or simulator.
+- ✅ **ROS bag and MCAP inspector** _(stub, awaits wire-up)_: Opens .bag and .mcap recordings, indexes topics and message types, plots numeric channels, decodes image and point-cloud streams, and replays selected slices into the scene viewer or simulator.
 
 - ⬜ **Sensor stream viewer** _(planned)_: Subscribes to live LIDAR, depth, IMU, force/torque, encoder, and camera streams over ROS/ROS2, Zenoh, MQTT, and LCM with per-channel decimation, synchronized recording, and back-pressure stats.
 
