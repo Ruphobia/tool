@@ -212,7 +212,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Salience Tuner** _(in testing)_: Controls per-entry weight, decay rate, and pinning so frequently relevant memories stay hot while stale ones fade. Exposes a preview of what the assistant would currently retrieve.
 
-- ⬜ **Provenance Tracker** _(planned)_: Records the source of every entry (file, URL, chat turn, command output, manual) with timestamp, hash, and a one-click jump back to the originating context.
+- ✅ **Provenance Tracker** _(in testing)_: Records the source of every entry (file, URL, chat turn, command output, manual) with timestamp, hash, and a one-click jump back to the originating context.
 
 - ⬜ **Semantic Recall Probe** _(planned)_: Query box that runs hybrid keyword plus vector search over memory, shows ranked hits with highlighted spans, and explains why each entry matched.
 
