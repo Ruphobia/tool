@@ -1134,7 +1134,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Incident and CAPA tracker** _(stub, awaits wire-up)_: Captures incidents, near-misses, and nonconformances with 8D, A3, or Kepner-Tregoe templates, tracks corrective and preventive actions to closure with effectiveness checks, and produces OSHA 300/301/300A and ISO 45001 reports.
 
-- ⬜ **DOE designer** _(planned)_: Generates full and fractional factorial, Plackett-Burman, central composite, Box-Behnken, and Taguchi orthogonal arrays, analyzes effects with ANOVA and half-normal plots, and renders response-surface contour and desirability optimization.
+- ✅ **DOE designer** _(stub, awaits wire-up)_: Generates full and fractional factorial, Plackett-Burman, central composite, Box-Behnken, and Taguchi orthogonal arrays, analyzes effects with ANOVA and half-normal plots, and renders response-surface contour and desirability optimization.
 
 - ⬜ **Acceptance sampling planner** _(planned)_: Builds single, double, and sequential sampling plans per ANSI/ASQ Z1.4 and Z1.9, MIL-STD-105E, and Dodge-Romig, plots OC, AOQ, ASN, and ATI curves, and computes producer and consumer risks at given AQL/LTPD.
 
