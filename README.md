@@ -4496,7 +4496,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Trail-Cam Image Manager** _(stub, awaits wire-up)_: Ingests SD card dumps and deduplicates burst sequences, then runs on-device vision to tag species, sex, antler points, and individual deer by tine pattern. Time-of-day heatmaps and travel-corridor inference per camera location.
 
-- ⬜ **Fish ID** _(planned)_: Identifies freshwater and saltwater species from a phone photo using a local vision model, with confidence scores and lookalike disambiguation (e.g., spotted vs largemouth bass). Links each ID to applicable size and bag rules from Regulation Lookup.
+- ✅ **Fish ID** _(stub, awaits wire-up)_: Identifies freshwater and saltwater species from a phone photo using a local vision model, with confidence scores and lookalike disambiguation (e.g., spotted vs largemouth bass). Links each ID to applicable size and bag rules from Regulation Lookup.
 
 - ⬜ **Lure and Bait Reference** _(planned)_: Cross-references species, water temperature, clarity, depth, structure, and season against a tackle library to recommend presentations. Includes retrieval cadence notes, knot pairing, and a personal confidence-bait ranking learned from your catch log.
 
