@@ -2513,7 +2513,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Materials property database** _(stub, awaits wire-up)_: Indexed steels, nickel alloys, titanium, concrete, and composites with creep, fracture toughness, KIC, and irradiation-embrittlement (RTndt shift) curves.
 
-- ⬜ **Standards and code lookup** _(planned)_: Indexed ASME, API, ABS, DNV, ISO, ASTM, IAEA, ICRP, and NRC references with AI-assisted clause finder and citation cross-walk between codes.
+- ✅ **Standards and code lookup** _(stub, awaits wire-up)_: Indexed ASME, API, ABS, DNV, ISO, ASTM, IAEA, ICRP, and NRC references with AI-assisted clause finder and citation cross-walk between codes.
 
 - ⬜ **Engineering unit converter** _(planned)_: Field and SI conversions across heavy-industry units: bbl, mcf, BTU, troy oz, rem/Sv, dpm, gpm, m3/h, psi, bar, ksi, and per-foot vs per-meter rates.
 
