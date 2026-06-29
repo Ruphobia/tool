@@ -3837,7 +3837,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sample library manager** _(stub, awaits wire-up)_: Tagged, searchable browser for one-shots, loops, and multisamples with waveform/spectrogram previews, BPM/key detection, similarity search, and drag-to-track loading. AI-integrated content-based tagging and natural-language sample search.
 
-- ⬜ **MIDI editor** _(planned)_: Piano-roll, drum-grid, step-sequencer, and event-list editors with velocity/CC lanes, quantize, humanize, swing, arpeggiator, and chord tools. AI-integrated melody/harmony/drum-pattern generation and continuation.
+- ✅ **MIDI editor** _(stub, awaits wire-up)_: Piano-roll, drum-grid, step-sequencer, and event-list editors with velocity/CC lanes, quantize, humanize, swing, arpeggiator, and chord tools. AI-integrated melody/harmony/drum-pattern generation and continuation.
 
 - ⬜ **MIDI router and monitor** _(planned)_: Routes and filters MIDI between hardware/virtual ports, transforms channels/CCs, monitors raw bytes and SysEx, and records MIDI streams with timestamps.
 
