@@ -4389,7 +4389,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Tournament Bracket** _(stub, awaits wire-up)_: Bracket builder and tracker covering single/double elimination, Swiss, round-robin, and GSL formats. Pulls live results from Challonge, Start.gg, and Liquipedia, and produces seedings, tiebreak reports, and prize splits.
 
-- ⬜ **Scrim Scheduler** _(planned)_: Roster, availability, and scrim-block scheduler with timezone-aware slots, opponent contact log, and post-scrim review checklists. Links scrim sessions to VOD index entries and draft logs.
+- ✅ **Scrim Scheduler** _(stub, awaits wire-up)_: Roster, availability, and scrim-block scheduler with timezone-aware slots, opponent contact log, and post-scrim review checklists. Links scrim sessions to VOD index entries and draft logs.
 
 - ⬜ **Coach Telestrator** _(planned)_: Drawing and annotation layer over paused VOD frames or live spectator feeds, with arrow, zone, and timing-marker tools. Exports annotated frame sequences as study packets for players.
 
