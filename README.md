@@ -1995,7 +1995,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sequential Lens Designer** _(stub, awaits wire-up)_: Sequential ray-tracing workbench for multi-element lens systems with surface editor, real ray and paraxial trace, spot diagrams, MTF, field curvature, distortion, and damped-least-squares optimization against user merit functions. AI-integrated starting-point synthesis from specs (focal length, f-number, field, wavelength band).
 
-- ⬜ **Non-Sequential Ray Tracer** _(planned)_: Monte Carlo ray tracer for illumination, stray light, lightguides, and TIR optics with arbitrary CAD geometry, source models (point, extended, IES/LDT), BSDF surfaces, and detector irradiance/intensity maps.
+- ✅ **Non-Sequential Ray Tracer** _(stub, awaits wire-up)_: Monte Carlo ray tracer for illumination, stray light, lightguides, and TIR optics with arbitrary CAD geometry, source models (point, extended, IES/LDT), BSDF surfaces, and detector irradiance/intensity maps.
 
 - ⬜ **Gaussian Beam Propagator** _(planned)_: ABCD matrix propagation for Gaussian beams through arbitrary element chains, computing waist, divergence, Rayleigh range, mode matching, and astigmatism. Plots beam radius and phase along the optical axis with interactive element drag.
 
