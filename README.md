@@ -801,7 +801,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Comfort Analyzer** _(stub, awaits wire-up)_: Motion-sickness predictor that scores a recorded locomotion clip on optical flow magnitude, vection, unexpected yaw/pitch, frame-time stability, and acceleration profile. Flags offending segments on a timeline with suggested fixes (vignette, snap-turn, reduced FOV).
 
-- ⬜ **360 Video Studio** _(planned)_: Viewer and light editor for equirectangular, cubemap, and VR180 footage with stereo pair alignment, seam blending, stabilization, and overlay tracks (subtitles, hotspots). Exports to MP4, MKV, and a WebXR-ready package.
+- ✅ **360 Video Studio** _(stub, awaits wire-up)_: Viewer and light editor for equirectangular, cubemap, and VR180 footage with stereo pair alignment, seam blending, stabilization, and overlay tracks (subtitles, hotspots). Exports to MP4, MKV, and a WebXR-ready package.
 
 - ⬜ **Hand Pose Authoring** _(planned)_: Design and record per-finger grip, pinch, point, and ASL-style poses against a skeletal rig, with blend trees between poses and a recognizer that fires events on match. Supports OpenXR hand-tracking joint conventions.
 
