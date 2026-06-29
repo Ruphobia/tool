@@ -1093,7 +1093,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Resource and capacity planner** _(stub, awaits wire-up)_: Per-person availability calendar with PTO, on-call, and meeting load, overlaid against committed work to expose over- and under-allocation. Plans across a quarter at team-resolution and per-week at individual-resolution.
 
-- ⬜ **Workflow designer** _(planned)_: State-machine editor for ticket lifecycles, with per-state required fields, transition guards, and automation hooks (assign on transition, post to channel, open follow-up). Workflows are versioned and applicable per project.
+- ✅ **Workflow designer** _(stub, awaits wire-up)_: State-machine editor for ticket lifecycles, with per-state required fields, transition guards, and automation hooks (assign on transition, post to channel, open follow-up). Workflows are versioned and applicable per project.
 
 - ⬜ **Meeting notes and action extractor** _(planned)_: Notes surface with agenda, attendees, and timestamped sections, accepting pasted or recorded transcripts. AI-integrated extraction lifts action items, owners, due dates, and decisions into tickets and the decision log.
 
