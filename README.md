@@ -3202,7 +3202,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Precinct-to-district joiner** _(stub, awaits wire-up)_: Disaggregates precinct-level election returns to census blocks via population weights, then reaggregates to arbitrary district plans, with reconciliation reports for split precincts and missing returns.
 
-- ⬜ **Survey weighting designer** _(planned)_: Applies design weights, raking (anesrake-style iterative proportional fitting), post-stratification, and trimming against population targets, and reports effective sample size, design effect, and weight distribution diagnostics.
+- ✅ **Survey weighting designer** _(stub, awaits wire-up)_: Applies design weights, raking (anesrake-style iterative proportional fitting), post-stratification, and trimming against population targets, and reports effective sample size, design effect, and weight distribution diagnostics.
 
 - ⬜ **MRP estimator** _(planned)_: Fits multilevel regression and post-stratification models for small-area opinion estimation, accepting individual survey responses plus a post-stratification frame, and returning area-level estimates with credible intervals.
 
