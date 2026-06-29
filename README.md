@@ -4373,7 +4373,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Patch Diff** _(stub, awaits wire-up)_: Patch-note differ that ingests official changelogs, datamines, and balance spreadsheets, then produces a structured diff of stats, abilities, and items. AI explainer translates raw stat deltas into projected meta impact with cited prior patches.
 
-- ⬜ **Meta Tracker** _(planned)_: Time-series tracker for character/deck/strategy pick and win rates across regions and ranks. Detects emergent strategies via change-point analysis and tags them to specific patches or tournament events.
+- ✅ **Meta Tracker** _(stub, awaits wire-up)_: Time-series tracker for character/deck/strategy pick and win rates across regions and ranks. Detects emergent strategies via change-point analysis and tags them to specific patches or tournament events.
 
 - ⬜ **Scenario Builder** _(planned)_: Training-room scenario authoring with state snapshots, scripted bot behaviors, and pass/fail conditions for combos, kill confirms, or boss patterns. Exports to in-game training mode formats where supported and to a local repeatable harness otherwise.
 
