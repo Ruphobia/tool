@@ -4235,7 +4235,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Costume and Wig Tracker** _(stub, awaits wire-up)_: Builds the change plot per actor per scene, flags quick changes shorter than the available stage time, and tracks fittings, dressers assigned, laundry runs, and wig dressing appointments.
 
-- ⬜ **Calling Script Formatter** _(planned)_: Annotates the prompt book with standby, warn, go, and follow markers, plus channel and spot callouts, inline against the script PDF for the stage manager to call the show from.
+- ✅ **Calling Script Formatter** _(stub, awaits wire-up)_: Annotates the prompt book with standby, warn, go, and follow markers, plus channel and spot callouts, inline against the script PDF for the stage manager to call the show from.
 
 - ⬜ **Paperwork Generator** _(planned)_: Generates channel hookup, instrument schedule, magic sheet, dimmer/circuit report, gel cut list, gobo order, and focus chart from the plot data in the Lightwright lineage.
 
