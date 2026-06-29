@@ -1675,7 +1675,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Stemma Codicum Builder** _(stub, awaits wire-up)_: Constructs and visualizes manuscript transmission trees using Lachmannian errors, phylogenetic methods (PAUP, NeighborNet), and contamination-aware networks. Lets the user pin known archetypes and hyparchetypes, then propagates implied relationships.
 
-- ⬜ **Parallel Versions Browser** _(planned)_: Aligns MT, LXX (Rahlfs and Göttingen), Vulgate, Peshitta, Targumim, and SP at verse and word level with synchronized scrolling. Surfaces quantitative and qualitative differences and links to underlying manuscript witnesses.
+- ✅ **Parallel Versions Browser** _(stub, awaits wire-up)_: Aligns MT, LXX (Rahlfs and Göttingen), Vulgate, Peshitta, Targumim, and SP at verse and word level with synchronized scrolling. Surfaces quantitative and qualitative differences and links to underlying manuscript witnesses.
 
 - ⬜ **Scribal Hand Classifier** _(planned)_: Identifies and clusters scribal hands across folios using AI-assisted paleographic feature extraction (letter morphology, ductus, ligature inventory). Outputs dated comparisons against the Schøyen, BL Digitised Manuscripts, and Vatican reference corpora.
 
