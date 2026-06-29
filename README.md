@@ -3380,7 +3380,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Photogrammetry pipeline** _(stub, awaits wire-up)_: Builds 3D models of fossils, artifacts, trenches, and rock-art panels from photo sets using SfM/MVS with scale-bar and coded-target detection. Outputs textured meshes, orthophotos, and DEMs compatible with MeshLab and CloudCompare.
 
-- ⬜ **Mesh reconstruction lab** _(planned)_: Repairs, retopologizes, mirrors, and digitally rearticulates 3D fossil scans; segments matrix from bone, fills missing elements from bilateral counterparts, and aligns fragments via ICP. AI-integrated landmark suggestion seeds the alignment from comparable taxa.
+- ✅ **Mesh reconstruction lab** _(stub, awaits wire-up)_: Repairs, retopologizes, mirrors, and digitally rearticulates 3D fossil scans; segments matrix from bone, fills missing elements from bilateral counterparts, and aligns fragments via ICP. AI-integrated landmark suggestion seeds the alignment from comparable taxa.
 
 - ⬜ **Geometric morphometrics** _(planned)_: Performs Procrustes superimposition, PCA, CVA, and thin-plate-spline warps on 2D/3D landmark and semi-landmark configurations. Imports TPS and Morphologika files and outputs deformation grids and disparity plots.
 
