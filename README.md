@@ -3731,7 +3731,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Node Compositor** _(stub, awaits wire-up)_: Nuke-style node graph compositor supporting EXR multilayer, deep compositing, premultiplication-correct merges, color management via OCIO, and animated reads. Renders out tiles in parallel with disk-backed caches.
 
-- ⬜ **Rotoscope Studio** _(planned)_: Frame-by-frame matte authoring with planar tracker assisted Bezier splines, motion-blur aware edges, and per-feather animation. AI mask propagation between sparse keyframes using a local segmentation model.
+- ✅ **Rotoscope Studio** _(stub, awaits wire-up)_: Frame-by-frame matte authoring with planar tracker assisted Bezier splines, motion-blur aware edges, and per-feather animation. AI mask propagation between sparse keyframes using a local segmentation model.
 
 - ⬜ **Render Farm Dispatcher** _(planned)_: Local-first job scheduler that distributes Cycles, LuxCore, Arnold-CLI, Mantra, or custom render jobs across machines on the LAN, with per-frame retries, tile assembly, and live thumbnail preview.
 
