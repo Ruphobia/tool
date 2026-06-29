@@ -2392,7 +2392,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pipe friction calculator** _(stub, awaits wire-up)_: Solves the Colebrook-White equation iteratively (and Swamee-Jain explicit form) for friction factor given Reynolds number and relative roughness. Cross-checks against Hazen-Williams and Manning, with a roughness library for new and aged ductile iron, PVC, HDPE, concrete, and lined steel.
 
-- ⬜ **Pump curve matcher** _(planned)_: Plots manufacturer H-Q curves against system curves to find operating point, NPSH margin, and BEP distance. Handles parallel/series pumping, variable-speed (affinity laws), and wire-to-water efficiency; AI-integrated pump shortlist from a head/flow/duty target and a vendor catalog.
+- ✅ **Pump curve matcher** _(stub, awaits wire-up)_: Plots manufacturer H-Q curves against system curves to find operating point, NPSH margin, and BEP distance. Handles parallel/series pumping, variable-speed (affinity laws), and wire-to-water efficiency; AI-integrated pump shortlist from a head/flow/duty target and a vendor catalog.
 
 - ⬜ **Open channel flow tool** _(planned)_: Manning's and Chezy solver for trapezoidal, circular, rectangular, and irregular cross-sections. Computes normal depth, critical depth, Froude number, and gradually-varied-flow profiles (M1/M2/S1/S2) for storm and sanitary conduits.
 
