@@ -4141,7 +4141,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Grading Guide** _(stub, awaits wire-up)_: Side-by-side reference plates for major grading standards (Sheldon 1-70 for coins, PSE/PF for stamps, PMG for paper money) with annotated wear points. Guides user through a grading interview and produces a defensible grade with notes.
 
-- ⬜ **Mint Mark and Variety Tracker** _(planned)_: Database of mint marks, die varieties, double dies, RPMs, overdates, plate flaws, and printing varieties keyed to catalog numbers. Flags collectible varieties versus errors versus PMD on a submitted specimen.
+- ✅ **Mint Mark and Variety Tracker** _(stub, awaits wire-up)_: Database of mint marks, die varieties, double dies, RPMs, overdates, plate flaws, and printing varieties keyed to catalog numbers. Flags collectible varieties versus errors versus PMD on a submitted specimen.
 
 - ⬜ **Hallmark and Purity Decoder** _(planned)_: Reference for silver, gold, platinum, and pewter hallmarks across jurisdictions (Britannia, Sheffield assay, French poincon, Russian zolotnik, US sterling). Decodes maker, assay office, date letter, and fineness from struck marks.
 
