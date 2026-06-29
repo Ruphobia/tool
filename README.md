@@ -2023,7 +2023,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Radiometry Photometry Bench** _(stub, awaits wire-up)_: Converts between radiometric and photometric quantities (radiance, irradiance, luminance, illuminance, candela, lumen) under arbitrary spectra and observer functions; computes throughput, etendue, and source-detector link budgets with cosine and inverse-square geometry.
 
-- ⬜ **Color Science Workbench** _(planned)_: Spectral-to-tristimulus pipeline for CIE 1931/2015 observers, chromaticity diagrams, CCT and CRI/TM-30, chromatic adaptation, ICC profile inspection, and rendering of arbitrary illuminant-reflectance-observer products.
+- ✅ **Color Science Workbench** _(stub, awaits wire-up)_: Spectral-to-tristimulus pipeline for CIE 1931/2015 observers, chromaticity diagrams, CCT and CRI/TM-30, chromatic adaptation, ICC profile inspection, and rendering of arbitrary illuminant-reflectance-observer products.
 
 - ⬜ **Spectrometer Designer** _(planned)_: Designs and analyzes Czerny-Turner, Echelle, Offner, and FT spectrometers, predicting spectral range, resolution, throughput, and stray light from grating, slit, detector, and folding-mirror choices. AI-integrated suggestion of layout topology from target resolving power and spectral band.
 
