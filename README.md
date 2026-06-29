@@ -3064,7 +3064,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **LIMS and sample tracker** _(stub, awaits wire-up)_: Tracks isolates, strains, plates, freezer boxes, passages, and chain of custody with barcode and QR generation, audit trails, and BioSample/SRA submission manifests.
 
-- ⬜ **Lab protocol and ELN** _(planned)_: Authors and runs protocols with step timers, reagent inventory deduction, instrument metadata capture, and signed read-only snapshots for compliance and reproducibility.
+- ✅ **Lab protocol and ELN** _(stub, awaits wire-up)_: Authors and runs protocols with step timers, reagent inventory deduction, instrument metadata capture, and signed read-only snapshots for compliance and reproducibility.
 
 - ⬜ **Outbreak and transmission tracker** _(planned)_: Integrates strain typing, geocoded metadata, and timed phylogenies via Nextstrain or BEAST to infer transmission chains, R_e, and introduction events.
 
