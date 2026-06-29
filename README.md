@@ -3042,7 +3042,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Flow cytometry workbench** _(stub, awaits wire-up)_: Loads FCS files, applies compensation, transforms (logicle, arcsinh), gates manually or via FlowSOM and UMAP, and exports population statistics and publication-grade plots.
 
-- ⬜ **Growth curve plotter** _(planned)_: Imports plate reader OD or fluorescence time series, fits Gompertz, logistic, and Baranyi models, and reports lag time, max growth rate, carrying capacity, and AUC with blank subtraction and outlier removal.
+- ✅ **Growth curve plotter** _(stub, awaits wire-up)_: Imports plate reader OD or fluorescence time series, fits Gompertz, logistic, and Baranyi models, and reports lag time, max growth rate, carrying capacity, and AUC with blank subtraction and outlier removal.
 
 - ⬜ **MIC and antibiogram analyzer** _(planned)_: Computes MIC50, MIC90, and susceptibility distributions from broth or disk diffusion data, applies EUCAST or CLSI breakpoints, and renders cumulative antibiograms and resistance trend dashboards.
 
