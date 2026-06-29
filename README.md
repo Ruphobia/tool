@@ -1673,7 +1673,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Ancient texts and manuscript studies
 
-- ⬜ **Stemma Codicum Builder** _(planned)_: Constructs and visualizes manuscript transmission trees using Lachmannian errors, phylogenetic methods (PAUP, NeighborNet), and contamination-aware networks. Lets the user pin known archetypes and hyparchetypes, then propagates implied relationships.
+- ✅ **Stemma Codicum Builder** _(stub, awaits wire-up)_: Constructs and visualizes manuscript transmission trees using Lachmannian errors, phylogenetic methods (PAUP, NeighborNet), and contamination-aware networks. Lets the user pin known archetypes and hyparchetypes, then propagates implied relationships.
 
 - ⬜ **Parallel Versions Browser** _(planned)_: Aligns MT, LXX (Rahlfs and Göttingen), Vulgate, Peshitta, Targumim, and SP at verse and word level with synchronized scrolling. Surfaces quantitative and qualitative differences and links to underlying manuscript witnesses.
 
