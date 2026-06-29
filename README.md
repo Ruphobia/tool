@@ -2302,7 +2302,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Thermal network solver** _(stub, awaits wire-up)_: Builds and solves nodal RC networks for conduction, convection, and radiation with temperature-dependent properties. Supports steady-state and transient runs with view-factor coupling for radiative branches.
 
-- ⬜ **Psychrometric calculator** _(planned)_: Evaluates moist-air states (T, RH, w, h, dew point, wet bulb) and plots processes on a psychrometric chart. Sizes coils, humidifiers, and evaporative coolers from inlet/outlet state pairs.
+- ✅ **Psychrometric calculator** _(stub, awaits wire-up)_: Evaluates moist-air states (T, RH, w, h, dew point, wet bulb) and plots processes on a psychrometric chart. Sizes coils, humidifiers, and evaporative coolers from inlet/outlet state pairs.
 
 - ⬜ **Insulation thickness optimizer** _(planned)_: Finds economic insulation thickness for pipes, vessels, and walls from heat loss, energy cost, and capital cost. Checks surface temperature, condensation risk, and personnel protection limits.
 
