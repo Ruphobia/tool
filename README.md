@@ -2593,7 +2593,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Panel Method Studio** _(stub, awaits wire-up)_: 2D and 2.5D source-doublet panel method with linear-strength panels, Kutta condition enforcement, and wake relaxation. Visualizes panel-by-panel velocity, vorticity, and influence coefficients for teaching and debugging.
 
-- ⬜ **Vortex Lattice Method** _(planned)_: AVL-style 3D VLM for wings, tails, and canards with control surface deflections, dihedral, sweep, and twist. Returns span loading, induced drag, stability derivatives, and trim solutions.
+- ✅ **Vortex Lattice Method** _(stub, awaits wire-up)_: AVL-style 3D VLM for wings, tails, and canards with control surface deflections, dihedral, sweep, and twist. Returns span loading, induced drag, stability derivatives, and trim solutions.
 
 - ⬜ **Lifting Line Analyzer** _(planned)_: Prandtl lifting-line solver with arbitrary planform, taper, twist, and section polars per station. Reports elliptic-comparison efficiency, local Cl distribution, and stall onset station.
 
