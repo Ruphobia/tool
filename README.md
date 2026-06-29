@@ -1347,7 +1347,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Financial Statement Analyzer** _(stub, awaits wire-up)_: Loads 10-K, 10-Q, and 20-F filings or pasted statements, normalizes line items, and computes liquidity, leverage, profitability, efficiency, and valuation ratios across periods; benchmarks against industry medians with AI-integrated commentary on outliers.
 
-- ⬜ **Net Worth Dashboard** _(planned)_: Aggregates assets, liabilities, and unrealized positions from every linked account into a single net-worth time series with attribution by asset class, currency, and account; supports manual entries for illiquid holdings (real estate, private equity, art).
+- ✅ **Net Worth Dashboard** _(stub, awaits wire-up)_: Aggregates assets, liabilities, and unrealized positions from every linked account into a single net-worth time series with attribution by asset class, currency, and account; supports manual entries for illiquid holdings (real estate, private equity, art).
 
 - ⬜ **Subscription Auditor** _(planned)_: Detects recurring charges from transaction history, clusters duplicates and price hikes, estimates annualized spend, and suggests cancellations ranked by cost-per-use. Flags free-trial conversions and anniversary renewal windows.
 
