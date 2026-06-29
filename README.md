@@ -2666,7 +2666,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **RF filter designer** _(stub, awaits wire-up)_: Synthesizes lumped LC, microstrip, stripline, helical, and SAW filters with Butterworth, Chebyshev, elliptic, Bessel, and Gaussian responses. Outputs schematic, layout estimate, and Touchstone S-parameters for cascade simulation.
 
-- ⬜ **Touchstone viewer** _(planned)_: Loads .s1p through .s4p files and plots magnitude, phase, group delay, Smith, and polar. Cascades networks, de-embeds fixtures, converts between S, Y, Z, T, and ABCD, and exports back to Touchstone or CITI.
+- ✅ **Touchstone viewer** _(stub, awaits wire-up)_: Loads .s1p through .s4p files and plots magnitude, phase, group delay, Smith, and polar. Cascades networks, de-embeds fixtures, converts between S, Y, Z, T, and ABCD, and exports back to Touchstone or CITI.
 
 - ⬜ **Spectrum analyzer console** _(planned)_: Drives RTL-SDR, HackRF, Airspy, USRP, LimeSDR, and PlutoSDR for live FFT, waterfall, peak table, occupied bandwidth, ACPR, and channel power. Records sweeps for long-term band-occupancy studies.
 
