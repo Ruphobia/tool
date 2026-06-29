@@ -944,7 +944,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Secret Sharing Bench** _(stub, awaits wire-up)_: Splits secrets via Shamir's Secret Sharing and verifiable variants (Feldman, Pedersen) with configurable threshold and field. Reassembles shares from QR, mnemonics, or hex with corruption detection.
 
-- ⬜ **Mnemonic & HD Wallet Studio** _(planned)_: Generates and parses BIP39/SLIP39 mnemonics, derives BIP32/BIP44/BIP84/BIP86 paths across coins, and exports xpub/xprv. Validates passphrase variants, surfaces address gaps, and detects path collisions across wallets.
+- ✅ **Mnemonic & HD Wallet Studio** _(stub, awaits wire-up)_: Generates and parses BIP39/SLIP39 mnemonics, derives BIP32/BIP44/BIP84/BIP86 paths across coins, and exports xpub/xprv. Validates passphrase variants, surfaces address gaps, and detects path collisions across wallets.
 
 - ⬜ **Address Toolkit** _(planned)_: Encodes and decodes Bitcoin (P2PKH, P2SH, bech32, taproot), Ethereum (EIP-55, ENS), Solana, Cosmos bech32, and Monero address formats. Validates checksums, reverses to underlying script or public key, and flags vanity patterns.
 
