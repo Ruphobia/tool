@@ -4439,7 +4439,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **NEC wire and conduit sizer** _(stub, awaits wire-up)_: Sizes branch and feeder conductors per NEC 310 ampacity tables with derating for ambient temperature, raceway fill, and continuous-load factor; cross-checks voltage drop over the run and conduit fill per Chapter 9 tables 4 and 5.
 
-- ⬜ **Service panel load calculator** _(planned)_: Runs NEC Article 220 standard and optional-method dwelling load calculations, including 240V appliance branches, EV charger, heat pump, and PV backfeed; sizes the service entrance conductor and main breaker.
+- ✅ **Service panel load calculator** _(stub, awaits wire-up)_: Runs NEC Article 220 standard and optional-method dwelling load calculations, including 240V appliance branches, EV charger, heat pump, and PV backfeed; sizes the service entrance conductor and main breaker.
 
 - ⬜ **Motor and HVAC circuit sizer** _(planned)_: Computes MCA, MOCP, disconnect, and overload sizing for compressors and motors per NEC 430/440, using nameplate FLA/RLA/LRA and the appropriate code factors.
 
