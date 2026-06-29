@@ -1605,7 +1605,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Critical apparatus builder** _(stub, awaits wire-up)_: Collates variant readings across witnesses and generates a positive or negative critical apparatus. Supports stemma codicum visualization and conjectural emendation tracking.
 
-- ⬜ **IIIF workspace** _(planned)_: Loads IIIF manifests from any compliant repository, supports deep zoom, multi-image comparison in a Mirador-style grid, and persists annotations as W3C Web Annotations linked to canvases.
+- ✅ **IIIF workspace** _(stub, awaits wire-up)_: Loads IIIF manifests from any compliant repository, supports deep zoom, multi-image comparison in a Mirador-style grid, and persists annotations as W3C Web Annotations linked to canvases.
 
 - ⬜ **Archival finding-aid browser** _(planned)_: Parses and navigates EAD3 finding aids and EAC-CPF authority records. Renders the hierarchical fonds/series/file/item tree with scope notes and links to digital surrogates.
 
