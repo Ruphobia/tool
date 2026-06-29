@@ -3700,7 +3700,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Focus Stacker** _(stub, awaits wire-up)_: Aligns a bracketed focus series with subpixel registration, fuses by maximum local contrast or depth-map weighting, retouches halos and motion artifacts, and outputs a single deep-focus frame with optional depth pass.
 
-- ⬜ **HDR Merger** _(planned)_: Aligns and combines bracketed exposures into a 32-bit float radiance map, deghosts moving elements, and tone-maps via global (Reinhard, Drago) or local (Mantiuk, Durand) operators with controllable contrast preservation.
+- ✅ **HDR Merger** _(stub, awaits wire-up)_: Aligns and combines bracketed exposures into a 32-bit float radiance map, deghosts moving elements, and tone-maps via global (Reinhard, Drago) or local (Mantiuk, Durand) operators with controllable contrast preservation.
 
 - ⬜ **Color Grading Suite** _(planned)_: Node-based grading with lift/gamma/gain wheels, log/linear curves, qualifier-driven secondaries, scopes (waveform, vectorscope, parade, histogram), and ACES/Rec.709/Rec.2020 working spaces. Renders to ProRes and DNxHR.
 
