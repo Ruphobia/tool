@@ -1691,7 +1691,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Patristic Citation Tracer** _(stub, awaits wire-up)_: Indexes scriptural and classical citations inside Church Fathers, rabbinic literature, and medieval florilegia. Links each citation back to candidate textual forms and helps date or localize textual variants by their reception.
 
-- ⬜ **Orthographic Normalizer** _(planned)_: Normalizes itacism, iotacism, scriptio continua, nu-movable, plene/defective spellings, and matres lectionis without destroying the diplomatic transcription. Keeps a reversible mapping layer so collation can run on normalized forms while display preserves the original.
+- ✅ **Orthographic Normalizer** _(stub, awaits wire-up)_: Normalizes itacism, iotacism, scriptio continua, nu-movable, plene/defective spellings, and matres lectionis without destroying the diplomatic transcription. Keeps a reversible mapping layer so collation can run on normalized forms while display preserves the original.
 
 - ⬜ **Lectionary and Pericope Mapper** _(planned)_: Maps Gospel, Pauline, prophetologion, and synagogue lectionary cycles to the source texts they cite. Resolves incipit/explicit boundaries and reconciles Byzantine, Jerusalem, and Coptic liturgical orders.
 
