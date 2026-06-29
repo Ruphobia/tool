@@ -4492,7 +4492,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Regulation Lookup** _(stub, awaits wire-up)_: Searches current statutes, bag limits, slot limits, weapon restrictions, and county exceptions across US, Canadian, and selected international jurisdictions. AI parses the official regs PDF and cites the rule paragraph; manual overrides flagged when local ordinances diverge.
 
-- ⬜ **Hunt and Catch Log** _(planned)_: Records each outing with GPS waypoint, species, weight, length, sex, weapon or tackle, conditions, and geotagged photos. Supports voice memos in the field, EXIF backfill, and CSV or GPX export for season summaries.
+- ✅ **Hunt and Catch Log** _(stub, awaits wire-up)_: Records each outing with GPS waypoint, species, weight, length, sex, weapon or tackle, conditions, and geotagged photos. Supports voice memos in the field, EXIF backfill, and CSV or GPX export for season summaries.
 
 - ⬜ **Trail-Cam Image Manager** _(planned)_: Ingests SD card dumps and deduplicates burst sequences, then runs on-device vision to tag species, sex, antler points, and individual deer by tine pattern. Time-of-day heatmaps and travel-corridor inference per camera location.
 
