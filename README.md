@@ -555,7 +555,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Trace and profiler** _(stub, awaits wire-up)_: Captures ETM/ITM and Tracealyzer-style event streams with CPU load, ISR latency, and context-switch timelines. Highlights priority inversions and lock contention.
 
-- ⬜ **Power profiler** _(planned)_: Streams from Nordic PPK2, Joulescope, Otii, and INA-based shunts to plot current versus firmware state with sleep-mode classification. AI-integrated correlation of current spikes to source lines via timestamped markers.
+- ✅ **Power profiler** _(stub, awaits wire-up)_: Streams from Nordic PPK2, Joulescope, Otii, and INA-based shunts to plot current versus firmware state with sleep-mode classification. AI-integrated correlation of current spikes to source lines via timestamped markers.
 
 - ⬜ **Peripheral simulator** _(planned)_: Renode and QEMU-backed virtual board runner with scriptable peripheral models for sensors, displays, and radios. Lets firmware run on CI without hardware and replays captured bus traffic into the virtual peripherals.
 
