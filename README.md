@@ -3046,7 +3046,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **MIC and antibiogram analyzer** _(stub, awaits wire-up)_: Computes MIC50, MIC90, and susceptibility distributions from broth or disk diffusion data, applies EUCAST or CLSI breakpoints, and renders cumulative antibiograms and resistance trend dashboards.
 
-- ⬜ **Plaque and CFU counter** _(planned)_: Counts plaques, colonies, and zones of inhibition from plate photos with shape and intensity filters, edge artifact rejection, and dilution series back-calculation to titer.
+- ✅ **Plaque and CFU counter** _(stub, awaits wire-up)_: Counts plaques, colonies, and zones of inhibition from plate photos with shape and intensity filters, edge artifact rejection, and dilution series back-calculation to titer.
 
 - ⬜ **Restriction and cloning planner** _(planned)_: Searches for restriction sites, plans isocaudomer swaps, simulates digests, ligations, Gateway, and TOPO reactions, and predicts agarose gel band patterns.
 
