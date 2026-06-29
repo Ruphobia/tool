@@ -1974,7 +1974,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **RF design suite** _(stub, awaits wire-up)_: Smith chart, matching-network synthesis, microstrip and stripline calculators, S-parameter math, and Touchstone file viewer. AI-integrated suggestion of matching topology from a measured complex impedance.
 
-- ⬜ **Antenna designer** _(planned)_: Method-of-moments and FDTD solvers for wire, patch, and PCB-trace antennas with VSWR, radiation pattern, gain, and efficiency plots. Templates for common ISM-band designs.
+- ✅ **Antenna designer** _(stub, awaits wire-up)_: Method-of-moments and FDTD solvers for wire, patch, and PCB-trace antennas with VSWR, radiation pattern, gain, and efficiency plots. Templates for common ISM-band designs.
 
 - ⬜ **Magnetics designer** _(planned)_: Sizing and winding calculator for inductors, transformers, common-mode chokes, and flyback transformers with core-loss and saturation modeling. Pulls AL and saturation curves from a vendored ferrite database.
 
