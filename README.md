@@ -4200,7 +4200,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pricing and Session Planner** _(stub, awaits wire-up)_: Estimates session count and pricing from design dimensions, detail density, and placement difficulty, with hourly versus piece-rate modes. Schedules touch-up windows aligned to expected healing time.
 
-- ⬜ **Removal and Cover-Up Planner** _(planned)_: Predicts laser fade response per ink color and Fitzpatrick type, recommends session counts and wavelengths, and overlays candidate cover-up designs on the existing piece. Models residual ghosting for darker cover artwork.
+- ✅ **Removal and Cover-Up Planner** _(stub, awaits wire-up)_: Predicts laser fade response per ink color and Fitzpatrick type, recommends session counts and wavelengths, and overlays candidate cover-up designs on the existing piece. Models residual ghosting for darker cover artwork.
 
 
 #### Performing arts: theater, sound, lighting, stage
