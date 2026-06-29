@@ -1050,7 +1050,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Equation editor** _(stub, awaits wire-up)_: LaTeX and MathML equation editor with a palette, live preview, numbered references, and inline rendering in documents, slides, and notes. AI-integrated conversion from a natural-language description of an expression.
 
-- ⬜ **Mail merge** _(planned)_: Template-plus-dataset engine that produces per-recipient documents, PDFs, labels, envelopes, and email sends. Supports conditional sections and per-field formatters.
+- ✅ **Mail merge** _(stub, awaits wire-up)_: Template-plus-dataset engine that produces per-recipient documents, PDFs, labels, envelopes, and email sends. Supports conditional sections and per-field formatters.
 
 - ⬜ **OCR scanner** _(planned)_: Image and PDF to searchable text with layout preservation, table extraction to CSV, language detection, and handwriting recognition for scanned notebooks.
 
