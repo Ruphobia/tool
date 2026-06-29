@@ -1646,7 +1646,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Paleographic OCR** _(stub, awaits wire-up)_: Transcribes scanned manuscripts, papyri, ostraca, and inscriptions using script-specific models for uncial, minuscule, square Hebrew, Demotic, Greek majuscule, and Latin cursive hands. Outputs Unicode plus diplomatic XML with confidence heatmaps over the glyph image.
 
-- ⬜ **Cuneiform Sign Reader** _(planned)_: Identifies cuneiform signs from photographs and hand-copies, returning sign list numbers (MZL, LAK, ePSD), readings, and period (Old Babylonian, Neo-Assyrian, Ur III). Supports both Akkadian syllabic and Sumerian logographic interpretations with normalization.
+- ✅ **Cuneiform Sign Reader** _(stub, awaits wire-up)_: Identifies cuneiform signs from photographs and hand-copies, returning sign list numbers (MZL, LAK, ePSD), readings, and period (Old Babylonian, Neo-Assyrian, Ur III). Supports both Akkadian syllabic and Sumerian logographic interpretations with normalization.
 
 - ⬜ **Hieroglyph Composer** _(planned)_: Builds Egyptian hieroglyphic text using Gardiner sign codes with quadrant layout (JSesh-style), Manuel de Codage input, and reverse search by shape. Renders vertical or horizontal, right-to-left or left-to-right, with transliteration and translation pairing.
 
