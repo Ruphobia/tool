@@ -1216,7 +1216,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sensitivity and bias reader** _(stub, awaits wire-up)_: Flags stereotypes, slurs, dated terminology, and representation gaps in cast and sourcing. AI-integrated rationale links to a citable style or community reference rather than issuing a verdict; suppression and override rules per project.
 
-- ⬜ **Anachronism checker** _(planned)_: Cross-references vocabulary, named entities, technologies, and brand mentions against the story's stated period or setting. Flags terms postdating the era using etymology and product-launch data from vendored Wiktionary and reference dumps.
+- ✅ **Anachronism checker** _(stub, awaits wire-up)_: Cross-references vocabulary, named entities, technologies, and brand mentions against the story's stated period or setting. Flags terms postdating the era using etymology and product-launch data from vendored Wiktionary and reference dumps.
 
 - ⬜ **Manuscript typesetter** _(planned)_: LaTeX and Pandoc backed page layout with running heads, drop caps, microtype, ligature handling, widow and orphan control, and CMYK or grayscale output. Produces press-ready PDF, accessible EPUB, and reflowable HTML from one source.
 
