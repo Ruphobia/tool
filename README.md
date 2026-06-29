@@ -1511,7 +1511,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Lab and Method Comparator** _(stub, awaits wire-up)_: Side-by-side matrix of methods, datasets, hyperparameters, metrics, and reported results extracted from selected papers. Highlights inconsistencies, missing ablations, and benchmark contamination risks.
 
-- ⬜ **Peer-Review Reading Queue** _(planned)_: Prioritized queue with SLA timers, conflict-of-interest checks against the user's coauthor graph, and per-section comment drafting. Includes a reviewer-style checklist generator tuned to the venue's guidelines.
+- ✅ **Peer-Review Reading Queue** _(stub, awaits wire-up)_: Prioritized queue with SLA timers, conflict-of-interest checks against the user's coauthor graph, and per-section comment drafting. Includes a reviewer-style checklist generator tuned to the venue's guidelines.
 
 - ⬜ **Journal Impact and Predatory Flag** _(planned)_: Combines JIF, SJR, SNIP, h5-index, and OpenAlex venue stats with predatory-publisher lists (Beall successor lists, DOAJ status, OASPA membership). Flags suspect APC patterns, fake metric badges, and hijacked-journal lookalikes.
 
