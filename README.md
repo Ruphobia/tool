@@ -3607,7 +3607,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pose and depth extractor** _(stub, awaits wire-up)_: Runs OpenPose, DWPose, MiDaS, ZoeDepth, and normal map estimators to produce ControlNet conditioning maps. Visualizes overlays and saves the maps as reusable assets.
 
-- ⬜ **Tagger and captioner** _(planned)_: Image-to-text via WD14, BLIP, BLIP2, and a local VLM, producing booru tags, natural captions, and dense region descriptions. Writes results to sidecar files and the asset metadata store.
+- ✅ **Tagger and captioner** _(stub, awaits wire-up)_: Image-to-text via WD14, BLIP, BLIP2, and a local VLM, producing booru tags, natural captions, and dense region descriptions. Writes results to sidecar files and the asset metadata store.
 
 - ⬜ **Visual search** _(planned)_: CLIP/SigLIP embedding index over the local image library with text and image queries, duplicate detection, and near-duplicate clustering. Returns ranked thumbnails with similarity scores.
 
