@@ -1237,7 +1237,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Rubric Builder** _(stub, awaits wire-up)_: Constructs analytic and holistic rubrics as criterion-by-level matrices with point weights and descriptor cells. Includes AI-integrated descriptor expansion from a single anchor phrase per cell.
 
-- ⬜ **Autograder** _(planned)_: Grades free-text, math, and code submissions against a rubric or reference solution, returning per-criterion scores, rationale, and partial credit. Sandboxes code execution with configurable test harnesses.
+- ✅ **Autograder** _(stub, awaits wire-up)_: Grades free-text, math, and code submissions against a rubric or reference solution, returning per-criterion scores, rationale, and partial credit. Sandboxes code execution with configurable test harnesses.
 
 - ⬜ **Plagiarism Checker** _(planned)_: Scores passage-level similarity against a local corpus and optional web sources using n-gram and embedding methods. Reports matched spans, sources, and a paraphrase-likelihood signal.
 
