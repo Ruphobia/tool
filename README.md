@@ -3044,7 +3044,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Growth curve plotter** _(stub, awaits wire-up)_: Imports plate reader OD or fluorescence time series, fits Gompertz, logistic, and Baranyi models, and reports lag time, max growth rate, carrying capacity, and AUC with blank subtraction and outlier removal.
 
-- ⬜ **MIC and antibiogram analyzer** _(planned)_: Computes MIC50, MIC90, and susceptibility distributions from broth or disk diffusion data, applies EUCAST or CLSI breakpoints, and renders cumulative antibiograms and resistance trend dashboards.
+- ✅ **MIC and antibiogram analyzer** _(stub, awaits wire-up)_: Computes MIC50, MIC90, and susceptibility distributions from broth or disk diffusion data, applies EUCAST or CLSI breakpoints, and renders cumulative antibiograms and resistance trend dashboards.
 
 - ⬜ **Plaque and CFU counter** _(planned)_: Counts plaques, colonies, and zones of inhibition from plate photos with shape and intensity filters, edge artifact rejection, and dilution series back-calculation to titer.
 
