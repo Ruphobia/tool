@@ -3095,7 +3095,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Calcium imaging analyzer** _(stub, awaits wire-up)_: Performs NoRMCorre motion correction, CaImAn CNMF source extraction, dF/F trace generation, and spike inference from two-photon and miniscope recordings.
 
-- ⬜ **Pose tracker** _(planned)_: Trains and runs DeepLabCut and SLEAP keypoint models on behavioral video, with bout segmentation, kinematic feature extraction, and frame-level annotation review.
+- ✅ **Pose tracker** _(stub, awaits wire-up)_: Trains and runs DeepLabCut and SLEAP keypoint models on behavioral video, with bout segmentation, kinematic feature extraction, and frame-level annotation review.
 
 - ⬜ **Connectome browser** _(planned)_: Loads DTI tractography, EM-derived synapse graphs, and Allen and FlyWire connectomes; computes graph metrics, traces multi-hop paths, and renders 3D wiring with cell-type filtering.
 
