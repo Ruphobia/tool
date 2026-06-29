@@ -3034,7 +3034,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Docking and binding workbench** _(stub, awaits wire-up)_: Runs AutoDock Vina, DiffDock, or HADDOCK for ligand and protein-protein docking; scores poses and computes interface residues for inhibitor and antibody studies.
 
-- ⬜ **Antibody and epitope mapper** _(planned)_: Numbers antibody sequences (IMGT, Kabat, Chothia, AHo), models Fv structures via ABodyBuilder, and predicts linear and conformational B-cell and T-cell epitopes (BepiPred, DiscoTope, NetMHCpan).
+- ✅ **Antibody and epitope mapper** _(stub, awaits wire-up)_: Numbers antibody sequences (IMGT, Kabat, Chothia, AHo), models Fv structures via ABodyBuilder, and predicts linear and conformational B-cell and T-cell epitopes (BepiPred, DiscoTope, NetMHCpan).
 
 - ⬜ **HLA typer and neoantigen pipeline** _(planned)_: Calls class I and II HLA types from sequencing data via OptiType or arcasHLA and ranks candidate neoepitopes by binding affinity, presentation, and immunogenicity.
 
