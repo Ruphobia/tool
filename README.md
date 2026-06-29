@@ -1830,7 +1830,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Dialect Atlas** _(stub, awaits wire-up)_: Plots lexical, phonetic, and syntactic variants on isogloss maps from datasets like WALS, ASJP, and the Linguistic Atlas Projects. Supports side-by-side regional comparison and clustering by feature similarity.
 
-- ⬜ **Language Identifier** _(planned)_: Detects language and script from short or mixed-language input using n-gram and Unicode-block classifiers, with per-span tagging for code-switching and confidence scores. Bundles offline models for 200+ languages.
+- ✅ **Language Identifier** _(stub, awaits wire-up)_: Detects language and script from short or mixed-language input using n-gram and Unicode-block classifiers, with per-span tagging for code-switching and confidence scores. Bundles offline models for 200+ languages.
 
 - ⬜ **Spectrogram Studio** _(planned)_: Praat-lite audio analyzer with waveform, wide- and narrow-band spectrograms, pitch and intensity tracks, formant overlays, and cursor-driven measurements. Annotates intervals and points on TextGrid tiers.
 
