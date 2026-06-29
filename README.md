@@ -2587,7 +2587,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Cp Plotter** _(stub, awaits wire-up)_: Plots chordwise pressure coefficient distributions for a given alpha and Re, with upper/lower surface separation, sonic line marker, and animated alpha sweep. Overlays multiple airfoils or operating points for direct comparison.
 
-- ⬜ **Boundary Layer Calculator** _(planned)_: Integral boundary-layer solver using Thwaites for laminar regions and Head's or Green's lag-entrainment for turbulent regions, reporting displacement thickness, momentum thickness, shape factor, and skin friction. Flags separation and laminar bubbles along the chord.
+- ✅ **Boundary Layer Calculator** _(stub, awaits wire-up)_: Integral boundary-layer solver using Thwaites for laminar regions and Head's or Green's lag-entrainment for turbulent regions, reporting displacement thickness, momentum thickness, shape factor, and skin friction. Flags separation and laminar bubbles along the chord.
 
 - ⬜ **Transition Predictor** _(planned)_: e^N envelope and database-Tollmien-Schlichting transition estimator that locates the natural transition point on each surface as a function of Ncrit, surface roughness, and pressure gradient. Integrates with the polar solver to refine drag at low Re.
 
