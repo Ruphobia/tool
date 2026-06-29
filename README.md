@@ -2054,7 +2054,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Curve fitter** _(stub, awaits wire-up)_: Nonlinear least-squares, robust, and Bayesian regression with model library, residual diagnostics, and confidence/prediction bands. AI-integrated proposal of candidate functional forms from a scatter plot.
 
-- ⬜ **Statistics workbench** _(planned)_: Descriptive statistics, hypothesis tests, distribution fitting, bootstrap/MCMC, and Bayesian inference with prior/posterior visualization and effect-size reporting.
+- ✅ **Statistics workbench** _(stub, awaits wire-up)_: Descriptive statistics, hypothesis tests, distribution fitting, bootstrap/MCMC, and Bayesian inference with prior/posterior visualization and effect-size reporting.
 
 - ⬜ **Linear algebra studio** _(planned)_: Matrix entry, decomposition (LU, QR, SVD, eigen, Cholesky), sparse solvers, condition-number inspection, and visualization of linear maps as transformations of basis vectors.
 
