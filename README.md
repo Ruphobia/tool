@@ -1052,7 +1052,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Mail merge** _(stub, awaits wire-up)_: Template-plus-dataset engine that produces per-recipient documents, PDFs, labels, envelopes, and email sends. Supports conditional sections and per-field formatters.
 
-- ⬜ **OCR scanner** _(planned)_: Image and PDF to searchable text with layout preservation, table extraction to CSV, language detection, and handwriting recognition for scanned notebooks.
+- ✅ **OCR scanner** _(stub, awaits wire-up)_: Image and PDF to searchable text with layout preservation, table extraction to CSV, language detection, and handwriting recognition for scanned notebooks.
 
 - ⬜ **Meeting minutes extractor** _(planned)_: Pipeline that ingests an audio recording or transcript and emits a structured minutes document with summary, decisions, and action items linked into the task inbox.
 
