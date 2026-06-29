@@ -3415,7 +3415,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Bathymetry viewer** _(stub, awaits wire-up)_: Renders GEBCO, ETOPO, and BAG/GeoTIFF bathymetry with hillshade, contour lines, and along-track profile extraction. Supports vertical exaggeration sliders and slope/aspect derivatives.
 
-- ⬜ **CTD profile plotter** _(planned)_: Plots temperature, salinity, density, oxygen, and fluorometry against depth from CNV, ODV, and netCDF casts. Applies SBE-style despiking, loop-edit, and bin-averaging with per-channel QC flags.
+- ✅ **CTD profile plotter** _(stub, awaits wire-up)_: Plots temperature, salinity, density, oxygen, and fluorometry against depth from CNV, ODV, and netCDF casts. Applies SBE-style despiking, loop-edit, and bin-averaging with per-channel QC flags.
 
 - ⬜ **T-S diagram explorer** _(planned)_: Overlays multiple CTD casts on a temperature-salinity diagram with TEOS-10 isopycnals and labelled water mass envelopes (NACW, AAIW, NADW, etc.) for mixing-line analysis.
 
