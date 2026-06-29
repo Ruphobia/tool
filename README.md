@@ -2465,7 +2465,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Underground stope designer** _(stub, awaits wire-up)_: Sublevel, cut-and-fill, and longhole geometries with Mathews stability number and dilution-skin estimation; backfill strength and sequencing checks.
 
-- ⬜ **Blast pattern designer** _(planned)_: Burden, spacing, subdrill, and stemming optimizer with Kuz-Ram and Swebrec fragmentation prediction; PPV attenuation and airblast contours.
+- ✅ **Blast pattern designer** _(stub, awaits wire-up)_: Burden, spacing, subdrill, and stemming optimizer with Kuz-Ram and Swebrec fragmentation prediction; PPV attenuation and airblast contours.
 
 - ⬜ **Slope stability analyzer** _(planned)_: Limit-equilibrium (Bishop, Janbu, Spencer, Morgenstern-Price) and strength-reduction factor analysis for benches and overall pit walls.
 
