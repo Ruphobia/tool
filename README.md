@@ -3871,7 +3871,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Speech toolkit** _(stub, awaits wire-up)_: AI-integrated speech-to-text (Whisper-class) with diarization, forced alignment, phoneme labeling, and TTS voices; supports timestamped subtitle export and voice cloning workflows.
 
-- ⬜ **Audio fingerprinting and similarity** _(planned)_: Computes Chromaprint/audio-hashing fingerprints and embedding-based similarity to deduplicate, identify, and cluster recordings across a library.
+- ✅ **Audio fingerprinting and similarity** _(stub, awaits wire-up)_: Computes Chromaprint/audio-hashing fingerprints and embedding-based similarity to deduplicate, identify, and cluster recordings across a library.
 
 - ⬜ **DSP code playground** _(planned)_: Live-coded DSP environment with NumPy/SciPy/Faust/SOUL-style cells, real-time audio I/O, and instant plot/scope feedback for prototyping algorithms. AI-integrated code generation from natural-language DSP specs.
 
