@@ -204,7 +204,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ⬜ **Merge and Deduplicate** _(planned)_: Detects near-duplicate or contradictory entries via embedding similarity plus rule checks, then proposes merges, supersessions, or splits with side-by-side review.
 
-- ⬜ **Forget and Redact** _(planned)_: Soft-forget, hard-delete, or redact entries by selector or query, with tombstones, audit trail, and a recoverable trash window before permanent removal.
+- ✅ **Forget and Redact** _(in testing)_: Soft-forget, hard-delete, or redact entries by selector or query, with tombstones, audit trail, and a recoverable trash window before permanent removal.
 
 - ⬜ **Decision Log** _(planned)_: Append-only journal of project decisions in an ADR-like template (context, options, decision, consequences) with bidirectional links to the entries and code they affect.
 
