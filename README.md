@@ -4155,7 +4155,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Die Marriage and Plate Mapper** _(stub, awaits wire-up)_: Tool for early US coppers, bust coinage, ancient Greek and Roman issues, and classic stamp plates: aligns specimen photos to known die or plate diagnostics (Sheldon, Overton, Bolender, Newcomb; Mayer, Crawford, RIC; Stanley Gibbons plating). Returns most likely die marriage or plate position.
 
-- ⬜ **Bullion and Melt Calculator** _(planned)_: Real-time and historical spot price feeds for Au, Ag, Pt, Pd, Cu, Ni applied to coin weights and finenesses by KM number. Computes intrinsic melt floor versus numismatic premium and break-even spreads.
+- ✅ **Bullion and Melt Calculator** _(stub, awaits wire-up)_: Real-time and historical spot price feeds for Au, Ag, Pt, Pd, Cu, Ni applied to coin weights and finenesses by KM number. Computes intrinsic melt floor versus numismatic premium and break-even spreads.
 
 - ⬜ **Counterfeit and Alteration Detector** _(planned)_: Checks weight, diameter, edge, magnetic response, specific gravity, and surface texture against catalog specs; pattern-matches against known fake dies (Omega, Henning, Micro O, Chinese counterfeit families) and altered-date diagnostics. Flags suspect pieces with reasoning.
 
