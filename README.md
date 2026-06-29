@@ -856,7 +856,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Qubit Layout and Router** _(stub, awaits wire-up)_: Maps logical qubits to a chosen device topology (heavy-hex, square lattice, linear ion chain) with SABRE-style routing, swap insertion preview, and AI-integrated suggestion of initial layouts from circuit interaction graphs.
 
-- ⬜ **Algorithm Scaffolds** _(planned)_: Parameterized templates for QFT, Quantum Phase Estimation, Grover, Shor, HHL, Bernstein-Vazirani, Simon, Deutsch-Jozsa, and amplitude estimation, instantiable with chosen problem size and oracle wiring.
+- ✅ **Algorithm Scaffolds** _(stub, awaits wire-up)_: Parameterized templates for QFT, Quantum Phase Estimation, Grover, Shor, HHL, Bernstein-Vazirani, Simon, Deutsch-Jozsa, and amplitude estimation, instantiable with chosen problem size and oracle wiring.
 
 - ⬜ **Hamiltonian Builder** _(planned)_: Editor for Pauli-string Hamiltonians and fermionic operators with Jordan-Wigner, Parity, and Bravyi-Kitaev mappings, second-quantized molecular input via PySCF, and Trotter/Suzuki decomposition into circuits.
 
