@@ -478,7 +478,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **App icon set generator** _(stub, awaits wire-up)_: Takes one master 1024px artwork and emits the full iOS AppIcon.appiconset, Android mipmap densities, adaptive icon foreground/background layers, monochrome themed icon, and watchOS/tvOS variants.
 
-- ⬜ **Adaptive icon studio** _(planned)_: Previews Android adaptive icons across OEM mask shapes (circle, squircle, teardrop, rounded square), animates the parallax wiggle, and validates safe zone clearance for the foreground layer.
+- ✅ **Adaptive icon studio** _(stub, awaits wire-up)_: Previews Android adaptive icons across OEM mask shapes (circle, squircle, teardrop, rounded square), animates the parallax wiggle, and validates safe zone clearance for the foreground layer.
 
 - ⬜ **Asset density optimizer** _(planned)_: Audits @1x/@2x/@3x and mdpi through xxxhdpi raster assets, flags missing densities, recompresses PNG/WebP losslessly, and proposes vector replacements (PDF for iOS, VectorDrawable for Android) where viable.
 
