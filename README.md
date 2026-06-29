@@ -2546,7 +2546,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Porkchop Plot Generator** _(stub, awaits wire-up)_: Sweeps launch and arrival date grids to produce C3, departure v-infinity, arrival v-infinity, declination of launch asymptote, and total delta-v contour plots for interplanetary or lunar transfers. AI-integrated suggestion of promising windows from mission constraints.
 
-- ⬜ **Delta-V Budget Planner** _(planned)_: Composes mission delta-v budgets from Hohmann, bi-elliptic, plane change, combined, phasing, and finite-burn maneuvers, with margin policies and side-by-side comparison of architectures.
+- ✅ **Delta-V Budget Planner** _(stub, awaits wire-up)_: Composes mission delta-v budgets from Hohmann, bi-elliptic, plane change, combined, phasing, and finite-burn maneuvers, with margin policies and side-by-side comparison of architectures.
 
 - ⬜ **Rocket Equation Solver** _(planned)_: Evaluates Tsiolkovsky's equation for single and multi-stage vehicles, solving for delta-v, propellant mass, payload mass, or Isp; includes staging optimization and gravity/drag loss models for ascent.
 
