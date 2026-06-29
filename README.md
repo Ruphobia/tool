@@ -2630,7 +2630,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Approach plate library** _(stub, awaits wire-up)_: Indexes terminal procedure publications (IAP, STAR, DP, airport diagrams) by airport, procedure name, and equipment requirement. Supports briefing strips, missed-approach extraction, and minima lookup by aircraft category.
 
-- ⬜ **Aircraft logbook** _(planned)_: Records flights with PIC/SIC, day/night, instrument actual/simulated, approaches, holds, and landings. Tracks currency for BFR, IPC, medical, type ratings, and rolling 90/6 requirements, and exports to LogTen, MyFlightbook, and FAA 8710 forms.
+- ✅ **Aircraft logbook** _(stub, awaits wire-up)_: Records flights with PIC/SIC, day/night, instrument actual/simulated, approaches, holds, and landings. Tracks currency for BFR, IPC, medical, type ratings, and rolling 90/6 requirements, and exports to LogTen, MyFlightbook, and FAA 8710 forms.
 
 - ⬜ **NOTAM and TFR browser** _(planned)_: Pulls FAA, ICAO, and military NOTAMs, decodes the four-letter codes, and filters by route corridor, altitude band, and time window. Highlights stadium TFRs, VIP movements, and active SUA.
 
