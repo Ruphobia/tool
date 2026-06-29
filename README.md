@@ -292,7 +292,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **OCR and Scan Cleanup** _(stub, awaits wire-up)_: Runs Tesseract or a local vision model over image-only PDFs, repairs broken text layers, deskews pages, and produces searchable, citable copies without altering the original file.
 
-- ⬜ **Open Access Resolver** _(planned)_: Finds legal open copies via Unpaywall, institutional repositories, arXiv, and author pages. Attaches the best available PDF and records the rights status alongside the record.
+- ✅ **Open Access Resolver** _(stub, awaits wire-up)_: Finds legal open copies via Unpaywall, institutional repositories, arXiv, and author pages. Attaches the best available PDF and records the rights status alongside the record.
 
 
 #### Software development
