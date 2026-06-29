@@ -2241,7 +2241,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Phase Diagram Viewer** _(stub, awaits wire-up)_: Binary and ternary equilibrium phase diagrams (Fe-C, Cu-Sn, Al-Si, Pb-Sn, Cu-Zn, Ag-Cu, Ti-Al, etc.) with lever-rule readouts at a clicked composition/temperature. Overlays metastable lines and identifies the phases present plus their fractions.
 
-- ⬜ **TTT/CCT Plotter** _(planned)_: Time-temperature-transformation and continuous-cooling-transformation curves for common steels, with overlay of a user-defined cooling profile to predict resulting microstructure (martensite, bainite, pearlite, ferrite) and approximate hardness.
+- ✅ **TTT/CCT Plotter** _(stub, awaits wire-up)_: Time-temperature-transformation and continuous-cooling-transformation curves for common steels, with overlay of a user-defined cooling profile to predict resulting microstructure (martensite, bainite, pearlite, ferrite) and approximate hardness.
 
 - ⬜ **Heat Treatment Scheduler** _(planned)_: Step-by-step recipe builder for anneal/normalize/quench/temper/age cycles with ramp rates, soak times, atmosphere, and quench medium. AI-integrated suggestion of a starting recipe from the alloy designation and a target hardness or microstructure.
 
