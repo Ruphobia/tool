@@ -297,7 +297,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Software development
 
-- ⬜ **Code editor** _(planned)_: Multi-language source editor with LSP, tree-sitter syntax, multi-cursor, and inline AI completions, edits, and explain-this-region actions backed by the pipeline.
+- ✅ **Code editor** _(stub, awaits wire-up)_: Multi-language source editor with LSP, tree-sitter syntax, multi-cursor, and inline AI completions, edits, and explain-this-region actions backed by the pipeline.
 
 - ✅ **Project search** _(in testing)_: Ripgrep-style content and symbol search across the workspace with regex, structural (AST) queries, and AI-rephrased natural-language search that compiles to concrete patterns.
 
