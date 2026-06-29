@@ -3376,7 +3376,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Geochronology calculator** _(stub, awaits wire-up)_: Computes ages for K-Ar, 40Ar/39Ar, U-Pb concordia, U-Th, OSL/TL, ESR, and amino acid racemization from raw measurements with full uncertainty propagation. Plots isochrons, concordia diagrams, and probability-density spectra.
 
-- ⬜ **Dig site GIS** _(planned)_: Maps excavation grids, trenches, features, and finds in geographic and local site coordinates with total-station/GNSS import (DXF, CSV, Leica GSI). Overlays satellite, DEM hillshade, magnetometry, and GPR slices, and produces single-context plans.
+- ✅ **Dig site GIS** _(stub, awaits wire-up)_: Maps excavation grids, trenches, features, and finds in geographic and local site coordinates with total-station/GNSS import (DXF, CSV, Leica GSI). Overlays satellite, DEM hillshade, magnetometry, and GPR slices, and produces single-context plans.
 
 - ⬜ **Photogrammetry pipeline** _(planned)_: Builds 3D models of fossils, artifacts, trenches, and rock-art panels from photo sets using SfM/MVS with scale-bar and coded-target detection. Outputs textured meshes, orthophotos, and DEMs compatible with MeshLab and CloudCompare.
 
