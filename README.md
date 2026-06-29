@@ -2521,7 +2521,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **P&ID and flowsheet sketcher** _(stub, awaits wire-up)_: ISA S5.1 symbol library with intelligent line connectors; emits line lists, valve lists, and stream tables suitable for hand-off to a process simulator.
 
-- ⬜ **HAZID and HAZOP register** _(planned)_: Node-by-node guideword prompting (NO, MORE, LESS, REVERSE) with consequence, safeguard, and SIL assignment; AI-suggested deviations from a P&ID.
+- ✅ **HAZID and HAZOP register** _(stub, awaits wire-up)_: Node-by-node guideword prompting (NO, MORE, LESS, REVERSE) with consequence, safeguard, and SIL assignment; AI-suggested deviations from a P&ID.
 
 - ⬜ **Reliability and RAM modeller** _(planned)_: Fault-tree and reliability block diagram solver with Weibull, exponential, and lognormal distributions; computes availability, MTTR, and production efficiency.
 
