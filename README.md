@@ -2993,7 +2993,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Antibody and Epitope Designer** _(stub, awaits wire-up)_: Linear and conformational B-cell epitope prediction, MHC-I/II binding prediction (NetMHCpan-style), antibody CDR annotation (Kabat, Chothia, IMGT numbering), humanization suggestions, and developability flags (aggregation, deamidation, glycosylation sites).
 
-- ⬜ **Microscopy Image Analyzer** _(planned)_: Opens TIFF, OME-TIFF, CZI, ND2, and LIF stacks with channel splitting, z-projection, and time-series scrubbing. Segmentation (Cellpose, StarDist), cell and colony counting, intensity quantification per ROI, and CSV export of measurements.
+- ✅ **Microscopy Image Analyzer** _(stub, awaits wire-up)_: Opens TIFF, OME-TIFF, CZI, ND2, and LIF stacks with channel splitting, z-projection, and time-series scrubbing. Segmentation (Cellpose, StarDist), cell and colony counting, intensity quantification per ROI, and CSV export of measurements.
 
 
 #### Microbiology, virology, and immunology
