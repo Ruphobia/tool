@@ -549,7 +549,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **OTA update designer** _(stub, awaits wire-up)_: Defines delta, A/B, and dual-bank update schemes with transport (BLE, Wi-Fi, LoRa, USB, UART) and rollback rules. Simulates power-loss at every stage and reports recoverability.
 
-- ⬜ **Secure provisioning console** _(planned)_: Generates and injects device keys, certificates, and unique identifiers into OTP/eFuse with audit logging. Integrates with HSMs and PKCS#11 tokens; AI walks through fuse-once decisions before they are committed.
+- ✅ **Secure provisioning console** _(stub, awaits wire-up)_: Generates and injects device keys, certificates, and unique identifiers into OTP/eFuse with audit logging. Integrates with HSMs and PKCS#11 tokens; AI walks through fuse-once decisions before they are committed.
 
 - ⬜ **RTOS inspector** _(planned)_: Thread, queue, semaphore, timer, and heap inspection for FreeRTOS, Zephyr, ThreadX, NuttX, RT-Thread, and Mbed OS via runtime tracing or live debugger. AI-integrated narration of why a task missed its deadline.
 
