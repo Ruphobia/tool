@@ -506,7 +506,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Storyboard and XML porter** _(stub, awaits wire-up)_: Converts UIKit storyboards/XIBs to SwiftUI and Android XML layouts to Jetpack Compose, preserving constraints, styles, and accessibility traits; flags constructs (segues, include tags) that need manual reconciliation.
 
-- ⬜ **Vector asset converter** _(planned)_: Imports SVG, Figma, and Lottie sources and emits iOS PDF vector assets, Android VectorDrawable XML, Compose ImageVector, and Flutter flutter_svg-compatible output, normalizing fills, strokes, and tint behavior across targets.
+- ✅ **Vector asset converter** _(stub, awaits wire-up)_: Imports SVG, Figma, and Lottie sources and emits iOS PDF vector assets, Android VectorDrawable XML, Compose ImageVector, and Flutter flutter_svg-compatible output, normalizing fills, strokes, and tint behavior across targets.
 
 - ⬜ **Gradle and Xcode build profiler** _(planned)_: Captures build scans from Gradle and xcodebuild -showBuildTimingSummary, attributes wall-clock to modules, tasks, and Swift type-checking hotspots, and AI-suggests parallelism, caching, and module split changes ranked by expected savings.
 
