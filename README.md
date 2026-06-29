@@ -3833,7 +3833,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Noise reduction and restoration** _(stub, awaits wire-up)_: Spectral subtraction, Wiener filtering, RNNoise-style learned denoising, declicking, decrackle, dehum, and dereverb; manual noise-profile capture and AI-integrated automatic profiling.
 
-- ⬜ **Pitch and time tools** _(planned)_: Phase-vocoder, PSOLA, and elastique-style time-stretch and pitch-shift; melodic pitch correction with note-grid editing similar to Melodyne/Auto-Tune workflows.
+- ✅ **Pitch and time tools** _(stub, awaits wire-up)_: Phase-vocoder, PSOLA, and elastique-style time-stretch and pitch-shift; melodic pitch correction with note-grid editing similar to Melodyne/Auto-Tune workflows.
 
 - ⬜ **Sample library manager** _(planned)_: Tagged, searchable browser for one-shots, loops, and multisamples with waveform/spectrogram previews, BPM/key detection, similarity search, and drag-to-track loading. AI-integrated content-based tagging and natural-language sample search.
 
