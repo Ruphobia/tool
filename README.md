@@ -3329,7 +3329,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Spectrogram annotator** _(stub, awaits wire-up)_: Interactive spectrogram and waveform viewer for bird, bat, cetacean, and anuran recordings with selection boxes, call-type labels, and Raven/Audacity label export. AI-integrated suggestion of call boundaries and species from the active selection.
 
-- ⬜ **Allometric dose calculator** _(planned)_: Computes interspecific drug doses by metabolic body-weight scaling (BW^0.75) with species-specific overrides for sensitivities (e.g. alpha-2 in domestic cats, opioid response in ungulates, ivermectin in collies/MDR1, succinylcholine in raptors). Cross-checks against a local Plumb's-style formulary and flags contraindications.
+- ✅ **Allometric dose calculator** _(stub, awaits wire-up)_: Computes interspecific drug doses by metabolic body-weight scaling (BW^0.75) with species-specific overrides for sensitivities (e.g. alpha-2 in domestic cats, opioid response in ungulates, ivermectin in collies/MDR1, succinylcholine in raptors). Cross-checks against a local Plumb's-style formulary and flags contraindications.
 
 - ⬜ **Anesthesia protocol planner** _(planned)_: Builds field-immobilization and surgical-anesthesia protocols (e.g. BAM, TKM, medetomidine-ketamine, isoflurane top-up) with calculated volumes, dart sizes, induction/recovery timing, and reversal agents. Generates a printable monitoring sheet with target HR/RR/SpO2/EtCO2 ranges for the species.
 
