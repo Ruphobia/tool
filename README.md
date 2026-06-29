@@ -1907,7 +1907,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Speech denoiser** _(stub, awaits wire-up)_: Noise reduction, dereverberation, and bandwidth extension tuned for ASR and TTS input quality. AI-integrated model selection from a captured noise profile of the source clip.
 
-- ⬜ **Dubbing studio** _(planned)_: Replaces source dialogue with translated speech timed to original mouth motion, with rate-stretch, take selection, and preservation of music-and-effects stems.
+- ✅ **Dubbing studio** _(stub, awaits wire-up)_: Replaces source dialogue with translated speech timed to original mouth motion, with rate-stretch, take selection, and preservation of music-and-effects stems.
 
 - ⬜ **Romanization and transliteration** _(planned)_: Bidirectional transliteration between scripts (Cyrillic, Arabic, Devanagari, Hebrew, CJK, Thai, Ge'ez, etc.) using configurable schemes such as BGN/PCGN, ISO 9, Hepburn, and Pinyin.
 
