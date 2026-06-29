@@ -4648,7 +4648,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Rainwater catchment sizer** _(stub, awaits wire-up)_: Sizes roof catchment area, first-flush diverter, and storage tank volume from regional precipitation data and projected demand. Models multi-month dry-period reserve and overflow routing for swales or cisterns.
 
-- ⬜ **Off-grid PV and battery sizer** _(planned)_: Sizes solar array, charge controller, battery bank, and inverter from a daily load profile, site insolation, panel tilt, and battery chemistry (lead-acid, LiFePO4, NMC). Reports autonomy days, depth-of-discharge headroom, and amortized cost per kWh over cycle life.
+- ✅ **Off-grid PV and battery sizer** _(stub, awaits wire-up)_: Sizes solar array, charge controller, battery bank, and inverter from a daily load profile, site insolation, panel tilt, and battery chemistry (lead-acid, LiFePO4, NMC). Reports autonomy days, depth-of-discharge headroom, and amortized cost per kWh over cycle life.
 
 - ⬜ **Electrical load profile builder** _(planned)_: Builds a 24-hour load curve by itemizing appliances, run-time duty cycles, startup surge factors, and seasonal variation. Exports daily watt-hour totals and peak demand for use by the PV sizer or a generator runtime calculator.
 
