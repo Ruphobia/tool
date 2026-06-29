@@ -2806,7 +2806,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Motion capture studio** _(stub, awaits wire-up)_: Ingests BVH, FBX, C3D, and live OptiTrack, Vicon, and Rokoko streams; cleans marker gaps, solves skeletons, retargets to arbitrary URDFs, and exports joint trajectories for replay or imitation learning.
 
-- ⬜ **Camera calibrator** _(planned)_: Performs intrinsic, extrinsic, stereo, and rolling-shutter calibration from checkerboard, ChArUco, or AprilTag captures, with reprojection error heatmaps, pose-coverage prompts, and Kalibr-compatible export.
+- ✅ **Camera calibrator** _(stub, awaits wire-up)_: Performs intrinsic, extrinsic, stereo, and rolling-shutter calibration from checkerboard, ChArUco, or AprilTag captures, with reprojection error heatmaps, pose-coverage prompts, and Kalibr-compatible export.
 
 - ⬜ **Hand-eye and base calibrator** _(planned)_: Solves AX=XB and AX=ZB calibrations for camera-on-arm and camera-on-base mounts using Tsai-Lenz, Park-Martin, and Daniilidis dual-quaternion methods with bootstrap uncertainty estimates.
 
