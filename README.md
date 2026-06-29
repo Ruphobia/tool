@@ -4163,7 +4163,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Hoard and Find Atlas** _(stub, awaits wire-up)_: Geo-tagged archive of documented coin hoards, shipwreck recoveries (Atocha, SS Central America, El Cazador), and stamp finds with composition tables and date ranges. Useful for sourcing provenance hints and dating unprovenanced lots.
 
-- ⬜ **Antiques Provenance and Appraisal Workbench** _(planned)_: General antiques module covering furniture, silver hollowware, ceramics marks (Meissen, Sevres, Wedgwood, Imari), and clock movements. Captures dimensions, marks, condition, repairs, and comparable sales to produce fair market value, replacement value, and forced-sale estimates.
+- ✅ **Antiques Provenance and Appraisal Workbench** _(stub, awaits wire-up)_: General antiques module covering furniture, silver hollowware, ceramics marks (Meissen, Sevres, Wedgwood, Imari), and clock movements. Captures dimensions, marks, condition, repairs, and comparable sales to produce fair market value, replacement value, and forced-sale estimates.
 
 - ⬜ **Inventory and Insurance Manifest** _(planned)_: Holdings ledger with cost basis, acquisition source, storage location (safe, SDB, album page), insured value, and depreciation schedule. Exports schedule-of-items PDFs for riders, estate planning, and customs declarations.
 
