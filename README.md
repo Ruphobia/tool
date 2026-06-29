@@ -2379,7 +2379,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Rebar Detailer** _(stub, awaits wire-up)_: Lays out reinforcement for slabs, beams, walls, and footings with development length, splice, and hook checks per ACI 318. Produces bar bending schedules and weight takeoffs.
 
-- ⬜ **Bolted & Welded Connection Designer** _(planned)_: Designs steel connections (shear tabs, end plates, base plates, moment connections) per AISC 360 with block shear, prying, and weld capacity checks. Outputs detail drawings and bolt schedules.
+- ✅ **Bolted & Welded Connection Designer** _(stub, awaits wire-up)_: Designs steel connections (shear tabs, end plates, base plates, moment connections) per AISC 360 with block shear, prying, and weld capacity checks. Outputs detail drawings and bolt schedules.
 
 - ⬜ **Section Property Calculator** _(planned)_: Computes area, centroid, moments of inertia, plastic modulus, torsion constant, and shear center for arbitrary built-up sections. Imports DXF outlines and rolled-shape libraries.
 
