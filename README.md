@@ -3261,7 +3261,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Air quality aggregator** _(stub, awaits wire-up)_: Merges AirNow, OpenAQ, PurpleAir (with EPA correction), and EPA AQS feeds with TEMPO and TROPOMI satellite NO2/HCHO/CO; computes AQI, exceedance hours, and HYSPLIT-coupled smoke source attribution.
 
-- ⬜ **Reprojection & regrid kitchen** _(planned)_: Resamples between lat/lon, Lambert Conformal, polar stereographic, rotated pole, and EASE-Grid using wgrib2, CDO, NCO, and xESMF; handles conservative, bilinear, and nearest-neighbor methods with mask-aware weights.
+- ✅ **Reprojection & regrid kitchen** _(stub, awaits wire-up)_: Resamples between lat/lon, Lambert Conformal, polar stereographic, rotated pole, and EASE-Grid using wgrib2, CDO, NCO, and xESMF; handles conservative, bilinear, and nearest-neighbor methods with mask-aware weights.
 
 - ⬜ **Bias correction & downscaling** _(planned)_: Applies quantile mapping, BCSD, BCCA, and EQM bias correction to model output against a reference (Livneh, PRISM, ERA5-Land); supports statistical downscaling and constructed-analogue methods for climate impact studies.
 
