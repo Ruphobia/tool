@@ -3026,7 +3026,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Metagenome binner** _(stub, awaits wire-up)_: Bins contigs into MAGs via MetaBAT2, CONCOCT, and DAS_Tool, scores completeness and contamination with CheckM2, and annotates community function via HUMAnN.
 
-- ⬜ **Viral genome workbench** _(planned)_: Performs reference-based viral consensus calling, Pangolin or Nextclade lineage assignment, glycoprotein cleavage site detection, and recombination scanning via RDP and 3SEQ.
+- ✅ **Viral genome workbench** _(stub, awaits wire-up)_: Performs reference-based viral consensus calling, Pangolin or Nextclade lineage assignment, glycoprotein cleavage site detection, and recombination scanning via RDP and 3SEQ.
 
 - ⬜ **Protein structure predictor** _(planned)_: Runs AlphaFold, ColabFold, ESMFold, or RoseTTAFold locally for monomer and complex prediction with confidence (pLDDT, PAE) overlays and PDB or mmCIF export.
 
