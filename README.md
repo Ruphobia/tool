@@ -2033,7 +2033,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Nonlinear Optics Calculator** _(stub, awaits wire-up)_: Computes phase matching (angle, temperature, quasi-phase) for SHG/SFG/DFG/OPO in biaxial and uniaxial crystals, plus self-phase modulation, soliton number, B-integral, and supercontinuum estimates for pulse propagation through fibers and bulk media.
 
-- ⬜ **Detector Noise Modeler** _(planned)_: End-to-end SNR and NEP calculator for CMOS, CCD, EMCCD, sCMOS, APD, PMT, and bolometer detectors including photon shot, read, dark, fixed-pattern, and excess noise, with integration-time and gain sweeps and limiting-magnitude or minimum-detectable-power outputs.
+- ✅ **Detector Noise Modeler** _(stub, awaits wire-up)_: End-to-end SNR and NEP calculator for CMOS, CCD, EMCCD, sCMOS, APD, PMT, and bolometer detectors including photon shot, read, dark, fixed-pattern, and excess noise, with integration-time and gain sweeps and limiting-magnitude or minimum-detectable-power outputs.
 
 
 #### Physics and math
