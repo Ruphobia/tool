@@ -4346,7 +4346,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Emulator RAM watcher** _(stub, awaits wire-up)_: Attaches to RetroArch, BizHawk, or Dolphin via their memory APIs, exposing live RAM watches, save-state diffing, and Lua hook injection. Used for randomizer routing, RNG manipulation research, and TAS scripting.
 
-- ⬜ **Speedrun split timer** _(planned)_: LiveSplit-compatible timer with autosplitters, gold-split tracking, sum-of-best, and run history. Imports splits.io files and exports run attempts as JSON for pacing analysis.
+- ✅ **Speedrun split timer** _(stub, awaits wire-up)_: LiveSplit-compatible timer with autosplitters, gold-split tracking, sum-of-best, and run history. Imports splits.io files and exports run attempts as JSON for pacing analysis.
 
 - ⬜ **Walkthrough/wiki indexer** _(planned)_: Builds a local full-text index over GameFAQs guides, Fandom wikis, speedrun.com resources, and StrategyWiki pages for a given game. Returns ranked passages with citations and supports follow-up questions grounded in the indexed corpus.
 
