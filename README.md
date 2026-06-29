@@ -2648,7 +2648,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Callsign lookup** _(stub, awaits wire-up)_: Queries QRZ, HamQTH, FCC ULS, Industry Canada, and OFCOM databases with an offline cache. Returns operator name, grid, license class, expiration, and prior QSO context from the local log.
 
-- ⬜ **Repeater and satellite database** _(planned)_: Browses RepeaterBook, RFinder, and PNW data by location, band, tone, and mode (DMR, D-STAR, YSF, P25, M17). Predicts amateur satellite passes from current TLEs with Doppler tuning curves and squint angle.
+- ✅ **Repeater and satellite database** _(stub, awaits wire-up)_: Browses RepeaterBook, RFinder, and PNW data by location, band, tone, and mode (DMR, D-STAR, YSF, P25, M17). Predicts amateur satellite passes from current TLEs with Doppler tuning curves and squint angle.
 
 - ⬜ **Rig control bridge** _(planned)_: Talks Hamlib/rigctl to Yaesu, Icom, Kenwood, Elecraft, and FLEX radios for frequency, mode, split, and PTT. Integrates with logger, digital modes, rotators (rotctl), and the SDR console for transceive.
 
