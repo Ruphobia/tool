@@ -4250,7 +4250,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sleight Video Annotator** _(stub, awaits wire-up)_: Frame-accurate tagging of double lifts, passes, palms, steals, and loads on recorded sessions. AI-assisted hand and object tracking builds a searchable sleight library across years of practice footage.
 
-- ⬜ **Siteswap Editor** _(planned)_: Live editor for vanilla, synchronous, and multiplex siteswap with 3D ball animation, beat clock, and validity checking. Exports to Juggling Lab, prechac, and passing patterns for two or more jugglers.
+- ✅ **Siteswap Editor** _(stub, awaits wire-up)_: Live editor for vanilla, synchronous, and multiplex siteswap with 3D ball animation, beat clock, and validity checking. Exports to Juggling Lab, prechac, and passing patterns for two or more jugglers.
 
 - ⬜ **Stack and Setup Manager** _(planned)_: Tracks memorized deck orders such as Mnemonica, Aronson, and Si Stebbins with key card lookup, stay-stack analysis after cuts and faros, and printable reference indices for the wallet.
 
