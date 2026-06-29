@@ -1820,7 +1820,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Morphology Glosser** _(stub, awaits wire-up)_: Segments wordforms into morphemes and produces Leipzig-format interlinear glosses with morpheme alignment, category tags, and free translation lines. AI-integrated guessing of analysis from parallel example sentences.
 
-- ⬜ **Syntax Tree Builder** _(planned)_: Draws constituency and dependency trees from bracketed strings, CoNLL-U, or natural-language input, with drag-to-reattach editing and labeled arcs. Renders to PDF, SVG, and qtree/tikz-dependency.
+- ✅ **Syntax Tree Builder** _(stub, awaits wire-up)_: Draws constituency and dependency trees from bracketed strings, CoNLL-U, or natural-language input, with drag-to-reattach editing and labeled arcs. Renders to PDF, SVG, and qtree/tikz-dependency.
 
 - ⬜ **Corpus Concordancer** _(planned)_: Loads plain text, TEI, or CoNLL corpora and runs KWIC search with regex, lemma, and POS filters, plus frequency lists, collocation scores (PMI, log-Dice, t-score), and keyness against a reference corpus.
 
