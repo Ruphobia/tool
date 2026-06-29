@@ -3613,7 +3613,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **OCR** _(stub, awaits wire-up)_: Text recognition over images and PDFs using PaddleOCR/Tesseract/TrOCR with layout analysis and language autodetection. Outputs searchable text, hOCR, and editable overlay layers.
 
-- ⬜ **Color tools** _(planned)_: Palette extraction, harmony generation, LUT authoring, gamut checking, and color-blindness simulation. Includes AI-integrated palette suggestion conditioned on a reference image or mood prompt.
+- ✅ **Color tools** _(stub, awaits wire-up)_: Palette extraction, harmony generation, LUT authoring, gamut checking, and color-blindness simulation. Includes AI-integrated palette suggestion conditioned on a reference image or mood prompt.
 
 - ⬜ **Format converter** _(planned)_: Batch transcoder across PNG, JPEG, WebP, AVIF, HEIC, TIFF, JPEG-XL, DDS, and PSD with color-profile awareness and chroma subsampling control. Reports size and quality deltas per file.
 
