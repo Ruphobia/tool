@@ -1466,7 +1466,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Figure and diagram extractor** _(stub, awaits wire-up)_: Crops images, charts, and diagrams from documents with their captions and references, exporting to PNG or SVG and indexing them for later search by caption text or visual similarity.
 
-- ⬜ **Scan cleaner** _(planned)_: Deskews, despeckles, dewarps, and rebinarizes scanned pages, with batch presets for book scans, receipts, and whiteboards. Suggests cleanup parameters from a sample page using an AI quality estimator.
+- ✅ **Scan cleaner** _(stub, awaits wire-up)_: Deskews, despeckles, dewarps, and rebinarizes scanned pages, with batch presets for book scans, receipts, and whiteboards. Suggests cleanup parameters from a sample page using an AI quality estimator.
 
 - ⬜ **Page operations** _(planned)_: Splits, merges, reorders, rotates, crops, and renumbers PDF pages with a thumbnail editor. Handles bookmark and outline preservation across operations.
 
