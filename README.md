@@ -3070,7 +3070,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Vaccine antigen designer** _(stub, awaits wire-up)_: Selects conserved epitopes across strains, scaffolds multi-epitope constructs with linkers and adjuvant fusions, and evaluates population coverage across HLA distributions.
 
-- ⬜ **RNA structure and riboswitch tool** _(planned)_: Predicts secondary structures via RNAfold, ViennaRNA, and CONTRAfold, scans for riboswitches and CRISPR scaffolds, and renders dot-bracket and arc diagrams.
+- ✅ **RNA structure and riboswitch tool** _(stub, awaits wire-up)_: Predicts secondary structures via RNAfold, ViennaRNA, and CONTRAfold, scans for riboswitches and CRISPR scaffolds, and renders dot-bracket and arc diagrams.
 
 - ⬜ **Glycan and post-translational analyzer** _(planned)_: Predicts N- and O-glycosylation, phosphorylation, ubiquitination, and signal peptide cleavage via NetNGlyc, NetOGlyc, SignalP, and DeepTMHMM with topology diagrams.
 
