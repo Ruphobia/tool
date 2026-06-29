@@ -4176,7 +4176,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Skin Tone Preview** _(stub, awaits wire-up)_: Renders the design over a calibrated swatch of Fitzpatrick types I through VI, simulating ink saturation, healing fade, and contrast loss on each tone. AI color-correction suggests adjusted palettes for darker skin.
 
-- ⬜ **Body Placement Mockup** _(planned)_: Warps the design onto an uploaded body photo using pose-aware mesh fitting so the art follows curvature of limbs, ribs, and spine. Includes flexion poses to check stretch behavior.
+- ✅ **Body Placement Mockup** _(stub, awaits wire-up)_: Warps the design onto an uploaded body photo using pose-aware mesh fitting so the art follows curvature of limbs, ribs, and spine. Includes flexion poses to check stretch behavior.
 
 - ⬜ **Needle and Cartridge Reference** _(planned)_: Searchable database of liner, shader, magnum, and curved configurations with diameter, taper, and recommended voltage ranges. Cross-references brands and equivalents across cartridge systems.
 
