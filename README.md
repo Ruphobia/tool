@@ -1832,7 +1832,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Language Identifier** _(stub, awaits wire-up)_: Detects language and script from short or mixed-language input using n-gram and Unicode-block classifiers, with per-span tagging for code-switching and confidence scores. Bundles offline models for 200+ languages.
 
-- ⬜ **Spectrogram Studio** _(planned)_: Praat-lite audio analyzer with waveform, wide- and narrow-band spectrograms, pitch and intensity tracks, formant overlays, and cursor-driven measurements. Annotates intervals and points on TextGrid tiers.
+- ✅ **Spectrogram Studio** _(stub, awaits wire-up)_: Praat-lite audio analyzer with waveform, wide- and narrow-band spectrograms, pitch and intensity tracks, formant overlays, and cursor-driven measurements. Annotates intervals and points on TextGrid tiers.
 
 - ⬜ **Forced Aligner** _(planned)_: Aligns audio to a phoneme or word transcript using Montreal-Forced-Aligner-style acoustic models, producing TextGrid output with per-phone boundaries. Falls back to AI-integrated transcription when the script is missing or partial.
 
