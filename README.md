@@ -1962,7 +1962,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **EMC pre-compliance** _(stub, awaits wire-up)_: Near-field and conducted-emissions estimator with antenna factor calibration, plus checklists for FCC Part 15, CISPR 22, and CE marking. AI-integrated triage of failing harmonics to likely radiating loops on the board.
 
-- ⬜ **Bench instrument bridge** _(planned)_: VISA/SCPI control of oscilloscopes, function generators, SMUs, DMMs, spectrum analyzers, VNAs, and electronic loads over USB, LAN, and GPIB. Records measurement sessions as replayable scripts.
+- ✅ **Bench instrument bridge** _(stub, awaits wire-up)_: VISA/SCPI control of oscilloscopes, function generators, SMUs, DMMs, spectrum analyzers, VNAs, and electronic loads over USB, LAN, and GPIB. Records measurement sessions as replayable scripts.
 
 - ⬜ **Datasheet reader** _(planned)_: OCR and structured extraction of datasheet PDFs into searchable parameter tables, pinouts, application circuits, and reflow profiles. AI-integrated Q&A grounded in the loaded datasheet with page citations.
 
