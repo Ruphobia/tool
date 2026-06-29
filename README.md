@@ -3947,7 +3947,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Yeast Pitch & Starter Designer** _(stub, awaits wire-up)_: Computes pitch rate by gravity and volume for ale, lager, and Brettanomyces strains; designs stepped starters using stir-plate vs intermittent-shaking growth factors and viability decay.
 
-- ⬜ **Gravity Log & Curve Fitter** _(planned)_: Logs hydrometer and refractometer readings with temperature and wort-correction-factor adjustment; fits Gompertz or logistic fermentation curves and forecasts terminal gravity and attenuation.
+- ✅ **Gravity Log & Curve Fitter** _(stub, awaits wire-up)_: Logs hydrometer and refractometer readings with temperature and wort-correction-factor adjustment; fits Gompertz or logistic fermentation curves and forecasts terminal gravity and attenuation.
 
 - ⬜ **Wine Must Adjustment Bench** _(planned)_: Solves chaptalization, acid additions, and SO2 dosing as a function of pH for free vs molecular SO2; tracks malolactic conversion, fining, and oak regimens across a vintage.
 
