@@ -3020,7 +3020,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **AMR profiler** _(stub, awaits wire-up)_: Screens isolates for resistance genes, plasmid replicons, and point mutations via AMRFinderPlus, CARD-RGI, ResFinder, and PlasmidFinder. Cross-references with EUCAST and CLSI breakpoint tables.
 
-- ⬜ **Virulence factor scanner** _(planned)_: Detects virulence determinants and pathogen-associated islands via VFDB, Virulencefinder, IslandViewer, and PHASTER for prophage discovery.
+- ✅ **Virulence factor scanner** _(stub, awaits wire-up)_: Detects virulence determinants and pathogen-associated islands via VFDB, Virulencefinder, IslandViewer, and PHASTER for prophage discovery.
 
 - ⬜ **Taxonomic classifier** _(planned)_: Classifies metagenomic reads or MAGs with Kraken2, Bracken, MetaPhlAn, GTDB-Tk, or sourmash and reports relative abundance, alpha and beta diversity.
 
