@@ -907,7 +907,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Password Recovery Driver** _(stub, awaits wire-up)_: Frontend for hashcat and John the Ripper covering hash identification, wordlist/rule selection, mask attacks, and GPU job control. Tracks attack progress, ETA, and cracked artifacts across sessions.
 
-- ⬜ **Network Topology Mapper** _(planned)_: Builds a host/service graph from scans, ARP tables, routing data, and passive capture. Highlights pivot paths, exposed admin services, and changes versus prior snapshots.
+- ✅ **Network Topology Mapper** _(stub, awaits wire-up)_: Builds a host/service graph from scans, ARP tables, routing data, and passive capture. Highlights pivot paths, exposed admin services, and changes versus prior snapshots.
 
 - ⬜ **OSINT Aggregator** _(planned)_: Runs WHOIS, DNS, reverse DNS, passive DNS, ASN, certificate transparency, and threat-feed lookups in parallel for a target. Caches results offline and deduplicates indicators across sources.
 
