@@ -2335,7 +2335,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Beam Designer** _(stub, awaits wire-up)_: Sizes wood, steel, and concrete beams under combined point and distributed loads using AISC, NDS, and ACI checks. Plots shear, moment, and deflection diagrams with allowable-stress and LRFD pass/fail flags.
 
-- ⬜ **Column Calculator** _(planned)_: Evaluates axial, biaxial bending, and slenderness capacity for steel W-shapes, HSS, concrete, and timber columns. Includes interaction diagrams and effective-length factor lookup.
+- ✅ **Column Calculator** _(stub, awaits wire-up)_: Evaluates axial, biaxial bending, and slenderness capacity for steel W-shapes, HSS, concrete, and timber columns. Includes interaction diagrams and effective-length factor lookup.
 
 - ⬜ **Truss Solver** _(planned)_: Builds 2D and 3D pin-jointed trusses and solves member forces by method of joints or stiffness matrix. Supports parametric span/pitch sweeps with AI-integrated topology suggestion from load and span constraints.
 
