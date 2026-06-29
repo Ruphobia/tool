@@ -1372,7 +1372,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Clause Library** _(stub, awaits wire-up)_: Searchable repository of reusable contract clauses tagged by jurisdiction, party position (favorable, neutral, hostile), risk score, and dependencies. Drag into a draft; version history per clause; AI-integrated suggestion of a clause variant for the current deal.
 
-- ⬜ **Defined Terms Checker** _(planned)_: Scans a contract for capitalized defined terms, flags terms used but not defined, terms defined but not used, inconsistent capitalization, and circular definitions. Auto-generates a definitions section and cross-reference table.
+- ✅ **Defined Terms Checker** _(stub, awaits wire-up)_: Scans a contract for capitalized defined terms, flags terms used but not defined, terms defined but not used, inconsistent capitalization, and circular definitions. Auto-generates a definitions section and cross-reference table.
 
 - ⬜ **Case Law Search** _(planned)_: Full-text search over a local corpus of court opinions (Caselaw Access Project, CourtListener bulk) with citation parsing, parallel citation resolution, headnote extraction, and treatment flags (overruled, distinguished, followed, criticized).
 
