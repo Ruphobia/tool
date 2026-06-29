@@ -2672,7 +2672,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **SDR receiver console** _(stub, awaits wire-up)_: Tunes a soft radio with AM, FM, NFM, SSB, CW, DSD+ digital voice, POCSAG, ACARS, and APRS demodulators. Supports squelch, AGC, noise blanker, notch, and a software panadapter slaved to the rig control bridge.
 
-- ⬜ **IQ recorder and classifier** _(planned)_: Captures baseband to SigMF, WAV, or cfile with metadata, and replays into demodulators or external GNU Radio flowgraphs. AI-integrated signal classifier proposes modulation, baud, and likely service from a short capture.
+- ✅ **IQ recorder and classifier** _(stub, awaits wire-up)_: Captures baseband to SigMF, WAV, or cfile with metadata, and replays into demodulators or external GNU Radio flowgraphs. AI-integrated signal classifier proposes modulation, baud, and likely service from a short capture.
 
 - ⬜ **Band plan and regulatory checker** _(planned)_: Holds IARU Region 1/2/3 band plans, FCC Part 97/15/87/80/90 allocations, and ITU footnotes. Validates a planned transmission against license class privileges, power limits, mode restrictions, and channel spacing.
 
