@@ -711,7 +711,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Firewall rule editor** _(stub, awaits wire-up)_: Unified editor for nftables, iptables, ufw, and firewalld rule sets with live counters and packet trace. AI-integrated translation between human intent ("block all inbound except SSH from LAN") and concrete ruleset diffs.
 
-- ⬜ **DNS diagnostic console** _(planned)_: Runs dig, drill, and resolved queries against arbitrary nameservers with DNSSEC validation, trace, and EDNS options. Caches results and diffs zone-file changes across resolvers.
+- ✅ **DNS diagnostic console** _(stub, awaits wire-up)_: Runs dig, drill, and resolved queries against arbitrary nameservers with DNSSEC validation, trace, and EDNS options. Caches results and diffs zone-file changes across resolvers.
 
 - ⬜ **SSH and remote host manager** _(planned)_: Catalog of SSH hosts with known_hosts, identity file, jump host, and forwarding configuration per entry. Opens terminal, SFTP, or port-forward sessions and writes back to ~/.ssh/config.
 
