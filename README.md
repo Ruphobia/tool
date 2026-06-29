@@ -2973,7 +2973,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pathway and Network Viewer** _(stub, awaits wire-up)_: Loads KEGG, Reactome, WikiPathways, and BioCyc maps and overlays expression or variant data onto nodes. Force-directed and pathway-layout rendering for protein-protein interaction networks (STRING, BioGRID) with enrichment analysis.
 
-- ⬜ **Gene Ontology Enrichment** _(planned)_: Computes GO term, KEGG pathway, and Reactome enrichment for a gene list with hypergeometric and GSEA statistics, FDR correction, and revigo-style redundancy reduction. Output ties back to the pathway viewer.
+- ✅ **Gene Ontology Enrichment** _(stub, awaits wire-up)_: Computes GO term, KEGG pathway, and Reactome enrichment for a gene list with hypergeometric and GSEA statistics, FDR correction, and revigo-style redundancy reduction. Output ties back to the pathway viewer.
 
 - ⬜ **Molecular Docking** _(planned)_: Protein-ligand docking (AutoDock Vina, smina, GNINA) and protein-protein docking (HADDOCK-style) with binding-site detection, pose scoring, and interaction-diagram rendering. Reads SMILES, MOL2, SDF, and PDB ligands; integrates with the chemistry specialist for ligand prep.
 
