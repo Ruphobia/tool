@@ -3206,7 +3206,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **MRP estimator** _(stub, awaits wire-up)_: Fits multilevel regression and post-stratification models for small-area opinion estimation, accepting individual survey responses plus a post-stratification frame, and returning area-level estimates with credible intervals.
 
-- ⬜ **Regression dashboard** _(planned)_: Fits OLS, GLM (logit, probit, Poisson, negative binomial), fixed/random effects, multilevel, and survival models, with cluster-robust and HC standard errors, and emits publication-ready regression tables (stargazer/modelsummary style) in LaTeX, HTML, and Markdown.
+- ✅ **Regression dashboard** _(stub, awaits wire-up)_: Fits OLS, GLM (logit, probit, Poisson, negative binomial), fixed/random effects, multilevel, and survival models, with cluster-robust and HC standard errors, and emits publication-ready regression tables (stargazer/modelsummary style) in LaTeX, HTML, and Markdown.
 
 - ⬜ **Causal inference kit** _(planned)_: Implements difference-in-differences (including Callaway-Sant'Anna and Sun-Abraham for staggered adoption), regression discontinuity with optimal bandwidth selection, instrumental variables (2SLS, LIML), synthetic control, and matching (propensity, Mahalanobis, CEM) with balance diagnostics.
 
