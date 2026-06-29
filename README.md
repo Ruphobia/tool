@@ -3257,7 +3257,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Drought & precip index calculator** _(stub, awaits wire-up)_: Computes SPI, SPEI, PDSI, scPDSI, EDDI, and percent of normal from GHCN, PRISM, CHIRPS, or model precip and PET; produces gridded anomaly maps and basin-aggregated drought monitor overlays.
 
-- ⬜ **Fire weather index suite** _(planned)_: Calculates Canadian FWI (FFMC, DMC, DC, ISI, BUI, FWI), NFDRS, KBDI, Haines, and Hot-Dry-Windy indices from station or model surface fields; flags red-flag conditions on a map.
+- ✅ **Fire weather index suite** _(stub, awaits wire-up)_: Calculates Canadian FWI (FFMC, DMC, DC, ISI, BUI, FWI), NFDRS, KBDI, Haines, and Hot-Dry-Windy indices from station or model surface fields; flags red-flag conditions on a map.
 
 - ⬜ **Air quality aggregator** _(planned)_: Merges AirNow, OpenAQ, PurpleAir (with EPA correction), and EPA AQS feeds with TEMPO and TROPOMI satellite NO2/HCHO/CO; computes AQI, exceedance hours, and HYSPLIT-coupled smoke source attribution.
 
