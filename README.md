@@ -4186,7 +4186,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Jewelry Sizing Calculator** _(stub, awaits wire-up)_: Converts gauge, diameter, and length across metric and imperial standards for barbells, rings, labrets, and plugs. Accounts for swelling allowances and anatomy-specific minimums (septum, daith, surface).
 
-- ⬜ **Healing Log** _(planned)_: Per-client journal capturing daily photos, exudate notes, pain scores, and intervention events with automatic timeline view. Flags deviations from expected healing curves and suggests when to escalate to a physician.
+- ✅ **Healing Log** _(stub, awaits wire-up)_: Per-client journal capturing daily photos, exudate notes, pain scores, and intervention events with automatic timeline view. Flags deviations from expected healing curves and suggests when to escalate to a physician.
 
 - ⬜ **Design Library** _(planned)_: Tagged archive of flash, custom commissions, and reference images with style, motif, body zone, and client provenance metadata. Semantic search finds visually similar pieces from natural-language prompts.
 
