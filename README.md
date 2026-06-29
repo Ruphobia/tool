@@ -3142,7 +3142,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Genomic Variant Annotator** _(stub, awaits wire-up)_: Annotates VCF variants against ClinVar, gnomAD, dbSNP, and OMIM with ACMG classification, pharmacogenomic (CPIC/PharmGKB) star-allele calling, and predicted protein effect.
 
-- ⬜ **Microbiology Antibiogram** _(planned)_: Builds and queries local antibiograms from culture-and-sensitivity data, suggests empirical therapy by site of infection and local resistance patterns, and tracks MIC trends over time.
+- ✅ **Microbiology Antibiogram** _(stub, awaits wire-up)_: Builds and queries local antibiograms from culture-and-sensitivity data, suggests empirical therapy by site of infection and local resistance patterns, and tracks MIC trends over time.
 
 - ⬜ **Nutrition and Metabolic Calculator** _(planned)_: Computes BMR/TDEE (Mifflin-St Jeor, Harris-Benedict), macronutrient targets, fluid maintenance (Holliday-Segar), TPN/PPN composition, and refeeding-syndrome risk.
 
