@@ -2064,7 +2064,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **FEM solver** _(stub, awaits wire-up)_: Mesh-based finite-element analysis for static and dynamic structural, thermal, and electromagnetic problems with material library, boundary-condition painter, and stress/strain/temperature field visualization.
 
-- ⬜ **CFD playground** _(planned)_: 2D/3D incompressible and compressible flow solver (lattice-Boltzmann and finite-volume) with sketch-to-geometry input, turbulence model selection, and streamline/vorticity rendering.
+- ✅ **CFD playground** _(stub, awaits wire-up)_: 2D/3D incompressible and compressible flow solver (lattice-Boltzmann and finite-volume) with sketch-to-geometry input, turbulence model selection, and streamline/vorticity rendering.
 
 - ⬜ **Ray-trace optics bench** _(planned)_: Sequential and non-sequential optical ray tracing for lens systems, mirrors, prisms, and fibers with aberration plots, spot diagrams, and MTF. AI-integrated starting-point design from a desired focal length, f-number, and field.
 
