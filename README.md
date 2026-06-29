@@ -2739,7 +2739,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **VIN Decoder and Service Notebook** _(stub, awaits wire-up)_: Decodes VINs to year/make/model/engine/build options against an offline NHTSA-derived database, and keeps a maintenance log with parts, fluids, torque specs, and mileage reminders per vehicle.
 
-- ⬜ **VIN Decoder & Service Schedule** _(planned)_: Decodes 17-character VINs against NHTSA vPIC data to identify make, model, year, engine, plant, and equipment. Generates the OEM-recommended maintenance schedule with mileage and time intervals, due-soon alerts, and per-vehicle service history.
+- ✅ **VIN Decoder & Service Schedule** _(stub, awaits wire-up)_: Decodes 17-character VINs against NHTSA vPIC data to identify make, model, year, engine, plant, and equipment. Generates the OEM-recommended maintenance schedule with mileage and time intervals, due-soon alerts, and per-vehicle service history.
 
 - ⬜ **OBD-II Live Dashboard** _(planned)_: Connects to ELM327 (USB, Bluetooth, Wi-Fi) adapters to stream PIDs in real time: RPM, MAP, MAF, O2, fuel trims, coolant, intake air, timing advance. Logs sessions to CSV/Parquet and overlays multiple runs for diagnostic comparison.
 
