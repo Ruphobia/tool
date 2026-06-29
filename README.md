@@ -3378,7 +3378,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Dig site GIS** _(stub, awaits wire-up)_: Maps excavation grids, trenches, features, and finds in geographic and local site coordinates with total-station/GNSS import (DXF, CSV, Leica GSI). Overlays satellite, DEM hillshade, magnetometry, and GPR slices, and produces single-context plans.
 
-- ⬜ **Photogrammetry pipeline** _(planned)_: Builds 3D models of fossils, artifacts, trenches, and rock-art panels from photo sets using SfM/MVS with scale-bar and coded-target detection. Outputs textured meshes, orthophotos, and DEMs compatible with MeshLab and CloudCompare.
+- ✅ **Photogrammetry pipeline** _(stub, awaits wire-up)_: Builds 3D models of fossils, artifacts, trenches, and rock-art panels from photo sets using SfM/MVS with scale-bar and coded-target detection. Outputs textured meshes, orthophotos, and DEMs compatible with MeshLab and CloudCompare.
 
 - ⬜ **Mesh reconstruction lab** _(planned)_: Repairs, retopologizes, mirrors, and digitally rearticulates 3D fossil scans; segments matrix from bone, fills missing elements from bilateral counterparts, and aligns fragments via ICP. AI-integrated landmark suggestion seeds the alignment from comparable taxa.
 
