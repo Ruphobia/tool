@@ -2222,7 +2222,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Joinery Planner** _(stub, awaits wire-up)_: Designs mortise-and-tenon, dovetail, box, finger, lap, half-blind, and Domino joints with parametric sizing, grain orientation, and glue clearance; exports DXF or G-code for templates, router jigs, and CNC.
 
-- ⬜ **Wood Movement Calculator** _(planned)_: Predicts seasonal dimensional change from species, grain orientation, starting and target moisture content, and ambient humidity range; flags panels and joints likely to cup, split, or bind.
+- ✅ **Wood Movement Calculator** _(stub, awaits wire-up)_: Predicts seasonal dimensional change from species, grain orientation, starting and target moisture content, and ambient humidity range; flags panels and joints likely to cup, split, or bind.
 
 - ⬜ **Nesting and Cut List Optimizer** _(planned)_: Packs parts onto sheet goods, plate, plywood, leather, or fabric with rotation locks, grain constraints, kerf, and common cuts; produces ordered, labeled cut lists for table saw, panel saw, laser, waterjet, or plasma.
 
