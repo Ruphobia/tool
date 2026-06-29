@@ -2609,7 +2609,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Propeller and Rotor Designer** _(stub, awaits wire-up)_: Blade-element momentum theory tool for propellers, ducted fans, and rotors that uses section polars from the airfoil database to predict thrust, torque, and efficiency across J and RPM. Includes Prandtl tip-loss and induced swirl corrections.
 
-- ⬜ **Compressible Flow Calculator** _(planned)_: Isentropic, normal shock, oblique shock, Prandtl-Meyer expansion, Fanno, and Rayleigh tables and solvers with full inverse modes. Plots shock polars and theta-beta-M diagrams for supersonic geometry design.
+- ✅ **Compressible Flow Calculator** _(stub, awaits wire-up)_: Isentropic, normal shock, oblique shock, Prandtl-Meyer expansion, Fanno, and Rayleigh tables and solvers with full inverse modes. Plots shock polars and theta-beta-M diagrams for supersonic geometry design.
 
 - ⬜ **Standard Atmosphere** _(planned)_: ISA and non-standard atmosphere model returning density, pressure, temperature, viscosity, speed of sound, and Reynolds-per-meter as a function of altitude and offset. Converts between TAS, EAS, CAS, and Mach for any given condition.
 
