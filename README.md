@@ -2642,7 +2642,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **ADIF logbook** _(stub, awaits wire-up)_: Logs amateur radio QSOs across HF/VHF/UHF with band, mode, RST, grid, name, and contest exchanges. Imports and exports ADIF 3, deduplicates, and syncs to LoTW, eQSL, QRZ Logbook, and Club Log.
 
-- ⬜ **Award tracker** _(planned)_: Scores progress on DXCC, WAS, WAC, VUCC, IOTA, SOTA, POTA, and CQ zones per band and mode. Renders needed-entity heatmaps on an azimuthal map and surfaces openings where missing entities are workable now.
+- ✅ **Award tracker** _(stub, awaits wire-up)_: Scores progress on DXCC, WAS, WAC, VUCC, IOTA, SOTA, POTA, and CQ zones per band and mode. Renders needed-entity heatmaps on an azimuthal map and surfaces openings where missing entities are workable now.
 
 - ⬜ **Contest logger** _(planned)_: Captures contest QSOs with super-check partial, real-time dupe checking, rate windows, and rover/multi-op section support. Exports Cabrillo for ARRL, CQ WW, WPX, NAQP, and IARU.
 
