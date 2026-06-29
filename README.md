@@ -196,7 +196,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Memory and knowledge accrual
 
-- ⬜ **Memory Entry Composer** _(planned)_: Captures a single observation, decision, or preference as a structured entry with tags, source links, confidence, and scope (project vs. personal). Supports quick-capture from selected text in any pane.
+- ✅ **Memory Entry Composer** _(in testing)_: Captures a single observation, decision, or preference as a structured entry with tags, source links, confidence, and scope (project vs. personal). Supports quick-capture from selected text in any pane.
 
 - ⬜ **Memory Browser** _(planned)_: Faceted browser over all memory entries with filters for scope, tag, project, author, confidence, age, and provenance. Provides timeline, list, and graph views.
 
