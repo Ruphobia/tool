@@ -4623,7 +4623,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Route and passage planner** _(stub, awaits wire-up)_: Builds multi-leg routes with great-circle and rhumb-line segments, snaps to ENC safety contours and TSS lanes, and computes ETA bands from polar plus weather. Generates a printable passage plan with waypoints, leg bearings, tidal windows, port-of-refuge fallbacks, and a SOLAS-style berth-to-berth checklist.
 
-- ⬜ **Sail trim assistant** _(planned)_: Compares live wind, heel, rudder angle, and boatspeed against polar targets and suggests sheet, traveller, halyard, backstay, and outhaul adjustments per sail. AI-integrated recommendation explains the dominant loss (twist, depth, angle of attack) and proposes one change at a time.
+- ✅ **Sail trim assistant** _(stub, awaits wire-up)_: Compares live wind, heel, rudder angle, and boatspeed against polar targets and suggests sheet, traveller, halyard, backstay, and outhaul adjustments per sail. AI-integrated recommendation explains the dominant loss (twist, depth, angle of attack) and proposes one change at a time.
 
 - ⬜ **Sail and rig inventory** _(planned)_: Tracks each sail with cloth, year, hours under load, wind-range envelope, and last inspection, and the rig with standing wire, terminals, and tension log. Flags overdue inspections and AI-summarises wear patterns from uploaded photos of leech, luff, and clew.
 
