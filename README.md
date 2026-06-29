@@ -2613,7 +2613,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Standard Atmosphere** _(stub, awaits wire-up)_: ISA and non-standard atmosphere model returning density, pressure, temperature, viscosity, speed of sound, and Reynolds-per-meter as a function of altitude and offset. Converts between TAS, EAS, CAS, and Mach for any given condition.
 
-- ⬜ **Wind Tunnel Importer** _(planned)_: Imports tabular and image-based polar data from NACA reports, UIUC low-Re tests, and CSV/JSON exports, applying solid-blockage, wake-blockage, and streamline-curvature corrections. Aligns imported data with solver output for validation overlays.
+- ✅ **Wind Tunnel Importer** _(stub, awaits wire-up)_: Imports tabular and image-based polar data from NACA reports, UIUC low-Re tests, and CSV/JSON exports, applying solid-blockage, wake-blockage, and streamline-curvature corrections. Aligns imported data with solver output for validation overlays.
 
 - ⬜ **Aero Optimizer** _(planned)_: Gradient and genetic optimizer that drives airfoil shape, planform, or twist distribution toward objectives like min Cd at fixed Cl, max L/D, or robust performance across an operating envelope. AI-integrated proposal of seed designs and constraint sets from a natural-language goal.
 
