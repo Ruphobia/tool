@@ -3499,7 +3499,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **DEM Analyzer** _(stub, awaits wire-up)_: Loads digital elevation models (GeoTIFF, ASCII grid, HGT) and derives hillshade, slope, aspect, curvature, and TPI rasters. Includes an interactive elevation profile tool that samples along arbitrary polylines.
 
-- ⬜ **Projection Converter** _(planned)_: Reprojects coordinates and full datasets between CRSes via PROJ strings, EPSG codes, or WKT. Handles single points, coordinate lists, bounding boxes, and whole vector/raster files with datum-shift awareness.
+- ✅ **Projection Converter** _(stub, awaits wire-up)_: Reprojects coordinates and full datasets between CRSes via PROJ strings, EPSG codes, or WKT. Handles single points, coordinate lists, bounding boxes, and whole vector/raster files with datum-shift awareness.
 
 - ⬜ **Geocoder** _(planned)_: Forward and reverse geocoding against a local Nominatim-style index plus optional online providers, returning ranked candidates with confidence and place hierarchy. Batch mode resolves CSV columns to lat/lon in one pass.
 
