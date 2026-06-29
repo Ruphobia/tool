@@ -774,7 +774,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Navmesh & Pathfinding Lab** _(stub, awaits wire-up)_: Bakes navmeshes from level geometry, visualizes A*/JPS/HPA* searches step-by-step, and stress-tests with crowds of agents. Lets you tweak heuristics and agent radii with instant rebake.
 
-- ⬜ **Collision Shape Editor** _(planned)_: Per-sprite and per-mesh collider authoring with polygon, capsule, and compound shapes, plus auto-fit from alpha or mesh silhouettes. Previews collisions against test bodies with adjustable physics parameters.
+- ✅ **Collision Shape Editor** _(stub, awaits wire-up)_: Per-sprite and per-mesh collider authoring with polygon, capsule, and compound shapes, plus auto-fit from alpha or mesh silhouettes. Previews collisions against test bodies with adjustable physics parameters.
 
 - ⬜ **Localization Manager** _(planned)_: String table editor with keys, contexts, plural forms, gender, ICU MessageFormat, and screenshot attachments per key. Detects untranslated, stale, and overlong strings, and round-trips with PO/CSV/XLIFF.
 
