@@ -1779,7 +1779,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Folk Tale Variant Browser** _(stub, awaits wire-up)_: Collation viewer for variants of a single tale type across collectors and regions (Grimm, Afanasyev, Calvino, Lang, Jacobs, El-Shamy). Highlights diffs in plot beats, character roles, and locale-specific substitutions.
 
-- ⬜ **Oral History Recorder** _(planned)_: Local audio capture with timestamped transcript, speaker labeling, and informant metadata (age, location, language, consent status). AI-assisted transcription and translation runs locally; original audio is the canonical artifact.
+- ✅ **Oral History Recorder** _(stub, awaits wire-up)_: Local audio capture with timestamped transcript, speaker labeling, and informant metadata (age, location, language, consent status). AI-assisted transcription and translation runs locally; original audio is the canonical artifact.
 
 - ⬜ **Narrative Structure Analyzer** _(planned)_: Annotates a text against Campbell's monomyth, Propp's 31 functions, Greimas actantial model, and Freytag pyramid simultaneously. Outputs beat alignment charts and flags missing or inverted functions.
 
