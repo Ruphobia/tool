@@ -1642,7 +1642,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Morphological Parser** _(stub, awaits wire-up)_: Parses inflected wordforms across Latin, Greek, Hebrew, Sanskrit, and Akkadian, returning lemma, part of speech, and full morphological tags. Integrates Morpheus, CLTK, and Stanza models locally with confidence scores for ambiguous forms.
 
-- ⬜ **Declension and Conjugation Tables** _(planned)_: Generates complete paradigms for any lemma: nominal declensions, verbal conjugations, participles, and irregular stems. Supports Latin five declensions, Greek thematic/athematic, Hebrew binyanim, Sanskrit ten classes, and Akkadian G/D/Š/N stems with side-by-side comparison.
+- ✅ **Declension and Conjugation Tables** _(stub, awaits wire-up)_: Generates complete paradigms for any lemma: nominal declensions, verbal conjugations, participles, and irregular stems. Supports Latin five declensions, Greek thematic/athematic, Hebrew binyanim, Sanskrit ten classes, and Akkadian G/D/Š/N stems with side-by-side comparison.
 
 - ⬜ **Paleographic OCR** _(planned)_: Transcribes scanned manuscripts, papyri, ostraca, and inscriptions using script-specific models for uncial, minuscule, square Hebrew, Demotic, Greek majuscule, and Latin cursive hands. Outputs Unicode plus diplomatic XML with confidence heatmaps over the glyph image.
 
