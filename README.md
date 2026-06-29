@@ -2761,7 +2761,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Motorcycle Chain & Sprocket Sizer** _(stub, awaits wire-up)_: Computes chain length, sprocket ratios, final drive, top speed per RPM, and gearing changes by tooth count. Validates pitch (520/525/530, 428), o-ring vs x-ring compatibility, and tracks chain stretch from pin-to-pin measurements.
 
-- ⬜ **Valve Clearance & Shim Calculator** _(planned)_: Records measured intake/exhaust valve clearances for shim-under-bucket, shim-over-bucket, and screw-adjust heads. Computes the exact replacement shim sizes from current shim thickness and target clearance, with shim inventory tracking.
+- ✅ **Valve Clearance & Shim Calculator** _(stub, awaits wire-up)_: Records measured intake/exhaust valve clearances for shim-under-bucket, shim-over-bucket, and screw-adjust heads. Computes the exact replacement shim sizes from current shim thickness and target clearance, with shim inventory tracking.
 
 - ⬜ **Carburetor & EFI Tuning Workbench** _(planned)_: Jet size selector by altitude, temperature, and humidity for common carbs (Mikuni, Keihin, Dell'Orto). For EFI, imports fuel and ignition tables (Tunerstudio, EcuTek, HPTuners exports) and visualizes AFR/timing maps against logged data.
 
