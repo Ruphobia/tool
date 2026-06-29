@@ -2286,7 +2286,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Acoustic, thermal, hydraulic, pneumatic engineering
 
-- ⬜ **Noise level predictor** _(planned)_: Computes Leq, Lmax, L10/L90, NC/NR curves, and dBA/dBC weighting from source spectra and distance attenuation. Supports point, line, and area sources with ground/barrier corrections per ISO 9613.
+- ✅ **Noise level predictor** _(stub, awaits wire-up)_: Computes Leq, Lmax, L10/L90, NC/NR curves, and dBA/dBC weighting from source spectra and distance attenuation. Supports point, line, and area sources with ground/barrier corrections per ISO 9613.
 
 - ⬜ **Room acoustics modeler** _(planned)_: Computes RT60 via Sabine, Eyring, and Millington formulas from surface areas and absorption coefficients. Predicts modal frequencies and Schroeder transition for rectangular rooms; AI-integrated material picks to hit a target reverberation curve.
 
