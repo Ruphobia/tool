@@ -3370,7 +3370,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Stratigraphic column builder** _(stub, awaits wire-up)_: Draws measured sections with lithology fills, grain-size profile, bed thickness, fossil/sample horizons, and contact types in the style of SedLog and StratDraw. Exports SVG and correlates multiple columns side-by-side along a chosen datum.
 
-- ⬜ **Harris matrix editor** _(planned)_: Builds and validates stratigraphic context relationships (above, below, equals, cuts, fills) for excavation units, detects cycles, and renders the matrix as a layered DAG. Imports context sheet CSVs from single-context recording systems.
+- ✅ **Harris matrix editor** _(stub, awaits wire-up)_: Builds and validates stratigraphic context relationships (above, below, equals, cuts, fills) for excavation units, detects cycles, and renders the matrix as a layered DAG. Imports context sheet CSVs from single-context recording systems.
 
 - ⬜ **Radiocarbon calibrator** _(planned)_: Calibrates uncalibrated 14C dates against IntCal20, SHCal20, and Marine20 curves with reservoir corrections, producing probability density distributions and 1/2-sigma ranges. Supports R_Combine, R_Date, sequence, and phase Bayesian models in the OxCal idiom.
 
