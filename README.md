@@ -4020,7 +4020,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **CocktailWorkbench** _(stub, awaits wire-up)_: Spec builder enforcing sugar, acid, and ABV balance with stir, shake, and build dilution models. Generates build cards, scales to batch size, and tracks ingredient substitutions.
 
-- ⬜ **DilutionCalculator** _(planned)_: Solves final ABV, sugar, and acid given ice melt, top-up, water cuts, or proofing additions. Supports cask strength reductions and barrel-proof bottling targets.
+- ✅ **DilutionCalculator** _(stub, awaits wire-up)_: Solves final ABV, sugar, and acid given ice melt, top-up, water cuts, or proofing additions. Supports cask strength reductions and barrel-proof bottling targets.
 
 - ⬜ **WineTastingNotes** _(planned)_: Structured WSET SAT capture covering appearance, nose, palate, and conclusions, with grape, region, and producer taxonomy. Supports blind tasting modes and computes calibration accuracy over time.
 
