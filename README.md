@@ -486,7 +486,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Crash log symbolicator** _(stub, awaits wire-up)_: Resolves iOS .crash and .ips reports against dSYM bundles and Android stack traces against ProGuard/R8 mapping files, producing readable frames with source line attribution and a deduplicated grouping per signature.
 
-- ⬜ **Bundle size analyzer** _(planned)_: Decomposes IPA and APK/AAB payloads into per-framework, per-asset, and per-language contributions, diffs against the previous release, and AI-suggests removals (unused locales, duplicate fonts, oversized PNGs) ranked by byte impact.
+- ✅ **Bundle size analyzer** _(stub, awaits wire-up)_: Decomposes IPA and APK/AAB payloads into per-framework, per-asset, and per-language contributions, diffs against the previous release, and AI-suggests removals (unused locales, duplicate fonts, oversized PNGs) ranked by byte impact.
 
 - ⬜ **Multi-device layout previewer** _(planned)_: Renders the current SwiftUI, Jetpack Compose, Flutter, or React Native screen simultaneously across a configurable device grid with light/dark, RTL, dynamic type, and accessibility-large-text axes shown side-by-side.
 
