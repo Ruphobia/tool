@@ -2161,7 +2161,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **DFM/DFA reviewer** _(stub, awaits wire-up)_: Flags geometry that is hard to machine, mold, cast, print, or assemble: thin walls, sharp internal corners, deep pockets, undercuts, fastener access. AI-integrated rewrite suggestions to reduce cost and lead time.
 
-- ⬜ **BOM and cost estimator** _(planned)_: Rolls up multi-level bills of materials with vendor pricing, lead time, MOQ, and weight; estimates machining, printing, and molding cost from geometry. Exports CSV and supplier RFQs.
+- ✅ **BOM and cost estimator** _(stub, awaits wire-up)_: Rolls up multi-level bills of materials with vendor pricing, lead time, MOQ, and weight; estimates machining, printing, and molding cost from geometry. Exports CSV and supplier RFQs.
 
 - ⬜ **Vendor and supplier search** _(planned)_: Searches McMaster, Misumi, Digi-Key, Grainger, and machine shop networks for parts matching a CAD model or spec sheet. AI-integrated extraction of part specs from a screenshot or description.
 
