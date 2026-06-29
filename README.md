@@ -4283,7 +4283,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Character Sheet Forge** _(stub, awaits wire-up)_: Multi-system character sheet manager supporting D&D 5e, Pathfinder 1e/2e, OSR, and custom rulesets. Tracks stats, inventory, spells, conditions, and resource pools with live derived-stat recalculation and per-system rule validation.
 
-- ⬜ **Dice Roller With Macros** _(planned)_: Parser for full dice notation (advantage, exploding, keep-highest, fudge, success-counting pools) with named macros, roll history, and probability previews. Roll templates bind to character sheet fields for one-click attacks, saves, and skill checks.
+- ✅ **Dice Roller With Macros** _(stub, awaits wire-up)_: Parser for full dice notation (advantage, exploding, keep-highest, fudge, success-counting pools) with named macros, roll history, and probability previews. Roll templates bind to character sheet fields for one-click attacks, saves, and skill checks.
 
 - ⬜ **Encounter Builder** _(planned)_: Assembles combat encounters from the monster compendium with CR/XP budgeting, party-level balance heuristics, terrain tags, and difficulty estimation across multiple systems. Outputs initiative-ready stat blocks and loot rolls.
 
