@@ -4826,7 +4826,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Entertainment, trivia, pop culture
 
-- ⬜ **Movie and TV trivia** _(planned)_: queries IMDb-class data offline, with cast/crew/episode/character details, behind-the-scenes notes, reception and review aggregation, soundtrack lookups.
+- ✅ **Movie and TV trivia** _(stub, awaits wire-up)_: queries IMDb-class data offline, with cast/crew/episode/character details, behind-the-scenes notes, reception and review aggregation, soundtrack lookups.
 
 - ⬜ **General trivia and quiz** _(planned)_: categorized trivia banks (history, geography, science, sports, etc.) with question-generation, difficulty scaling, multiplayer mode, party-game format, AI-generated questions from a topic seed.
 
