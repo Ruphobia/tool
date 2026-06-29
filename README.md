@@ -2920,7 +2920,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Incompatibility checker** _(stub, awaits wire-up)_: Cross-references a reagent and waste list against storage and reactivity matrices; warns on oxidizer-fuel pairs, water-reactives, peroxide formers, shock sensitives, and forbidden waste combinations before they are mixed.
 
-- ⬜ **Solution and buffer calculator** _(planned)_: Computes molarity, molality, normality, mass percent, ppm, and serial dilutions; designs buffers via Henderson-Hasselbalch with ionic-strength and activity corrections, and outputs a weigh-and-dissolve recipe.
+- ✅ **Solution and buffer calculator** _(stub, awaits wire-up)_: Computes molarity, molality, normality, mass percent, ppm, and serial dilutions; designs buffers via Henderson-Hasselbalch with ionic-strength and activity corrections, and outputs a weigh-and-dissolve recipe.
 
 - ⬜ **Property predictor** _(planned)_: Estimates pKa, logP, logD, solubility, melting point, boiling point, vapor pressure, and basic ADMET descriptors from structure; reports species distribution versus pH and confidence intervals from the underlying model.
 
