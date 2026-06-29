@@ -1486,7 +1486,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Document summarizer** _(stub, awaits wire-up)_: Produces per-section, per-chapter, and whole-document summaries at selectable depth, with extractive quote pulls alongside abstractive paraphrase. Caches summaries per content hash so they survive reopen.
 
-- ⬜ **Glossary and index builder** _(planned)_: Identifies domain terms, named entities, and recurring symbols across a book or corpus, building a clickable glossary with first-mention pages and AI-integrated definitions grounded in the source text.
+- ✅ **Glossary and index builder** _(stub, awaits wire-up)_: Identifies domain terms, named entities, and recurring symbols across a book or corpus, building a clickable glossary with first-mention pages and AI-integrated definitions grounded in the source text.
 
 - ⬜ **Flashcard generator** _(planned)_: Generates cloze and Q-and-A cards from highlights, definitions, or entire sections, with answer evidence anchored to source pages. Exports to Anki, Mochi, or a built-in spaced repetition queue.
 
