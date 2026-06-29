@@ -2934,7 +2934,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Chromatography method designer** _(stub, awaits wire-up)_: Plans HPLC, UPLC, and GC methods from analyte properties; predicts retention, resolution, and peak shape under a chosen column, mobile phase, gradient, and temperature. AI-integrated suggestion of starting conditions from a target analyte mixture.
 
-- ⬜ **Polymer builder** _(planned)_: Constructs homopolymer, copolymer, and block-copolymer chains from monomer repeats with chosen tacticity and dispersity; reports Mn, Mw, PDI, and predicts Tg, Tm, and solubility parameter from group contributions.
+- ✅ **Polymer builder** _(stub, awaits wire-up)_: Constructs homopolymer, copolymer, and block-copolymer chains from monomer repeats with chosen tacticity and dispersity; reports Mn, Mw, PDI, and predicts Tg, Tm, and solubility parameter from group contributions.
 
 - ⬜ **Apparatus and glassware sketcher** _(planned)_: Schematic editor for distillation, reflux, Schlenk, flow, and electrochemical setups with a library of standard glassware, joints, condensers, and stirrers; outputs an annotated diagram that drops directly into the notebook entry.
 
