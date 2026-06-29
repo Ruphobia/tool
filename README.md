@@ -646,7 +646,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Search index manager** _(stub, awaits wire-up)_: Manages Elasticsearch, OpenSearch, and Meilisearch indices with analyzer testing, mapping editor, reindex orchestrator, and query DSL playground with relevance scoring breakdown.
 
-- ⬜ **Query history and snippets** _(planned)_: Persistent local history of every executed query with full-text search, tag/star, parameter capture, shareable snippet library, and replay against a different connection.
+- ✅ **Query history and snippets** _(stub, awaits wire-up)_: Persistent local history of every executed query with full-text search, tag/star, parameter capture, shareable snippet library, and replay against a different connection.
 
 - ⬜ **Stored procedure IDE** _(planned)_: Edits PL/pgSQL, T-SQL, PL/SQL, and MySQL routines with syntax-aware diff, dependency graph, step debugger where supported, and unit-test harness using transactional rollback.
 
