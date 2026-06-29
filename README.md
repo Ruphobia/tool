@@ -370,7 +370,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Rust toolchain** _(stub, awaits wire-up)_: a tool for Rust development: rustup, cargo, cargo-watch, rust-analyzer, clippy/rustfmt, miri (UB checker), criterion benchmarks, cargo-flamegraph, cross compilation, no_std/embedded support.
 
-- ⬜ **Go toolchain** _(planned)_: a tool for Go development: go modules, go test, gofmt/goimports, golangci-lint, delve debugger, pprof viewer, cross-compilation, cgo helpers.
+- ✅ **Go toolchain** _(stub, awaits wire-up)_: a tool for Go development: go modules, go test, gofmt/goimports, golangci-lint, delve debugger, pprof viewer, cross-compilation, cgo helpers.
 
 - ⬜ **JVM toolchain (Java, Kotlin, Scala)** _(planned)_: a tool for JVM-language development: jdk version management (sdkman/jenv), gradle/maven, junit/kotest, dependency tree visualizer, jvm flag tuner, jconsole/jvisualvm bridge.
 
