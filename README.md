@@ -1249,7 +1249,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Item Calibrator** _(stub, awaits wire-up)_: Fits 1PL, 2PL, and 3PL IRT models from response logs to estimate item difficulty, discrimination, and guessing. Flags misfit items and produces test information curves for blueprint planning.
 
-- ⬜ **Classroom Runner** _(planned)_: Presents a quiz live with a projector view, anonymous response capture from learner devices on the local network, and per-question timing. Streams aggregate response distributions back to the instructor view.
+- ✅ **Classroom Runner** _(stub, awaits wire-up)_: Presents a quiz live with a projector view, anonymous response capture from learner devices on the local network, and per-question timing. Streams aggregate response distributions back to the instructor view.
 
 - ⬜ **Mastery Tracker** _(planned)_: Maintains per-learner knowledge state across a skill graph using Bayesian knowledge tracing and forgetting-curve projections. Recommends the next review item and predicts retention at chosen horizons.
 
