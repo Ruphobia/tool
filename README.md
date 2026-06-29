@@ -3010,7 +3010,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Genome annotator** _(stub, awaits wire-up)_: Predicts CDS, rRNA, tRNA, and CRISPR arrays via Prokka, Bakta, or Pharokka for prokaryotes and phages. Augments with eggNOG, InterProScan, and AMRFinderPlus functional layers.
 
-- ⬜ **Plasmid editor** _(planned)_: Edits circular constructs with restriction cloning, Gibson, Golden Gate, and Type IIS workflows. Validates junctions, autosuggests overhangs, and exports SBOL and SnapGene-compatible GenBank.
+- ✅ **Plasmid editor** _(stub, awaits wire-up)_: Edits circular constructs with restriction cloning, Gibson, Golden Gate, and Type IIS workflows. Validates junctions, autosuggests overhangs, and exports SBOL and SnapGene-compatible GenBank.
 
 - ⬜ **Variant caller** _(planned)_: Calls SNPs, indels, and structural variants on bacterial, viral, and eukaryotic data with bcftools, GATK, or LoFreq for low-frequency variants in viral quasispecies.
 
