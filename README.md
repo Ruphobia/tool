@@ -1787,7 +1787,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Comparative Etymology Tracer** _(stub, awaits wire-up)_: Tracks divine and heroic names across reconstructed proto-languages (PIE, Proto-Uralic, Proto-Bantu) with sound-law derivations. Cites Watkins, Mallory, Pokorny, and flags contested reconstructions.
 
-- ⬜ **Tale Diffusion Mapper** _(planned)_: Plots geographic spread of tale types and motifs on a base map with chronological layers, trade routes, and migration overlays. Useful for testing diffusionist vs polygenesis hypotheses on a given motif.
+- ✅ **Tale Diffusion Mapper** _(stub, awaits wire-up)_: Plots geographic spread of tale types and motifs on a base map with chronological layers, trade routes, and migration overlays. Useful for testing diffusionist vs polygenesis hypotheses on a given motif.
 
 - ⬜ **Ritual and Festival Calendar** _(planned)_: Cross-cultural calendar of feast days, seasonal rites, and liturgical cycles keyed to lunar, solar, and agricultural reckonings. Links each entry to associated myths, hymns, and ethnographic sources.
 
