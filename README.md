@@ -4096,7 +4096,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Visual arts: calligraphy, painting, sculpture
 
-- ⬜ **Palette extractor** _(planned)_: Extracts dominant colors from a reference image using k-means or median-cut quantization, returns swatches with hex/RGB/OKLCH values, coverage percentages, and optional weighting by saliency.
+- ✅ **Palette extractor** _(stub, awaits wire-up)_: Extracts dominant colors from a reference image using k-means or median-cut quantization, returns swatches with hex/RGB/OKLCH values, coverage percentages, and optional weighting by saliency.
 
 - ⬜ **Color harmony generator** _(planned)_: Builds complementary, split-complementary, triadic, tetradic, square, and analogous schemes around a base hue, with editing in OKLCH or HSLuv so lightness stays perceptually even across the wheel.
 
