@@ -4560,7 +4560,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Macro and calorie ledger** _(stub, awaits wire-up)_: Logs foods against USDA FoodData Central and Open Food Facts (barcode lookup), rolling up daily protein/carb/fat/fiber/micros against targets with weekly trend smoothing.
 
-- ⬜ **Recipe builder** _(planned)_: Composes recipes from ingredient lists with per-serving nutrient roll-up, batch scaling, leftover-aware meal planning, and grocery list export.
+- ✅ **Recipe builder** _(stub, awaits wire-up)_: Composes recipes from ingredient lists with per-serving nutrient roll-up, batch scaling, leftover-aware meal planning, and grocery list export.
 
 - ⬜ **Gait and form video analyzer** _(planned)_: Runs MediaPipe/MoveNet pose estimation on uploaded video to extract joint angles, stride length, cadence, ground-contact time, and left/right asymmetry; renders side-by-side overlays against a reference clip.
 
