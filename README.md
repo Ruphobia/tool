@@ -4742,7 +4742,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Chronotype Quiz** _(stub, awaits wire-up)_: Administers the Morningness-Eveningness Questionnaire (MEQ), Munich Chronotype Questionnaire (MCTQ), and AutoMEQ. Reports chronotype score, mid-sleep on free days corrected for sleep debt (MSFsc), and social jetlag.
 
-- ⬜ **Circadian Phase Estimator** _(planned)_: Estimates dim-light melatonin onset (DLMO) and core body temperature minimum from logged sleep midpoints, light exposure, and (optionally) HRV troughs. Produces a phase-advance or phase-delay recommendation window.
+- ✅ **Circadian Phase Estimator** _(stub, awaits wire-up)_: Estimates dim-light melatonin onset (DLMO) and core body temperature minimum from logged sleep midpoints, light exposure, and (optionally) HRV troughs. Produces a phase-advance or phase-delay recommendation window.
 
 - ⬜ **Light Exposure Logger** _(planned)_: Tracks bright-light dose (lux times minutes) and red-shifted evening exposure, either from manual entries or phone ambient-light sensor sampling. Flags deviations from a target circadian light schedule.
 
