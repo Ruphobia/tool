@@ -764,7 +764,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Asset Pipeline Manager** _(stub, awaits wire-up)_: Declarative import pipeline that watches source folders, runs reproducible transforms (atlas pack, compress, mip, ETC/BCn), and writes lockfiles. Caches by content hash and surfaces diffs when an asset rebuilds.
 
-- ⬜ **Sprite Atlas Packer** _(planned)_: Multi-bin texture packer with rotation, trim, padding, POT/NPOT modes, and stable IDs across rebuilds for diff-friendly atlases. Generates engine-specific metadata (Unity, Godot, LOVE, raw JSON).
+- ✅ **Sprite Atlas Packer** _(stub, awaits wire-up)_: Multi-bin texture packer with rotation, trim, padding, POT/NPOT modes, and stable IDs across rebuilds for diff-friendly atlases. Generates engine-specific metadata (Unity, Godot, LOVE, raw JSON).
 
 - ⬜ **Palette Workshop** _(planned)_: Color ramp and indexed palette designer with LCh-aware interpolation, dithering preview, palette extraction from reference images, and palette-swap testing across all sprites at once.
 
