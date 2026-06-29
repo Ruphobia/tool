@@ -4363,7 +4363,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Input Overlay** _(stub, awaits wire-up)_: Live and recorded input-display overlay that renders controller/keyboard state per frame, with configurable skins for arcade sticks, gamepads, and KB+M. Reads from local capture devices, TAS movie files, or replay-extracted input streams.
 
-- ⬜ **Splits Timer** _(planned)_: LiveSplit-compatible segmented timer with auto-splitting via memory hooks, image recognition, and load-removal. Stores splits, gold segments, and sum-of-best per route, and writes splits.io and Splits XML.
+- ✅ **Splits Timer** _(stub, awaits wire-up)_: LiveSplit-compatible segmented timer with auto-splitting via memory hooks, image recognition, and load-removal. Stores splits, gold segments, and sum-of-best per route, and writes splits.io and Splits XML.
 
 - ⬜ **Route Notebook** _(planned)_: Markdown notebook for route notes with embedded splits, video clips, and per-segment tricks; supports branching variants and conditional sections per RNG seed or category. AI summarizer drafts route changelogs by diffing two notebook versions.
 
