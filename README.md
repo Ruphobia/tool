@@ -2429,7 +2429,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Seakeeping RAO analyzer** _(stub, awaits wire-up)_: Strip-theory heave, pitch, and roll response amplitude operators against JONSWAP, Pierson-Moskowitz, and Bretschneider spectra; reports significant motions, MII, and slamming/wetness counts.
 
-- ⬜ **Propeller series matcher** _(planned)_: Wageningen B-series and Gawn polynomial open-water curves matched to engine torque and hull wake; finds optimum diameter, pitch, and blade-area ratio for the design point.
+- ✅ **Propeller series matcher** _(stub, awaits wire-up)_: Wageningen B-series and Gawn polynomial open-water curves matched to engine torque and hull wake; finds optimum diameter, pitch, and blade-area ratio for the design point.
 
 - ⬜ **Hydrostatics and stability calculator** _(planned)_: Builds Bonjean curves, KN tables, and intact/damage GZ curves from an offsets table; checks IMO IS Code and SOLAS damaged-stability criteria.
 
