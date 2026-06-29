@@ -1824,7 +1824,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Corpus Concordancer** _(stub, awaits wire-up)_: Loads plain text, TEI, or CoNLL corpora and runs KWIC search with regex, lemma, and POS filters, plus frequency lists, collocation scores (PMI, log-Dice, t-score), and keyness against a reference corpus.
 
-- ⬜ **Etymology Explorer** _(planned)_: Looks up word histories from vendored Wiktionary and Etymonline dumps, drawing cognate and borrowing graphs across language families. AI-integrated hypothesis generation for missing intermediate forms with confidence flags.
+- ✅ **Etymology Explorer** _(stub, awaits wire-up)_: Looks up word histories from vendored Wiktionary and Etymonline dumps, drawing cognate and borrowing graphs across language families. AI-integrated hypothesis generation for missing intermediate forms with confidence flags.
 
 - ⬜ **Finite-State Lab** _(planned)_: Builds, composes, and visualizes finite-state acceptors and transducers (FSA/FST) for morphology and phonology, with regex-to-automaton conversion, determinization, minimization, and derivative-based regex debugging.
 
