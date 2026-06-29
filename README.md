@@ -748,7 +748,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Dialog Scripter** _(stub, awaits wire-up)_: Node-graph branching dialog editor with conditions, variables, speakers, voice-line slots, and inline localization. Compiles to Yarn, Ink, or a portable JSON runtime and round-trips with plain-text source.
 
-- ⬜ **Behavior Tree Authoring** _(planned)_: Visual editor for behavior trees with selectors, sequences, decorators, services, blackboard inspection, and step-debugging against a live game instance. Includes a library of reusable subtrees and unit tests per node.
+- ✅ **Behavior Tree Authoring** _(stub, awaits wire-up)_: Visual editor for behavior trees with selectors, sequences, decorators, services, blackboard inspection, and step-debugging against a live game instance. Includes a library of reusable subtrees and unit tests per node.
 
 - ⬜ **State Machine Editor** _(planned)_: Hierarchical FSM designer with transitions, guards, entry/exit actions, parallel regions, and statechart export. Live replay shows the active state path against recorded gameplay traces.
 
