@@ -1173,7 +1173,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Warehouse slotting tool** _(stub, awaits wire-up)_: Performs ABC / XYZ classification and cube-per-order indexing, then assigns SKUs to pick locations to minimize expected travel given affinity (order-line co-occurrence) and ergonomic golden-zone constraints. Compares S-shape, return, midpoint, and largest-gap routing.
 
-- ⬜ **Pick path optimizer** _(planned)_: Generates optimal or near-optimal picker routes through aisle-rack-bin grids using Ratliff-Rosenthal exact DP for rectangular warehouses and metaheuristics for irregular layouts. Supports zone picking, batch picking with capacity, and wave release simulation.
+- ✅ **Pick path optimizer** _(stub, awaits wire-up)_: Generates optimal or near-optimal picker routes through aisle-rack-bin grids using Ratliff-Rosenthal exact DP for rectangular warehouses and metaheuristics for irregular layouts. Supports zone picking, batch picking with capacity, and wave release simulation.
 
 - ⬜ **Container loader** _(planned)_: Solves 3D bin packing and pallet building with weight, stacking, fragility, axis-load, and load-stop sequence constraints. Visualizes the load plan in 3D and reports utilization, center-of-gravity, and reload effort at each stop.
 
