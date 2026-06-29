@@ -4525,7 +4525,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **GPX Track Workbench** _(stub, awaits wire-up)_: Loads, splits, merges, simplifies, and re-times GPX/TCX/FIT tracks with elevation smoothing and pause detection. Includes waypoint snapping, segment statistics, and export to common watch and GPS formats.
 
-- ⬜ **Avalanche Forecast Overlay** _(planned)_: Pulls regional avalanche center bulletins (CAIC, UAC, Avalanche Canada, EAWS) and overlays danger rose, problem types, and elevation bands onto the map. Caches forecasts offline for backcountry trips.
+- ✅ **Avalanche Forecast Overlay** _(stub, awaits wire-up)_: Pulls regional avalanche center bulletins (CAIC, UAC, Avalanche Canada, EAWS) and overlays danger rose, problem types, and elevation bands onto the map. Caches forecasts offline for backcountry trips.
 
 - ⬜ **Slope Angle & Aspect Map** _(planned)_: Renders slope angle shading (27, 30, 35, 38, 45 degree bands) and aspect coloring from local DEM tiles. Highlights terrain traps, runout zones, and ATES classifications along a planned ski tour line.
 
