@@ -1560,7 +1560,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Dataset curator** _(stub, awaits wire-up)_: Sample-level review surface for image, audio, text, and tabular datasets with labels, splits, dedup (MinHash/SimHash/embedding), PII scan, and class-balance views. AI-integrated outlier and mislabel surfacing using model disagreement.
 
-- ⬜ **Labeling studio** _(planned)_: Annotation interface for classification, NER, span, bbox, polygon, keypoint, and audio segment tasks with inter-annotator agreement metrics. AI-integrated pre-labeling and active-learning sample selection.
+- ✅ **Labeling studio** _(stub, awaits wire-up)_: Annotation interface for classification, NER, span, bbox, polygon, keypoint, and audio segment tasks with inter-annotator agreement metrics. AI-integrated pre-labeling and active-learning sample selection.
 
 - ⬜ **Data quality profiler** _(planned)_: Produces per-column distributions, missingness patterns, cardinality, drift vs. a reference snapshot, and Great-Expectations-style assertions. Flags schema changes, outliers, and constant or near-constant columns.
 
