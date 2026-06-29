@@ -4611,7 +4611,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **AIS decoder and viewer** _(stub, awaits wire-up)_: Decodes NMEA AIVDM/AIVDO sentences for message types 1-5, 18, 19, 21, 24, and 27, reconstructs vessel tracks, and computes CPA/TCPA against own ship. Filters by class, MMSI, navigation status, and bounding box, and tags targets with risk-of-collision flags per the configured CPA limit.
 
-- ⬜ **NMEA 0183/2000 multiplexer** _(planned)_: Reads, validates, and replays NMEA 0183 sentences and NMEA 2000 PGNs (including 129025 position, 129026 COG/SOG, 129029 GNSS, 130306 wind, 128267 depth), with checksum and PGN-fastpacket reassembly. Bridges to SignalK delta streams and exposes a tap for instrument debugging.
+- ✅ **NMEA 0183/2000 multiplexer** _(stub, awaits wire-up)_: Reads, validates, and replays NMEA 0183 sentences and NMEA 2000 PGNs (including 129025 position, 129026 COG/SOG, 129029 GNSS, 130306 wind, 128267 depth), with checksum and PGN-fastpacket reassembly. Bridges to SignalK delta streams and exposes a tap for instrument debugging.
 
 - ⬜ **SignalK schema bridge** _(planned)_: Mounts a SignalK server endpoint, maps incoming deltas to and from local instrument feeds, and lets the workbench subscribe to or publish self/vessels paths. Validates against the SignalK JSON schema and surfaces unit and reference-frame mismatches.
 
