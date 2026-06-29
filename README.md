@@ -569,7 +569,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Fuzzer and property tester** _(stub, awaits wire-up)_: Drives libFuzzer, AFL++, and Hypothesis-style property tests against parsers, protocol stacks, and state machines built for host or QEMU. Reports crashes with minimized reproducers.
 
-- ⬜ **Code-size optimizer** _(planned)_: Suggests link-time GC, LTO, function outlining, table consolidation, and printf-removal opportunities ranked by bytes saved. AI rewrites size-bloat hotspots and validates equivalence on a test suite.
+- ✅ **Code-size optimizer** _(stub, awaits wire-up)_: Suggests link-time GC, LTO, function outlining, table consolidation, and printf-removal opportunities ranked by bytes saved. AI rewrites size-bloat hotspots and validates equivalence on a test suite.
 
 - ⬜ **Symbol and call graph explorer** _(planned)_: Interactive call graph and reverse call graph from compiled artifacts with cycle and recursion detection. Useful for stack budgeting and dead-code hunting.
 
