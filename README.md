@@ -3503,7 +3503,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Geocoder** _(stub, awaits wire-up)_: Forward and reverse geocoding against a local Nominatim-style index plus optional online providers, returning ranked candidates with confidence and place hierarchy. Batch mode resolves CSV columns to lat/lon in one pass.
 
-- ⬜ **Mineral Identifier** _(planned)_: Identifies likely minerals from observed properties (hardness, streak, luster, cleavage, density, optical signs, crystal system) against a vendored mineral database. AI-integrated reasoning over fuzzy or partial observations to rank candidates and suggest the next diagnostic test.
+- ✅ **Mineral Identifier** _(stub, awaits wire-up)_: Identifies likely minerals from observed properties (hardness, streak, luster, cleavage, density, optical signs, crystal system) against a vendored mineral database. AI-integrated reasoning over fuzzy or partial observations to rank candidates and suggest the next diagnostic test.
 
 - ⬜ **Geologic Time Scale** _(planned)_: Interactive ICS chronostratigraphic chart with zoomable eons, eras, periods, epochs, and ages, plus GSSP markers and major bio/geo events. Click any unit to get duration, key fossils, climate state, and references.
 
