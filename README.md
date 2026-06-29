@@ -3134,7 +3134,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Risk Score Calculator** _(stub, awaits wire-up)_: Library of validated clinical risk scores (CHA2DS2-VASc, HAS-BLED, Wells, PERC, MELD, APACHE II, SOFA, CURB-65, FRAX, ASCVD, Framingham) with inputs, score, and stratified recommendations.
 
-- ⬜ **Drug Identifier** _(planned)_: Identifies pills by imprint, shape, color, and scoring against the NLM Pillbox / RxImage data; supports photo upload with AI-integrated visual matching as a triage step before manufacturer confirmation.
+- ✅ **Drug Identifier** _(stub, awaits wire-up)_: Identifies pills by imprint, shape, color, and scoring against the NLM Pillbox / RxImage data; supports photo upload with AI-integrated visual matching as a triage step before manufacturer confirmation.
 
 - ⬜ **Medical Image Segmenter** _(planned)_: Runs local segmentation models (TotalSegmentator, MONAI) on CT/MRI volumes for organs, lesions, and vessels, with manual brush/polygon correction and volumetric statistics export.
 
