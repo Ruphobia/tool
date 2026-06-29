@@ -1358,7 +1358,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Patent searcher** _(stub, awaits wire-up)_: queries USPTO, EPO, WIPO, Google Patents and CCD with semantic search across abstracts, claims, and figures. Builds citation graphs, finds patent families, exports BibTeX/CSV. AI-integrated novelty assessment against drafted disclosures.
 
-- ⬜ **Patent drafter** _(planned)_: writes provisional and non-provisional applications: spec, claims (independent + dependent), drawings markup, abstract. Generates claim trees, supports claim charts for infringement comparison, runs an AI prior-art sanity check before filing.
+- ✅ **Patent drafter** _(stub, awaits wire-up)_: writes provisional and non-provisional applications: spec, claims (independent + dependent), drawings markup, abstract. Generates claim trees, supports claim charts for infringement comparison, runs an AI prior-art sanity check before filing.
 
 - ⬜ **Trademark searcher** _(planned)_: searches USPTO TESS, Madrid, EUIPO, and common-law uses. Pulls similar marks by phonetic/visual/conceptual similarity. Drafts statements of use, opposition responses, and TTAB filings.
 
