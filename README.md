@@ -2624,7 +2624,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Flight planner** _(stub, awaits wire-up)_: Builds VFR and IFR routes with winds aloft interpolation, fuel burn from POH performance, alternates selection, and great-circle or airway routing. Exports to ForeFlight, SimBrief, FltPlan, and GPX, and renders the plog with time, distance, and fuel per leg.
 
-- ⬜ **Weight and balance calculator** _(planned)_: Stores per-tail aircraft envelopes, station arms, and useful load. Plots CG against the forward and aft envelope across fuel burn, validates zero-fuel and ramp limits, and supports multi-leg loading scenarios.
+- ✅ **Weight and balance calculator** _(stub, awaits wire-up)_: Stores per-tail aircraft envelopes, station arms, and useful load. Plots CG against the forward and aft envelope across fuel burn, validates zero-fuel and ramp limits, and supports multi-leg loading scenarios.
 
 - ⬜ **Chart viewer** _(planned)_: Renders georeferenced FAA sectional, TAC, IFR low/high enroute, terminal area, and approach plates with day/night palettes. Overlays the active route, airspace classes, MEAs, MOAs, and NOTAM polygons.
 
