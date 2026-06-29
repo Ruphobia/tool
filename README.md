@@ -4412,7 +4412,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Swarm and queen lineage tracker** _(stub, awaits wire-up)_: Logs queen marking color, source, mating date, supersedure, and pedigree across splits. Predicts swarm risk from frame congestion, drone brood, and seasonal cues.
 
-- ⬜ **Pollinator phenology log** _(planned)_: Time-series record of bloom onset, pollinator species sightings (iNaturalist-style taxonomy), and forage availability. Correlates with hive scale weight gain and weather to surface dearth periods.
+- ✅ **Pollinator phenology log** _(stub, awaits wire-up)_: Time-series record of bloom onset, pollinator species sightings (iNaturalist-style taxonomy), and forage availability. Correlates with hive scale weight gain and weather to surface dearth periods.
 
 - ⬜ **Nitrogen cycle tracker** _(planned)_: Plots ammonia, nitrite, nitrate, and pH over the cycling period for a new tank. Flags stalls and estimates time-to-cycled from the curve shape using a fish-in or fishless protocol.
 
