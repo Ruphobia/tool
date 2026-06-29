@@ -4159,7 +4159,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Counterfeit and Alteration Detector** _(stub, awaits wire-up)_: Checks weight, diameter, edge, magnetic response, specific gravity, and surface texture against catalog specs; pattern-matches against known fake dies (Omega, Henning, Micro O, Chinese counterfeit families) and altered-date diagnostics. Flags suspect pieces with reasoning.
 
-- ⬜ **Watermark and Perforation Analyzer** _(planned)_: For stamps and banknotes: detects watermarks via fluid-free image enhancement, measures perforation gauge to 0.1, and identifies paper type, gum, and printing method (engraved, typographed, photogravure, offset). Outputs Scott/SG-compatible attribution data.
+- ✅ **Watermark and Perforation Analyzer** _(stub, awaits wire-up)_: For stamps and banknotes: detects watermarks via fluid-free image enhancement, measures perforation gauge to 0.1, and identifies paper type, gum, and printing method (engraved, typographed, photogravure, offset). Outputs Scott/SG-compatible attribution data.
 
 - ⬜ **Hoard and Find Atlas** _(planned)_: Geo-tagged archive of documented coin hoards, shipwreck recoveries (Atocha, SS Central America, El Cazador), and stamp finds with composition tables and date ranges. Useful for sourcing provenance hints and dating unprovenanced lots.
 
