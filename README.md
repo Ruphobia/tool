@@ -2105,7 +2105,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Mechanical and manufacturing
 
-- ⬜ **Fastener selector** _(planned)_: screw/bolt/nut sizing by load and material, with metric and imperial standards, head/drive type filter, ISO/DIN/ANSI cross-reference, torque table, thread engagement calculator, McMaster cross-link for in-stock.
+- ✅ **Fastener selector** _(stub, awaits wire-up)_: screw/bolt/nut sizing by load and material, with metric and imperial standards, head/drive type filter, ISO/DIN/ANSI cross-reference, torque table, thread engagement calculator, McMaster cross-link for in-stock.
 
 - ⬜ **PPE selector** _(planned)_: given a process and material, recommends specific personal protective equipment: respirator cartridge type (P100/organic-vapor/multi-gas/SCBA), glove material (nitrile vs. neoprene vs. butyl vs. PVA, with chemical-compatibility matrix), eye protection (shade for welding processes, splash for chemistry), hearing protection NRR matched to the noise level. Cites the SDS/IDLH for the specific exposure.
 
