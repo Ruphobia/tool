@@ -3619,7 +3619,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **RAW developer** _(stub, awaits wire-up)_: Demosaicing and tone-mapping pipeline over CR2/NEF/ARW/DNG using libraw with white-balance, highlight recovery, and lens-profile correction. Exposes a node graph for non-destructive edits.
 
-- ⬜ **HDR and tonemap** _(planned)_: Multi-exposure merging, tonemapping operators (Reinhard, Drago, Mantiuk), and EXR/HDR I/O. Supports deghosting of handheld brackets.
+- ✅ **HDR and tonemap** _(stub, awaits wire-up)_: Multi-exposure merging, tonemapping operators (Reinhard, Drago, Mantiuk), and EXR/HDR I/O. Supports deghosting of handheld brackets.
 
 - ⬜ **Panorama stitcher** _(planned)_: Feature-matched alignment, blending, and projection via Hugin/OpenCV with manual control-point editing. Handles spherical, cylindrical, and planar outputs.
 
