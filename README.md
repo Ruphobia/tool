@@ -3435,7 +3435,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **AIS vessel decoder** _(stub, awaits wire-up)_: Decodes NMEA-0183 AIVDM/AIVDO and NMEA-2000 PGNs from a serial, UDP, or file source. Plots vessel positions, CPA/TCPA against own-ship, and replays historical traffic at adjustable speed.
 
-- ⬜ **Wave spectrum analyzer** _(planned)_: Computes 1D and directional wave spectra from NDBC buoy spectral files or raw heave/pitch/roll. Fits JONSWAP and Pierson-Moskowitz parameters and derives Hs, Tp, mean direction, and spreading.
+- ✅ **Wave spectrum analyzer** _(stub, awaits wire-up)_: Computes 1D and directional wave spectra from NDBC buoy spectral files or raw heave/pitch/roll. Fits JONSWAP and Pierson-Moskowitz parameters and derives Hs, Tp, mean direction, and spreading.
 
 - ⬜ **ADCP profile processor** _(planned)_: Reads RDI PD0, Nortek Signature, and Sontek files; performs beam-to-earth coordinate transform, bottom-track removal, and shear/Reynolds stress estimation with bin-mapping and side-lobe masking.
 
