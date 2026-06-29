@@ -4067,7 +4067,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Lapidary Facet Layout** _(stub, awaits wire-up)_: Designs and previews faceted gem cuts with critical-angle checks per refractive index, dispersion modeling, and yield estimation from rough dimensions. Exports cutting prescriptions in GemCAD-compatible angle and index notation.
 
-- ⬜ **Glaze Chemistry Calculator** _(planned)_: Computes Seger and unity molecular formulae from raw material recipes, solves for limit-formula targets, and substitutes materials by available analyses. Flags eutectics, COE mismatch with the clay body, and food-safe boundaries for lead, barium, lithium, and cadmium.
+- ✅ **Glaze Chemistry Calculator** _(stub, awaits wire-up)_: Computes Seger and unity molecular formulae from raw material recipes, solves for limit-formula targets, and substitutes materials by available analyses. Flags eutectics, COE mismatch with the clay body, and food-safe boundaries for lead, barium, lithium, and cadmium.
 
 - ⬜ **Kiln Firing Schedule Builder** _(planned)_: Constructs multi-segment ramp-hold-cool programs for bisque, glaze, lustre, raku, and crystalline firings. Adjusts for kiln mass, element load, and cone deformation; predicts quartz inversion dwells and exports to Bartlett, Orton, and Skutt controller syntax.
 
