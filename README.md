@@ -4629,7 +4629,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Logbook and track recorder** _(stub, awaits wire-up)_: Records position, COG, SOG, heading, wind, baro, sea state, sail config, crew on watch, and freeform notes at a configurable cadence, with manual event entries. Exports GPX, CSV, and PDF voyage logs and emits a customs-ready crew and vessel declaration.
 
-- ⬜ **COLREGs and lights advisor** _(planned)_: Identifies a target's likely vessel type and status from observed light arcs, day shapes, or sound signals, and states the applicable steering and sailing rules with stand-on/give-way assignment. References specific rule numbers (5, 7, 13-18, 19) and quotes the rule text.
+- ✅ **COLREGs and lights advisor** _(stub, awaits wire-up)_: Identifies a target's likely vessel type and status from observed light arcs, day shapes, or sound signals, and states the applicable steering and sailing rules with stand-on/give-way assignment. References specific rule numbers (5, 7, 13-18, 19) and quotes the rule text.
 
 - ⬜ **MOB and SAR pattern generator** _(planned)_: Drops a MOB datum, computes Williamson, Anderson, and Scharnow turn solutions for the current speed and rudder rate, and generates expanding-square, sector, and parallel-track search patterns sized from leeway and elapsed-time uncertainty. Outputs waypoints ready to push to the autopilot.
 
