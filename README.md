@@ -601,7 +601,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Compliance and EMC prep** _(stub, awaits wire-up)_: Checklists and pre-scan helpers for FCC, CE, RED, and radio module certifications with test-mode firmware stubs and reporting templates. Tracks artifacts required for the submission package.
 
-- ⬜ **Power budget estimator** _(planned)_: Spreadsheet-style model of duty cycles, sleep states, peripheral currents, and battery chemistry that outputs expected runtime and worst-case life. AI proposes firmware-side savings ranked by impact.
+- ✅ **Power budget estimator** _(stub, awaits wire-up)_: Spreadsheet-style model of duty cycles, sleep states, peripheral currents, and battery chemistry that outputs expected runtime and worst-case life. AI proposes firmware-side savings ranked by impact.
 
 - ⬜ **Field telemetry browser** _(planned)_: Ingests device-emitted logs, crash dumps, and telemetry from fleets with symbolication against the matching firmware build. AI-integrated clustering of crashes and regression detection across rollouts.
 
