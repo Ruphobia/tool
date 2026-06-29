@@ -2843,7 +2843,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **PV Array Layout Designer** _(stub, awaits wire-up)_: Lays out modules on a rooftop or ground plot with row spacing, tilt, and azimuth, computing inter-row self-shading by ground coverage ratio. Reports kWp density and structural footprint.
 
-- ⬜ **Tilt & Azimuth Optimizer** _(planned)_: Sweeps tilt and azimuth across the TMY year to find the angle that maximizes annual yield, winter-only yield, or a custom-weighted load match. Returns isocontour plots and sensitivity bands.
+- ✅ **Tilt & Azimuth Optimizer** _(stub, awaits wire-up)_: Sweeps tilt and azimuth across the TMY year to find the angle that maximizes annual yield, winter-only yield, or a custom-weighted load match. Returns isocontour plots and sensitivity bands.
 
 - ⬜ **Module I-V Curve Simulator** _(planned)_: Builds the single-diode-model I-V and P-V curves for any datasheet module across irradiance and cell temperature, including bypass-diode behavior under partial shading. Useful for picking MPPT windows and string sizing.
 
