@@ -2265,7 +2265,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Machinability And Speeds Lookup** _(stub, awaits wire-up)_: Recommended surface speeds, feeds, and tool materials for turning, milling, drilling, and tapping a given alloy with HSS, carbide, or ceramic tooling; includes machinability index relative to AISI 1212.
 
-- ⬜ **Surface Finish And Coating Selector** _(planned)_: Compares anodize types (I/II/III, hardcoat), passivation, electropolishing, electroplating (Zn, Ni, Cr, Cu, Au, Ag, Sn), PVD/DLC, powder coat, and paint systems by hardness, thickness, color, corrosion class (ASTM B117 hours), and cost.
+- ✅ **Surface Finish And Coating Selector** _(stub, awaits wire-up)_: Compares anodize types (I/II/III, hardcoat), passivation, electropolishing, electroplating (Zn, Ni, Cr, Cu, Au, Ag, Sn), PVD/DLC, powder coat, and paint systems by hardness, thickness, color, corrosion class (ASTM B117 hours), and cost.
 
 - ⬜ **Tribology And Wear Estimator** _(planned)_: Archard wear-rate calculator with a friction-coefficient lookup for dry, boundary, and lubricated sliding pairs (steel-on-steel, bronze-on-steel, PTFE, UHMWPE, ceramics). Estimates PV limits for plain bearings.
 
