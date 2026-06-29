@@ -2632,7 +2632,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Aircraft logbook** _(stub, awaits wire-up)_: Records flights with PIC/SIC, day/night, instrument actual/simulated, approaches, holds, and landings. Tracks currency for BFR, IPC, medical, type ratings, and rolling 90/6 requirements, and exports to LogTen, MyFlightbook, and FAA 8710 forms.
 
-- ⬜ **NOTAM and TFR browser** _(planned)_: Pulls FAA, ICAO, and military NOTAMs, decodes the four-letter codes, and filters by route corridor, altitude band, and time window. Highlights stadium TFRs, VIP movements, and active SUA.
+- ✅ **NOTAM and TFR browser** _(stub, awaits wire-up)_: Pulls FAA, ICAO, and military NOTAMs, decodes the four-letter codes, and filters by route corridor, altitude band, and time window. Highlights stadium TFRs, VIP movements, and active SUA.
 
 - ⬜ **Performance calculator** _(planned)_: Interpolates POH takeoff, landing, climb, and cruise charts for density altitude, weight, wind, runway slope, and surface. Computes accelerate-stop distance, single-engine service ceiling, and drift-down for twins.
 
