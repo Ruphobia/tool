@@ -2583,7 +2583,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Airfoil Shape Editor** _(stub, awaits wire-up)_: Direct manipulation of camber line and thickness distribution via Bezier or PARSEC control points, with live update of leading-edge radius, trailing-edge angle, and area. Includes AI-integrated suggestion of a starting shape from target Cl, Re, and thickness constraints.
 
-- ⬜ **Polar Solver** _(planned)_: XFOIL-style viscous/inviscid 2D solver that sweeps angle of attack and Reynolds number to produce Cl, Cd, Cm, and L/D polars. Handles forced and free transition with selectable Ncrit and supports batch runs across an airfoil set.
+- ✅ **Polar Solver** _(stub, awaits wire-up)_: XFOIL-style viscous/inviscid 2D solver that sweeps angle of attack and Reynolds number to produce Cl, Cd, Cm, and L/D polars. Handles forced and free transition with selectable Ncrit and supports batch runs across an airfoil set.
 
 - ⬜ **Cp Plotter** _(planned)_: Plots chordwise pressure coefficient distributions for a given alpha and Re, with upper/lower surface separation, sonic line marker, and animated alpha sweep. Overlays multiple airfoils or operating points for direct comparison.
 
