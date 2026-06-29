@@ -4153,7 +4153,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Condition and Conservation Log** _(stub, awaits wire-up)_: Per-item record of toning, planchet flaws, stamp gum state, hinge marks, fold lines, foxing, and prior interventions (cleaning, dipping, pressing, restoration). Tracks change over time with dated macro photos and notes.
 
-- ⬜ **Die Marriage and Plate Mapper** _(planned)_: Tool for early US coppers, bust coinage, ancient Greek and Roman issues, and classic stamp plates: aligns specimen photos to known die or plate diagnostics (Sheldon, Overton, Bolender, Newcomb; Mayer, Crawford, RIC; Stanley Gibbons plating). Returns most likely die marriage or plate position.
+- ✅ **Die Marriage and Plate Mapper** _(stub, awaits wire-up)_: Tool for early US coppers, bust coinage, ancient Greek and Roman issues, and classic stamp plates: aligns specimen photos to known die or plate diagnostics (Sheldon, Overton, Bolender, Newcomb; Mayer, Crawford, RIC; Stanley Gibbons plating). Returns most likely die marriage or plate position.
 
 - ⬜ **Bullion and Melt Calculator** _(planned)_: Real-time and historical spot price feeds for Au, Ag, Pt, Pd, Cu, Ni applied to coin weights and finenesses by KM number. Computes intrinsic melt floor versus numismatic premium and break-even spreads.
 
