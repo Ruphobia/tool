@@ -3294,7 +3294,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Orbital Simulator** _(stub, awaits wire-up)_: Integrates N-body trajectories for solar-system bodies, spacecraft, and arbitrary scenarios using symplectic or Runge-Kutta integrators with JPL ephemerides as initial conditions. Includes patched-conics and lambert-solver helpers for mission design sketches.
 
-- ⬜ **Redshift Distance** _(planned)_: Converts between redshift, comoving distance, luminosity distance, angular-diameter distance, lookback time, and age for user-selectable cosmologies (LCDM, wCDM, custom). Includes K-correction helpers and a cosmic-calculator-style table view.
+- ✅ **Redshift Distance** _(stub, awaits wire-up)_: Converts between redshift, comoving distance, luminosity distance, angular-diameter distance, lookback time, and age for user-selectable cosmologies (LCDM, wCDM, custom). Includes K-correction helpers and a cosmic-calculator-style table view.
 
 - ⬜ **Light Curve Analyzer** _(planned)_: Plots time-series photometry with Lomb-Scargle and Box-Least-Squares periodograms, phase folding, transit-shape fitting, and detrending. AI-integrated classification hint between eclipsing binary, transit, RR Lyrae, and flare candidates.
 
