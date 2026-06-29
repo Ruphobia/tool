@@ -1071,7 +1071,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Burndown and burnup charts** _(stub, awaits wire-up)_: Scope and remaining-work charts for sprints, releases, and epics, with ideal-trend overlays and scope-change annotations. Forecast lines are projected from rolling velocity.
 
-- ⬜ **Velocity tracker** _(planned)_: Per-iteration throughput in points, tickets closed, and hours, with rolling averages and confidence bands. Outliers are flagged with the events that caused them (holidays, incidents, scope cuts).
+- ✅ **Velocity tracker** _(stub, awaits wire-up)_: Per-iteration throughput in points, tickets closed, and hours, with rolling averages and confidence bands. Outliers are flagged with the events that caused them (holidays, incidents, scope cuts).
 
 - ⬜ **Time tracker** _(planned)_: Timer and manual-entry log of effort against tickets, with daily/weekly timesheets, idle detection, and per-project rollups. AI-integrated activity classification suggests which ticket recent terminal, editor, and browser activity belongs to.
 
