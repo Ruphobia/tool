@@ -3130,7 +3130,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Lab Reference Ranges** _(stub, awaits wire-up)_: Looks up reference intervals for chemistry, hematology, coagulation, endocrine, and tumor markers with age/sex/pregnancy stratification, unit conversion (SI vs conventional), and panic-value flagging.
 
-- ⬜ **ECG Caliper** _(planned)_: Loads 12-lead ECG images or waveforms and provides digital calipers for intervals (PR, QRS, QT, QTc Bazett/Fridericia/Framingham), axis calculation, and ischemia/arrhythmia pattern annotation.
+- ✅ **ECG Caliper** _(stub, awaits wire-up)_: Loads 12-lead ECG images or waveforms and provides digital calipers for intervals (PR, QRS, QT, QTc Bazett/Fridericia/Framingham), axis calculation, and ischemia/arrhythmia pattern annotation.
 
 - ⬜ **Risk Score Calculator** _(planned)_: Library of validated clinical risk scores (CHA2DS2-VASc, HAS-BLED, Wells, PERC, MELD, APACHE II, SOFA, CURB-65, FRAX, ASCVD, Framingham) with inputs, score, and stratified recommendations.
 
