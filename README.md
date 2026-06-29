@@ -3857,7 +3857,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Signal generator** _(stub, awaits wire-up)_: Generates sine, square, triangle, sawtooth, white/pink/brown noise, sweeps (linear/log), MLS, chirps, multitones, and arbitrary user-defined waveforms with precise amplitude, phase, and DC offset control.
 
-- ⬜ **Oscilloscope and logic-style viewer** _(planned)_: Time-domain viewer with triggering, persistence, XY mode, math channels, and cursor measurements; reads from audio interfaces or imported captures.
+- ✅ **Oscilloscope and logic-style viewer** _(stub, awaits wire-up)_: Time-domain viewer with triggering, persistence, XY mode, math channels, and cursor measurements; reads from audio interfaces or imported captures.
 
 - ⬜ **Room acoustics analyzer** _(planned)_: Measures RT60, EDT, C50/C80, STI, modal response, and waterfall decay from sine-sweep or MLS captures; suggests treatment placement. AI-integrated treatment recommendations from measured response.
 
