@@ -3576,7 +3576,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Rainwater Catchment Calculator** _(stub, awaits wire-up)_: Sizes cisterns and gutters from roof area, local precipitation records, demand schedule, and first-flush losses. Plots reliability curves and overflow frequency for candidate tank volumes.
 
-- ⬜ **Cover Crop Selector** _(planned)_: Recommends cover crop species or mixes for a target window based on biomass goal, N fixation, scavenging, weed suppression, soil compaction relief, and termination method. Computes seeding rates in lb/ac or g/m2.
+- ✅ **Cover Crop Selector** _(stub, awaits wire-up)_: Recommends cover crop species or mixes for a target window based on biomass goal, N fixation, scavenging, weed suppression, soil compaction relief, and termination method. Computes seeding rates in lb/ac or g/m2.
 
 - ⬜ **Harvest and Yield Log** _(planned)_: Tracks per-bed harvest weights, dates, and quality notes; rolls them up into pounds per square foot, dollars per bed, and labor hours per crop. Exports CSV and feeds back into the yield model for next season.
 
