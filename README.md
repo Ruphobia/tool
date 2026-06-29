@@ -3863,7 +3863,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Loudspeaker and headphone EQ tuner** _(stub, awaits wire-up)_: Captures system response with a measurement mic, computes correction FIR/IIR filters, and exports to convolution plugins or hardware DSPs.
 
-- ⬜ **Plugin host and scanner** _(planned)_: Hosts LV2/VST3/CLAP/AU plugins in-process or sandboxed, scans and catalogs installed plugins, exposes parameters for automation, and bridges 32-bit/legacy formats.
+- ✅ **Plugin host and scanner** _(stub, awaits wire-up)_: Hosts LV2/VST3/CLAP/AU plugins in-process or sandboxed, scans and catalogs installed plugins, exposes parameters for automation, and bridges 32-bit/legacy formats.
 
 - ⬜ **Vocoder and talkbox** _(planned)_: Channel and phase vocoders with carrier/modulator routing, formant shifting, and cross-synthesis between arbitrary signals.
 
