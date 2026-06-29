@@ -4516,7 +4516,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Field Dressing and Yield Planner** _(stub, awaits wire-up)_: Step-by-step diagrams for gutting, skinning, quartering, and butchering big game, small game, upland, waterfowl, and common fish. Estimates boneless yield by cut, generates a freezer label sheet, and tracks cooler ice budget for warm-weather hauls.
 
-- ⬜ **Trap Line Manager** _(planned)_: Maps sets along a line with target species, lure, bait, anchor type, and last-check timestamp, and enforces statutory check intervals per jurisdiction. Pelt prep workflow tracks fleshing, drying, and grading per fur.
+- ✅ **Trap Line Manager** _(stub, awaits wire-up)_: Maps sets along a line with target species, lure, bait, anchor type, and last-check timestamp, and enforces statutory check intervals per jurisdiction. Pelt prep workflow tracks fleshing, drying, and grading per fur.
 
 
 #### Outdoor recreation: camping, climbing, skiing, paragliding, geocaching
