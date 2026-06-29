@@ -2151,7 +2151,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **G-code visualizer** _(stub, awaits wire-up)_: Renders toolpaths layer by layer or move by move with feed-rate, retract, and extrusion highlighting. Detects collisions, air-printing, and excessive travel.
 
-- ⬜ **Kinematics simulator** _(planned)_: Assembles rigid bodies with revolute, prismatic, cylindrical, and gear joints; runs forward and inverse kinematics with collision detection. Plots position, velocity, acceleration, and joint torque over time.
+- ✅ **Kinematics simulator** _(stub, awaits wire-up)_: Assembles rigid bodies with revolute, prismatic, cylindrical, and gear joints; runs forward and inverse kinematics with collision detection. Plots position, velocity, acceleration, and joint torque over time.
 
 - ⬜ **Vibration analyzer** _(planned)_: Modal extraction and harmonic, random, and shock response on FEA models or measured FRF data. AI-integrated correlation of measured modes with simulated ones for model updating.
 
