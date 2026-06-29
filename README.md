@@ -1923,7 +1923,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Lyric timing and karaoke** _(stub, awaits wire-up)_: Word-level and syllable-level lyric synchronization editor producing LRC, enhanced LRC, KAR, and ASS karaoke tags from audio plus text.
 
-- ⬜ **Voice activity and segmenter** _(planned)_: VAD-driven slicing of long-form audio into utterance segments with silence trimming and overlap detection, used for ASR batching and TTS dataset preparation.
+- ✅ **Voice activity and segmenter** _(stub, awaits wire-up)_: VAD-driven slicing of long-form audio into utterance segments with silence trimming and overlap detection, used for ASR batching and TTS dataset preparation.
 
 - ⬜ **Pronunciation lexicon** _(planned)_: Project-scoped dictionary of custom pronunciations, homograph disambiguation rules, and proper-noun overrides shared by ASR, TTS, and forced alignment.
 
