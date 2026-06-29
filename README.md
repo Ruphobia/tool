@@ -2155,7 +2155,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Vibration analyzer** _(stub, awaits wire-up)_: Modal extraction and harmonic, random, and shock response on FEA models or measured FRF data. AI-integrated correlation of measured modes with simulated ones for model updating.
 
-- ⬜ **Heat transfer calculator** _(planned)_: Conduction, convection, and radiation calculators with fin, heat sink, and pipe network solvers. Includes view factor computation and transient lumped-capacitance models.
+- ✅ **Heat transfer calculator** _(stub, awaits wire-up)_: Conduction, convection, and radiation calculators with fin, heat sink, and pipe network solvers. Includes view factor computation and transient lumped-capacitance models.
 
 - ⬜ **Pneumatics and hydraulics designer** _(planned)_: Sizes cylinders, valves, lines, and accumulators by force, stroke, speed, and pressure drop, with circuit schematic capture and ISO 1219 symbols. Simulates pressure and flow over a duty cycle.
 
