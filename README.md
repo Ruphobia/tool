@@ -527,7 +527,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Flasher and programmer** _(stub, awaits wire-up)_: Front-end for OpenOCD, pyOCD, J-Link, ST-Link, DAPLink, esptool, dfu-util, and UF2 with auto-detection of attached probes and targets. One-click flash, verify, mass-erase, and chip-ID readback.
 
-- ⬜ **On-chip debugger** _(planned)_: GDB front-end with breakpoints, watchpoints, register and memory views, RTOS-aware thread inspection, and reverse-step where supported. AI-integrated explanation of fault frames and suggested next probes.
+- ✅ **On-chip debugger** _(stub, awaits wire-up)_: GDB front-end with breakpoints, watchpoints, register and memory views, RTOS-aware thread inspection, and reverse-step where supported. AI-integrated explanation of fault frames and suggested next probes.
 
 - ⬜ **Fault decoder** _(planned)_: Decodes ARM Cortex-M HardFault, MemManage, BusFault, UsageFault, and RISC-V mcause/mtval traps into a human-readable cause with the offending instruction, stack frame, and likely source line. AI proposes the root-cause class (null deref, stack overflow, unaligned access, MPU violation).
 
