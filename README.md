@@ -3839,7 +3839,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **MIDI editor** _(stub, awaits wire-up)_: Piano-roll, drum-grid, step-sequencer, and event-list editors with velocity/CC lanes, quantize, humanize, swing, arpeggiator, and chord tools. AI-integrated melody/harmony/drum-pattern generation and continuation.
 
-- ⬜ **MIDI router and monitor** _(planned)_: Routes and filters MIDI between hardware/virtual ports, transforms channels/CCs, monitors raw bytes and SysEx, and records MIDI streams with timestamps.
+- ✅ **MIDI router and monitor** _(stub, awaits wire-up)_: Routes and filters MIDI between hardware/virtual ports, transforms channels/CCs, monitors raw bytes and SysEx, and records MIDI streams with timestamps.
 
 - ⬜ **Music notation editor** _(planned)_: Score editor with staff layout, transposition, chord symbols, lyrics, articulations, MusicXML/LilyPond import/export, and bidirectional MIDI<->score conversion. AI-integrated automatic transcription from audio to notation.
 
