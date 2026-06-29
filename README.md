@@ -3110,7 +3110,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Drug Interaction Checker** _(stub, awaits wire-up)_: Cross-references a list of medications against a local interaction database (DrugBank / RxNorm / OpenFDA mirrors), surfacing severity tier, mechanism, and clinical advice for each pair and N-way combination.
 
-- ⬜ **Dosage Calculator** _(planned)_: Computes weight-, BSA-, and renal-adjusted dosing for adult, pediatric, and neonatal patients, with Cockcroft-Gault / CKD-EPI eGFR, ideal body weight, and infusion rate (mL/hr) conversions.
+- ✅ **Dosage Calculator** _(stub, awaits wire-up)_: Computes weight-, BSA-, and renal-adjusted dosing for adult, pediatric, and neonatal patients, with Cockcroft-Gault / CKD-EPI eGFR, ideal body weight, and infusion rate (mL/hr) conversions.
 
 - ⬜ **Pharmacokinetics Simulator** _(planned)_: Models plasma concentration over time for one-, two-, and three-compartment PK with IV bolus, infusion, and oral absorption; supports population variability and Monte Carlo dosing-regimen exploration.
 
