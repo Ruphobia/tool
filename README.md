@@ -4135,7 +4135,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Numismatics, philately, collecting, antiques
 
-- ⬜ **Catalog Reference Browser** _(planned)_: Local mirror of standard catalogs (Krause/SCWC for coins, Scott for stamps, Pick for banknotes) with cross-indexed entries by year, country, denomination, and KM/Scott/Pick number. Supports offline lookup and side-by-side variant comparison.
+- ✅ **Catalog Reference Browser** _(stub, awaits wire-up)_: Local mirror of standard catalogs (Krause/SCWC for coins, Scott for stamps, Pick for banknotes) with cross-indexed entries by year, country, denomination, and KM/Scott/Pick number. Supports offline lookup and side-by-side variant comparison.
 
 - ⬜ **Attribution Assistant** _(planned)_: Identifies an unknown coin, stamp, or note from a photo or rubbing using on-device vision plus catalog metadata. Returns ranked candidate matches with KM/Scott numbers, mint years, and diagnostic features (legends, dates, watermarks, perforations).
 
