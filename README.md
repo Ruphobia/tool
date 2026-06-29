@@ -278,7 +278,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Attachment Deduper** _(in testing)_: Content-hash and perceptual-hash detection for duplicate PDFs, supplementary files, and figures. Proposes merges that preserve annotations, notes, and citation-key history.
 
-- ⬜ **Citation Graph Explorer** _(planned)_: Local citation network built from extracted references and OpenAlex/Semantic Scholar edges. Surfaces co-citation clusters, seminal works, missing forward citations, and review-article shortcuts.
+- ✅ **Citation Graph Explorer** _(stub, awaits wire-up)_: Local citation network built from extracted references and OpenAlex/Semantic Scholar edges. Surfaces co-citation clusters, seminal works, missing forward citations, and review-article shortcuts.
 
 - ⬜ **Literature Review Synthesizer** _(planned)_: AI-assisted summarizer that drafts thematic literature reviews, evidence tables, and PRISMA-style flow records from a selected reading list, with every claim linked to a cited passage in the library.
 
