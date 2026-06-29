@@ -3696,7 +3696,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Lighting Diagram Designer** _(stub, awaits wire-up)_: Top-down 2D lighting plot with subjects, key/fill/back/rim sources, modifiers, flags, power levels, color temperatures, and gel selections. Renders a quick BRDF preview of the resulting key-to-fill ratio on a standard head model.
 
-- ⬜ **Camera Move Planner** _(planned)_: Designs dolly, crane, slider, and gimbal paths with keyframed position, rotation, focus, and zoom; simulates motion blur and parallax against a depth-mapped scene plate, and exports MoCo-compatible motion data.
+- ✅ **Camera Move Planner** _(stub, awaits wire-up)_: Designs dolly, crane, slider, and gimbal paths with keyframed position, rotation, focus, and zoom; simulates motion blur and parallax against a depth-mapped scene plate, and exports MoCo-compatible motion data.
 
 - ⬜ **Focus Stacker** _(planned)_: Aligns a bracketed focus series with subpixel registration, fuses by maximum local contrast or depth-map weighting, retouches halos and motion artifacts, and outputs a single deep-focus frame with optional depth pass.
 
