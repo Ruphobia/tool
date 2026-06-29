@@ -1263,7 +1263,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Exit Ticket Designer** _(stub, awaits wire-up)_: Generates one to three question formative checks tied to a lesson's stated objectives, with an expected-response key and a misconception map. Outputs to print, slide, or classroom-runner format.
 
-- ⬜ **Note-to-Deck Converter** _(planned)_: Ingests lecture notes, slides, or PDFs and emits spaced-repetition cards with cloze, Q-and-A, and image-occlusion forms. Ranks candidate cards by salience and lets the user accept or edit before adding to a deck.
+- ✅ **Note-to-Deck Converter** _(stub, awaits wire-up)_: Ingests lecture notes, slides, or PDFs and emits spaced-repetition cards with cloze, Q-and-A, and image-occlusion forms. Ranks candidate cards by salience and lets the user accept or edit before adding to a deck.
 
 
 #### Real estate, insurance, actuarial
