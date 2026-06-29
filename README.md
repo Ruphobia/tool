@@ -2082,7 +2082,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Relativity playground** _(stub, awaits wire-up)_: Special-relativity kinematics (Lorentz boosts, Minkowski diagrams) and general-relativity geodesic integrator for canonical metrics (Schwarzschild, Kerr, FLRW) with embedding-diagram and orbit visualization.
 
-- ⬜ **N-body integrator** _(planned)_: Symplectic and high-order N-body simulator for celestial mechanics and molecular dynamics with adaptive timestepping, energy-drift monitoring, and Barnes-Hut/FMM acceleration.
+- ✅ **N-body integrator** _(stub, awaits wire-up)_: Symplectic and high-order N-body simulator for celestial mechanics and molecular dynamics with adaptive timestepping, energy-drift monitoring, and Barnes-Hut/FMM acceleration.
 
 - ⬜ **Signal processing lab** _(planned)_: FFT, STFT, wavelet, filter design (FIR/IIR, Butterworth/Chebyshev/elliptic), windowing, spectrogram, and system-identification tools. AI-integrated filter recommendation from a measured noise profile.
 
