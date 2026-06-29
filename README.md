@@ -3097,7 +3097,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pose tracker** _(stub, awaits wire-up)_: Trains and runs DeepLabCut and SLEAP keypoint models on behavioral video, with bout segmentation, kinematic feature extraction, and frame-level annotation review.
 
-- ⬜ **Connectome browser** _(planned)_: Loads DTI tractography, EM-derived synapse graphs, and Allen and FlyWire connectomes; computes graph metrics, traces multi-hop paths, and renders 3D wiring with cell-type filtering.
+- ✅ **Connectome browser** _(stub, awaits wire-up)_: Loads DTI tractography, EM-derived synapse graphs, and Allen and FlyWire connectomes; computes graph metrics, traces multi-hop paths, and renders 3D wiring with cell-type filtering.
 
 - ⬜ **Behavioral assay logger** _(planned)_: Captures timestamped event streams synced with video and physiology, encodes trial and block structure, and exports BIDS-compatible session manifests for downstream analysis.
 
