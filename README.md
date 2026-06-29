@@ -3173,7 +3173,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Mixed-effects model builder** _(stub, awaits wire-up)_: Specifies lme4-style random and fixed effects with crossed and nested factors, fits with REML or ML, and compares models via likelihood ratio and AIC. Outputs marginal and conditional R-squared, EMMs, and contrast tests.
 
-- ⬜ **Bayesian analysis workbench** _(planned)_: Fits Bayesian t-tests, ANOVA, regression, and brms-style multilevel models with prior elicitation helpers and posterior diagnostics. Reports Bayes factors, credible intervals, and posterior predictive checks.
+- ✅ **Bayesian analysis workbench** _(stub, awaits wire-up)_: Fits Bayesian t-tests, ANOVA, regression, and brms-style multilevel models with prior elicitation helpers and posterior diagnostics. Reports Bayes factors, credible intervals, and posterior predictive checks.
 
 - ⬜ **Pre-registration drafter** _(planned)_: Fills OSF and AsPredicted templates from the experiment design, hypotheses, and planned analyses already specified in the workbench. Locks the protocol with a hash for later deviation tracking.
 
