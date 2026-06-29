@@ -2169,7 +2169,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **OCR for drawings** _(stub, awaits wire-up)_: Extracts dimensions, tolerances, GD&T frames, notes, and title block data from scanned or photographed engineering drawings into a structured model. AI-integrated reconstruction of geometry from a complete drawing set.
 
-- ⬜ **Machine controller bridge** _(planned)_: Streams G-code to LinuxCNC, GRBL, Klipper, Marlin, Smoothie, and Mach3/4 over USB, serial, or network with live overrides and probe support. Captures probing results back into CAM and CAD.
+- ✅ **Machine controller bridge** _(stub, awaits wire-up)_: Streams G-code to LinuxCNC, GRBL, Klipper, Marlin, Smoothie, and Mach3/4 over USB, serial, or network with live overrides and probe support. Captures probing results back into CAM and CAD.
 
 - ⬜ **Probing and metrology suite** _(planned)_: Drives touch probes and CMMs for work coordinate setup, feature inspection, and best-fit alignment to nominal CAD. Generates inspection reports with deviation maps.
 
