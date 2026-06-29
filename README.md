@@ -699,7 +699,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Container manager** _(stub, awaits wire-up)_: Manages Docker and Podman containers, images, volumes, and networks, with logs, exec, stats, and inspect panels. AI-integrated explanation of layer bloat and Dockerfile cleanup suggestions from a built image.
 
-- ⬜ **Compose stack runner** _(planned)_: Edits and runs docker-compose and podman-compose files with dependency-aware up, down, and rebuild actions. Visualizes service graph, port bindings, and volume mounts.
+- ✅ **Compose stack runner** _(stub, awaits wire-up)_: Edits and runs docker-compose and podman-compose files with dependency-aware up, down, and rebuild actions. Visualizes service graph, port bindings, and volume mounts.
 
 - ⬜ **VM manager** _(planned)_: libvirt and QEMU frontend for creating, cloning, snapshotting, and consoling into virtual machines. Manages virtual networks, storage pools, and PCI passthrough; embeds a SPICE/VNC console.
 
