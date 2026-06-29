@@ -2328,7 +2328,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **View factor calculator** _(stub, awaits wire-up)_: Computes radiation view factors between surface pairs (parallel, perpendicular, coaxial disks, cylinders) via closed-form and numerical contour integration. Assembles a view-factor matrix with reciprocity and summation checks.
 
-- ⬜ **Fan and duct noise predictor** _(planned)_: Predicts in-duct sound power from fans, dampers, and elbows per ASHRAE/AMCA methods and tracks attenuation through silencers, plenums, and terminations. Reports breakout noise and room NC at the diffuser.
+- ✅ **Fan and duct noise predictor** _(stub, awaits wire-up)_: Predicts in-duct sound power from fans, dampers, and elbows per ASHRAE/AMCA methods and tracks attenuation through silencers, plenums, and terminations. Reports breakout noise and room NC at the diffuser.
 
 
 #### Civil, architectural, and HVAC engineering
