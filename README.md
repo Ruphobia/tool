@@ -1570,7 +1570,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Model browser** _(stub, awaits wire-up)_: Hugging Face Hub front-end with offline cache, model card preview, license/quant/size filters, dependency check, and one-click pull to local. Flags share-alike or restricted licenses against the project's PD/permissive policy.
 
-- ⬜ **Fine-tuning runner** _(planned)_: Configurable LoRA/QLoRA/DoRA/full-finetune launcher over transformers, axolotl, and unsloth backends with VRAM estimation, dataset format validation, and live loss/grad-norm plots. AI-integrated learning-rate and rank suggestion from dataset shape and target model.
+- ✅ **Fine-tuning runner** _(stub, awaits wire-up)_: Configurable LoRA/QLoRA/DoRA/full-finetune launcher over transformers, axolotl, and unsloth backends with VRAM estimation, dataset format validation, and live loss/grad-norm plots. AI-integrated learning-rate and rank suggestion from dataset shape and target model.
 
 - ⬜ **Quantization bench** _(planned)_: Convert checkpoints to GGUF, AWQ, GPTQ, EXL2, and bitsandbytes formats and benchmark perplexity, latency, throughput, and VRAM at each quant level on a held-out eval set.
 
