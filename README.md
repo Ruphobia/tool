@@ -2705,7 +2705,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **AFR and Lambda Analyzer** _(stub, awaits wire-up)_: Reads wideband O2 logs, correlates lambda against load, RPM, and coolant temperature, and highlights lean spikes, transient enrichment errors, and closed-loop trim drift. Generates fuel table correction suggestions in percent.
 
-- ⬜ **Spring and Motion Ratio Calculator** _(planned)_: Solves wheel rate, spring rate, ride frequency, and damping ratio from suspension geometry, sprung mass, and motion ratio. Includes a coilover preload, droop, and bump-stop engagement model with corner-by-corner output.
+- ✅ **Spring and Motion Ratio Calculator** _(stub, awaits wire-up)_: Solves wheel rate, spring rate, ride frequency, and damping ratio from suspension geometry, sprung mass, and motion ratio. Includes a coilover preload, droop, and bump-stop engagement model with corner-by-corner output.
 
 - ⬜ **Damper Tuning Workbench** _(planned)_: Imports shock-dyno CSV traces and overlays force-velocity curves with bump/rebound separation, hysteresis loops, and digressive/linear/progressive classification. Cross-plots damper position with vehicle telemetry to find packer hits and frequency-domain artifacts.
 
