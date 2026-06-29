@@ -4424,7 +4424,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **PAR and PPFD planner** _(stub, awaits wire-up)_: Models light intensity at depth from fixture spectrum, mounting height, and tank or terrarium geometry. Flags photoperiod and PUR mismatches for coral, planted, or UVB-dependent reptile keepers.
 
-- ⬜ **Species care database** _(planned)_: Local-first species sheet for fish, coral, herp, amphibian, and invertebrate species with temperature, pH, humidity, UVB, diet, social structure, and source citations; queryable by parameter overlap.
+- ✅ **Species care database** _(stub, awaits wire-up)_: Local-first species sheet for fish, coral, herp, amphibian, and invertebrate species with temperature, pH, humidity, UVB, diet, social structure, and source citations; queryable by parameter overlap.
 
 - ⬜ **Terrarium climate logger** _(planned)_: Ingests temp, humidity, and UVB sensor streams (Solarmeter, BLE hygrometers, MQTT probes). Computes basking-to-cool-side gradient adherence, night drop compliance, and shed-cycle humidity bumps.
 
