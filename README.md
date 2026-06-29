@@ -2453,7 +2453,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Material balance solver** _(stub, awaits wire-up)_: Havlena-Odeh straight-line plots and tank models for solution-gas, gas-cap, and water-drive reservoirs; estimates OOIP/OGIP and aquifer strength.
 
-- ⬜ **Geosteering and stratigraphy viewer** _(planned)_: Cross-section builder with LWD curves, dip picks, and lateral-vs-pilot correlation; AI-assisted marker matching against a type log.
+- ✅ **Geosteering and stratigraphy viewer** _(stub, awaits wire-up)_: Cross-section builder with LWD curves, dip picks, and lateral-vs-pilot correlation; AI-assisted marker matching against a type log.
 
 - ⬜ **Tubular and casing designer** _(planned)_: Burst, collapse, axial, and triaxial (von Mises) checks per API 5C3 with design factors for load cases (kick, displacement, stimulation, plug-and-perf).
 
