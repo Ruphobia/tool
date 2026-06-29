@@ -1388,7 +1388,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **SBOM License Scanner** _(stub, awaits wire-up)_: Walks the project's dependency manifests (cargo, npm, pip, go.mod, conan, vcpkg) and emits a software bill of materials with SPDX license tags, copyleft incompatibility warnings, dual-license disambiguation, and an attribution NOTICE file.
 
-- ⬜ **DMCA Toolkit** _(planned)_: Generates takedown notices, counter-notices, and a repeat-infringer log from a URL and an asserted work; tracks response deadlines, maintains the designated-agent record, and produces a sworn statement template.
+- ✅ **DMCA Toolkit** _(stub, awaits wire-up)_: Generates takedown notices, counter-notices, and a repeat-infringer log from a URL and an asserted work; tracks response deadlines, maintains the designated-agent record, and produces a sworn statement template.
 
 - ⬜ **Patent Search** _(planned)_: Full-text search over a local mirror of USPTO and EPO grants and applications with CPC class browse, claim parsing, family resolution, and prior-art assembly into a report. AI-assisted novelty triage against a draft claim set.
 
