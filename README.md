@@ -4336,7 +4336,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **GTO range explorer** _(stub, awaits wire-up)_: Loads precomputed solver outputs (PioSolver, GTO+, Wizard) and lets the user query node-by-node strategy frequencies, EV by combo, and exploitative deviations against custom opponent ranges. AI-integrated explanation translates solver output into plain-English heuristics.
 
-- ⬜ **Hand history parser** _(planned)_: Parses PokerStars, GGPoker, and Hand2Note hand-history formats into a normalized schema with per-street action, pot odds, and showdown equities. Feeds leak-finder queries (e.g., '3-bet fold from BB vs CO').
+- ✅ **Hand history parser** _(stub, awaits wire-up)_: Parses PokerStars, GGPoker, and Hand2Note hand-history formats into a normalized schema with per-street action, pot odds, and showdown equities. Feeds leak-finder queries (e.g., '3-bet fold from BB vs CO').
 
 - ⬜ **TCG deck builder** _(planned)_: Builds Magic, Hearthstone, and Pokemon TCG decklists with mana-curve analysis, color-source counts, legality checking per format, and sideboard guides. Imports/exports MTGA, MTGO, and Cockatrice formats and resolves cards against a local Scryfall mirror.
 
