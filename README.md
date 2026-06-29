@@ -4531,7 +4531,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Climb Grade Converter** _(stub, awaits wire-up)_: Converts between YDS, French, UIAA, British trad (adjectival + technical), Australian, Hueco, Font, and ice/mixed (WI, M) scales. Handles route grades, boulder grades, ice grades, and aid grades with confidence bands where systems do not map cleanly.
 
-- ⬜ **Knot Reference Library** _(planned)_: Interactive 3D knot reference covering climbing, sailing, rescue, and fishing knots with step-by-step tying animations, strength ratings, and use-case tags. Searchable by function (load-bearing, slip, bend, hitch) and by rope diameter.
+- ✅ **Knot Reference Library** _(stub, awaits wire-up)_: Interactive 3D knot reference covering climbing, sailing, rescue, and fishing knots with step-by-step tying animations, strength ratings, and use-case tags. Searchable by function (load-bearing, slip, bend, hitch) and by rope diameter.
 
 - ⬜ **Gear List Manager** _(planned)_: Builds packing lists per activity template (alpine climb, ski tour, paragliding XC, multi-day backpack) with weight totals, base/consumable splits, and redundancy flags. Tracks owned inventory and suggests swaps to hit a target pack weight.
 
