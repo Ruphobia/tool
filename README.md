@@ -3639,7 +3639,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Lipsync and talking head** _(stub, awaits wire-up)_: Audio-driven facial animation using SadTalker, Wav2Lip, and LivePortrait over a still portrait or driving video. Exposes head-pose and expression strength controls.
 
-- ⬜ **Speech and caption** _(planned)_: Whisper-based transcription, forced alignment, and burned-in or sidecar subtitle generation (SRT/VTT/ASS) with speaker diarization. Translates captions via the local LLM.
+- ✅ **Speech and caption** _(stub, awaits wire-up)_: Whisper-based transcription, forced alignment, and burned-in or sidecar subtitle generation (SRT/VTT/ASS) with speaker diarization. Translates captions via the local LLM.
 
 - ⬜ **Object tracker** _(planned)_: Multi-object tracking (ByteTrack, OC-SORT) and mask propagation (SAM2, XMem, Cutie) across video for rotoscoping and effect attachment. Exports per-frame masks and bounding boxes.
 
