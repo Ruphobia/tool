@@ -4161,7 +4161,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Watermark and Perforation Analyzer** _(stub, awaits wire-up)_: For stamps and banknotes: detects watermarks via fluid-free image enhancement, measures perforation gauge to 0.1, and identifies paper type, gum, and printing method (engraved, typographed, photogravure, offset). Outputs Scott/SG-compatible attribution data.
 
-- ⬜ **Hoard and Find Atlas** _(planned)_: Geo-tagged archive of documented coin hoards, shipwreck recoveries (Atocha, SS Central America, El Cazador), and stamp finds with composition tables and date ranges. Useful for sourcing provenance hints and dating unprovenanced lots.
+- ✅ **Hoard and Find Atlas** _(stub, awaits wire-up)_: Geo-tagged archive of documented coin hoards, shipwreck recoveries (Atocha, SS Central America, El Cazador), and stamp finds with composition tables and date ranges. Useful for sourcing provenance hints and dating unprovenanced lots.
 
 - ⬜ **Antiques Provenance and Appraisal Workbench** _(planned)_: General antiques module covering furniture, silver hollowware, ceramics marks (Meissen, Sevres, Wedgwood, Imari), and clock movements. Captures dimensions, marks, condition, repairs, and comparable sales to produce fair market value, replacement value, and forced-sale estimates.
 
