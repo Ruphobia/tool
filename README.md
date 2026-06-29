@@ -3851,7 +3851,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Mastering workbench** _(stub, awaits wire-up)_: Reference-track A/B, loudness normalization, dithering, oversampling, codec preview, and ISP-aware limiting; batch export to streaming-platform targets. AI-integrated mastering profile matched to a reference.
 
-- ⬜ **Audio format converter** _(planned)_: Batch converter between WAV/FLAC/AIFF/MP3/Opus/Vorbis/AAC/ALAC with sample-rate, bit-depth, channel-layout, and metadata transforms; SoX/FFmpeg-backed.
+- ✅ **Audio format converter** _(stub, awaits wire-up)_: Batch converter between WAV/FLAC/AIFF/MP3/Opus/Vorbis/AAC/ALAC with sample-rate, bit-depth, channel-layout, and metadata transforms; SoX/FFmpeg-backed.
 
 - ⬜ **Bode/network analyzer driver** _(planned)_: Drives sound-card and lab-instrument loopback measurements to characterize analog/digital signal chains: frequency response, THD+N, IMD, crosstalk, and phase. AI-integrated interpretation of measurement plots.
 
