@@ -1386,7 +1386,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Terms of Service Builder** _(stub, awaits wire-up)_: Assembles a Terms of Service, EULA, or acceptable-use policy from modules (arbitration, class-action waiver, liability cap, choice of law, IP, indemnification, data use). Flags clauses that are unenforceable in named jurisdictions and emits a per-jurisdiction variant.
 
-- ⬜ **SBOM License Scanner** _(planned)_: Walks the project's dependency manifests (cargo, npm, pip, go.mod, conan, vcpkg) and emits a software bill of materials with SPDX license tags, copyleft incompatibility warnings, dual-license disambiguation, and an attribution NOTICE file.
+- ✅ **SBOM License Scanner** _(stub, awaits wire-up)_: Walks the project's dependency manifests (cargo, npm, pip, go.mod, conan, vcpkg) and emits a software bill of materials with SPDX license tags, copyleft incompatibility warnings, dual-license disambiguation, and an attribution NOTICE file.
 
 - ⬜ **DMCA Toolkit** _(planned)_: Generates takedown notices, counter-notices, and a repeat-infringer log from a URL and an asserted work; tracks response deadlines, maintains the designated-agent record, and produces a sworn statement template.
 
