@@ -2406,7 +2406,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Septic system sizer** _(stub, awaits wire-up)_: Designs onsite wastewater systems from perc-test rates, soil texture, daily flow, and bedroom count. Sizes septic tank volume, drainfield trench length, dosing chamber, and pressure distribution laterals against state code (e.g. EPA 625, Ten States Standards) and reservation setbacks.
 
-- ⬜ **Treatment train designer** _(planned)_: Process design for activated sludge (CMAS, SBR, MBR, A2O), trickling filter, RBC, lagoons, and constructed wetlands. Computes SRT, MLSS, F/M, aerator demand, clarifier surface overflow rate, and effluent BOD/TSS/NH3-N from influent load and kinetic coefficients (Metcalf & Eddy).
+- ✅ **Treatment train designer** _(stub, awaits wire-up)_: Process design for activated sludge (CMAS, SBR, MBR, A2O), trickling filter, RBC, lagoons, and constructed wetlands. Computes SRT, MLSS, F/M, aerator demand, clarifier surface overflow rate, and effluent BOD/TSS/NH3-N from influent load and kinetic coefficients (Metcalf & Eddy).
 
 - ⬜ **Disinfection CT solver** _(planned)_: Computes CT (concentration times contact time) for free chlorine, chloramine, chlorine dioxide, and ozone against Giardia/virus log-removal credits per the SWTR. Includes UV dose calculation with transmittance, lamp aging, and validated reactor RED for Cryptosporidium.
 
