@@ -825,7 +825,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Mesh Reconstruction Viewer** _(stub, awaits wire-up)_: Inspector for room-scale scene meshes from Quest, HoloLens, ARKit, and LIDAR scans, with per-face confidence shading, hole-fill preview, and semantic labels (floor, wall, ceiling, furniture).
 
-- ⬜ **WebXR Live Preview** _(planned)_: Spins up a local WebXR session of the current scene over HTTPS / ADB reverse, with hot-reload of glTF assets and a desktop emulated controller for non-headset iteration. Logs runtime feature support per device.
+- ✅ **WebXR Live Preview** _(stub, awaits wire-up)_: Spins up a local WebXR session of the current scene over HTTPS / ADB reverse, with hot-reload of glTF assets and a desktop emulated controller for non-headset iteration. Logs runtime feature support per device.
 
 - ⬜ **Frustum and FOV Visualizer** _(planned)_: Third-person view of headset and controller frustums, render bounds, and guardian / chaperone polygons, with measurements of effective horizontal / vertical FOV per eye and stereo overlap region.
 
