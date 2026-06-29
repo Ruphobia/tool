@@ -3302,7 +3302,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Observatory Planner** _(stub, awaits wire-up)_: Generates nightly observing plans optimized for altitude, moon separation, twilight, meridian crossing, and target priorities. Produces airmass plots, finder charts, and exportable session scripts.
 
-- ⬜ **Solar Activity Monitor** _(planned)_: Pulls current and historical sunspot number, F10.7 flux, Kp/Ap, X-ray flux, and CME alerts from SWPC and SILSO. Overlays aurora oval forecasts on a world map for the user's location.
+- ✅ **Solar Activity Monitor** _(stub, awaits wire-up)_: Pulls current and historical sunspot number, F10.7 flux, Kp/Ap, X-ray flux, and CME alerts from SWPC and SILSO. Overlays aurora oval forecasts on a world map for the user's location.
 
 - ⬜ **Satellite Tracker** _(planned)_: Propagates TLE/OMM elements with SGP4 to predict satellite passes, ISS sightings, Starlink trains, and iridium-style flares. Supports radio-link Doppler computation and antenna-rotator output.
 
