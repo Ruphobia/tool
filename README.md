@@ -4295,7 +4295,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Hex And Grid Mapper** _(stub, awaits wire-up)_: Virtual tabletop canvas with square, hex (pointy/flat), and gridless modes; supports tokens, fog of war, dynamic line-of-sight, elevation layers, and measured templates. Exports battle maps to print-tiled PDFs or image atlases.
 
-- ⬜ **Regional Map Sculptor** _(planned)_: Procedural overworld generator producing biomes, rivers, coastlines, settlements, and trade routes with editable splines and tectonic/climate simulation. Outputs labeled atlas pages and player-facing fog-redacted variants.
+- ✅ **Regional Map Sculptor** _(stub, awaits wire-up)_: Procedural overworld generator producing biomes, rivers, coastlines, settlements, and trade routes with editable splines and tectonic/climate simulation. Outputs labeled atlas pages and player-facing fog-redacted variants.
 
 - ⬜ **Campaign Log** _(planned)_: Session-keyed journal capturing recap notes, quests, loot, XP awards, and player decisions with auto-cross-linking to World Bible entities. AI drafts session summaries from raw notes and produces player-facing recaps with spoilers redacted.
 
