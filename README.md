@@ -4635,7 +4635,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Fuel, range, and provisioning calculator** _(stub, awaits wire-up)_: Computes range and endurance from tank capacity, engine fuel curve, hotel load, and current/wind drag, with a reserve policy. Sizes water, food, gas, and battery provisioning per crew per day and warns when a planned passage exceeds any single resource.
 
-- ⬜ **Engine and systems maintenance log** _(planned)_: Tracks engine hours, impeller, oil, filter, anode, and rig service intervals against manufacturer schedules, and records observed RPM, EGT, oil pressure, and alternator output curves. AI-flags drift in those curves that precedes a known failure mode.
+- ✅ **Engine and systems maintenance log** _(stub, awaits wire-up)_: Tracks engine hours, impeller, oil, filter, anode, and rig service intervals against manufacturer schedules, and records observed RPM, EGT, oil pressure, and alternator output curves. AI-flags drift in those curves that precedes a known failure mode.
 
 - ⬜ **Pilot book ingestor** _(planned)_: Ingests cruising guides, harbour pilot pages, and notices to mariners as PDF, HTML, or scans, extracts anchorages, approaches, hazards, contacts, and VHF channels, and links each entry to a chart position. Cross-references with current NtMs to flag stale information.
 
