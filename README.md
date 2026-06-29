@@ -2042,7 +2042,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Numerical kernel** _(stub, awaits wire-up)_: Jupyter-style interactive notebook with NumPy/SciPy/Julia kernels, persistent variable state, and inline plot rendering. Routes natural-language requests to generated code blocks the user can review and re-run.
 
-- ⬜ **Unit converter** _(planned)_: Bidirectional converter across SI, imperial, CGS, natural/Planck, astronomical, and engineering units with dimensional-analysis checks. Flags dimensionally inconsistent expressions before evaluation.
+- ✅ **Unit converter** _(stub, awaits wire-up)_: Bidirectional converter across SI, imperial, CGS, natural/Planck, astronomical, and engineering units with dimensional-analysis checks. Flags dimensionally inconsistent expressions before evaluation.
 
 - ⬜ **Constants reference** _(planned)_: Searchable table of CODATA physical constants, particle properties, material constants, and astronomical data with uncertainties and citation back to source year.
 
