@@ -4477,7 +4477,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Paint and primer coverage calculator** _(stub, awaits wire-up)_: Estimates gallons of primer and topcoat from wall, ceiling, and trim surface areas net of openings, given the product spread rate, substrate porosity, and number of coats; outputs a buy list rounded to can sizes.
 
-- ⬜ **Concrete and aggregate volume calculator** _(planned)_: Computes yards of concrete, rebar weight, and base aggregate for slabs, footings, piers, and stairs from dimensions and reinforcement spacing; adds waste factor and converts to bag count for small pours.
+- ✅ **Concrete and aggregate volume calculator** _(stub, awaits wire-up)_: Computes yards of concrete, rebar weight, and base aggregate for slabs, footings, piers, and stairs from dimensions and reinforcement spacing; adds waste factor and converts to bag count for small pours.
 
 - ⬜ **Roof pitch and surface estimator** _(planned)_: Derives roof surface area, ridge/hip/valley lengths, and shingle/underlayment counts from footprint and pitch (or from a tilted photo with vanishing-point calibration); estimates ice-and-water shield and drip-edge runs.
 
