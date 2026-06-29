@@ -782,7 +782,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Input Mapping Designer** _(stub, awaits wire-up)_: Action-based input mapper covering keyboard, mouse, gamepad, and touch, with rebinding UI generation, accessibility profiles, and conflict detection. Records and replays input traces for deterministic test runs.
 
-- ⬜ **UI/HUD Layout Editor** _(planned)_: Anchor-and-flex UI authoring with responsive breakpoints, theming, focus order, controller navigation, and live data bindings to game variables. Exports to engine UI formats or a portable retained-mode JSON.
+- ✅ **UI/HUD Layout Editor** _(stub, awaits wire-up)_: Anchor-and-flex UI authoring with responsive breakpoints, theming, focus order, controller navigation, and live data bindings to game variables. Exports to engine UI formats or a portable retained-mode JSON.
 
 - ⬜ **Bitmap Font Forge** _(planned)_: Generates SDF, MSDF, and classic bitmap fonts from TTF/OTF sources with kerning, custom glyph painting, and CJK subsetting. Packs into the atlas pipeline and previews against in-game UI styles.
 
