@@ -2678,7 +2678,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **GNU Radio flowgraph runner** _(stub, awaits wire-up)_: Loads .grc flowgraphs, parameterizes them, and runs them headless against live SDR hardware or recorded IQ. Captures sink outputs (audio, file, ZMQ) and pipes them into the logger or classifier.
 
-- ⬜ **PCB RF stackup helper** _(planned)_: Solves microstrip, stripline, CPWG, and differential impedance for common laminates (FR-4, Rogers 4350B, Duroid, Isola). Estimates dielectric and conductor loss, via inductance, and recommends stitching for a target return path.
+- ✅ **PCB RF stackup helper** _(stub, awaits wire-up)_: Solves microstrip, stripline, CPWG, and differential impedance for common laminates (FR-4, Rogers 4350B, Duroid, Isola). Estimates dielectric and conductor loss, via inductance, and recommends stitching for a target return path.
 
 - ⬜ **QTH and station planner** _(planned)_: Models the home or portable station with antenna heights, terrain (SRTM), HAAT, and obstruction profiles. Runs Longley-Rice/ITM, Splat!, and HFTA for VHF/UHF and HF takeoff angle studies.
 
