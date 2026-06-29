@@ -1885,7 +1885,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Subtitle editor** _(stub, awaits wire-up)_: Caption editor for SRT, VTT, ASS, and TTML with waveform timing, shot-change snapping, CPS and reading-speed checks, and style overrides. AI-integrated retiming from raw ASR output and segment merging suggestions.
 
-- ⬜ **TTS bench** _(planned)_: Text-to-speech rendering with voice picker, SSML editor, and per-phoneme prosody control. Compares outputs from multiple TTS engines side by side with A/B blind listening.
+- ✅ **TTS bench** _(stub, awaits wire-up)_: Text-to-speech rendering with voice picker, SSML editor, and per-phoneme prosody control. Compares outputs from multiple TTS engines side by side with A/B blind listening.
 
 - ⬜ **Voice cloning lab** _(planned)_: Few-shot voice cloning from short reference samples, with consent-tag metadata, speaker embedding inspection, and similarity scoring against ground truth. Exports cloned voices as portable speaker profiles.
 
