@@ -1578,7 +1578,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Red-team console** _(stub, awaits wire-up)_: Adversarial-prompt and jailbreak battery, refusal-rate measurement, and abliteration verification suite specifically aimed at confirming an abliterated model behaves as claimed across categories.
 
-- ⬜ **RAG builder** _(planned)_: End-to-end retrieval pipeline composer covering chunkers, embedders, rerankers, hybrid (BM25 + dense) retrieval, and generation with per-stage trace inspection and retrieval-quality metrics (nDCG, MRR, hit@k).
+- ✅ **RAG builder** _(stub, awaits wire-up)_: End-to-end retrieval pipeline composer covering chunkers, embedders, rerankers, hybrid (BM25 + dense) retrieval, and generation with per-stage trace inspection and retrieval-quality metrics (nDCG, MRR, hit@k).
 
 - ⬜ **Prompt lab** _(planned)_: Side-by-side prompt variant runner with templating, structured-output schemas, temperature/top-p sweeps, and regression tests against a saved golden set. AI-integrated prompt-rewrite suggestions from failure patterns.
 
