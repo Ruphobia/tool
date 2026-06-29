@@ -3641,7 +3641,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Speech and caption** _(stub, awaits wire-up)_: Whisper-based transcription, forced alignment, and burned-in or sidecar subtitle generation (SRT/VTT/ASS) with speaker diarization. Translates captions via the local LLM.
 
-- ⬜ **Object tracker** _(planned)_: Multi-object tracking (ByteTrack, OC-SORT) and mask propagation (SAM2, XMem, Cutie) across video for rotoscoping and effect attachment. Exports per-frame masks and bounding boxes.
+- ✅ **Object tracker** _(stub, awaits wire-up)_: Multi-object tracking (ByteTrack, OC-SORT) and mask propagation (SAM2, XMem, Cutie) across video for rotoscoping and effect attachment. Exports per-frame masks and bounding boxes.
 
 - ⬜ **Stabilizer** _(planned)_: Camera-path smoothing and rolling-shutter correction using gyroflow-style and learned methods. Visualizes motion before commit and supports crop-aware output framing.
 
