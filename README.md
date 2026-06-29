@@ -4615,7 +4615,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **SignalK schema bridge** _(stub, awaits wire-up)_: Mounts a SignalK server endpoint, maps incoming deltas to and from local instrument feeds, and lets the workbench subscribe to or publish self/vessels paths. Validates against the SignalK JSON schema and surfaces unit and reference-frame mismatches.
 
-- ⬜ **Anchor watch** _(planned)_: Sets a swing-circle alarm from anchor drop position, rode length, depth, and tide range, with separate alarms for drag, depth excursion, and wind shift beyond a threshold. Logs the swing pattern through the night and AI-suggests a likely drag event versus a normal tide-driven swing.
+- ✅ **Anchor watch** _(stub, awaits wire-up)_: Sets a swing-circle alarm from anchor drop position, rode length, depth, and tide range, with separate alarms for drag, depth excursion, and wind shift beyond a threshold. Logs the swing pattern through the night and AI-suggests a likely drag event versus a normal tide-driven swing.
 
 - ⬜ **Celestial sight reducer** _(planned)_: Reduces sun, star, moon, and planet sights using the NA almanac and the Bowditch/HO 229 intercept method, builds a fix from multiple LOPs with a least-squares cocked-hat solution, and propagates DR between sights. Handles index error, dip, refraction, parallax, and limb corrections.
 
