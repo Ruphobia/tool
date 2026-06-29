@@ -991,7 +991,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Schematic and Service Manual Archive** _(stub, awaits wire-up)_: Local index of board schematics, service manuals, and chip datasheets with vector search; AI extracts pinouts, test points, and known fault notes from scanned pages.
 
-- ⬜ **Cassette Audio Codec** _(planned)_: Encodes PRG, TAP, and T64 payloads to WAV (standard ROM loader plus Turbo Tape, Novaload, and Freeload variants) and decodes recovered audio with adaptive filtering for stretched tapes.
+- ✅ **Cassette Audio Codec** _(stub, awaits wire-up)_: Encodes PRG, TAP, and T64 payloads to WAV (standard ROM loader plus Turbo Tape, Novaload, and Freeload variants) and decodes recovered audio with adaptive filtering for stretched tapes.
 
 - ⬜ **Filesystem Browser** _(planned)_: Mounts and edits CP/M, ProDOS, Apple DOS 3.3, Amiga FFS/OFS, CBM 1541, Atari DOS, and TRSDOS images at the file and sector level with undoable writes.
 
