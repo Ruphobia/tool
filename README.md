@@ -1895,7 +1895,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Keyboard layout designer** _(stub, awaits wire-up)_: Editor for custom IME and keyboard layouts targeting non-Latin scripts, dead keys, combining marks, and stenographic chords. Exports to xkb, Karabiner, MSKLC, and ibus.
 
-- ⬜ **Pronunciation coach** _(planned)_: Phoneme-level scoring of learner audio against reference pronunciation, with mispronunciation highlighting, minimal-pair drills, and articulator diagrams.
+- ✅ **Pronunciation coach** _(stub, awaits wire-up)_: Phoneme-level scoring of learner audio against reference pronunciation, with mispronunciation highlighting, minimal-pair drills, and articulator diagrams.
 
 - ⬜ **Language and script identifier** _(planned)_: Per-paragraph and per-line detection of language and script, including code-switched spans, mixed-script flagging, and confidence per candidate.
 
