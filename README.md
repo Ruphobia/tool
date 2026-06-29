@@ -1952,7 +1952,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Waveform viewer** _(stub, awaits wire-up)_: Plots simulation outputs and captured scope traces with cursors, math channels, FFT, eye diagrams, and jitter histograms. Side-by-side comparison of simulated vs measured signals.
 
-- ⬜ **Filter designer** _(planned)_: Synthesizes passive and active filters (Butterworth, Chebyshev, Bessel, elliptic) from frequency-domain specs, with sensitivity analysis and E-series component snapping. AI-integrated suggestion of topology from a noise or interference profile.
+- ✅ **Filter designer** _(stub, awaits wire-up)_: Synthesizes passive and active filters (Butterworth, Chebyshev, Bessel, elliptic) from frequency-domain specs, with sensitivity analysis and E-series component snapping. AI-integrated suggestion of topology from a noise or interference profile.
 
 - ⬜ **Signal integrity analyzer** _(planned)_: Field solver and IBIS-driven channel simulation for crosstalk, reflections, impedance discontinuities, and eye-mask compliance. Generates fix recommendations (stub length, termination, layer stackup).
 
