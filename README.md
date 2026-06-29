@@ -345,7 +345,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Benchmark harness** _(stub, awaits wire-up)_: Microbenchmark and end-to-end timing runner with statistical confidence, regression tracking across commits, and AI commentary on why a delta likely appeared.
 
-- ⬜ **Container sandbox** _(planned)_: Disposable rootless containers and ephemeral VMs for running untrusted code, reproducible builds, and matrix testing across distros, language versions, and architectures.
+- ✅ **Container sandbox** _(stub, awaits wire-up)_: Disposable rootless containers and ephemeral VMs for running untrusted code, reproducible builds, and matrix testing across distros, language versions, and architectures.
 
 - ⬜ **Documentation generator** _(planned)_: Builds API docs from docstrings, types, and examples across languages, with AI-drafted prose for undocumented surfaces and consistency checks between code and prose.
 
