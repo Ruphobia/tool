@@ -2491,7 +2491,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Criticality safety checker** _(stub, awaits wire-up)_: keff lookup against LEU/HEU handbook benchmarks and simplified MCNP-style fissile-array geometry; subcritical margin and double-contingency review.
 
-- ⬜ **ALARA dose planner** _(planned)_: Time, distance, and shielding optimizer for a work package against zone dose-rate maps; tracks collective and individual dose budgets per task.
+- ✅ **ALARA dose planner** _(stub, awaits wire-up)_: Time, distance, and shielding optimizer for a work package against zone dose-rate maps; tracks collective and individual dose budgets per task.
 
 - ⬜ **Activation and waste classifier** _(planned)_: 10 CFR 61 Class A/B/C and IAEA categorization from neutron flux, irradiation history, and material composition; long-lived nuclide flagging.
 
