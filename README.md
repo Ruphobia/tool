@@ -758,7 +758,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Shader Playground** _(stub, awaits wire-up)_: Live GLSL/WGSL/HLSL editor with hot-reload, uniform bindings, texture inputs, and a node-graph mode that compiles to the same source. Includes side-by-side diffing for portability across targets.
 
-- ⬜ **Animation Curve Editor** _(planned)_: Tweening and easing curve designer with bezier handles, presets, oscillation, and curve libraries shared across sprites, UI, and gameplay code. Exports to engine-native curve formats and a portable JSON.
+- ✅ **Animation Curve Editor** _(stub, awaits wire-up)_: Tweening and easing curve designer with bezier handles, presets, oscillation, and curve libraries shared across sprites, UI, and gameplay code. Exports to engine-native curve formats and a portable JSON.
 
 - ⬜ **Skeletal Rigger** _(planned)_: 2D skeletal animation tool with bones, IK chains, mesh deformation, skinning weights, and per-slot attachments. Compatible with Spine and DragonBones JSON for engine portability.
 
