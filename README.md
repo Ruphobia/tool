@@ -1866,7 +1866,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Script Designer** _(stub, awaits wire-up)_: Vector glyph editor for invented orthographies with stroke construction, ligatures, contextual variants, and OpenType feature authoring (cursive joining, positional forms, mark stacking). Exports UFO sources and compiled OTF/TTF fonts.
 
-- ⬜ **Orthography Mapper** _(planned)_: Defines bidirectional phoneme-grapheme correspondences, romanization schemes, and transliteration tables between scripts. Renders any lexicon entry or text sample in the chosen orthography on demand.
+- ✅ **Orthography Mapper** _(stub, awaits wire-up)_: Defines bidirectional phoneme-grapheme correspondences, romanization schemes, and transliteration tables between scripts. Renders any lexicon entry or text sample in the chosen orthography on demand.
 
 - ⬜ **Comparative Method Workbench** _(planned)_: Aligns cognate sets across related languages, derives regular sound correspondences, and reconstructs proto-forms. Flags borrowings and chance resemblances against the established regularity baseline.
 
