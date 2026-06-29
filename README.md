@@ -3900,7 +3900,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Drape Simulator** _(stub, awaits wire-up)_: 3D cloth simulation of a flat pattern on a parametric avatar with adjustable stretch, bending, and friction per fabric. Highlights strain and pressure to flag tight zones before cutting.
 
-- ⬜ **Embroidery Digitizer** _(planned)_: Converts raster or vector art into machine-stitch files (DST, PES, EXP, JEF, VP3) with auto-underlay, density, push-pull compensation, stitch direction, and color stops. AI-integrated auto-digitize that proposes fills, satins, and run paths from an input image.
+- ✅ **Embroidery Digitizer** _(stub, awaits wire-up)_: Converts raster or vector art into machine-stitch files (DST, PES, EXP, JEF, VP3) with auto-underlay, density, push-pull compensation, stitch direction, and color stops. AI-integrated auto-digitize that proposes fills, satins, and run paths from an input image.
 
 - ⬜ **Cross-Stitch Charter** _(planned)_: Converts photos and artwork into counted cross-stitch charts with floss palette mapping to DMC, Anchor, Madeira, and Sulky. Controls aida count, chart size, color count, dithering, and backstitch outlines, and exports printable symbol charts.
 
