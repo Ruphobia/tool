@@ -1848,7 +1848,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sequence Alignment Lab** _(stub, awaits wire-up)_: Pairwise and multiple alignment for cognate sets and dialect forms using Levenshtein, Needleman-Wunsch, and SCA (sound-class-based) algorithms with custom feature-weighted substitution matrices.
 
-- ⬜ **Lemmatizer & POS Lab** _(planned)_: Runs and compares lemmatizers and POS taggers (spaCy, Stanza, UDPipe, Snowball stemmers) across languages on the same input, with confusion matrices and per-token disagreement highlighting.
+- ✅ **Lemmatizer & POS Lab** _(stub, awaits wire-up)_: Runs and compares lemmatizers and POS taggers (spaCy, Stanza, UDPipe, Snowball stemmers) across languages on the same input, with confusion matrices and per-token disagreement highlighting.
 
 - ⬜ **Phoneme Inventory Designer** _(planned)_: Builds consonant and vowel inventories via a clickable IPA matrix, tracks distinctive features, and flags gaps against typological norms (e.g., having /p t/ but no /k/). Exports the inventory as a feature table consumed by downstream tools.
 
