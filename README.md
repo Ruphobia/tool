@@ -3486,7 +3486,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Conservation prioritization solver** _(stub, awaits wire-up)_: Runs Marxan and Zonation spatial prioritization with species, cost, and connectivity layers under area or representation targets. Outputs selection frequency maps, irreplaceability scores, and reserve network solutions.
 
-- ⬜ **Species traits database** _(planned)_: Queries TRY, EltonTraits, AmphiBIO, FishBase, and BIEN for morphological, life-history, and functional traits. Computes community-weighted means, functional diversity (FRic, FEve, FDis), and trait imputation for missing values.
+- ✅ **Species traits database** _(stub, awaits wire-up)_: Queries TRY, EltonTraits, AmphiBIO, FishBase, and BIEN for morphological, life-history, and functional traits. Computes community-weighted means, functional diversity (FRic, FEve, FDis), and trait imputation for missing values.
 
 - ⬜ **eDNA metabarcoding analyzer** _(planned)_: Processes amplicon sequencing reads through DADA2/QIIME2 pipelines with BOLD, MIDORI, and SILVA reference databases. Outputs OTU/ASV tables, taxonomy assignments, and detection probabilities for target taxa.
 
