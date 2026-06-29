@@ -2597,7 +2597,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Lifting Line Analyzer** _(stub, awaits wire-up)_: Prandtl lifting-line solver with arbitrary planform, taper, twist, and section polars per station. Reports elliptic-comparison efficiency, local Cl distribution, and stall onset station.
 
-- ⬜ **Wing and Fuselage Drag Estimator** _(planned)_: Component drag buildup combining skin friction, form factor, interference, induced, wave, and trim drag for wings, fuselages, nacelles, and pylons. Cross-checks against the VLM and polar solver and breaks down the drag stack in a stacked bar.
+- ✅ **Wing and Fuselage Drag Estimator** _(stub, awaits wire-up)_: Component drag buildup combining skin friction, form factor, interference, induced, wave, and trim drag for wings, fuselages, nacelles, and pylons. Cross-checks against the VLM and polar solver and breaks down the drag stack in a stacked bar.
 
 - ⬜ **CFD Mesh Generator** _(planned)_: Generates structured C-meshes and O-meshes around airfoils and unstructured triangular/tetrahedral meshes around arbitrary STL geometry. Provides hyperbolic extrusion for boundary-layer prism layers with target y+ and growth ratio.
 
