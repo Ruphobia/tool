@@ -4385,7 +4385,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **VOD Indexer** _(stub, awaits wire-up)_: Local index over Twitch, YouTube, and downloaded VODs with chat ingest, scene detection, and OCR of in-game HUDs. AI tagger marks deaths, objective takes, and notable plays for instant jump-to.
 
-- ⬜ **Highlight Cutter** _(planned)_: Clip extractor that takes timestamps from the VOD indexer or chat spikes and produces vertical/horizontal cuts with captions, splits overlay, and watermark. Renders via local ffmpeg with deterministic encode profiles.
+- ✅ **Highlight Cutter** _(stub, awaits wire-up)_: Clip extractor that takes timestamps from the VOD indexer or chat spikes and produces vertical/horizontal cuts with captions, splits overlay, and watermark. Renders via local ffmpeg with deterministic encode profiles.
 
 - ⬜ **Tournament Bracket** _(planned)_: Bracket builder and tracker covering single/double elimination, Swiss, round-robin, and GSL formats. Pulls live results from Challonge, Start.gg, and Liquipedia, and produces seedings, tiebreak reports, and prize splits.
 
