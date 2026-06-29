@@ -1427,7 +1427,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Watchlist Screener** _(stub, awaits wire-up)_: Searches consolidated OFAC SDN, UN, EU, UK HMT, and OpenSanctions lists plus PEP and RCA databases with locale-aware fuzzy name matching, DOB and nationality re-ranking, and reusable false-positive carve-outs.
 
-- ⬜ **Adverse Media Scanner** _(planned)_: Aggregates open-web and licensed news sources for negative-news hits per subject, classifies by FATF predicate offense category, and dedupes near-identical reports across outlets using AI-integrated semantic clustering.
+- ✅ **Adverse Media Scanner** _(stub, awaits wire-up)_: Aggregates open-web and licensed news sources for negative-news hits per subject, classifies by FATF predicate offense category, and dedupes near-identical reports across outlets using AI-integrated semantic clustering.
 
 - ⬜ **Address Verifier** _(planned)_: Validates and standardizes addresses against USPS, Royal Mail PAF, AusPost, Canada Post, and UPU formats; geocodes to lat/lon and cross-checks against utility, credit header, and electoral roll sources where licensed.
 
