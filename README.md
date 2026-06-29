@@ -4395,7 +4395,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Input Lab** _(stub, awaits wire-up)_: Latency and polling-rate measurement bench for controllers, monitors, and capture cards, using a USB microcontroller probe or audio-flash sync. Stores per-device profiles and warns when latency drifts.
 
-- ⬜ **Hitbox Viewer** _(planned)_: Geometry viewer for collision, hit, and hurt volumes extracted from game files or live memory, rendered against the active animation. Supports fighting games, platformers, and FPS hitreg debugging.
+- ✅ **Hitbox Viewer** _(stub, awaits wire-up)_: Geometry viewer for collision, hit, and hurt volumes extracted from game files or live memory, rendered against the active animation. Supports fighting games, platformers, and FPS hitreg debugging.
 
 - ⬜ **Practice Logger** _(planned)_: Structured log of practice sessions with drills attempted, success rates, and self-rated focus. Surfaces weak spots over time and suggests next-session drills based on miss patterns.
 
