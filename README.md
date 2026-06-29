@@ -3560,7 +3560,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Frost Risk Predictor** _(stub, awaits wire-up)_: Combines forecast lows, dew point, wind, and microclimate offsets to score nightly frost probability for each bed or row. Recommends row cover, sprinkler frost protection, or harvest-now triggers.
 
-- ⬜ **Pest and Disease Identifier** _(planned)_: AI-integrated photo classifier for common crop pests, diseases, and nutrient deficiencies, with confidence scores, scouting checklist, lifecycle notes, and ranked IPM responses (cultural, biological, chemical) keyed to regional pesticide labels.
+- ✅ **Pest and Disease Identifier** _(stub, awaits wire-up)_: AI-integrated photo classifier for common crop pests, diseases, and nutrient deficiencies, with confidence scores, scouting checklist, lifecycle notes, and ranked IPM responses (cultural, biological, chemical) keyed to regional pesticide labels.
 
 - ⬜ **Spray Mix Calculator** _(planned)_: Converts label rates (per acre, per 100 gal, ppm, or oz/gal) to tank-fill volumes for backpack, hand, or boom sprayers. Tracks REI, PHI, tank mixing compatibility, and surfactant or buffer additions.
 
