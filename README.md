@@ -760,7 +760,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Animation Curve Editor** _(stub, awaits wire-up)_: Tweening and easing curve designer with bezier handles, presets, oscillation, and curve libraries shared across sprites, UI, and gameplay code. Exports to engine-native curve formats and a portable JSON.
 
-- ⬜ **Skeletal Rigger** _(planned)_: 2D skeletal animation tool with bones, IK chains, mesh deformation, skinning weights, and per-slot attachments. Compatible with Spine and DragonBones JSON for engine portability.
+- ✅ **Skeletal Rigger** _(stub, awaits wire-up)_: 2D skeletal animation tool with bones, IK chains, mesh deformation, skinning weights, and per-slot attachments. Compatible with Spine and DragonBones JSON for engine portability.
 
 - ⬜ **Asset Pipeline Manager** _(planned)_: Declarative import pipeline that watches source folders, runs reproducible transforms (atlas pack, compress, mip, ETC/BCn), and writes lockfiles. Caches by content hash and surfaces diffs when an asset rebuilds.
 
