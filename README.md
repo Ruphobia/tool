@@ -1175,7 +1175,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pick path optimizer** _(stub, awaits wire-up)_: Generates optimal or near-optimal picker routes through aisle-rack-bin grids using Ratliff-Rosenthal exact DP for rectangular warehouses and metaheuristics for irregular layouts. Supports zone picking, batch picking with capacity, and wave release simulation.
 
-- ⬜ **Container loader** _(planned)_: Solves 3D bin packing and pallet building with weight, stacking, fragility, axis-load, and load-stop sequence constraints. Visualizes the load plan in 3D and reports utilization, center-of-gravity, and reload effort at each stop.
+- ✅ **Container loader** _(stub, awaits wire-up)_: Solves 3D bin packing and pallet building with weight, stacking, fragility, axis-load, and load-stop sequence constraints. Visualizes the load plan in 3D and reports utilization, center-of-gravity, and reload effort at each stop.
 
 - ⬜ **Network flow solver** _(planned)_: Models transportation, transshipment, min-cost-flow, multi-commodity flow, and assignment problems with a Pyomo/PuLP-style algebraic interface. Routes to CBC, HiGHS, GLPK, or SCIP and returns duals, reduced costs, and sensitivity ranges.
 
