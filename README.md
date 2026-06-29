@@ -2945,7 +2945,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Local BLAST Console** _(stub, awaits wire-up)_: Runs blastn, blastp, blastx, tblastn, and tblastx against locally indexed databases (NCBI nr/nt mirrors, RefSeq, UniProt, custom). Tabular and pairwise output, E-value and bitscore filtering, HSP visualization, and direct drop-back into the sequence editor.
 
-- ⬜ **Multiple Sequence Alignment** _(planned)_: Wraps MUSCLE, MAFFT, Clustal Omega, and T-Coffee with a common UI. Conservation tracks, consensus extraction, gap-stripping, profile-to-profile alignment, and export to PHYLIP, NEXUS, and Stockholm.
+- ✅ **Multiple Sequence Alignment** _(stub, awaits wire-up)_: Wraps MUSCLE, MAFFT, Clustal Omega, and T-Coffee with a common UI. Conservation tracks, consensus extraction, gap-stripping, profile-to-profile alignment, and export to PHYLIP, NEXUS, and Stockholm.
 
 - ⬜ **Pairwise Aligner** _(planned)_: Smith-Waterman and Needleman-Wunsch with configurable scoring matrices (BLOSUM, PAM, custom), gap penalties, and seed-and-extend for long sequences. Dot-plot view for spotting repeats, inversions, and duplications.
 
