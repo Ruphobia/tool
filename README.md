@@ -1130,7 +1130,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Risk-matrix heatmap** _(stub, awaits wire-up)_: Renders configurable likelihood-by-consequence matrices (3x3, 5x5, ISO 31000, MIL-STD-882) with calibrated probability bands, plots inherent vs residual risk, and exports ALARP demonstrations.
 
-- ⬜ **Hazard register** _(planned)_: Maintains a structured hazard inventory tagged by location, activity, energy source, and affected receptor, links each hazard to controls, owners, due dates, and references HIRA, JHA, and bowtie records.
+- ✅ **Hazard register** _(stub, awaits wire-up)_: Maintains a structured hazard inventory tagged by location, activity, energy source, and affected receptor, links each hazard to controls, owners, due dates, and references HIRA, JHA, and bowtie records.
 
 - ⬜ **Incident and CAPA tracker** _(planned)_: Captures incidents, near-misses, and nonconformances with 8D, A3, or Kepner-Tregoe templates, tracks corrective and preventive actions to closure with effectiveness checks, and produces OSHA 300/301/300A and ISO 45001 reports.
 
