@@ -2425,7 +2425,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Heavy engineering: naval, petroleum, mining, nuclear
 
-- ⬜ **Hull resistance estimator** _(planned)_: Holtrop-Mennen displacement-hull and Savitsky planing-hull regressions across a speed range; outputs frictional, residuary, and total resistance with EHP/BHP and Froude/Reynolds context.
+- ✅ **Hull resistance estimator** _(stub, awaits wire-up)_: Holtrop-Mennen displacement-hull and Savitsky planing-hull regressions across a speed range; outputs frictional, residuary, and total resistance with EHP/BHP and Froude/Reynolds context.
 
 - ⬜ **Seakeeping RAO analyzer** _(planned)_: Strip-theory heave, pitch, and roll response amplitude operators against JONSWAP, Pierson-Moskowitz, and Bretschneider spectra; reports significant motions, MII, and slamming/wetness counts.
 
