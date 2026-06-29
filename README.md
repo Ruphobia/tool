@@ -3529,7 +3529,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Plate Reconstruction** _(stub, awaits wire-up)_: Rotates present-day plates to their paleogeographic positions using GPlates-compatible rotation files and topology models. Animates plate motion through time and reprojects user features onto the reconstructed basemap.
 
-- ⬜ **Gravity and Magnetic Grids** _(planned)_: Loads and visualizes potential-field grids (Bouguer gravity, free-air, total-field magnetics) with upward continuation, derivative, analytic-signal, and reduction-to-pole filters. Extracts profiles and overlays interpreted lineaments.
+- ✅ **Gravity and Magnetic Grids** _(stub, awaits wire-up)_: Loads and visualizes potential-field grids (Bouguer gravity, free-air, total-field magnetics) with upward continuation, derivative, analytic-signal, and reduction-to-pole filters. Extracts profiles and overlays interpreted lineaments.
 
 - ⬜ **Tile Downloader** _(planned)_: Caches map tile pyramids (XYZ, WMTS, WMS) for an area of interest and zoom range into a local MBTiles or directory store for offline use. Throttles requests, resumes interrupted jobs, and reports tile coverage stats.
 
