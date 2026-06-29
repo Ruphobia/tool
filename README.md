@@ -2398,7 +2398,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **TR-55 runoff calculator** _(stub, awaits wire-up)_: NRCS curve-number method for peak discharge and runoff volume from small watersheds. Includes the TR-20/TR-55 tabular hydrograph method, time-of-concentration via sheet/shallow/channel flow segments, and 24-hour Type I/IA/II/III rainfall distributions.
 
-- ⬜ **Stormwater network router** _(planned)_: SWMM-style 1D dynamic-wave solver for combined and separate sewer systems. Routes hydrographs through pipes, manholes, weirs, orifices, storage units, and pumps with surcharge and flooding tracking; supports LID controls (bioretention, permeable pavement, green roof).
+- ✅ **Stormwater network router** _(stub, awaits wire-up)_: SWMM-style 1D dynamic-wave solver for combined and separate sewer systems. Routes hydrographs through pipes, manholes, weirs, orifices, storage units, and pumps with surcharge and flooding tracking; supports LID controls (bioretention, permeable pavement, green roof).
 
 - ⬜ **BMP sizer** _(planned)_: Sizes stormwater best-management practices: detention/retention ponds (modified Puls routing), bioretention cells, infiltration trenches, swales, and sand filters. Computes water-quality volume, channel-protection volume, and overflow weir/orifice geometry against local design storms.
 
