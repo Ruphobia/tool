@@ -2290,7 +2290,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Room acoustics modeler** _(stub, awaits wire-up)_: Computes RT60 via Sabine, Eyring, and Millington formulas from surface areas and absorption coefficients. Predicts modal frequencies and Schroeder transition for rectangular rooms; AI-integrated material picks to hit a target reverberation curve.
 
-- ⬜ **Sound transmission loss calculator** _(planned)_: Estimates STC, Rw, and OITC for single panels, double walls, and composite partitions using mass law, coincidence dip, and double-leaf resonance. Includes flanking path bookkeeping and a partition library.
+- ✅ **Sound transmission loss calculator** _(stub, awaits wire-up)_: Estimates STC, Rw, and OITC for single panels, double walls, and composite partitions using mass law, coincidence dip, and double-leaf resonance. Includes flanking path bookkeeping and a partition library.
 
 - ⬜ **Anechoic chamber sizer** _(planned)_: Sizes wedge depth, cutoff frequency, and free-field volume for anechoic and hemi-anechoic rooms. Generates wedge tip/base geometry and predicts low-frequency absorption performance.
 
