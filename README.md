@@ -3617,7 +3617,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Format converter** _(stub, awaits wire-up)_: Batch transcoder across PNG, JPEG, WebP, AVIF, HEIC, TIFF, JPEG-XL, DDS, and PSD with color-profile awareness and chroma subsampling control. Reports size and quality deltas per file.
 
-- ⬜ **RAW developer** _(planned)_: Demosaicing and tone-mapping pipeline over CR2/NEF/ARW/DNG using libraw with white-balance, highlight recovery, and lens-profile correction. Exposes a node graph for non-destructive edits.
+- ✅ **RAW developer** _(stub, awaits wire-up)_: Demosaicing and tone-mapping pipeline over CR2/NEF/ARW/DNG using libraw with white-balance, highlight recovery, and lens-profile correction. Exposes a node graph for non-destructive edits.
 
 - ⬜ **HDR and tonemap** _(planned)_: Multi-exposure merging, tonemapping operators (Reinhard, Drago, Mantiuk), and EXR/HDR I/O. Supports deghosting of handheld brackets.
 
