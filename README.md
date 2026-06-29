@@ -174,7 +174,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Legal folder maintainer** _(in testing)_: auto-maintains `<project>/.tool/legal/` with one file per regulatory pathway flagged. Tracks application status, dates, follow-ups, agency contacts, fee schedules.
 
-- ⬜ **IP folder maintainer** _(planned)_: auto-maintains `<project>/.tool/ip/` with dated invention disclosures, prior-art search results, claim drafts, and a defensive-publication log. Detects novel-claim-shaped content emerging in the chat and commits a timestamped disclosure with supporting file refs (commit SHAs, schematic hashes, etc.). Flags suspected infringement of patents already in the prior-art DB.
+- ✅ **IP folder maintainer** _(in testing)_: auto-maintains `<project>/.tool/ip/` with dated invention disclosures, prior-art search results, claim drafts, and a defensive-publication log. Detects novel-claim-shaped content emerging in the chat and commits a timestamped disclosure with supporting file refs (commit SHAs, schematic hashes, etc.). Flags suspected infringement of patents already in the prior-art DB.
 
 - ⬜ **Decisions folder maintainer** _(planned)_: auto-maintains `<project>/.tool/decisions/` with ADR-style entries ("we picked X over Y because Z") so the project's architectural reasoning lives somewhere other than chat history.
 
