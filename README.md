@@ -210,7 +210,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Personal Style Profile** _(in testing)_: User-facing summary of preferences, idioms, recurring patterns, and people, editable as plain text and surfaced to assistants as a system-prompt fragment.
 
-- ⬜ **Salience Tuner** _(planned)_: Controls per-entry weight, decay rate, and pinning so frequently relevant memories stay hot while stale ones fade. Exposes a preview of what the assistant would currently retrieve.
+- ✅ **Salience Tuner** _(in testing)_: Controls per-entry weight, decay rate, and pinning so frequently relevant memories stay hot while stale ones fade. Exposes a preview of what the assistant would currently retrieve.
 
 - ⬜ **Provenance Tracker** _(planned)_: Records the source of every entry (file, URL, chat turn, command output, manual) with timestamp, hash, and a one-click jump back to the originating context.
 
