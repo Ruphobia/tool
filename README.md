@@ -3798,7 +3798,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Modulation Planner** _(stub, awaits wire-up)_: Maps routes between any two keys via pivot chords, common-tone modulation, chromatic mediants, enharmonic reinterpretation, and direct shift, with audible previews and difficulty ranking by smoothness.
 
-- ⬜ **Instrument Range and Orchestration Checker** _(planned)_: Validates parts against per-instrument range, transposition, idiomatic figuration, and standard doublings. Flags awkward passages and suggests reassignments across a configurable ensemble.
+- ✅ **Instrument Range and Orchestration Checker** _(stub, awaits wire-up)_: Validates parts against per-instrument range, transposition, idiomatic figuration, and standard doublings. Flags awkward passages and suggests reassignments across a configurable ensemble.
 
 - ⬜ **Style Corpus Search** _(planned)_: Searches a local corpus of MIDI, MusicXML, and audio (Bach chorales, jazz standards, folk tunes, pop charts) by melodic contour, harmonic pattern, rhythmic motif, or text query, and reports matches with citations.
 
