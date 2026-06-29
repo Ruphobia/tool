@@ -2495,7 +2495,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Activation and waste classifier** _(stub, awaits wire-up)_: 10 CFR 61 Class A/B/C and IAEA categorization from neutron flux, irradiation history, and material composition; long-lived nuclide flagging.
 
-- ⬜ **Containment thermal-hydraulics sketcher** _(planned)_: Lumped-parameter blowdown, pressure-suppression, and hydrogen-burn estimates for LOCA scenarios; PCT and containment pressure timelines.
+- ✅ **Containment thermal-hydraulics sketcher** _(stub, awaits wire-up)_: Lumped-parameter blowdown, pressure-suppression, and hydrogen-burn estimates for LOCA scenarios; PCT and containment pressure timelines.
 
 - ⬜ **Pressure vessel designer** _(planned)_: ASME BPVC Section VIII Division 1 and 2 shell, head, flange, and nozzle-reinforcement calculations with MAWP and MDMT checks.
 
