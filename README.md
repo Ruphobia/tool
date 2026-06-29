@@ -3333,7 +3333,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Anesthesia protocol planner** _(stub, awaits wire-up)_: Builds field-immobilization and surgical-anesthesia protocols (e.g. BAM, TKM, medetomidine-ketamine, isoflurane top-up) with calculated volumes, dart sizes, induction/recovery timing, and reversal agents. Generates a printable monitoring sheet with target HR/RR/SpO2/EtCO2 ranges for the species.
 
-- ⬜ **Necropsy report builder** _(planned)_: Structured gross-pathology entry following standard organ-system templates (Davis, AFIP) with diagram annotation, sample inventory (histo, tox, micro), and chain-of-custody labels. Exports to PDF and to OIE/WOAH wildlife mortality reporting formats.
+- ✅ **Necropsy report builder** _(stub, awaits wire-up)_: Structured gross-pathology entry following standard organ-system templates (Davis, AFIP) with diagram annotation, sample inventory (histo, tox, micro), and chain-of-custody labels. Exports to PDF and to OIE/WOAH wildlife mortality reporting formats.
 
 - ⬜ **Body condition scorer** _(planned)_: Species-specific BCS scoring (1-5 or 1-9 scales) for canids, felids, equids, ruminants, psittacines, raptors, chelonians, and cetaceans with photo references for each score. Optional photogrammetric estimation of girth/length ratios from a calibrated image.
 
