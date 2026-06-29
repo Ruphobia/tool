@@ -2707,7 +2707,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Spring and Motion Ratio Calculator** _(stub, awaits wire-up)_: Solves wheel rate, spring rate, ride frequency, and damping ratio from suspension geometry, sprung mass, and motion ratio. Includes a coilover preload, droop, and bump-stop engagement model with corner-by-corner output.
 
-- ⬜ **Damper Tuning Workbench** _(planned)_: Imports shock-dyno CSV traces and overlays force-velocity curves with bump/rebound separation, hysteresis loops, and digressive/linear/progressive classification. Cross-plots damper position with vehicle telemetry to find packer hits and frequency-domain artifacts.
+- ✅ **Damper Tuning Workbench** _(stub, awaits wire-up)_: Imports shock-dyno CSV traces and overlays force-velocity curves with bump/rebound separation, hysteresis loops, and digressive/linear/progressive classification. Cross-plots damper position with vehicle telemetry to find packer hits and frequency-domain artifacts.
 
 - ⬜ **Suspension Geometry Visualizer** _(planned)_: Sketches double-wishbone, MacPherson, or multi-link geometry in 2D, computes roll center, instant center, anti-dive, anti-squat, and camber/bump-steer curves through travel. Outputs kinematics CSV for use in a vehicle model.
 
