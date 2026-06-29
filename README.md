@@ -4471,7 +4471,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Grading and drainage planner** _(stub, awaits wire-up)_: Computes runoff via the rational method and TR-55 from contour or LiDAR DEM input, sizes swales, French drains, and dry wells, and checks 2% slope-away from foundations and ADA walkway grades.
 
-- ⬜ **Deck and fence material estimator** _(planned)_: From a deck or fence footprint and code inputs (joist span tables, footing depth, post spacing), generates a cut list of joists, beams, posts, decking, and fasteners with waste factor and a board-foot cost roll-up.
+- ✅ **Deck and fence material estimator** _(stub, awaits wire-up)_: From a deck or fence footprint and code inputs (joist span tables, footing depth, post spacing), generates a cut list of joists, beams, posts, decking, and fasteners with waste factor and a board-foot cost roll-up.
 
 - ⬜ **Lumber cut optimizer** _(planned)_: Solves 1D bin-packing across a cut list against available stock lengths to minimize offcut waste and board count, accounting for kerf and grain-direction constraints.
 
