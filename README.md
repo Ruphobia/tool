@@ -1120,7 +1120,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Gage R&R workbench** _(stub, awaits wire-up)_: Runs Type 1, Type 2, and Type 3 MSA studies with ANOVA and Average-Range methods, decomposes variance into repeatability, reproducibility, part, and operator components, and reports %study variation, %tolerance, ndc, and Kappa for attribute gages.
 
-- ⬜ **DMAIC notebook** _(planned)_: Structures Define, Measure, Analyze, Improve, Control phases with project charter, SIPOC, CTQ tree, data-collection plan, hypothesis tests, and control plan, and tracks gate reviews and tollgate sign-offs.
+- ✅ **DMAIC notebook** _(stub, awaits wire-up)_: Structures Define, Measure, Analyze, Improve, Control phases with project charter, SIPOC, CTQ tree, data-collection plan, hypothesis tests, and control plan, and tracks gate reviews and tollgate sign-offs.
 
 - ⬜ **Root-cause analyzer** _(planned)_: Combines Ishikawa fishbone, 5-Why ladders, and Pareto charts in one canvas, links causes to defect data, and surfaces AI-suggested cause categories from incident text and process variables.
 
