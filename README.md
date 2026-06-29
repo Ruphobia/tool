@@ -4802,7 +4802,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Soundscape and binaural generator** _(stub, awaits wire-up)_: Generates pink/brown/violet noise, rain, and binaural or isochronic tones at chosen carrier and beat frequencies (delta through gamma). Sessions are mixable, loopable, and saveable as preset stacks.
 
-- ⬜ **Symptom and medication tracker** _(planned)_: Bearable-style daily log of symptoms, medications (with doses and times), supplements, and factors (sleep, food, cycle). Computes lagged correlations between factors and symptoms over a configurable window.
+- ✅ **Symptom and medication tracker** _(stub, awaits wire-up)_: Bearable-style daily log of symptoms, medications (with doses and times), supplements, and factors (sleep, food, cycle). Computes lagged correlations between factors and symptoms over a configurable window.
 
 - ⬜ **Body scan and yoga nidra player** _(planned)_: Plays scripted body-scan and iRest yoga-nidra sequences with adjustable pacing, region order, and background bell. Scripts are plain-text editable; TTS rendering uses an on-device voice for full local operation.
 
