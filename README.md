@@ -2777,7 +2777,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Fuel Economy & Cost-of-Ownership Log** _(stub, awaits wire-up)_: Per-fillup MPG/L-per-100km tracking with rolling averages, plus depreciation, insurance, registration, fuel, parts, and labor totals. Computes cost-per-mile and break-even points for repairs vs replacement.
 
-- ⬜ **Recall & TSB Watcher** _(planned)_: Monitors NHTSA, Transport Canada, and manufacturer feeds for open recalls and Technical Service Bulletins matching saved VINs. Surfaces affected components, remedy status, and applicable production date ranges.
+- ✅ **Recall & TSB Watcher** _(stub, awaits wire-up)_: Monitors NHTSA, Transport Canada, and manufacturer feeds for open recalls and Technical Service Bulletins matching saved VINs. Surfaces affected components, remedy status, and applicable production date ranges.
 
 - ⬜ **Repair Procedure & Torque-Sequence Viewer** _(planned)_: Step-by-step disassembly/reassembly guides with torque sequences, special-tool callouts, fluid refill amounts, and required adapters. AI summarizes long FSM passages and answers free-form questions grounded in the loaded manual.
 
