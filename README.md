@@ -393,7 +393,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Accessibility auditor** _(stub, awaits wire-up)_: Runs axe-core, Pa11y, and ARIA validators against routes or stories, then groups violations by impact with code-locating fixes and contrast remediation suggestions.
 
-- ⬜ **Lighthouse runner** _(planned)_: Executes Lighthouse passes for performance, SEO, PWA, and best-practices, with throttled profiles, LCP/CLS/INP attribution, and per-resource waterfall annotation.
+- ✅ **Lighthouse runner** _(stub, awaits wire-up)_: Executes Lighthouse passes for performance, SEO, PWA, and best-practices, with throttled profiles, LCP/CLS/INP attribution, and per-resource waterfall annotation.
 
 - ⬜ **Bundle analyzer** _(planned)_: Visualizes chunk graphs and treemaps from stats output, flags duplicate deps, large transitive imports, and suggests dynamic-import boundaries with predicted savings.
 
