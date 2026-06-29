@@ -4081,7 +4081,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Saddle Stitch and Punch Spacing** _(stub, awaits wire-up)_: Calculates pricking iron pitch, thread diameter, awl angle, and SPI for a given leather thickness and seam strength target. Generates printable punch templates and corner radii to keep stitch count even around curves.
 
-- ⬜ **Patina and Finish Recipe Book** _(planned)_: Catalogs liver-of-sulfur, cupric nitrate, ferric, fume, heat, and electrochemical patinas for copper, bronze, brass, silver, and steel; for leather, vinegaroon, oak gall, and oil finishes. Tracks dilutions, dwell, neutralization, and seal coats with reproducibility notes.
+- ✅ **Patina and Finish Recipe Book** _(stub, awaits wire-up)_: Catalogs liver-of-sulfur, cupric nitrate, ferric, fume, heat, and electrochemical patinas for copper, bronze, brass, silver, and steel; for leather, vinegaroon, oak gall, and oil finishes. Tracks dilutions, dwell, neutralization, and seal coats with reproducibility notes.
 
 - ⬜ **Hallmark and Assay Reference** _(planned)_: Searchable database of maker, assay-office, date, and standard marks across UK, France, Russia, Sweden, and Japan, with touchstone and acid-test fineness procedures. Includes XRF interpretation hints and minimum legal finenesses by jurisdiction.
 
