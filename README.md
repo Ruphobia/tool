@@ -2818,7 +2818,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sensor stream viewer** _(stub, awaits wire-up)_: Subscribes to live LIDAR, depth, IMU, force/torque, encoder, and camera streams over ROS/ROS2, Zenoh, MQTT, and LCM with per-channel decimation, synchronized recording, and back-pressure stats.
 
-- ⬜ **Computer vision pipeline** _(planned)_: Composes OpenCV and Kornia operators (detection, segmentation, optical flow, feature matching, pose estimation) as a runnable graph with live preview against cameras, video, or bag playback. AI-integrated swap-in of vision foundation models (SAM, DINOv2, YOLO, Grounding DINO) as graph nodes.
+- ✅ **Computer vision pipeline** _(stub, awaits wire-up)_: Composes OpenCV and Kornia operators (detection, segmentation, optical flow, feature matching, pose estimation) as a runnable graph with live preview against cameras, video, or bag playback. AI-integrated swap-in of vision foundation models (SAM, DINOv2, YOLO, Grounding DINO) as graph nodes.
 
 - ⬜ **Pose estimation studio** _(planned)_: Estimates 6D object poses from RGB and RGB-D inputs using FoundationPose, MegaPose, fiducial markers (AprilTag, ArUco), and template matching, with ground-truth annotation and refinement tooling.
 
