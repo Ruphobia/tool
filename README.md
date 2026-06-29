@@ -3859,7 +3859,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Oscilloscope and logic-style viewer** _(stub, awaits wire-up)_: Time-domain viewer with triggering, persistence, XY mode, math channels, and cursor measurements; reads from audio interfaces or imported captures.
 
-- ⬜ **Room acoustics analyzer** _(planned)_: Measures RT60, EDT, C50/C80, STI, modal response, and waterfall decay from sine-sweep or MLS captures; suggests treatment placement. AI-integrated treatment recommendations from measured response.
+- ✅ **Room acoustics analyzer** _(stub, awaits wire-up)_: Measures RT60, EDT, C50/C80, STI, modal response, and waterfall decay from sine-sweep or MLS captures; suggests treatment placement. AI-integrated treatment recommendations from measured response.
 
 - ⬜ **Loudspeaker and headphone EQ tuner** _(planned)_: Captures system response with a measurement mic, computes correction FIR/IIR filters, and exports to convolution plugins or hardware DSPs.
 
