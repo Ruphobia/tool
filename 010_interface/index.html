@@ -20,6 +20,11 @@
         <button data-action="new-file">New File</button>
         <button data-action="new-folder">New Folder</button>
         <hr>
+        <button data-action="new-session">New Session</button>
+        <button data-action="switch-session">Switch Session…</button>
+        <button data-action="rename-session">Rename Session…</button>
+        <button data-action="forget-session">Forget This Session</button>
+        <hr>
         <button data-action="delete">Delete Selected</button>
         <hr>
         <button data-action="quit">Quit Server</button>
@@ -116,6 +121,20 @@
       <button type="button" id="creds-cancel">Cancel</button>
       <button type="button" id="creds-save">Save</button>
     </footer>
+  </div>
+</div>
+
+<!-- Session picker modal -->
+<div id="session-modal" class="modal-overlay hidden" data-allow-close="0">
+  <div class="modal modal-tall">
+    <header class="modal-header">
+      <span>Open Session</span>
+      <button type="button" id="session-close" class="modal-close" title="Close">×</button>
+    </header>
+    <div class="modal-toolbar">
+      <button type="button" id="session-new">+ New session</button>
+    </div>
+    <div id="session-list" class="session-list"></div>
   </div>
 </div>
 

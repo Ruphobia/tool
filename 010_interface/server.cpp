@@ -2,6 +2,7 @@
 #include "httplib.h"
 #include "assets_gen.hpp"
 #include "status.hpp"
+#include "sessions_store.hpp"
 
 // pipeline layers
 #include "../001_prompt_cleanup/cleanup.hpp"
@@ -348,6 +349,23 @@ void handle_chat(const httplib::Request & req, httplib::Response & res) {
     }
     const std::string message = body["message"].get<std::string>();
     const std::string cwd     = body.value("cwd", std::string{});
+    const std::string sid     = req.get_header_value("X-Tool-Session");
+
+    // If the client tagged the request with a session id different from the
+    // currently-active one, swap before doing any work. Touch last_active.
+    if (!sid.empty()) {
+        try {
+            if (sid != context::current_id() && sessions_store::exists(sid)) {
+                context::switch_to(sid);
+            }
+        } catch (...) { /* fall through; chat still works on current session */ }
+        sessions_store::touch(sid);
+    }
+    if (context::current_id().empty()) {
+        res.status = 400;
+        res.set_content(R"({"error":"no active session"})", "application/json");
+        return;
+    }
 
     res.set_chunked_content_provider("text/event-stream",
         [message, cwd](std::size_t /*offset*/, httplib::DataSink & sink) -> bool {
@@ -596,10 +614,161 @@ void run(const std::string & host, int port) {
     });
     srv.Post("/api/terminal/exec", handle_terminal_exec);
     srv.Post("/api/chat",          handle_chat);
-    srv.Post("/api/context/clear", [](const httplib::Request &, httplib::Response & r) {
-        context::new_session();
-        r.set_content(R"({"ok":true})", "application/json");
+    srv.Post("/api/context/clear", [](const httplib::Request & req, httplib::Response & r) {
+        const std::string sid = req.get_header_value("X-Tool-Session");
+        if (!sid.empty() && sessions_store::exists(sid) && sid != context::current_id()) {
+            try { context::switch_to(sid); } catch (...) {}
+        }
+        context::new_session();   // generates a new uuid and switches to it
+        json j{{"ok", true}, {"id", context::current_id()}};
+        r.set_content(j.dump(), "application/json");
     });
+
+    // ---- Browser-session management ------------------------------------
+    // GET  /api/sessions                  -> {sessions:[{id,name,...}]}
+    // POST /api/sessions {name?,root_dir?}-> {id, ...meta}
+    // GET  /api/sessions/<id>             -> {ui:{...}, chat:[{role,text,...}]}
+    // PUT  /api/sessions/<id>             -> save {ui:{...}}
+    // PATCH /api/sessions/<id>            -> rename / set folder
+    // POST /api/sessions/<id>/activate    -> make this the active session
+    // DELETE /api/sessions/<id>           -> forget (delete json + sqlite)
+    srv.Get("/api/sessions", [](const httplib::Request &, httplib::Response & res) {
+        json arr = json::array();
+        const std::string active = context::current_id();
+        for (const auto & m : sessions_store::list()) {
+            arr.push_back({
+                { "id",            m.id            },
+                { "name",          m.name          },
+                { "root_dir",      m.root_dir      },
+                { "created_at",    m.created_at    },
+                { "last_active",   m.last_active   },
+                { "message_count", m.message_count },
+                { "active",        m.id == active  },
+            });
+        }
+        res.set_content(json{{"sessions", arr},
+                             {"active",   active}}.dump(),
+                        "application/json");
+    });
+    srv.Post("/api/sessions", [](const httplib::Request & req, httplib::Response & res) {
+        json body = json::parse(req.body, nullptr, false);
+        std::string name, root;
+        if (body.is_object()) {
+            name = body.value("name",     std::string{});
+            root = body.value("root_dir", std::string{});
+        }
+        auto m = sessions_store::create(name, root);
+        json j{
+            { "id",            m.id            },
+            { "name",          m.name          },
+            { "root_dir",      m.root_dir      },
+            { "created_at",    m.created_at    },
+            { "last_active",   m.last_active   },
+            { "message_count", 0               },
+        };
+        res.set_content(j.dump(), "application/json");
+    });
+
+    // Path-param helpers: extract the id from the URL.
+    auto id_from_path = [](const httplib::Request & req) -> std::string {
+        if (req.matches.size() >= 2) return req.matches[1].str();
+        return {};
+    };
+
+    srv.Get(R"(/api/sessions/([0-9a-f-]+))",
+        [id_from_path](const httplib::Request & req, httplib::Response & res) {
+            std::string id = id_from_path(req);
+            if (!sessions_store::exists(id)) {
+                res.status = 404;
+                res.set_content(R"({"error":"not found"})", "application/json");
+                return;
+            }
+            std::string ui_blob = sessions_store::read_ui(id);
+            json ui = json::parse(ui_blob, nullptr, false);
+            if (!ui.is_object()) ui = json::object();
+            json chat = json::array();
+            for (const auto & m : sessions_store::chat_history(id)) {
+                chat.push_back({
+                    { "role", m.role },
+                    { "text", m.text },
+                    { "ts",   m.ts   },
+                    { "turn", m.turn },
+                });
+            }
+            res.set_content(json{
+                { "id",   id   },
+                { "ui",   ui   },
+                { "chat", chat },
+            }.dump(), "application/json");
+        });
+
+    srv.Put(R"(/api/sessions/([0-9a-f-]+))",
+        [id_from_path](const httplib::Request & req, httplib::Response & res) {
+            std::string id = id_from_path(req);
+            json body = json::parse(req.body, nullptr, false);
+            if (!body.is_object() || !body.contains("ui")) {
+                res.status = 400;
+                res.set_content(R"({"error":"missing ui"})", "application/json");
+                return;
+            }
+            sessions_store::write_ui(id, body["ui"].dump());
+            res.set_content(R"({"ok":true})", "application/json");
+        });
+
+    srv.Patch(R"(/api/sessions/([0-9a-f-]+))",
+        [id_from_path](const httplib::Request & req, httplib::Response & res) {
+            std::string id = id_from_path(req);
+            json body = json::parse(req.body, nullptr, false);
+            std::string name, root;
+            if (body.is_object()) {
+                name = body.value("name",     std::string{});
+                root = body.value("root_dir", std::string{});
+            }
+            sessions_store::patch(id, name, root);
+            res.set_content(R"({"ok":true})", "application/json");
+        });
+
+    srv.Post(R"(/api/sessions/([0-9a-f-]+)/activate)",
+        [id_from_path](const httplib::Request & req, httplib::Response & res) {
+            std::string id = id_from_path(req);
+            if (!sessions_store::exists(id)) {
+                res.status = 404;
+                res.set_content(R"({"error":"not found"})", "application/json");
+                return;
+            }
+            try {
+                context::switch_to(id);
+                sessions_store::touch(id);
+            } catch (const std::exception & e) {
+                res.status = 500;
+                res.set_content(json{{"error", e.what()}}.dump(),
+                                "application/json");
+                return;
+            }
+            res.set_content(R"({"ok":true})", "application/json");
+        });
+
+    srv.Delete(R"(/api/sessions/([0-9a-f-]+))",
+        [id_from_path](const httplib::Request & req, httplib::Response & res) {
+            std::string id = id_from_path(req);
+            bool was_active = (id == context::current_id());
+            // If we're about to delete the active session, hop to another
+            // existing one (or create a fresh one) first so we don't leave
+            // the server holding a closed/deleted file handle.
+            if (was_active) {
+                std::string next_id;
+                for (const auto & m : sessions_store::list()) {
+                    if (m.id != id) { next_id = m.id; break; }
+                }
+                if (!next_id.empty()) {
+                    try { context::switch_to(next_id); } catch (...) {}
+                } else {
+                    context::new_session();
+                }
+            }
+            sessions_store::forget(id);
+            res.set_content(R"({"ok":true})", "application/json");
+        });
 
     // GET  /api/settings -> returns stored API credentials JSON (or {} if none).
     // POST /api/settings -> overwrites settings/credentials.json with the

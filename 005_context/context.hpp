@@ -17,10 +17,10 @@ struct Record {
     std::string meta;         // optional JSON for layer-specific extras
 };
 
-// Open (or roll to a fresh) session file. Idempotent.
-// If a previous session file exists at the canonical path, it is renamed to
-// session_<unix_ms>.sqlite so it stays on disk for later inspection. The new
-// session starts at turn 0.
+// Open the active browser session. Idempotent.
+// If <path_dir>/active.txt exists, opens the session it points at.
+// Otherwise generates a fresh UUID, writes active.txt, and opens
+// <path_dir>/<uuid>.sqlite.
 //
 // path_dir: directory to hold session files (default: "005_context/sessions").
 // Creates the directory if missing.
@@ -29,10 +29,23 @@ void init(std::string_view path_dir = {});
 // Close any open handle. Safe to call multiple times.
 void shutdown();
 
-// Roll to a brand-new session in the same directory. The current session
-// file is archived (renamed with a unix-ms suffix) and a fresh one is
-// created. Used by REPL "/clear".
+// Roll to a brand-new session in the same directory. Generates a new UUID,
+// updates active.txt, closes the current handle, opens the new file.
+// (Old session files are NOT archived — they stay on disk and remain visible
+// to the multi-session picker.)
 void new_session();
+
+// Close the current handle (if any) and open <path_dir>/<id>.sqlite as the
+// active session. Updates active.txt. Creates the file with schema if it
+// doesn't exist yet. Resets the per-process turn counter.
+void switch_to(std::string_view id);
+
+// UUID of the currently-active session (the basename of the open .sqlite,
+// without the extension). Empty string if no session is open.
+std::string current_id();
+
+// Absolute directory holding all session files.
+std::string sessions_dir();
 
 // Begin a new REPL turn; returns its turn number. All subsequent append()
 // calls without an explicit turn arg use this turn until next_turn() is

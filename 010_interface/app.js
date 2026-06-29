@@ -9,6 +9,43 @@ const state = {
   nextTermId: 1,
 };
 
+// ---- session id (fragment-routed) -------------------------------------
+// The URL fragment #s=<uuid> picks which server-side session this tab is
+// attached to. Every /api/* request carries X-Tool-Session: <uuid> via
+// the monkey-patched window.fetch below, so the server knows which
+// session's SQLite + UI state to read/write. A missing fragment is
+// handled in bootSession() (picker on cold start with >0 sessions; auto-
+// create otherwise).
+let currentSessionId = (() => {
+  const m = /(?:^|&)s=([0-9a-f-]{32,40})/.exec(location.hash.replace(/^#/, ''));
+  return m ? m[1] : null;
+})();
+function setSessionInUrl(id) {
+  currentSessionId = id;
+  if (id) {
+    if (location.hash.replace(/^#/, '') !== 's=' + id) {
+      history.replaceState(null, '', '#s=' + id);
+    }
+  }
+}
+// Monkey-patch fetch so every /api/* call tags the session id. Done once,
+// before any other code runs, so existing fetch('/api/...') call sites
+// don't need to change.
+{
+  const origFetch = window.fetch.bind(window);
+  window.fetch = function(input, init) {
+    const url = (typeof input === 'string') ? input :
+                (input && input.url)        ? input.url : '';
+    if (url.startsWith('/api/') && currentSessionId) {
+      init = init || {};
+      const h = new Headers(init.headers || {});
+      h.set('X-Tool-Session', currentSessionId);
+      init.headers = h;
+    }
+    return origFetch(input, init);
+  };
+}
+
 // ---- status polling ---------------------------------------------------
 async function pollStatus() {
   try {
@@ -48,14 +85,63 @@ document.querySelectorAll('[data-action]').forEach(el => {
 
 function handleMenuAction(action) {
   switch (action) {
-    case 'open-folder':   openFolderPicker(); break;
-    case 'new-file':      createInRoot('file');   break;
-    case 'new-folder':    createInRoot('folder'); break;
-    case 'delete':        deleteSelected();   break;
-    case 'quit':          fetch('/api/quit', {method:'POST'}); break;
-    case 'clear-context': clearContext(); break;
+    case 'open-folder':     openFolderPicker(); break;
+    case 'new-file':        createInRoot('file');   break;
+    case 'new-folder':      createInRoot('folder'); break;
+    case 'delete':          deleteSelected();   break;
+    case 'quit':            fetch('/api/quit', {method:'POST'}); break;
+    case 'clear-context':   clearContext(); break;
     case 'api-credentials': openCredsModal(); break;
+    case 'switch-session':  openSessionPicker({ allowClose: true }); break;
+    case 'rename-session':  promptRenameSession(); break;
+    case 'new-session':     newSessionThenReload(); break;
+    case 'forget-session':  forgetCurrentSession(); break;
   }
+}
+
+async function newSessionThenReload() {
+  const m = await createSessionOnServer({});
+  if (!m) return;
+  setSessionInUrl(m.id);
+  location.reload();
+}
+
+async function createSessionOnServer({ name = '', root_dir = '' }) {
+  try {
+    const r = await fetch('/api/sessions', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, root_dir }),
+    });
+    if (!r.ok) return null;
+    return await r.json();
+  } catch { return null; }
+}
+
+async function promptRenameSession() {
+  if (!currentSessionId) return;
+  const name = prompt('Session name:', '');
+  if (name === null) return;
+  try {
+    await fetch('/api/sessions/' + currentSessionId, {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name }),
+    });
+  } catch {}
+}
+
+async function forgetCurrentSession() {
+  if (!currentSessionId) return;
+  if (!confirm('Forget this session? Its chat history and tab state are deleted.'))
+    return;
+  try {
+    await fetch('/api/sessions/' + currentSessionId, { method: 'DELETE' });
+  } catch {}
+  // After forgetting, drop fragment and reload — bootSession() takes over.
+  currentSessionId = null;
+  history.replaceState(null, '', location.pathname);
+  location.reload();
 }
 
 // ---- API credentials modal -------------------------------------------
@@ -115,9 +201,116 @@ document.querySelectorAll('.ai-menu').forEach(item => {
 
 async function clearContext() {
   try {
-    await fetch('/api/context/clear', { method: 'POST' });
+    const r = await fetch('/api/context/clear', { method: 'POST' });
+    if (r.ok) {
+      const j = await r.json().catch(() => ({}));
+      // The server hands us back a fresh session id; ride the wave so
+      // subsequent /api/chat calls write to the new SQLite.
+      if (j.id) setSessionInUrl(j.id);
+    }
   } catch {}
   chatLog.innerHTML = '';
+}
+
+// ---- session picker modal --------------------------------------------
+const sessionModal = document.getElementById('session-modal');
+const sessionList  = document.getElementById('session-list');
+document.getElementById('session-close') ?.addEventListener('click', closeSessionPicker);
+document.getElementById('session-new')   ?.addEventListener('click', async () => {
+  const m = await createSessionOnServer({});
+  if (!m) return;
+  setSessionInUrl(m.id);
+  location.reload();
+});
+sessionModal?.addEventListener('click', e => {
+  if (e.target === sessionModal && sessionModal.dataset.allowClose === '1') {
+    closeSessionPicker();
+  }
+});
+
+function closeSessionPicker() {
+  sessionModal.classList.add('hidden');
+}
+
+async function openSessionPicker({ allowClose = true, sessions = null } = {}) {
+  sessionModal.dataset.allowClose = allowClose ? '1' : '0';
+  document.getElementById('session-close').style.display =
+    allowClose ? '' : 'none';
+
+  if (!sessions) {
+    try {
+      const r = await fetch('/api/sessions');
+      if (r.ok) sessions = (await r.json()).sessions || [];
+      else sessions = [];
+    } catch { sessions = []; }
+  }
+
+  sessionList.innerHTML = '';
+  if (!sessions.length) {
+    const empty = document.createElement('div');
+    empty.className = 'session-empty hint';
+    empty.textContent = 'No sessions yet. Click "+ New session" to start one.';
+    sessionList.appendChild(empty);
+  }
+  for (const s of sessions) {
+    const row = document.createElement('div');
+    row.className = 'session-row' + (s.active ? ' active' : '');
+    row.innerHTML =
+      `<div class="meta">` +
+        `<div class="name"></div>` +
+        `<div class="folder"></div>` +
+      `</div>` +
+      `<div class="stats"></div>` +
+      `<div class="last"></div>` +
+      `<button class="forget-btn" title="Forget this session">×</button>`;
+    row.querySelector('.name').textContent  =
+      s.name || abbrPath(s.root_dir) || 'untitled';
+    row.querySelector('.folder').textContent = abbrPath(s.root_dir) || '(no folder)';
+    row.querySelector('.stats').textContent  =
+      `${s.message_count || 0} msgs`;
+    row.querySelector('.last').textContent   = humanAgo(s.last_active);
+    row.title = s.id;
+    row.addEventListener('click', e => {
+      if (e.target.classList.contains('forget-btn')) return;
+      setSessionInUrl(s.id);
+      location.reload();
+    });
+    row.querySelector('.forget-btn').addEventListener('click', async e => {
+      e.stopPropagation();
+      if (!confirm(`Forget "${row.querySelector('.name').textContent}"? ` +
+                   `Chat history and tab state are deleted.`)) return;
+      try { await fetch('/api/sessions/' + s.id, { method: 'DELETE' }); } catch {}
+      row.remove();
+      // If we just nuked the active session and the picker was modal, refresh.
+      if (s.active) {
+        currentSessionId = null;
+        history.replaceState(null, '', location.pathname);
+        location.reload();
+      }
+    });
+    sessionList.appendChild(row);
+  }
+  sessionModal.classList.remove('hidden');
+}
+
+function humanAgo(ts) {
+  if (!ts) return '';
+  const d = Date.now() - ts;
+  if (d < 60_000)        return 'just now';
+  if (d < 3_600_000)     return Math.round(d / 60_000) + ' min ago';
+  if (d < 86_400_000)    return Math.round(d / 3_600_000) + ' hr ago';
+  if (d < 86_400_000 * 7) return Math.round(d / 86_400_000) + ' day' +
+                                 (Math.round(d / 86_400_000) === 1 ? '' : 's') + ' ago';
+  return new Date(ts).toLocaleDateString();
+}
+function abbrPath(p) {
+  if (!p) return '';
+  const home = ['/home/', '/Users/'].find(prefix => p.startsWith(prefix));
+  if (home) {
+    const rest = p.slice(home.length).split('/');
+    if (rest.length > 1) return '~/' + rest.slice(1).join('/');
+  }
+  return p;
 }
 
 // ---- pane hide/show + drag resize -------------------------------------
@@ -1843,8 +2036,30 @@ function newTerminalAtCwd(id, cwd) {
   renderPromptLine(scr, cwd, '');
 }
 
-// ---- state persistence (per-tab via sessionStorage) -------------------
-const STATE_KEY = 'tool_state_v1';
+// ---- state persistence (per-session) ----------------------------------
+// Two-tier persistence: sessionStorage is a fast-paint cache (per tab),
+// the server is authoritative (survives close-browser, restart-machine,
+// and is the source the picker reads). Session id is in the URL fragment.
+const STATE_KEY_BASE = 'tool_state_v1';
+const stateKey = () =>
+  currentSessionId ? STATE_KEY_BASE + ':' + currentSessionId : STATE_KEY_BASE;
+
+let serverSaveTimer = null;
+function scheduleServerSave() {
+  if (serverSaveTimer) clearTimeout(serverSaveTimer);
+  serverSaveTimer = setTimeout(syncStateToServer, 500);
+}
+async function syncStateToServer() {
+  if (!currentSessionId) return;
+  const blob = JSON.parse(sessionStorage.getItem(stateKey()) || '{}');
+  try {
+    await fetch('/api/sessions/' + currentSessionId, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ui: blob }),
+    });
+  } catch {}
+}
 
 function saveState() {
   const root = document.documentElement;
@@ -1864,12 +2079,40 @@ function saveState() {
     activeTerm: state.activeTerm,
     nextTermId: state.nextTermId,
   };
-  try { sessionStorage.setItem(STATE_KEY, JSON.stringify(s)); } catch {}
+  try { sessionStorage.setItem(stateKey(), JSON.stringify(s)); } catch {}
+  scheduleServerSave();
+}
+
+// Replay one server-stored chat row (role + text) into the chat log
+// — used by the boot path so refresh restores the visible conversation.
+function replayChatMessage(role, text) {
+  if (!text) return;
+  pushMsg(role === 'user' ? 'user' : 'ai', text);
 }
 
 async function restoreState() {
+  // 1. Fast paint from sessionStorage cache (if any).
   let s = null;
-  try { s = JSON.parse(sessionStorage.getItem(STATE_KEY) || 'null'); } catch {}
+  try { s = JSON.parse(sessionStorage.getItem(stateKey()) || 'null'); } catch {}
+
+  // 2. Pull authoritative state from the server.
+  let serverPayload = null;
+  if (currentSessionId) {
+    try {
+      const r = await fetch('/api/sessions/' + currentSessionId);
+      if (r.ok) serverPayload = await r.json();
+    } catch {}
+  }
+  if (serverPayload && serverPayload.ui && Object.keys(serverPayload.ui).length) {
+    s = serverPayload.ui;
+    try { sessionStorage.setItem(stateKey(), JSON.stringify(s)); } catch {}
+  }
+
+  // 3. Render the chat log from the server (so refresh shows the convo).
+  if (serverPayload && Array.isArray(serverPayload.chat)) {
+    for (const m of serverPayload.chat) replayChatMessage(m.role, m.text);
+  }
+
   if (!s) {
     // Fresh session: open one terminal so the bar isn't empty.
     newTerminal();
@@ -1944,11 +2187,8 @@ const origClose = closeTerminal;
 closeTerminal = function(id) { origClose(id); saveState(); };
 const origNew = newTerminal;
 newTerminal = function() { origNew(); saveState(); };
-const origRunTerm = runTerminalCommand;
-runTerminalCommand = async function(id, cmd) {
-  await origRunTerm(id, cmd);
-  saveState();   // cwd may have changed via cd
-};
+// (the actual terminal-submit wrapper lives further down, near the file-tree
+// refresh hook — that's where cd-driven cwd changes get a saveState.)
 // Pane toggles
 paneToggles.forEach(btn => btn.addEventListener('click', () => saveState()));
 // Resize: debounce save
@@ -2032,6 +2272,7 @@ const _origSubmit = submitTerminalCommand;
 submitTerminalCommand = async function(id, raw) {
   await _origSubmit(id, raw);
   refreshFileTreeIfOpen();
+  saveState();                  // cwd may have changed via cd
 };
 const _origRender = renderAIResponse;
 renderAIResponse = function(el, j) {
@@ -2039,8 +2280,34 @@ renderAIResponse = function(el, j) {
   if (j.handler && j.handler.kind === 'shell') refreshFileTreeIfOpen();
 };
 
-// Boot
-restoreState();
+// Boot — resolve session first, then restore state.
+bootSession();
+
+async function bootSession() {
+  if (currentSessionId) {
+    // Verify the session still exists; otherwise fall through to picker.
+    try {
+      const r = await fetch('/api/sessions/' + currentSessionId);
+      if (r.ok) { restoreState(); return; }
+    } catch {}
+    currentSessionId = null;
+    history.replaceState(null, '', location.pathname);
+  }
+  let sessions = [];
+  try {
+    const r = await fetch('/api/sessions');
+    if (r.ok) sessions = (await r.json()).sessions || [];
+  } catch {}
+  if (sessions.length === 0) {
+    const m = await createSessionOnServer({});
+    if (m) { setSessionInUrl(m.id); restoreState(); return; }
+    // server unreachable — soldier on with a transient id; sync will retry.
+    setSessionInUrl('00000000-0000-0000-0000-000000000000');
+    restoreState();
+    return;
+  }
+  openSessionPicker({ allowClose: false, sessions });
+}
 
 // ---- utils ------------------------------------------------------------
 function escapeHTML(s) {

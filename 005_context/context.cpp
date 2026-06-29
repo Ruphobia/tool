@@ -7,7 +7,10 @@
 #include <cstdio>
 #include <cstdlib>
 #include <filesystem>
+#include <fstream>
 #include <mutex>
+#include <random>
+#include <sstream>
 #include <stdexcept>
 #include <string>
 #include <unordered_set>
@@ -24,6 +27,48 @@ sqlite3 *       g_db   = nullptr;
 fs::path        g_dir;
 fs::path        g_path;
 int64_t         g_turn = 0;
+std::string     g_id;          // UUID of the active session (basename of g_path)
+
+std::string make_uuid_v4() {
+    // Crypto strength isn't required; uniqueness within a few seconds is.
+    static std::random_device rd;
+    static std::mt19937_64    rng{
+        ((uint64_t)rd() << 32) ^ (uint64_t)rd() ^
+        (uint64_t)std::chrono::steady_clock::now().time_since_epoch().count()
+    };
+    auto hex16 = [](uint16_t v) {
+        char b[5]; std::snprintf(b, sizeof(b), "%04x", v);
+        return std::string(b);
+    };
+    auto hex32 = [](uint32_t v) {
+        char b[9]; std::snprintf(b, sizeof(b), "%08x", v);
+        return std::string(b);
+    };
+    auto hex48 = [](uint64_t v) {
+        char b[13]; std::snprintf(b, sizeof(b), "%012lx", (unsigned long)(v & 0xffffffffffffull));
+        return std::string(b);
+    };
+    uint64_t a = rng(), b = rng();
+    return hex32((uint32_t)(a >> 32))                + "-" +
+           hex16((uint16_t)((a >> 16) & 0xffff))     + "-" +
+           "4" + hex16((uint16_t)(a & 0xfff)).substr(1) + "-" +  // version 4
+           hex16((uint16_t)(((b >> 48) & 0x3fff) | 0x8000)) + "-" +  // variant 1
+           hex48(b);
+}
+
+void write_active_file_locked() {
+    std::ofstream f(g_dir / "active.txt", std::ios::trunc);
+    if (f) f << g_id;
+}
+std::string read_active_file_in(const fs::path & dir) {
+    std::ifstream f(dir / "active.txt");
+    if (!f) return {};
+    std::string s; std::getline(f, s);
+    // Strip any stray whitespace.
+    while (!s.empty() && (s.back() == '\n' || s.back() == '\r' || s.back() == ' '))
+        s.pop_back();
+    return s;
+}
 
 int64_t now_ms() {
     using namespace std::chrono;
@@ -116,22 +161,6 @@ void open_db_locked(const fs::path & p) {
     install_schema();
 }
 
-void archive_if_present_locked() {
-    if (!fs::exists(g_path)) return;
-    fs::path archived = g_dir /
-        ("session_" + std::to_string(now_ms()) + ".sqlite");
-    // Also move sidecars (-wal, -shm) if present.
-    for (const auto & suf : { std::string(""), std::string("-wal"), std::string("-shm") }) {
-        fs::path from = g_path;
-        from += suf;
-        if (fs::exists(from)) {
-            fs::path to = archived;
-            to += suf;
-            fs::rename(from, to);
-        }
-    }
-}
-
 Record row_to_record(sqlite3_stmt * st) {
     Record r;
     r.id   = sqlite3_column_int64(st, 0);
@@ -157,10 +186,21 @@ void init(std::string_view path_dir) {
         ? fs::path("005_context/sessions")
         : fs::path(std::string(path_dir));
     fs::create_directories(g_dir);
-    g_path = g_dir / "session.sqlite";
-    archive_if_present_locked();
-    open_db_locked(g_path);
-    g_turn = 0;
+
+    // If active.txt names an existing session, attach to it. Otherwise
+    // leave the handle null — the server will switch_to() once the
+    // browser tells us which session it owns. This avoids auto-spawning
+    // a phantom session that the picker would then have to display.
+    std::string id = read_active_file_in(g_dir);
+    if (!id.empty()) {
+        fs::path p = g_dir / (id + ".sqlite");
+        if (fs::exists(p)) {
+            g_id   = id;
+            g_path = p;
+            open_db_locked(g_path);
+            g_turn = 0;
+        }
+    }
 }
 
 void shutdown() {
@@ -168,17 +208,40 @@ void shutdown() {
     if (!g_db) return;
     sqlite3_close(g_db);
     g_db = nullptr;
+    g_id.clear();
 }
 
 void new_session() {
     std::lock_guard<std::mutex> lk(g_mtx);
-    if (g_db) {
-        sqlite3_close(g_db);
-        g_db = nullptr;
-    }
-    archive_if_present_locked();
+    if (g_db) { sqlite3_close(g_db); g_db = nullptr; }
+    g_id   = make_uuid_v4();
+    g_path = g_dir / (g_id + ".sqlite");
     open_db_locked(g_path);
+    write_active_file_locked();
     g_turn = 0;
+}
+
+void switch_to(std::string_view id) {
+    std::lock_guard<std::mutex> lk(g_mtx);
+    std::string sid(id);
+    if (sid.empty()) throw std::runtime_error("context::switch_to: empty id");
+    if (sid == g_id && g_db) return;          // already active
+    if (g_db) { sqlite3_close(g_db); g_db = nullptr; }
+    g_id   = sid;
+    g_path = g_dir / (g_id + ".sqlite");
+    open_db_locked(g_path);
+    write_active_file_locked();
+    g_turn = 0;
+}
+
+std::string current_id() {
+    std::lock_guard<std::mutex> lk(g_mtx);
+    return g_id;
+}
+
+std::string sessions_dir() {
+    std::lock_guard<std::mutex> lk(g_mtx);
+    return g_dir.string();
 }
 
 int64_t next_turn() {
