@@ -987,7 +987,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Capacitor Atlas** _(stub, awaits wire-up)_: Per-board capacitor lists (value, voltage, ESR target, polarity, footprint) with vendor part numbers and reform-versus-replace decisions logged per individual unit.
 
-- ⬜ **Emulator Harness** _(planned)_: Launches MAME, VICE, FS-UAE, Stella, Hatari, openMSX, and similar cores with auto-selected ROM sets, controller maps, and savestate routing keyed off the local catalog.
+- ✅ **Emulator Harness** _(stub, awaits wire-up)_: Launches MAME, VICE, FS-UAE, Stella, Hatari, openMSX, and similar cores with auto-selected ROM sets, controller maps, and savestate routing keyed off the local catalog.
 
 - ⬜ **Schematic and Service Manual Archive** _(planned)_: Local index of board schematics, service manuals, and chip datasheets with vector search; AI extracts pinouts, test points, and known fault notes from scanned pages.
 
