@@ -2757,7 +2757,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Wiring Diagram & Pinout Browser** _(stub, awaits wire-up)_: Renders interactive vehicle wiring diagrams with connector pinouts, ground points, fuse box maps, and CAN bus topology. Supports search by circuit, component, or DTC and overlays measured voltages from a connected multimeter or scope.
 
-- ⬜ **CAN Bus & UDS Inspector** _(planned)_: Sniffs raw CAN frames at configurable baud rates, decodes against DBC files, and performs UDS/KWP2000 service requests (read DTCs, clear codes, read DIDs, actuator tests). Includes bit-rate detection and J1939 support for diesels.
+- ✅ **CAN Bus & UDS Inspector** _(stub, awaits wire-up)_: Sniffs raw CAN frames at configurable baud rates, decodes against DBC files, and performs UDS/KWP2000 service requests (read DTCs, clear codes, read DIDs, actuator tests). Includes bit-rate detection and J1939 support for diesels.
 
 - ⬜ **Motorcycle Chain & Sprocket Sizer** _(planned)_: Computes chain length, sprocket ratios, final drive, top speed per RPM, and gearing changes by tooth count. Validates pitch (520/525/530, 428), o-ring vs x-ring compatibility, and tracks chain stretch from pin-to-pin measurements.
 
