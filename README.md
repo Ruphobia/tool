@@ -1687,7 +1687,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Multispectral Image Stack** _(stub, awaits wire-up)_: Loads UV, IR, and visible-light captures of palimpsests and damaged folia with per-band registration and pseudocolor enhancement. Includes ink-recovery filters tuned for iron-gall, carbon, and minium pigments.
 
-- ⬜ **Abbreviation and Ligature Expander** _(planned)_: Expands Tironian notes, nomina sacra, suspension and contraction abbreviations, and scribal ligatures using script- and period-specific rule sets. Round-trips between abbreviated and expanded forms while preserving line and letter counts.
+- ✅ **Abbreviation and Ligature Expander** _(stub, awaits wire-up)_: Expands Tironian notes, nomina sacra, suspension and contraction abbreviations, and scribal ligatures using script- and period-specific rule sets. Round-trips between abbreviated and expanded forms while preserving line and letter counts.
 
 - ⬜ **Patristic Citation Tracer** _(planned)_: Indexes scriptural and classical citations inside Church Fathers, rabbinic literature, and medieval florilegia. Links each citation back to candidate textual forms and helps date or localize textual variants by their reception.
 
