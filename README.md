@@ -579,7 +579,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Bus traffic replayer** _(stub, awaits wire-up)_: Plays captured bus traces back onto live hardware or into the simulator with timing scaled and fields rewritten by rule. Useful for reproducing intermittent peripheral bugs.
 
-- ⬜ **Sensor calibration suite** _(planned)_: Workflows for accelerometer, gyro, magnetometer, IMU fusion, ADC, thermistor, and load-cell calibration with curve fitting and coefficient export. AI proposes the model class from the residual shape.
+- ✅ **Sensor calibration suite** _(stub, awaits wire-up)_: Workflows for accelerometer, gyro, magnetometer, IMU fusion, ADC, thermistor, and load-cell calibration with curve fitting and coefficient export. AI proposes the model class from the residual shape.
 
 - ⬜ **Display and UI prototyper** _(planned)_: WYSIWYG editor for LVGL, TouchGFX, Slint, and SDL-on-MCU UIs with simulated render on host. Exports C/Rust code and asset blobs sized to the target's flash budget.
 
