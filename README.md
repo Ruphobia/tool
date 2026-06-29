@@ -4562,7 +4562,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Recipe builder** _(stub, awaits wire-up)_: Composes recipes from ingredient lists with per-serving nutrient roll-up, batch scaling, leftover-aware meal planning, and grocery list export.
 
-- ⬜ **Gait and form video analyzer** _(planned)_: Runs MediaPipe/MoveNet pose estimation on uploaded video to extract joint angles, stride length, cadence, ground-contact time, and left/right asymmetry; renders side-by-side overlays against a reference clip.
+- ✅ **Gait and form video analyzer** _(stub, awaits wire-up)_: Runs MediaPipe/MoveNet pose estimation on uploaded video to extract joint angles, stride length, cadence, ground-contact time, and left/right asymmetry; renders side-by-side overlays against a reference clip.
 
 - ⬜ **HRV analyzer** _(planned)_: Parses raw RR-interval files into time-domain (RMSSD, SDNN, pNN50) and frequency-domain (LF, HF, LF/HF) metrics, with rolling baseline and readiness scoring.
 
