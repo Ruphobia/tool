@@ -1200,7 +1200,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Prose linter** _(stub, awaits wire-up)_: Longform-tuned style pass covering passive voice, filter words, adverb density, sentence-length variance, POV and tense drift, dialogue-tag overuse, and repeated openings. Configurable per project against AP, Chicago, MLA, or custom style guides.
 
-- ⬜ **Readability analyzer** _(planned)_: Flesch-Kincaid, Gunning Fog, Dale-Chall, SMOG, and ARI scoring with per-paragraph reading level heatmap. Tracks deltas across drafts and target-audience bands (MG, YA, trade, academic).
+- ✅ **Readability analyzer** _(stub, awaits wire-up)_: Flesch-Kincaid, Gunning Fog, Dale-Chall, SMOG, and ARI scoring with per-paragraph reading level heatmap. Tracks deltas across drafts and target-audience bands (MG, YA, trade, academic).
 
 - ⬜ **Citation manager** _(planned)_: Local BibTeX and CSL-JSON library with PDF attachments, web-snapshot capture, DOI and ISBN lookup, and in-text cite insertion. Bibliography export in any CSL style; deduplicates entries across imported libraries.
 
