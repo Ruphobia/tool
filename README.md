@@ -403,7 +403,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Responsive preview** _(stub, awaits wire-up)_: Renders the running app side-by-side in device frames at chosen breakpoints with touch emulation, prefers-color-scheme/reduced-motion toggles, and synchronized scroll.
 
-- ⬜ **Layout inspector** _(planned)_: Overlays CSS grid tracks, flex axes, container queries, and stacking contexts on the live page; explains specificity wins and offers minimal selector rewrites.
+- ✅ **Layout inspector** _(stub, awaits wire-up)_: Overlays CSS grid tracks, flex axes, container queries, and stacking contexts on the live page; explains specificity wins and offers minimal selector rewrites.
 
 - ⬜ **Route map** _(planned)_: Visualizes file-based router trees (Next, Remix, SvelteKit, Nuxt, SolidStart) with layout nesting, data-loader edges, and a coverage view of which routes have tests.
 
