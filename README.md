@@ -4016,7 +4016,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **WaterChemistryBuilder** _(stub, awaits wire-up)_: Targets coffee and brewing water recipes (SCA, Hendon, Rao, Burton, Pilsen) by computing CaCl2, MgSO4, NaHCO3, and CaSO4 additions from a source water report. Outputs mash, sparge, and dilution blends.
 
-- ⬜ **TeaSessionPlanner** _(planned)_: Gongfu and western brewing parameters per cultivar with temperature, leaf-to-water ratio, and infusion ladder. Logs infusion-by-infusion sensory notes and adjusts steep times against observed strength.
+- ✅ **TeaSessionPlanner** _(stub, awaits wire-up)_: Gongfu and western brewing parameters per cultivar with temperature, leaf-to-water ratio, and infusion ladder. Logs infusion-by-infusion sensory notes and adjusts steep times against observed strength.
 
 - ⬜ **CocktailWorkbench** _(planned)_: Spec builder enforcing sugar, acid, and ABV balance with stir, shake, and build dilution models. Generates build cards, scales to batch size, and tracks ingredient substitutions.
 
