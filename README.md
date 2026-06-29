@@ -280,7 +280,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Citation Graph Explorer** _(stub, awaits wire-up)_: Local citation network built from extracted references and OpenAlex/Semantic Scholar edges. Surfaces co-citation clusters, seminal works, missing forward citations, and review-article shortcuts.
 
-- ⬜ **Literature Review Synthesizer** _(planned)_: AI-assisted summarizer that drafts thematic literature reviews, evidence tables, and PRISMA-style flow records from a selected reading list, with every claim linked to a cited passage in the library.
+- ✅ **Literature Review Synthesizer** _(stub, awaits wire-up)_: AI-assisted summarizer that drafts thematic literature reviews, evidence tables, and PRISMA-style flow records from a selected reading list, with every claim linked to a cited passage in the library.
 
 - ✅ **Quote and Passage Index** _(in testing)_: Searchable index of highlighted passages and pulled quotes with source, locator, and surrounding context. Generates blockquote-ready snippets in any citation style on demand.
 
