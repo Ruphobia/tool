@@ -1081,7 +1081,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Dependency graph** _(stub, awaits wire-up)_: Directed graph of blocks/blocked-by, parent/child, and cross-project links, with cycle detection and shortest-path tracing from any leaf to its containing epic. Nodes are colorable by status, owner, or risk.
 
-- ⬜ **Milestone and release tracker** _(planned)_: Versioned releases with target dates, scope sets, freeze windows, and per-ticket inclusion criteria. Computes release readiness from open-blocker count and required-review state.
+- ✅ **Milestone and release tracker** _(stub, awaits wire-up)_: Versioned releases with target dates, scope sets, freeze windows, and per-ticket inclusion criteria. Computes release readiness from open-blocker count and required-review state.
 
 - ⬜ **OKR and goal tracker** _(planned)_: Objective/key-result hierarchy with measurable targets, current values, check-in cadence, and confidence scores. Key results link to the tickets and metrics that drive them, with automatic progress rollup.
 
