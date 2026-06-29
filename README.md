@@ -4010,7 +4010,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **RoastProfileStudio** _(stub, awaits wire-up)_: Live roast logger capturing bean temp, environmental temp, and Rate of Rise with timestamped events (charge, turning point, yellow, first crack, drop). Replays curves, overlays batches, and flags crash/flick artifacts.
 
-- ⬜ **EspressoShotLog** _(planned)_: Per-shot record of dose, yield, time, grind setting, basket, water temp, pressure profile, TDS, and extraction yield. Trends results per bean over time and surfaces drift in grinder or beans.
+- ✅ **EspressoShotLog** _(stub, awaits wire-up)_: Per-shot record of dose, yield, time, grind setting, basket, water temp, pressure profile, TDS, and extraction yield. Trends results per bean over time and surfaces drift in grinder or beans.
 
 - ⬜ **ExtractionCalculator** _(planned)_: Solves brew ratio, TDS, and extraction yield for pour-over, immersion, and espresso given any two known variables. Includes refractometer correction factors per method.
 
