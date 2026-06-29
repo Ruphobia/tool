@@ -2341,7 +2341,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Frame Analyzer** _(stub, awaits wire-up)_: Performs linear and P-delta analysis of 2D moment frames with arbitrary releases, supports, and load cases. Exports envelope diagrams and unity-check tables per member.
 
-- ⬜ **Foundation Sizer** _(planned)_: Designs spread footings, mat foundations, and drilled piers from soil bearing, lateral, and uplift inputs. Checks settlement, overturning, sliding, and reinforcement per ACI 318.
+- ✅ **Foundation Sizer** _(stub, awaits wire-up)_: Designs spread footings, mat foundations, and drilled piers from soil bearing, lateral, and uplift inputs. Checks settlement, overturning, sliding, and reinforcement per ACI 318.
 
 - ⬜ **Retaining Wall Designer** _(planned)_: Sizes cantilever, gravity, and segmental retaining walls against active/passive earth pressure, surcharge, and seismic load. Outputs stem reinforcement, heel/toe stability, and bearing pressure diagrams.
 
