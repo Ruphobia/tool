@@ -411,7 +411,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Form builder** _(stub, awaits wire-up)_: Composes schema-driven forms (react-hook-form, Conform, Felte, VeeValidate) with field arrays, async validation, conditional logic, and an inline preview of submission payloads.
 
-- ⬜ **PWA kit** _(planned)_: Builds web app manifests, generates icon sets at required sizes, and scaffolds service-worker caching strategies (stale-while-revalidate, network-first, offline fallback) via Workbox.
+- ✅ **PWA kit** _(stub, awaits wire-up)_: Builds web app manifests, generates icon sets at required sizes, and scaffolds service-worker caching strategies (stale-while-revalidate, network-first, offline fallback) via Workbox.
 
 - ⬜ **E2E recorder** _(planned)_: Records browser interactions into Playwright or Cypress specs, auto-stabilizes selectors with data-testid hints, and replays in headed/headless modes with trace viewer hooks.
 
