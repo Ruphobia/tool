@@ -4782,7 +4782,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Validated-instrument battery** _(stub, awaits wire-up)_: Self-administered PHQ-9, GAD-7, PSQI, ISI, AUDIT-C, K10, and PCL-5 with correct scoring, severity bands, and longitudinal plots. Flags clinical thresholds and surfaces item-level changes between administrations.
 
-- ⬜ **Stanley-Brown safety plan** _(planned)_: Guided builder for the six-step safety plan: warning signs, internal coping, social distractions, support contacts, professionals, and means restriction. Prints a wallet-card PDF and an on-device quick-access view.
+- ✅ **Stanley-Brown safety plan** _(stub, awaits wire-up)_: Guided builder for the six-step safety plan: warning signs, internal coping, social distractions, support contacts, professionals, and means restriction. Prints a wallet-card PDF and an on-device quick-access view.
 
 - ⬜ **Chronotype and circadian estimator** _(planned)_: Administers the MEQ and MCTQ, estimates chronotype and social jetlag, and approximates DLMO from sleep midpoint. Outputs a recommended light, melatonin, and meal-timing window.
 
