@@ -2109,7 +2109,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **PPE selector** _(stub, awaits wire-up)_: given a process and material, recommends specific personal protective equipment: respirator cartridge type (P100/organic-vapor/multi-gas/SCBA), glove material (nitrile vs. neoprene vs. butyl vs. PVA, with chemical-compatibility matrix), eye protection (shade for welding processes, splash for chemistry), hearing protection NRR matched to the noise level. Cites the SDS/IDLH for the specific exposure.
 
-- ⬜ **Parametric CAD sketcher** _(planned)_: 2D constraint-based sketcher and 3D parametric modeler with feature tree, boolean operations, lofts, sweeps, and revolves. AI-integrated generation of sketches and feature trees from natural language descriptions or reference images.
+- ✅ **Parametric CAD sketcher** _(stub, awaits wire-up)_: 2D constraint-based sketcher and 3D parametric modeler with feature tree, boolean operations, lofts, sweeps, and revolves. AI-integrated generation of sketches and feature trees from natural language descriptions or reference images.
 
 - ⬜ **Mesh editor** _(planned)_: Imports, repairs, and edits STL/OBJ/3MF meshes with hole filling, decimation, remeshing, and boolean operations. Includes non-manifold detection and automatic repair suggestions.
 
