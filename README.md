@@ -1339,7 +1339,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Bond Math Workbench** _(stub, awaits wire-up)_: Computes price, yield-to-maturity, yield-to-call, duration (Macaulay, modified, effective), and convexity for fixed- and floating-rate bonds; plots yield curves and runs parallel-shift and key-rate scenarios on a held portfolio.
 
-- ⬜ **Monte Carlo Retirement Simulator** _(planned)_: Simulates lifetime spending, withdrawal strategies, Social Security claim timing, and Roth-conversion ladders over thousands of return-and-inflation paths; reports success probability, percentile wealth bands, and sequence-of-returns risk.
+- ✅ **Monte Carlo Retirement Simulator** _(stub, awaits wire-up)_: Simulates lifetime spending, withdrawal strategies, Social Security claim timing, and Roth-conversion ladders over thousands of return-and-inflation paths; reports success probability, percentile wealth bands, and sequence-of-returns risk.
 
 - ⬜ **Cap Table Modeler** _(planned)_: Tracks shares, options, SAFEs, convertible notes, and warrants across founding, seed, and priced rounds; computes pre/post-money dilution, waterfall payouts at exit, and option-pool top-up effects. Generates 409A-style summary outputs.
 
