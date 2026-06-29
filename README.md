@@ -1190,7 +1190,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Writing, publishing, journalism
 
-- ⬜ **Manuscript outliner** _(planned)_: Hierarchical scene and chapter tree with beat-sheet templates (Save the Cat, Story Grid, Three-Act, Snowflake) and drag-reorder. Each node carries POV, setting, word-count target, status, and synopsis fields that roll up to act and book level.
+- ✅ **Manuscript outliner** _(stub, awaits wire-up)_: Hierarchical scene and chapter tree with beat-sheet templates (Save the Cat, Story Grid, Three-Act, Snowflake) and drag-reorder. Each node carries POV, setting, word-count target, status, and synopsis fields that roll up to act and book level.
 
 - ⬜ **Character bible** _(planned)_: Structured profiles with relationship graph, trait fields, voice samples, and arc tracker per character. AI-integrated continuity check surfaces later prose that contradicts earlier canonical facts with chapter and line references.
 
