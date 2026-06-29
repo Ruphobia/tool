@@ -2775,7 +2775,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Battery & Charging-System Analyzer** _(stub, awaits wire-up)_: Records resting voltage, cranking voltage, alternator output under load, and parasitic draw measurements over time. Estimates lead-acid, AGM, and Li-ion battery health from internal-resistance and CCA test results.
 
-- ⬜ **Fuel Economy & Cost-of-Ownership Log** _(planned)_: Per-fillup MPG/L-per-100km tracking with rolling averages, plus depreciation, insurance, registration, fuel, parts, and labor totals. Computes cost-per-mile and break-even points for repairs vs replacement.
+- ✅ **Fuel Economy & Cost-of-Ownership Log** _(stub, awaits wire-up)_: Per-fillup MPG/L-per-100km tracking with rolling averages, plus depreciation, insurance, registration, fuel, parts, and labor totals. Computes cost-per-mile and break-even points for repairs vs replacement.
 
 - ⬜ **Recall & TSB Watcher** _(planned)_: Monitors NHTSA, Transport Canada, and manufacturer feeds for open recalls and Technical Service Bulletins matching saved VINs. Surfaces affected components, remedy status, and applicable production date ranges.
 
