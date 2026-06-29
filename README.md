@@ -2517,7 +2517,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Engineering unit converter** _(stub, awaits wire-up)_: Field and SI conversions across heavy-industry units: bbl, mcf, BTU, troy oz, rem/Sv, dpm, gpm, m3/h, psi, bar, ksi, and per-foot vs per-meter rates.
 
-- ⬜ **Quick FEM previewer** _(planned)_: Linear-elastic 2D meshing with plane-stress, plane-strain, and axisymmetric solvers for stress and modal sanity checks before sending to a full FEA package.
+- ✅ **Quick FEM previewer** _(stub, awaits wire-up)_: Linear-elastic 2D meshing with plane-stress, plane-strain, and axisymmetric solvers for stress and modal sanity checks before sending to a full FEA package.
 
 - ⬜ **P&ID and flowsheet sketcher** _(planned)_: ISA S5.1 symbol library with intelligent line connectors; emits line lists, valve lists, and stream tables suitable for hand-off to a process simulator.
 
