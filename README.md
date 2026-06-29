@@ -2904,7 +2904,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **NMR simulator** _(stub, awaits wire-up)_: Predicts 1H, 13C, DEPT, COSY, HSQC, and HMBC spectra from a structure; reports chemical shifts, multiplicities, coupling constants, and integrations, with overlay against an imported experimental spectrum.
 
-- ⬜ **Vibrational spectrum simulator** _(planned)_: Predicts IR and Raman bands from structure via group contribution or computed force constants; annotates functional group regions and matches against measured JCAMP-DX traces.
+- ✅ **Vibrational spectrum simulator** _(stub, awaits wire-up)_: Predicts IR and Raman bands from structure via group contribution or computed force constants; annotates functional group regions and matches against measured JCAMP-DX traces.
 
 - ⬜ **Mass spectrum workbench** _(planned)_: Predicts EI, ESI, and APCI fragmentation trees; computes isotope envelopes and exact masses; matches an observed spectrum against a candidate structure or a local library, with AI-integrated formula generation from accurate mass.
 
