@@ -3562,7 +3562,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pest and Disease Identifier** _(stub, awaits wire-up)_: AI-integrated photo classifier for common crop pests, diseases, and nutrient deficiencies, with confidence scores, scouting checklist, lifecycle notes, and ranked IPM responses (cultural, biological, chemical) keyed to regional pesticide labels.
 
-- ⬜ **Spray Mix Calculator** _(planned)_: Converts label rates (per acre, per 100 gal, ppm, or oz/gal) to tank-fill volumes for backpack, hand, or boom sprayers. Tracks REI, PHI, tank mixing compatibility, and surfactant or buffer additions.
+- ✅ **Spray Mix Calculator** _(stub, awaits wire-up)_: Converts label rates (per acre, per 100 gal, ppm, or oz/gal) to tank-fill volumes for backpack, hand, or boom sprayers. Tracks REI, PHI, tank mixing compatibility, and surfactant or buffer additions.
 
 - ⬜ **Compost Recipe Builder** _(planned)_: Balances feedstocks to target C:N (typically 25-30), moisture (~55%), and bulk density across browns, greens, manures, and biochar inputs. Estimates pile temperature curve and turn schedule.
 
