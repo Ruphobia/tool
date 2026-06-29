@@ -4047,7 +4047,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Gear Train Calculator** _(stub, awaits wire-up)_: Computes wheel and pinion tooth counts, ratios, and beats-per-hour for clock and watch movements. Solves for missing members given a target frequency, mainspring torque, and going-train depth.
 
-- ⬜ **Escapement Designer** _(planned)_: Lays out lever, cylinder, deadbeat, and detent escapement geometries with pallet angles, drop, lock, and impulse arcs. Renders interactive SVG and exports DXF for jig cutting.
+- ✅ **Escapement Designer** _(stub, awaits wire-up)_: Lays out lever, cylinder, deadbeat, and detent escapement geometries with pallet angles, drop, lock, and impulse arcs. Renders interactive SVG and exports DXF for jig cutting.
 
 - ⬜ **Pendulum and Balance Tuner** _(planned)_: Calculates pendulum length, period, and temperature compensation for gridiron and invar rods; for balance wheels, derives moment of inertia, hairspring stiffness, and isochronism error from amplitude.
 
