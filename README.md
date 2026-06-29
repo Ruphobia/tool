@@ -840,7 +840,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **State Inspector** _(stub, awaits wire-up)_: Statevector, density matrix, and probability distribution views with amplitude bar charts, phase wheels, computational basis filtering, and hover-driven readout of complex amplitudes, fidelity, and purity.
 
-- ⬜ **Statevector Simulator** _(planned)_: Exact dense simulator up to roughly 25 qubits with parameter binding, conditional ops, deferred measurement, and caching of intermediate states for fast scrubbing inside the builder.
+- ✅ **Statevector Simulator** _(stub, awaits wire-up)_: Exact dense simulator up to roughly 25 qubits with parameter binding, conditional ops, deferred measurement, and caching of intermediate states for fast scrubbing inside the builder.
 
 - ⬜ **Stabilizer Simulator** _(planned)_: Clifford-only simulator running thousands of qubits via tableau or graph-state representation, with magic-state injection support so non-Clifford gates fall back to a sliced full simulation.
 
