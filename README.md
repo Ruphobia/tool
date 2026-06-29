@@ -2312,7 +2312,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pump and fan curve fitter** _(stub, awaits wire-up)_: Fits H-Q, eta-Q, and NPSHr-Q polynomial curves from manufacturer points and applies affinity laws for speed/diameter scaling. Finds operating point against a system curve and flags off-BEP operation.
 
-- ⬜ **NPSH and cavitation checker** _(planned)_: Computes NPSHa from suction-side geometry, vapor pressure, and elevation; compares against NPSHr with margin. Estimates cavitation damage risk and suction specific speed for centrifugal pumps.
+- ✅ **NPSH and cavitation checker** _(stub, awaits wire-up)_: Computes NPSHa from suction-side geometry, vapor pressure, and elevation; compares against NPSHr with margin. Estimates cavitation damage risk and suction specific speed for centrifugal pumps.
 
 - ⬜ **Valve Cv and Kv sizer** _(planned)_: Sizes control valves for liquid, gas, and two-phase service per ISA-75.01/IEC 60534 with choked-flow, FL, xT, and piping geometry corrections. Recommends trim style and predicts aerodynamic/hydrodynamic noise.
 
