@@ -4258,7 +4258,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Stage Plot Designer** _(stub, awaits wire-up)_: Top-down stage diagrams with prop positions, blocking marks, light angles, audience risers, and sightline cones. Computes blind spots and exposure risk from any seat in the house.
 
-- ⬜ **Rehearsal Log** _(planned)_: Per-routine practice journal capturing drop counts, run times, tempo, video diary entries, and skill-acquisition curves. Flags regressions and surfaces overdue review items based on a forgetting curve.
+- ✅ **Rehearsal Log** _(stub, awaits wire-up)_: Per-routine practice journal capturing drop counts, run times, tempo, video diary entries, and skill-acquisition curves. Flags regressions and surfaces overdue review items based on a forgetting curve.
 
 - ⬜ **Audience Beat Sheet** _(planned)_: Timeline editor for buildup, misdirection, climax, and reveal beats with tension markers, applause windows, and patter sync. Calibrates pacing against recorded performances and live applause traces.
 
