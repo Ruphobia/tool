@@ -1760,7 +1760,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Ethics scenario explorer** _(stub, awaits wire-up)_: Runs canonical thought experiments (trolley variants, violinist, experience machine, ring of Gyges, original position) under selectable normative frameworks (utilitarian, Kantian, virtue, care, contractualist, divine command); records verdicts with reasons and saves comparative tables.
 
-- ⬜ **Bayesian belief sandbox** _(planned)_: Models credences over hypotheses (theism vs. naturalism, miracle reports, authorship attributions) with priors and likelihood ratios; performs Jeffrey conditionalization on evidence and visualizes posterior shifts.
+- ✅ **Bayesian belief sandbox** _(stub, awaits wire-up)_: Models credences over hypotheses (theism vs. naturalism, miracle reports, authorship attributions) with priors and likelihood ratios; performs Jeffrey conditionalization on evidence and visualizes posterior shifts.
 
 - ⬜ **Isnād analyzer** _(planned)_: Parses hadith chains of transmission, scores each narrator against rijāl databases, and computes overall ṣaḥīḥ / ḥasan / ḍaʿīf grading; visualizes the transmission network and identifies common links.
 
