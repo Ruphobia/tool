@@ -3979,7 +3979,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Lacto-Fermentation Acidity Tracker** _(stub, awaits wire-up)_: Records brine salinity, pH, and titratable acidity for kimchi, sauerkraut, kosher dills, and giardiniera. Computes lactic acid percentage from titration volumes and warns when pH stalls outside safe descent curves.
 
-- ⬜ **Hot Sauce Capsaicin Calculator** _(planned)_: Estimates Scoville heat units from pepper varietal mass ratios and dilution factors in the final sauce. Accepts HPLC-style capsaicinoid input when available and back-solves blend ratios to hit a target SHU.
+- ✅ **Hot Sauce Capsaicin Calculator** _(stub, awaits wire-up)_: Estimates Scoville heat units from pepper varietal mass ratios and dilution factors in the final sauce. Accepts HPLC-style capsaicinoid input when available and back-solves blend ratios to hit a target SHU.
 
 - ⬜ **Dehydration and Curing Scheduler** _(planned)_: Plans drying schedules for jerky, biltong, charcuterie, and herbs with target water activity and equilibrium humidity. Models weight loss curves and flags hazard windows where surface case hardening or mold growth is likely.
 
