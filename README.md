@@ -415,7 +415,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **E2E recorder** _(stub, awaits wire-up)_: Records browser interactions into Playwright or Cypress specs, auto-stabilizes selectors with data-testid hints, and replays in headed/headless modes with trace viewer hooks.
 
-- ⬜ **Web component forge** _(planned)_: Compiles custom elements with Shadow DOM, slots, attribute/property reflection, and CSS parts; emits framework wrappers (React, Vue, Angular) for cross-framework reuse.
+- ✅ **Web component forge** _(stub, awaits wire-up)_: Compiles custom elements with Shadow DOM, slots, attribute/property reflection, and CSS parts; emits framework wrappers (React, Vue, Angular) for cross-framework reuse.
 
 - ⬜ **State store designer** _(planned)_: Models stores for Zustand, Redux Toolkit, Pinia, XState, or Jotai with action/selector codegen, devtools wiring, and a state-diagram view of transitions.
 
