@@ -4746,7 +4746,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Light Exposure Logger** _(stub, awaits wire-up)_: Tracks bright-light dose (lux times minutes) and red-shifted evening exposure, either from manual entries or phone ambient-light sensor sampling. Flags deviations from a target circadian light schedule.
 
-- ⬜ **Sleep Debt Ledger** _(planned)_: Maintains a rolling acute and chronic sleep debt against a configurable need (default 7.5 to 8.5 h), with weighted recency. Projects recovery sleep required to return to baseline.
+- ✅ **Sleep Debt Ledger** _(stub, awaits wire-up)_: Maintains a rolling acute and chronic sleep debt against a configurable need (default 7.5 to 8.5 h), with weighted recency. Projects recovery sleep required to return to baseline.
 
 - ⬜ **Nap Planner** _(planned)_: Schedules power (20 min), caffeine (20 min after 100 to 200 mg), and long (90 min) naps relative to current debt, circadian phase, and next obligation. Predicts sleep inertia severity at wake.
 
