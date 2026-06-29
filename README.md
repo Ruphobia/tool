@@ -3556,7 +3556,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Companion Matrix** _(stub, awaits wire-up)_: Interactive grid of beneficial, neutral, and antagonistic plant pairings sourced from published trial data and traditional polyculture references, with provenance flags so folk wisdom and replicated studies are distinguishable.
 
-- ⬜ **Growing Degree Day Tracker** _(planned)_: Accumulates GDD against base and ceiling temperatures per crop or pest from local station or gridded forecast data. Predicts bloom, ripening, and insect emergence windows (e.g. codling moth, corn earworm).
+- ✅ **Growing Degree Day Tracker** _(stub, awaits wire-up)_: Accumulates GDD against base and ceiling temperatures per crop or pest from local station or gridded forecast data. Predicts bloom, ripening, and insect emergence windows (e.g. codling moth, corn earworm).
 
 - ⬜ **Frost Risk Predictor** _(planned)_: Combines forecast lows, dew point, wind, and microclimate offsets to score nightly frost probability for each bed or row. Recommends row cover, sprinkler frost protection, or harvest-now triggers.
 
