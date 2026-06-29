@@ -4190,7 +4190,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Design Library** _(stub, awaits wire-up)_: Tagged archive of flash, custom commissions, and reference images with style, motif, body zone, and client provenance metadata. Semantic search finds visually similar pieces from natural-language prompts.
 
-- ⬜ **Anatomy and Risk Atlas** _(planned)_: Interactive map of nerve, vessel, and lymphatic structures relevant to piercing and scarification, with depth and danger-zone overlays. Cites primary anatomical sources per region.
+- ✅ **Anatomy and Risk Atlas** _(stub, awaits wire-up)_: Interactive map of nerve, vessel, and lymphatic structures relevant to piercing and scarification, with depth and danger-zone overlays. Cites primary anatomical sources per region.
 
 - ⬜ **Consent and Intake Forms** _(planned)_: Builds compliant consent, medical history, and minor-guardian forms with e-signature and ID capture, scoped by jurisdiction. Stores encrypted records with retention timers matching local health code requirements.
 
