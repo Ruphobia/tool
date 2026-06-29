@@ -2955,7 +2955,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Protein Structure Viewer** _(stub, awaits wire-up)_: 3D viewer for PDB, mmCIF, and MMTF with cartoon, surface, stick, and electrostatics renderings. Sequence-to-structure linkage, residue selection by SQL-like query, B-factor and conservation coloring, and side-by-side superposition with TM-align/CE.
 
-- ⬜ **Structure Predictor** _(planned)_: Local AlphaFold/ESMFold/RoseTTAFold-style monomer and complex structure prediction from sequence, with confidence (pLDDT, PAE) overlays. AI-integrated prompting for template selection and multimer stoichiometry from the project context.
+- ✅ **Structure Predictor** _(stub, awaits wire-up)_: Local AlphaFold/ESMFold/RoseTTAFold-style monomer and complex structure prediction from sequence, with confidence (pLDDT, PAE) overlays. AI-integrated prompting for template selection and multimer stoichiometry from the project context.
 
 - ⬜ **Primer Designer** _(planned)_: Designs PCR, qPCR, sequencing, and cloning primers from a target region with Primer3-style Tm, GC, hairpin, self-dimer, and cross-dimer checks. Specificity check against a chosen genome via the local BLAST console; AI-integrated suggestion of a starting region when only the goal (e.g., spanning an exon junction) is given.
 
