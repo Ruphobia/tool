@@ -1972,7 +1972,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **HDL workbench** _(stub, awaits wire-up)_: Verilog, VHDL, SystemVerilog, and Amaranth editor with Yosys synthesis, nextpnr place-and-route, and simulation via Verilator or Icarus. Targets ICE40, ECP5, Gowin, and Xilinx 7-series.
 
-- ⬜ **RF design suite** _(planned)_: Smith chart, matching-network synthesis, microstrip and stripline calculators, S-parameter math, and Touchstone file viewer. AI-integrated suggestion of matching topology from a measured complex impedance.
+- ✅ **RF design suite** _(stub, awaits wire-up)_: Smith chart, matching-network synthesis, microstrip and stripline calculators, S-parameter math, and Touchstone file viewer. AI-integrated suggestion of matching topology from a measured complex impedance.
 
 - ⬜ **Antenna designer** _(planned)_: Method-of-moments and FDTD solvers for wire, patch, and PCB-trace antennas with VSWR, radiation pattern, gain, and efficiency plots. Templates for common ISM-band designs.
 
