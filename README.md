@@ -2300,7 +2300,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Heat exchanger sizer** _(stub, awaits wire-up)_: Sizes shell-and-tube, plate, double-pipe, and finned-tube exchangers using LMTD and effectiveness-NTU methods. Computes UA, fouling allowance, tube count, baffle spacing, and shell-side pressure drop per Kern/Bell-Delaware.
 
-- ⬜ **Thermal network solver** _(planned)_: Builds and solves nodal RC networks for conduction, convection, and radiation with temperature-dependent properties. Supports steady-state and transient runs with view-factor coupling for radiative branches.
+- ✅ **Thermal network solver** _(stub, awaits wire-up)_: Builds and solves nodal RC networks for conduction, convection, and radiation with temperature-dependent properties. Supports steady-state and transient runs with view-factor coupling for radiative branches.
 
 - ⬜ **Psychrometric calculator** _(planned)_: Evaluates moist-air states (T, RH, w, h, dew point, wet bulb) and plots processes on a psychrometric chart. Sizes coils, humidifiers, and evaporative coolers from inlet/outlet state pairs.
 
