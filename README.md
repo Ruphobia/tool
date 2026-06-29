@@ -1650,7 +1650,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Hieroglyph Composer** _(stub, awaits wire-up)_: Builds Egyptian hieroglyphic text using Gardiner sign codes with quadrant layout (JSesh-style), Manuel de Codage input, and reverse search by shape. Renders vertical or horizontal, right-to-left or left-to-right, with transliteration and translation pairing.
 
-- ⬜ **Glyph and Script Palette** _(planned)_: Searchable palette for every script in scope (Greek, Hebrew, Syriac, Coptic, Devanagari, cuneiform, hieroglyphic, Linear B, runic, Ogham, Phoenician, Ugaritic) with diacritics, breathing marks, vowel points, cantillation, and combining sequences. Inserts at cursor with normalization to NFC/NFD.
+- ✅ **Glyph and Script Palette** _(stub, awaits wire-up)_: Searchable palette for every script in scope (Greek, Hebrew, Syriac, Coptic, Devanagari, cuneiform, hieroglyphic, Linear B, runic, Ogham, Phoenician, Ugaritic) with diacritics, breathing marks, vowel points, cantillation, and combining sequences. Inserts at cursor with normalization to NFC/NFD.
 
 - ⬜ **IPA Reconstruction Lab** _(planned)_: Reconstructs probable pronunciations for attested and unattested forms using comparative method rules: PIE, Proto-Semitic, Proto-Indo-Iranian, and intermediate stages. Outputs IPA with stress, vowel length, and tonal accent, plus audio synthesis where periodization permits.
 
