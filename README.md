@@ -4717,7 +4717,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Photo Restoration and Face Matcher** _(stub, awaits wire-up)_: Local diffusion-based deblur, colorize, and tear-fill for daguerreotypes, tintypes, and early prints. Runs face embeddings across the photo library to suggest the same individual across decades, and can age-progress or age-regress between known reference shots.
 
-- ⬜ **Migration and Timeline Visualizer** _(planned)_: Animated timeline of an individual's or family's known events on a base map, with optional historical context layers (epidemics, famines, land openings, conscriptions). Useful for spotting unexplained gaps that imply a missing record.
+- ✅ **Migration and Timeline Visualizer** _(stub, awaits wire-up)_: Animated timeline of an individual's or family's known events on a base map, with optional historical context layers (epidemics, famines, land openings, conscriptions). Useful for spotting unexplained gaps that imply a missing record.
 
 
 #### Sleep science, wellness, mental health
