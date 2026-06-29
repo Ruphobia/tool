@@ -3484,7 +3484,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Red List status checker** _(stub, awaits wire-up)_: Looks up IUCN Red List category, criteria, population trend, and threat codes via the Red List API for a species list. Cross-checks national lists (USFWS ESA, EU Habitats Directive, COSEWIC, CITES appendices) and flags taxonomic synonyms.
 
-- ⬜ **Conservation prioritization solver** _(planned)_: Runs Marxan and Zonation spatial prioritization with species, cost, and connectivity layers under area or representation targets. Outputs selection frequency maps, irreplaceability scores, and reserve network solutions.
+- ✅ **Conservation prioritization solver** _(stub, awaits wire-up)_: Runs Marxan and Zonation spatial prioritization with species, cost, and connectivity layers under area or representation targets. Outputs selection frequency maps, irreplaceability scores, and reserve network solutions.
 
 - ⬜ **Species traits database** _(planned)_: Queries TRY, EltonTraits, AmphiBIO, FishBase, and BIEN for morphological, life-history, and functional traits. Computes community-weighted means, functional diversity (FRic, FEve, FDis), and trait imputation for missing values.
 
