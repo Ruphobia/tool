@@ -3686,7 +3686,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Lens Database Browser** _(stub, awaits wire-up)_: Searchable catalog of lens specifications with focal length, max aperture, mount, weight, optical formula, MTF curves, vignetting, distortion, and field-of-view crop simulator. Imports manufacturer data sheets and user-measured calibrations.
 
-- ⬜ **Sun and Moon Planner** _(planned)_: Ephemeris that plots sun and moon azimuth/altitude, sunrise/sunset, civil/nautical/astronomical twilight, golden and blue hour windows, and Milky Way core position for a given latitude, longitude, and date. Overlays the path on a map with terrain shadowing.
+- ✅ **Sun and Moon Planner** _(stub, awaits wire-up)_: Ephemeris that plots sun and moon azimuth/altitude, sunrise/sunset, civil/nautical/astronomical twilight, golden and blue hour windows, and Milky Way core position for a given latitude, longitude, and date. Overlays the path on a map with terrain shadowing.
 
 - ⬜ **Astrophotography Planner** _(planned)_: Computes optimal exposure for stars from focal length and declination via the NPF rule, predicts star trail arcs, charts deep-sky object visibility and transit times, schedules ISS passes, and outputs polar alignment offsets for an equatorial mount.
 
