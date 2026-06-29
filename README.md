@@ -3204,7 +3204,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Survey weighting designer** _(stub, awaits wire-up)_: Applies design weights, raking (anesrake-style iterative proportional fitting), post-stratification, and trimming against population targets, and reports effective sample size, design effect, and weight distribution diagnostics.
 
-- ⬜ **MRP estimator** _(planned)_: Fits multilevel regression and post-stratification models for small-area opinion estimation, accepting individual survey responses plus a post-stratification frame, and returning area-level estimates with credible intervals.
+- ✅ **MRP estimator** _(stub, awaits wire-up)_: Fits multilevel regression and post-stratification models for small-area opinion estimation, accepting individual survey responses plus a post-stratification frame, and returning area-level estimates with credible intervals.
 
 - ⬜ **Regression dashboard** _(planned)_: Fits OLS, GLM (logit, probit, Poisson, negative binomial), fixed/random effects, multilevel, and survival models, with cluster-robust and HC standard errors, and emits publication-ready regression tables (stargazer/modelsummary style) in LaTeX, HTML, and Markdown.
 
