@@ -3284,7 +3284,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Plate Solver** _(stub, awaits wire-up)_: Determines WCS astrometric solution for any image by matching detected stars against Gaia or Tycho catalogs. Returns RA/Dec center, rotation, pixel scale, and field distortion polynomial.
 
-- ⬜ **Telescope Pointing** _(planned)_: Drives ASCOM/INDI/Alpaca mounts with goto, sync, plate-solve-and-recenter, and meridian flip handling. Includes pier-side awareness, slew limits, and pointing model fitting from sky calibration runs.
+- ✅ **Telescope Pointing** _(stub, awaits wire-up)_: Drives ASCOM/INDI/Alpaca mounts with goto, sync, plate-solve-and-recenter, and meridian flip handling. Includes pier-side awareness, slew limits, and pointing model fitting from sky calibration runs.
 
 - ⬜ **Imaging Sequencer** _(planned)_: Schedules multi-target imaging sessions with filter wheel, focuser, rotator, autoguider, and dome control. Handles autofocus runs, dithering between subs, weather aborts, and meridian flips.
 
