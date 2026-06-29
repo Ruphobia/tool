@@ -3949,7 +3949,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Gravity Log & Curve Fitter** _(stub, awaits wire-up)_: Logs hydrometer and refractometer readings with temperature and wort-correction-factor adjustment; fits Gompertz or logistic fermentation curves and forecasts terminal gravity and attenuation.
 
-- ⬜ **Wine Must Adjustment Bench** _(planned)_: Solves chaptalization, acid additions, and SO2 dosing as a function of pH for free vs molecular SO2; tracks malolactic conversion, fining, and oak regimens across a vintage.
+- ✅ **Wine Must Adjustment Bench** _(stub, awaits wire-up)_: Solves chaptalization, acid additions, and SO2 dosing as a function of pH for free vs molecular SO2; tracks malolactic conversion, fining, and oak regimens across a vintage.
 
 - ⬜ **Sake Sandan-Jikomi Planner** _(planned)_: Schedules three-step moromi additions with rice, koji, mizu, and shubo masses; computes seimaibuai, expected SMV (nihonshudo), and acidity targets across the moto and main mash.
 
