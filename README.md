@@ -2094,7 +2094,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Optimization studio** _(stub, awaits wire-up)_: Linear, nonlinear, integer, and global optimization with constraint editor, gradient/Hessian inspection, and multi-objective Pareto-front exploration. AI-integrated formulation from a natural-language problem statement.
 
-- ⬜ **Data importer** _(planned)_: Loader for CSV, HDF5, Parquet, FITS, NetCDF, oscilloscope (Tektronix, LeCroy), Touchstone S-parameter, and lab-instrument formats with automatic schema and unit detection.
+- ✅ **Data importer** _(stub, awaits wire-up)_: Loader for CSV, HDF5, Parquet, FITS, NetCDF, oscilloscope (Tektronix, LeCroy), Touchstone S-parameter, and lab-instrument formats with automatic schema and unit detection.
 
 - ⬜ **LaTeX formula editor** _(planned)_: Live-rendered LaTeX/MathJax editor with palette, OCR from sketches or screenshots, and bidirectional conversion to symbolic CAS expressions.
 
