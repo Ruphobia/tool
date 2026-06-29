@@ -3778,7 +3778,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Ear Training Drills** _(stub, awaits wire-up)_: Adaptive trainers for intervals, chord qualities, inversions, scales, modes, cadences, melodic and rhythmic dictation, and functional bass. Tracks per-skill mastery and spaces review using SRS.
 
-- ⬜ **Reharmonization Assistant** _(planned)_: Generates substitution options for a given progression including tritone subs, secondary dominants, modal interchange, line-cliche fills, and negative-harmony mirrors, with AI-integrated ranking against a target style or reference track.
+- ✅ **Reharmonization Assistant** _(stub, awaits wire-up)_: Generates substitution options for a given progression including tritone subs, secondary dominants, modal interchange, line-cliche fills, and negative-harmony mirrors, with AI-integrated ranking against a target style or reference track.
 
 - ⬜ **Voicing Optimizer** _(planned)_: Computes idiomatic chord voicings (drop-2, drop-3, shell, rootless, quartal, spread) for piano, guitar, or arbitrary ensembles, optimizing voice leading across a progression and respecting instrument range and playability.
 
