@@ -1566,7 +1566,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Vector index lab** _(stub, awaits wire-up)_: Build, inspect, and query FAISS, HNSW, ScaNN, and LanceDB indexes over arbitrary embedding columns with recall/latency tradeoff curves and ANN-vs-exact comparison.
 
-- ⬜ **Embedding atlas** _(planned)_: UMAP/t-SNE/PCA/PaCMAP projections of embedding spaces with lasso selection, cluster labels, nearest-neighbor inspection, and cross-modal projection (text-to-image, audio-to-text). AI-integrated cluster naming from sample contents.
+- ✅ **Embedding atlas** _(stub, awaits wire-up)_: UMAP/t-SNE/PCA/PaCMAP projections of embedding spaces with lasso selection, cluster labels, nearest-neighbor inspection, and cross-modal projection (text-to-image, audio-to-text). AI-integrated cluster naming from sample contents.
 
 - ⬜ **Model browser** _(planned)_: Hugging Face Hub front-end with offline cache, model card preview, license/quant/size filters, dependency check, and one-click pull to local. Flags share-alike or restricted licenses against the project's PD/permissive policy.
 
