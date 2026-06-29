@@ -1046,7 +1046,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pivot table builder** _(stub, awaits wire-up)_: Drag-and-drop aggregation over a tabular dataset with row, column, value, and filter buckets, computed fields, and drill-down. AI-integrated suggestion of pivot configurations from a question about the data.
 
-- ⬜ **Chart builder** _(planned)_: Axis, series, and style picker over a dataset with categorical, time-series, statistical, and geographic chart families. AI-integrated suggestion of chart type from the data shape and the question being asked.
+- ✅ **Chart builder** _(stub, awaits wire-up)_: Axis, series, and style picker over a dataset with categorical, time-series, statistical, and geographic chart families. AI-integrated suggestion of chart type from the data shape and the question being asked.
 
 - ⬜ **Equation editor** _(planned)_: LaTeX and MathML equation editor with a palette, live preview, numbered references, and inline rendering in documents, slides, and notes. AI-integrated conversion from a natural-language description of an expression.
 
