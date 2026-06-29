@@ -228,7 +228,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Privacy and Scope Guard** _(in testing)_: Per-entry visibility labels (local-only, project-shared, assistant-visible, redacted) with a preflight check that warns before any entry leaves the local store via sync, share, or model context.
 
-- ⬜ **Site Crawler** _(planned)_: Configurable BFS/DFS crawler with depth limits, per-host concurrency, politeness delays, and resumable checkpoints. Honors robots.txt, sitemap.xml, and per-domain rate budgets.
+- ✅ **Site Crawler** _(in testing)_: Configurable BFS/DFS crawler with depth limits, per-host concurrency, politeness delays, and resumable checkpoints. Honors robots.txt, sitemap.xml, and per-domain rate budgets.
 
 - ✅ **Robots and Sitemap Inspector** _(in testing)_: Parses robots.txt directives, crawl-delay hints, and sitemap indexes (including gzipped and nested). Surfaces disallowed paths, lastmod timestamps, and coverage gaps before a crawl starts.
 
