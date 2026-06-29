@@ -4699,7 +4699,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Military Service Reconstructor** _(stub, awaits wire-up)_: Pulls pension files, muster rolls, draft cards (WWI / WWII), and unit histories. Plots the soldier's movements on a campaign map and flags pension widows for spouse confirmation.
 
-- ⬜ **Probate and Land Parser** _(planned)_: Extracts heirs, executors, witnesses, bequests, and metes-and-bounds descriptions from wills and deeds. Produces an inferred kinship graph and a polygon plat for land records that include surveyor calls.
+- ✅ **Probate and Land Parser** _(stub, awaits wire-up)_: Extracts heirs, executors, witnesses, bequests, and metes-and-bounds descriptions from wills and deeds. Produces an inferred kinship graph and a polygon plat for land records that include surveyor calls.
 
 - ⬜ **Surname Etymology and Patronymic Resolver** _(planned)_: Looks up surname origins across British Isles, Scandinavian, Iberian, Slavic, Arabic, and East Asian traditions. Handles patronymic chain resolution (Petersen -> Peter's son) and known anglicization / Ellis Island mis-transcriptions.
 
