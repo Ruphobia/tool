@@ -909,7 +909,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Network Topology Mapper** _(stub, awaits wire-up)_: Builds a host/service graph from scans, ARP tables, routing data, and passive capture. Highlights pivot paths, exposed admin services, and changes versus prior snapshots.
 
-- ⬜ **OSINT Aggregator** _(planned)_: Runs WHOIS, DNS, reverse DNS, passive DNS, ASN, certificate transparency, and threat-feed lookups in parallel for a target. Caches results offline and deduplicates indicators across sources.
+- ✅ **OSINT Aggregator** _(stub, awaits wire-up)_: Runs WHOIS, DNS, reverse DNS, passive DNS, ASN, certificate transparency, and threat-feed lookups in parallel for a target. Caches results offline and deduplicates indicators across sources.
 
 - ⬜ **Firmware and Binary Walker** _(planned)_: Performs binwalk-style recursive extraction of firmware images, archives, filesystems, and bootloaders. Detects embedded keys, hardcoded credentials, and known-vulnerable component versions.
 
