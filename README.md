@@ -3355,7 +3355,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Incubation and reproduction tracker** _(stub, awaits wire-up)_: Species-specific gestation, incubation, and hatching calculators (mammals, birds, reptiles with TSD curves) with weight-loss and temperature/humidity logging. Predicts hatch/parturition windows and flags deviations from reference curves.
 
-- ⬜ **Diet and nutrition formulator** _(planned)_: Formulates rations against NRC/AZA nutrient targets for the species and life stage, balancing prey items, produce, and pellets for ME, protein, Ca:P, vitamin A/E, and taurine. Computes feeding cost and writes daily-prep sheets for keepers.
+- ✅ **Diet and nutrition formulator** _(stub, awaits wire-up)_: Formulates rations against NRC/AZA nutrient targets for the species and life stage, balancing prey items, produce, and pellets for ME, protein, Ca:P, vitamin A/E, and taurine. Computes feeding cost and writes daily-prep sheets for keepers.
 
 - ⬜ **Wildlife disease surveillance** _(planned)_: Logs syndromic mortality and morbidity events, maps clusters, and runs SaTScan-style space-time scans for outbreaks (HPAI, CWD, white-nose, ranavirus, chytrid). Generates submission packets for state/federal wildlife health labs.
 
