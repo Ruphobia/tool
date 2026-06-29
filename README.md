@@ -3153,7 +3153,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Experiment timeline builder** _(stub, awaits wire-up)_: Constructs trial sequences, blocks, and conditions for within- and between-subjects designs with a PsychoPy/jsPsych-style component graph. Exports to runnable scripts and a frame-accurate preview.
 
-- ⬜ **Counterbalancing designer** _(planned)_: Generates Latin squares, Williams designs, and blocked randomization schedules to balance order effects across participants. Verifies condition coverage and outputs per-participant assignment files.
+- ✅ **Counterbalancing designer** _(stub, awaits wire-up)_: Generates Latin squares, Williams designs, and blocked randomization schedules to balance order effects across participants. Verifies condition coverage and outputs per-participant assignment files.
 
 - ⬜ **Likert scale builder** _(planned)_: Composes ordinal item batteries with balanced anchors, reverse-scored items, and forced-choice variants. AI-integrated wording critique flags double-barreled, leading, or low-readability items.
 
