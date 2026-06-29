@@ -3222,7 +3222,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Polling aggregator** _(stub, awaits wire-up)_: Pulls survey results from public archives (Roper, FiveThirtyEight, election polling repos), normalizes likely-voter/registered-voter screens and party-ID weightings, and fits a state-space poll-of-polls with house-effect and mode-effect adjustments.
 
-- ⬜ **Codebook manager** _(planned)_: Generates and maintains DDI/Codebook-compliant data dictionaries with variable labels, value labels, skip patterns, and provenance for survey and administrative datasets, with diff views across waves and harmonization mappings.
+- ✅ **Codebook manager** _(stub, awaits wire-up)_: Generates and maintains DDI/Codebook-compliant data dictionaries with variable labels, value labels, skip patterns, and provenance for survey and administrative datasets, with diff views across waves and harmonization mappings.
 
 - ⬜ **Map composer** _(planned)_: Lays out static and interactive maps with insets, legends, scale bars, north arrows, and cartogram (Dorling, Gastner-Newman) options, and exports to SVG, PNG, and web tiles (MBTiles, PMTiles) for offline serving.
 
