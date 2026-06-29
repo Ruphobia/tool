@@ -2975,7 +2975,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Gene Ontology Enrichment** _(stub, awaits wire-up)_: Computes GO term, KEGG pathway, and Reactome enrichment for a gene list with hypergeometric and GSEA statistics, FDR correction, and revigo-style redundancy reduction. Output ties back to the pathway viewer.
 
-- ⬜ **Molecular Docking** _(planned)_: Protein-ligand docking (AutoDock Vina, smina, GNINA) and protein-protein docking (HADDOCK-style) with binding-site detection, pose scoring, and interaction-diagram rendering. Reads SMILES, MOL2, SDF, and PDB ligands; integrates with the chemistry specialist for ligand prep.
+- ✅ **Molecular Docking** _(stub, awaits wire-up)_: Protein-ligand docking (AutoDock Vina, smina, GNINA) and protein-protein docking (HADDOCK-style) with binding-site detection, pose scoring, and interaction-diagram rendering. Reads SMILES, MOL2, SDF, and PDB ligands; integrates with the chemistry specialist for ligand prep.
 
 - ⬜ **Sanger Trace Viewer** _(planned)_: Reads .ab1 and .scf chromatograms, calls and edits bases, trims by quality, assembles contigs from forward and reverse reads, and compares the consensus against a reference with mismatch highlighting.
 
