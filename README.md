@@ -2115,7 +2115,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **STEP/IGES converter** _(stub, awaits wire-up)_: Converts between STEP, IGES, BREP, STL, 3MF, OBJ, DXF, and SVG with healing of broken topology. Preserves assembly structure and metadata where possible.
 
-- ⬜ **Slicer** _(planned)_: Generates G-code for FDM, SLA, and SLS printers with per-feature overrides, tree supports, ironing, and variable layer height. AI-integrated suggestion of slicing profiles from part geometry, material, and intended use.
+- ✅ **Slicer** _(stub, awaits wire-up)_: Generates G-code for FDM, SLA, and SLS printers with per-feature overrides, tree supports, ironing, and variable layer height. AI-integrated suggestion of slicing profiles from part geometry, material, and intended use.
 
 - ⬜ **CAM toolpath generator** _(planned)_: Produces 2.5D, 3-axis, and 4/5-axis G-code with adaptive clearing, contour, pocket, and engraving operations. Includes post-processors for common controllers and a tool library with feeds/speeds.
 
