@@ -2247,7 +2247,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Hardness Converter** _(stub, awaits wire-up)_: Bidirectional conversion between Brinell, Rockwell B/C, Vickers, Knoop, Shore A/D, Leeb, and Mohs scales per ASTM E140, with approximate tensile-strength estimates for steels.
 
-- ⬜ **Jominy Hardenability Estimator** _(planned)_: Predicts the Jominy end-quench curve from steel composition using Grossmann/ideal-diameter correlations, and estimates the maximum section size that will through-harden in a given quench medium.
+- ✅ **Jominy Hardenability Estimator** _(stub, awaits wire-up)_: Predicts the Jominy end-quench curve from steel composition using Grossmann/ideal-diameter correlations, and estimates the maximum section size that will through-harden in a given quench medium.
 
 - ⬜ **Strength Estimator** _(planned)_: Estimates yield strength, UTS, hardness, and ductility from composition, grain size (Hall-Petch), cold-work fraction, precipitate volume fraction, and temper. Includes Larson-Miller creep extrapolation for high-temperature service.
 
