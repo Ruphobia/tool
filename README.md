@@ -4205,7 +4205,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Performing arts: theater, sound, lighting, stage
 
-- ⬜ **Cue Stack Programmer** _(planned)_: Builds ordered cue lists with audio, video, MIDI, OSC, and DMX cues. Supports fades, follow cues, wait times, loops, devamps, and continue actions in the QLab/SCS lineage.
+- ✅ **Cue Stack Programmer** _(stub, awaits wire-up)_: Builds ordered cue lists with audio, video, MIDI, OSC, and DMX cues. Supports fades, follow cues, wait times, loops, devamps, and continue actions in the QLab/SCS lineage.
 
 - ⬜ **Lighting Plot Drafter** _(planned)_: Drafts a 2D plot and section view with positions, pipes, booms, and fixtures pulled from a profile library; tracks channel, address, dimmer, circuit, color, gobo, accessory, and focus note per unit.
 
