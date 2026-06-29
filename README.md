@@ -2849,7 +2849,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **String & Inverter Sizing** _(stub, awaits wire-up)_: Solves Vmp/Voc string windows against inverter MPPT range and absolute max DC voltage at record-low ambient (per NEC 690.7). Recommends string length, parallel count, and DC/AC ratio with AI-assisted starting point from module + inverter pair.
 
-- ⬜ **MPPT Tracker Modeler** _(planned)_: Simulates perturb-and-observe, incremental conductance, and sweep-based MPPT algorithms against time-varying irradiance and shading. Quantifies tracking efficiency and mismatch losses versus a global-MPP oracle.
+- ✅ **MPPT Tracker Modeler** _(stub, awaits wire-up)_: Simulates perturb-and-observe, incremental conductance, and sweep-based MPPT algorithms against time-varying irradiance and shading. Quantifies tracking efficiency and mismatch losses versus a global-MPP oracle.
 
 - ⬜ **Inverter Efficiency Mapper** _(planned)_: Loads CEC/Sandia inverter coefficients and renders the efficiency surface across DC input voltage and load fraction. Computes weighted CEC efficiency and predicts clipping losses at a chosen DC/AC ratio.
 
