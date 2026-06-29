@@ -2477,7 +2477,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Resource classification tool** _(stub, awaits wire-up)_: Inferred, indicated, and measured tagging per JORC and NI 43-101 from variogram range, drill spacing, and confidence shells; auditable category boundaries.
 
-- ⬜ **Heap-leach and tank-leach modeller** _(planned)_: Column kinetics, cyanide or acid consumption, and Merrill-Crowe or SX-EW recovery; pad inventory and pregnant solution grade over time.
+- ✅ **Heap-leach and tank-leach modeller** _(stub, awaits wire-up)_: Column kinetics, cyanide or acid consumption, and Merrill-Crowe or SX-EW recovery; pad inventory and pregnant solution grade over time.
 
 - ⬜ **Neutronics shielding calculator** _(planned)_: Point-kernel gamma attenuation with buildup factors and ANSI/ANS-6.4.3 source terms; multilayer dose-rate maps for Co-60, Cs-137, and mixed spectra.
 
