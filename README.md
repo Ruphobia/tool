@@ -2660,7 +2660,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Smith chart and matching** _(stub, awaits wire-up)_: Plots impedance and admittance with frequency markers, computes L, Pi, T, and stub matching networks, and shows Q-circles and VSWR contours. Synthesizes a schematic with realistic component Q and self-resonance.
 
-- ⬜ **Propagation predictor** _(planned)_: Runs VOACAP, ITURHFProp, P2P, and area coverage with current SSN, SFI, Kp, and aurora ingest from NOAA SWPC. Renders MUF/LUF maps, gray-line, sporadic-E, tropo ducting, and meteor scatter windows.
+- ✅ **Propagation predictor** _(stub, awaits wire-up)_: Runs VOACAP, ITURHFProp, P2P, and area coverage with current SSN, SFI, Kp, and aurora ingest from NOAA SWPC. Renders MUF/LUF maps, gray-line, sporadic-E, tropo ducting, and meteor scatter windows.
 
 - ⬜ **Transmission line calculator** _(planned)_: Computes coax and ladder line loss, velocity factor, electrical length, matched and mismatched line behavior, and balun/unun turn ratios. Includes a library of common cables (LMR, RG, Heliax, Andrew) with temperature derating.
 
