@@ -2788,7 +2788,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Kinematics solver** _(stub, awaits wire-up)_: Computes forward and inverse kinematics for serial, parallel, and branching manipulators with selectable backends (KDL, IKFast, TRAC-IK, numerical Jacobian) and exposes manipulability, condition number, and joint-limit margin per pose.
 
-- ⬜ **Path planner** _(planned)_: Plans collision-free joint and Cartesian paths using sampling-based (RRT, RRT*, PRM, BIT*), grid-based (A*, D* Lite), and optimization-based (CHOMP, STOMP, TrajOpt) planners with constraint plugins for orientation, dual-arm, and mobile bases.
+- ✅ **Path planner** _(stub, awaits wire-up)_: Plans collision-free joint and Cartesian paths using sampling-based (RRT, RRT*, PRM, BIT*), grid-based (A*, D* Lite), and optimization-based (CHOMP, STOMP, TrajOpt) planners with constraint plugins for orientation, dual-arm, and mobile bases.
 
 - ⬜ **Trajectory designer** _(planned)_: Authors Cartesian and joint-space trajectories from waypoints with B-spline, quintic, minimum-jerk, and time-optimal (TOPP-RA) parameterization. Plots position, velocity, acceleration, and jerk envelopes against actuator limits.
 
