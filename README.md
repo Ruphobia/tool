@@ -2121,7 +2121,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Feeds and speeds calculator** _(stub, awaits wire-up)_: Computes spindle RPM, feed rate, chip load, depth of cut, and material removal rate from tool geometry, material, and machine rigidity. Includes deflection and chatter warnings.
 
-- ⬜ **FEA solver** _(planned)_: Linear and nonlinear static, modal, thermal, and buckling analysis on tet/hex meshes with contact and mixed boundary conditions. AI-integrated boundary condition suggestion from a description of the loading scenario.
+- ✅ **FEA solver** _(stub, awaits wire-up)_: Linear and nonlinear static, modal, thermal, and buckling analysis on tet/hex meshes with contact and mixed boundary conditions. AI-integrated boundary condition suggestion from a description of the loading scenario.
 
 - ⬜ **CFD solver** _(planned)_: Steady and unsteady incompressible/compressible flow with turbulence models, conjugate heat transfer, and porous media. Mesh generation from CAD with boundary layer refinement.
 
