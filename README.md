@@ -3114,7 +3114,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pharmacokinetics Simulator** _(stub, awaits wire-up)_: Models plasma concentration over time for one-, two-, and three-compartment PK with IV bolus, infusion, and oral absorption; supports population variability and Monte Carlo dosing-regimen exploration.
 
-- ⬜ **Anatomy Atlas Viewer** _(planned)_: Interactive 3D atlas built on permissive datasets (BodyParts3D, Z-Anatomy), with layer toggles for skeletal, muscular, vascular, nervous, and lymphatic systems and cross-section slicing.
+- ✅ **Anatomy Atlas Viewer** _(stub, awaits wire-up)_: Interactive 3D atlas built on permissive datasets (BodyParts3D, Z-Anatomy), with layer toggles for skeletal, muscular, vascular, nervous, and lymphatic systems and cross-section slicing.
 
 - ⬜ **DICOM Viewer** _(planned)_: Loads CT, MRI, PET, and ultrasound DICOM series locally with windowing presets, multi-planar reformatting, MIP/MinIP, measurement tools, and segmentation overlay support.
 
