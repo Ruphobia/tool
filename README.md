@@ -4465,7 +4465,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Solar-path sun and shade overlay** _(stub, awaits wire-up)_: Renders the sun path for a given latitude and date range over a site plan or yard photo, computing hours of direct sun per zone with tree-canopy and structure masks; exports a shade map for plant siting and PV placement.
 
-- ⬜ **Irrigation zone designer** _(planned)_: Lays out drip and rotor zones from a parcel polygon and water-pressure/flow inputs, grouping heads by precipitation rate and hydrozone; computes friction loss, valve sizing, and a controller schedule by ET and soil type.
+- ✅ **Irrigation zone designer** _(stub, awaits wire-up)_: Lays out drip and rotor zones from a parcel polygon and water-pressure/flow inputs, grouping heads by precipitation rate and hydrozone; computes friction loss, valve sizing, and a controller schedule by ET and soil type.
 
 - ⬜ **Planting plan and hardiness advisor** _(planned)_: Combines USDA hardiness zone, AHS heat zone, soil pH, and the shade overlay to suggest species lists with spacing, mature size, and bloom calendar; AI-integrated companion-planting and pest-pairing notes.
 
