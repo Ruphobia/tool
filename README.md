@@ -463,7 +463,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Subdomain and asset enumerator** _(stub, awaits wire-up)_: Discovers subdomains and exposed assets through certificate transparency logs, passive DNS snapshots, and active brute force against wordlists. Deduplicates findings into a single inventory per root domain with last-seen timestamps.
 
-- ⬜ **Feed and sitemap inspector** _(planned)_: Parses RSS, Atom, JSON Feed, and XML sitemaps; validates structure; and renders entries with diff against a previous fetch. Flags broken links, stale dates, and protocol-level caching issues.
+- ✅ **Feed and sitemap inspector** _(stub, awaits wire-up)_: Parses RSS, Atom, JSON Feed, and XML sitemaps; validates structure; and renders entries with diff against a previous fetch. Flags broken links, stale dates, and protocol-level caching issues.
 
 - ⬜ **cURL and code generator** _(planned)_: Converts any saved request into runnable cURL, HTTPie, Python requests, Node fetch, Go net/http, or PowerShell Invoke-WebRequest snippets. Round-trips parsed cURL strings back into the HTTP client for editing.
 
