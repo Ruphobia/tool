@@ -4252,7 +4252,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Siteswap Editor** _(stub, awaits wire-up)_: Live editor for vanilla, synchronous, and multiplex siteswap with 3D ball animation, beat clock, and validity checking. Exports to Juggling Lab, prechac, and passing patterns for two or more jugglers.
 
-- ⬜ **Stack and Setup Manager** _(planned)_: Tracks memorized deck orders such as Mnemonica, Aronson, and Si Stebbins with key card lookup, stay-stack analysis after cuts and faros, and printable reference indices for the wallet.
+- ✅ **Stack and Setup Manager** _(stub, awaits wire-up)_: Tracks memorized deck orders such as Mnemonica, Aronson, and Si Stebbins with key card lookup, stay-stack analysis after cuts and faros, and printable reference indices for the wallet.
 
 - ⬜ **Props Inventory** _(planned)_: Catalog of cards, coins, clubs, balls, silks, gimmicks, and consumables with condition tracking, retire-by dates, repair logs, travel case assignments, and per-routine load lists.
 
