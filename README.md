@@ -3924,7 +3924,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Tufting Rug Designer** _(stub, awaits wire-up)_: Designs cut-pile and loop-pile rugs with pile-direction arrows, color blocks, and backing dimensions. Computes yarn poundage per color and generates a projector-ready outline for the tufting cloth.
 
-- ⬜ **Smocking Pleat Calculator** _(planned)_: Computes pleater rod counts, dot grids, and fabric width for English, North American, and counterchange smocking. Generates dot transfer sheets and predicts finished panel width from gather ratio.
+- ✅ **Smocking Pleat Calculator** _(stub, awaits wire-up)_: Computes pleater rod counts, dot grids, and fabric width for English, North American, and counterchange smocking. Generates dot transfer sheets and predicts finished panel width from gather ratio.
 
 - ⬜ **Stash And Project Ledger** _(planned)_: Tracks fabric, yarn, floss, and bead inventory with photos, fiber content, dye lot, and remaining quantity, and links materials to active projects. Deducts consumption automatically from finished patterns and warns when a project would overdraw stash.
 
