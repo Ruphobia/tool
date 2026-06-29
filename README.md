@@ -3214,7 +3214,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Network analysis canvas** _(stub, awaits wire-up)_: Loads edge lists and adjacency matrices for co-sponsorship, donation, citation, or interpersonal networks, computes degree, betweenness, eigenvector, and PageRank centralities, runs Louvain and Leiden community detection, and renders force-directed layouts.
 
-- ⬜ **Policy citation manager** _(planned)_: Stores statutes, regulations, court cases, agency reports, and academic articles with Bluebook, APA, and Chicago formatting, deduplicates via DOI/SSRN/CourtListener IDs, and exports BibTeX and CSL-JSON for use in manuscripts.
+- ✅ **Policy citation manager** _(stub, awaits wire-up)_: Stores statutes, regulations, court cases, agency reports, and academic articles with Bluebook, APA, and Chicago formatting, deduplicates via DOI/SSRN/CourtListener IDs, and exports BibTeX and CSL-JSON for use in manuscripts.
 
 - ⬜ **Document text analyzer** _(planned)_: Ingests legislative text, hearing transcripts, agency comments, and news corpora, fits LDA and BERTopic topic models, runs dictionary methods (LIWC-style, MFD), and computes readability (Flesch-Kincaid) and policy-area classifiers with AI-integrated few-shot labeling against a Comparative Agendas Project codebook.
 
