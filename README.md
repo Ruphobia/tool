@@ -4285,7 +4285,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Dice Roller With Macros** _(stub, awaits wire-up)_: Parser for full dice notation (advantage, exploding, keep-highest, fudge, success-counting pools) with named macros, roll history, and probability previews. Roll templates bind to character sheet fields for one-click attacks, saves, and skill checks.
 
-- ⬜ **Encounter Builder** _(planned)_: Assembles combat encounters from the monster compendium with CR/XP budgeting, party-level balance heuristics, terrain tags, and difficulty estimation across multiple systems. Outputs initiative-ready stat blocks and loot rolls.
+- ✅ **Encounter Builder** _(stub, awaits wire-up)_: Assembles combat encounters from the monster compendium with CR/XP budgeting, party-level balance heuristics, terrain tags, and difficulty estimation across multiple systems. Outputs initiative-ready stat blocks and loot rolls.
 
 - ⬜ **Initiative Tracker** _(planned)_: Round/turn tracker with HP, conditions, concentration, durations, lair actions, and legendary action slots. Supports hidden GM rolls, surprise rounds, delayed/readied actions, and reaction tagging; auto-decrements timed effects on turn transitions.
 
