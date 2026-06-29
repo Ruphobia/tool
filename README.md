@@ -1476,7 +1476,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Reference resolver** _(stub, awaits wire-up)_: Looks up DOIs, ISBNs, arXiv IDs, PubMed IDs, and free-form titles against open metadata sources to fill in missing fields. Uses an LLM as a tie-breaker when multiple plausible matches are returned.
 
-- ⬜ **Library catalog** _(planned)_: Calibre-style shelf for the local document collection with cover thumbnails, metadata columns, saved searches, virtual shelves, and duplicate detection by content fingerprint.
+- ✅ **Library catalog** _(stub, awaits wire-up)_: Calibre-style shelf for the local document collection with cover thumbnails, metadata columns, saved searches, virtual shelves, and duplicate detection by content fingerprint.
 
 - ⬜ **Metadata editor** _(planned)_: Edits title, author, series, ISBN, language, cover, and custom fields across PDF, EPUB, and audiobook formats, with batch operations and AI-integrated inference of missing fields from the first pages of the file.
 
