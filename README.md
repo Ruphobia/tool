@@ -4590,7 +4590,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Body composition tracker** _(stub, awaits wire-up)_: Logs weight, skinfolds, bioimpedance, and DEXA scans; estimates body fat via Navy, Jackson-Pollock, and Durnin-Womersley with Kalman-smoothed lean-mass trajectory.
 
-- ⬜ **Drill and play diagrammer** _(planned)_: Edits SVG court, field, ice, or pitch diagrams with route trees, screens, and defensive coverages; animates plays frame-by-frame and exports to GIF or video for film sessions.
+- ✅ **Drill and play diagrammer** _(stub, awaits wire-up)_: Edits SVG court, field, ice, or pitch diagrams with route trees, screens, and defensive coverages; animates plays frame-by-frame and exports to GIF or video for film sessions.
 
 - ⬜ **Statcast pitch and shot renderer** _(planned)_: Plots pitch movement, release-point density, spin-axis tilt, and pitch-tunnel comparisons from Statcast or Trackman data; renders shot charts and expected-shooting heatmaps for basketball and hockey.
 
