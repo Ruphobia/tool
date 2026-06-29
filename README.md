@@ -1858,7 +1858,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Lexicon Builder** _(stub, awaits wire-up)_: Stores dictionary entries with part of speech, IPA, glosses, semantic domains, etymology pointers, example sentences, and recorded audio. Searchable by gloss, phonetic shape, semantic field, or morphological template.
 
-- ⬜ **Morphology Sketcher** _(planned)_: Defines inflectional and derivational templates, declension and conjugation paradigms, and morphophonemic sandhi rules. Auto-fills paradigm tables from stems and surfaces irregulars for manual override.
+- ✅ **Morphology Sketcher** _(stub, awaits wire-up)_: Defines inflectional and derivational templates, declension and conjugation paradigms, and morphophonemic sandhi rules. Auto-fills paradigm tables from stems and surfaces irregulars for manual override.
 
 - ⬜ **Syntax Sandbox** _(planned)_: Configures word-order parameters, alignment (nominative-accusative, ergative-absolutive, active-stative, tripartite), agreement, and case marking. Renders constituency or dependency trees over sample sentences and checks them against the configured grammar.
 
