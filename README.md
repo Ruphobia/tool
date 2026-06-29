@@ -2363,7 +2363,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Building Energy Model** _(stub, awaits wire-up)_: Whole-building hourly simulation with multi-zone heat balance, schedules, and HVAC plant equipment. Compares retrofits against baseline EUI and ASHRAE 90.1 budgets.
 
-- ⬜ **Daylight & Solar Analyzer** _(planned)_: Computes solar position, shading, daylight factor, and glare metrics from massing and window geometry. Generates annual sDA/ASE maps and overhang/fin optimization sweeps.
+- ✅ **Daylight & Solar Analyzer** _(stub, awaits wire-up)_: Computes solar position, shading, daylight factor, and glare metrics from massing and window geometry. Generates annual sDA/ASE maps and overhang/fin optimization sweeps.
 
 - ⬜ **Code Checker** _(planned)_: Cross-references IBC, IRC, IECC, ASHRAE 90.1, NFPA 13, and ADA against a project model for occupancy, egress, fire rating, envelope U-value, and accessibility. AI-integrated citation of the specific section that triggers each finding.
 
