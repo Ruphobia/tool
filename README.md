@@ -2361,7 +2361,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Refrigeration Cycle Modeler** _(stub, awaits wire-up)_: Models vapor-compression, absorption, and heat-pump cycles using CoolProp fluid property tables. Outputs COP, capacity, and T-s/P-h diagrams for variable lift conditions.
 
-- ⬜ **Building Energy Model** _(planned)_: Whole-building hourly simulation with multi-zone heat balance, schedules, and HVAC plant equipment. Compares retrofits against baseline EUI and ASHRAE 90.1 budgets.
+- ✅ **Building Energy Model** _(stub, awaits wire-up)_: Whole-building hourly simulation with multi-zone heat balance, schedules, and HVAC plant equipment. Compares retrofits against baseline EUI and ASHRAE 90.1 budgets.
 
 - ⬜ **Daylight & Solar Analyzer** _(planned)_: Computes solar position, shading, daylight factor, and glare metrics from massing and window geometry. Generates annual sDA/ASE maps and overhang/fin optimization sweeps.
 
