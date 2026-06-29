@@ -2471,7 +2471,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Mine ventilation network solver** _(stub, awaits wire-up)_: Hardy Cross and Kirchhoff solver for airway pressure and flow; auxiliary fans, diesel particulate heat load, and radon decay-product balance.
 
-- ⬜ **Haulage and fleet simulator** _(planned)_: Discrete-event truck-shovel cycle times with queueing, dispatch policies, and rimpull-grade curves; OEE, tonnes-per-hour, and fuel rollups.
+- ✅ **Haulage and fleet simulator** _(stub, awaits wire-up)_: Discrete-event truck-shovel cycle times with queueing, dispatch policies, and rimpull-grade curves; OEE, tonnes-per-hour, and fuel rollups.
 
 - ⬜ **Drill core and chip logger** _(planned)_: Lithology, structure (alpha/beta), RQD, and assay capture against a depth-registered core photo strip; QA/QC against standards, blanks, and duplicates.
 
