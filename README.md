@@ -4652,7 +4652,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Electrical load profile builder** _(stub, awaits wire-up)_: Builds a 24-hour load curve by itemizing appliances, run-time duty cycles, startup surge factors, and seasonal variation. Exports daily watt-hour totals and peak demand for use by the PV sizer or a generator runtime calculator.
 
-- ⬜ **Food storage rotation tracker** _(planned)_: Tracks pantry inventory with purchase date, best-by, and rehydrated calorie/macro yield per item, and generates a FIFO rotation schedule. Flags items approaching expiry and suggests substitutions that keep the stored ration on its macro target.
+- ✅ **Food storage rotation tracker** _(stub, awaits wire-up)_: Tracks pantry inventory with purchase date, best-by, and rehydrated calorie/macro yield per item, and generates a FIFO rotation schedule. Flags items approaching expiry and suggests substitutions that keep the stored ration on its macro target.
 
 - ⬜ **Ration and caloric needs calculator** _(planned)_: Computes daily caloric and macronutrient needs from body mass, activity tier, ambient temperature, and altitude, then assembles a ration plan from on-hand storage items. Outputs grams-per-day per item and total pack weight for bug-out or sheltered scenarios.
 
