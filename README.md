@@ -1762,7 +1762,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Bayesian belief sandbox** _(stub, awaits wire-up)_: Models credences over hypotheses (theism vs. naturalism, miracle reports, authorship attributions) with priors and likelihood ratios; performs Jeffrey conditionalization on evidence and visualizes posterior shifts.
 
-- ⬜ **Isnād analyzer** _(planned)_: Parses hadith chains of transmission, scores each narrator against rijāl databases, and computes overall ṣaḥīḥ / ḥasan / ḍaʿīf grading; visualizes the transmission network and identifies common links.
+- ✅ **Isnād analyzer** _(stub, awaits wire-up)_: Parses hadith chains of transmission, scores each narrator against rijāl databases, and computes overall ṣaḥīḥ / ḥasan / ḍaʿīf grading; visualizes the transmission network and identifies common links.
 
 - ⬜ **Source-layer visualizer** _(planned)_: Overlays critical hypotheses on a text (JEPD for the Pentateuch, Q / M / L for the Synoptics, Markan priority variants, redactional strata) with color-coded spans; supports user-defined source theories and side-by-side comparison.
 
