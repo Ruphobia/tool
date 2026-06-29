@@ -852,7 +852,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Quantum Notebook** _(stub, awaits wire-up)_: Python notebook accepting Qiskit and Cirq style syntax with inline circuit rendering, live state plots, and AI-integrated translation between framework dialects and natural-language prompts for circuit construction.
 
-- ⬜ **Transpiler** _(planned)_: Multi-pass compiler targeting selectable native gate sets (CX/CZ, iSWAP, Mølmer-Sørensen) with KAK decomposition, commutation-based optimization, Solovay-Kitaev, and side-by-side depth and gate-count diffs of each pass.
+- ✅ **Transpiler** _(stub, awaits wire-up)_: Multi-pass compiler targeting selectable native gate sets (CX/CZ, iSWAP, Mølmer-Sørensen) with KAK decomposition, commutation-based optimization, Solovay-Kitaev, and side-by-side depth and gate-count diffs of each pass.
 
 - ⬜ **Qubit Layout and Router** _(planned)_: Maps logical qubits to a chosen device topology (heavy-hex, square lattice, linear ion chain) with SABRE-style routing, swap insertion preview, and AI-integrated suggestion of initial layouts from circuit interaction graphs.
 
