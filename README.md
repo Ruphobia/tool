@@ -4307,7 +4307,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **NPC Generator** _(stub, awaits wire-up)_: Produces NPCs with names, appearances, mannerisms, secrets, voice notes, and full stat blocks tuned to a culture/region defined in the World Bible. AI generates dialogue snippets and motive arcs grounded in the linked faction and location context.
 
-- ⬜ **Calendar And Timeline** _(planned)_: Custom-calendar engine supporting arbitrary months, weeks, moons, planar conjunctions, and holidays, with event scheduling and travel-time math. Renders chronological and parallel-track timelines for campaigns, factions, and PC backstories.
+- ✅ **Calendar And Timeline** _(stub, awaits wire-up)_: Custom-calendar engine supporting arbitrary months, weeks, moons, planar conjunctions, and holidays, with event scheduling and travel-time math. Renders chronological and parallel-track timelines for campaigns, factions, and PC backstories.
 
 - ⬜ **Language And Script Lab** _(planned)_: Conlang workbench with phoneme inventories, sound-change rules, lexicon, romanization, and glyph/script designers for in-world writing systems. Renders inscriptions and produces player-handout images with optional cipher-reveal layers.
 
