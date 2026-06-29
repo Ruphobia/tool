@@ -2538,7 +2538,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **TLE Workbench** _(stub, awaits wire-up)_: Fetches, parses, edits, and validates two-line element sets from Celestrak or local catalogs, with checksum repair, epoch shifting, and side-by-side diffing of revisions for the same NORAD ID.
 
-- ⬜ **Element Set Converter** _(planned)_: Round-trips between Cartesian state, classical orbital elements, equinoctial elements, modified equinoctial, TLE mean elements, and Keplerian osculating elements, with frame transforms across ECI, ECEF, RIC, LVLH, and J2000.
+- ✅ **Element Set Converter** _(stub, awaits wire-up)_: Round-trips between Cartesian state, classical orbital elements, equinoctial elements, modified equinoctial, TLE mean elements, and Keplerian osculating elements, with frame transforms across ECI, ECEF, RIC, LVLH, and J2000.
 
 - ⬜ **Ground Track Visualizer** _(planned)_: Renders satellite ground tracks, sub-solar points, and instrument footprints on a 2D Earth map and 3D globe, with revisit overlays, swath width from sensor FOV, and exportable KML/GeoJSON.
 
