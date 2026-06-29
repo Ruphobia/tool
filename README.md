@@ -2638,7 +2638,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **E6B flight computer** _(stub, awaits wire-up)_: Solves wind triangle, true airspeed, true altitude, density altitude, fuel burn, time and distance, crosswind components, and unit conversions. Available as both an interactive panel and a callable solver for chained calculations.
 
-- ⬜ **ADS-B traffic console** _(planned)_: Decodes 1090ES and 978 UAT from a local dongle (dump1090/dump978), shows traffic with Mode S registry lookup, and logs tracks for replay. Cross-references with FlightAware and OpenSky for missing aircraft.
+- ✅ **ADS-B traffic console** _(stub, awaits wire-up)_: Decodes 1090ES and 978 UAT from a local dongle (dump1090/dump978), shows traffic with Mode S registry lookup, and logs tracks for replay. Cross-references with FlightAware and OpenSky for missing aircraft.
 
 - ⬜ **ADIF logbook** _(planned)_: Logs amateur radio QSOs across HF/VHF/UHF with band, mode, RST, grid, name, and contest exchanges. Imports and exports ADIF 3, deduplicates, and syncs to LoTW, eQSL, QRZ Logbook, and Club Log.
 
