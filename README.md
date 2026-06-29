@@ -1507,7 +1507,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **AI Summarizer and TLDR Stack** _(stub, awaits wire-up)_: Generates structured summaries (problem, method, data, claims, limitations, threats to validity) at multiple altitudes from abstract-length to multi-page. Cross-links each claim back to the originating PDF location.
 
-- ⬜ **Literature Review Tracker** _(planned)_: Project workspace for systematic reviews with PRISMA-style inclusion/exclusion logs, screening states, dual-reviewer reconciliation, and search-string version history. Exports the flow diagram and decision audit on demand.
+- ✅ **Literature Review Tracker** _(stub, awaits wire-up)_: Project workspace for systematic reviews with PRISMA-style inclusion/exclusion logs, screening states, dual-reviewer reconciliation, and search-string version history. Exports the flow diagram and decision audit on demand.
 
 - ⬜ **Lab and Method Comparator** _(planned)_: Side-by-side matrix of methods, datasets, hyperparameters, metrics, and reported results extracted from selected papers. Highlights inconsistencies, missing ablations, and benchmark contamination risks.
 
