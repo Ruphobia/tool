@@ -4715,7 +4715,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Brick Wall Research Planner** _(stub, awaits wire-up)_: Given a stuck ancestor, the LLM proposes prioritized next steps (specific microfilm rolls, FHL catalog numbers, FAN-club candidates, DNA targets) with rationale. Tracks completed and pending tasks per research question in a kanban-style log.
 
-- ⬜ **Photo Restoration and Face Matcher** _(planned)_: Local diffusion-based deblur, colorize, and tear-fill for daguerreotypes, tintypes, and early prints. Runs face embeddings across the photo library to suggest the same individual across decades, and can age-progress or age-regress between known reference shots.
+- ✅ **Photo Restoration and Face Matcher** _(stub, awaits wire-up)_: Local diffusion-based deblur, colorize, and tear-fill for daguerreotypes, tintypes, and early prints. Runs face embeddings across the photo library to suggest the same individual across decades, and can age-progress or age-regress between known reference shots.
 
 - ⬜ **Migration and Timeline Visualizer** _(planned)_: Animated timeline of an individual's or family's known events on a base map, with optional historical context layers (epidemics, famines, land openings, conscriptions). Useful for spotting unexplained gaps that imply a missing record.
 
