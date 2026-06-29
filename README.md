@@ -1034,7 +1034,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Email client** _(stub, awaits wire-up)_: IMAP/SMTP mail client with threading, server-side rules, filters, and a unified inbox across accounts. AI-integrated thread summarization, draft composition in the user's voice, and triage labels.
 
-- ⬜ **Reference manager** _(planned)_: Bibliographic database with PDF ingest, automatic metadata extraction, citation keys, tags, and BibTeX/CSL export. Integrated with the word processor for in-text citations and bibliography generation.
+- ✅ **Reference manager** _(stub, awaits wire-up)_: Bibliographic database with PDF ingest, automatic metadata extraction, citation keys, tags, and BibTeX/CSL export. Integrated with the word processor for in-text citations and bibliography generation.
 
 - ⬜ **PDF annotator** _(planned)_: PDF reader with highlight, sticky-note, free-text, and shape annotations, plus margin comments and exportable annotation lists in markdown. Annotations flow back into the linked notebook.
 
