@@ -1311,7 +1311,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Crypto trading and wallet tools** _(stub, awaits wire-up)_: exchange API integration (Coinbase/Kraken/Binance via API key), order book viewer, portfolio across chains (ETH/BTC/SOL/etc.), wallet inspector, transaction-fee optimizer, DEX swap interface, on-chain analytics (Etherscan/Solscan-style).
 
-- ⬜ **Prediction markets (Polymarket, Kalshi, Manifold)** _(planned)_: browse markets, view price history, execute trades through API where available, track positions, AI-integrated forecasting comparison vs. base rates and other markets.
+- ✅ **Prediction markets (Polymarket, Kalshi, Manifold)** _(stub, awaits wire-up)_: browse markets, view price history, execute trades through API where available, track positions, AI-integrated forecasting comparison vs. base rates and other markets.
 
 - ⬜ **Ledger Workbench** _(planned)_: Plain-text double-entry general ledger in the Beancount/hledger tradition: posts journal entries, computes trial balance, income statement, and balance sheet from a single append-only file. AI-integrated classification proposes account splits from free-text memos and prior-coded transactions.
 
