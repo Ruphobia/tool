@@ -3101,7 +3101,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Behavioral assay logger** _(stub, awaits wire-up)_: Captures timestamped event streams synced with video and physiology, encodes trial and block structure, and exports BIDS-compatible session manifests for downstream analysis.
 
-- ⬜ **Stimulus presentation builder** _(planned)_: Composes PsychoPy-style visual and auditory paradigms with frame-accurate timing, photodiode and TTL sync output, randomized trial schedules, and per-subject parameterization.
+- ✅ **Stimulus presentation builder** _(stub, awaits wire-up)_: Composes PsychoPy-style visual and auditory paradigms with frame-accurate timing, photodiode and TTL sync output, randomized trial schedules, and per-subject parameterization.
 
 - ⬜ **Neuron and network simulator** _(planned)_: Runs NEURON compartmental models and Brian2 integrate-and-fire networks with parameter sweeps, parallel batch execution, and post-hoc analysis of membrane traces and population rasters.
 
