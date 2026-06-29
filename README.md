@@ -844,7 +844,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Stabilizer Simulator** _(stub, awaits wire-up)_: Clifford-only simulator running thousands of qubits via tableau or graph-state representation, with magic-state injection support so non-Clifford gates fall back to a sliced full simulation.
 
-- ⬜ **Tensor Network Simulator** _(planned)_: MPS and PEPS based simulator with adjustable bond dimension, contraction order optimization, and entanglement-entropy tracking for circuits too wide for statevector methods.
+- ✅ **Tensor Network Simulator** _(stub, awaits wire-up)_: MPS and PEPS based simulator with adjustable bond dimension, contraction order optimization, and entanglement-entropy tracking for circuits too wide for statevector methods.
 
 - ⬜ **Noise Model Designer** _(planned)_: GUI for building Kraus channels, depolarizing, amplitude/phase damping, Pauli, thermal, and crosstalk errors per-gate and per-qubit, with import of T1/T2/readout-error data from device backends.
 
