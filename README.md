@@ -4365,7 +4365,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Splits Timer** _(stub, awaits wire-up)_: LiveSplit-compatible segmented timer with auto-splitting via memory hooks, image recognition, and load-removal. Stores splits, gold segments, and sum-of-best per route, and writes splits.io and Splits XML.
 
-- ⬜ **Route Notebook** _(planned)_: Markdown notebook for route notes with embedded splits, video clips, and per-segment tricks; supports branching variants and conditional sections per RNG seed or category. AI summarizer drafts route changelogs by diffing two notebook versions.
+- ✅ **Route Notebook** _(stub, awaits wire-up)_: Markdown notebook for route notes with embedded splits, video clips, and per-segment tricks; supports branching variants and conditional sections per RNG seed or category. AI summarizer drafts route changelogs by diffing two notebook versions.
 
 - ⬜ **Leaderboard Scraper** _(planned)_: Polite scheduled scraper for Speedrun.com, Cyberscore, Twitch VODs, and game-specific ladders. Normalizes runs into a local SQLite leaderboard with verification metadata and ELO/percentile views.
 
