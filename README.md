@@ -1997,7 +1997,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Non-Sequential Ray Tracer** _(stub, awaits wire-up)_: Monte Carlo ray tracer for illumination, stray light, lightguides, and TIR optics with arbitrary CAD geometry, source models (point, extended, IES/LDT), BSDF surfaces, and detector irradiance/intensity maps.
 
-- ⬜ **Gaussian Beam Propagator** _(planned)_: ABCD matrix propagation for Gaussian beams through arbitrary element chains, computing waist, divergence, Rayleigh range, mode matching, and astigmatism. Plots beam radius and phase along the optical axis with interactive element drag.
+- ✅ **Gaussian Beam Propagator** _(stub, awaits wire-up)_: ABCD matrix propagation for Gaussian beams through arbitrary element chains, computing waist, divergence, Rayleigh range, mode matching, and astigmatism. Plots beam radius and phase along the optical axis with interactive element drag.
 
 - ⬜ **Diffraction Calculator** _(planned)_: Scalar diffraction engine for Fraunhofer, Fresnel, and angular-spectrum propagation; computes PSF, MTF, encircled energy, and far-field patterns from arbitrary pupil amplitude/phase masks. Includes apodization presets and tilted-plane propagation.
 
