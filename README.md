@@ -2605,7 +2605,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Flow Visualizer** _(stub, awaits wire-up)_: Interactive viewer for pressure, Mach, vorticity, and velocity fields with streamlines, line integral convolution, isosurfaces, and animated particle traces. Reads VTK, CGNS, and the workbench's native solver output.
 
-- ⬜ **Multi-Element Airfoil Analyzer** _(planned)_: Solves slat, main, and flap configurations with gap and overlap parameters, including confluent boundary layers and wake-on-element interactions. Optimizes gap/overlap for max Cl_max at a chosen Re.
+- ✅ **Multi-Element Airfoil Analyzer** _(stub, awaits wire-up)_: Solves slat, main, and flap configurations with gap and overlap parameters, including confluent boundary layers and wake-on-element interactions. Optimizes gap/overlap for max Cl_max at a chosen Re.
 
 - ⬜ **Propeller and Rotor Designer** _(planned)_: Blade-element momentum theory tool for propellers, ducted fans, and rotors that uses section polars from the airfoil database to predict thrust, torque, and efficiency across J and RPM. Includes Prandtl tip-loss and induced swirl corrections.
 
