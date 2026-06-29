@@ -3445,7 +3445,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sound speed profile builder** _(stub, awaits wire-up)_: Generates c(z) profiles via Mackenzie, Chen-Millero, and Del Grosso equations from CTD casts or climatology, exports to Bellhop/Kraken envfiles, and previews ray traces for sonar range prediction.
 
-- ⬜ **Lagrangian drift simulator** _(planned)_: Tracks particle trajectories through HYCOM, CMEMS, or user-supplied velocity fields with Stokes drift and windage. Supports larval competency windows and beaching/MPA-intersection statistics.
+- ✅ **Lagrangian drift simulator** _(stub, awaits wire-up)_: Tracks particle trajectories through HYCOM, CMEMS, or user-supplied velocity fields with Stokes drift and windage. Supports larval competency windows and beaching/MPA-intersection statistics.
 
 - ⬜ **Nautical chart viewer** _(planned)_: Renders S-57/S-101 ENCs and BSB raster charts with depth contours, navaids, and AIS overlay. Supports route planning with cross-track error, waypoint export to GPX, and tidal-height-aware UKC checks.
 
