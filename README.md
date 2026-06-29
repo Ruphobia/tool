@@ -455,7 +455,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Server-Sent Events viewer** _(stub, awaits wire-up)_: Subscribes to text/event-stream endpoints, decodes events with named types and ids, and renders the live stream with reconnection handling. Supports recording and replay of an event stream to a file.
 
-- ⬜ **JWT and OAuth workbench** _(planned)_: Decodes, validates, and re-signs JWTs against HMAC and asymmetric keys, with header and claim editing and JWKS fetch. Walks through OAuth 2.0 authorization code, device, client credentials, and PKCE flows interactively and stores tokens with refresh handling.
+- ✅ **JWT and OAuth workbench** _(stub, awaits wire-up)_: Decodes, validates, and re-signs JWTs against HMAC and asymmetric keys, with header and claim editing and JWKS fetch. Walks through OAuth 2.0 authorization code, device, client credentials, and PKCE flows interactively and stores tokens with refresh handling.
 
 - ⬜ **Load tester** _(planned)_: Drives concurrent virtual users against an HTTP, WebSocket, or gRPC target with configurable ramp, rate, and request scripts. Reports latency percentiles, throughput, and error distributions; exports results as CSV and renders live charts.
 
