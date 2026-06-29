@@ -1229,7 +1229,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Education and pedagogy
 
-- ⬜ **Problem Set Generator** _(planned)_: Generates quizzes and worksheets with answer keys, parameterized by topic, item count, difficulty band, and Bloom's level. Supports MCQ, short-answer, numeric, code, and proof items with AI-integrated drafting from a source text or learning objective.
+- ✅ **Problem Set Generator** _(stub, awaits wire-up)_: Generates quizzes and worksheets with answer keys, parameterized by topic, item count, difficulty band, and Bloom's level. Supports MCQ, short-answer, numeric, code, and proof items with AI-integrated drafting from a source text or learning objective.
 
 - ⬜ **Spaced Repetition Deck Builder** _(planned)_: Builds flashcard decks with SM-2 and FSRS scheduling, cloze deletion, and image occlusion. Imports and exports Anki .apkg, Mnemosyne, and CSV, with deduplication and reverse-card generation.
 
