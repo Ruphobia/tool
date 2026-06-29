@@ -4541,7 +4541,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Geocache Hunter** _(stub, awaits wire-up)_: Manages GC waypoints, hint decoding (ROT13), puzzle solver notes, and field log offline. Filters by terrain/difficulty, cache type, and date placed; syncs found logs when reconnected.
 
-- ⬜ **Summit Log & Peak Bagger** _(planned)_: Tracks ascents against curated lists (14ers, Munros, Bulgers, Volcanic Seven, county highpoints, local 100-prominence) with date, partners, route, and conditions. Imports GPX summit waypoints and generates progress maps.
+- ✅ **Summit Log & Peak Bagger** _(stub, awaits wire-up)_: Tracks ascents against curated lists (14ers, Munros, Bulgers, Volcanic Seven, county highpoints, local 100-prominence) with date, partners, route, and conditions. Imports GPX summit waypoints and generates progress maps.
 
 - ⬜ **Anchor & Force Calculator** _(planned)_: Computes load distribution on multi-piece anchors (cordelette, equalette, quad), vector forces on top belays, fall factors, and pulley/Z-drag mechanical advantage. Flags configurations exceeding gear or sling MBS.
 
