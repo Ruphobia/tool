@@ -1376,7 +1376,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Case Law Search** _(stub, awaits wire-up)_: Full-text search over a local corpus of court opinions (Caselaw Access Project, CourtListener bulk) with citation parsing, parallel citation resolution, headnote extraction, and treatment flags (overruled, distinguished, followed, criticized).
 
-- ⬜ **Statute Search** _(planned)_: Searchable local mirror of federal and state statutes, regulations, and treaties (US Code, CFR, state codes, EUR-Lex) with cross-reference traversal, section-history diffs across amendments, and effective-date awareness.
+- ✅ **Statute Search** _(stub, awaits wire-up)_: Searchable local mirror of federal and state statutes, regulations, and treaties (US Code, CFR, state codes, EUR-Lex) with cross-reference traversal, section-history diffs across amendments, and effective-date awareness.
 
 - ⬜ **Citation Formatter** _(planned)_: Converts between Bluebook, ALWD, McGill, OSCOLA, and neutral citation formats; pulls metadata from a case, statute, or article identifier and emits a properly formatted citation plus a pin cite stub.
 
