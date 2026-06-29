@@ -2865,7 +2865,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Hybrid Dispatch Simulator** _(stub, awaits wire-up)_: Hourly dispatch of PV, battery, grid, wind, and diesel/propane generator under a chosen control strategy (cycle charging, load following, peak shaving). Reports renewable fraction, generator runtime, fuel use, and unmet load.
 
-- ⬜ **Wind Resource & Weibull Fitter** _(planned)_: Fits Weibull shape and scale parameters to measured or reanalysis wind speed time series and extrapolates to hub height via log or power law. Plots wind rose, turbulence intensity, and exceedance curves.
+- ✅ **Wind Resource & Weibull Fitter** _(stub, awaits wire-up)_: Fits Weibull shape and scale parameters to measured or reanalysis wind speed time series and extrapolates to hub height via log or power law. Plots wind rose, turbulence intensity, and exceedance curves.
 
 - ⬜ **Wind Turbine Power Curve Studio** _(planned)_: Loads or sketches power curves, applies air density correction, hub-height extrapolation, and wake losses, then crosses with the site resource to compute annual energy production and capacity factor.
 
