@@ -3759,7 +3759,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Audio and Lip Sync** _(stub, awaits wire-up)_: Waveform-aligned dope-sheet for dialogue, with phoneme detection driving viseme blendshapes and procedural facial micro-expressions. AI phoneme alignment runs locally from an audio file and a transcript.
 
-- ⬜ **Edit and Color Suite** _(planned)_: Non-linear editor with EDL/XML/AAF round-trip, OCIO-managed timelines, primary and secondary color correction, and scopes. Conforms VFX shot ranges from an offline cut and tracks plate handles per shot.
+- ✅ **Edit and Color Suite** _(stub, awaits wire-up)_: Non-linear editor with EDL/XML/AAF round-trip, OCIO-managed timelines, primary and secondary color correction, and scopes. Conforms VFX shot ranges from an offline cut and tracks plate handles per shot.
 
 
 #### Music composition and theory
