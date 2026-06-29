@@ -517,7 +517,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pinmux planner** _(stub, awaits wire-up)_: Visual pin assignment editor for a chosen MCU package that enforces alternate-function constraints, peripheral conflicts, and electrical class rules. Generates initialization code and a pinout PDF; AI proposes assignments from a peripheral wishlist.
 
-- ⬜ **Clock tree configurator** _(planned)_: Interactive clock tree editor showing PLLs, prescalers, mux selections, and resulting bus frequencies with constraint validation. Exports vendor-equivalent init code and flags overclock or jitter risks.
+- ✅ **Clock tree configurator** _(stub, awaits wire-up)_: Interactive clock tree editor showing PLLs, prescalers, mux selections, and resulting bus frequencies with constraint validation. Exports vendor-equivalent init code and flags overclock or jitter risks.
 
 - ⬜ **Peripheral register designer** _(planned)_: Register-level editor backed by SVD/CMSIS files with bitfield decoding, reserved-bit guards, and live diff against reset values. AI explains a register write in prose and proposes the inverse from a desired behavior.
 
