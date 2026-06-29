@@ -2127,7 +2127,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Topology optimizer** _(stub, awaits wire-up)_: SIMP and level-set topology optimization under stress, displacement, and manufacturability constraints, with mesh export to CAD reconstruction. AI-integrated suggestion of design space, loads, and constraints from a functional description.
 
-- ⬜ **Tolerance stackup analyzer** _(planned)_: Worst-case, RSS, and Monte Carlo tolerance stackup with GD&T support including position, profile, runout, and bonus tolerance. Sensitivity report identifies the dimensions driving variation.
+- ✅ **Tolerance stackup analyzer** _(stub, awaits wire-up)_: Worst-case, RSS, and Monte Carlo tolerance stackup with GD&T support including position, profile, runout, and bonus tolerance. Sensitivity report identifies the dimensions driving variation.
 
 - ⬜ **GD&T annotator** _(planned)_: Applies and validates ASME Y14.5 and ISO 1101 feature control frames on 2D drawings and 3D PMI views. AI-integrated suggestion of datums and tolerance schemes from part function.
 
