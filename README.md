@@ -1683,7 +1683,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Marginalia Notebook** _(stub, awaits wire-up)_: Captures glosses, nota bene marks, maniculae, and corrector hands as first-class annotations anchored to image regions and TEI loci. Supports cross-manuscript queries (e.g., all scholia on Iliad 1.1) and ownership-mark provenance chains.
 
-- ⬜ **Codicology Inspector** _(planned)_: Models quire structure, hair/flesh side patterns, ruling schemes, prickings, and pagination/foliation anomalies. Generates collation formulas (Gregory rule, Quire diagrams) and flags suspected losses or insertions.
+- ✅ **Codicology Inspector** _(stub, awaits wire-up)_: Models quire structure, hair/flesh side patterns, ruling schemes, prickings, and pagination/foliation anomalies. Generates collation formulas (Gregory rule, Quire diagrams) and flags suspected losses or insertions.
 
 - ⬜ **Multispectral Image Stack** _(planned)_: Loads UV, IR, and visible-light captures of palimpsests and damaged folia with per-band registration and pseudocolor enhancement. Includes ink-recovery filters tuned for iron-gall, carbon, and minium pigments.
 
