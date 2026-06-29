@@ -4194,7 +4194,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Consent and Intake Forms** _(stub, awaits wire-up)_: Builds compliant consent, medical history, and minor-guardian forms with e-signature and ID capture, scoped by jurisdiction. Stores encrypted records with retention timers matching local health code requirements.
 
-- ⬜ **Sterilization and Bloodborne Log** _(planned)_: Tracks autoclave cycles, spore test results, sharps disposal, and surface barrier changes against OSHA and local health department schedules. Generates inspection-ready reports.
+- ✅ **Sterilization and Bloodborne Log** _(stub, awaits wire-up)_: Tracks autoclave cycles, spore test results, sharps disposal, and surface barrier changes against OSHA and local health department schedules. Generates inspection-ready reports.
 
 - ⬜ **Style Reference Generator** _(planned)_: AI image synthesis tuned for tattoo idioms: traditional, neo-trad, blackwork, irezumi, tribal, single-needle, biomech, ornamental. Outputs are watermarked as reference-only and never used as final stencils without artist line work.
 
