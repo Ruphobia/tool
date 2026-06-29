@@ -2457,7 +2457,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Tubular and casing designer** _(stub, awaits wire-up)_: Burst, collapse, axial, and triaxial (von Mises) checks per API 5C3 with design factors for load cases (kick, displacement, stimulation, plug-and-perf).
 
-- ⬜ **Fracture-pressure and pore-pressure predictor** _(planned)_: Eaton, Bowers, and Daines models for pore and frac pressure from seismic and offset logs; produces a depth-vs-pressure window for mud weight planning.
+- ✅ **Fracture-pressure and pore-pressure predictor** _(stub, awaits wire-up)_: Eaton, Bowers, and Daines models for pore and frac pressure from seismic and offset logs; produces a depth-vs-pressure window for mud weight planning.
 
 - ⬜ **Block model and ore-grade estimator** _(planned)_: Ordinary kriging, indicator kriging, IDW, and nearest-neighbor estimation onto a regular block grid; leave-one-out cross-validation and variogram fitting.
 
