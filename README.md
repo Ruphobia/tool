@@ -616,7 +616,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **ER diagram designer** _(stub, awaits wire-up)_: Visual entity-relationship editor with reverse engineering from live databases, forward DDL generation, foreign key inference, and round-trip sync between diagram and migration files.
 
-- ⬜ **Migration tool** _(planned)_: Generates, applies, and rolls back versioned migrations across Alembic, Flyway, Liquibase, Prisma, and golang-migrate; diffs schema state against target and writes idempotent up/down scripts with AI-integrated drafting from natural-language change requests.
+- ✅ **Migration tool** _(stub, awaits wire-up)_: Generates, applies, and rolls back versioned migrations across Alembic, Flyway, Liquibase, Prisma, and golang-migrate; diffs schema state against target and writes idempotent up/down scripts with AI-integrated drafting from natural-language change requests.
 
 - ⬜ **Schema diff** _(planned)_: Compares two databases or a database against a schema dump and emits a minimal ALTER script, with destructive-change highlighting and dry-run impact estimate.
 
