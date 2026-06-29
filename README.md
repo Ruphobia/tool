@@ -1862,7 +1862,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Syntax Sandbox** _(stub, awaits wire-up)_: Configures word-order parameters, alignment (nominative-accusative, ergative-absolutive, active-stative, tripartite), agreement, and case marking. Renders constituency or dependency trees over sample sentences and checks them against the configured grammar.
 
-- ⬜ **Interlinear Gloss Editor** _(planned)_: Composes Leipzig-conformant glossed examples with morpheme segmentation, gloss line, and free translation. Auto-suggests glosses from the lexicon and morphology layers, and re-glosses bulk corpora after rule edits.
+- ✅ **Interlinear Gloss Editor** _(stub, awaits wire-up)_: Composes Leipzig-conformant glossed examples with morpheme segmentation, gloss line, and free translation. Auto-suggests glosses from the lexicon and morphology layers, and re-glosses bulk corpora after rule edits.
 
 - ⬜ **Script Designer** _(planned)_: Vector glyph editor for invented orthographies with stroke construction, ligatures, contextual variants, and OpenType feature authoring (cursive joining, positional forms, mark stacking). Exports UFO sources and compiled OTF/TTF fonts.
 
