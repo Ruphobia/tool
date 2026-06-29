@@ -3926,7 +3926,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Smocking Pleat Calculator** _(stub, awaits wire-up)_: Computes pleater rod counts, dot grids, and fabric width for English, North American, and counterchange smocking. Generates dot transfer sheets and predicts finished panel width from gather ratio.
 
-- ⬜ **Stash And Project Ledger** _(planned)_: Tracks fabric, yarn, floss, and bead inventory with photos, fiber content, dye lot, and remaining quantity, and links materials to active projects. Deducts consumption automatically from finished patterns and warns when a project would overdraw stash.
+- ✅ **Stash And Project Ledger** _(stub, awaits wire-up)_: Tracks fabric, yarn, floss, and bead inventory with photos, fiber content, dye lot, and remaining quantity, and links materials to active projects. Deducts consumption automatically from finished patterns and warns when a project would overdraw stash.
 
 
 #### Cooking, brewing, fermentation, food science
