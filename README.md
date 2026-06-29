@@ -3991,7 +3991,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Vinegar and Acetification Monitor** _(stub, awaits wire-up)_: Logs surface vs submerged acetification batches with alcohol-by-volume input, ambient O2 access, and titrated acidity output. Predicts mother-of-vinegar maturation timing and flags stuck conversions.
 
-- ⬜ **Cheese Make Planner** _(planned)_: Walks through milk pasteurization, culture inoculation, rennet set, curd cut, cook, drain, press, brine, and affinage stages. Logs target pH and titratable acidity at each step and adjusts hold times when readings drift.
+- ✅ **Cheese Make Planner** _(stub, awaits wire-up)_: Walks through milk pasteurization, culture inoculation, rennet set, curd cut, cook, drain, press, brine, and affinage stages. Logs target pH and titratable acidity at each step and adjusts hold times when readings drift.
 
 - ⬜ **Cold-Smoke and Hot-Smoke Calculator** _(planned)_: Computes wood-to-protein ratios, smoke residency time, and equivalent surface drying for cold smoking, hot smoking, and sous vide finish. Highlights nitrite/nitrate cure levels per Cure #1 and Cure #2 reference tables.
 
