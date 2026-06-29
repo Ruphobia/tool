@@ -553,7 +553,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **RTOS inspector** _(stub, awaits wire-up)_: Thread, queue, semaphore, timer, and heap inspection for FreeRTOS, Zephyr, ThreadX, NuttX, RT-Thread, and Mbed OS via runtime tracing or live debugger. AI-integrated narration of why a task missed its deadline.
 
-- ⬜ **Trace and profiler** _(planned)_: Captures ETM/ITM and Tracealyzer-style event streams with CPU load, ISR latency, and context-switch timelines. Highlights priority inversions and lock contention.
+- ✅ **Trace and profiler** _(stub, awaits wire-up)_: Captures ETM/ITM and Tracealyzer-style event streams with CPU load, ISR latency, and context-switch timelines. Highlights priority inversions and lock contention.
 
 - ⬜ **Power profiler** _(planned)_: Streams from Nordic PPK2, Joulescope, Otii, and INA-based shunts to plot current versus firmware state with sleep-mode classification. AI-integrated correlation of current spikes to source lines via timestamped markers.
 
