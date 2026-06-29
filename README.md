@@ -2177,7 +2177,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Standards reference** _(stub, awaits wire-up)_: Searchable index of ISO, ANSI, ASME, DIN, JIS, AGMA, AWS, and ASTM standards with cross-references, tolerance tables, and fit charts. AI-integrated answers cite the specific clause and edition.
 
-- ⬜ **Unit and conversion calculator** _(planned)_: Symbolic unit-aware calculator with engineering constants, dimensional analysis, and conversions across SI, imperial, and shop-floor units. Handles compound units like N·m/rad and W/(m·K).
+- ✅ **Unit and conversion calculator** _(stub, awaits wire-up)_: Symbolic unit-aware calculator with engineering constants, dimensional analysis, and conversions across SI, imperial, and shop-floor units. Handles compound units like N·m/rad and W/(m·K).
 
 - ⬜ **Pump and fan sizer** _(planned)_: Selects centrifugal and positive-displacement pumps and fans against a system curve with NPSH, efficiency, and viscosity corrections. Outputs operating point, power draw, and recommended drive.
 
