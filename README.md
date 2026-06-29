@@ -1738,7 +1738,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Argument map editor** _(stub, awaits wire-up)_: Builds argument maps with premises, conclusions, attacks, and supports; imports Argdown syntax, exports to JSON-LD and SVG, and validates instantiations of Walton argument schemes.
 
-- ⬜ **Formal logic prover** _(planned)_: Checks propositional, first-order, and modal arguments by dispatching to Prover9, Mace4, Z3, and a native tableaux engine; renders natural-deduction proofs, countermodels, and truth tables.
+- ✅ **Formal logic prover** _(stub, awaits wire-up)_: Checks propositional, first-order, and modal arguments by dispatching to Prover9, Mace4, Z3, and a native tableaux engine; renders natural-deduction proofs, countermodels, and truth tables.
 
 - ⬜ **Fallacy detector** _(planned)_: Scans prose arguments for informal fallacies (straw man, false dichotomy, ad hominem, motte-and-bailey) with AI-integrated pattern matching against a curated catalog; highlights offending spans and proposes reformulations.
 
