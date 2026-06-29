@@ -4689,7 +4689,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Y-DNA and mtDNA Haplogroup Explorer** _(stub, awaits wire-up)_: Browses ISOGG / YFull haplotrees offline, places STR and SNP results on the tree, and estimates TMRCA between kits using infinite-alleles and Bayesian (BATWING-style) models.
 
-- ⬜ **Oral History Studio** _(planned)_: Multi-track recorder with local Whisper transcription, speaker diarization, and timestamped name/place tagging. Exports interview transcripts as linked sources attached to the relevant INDI records in the tree.
+- ✅ **Oral History Studio** _(stub, awaits wire-up)_: Multi-track recorder with local Whisper transcription, speaker diarization, and timestamped name/place tagging. Exports interview transcripts as linked sources attached to the relevant INDI records in the tree.
 
 - ⬜ **Paleography OCR** _(planned)_: Handwriting recognition tuned for parish registers, ship manifests, and probate scripts (Secretary hand, Kurrent, Sutterlin, Spencerian). Outputs editable text with per-token confidence so a researcher can correct ambiguous letters in place.
 
