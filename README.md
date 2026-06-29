@@ -656,7 +656,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Audit and query log viewer** _(stub, awaits wire-up)_: Ingests pgaudit, MySQL general log, and MongoDB profiler output with per-user, per-table activity timelines, anomaly flagging on novel access patterns, and exportable compliance reports.
 
-- ⬜ **Performance dashboard** _(planned)_: Live charts of QPS, latency percentiles, buffer cache hit ratio, lock waits, deadlocks, vacuum progress, autovacuum bloat, and connection pool saturation across configured instances.
+- ✅ **Performance dashboard** _(stub, awaits wire-up)_: Live charts of QPS, latency percentiles, buffer cache hit ratio, lock waits, deadlocks, vacuum progress, autovacuum bloat, and connection pool saturation across configured instances.
 
 - ⬜ **Lock and deadlock inspector** _(planned)_: Shows current locks, blocked-by chains, and deadlock graph; offers safe-kill of blocking sessions and replays deadlock traces from logs to reproduce contention.
 
