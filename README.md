@@ -3196,7 +3196,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Shapefile/GIS overlay** _(stub, awaits wire-up)_: Reads shapefiles, GeoJSON, GeoPackage, and KML, reprojects between CRS (NAD83, WGS84, state plane), performs spatial joins, buffers, and dissolves, and renders choropleths with classed breaks (Jenks, quantile, equal interval).
 
-- ⬜ **Redistricting plan editor** _(planned)_: Builds and edits district plans from precinct or block building blocks, enforces contiguity and population equality tolerances, and shows live compactness (Polsby-Popper, Reock, Schwartzberg), VRA-relevant demographic splits, and partisan composition.
+- ✅ **Redistricting plan editor** _(stub, awaits wire-up)_: Builds and edits district plans from precinct or block building blocks, enforces contiguity and population equality tolerances, and shows live compactness (Polsby-Popper, Reock, Schwartzberg), VRA-relevant demographic splits, and partisan composition.
 
 - ⬜ **Ensemble plan analyzer** _(planned)_: Runs Markov chain (ReCom) ensembles of legal districting plans for a state, scores each on partisan bias, efficiency gap, mean-median, and seat-vote curves, and locates the user's plan in the resulting distribution as an outlier test.
 
