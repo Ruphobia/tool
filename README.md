@@ -648,7 +648,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Query history and snippets** _(stub, awaits wire-up)_: Persistent local history of every executed query with full-text search, tag/star, parameter capture, shareable snippet library, and replay against a different connection.
 
-- ⬜ **Stored procedure IDE** _(planned)_: Edits PL/pgSQL, T-SQL, PL/SQL, and MySQL routines with syntax-aware diff, dependency graph, step debugger where supported, and unit-test harness using transactional rollback.
+- ✅ **Stored procedure IDE** _(stub, awaits wire-up)_: Edits PL/pgSQL, T-SQL, PL/SQL, and MySQL routines with syntax-aware diff, dependency graph, step debugger where supported, and unit-test harness using transactional rollback.
 
 - ⬜ **Data masking and anonymizer** _(planned)_: Generates sanitized dev/test datasets from production via deterministic hashing, format-preserving encryption, fake-data substitution (Faker), and referential-integrity-preserving subsetting.
 
