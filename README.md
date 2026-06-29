@@ -4815,7 +4815,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **CG and balance calculator** _(stub, awaits wire-up)_: for fixed-wing planes, helis, multirotors: balance point from layout, neutral-point and static-margin calculation, payload effect.
 
-- ⬜ **Battery cycle log** _(planned)_: tracks LiPo/Li-ion pack charge cycles, internal resistance trend, voltage sag under load, abuse events. Flags packs near end-of-life.
+- ✅ **Battery cycle log** _(stub, awaits wire-up)_: tracks LiPo/Li-ion pack charge cycles, internal resistance trend, voltage sag under load, abuse events. Flags packs near end-of-life.
 
 - ⬜ **FPV setup and video link** _(planned)_: VTX frequency selector (race-band awareness), goggle pairing, DVR/HD recording, latency profiling, antenna polarization mismatch detector.
 
