@@ -595,7 +595,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Filesystem and storage designer** _(stub, awaits wire-up)_: Layouts and inspectors for LittleFS, SPIFFS, FATFS, EEPROM emulation, and journaled flash regions with wear and endurance modeling. Generates mkfs payloads for first-boot provisioning.
 
-- ⬜ **BSP and board generator** _(planned)_: Scaffolds Zephyr boards, ESP-IDF custom boards, Arduino variants, and Linux device trees from a pinmux and peripheral configuration. Keeps the board files in sync as the hardware spec evolves.
+- ✅ **BSP and board generator** _(stub, awaits wire-up)_: Scaffolds Zephyr boards, ESP-IDF custom boards, Arduino variants, and Linux device trees from a pinmux and peripheral configuration. Keeps the board files in sync as the hardware spec evolves.
 
 - ⬜ **Device tree editor** _(planned)_: Structured editor for Linux/Zephyr device trees with overlay support, binding validation, and live preview of the resolved tree. AI-integrated translation from natural-language hardware descriptions into DT fragments.
 
