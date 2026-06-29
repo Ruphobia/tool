@@ -3645,7 +3645,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Stabilizer** _(stub, awaits wire-up)_: Camera-path smoothing and rolling-shutter correction using gyroflow-style and learned methods. Visualizes motion before commit and supports crop-aware output framing.
 
-- ⬜ **Motion graphics** _(planned)_: Keyframed 2D animation and lower-third compositor with Lottie/Bodymovin import and SVG-on-timeline support. Exports to MP4, transparent WebM, GIF, and APNG.
+- ✅ **Motion graphics** _(stub, awaits wire-up)_: Keyframed 2D animation and lower-third compositor with Lottie/Bodymovin import and SVG-on-timeline support. Exports to MP4, transparent WebM, GIF, and APNG.
 
 - ⬜ **Compositor** _(planned)_: Node-based image and video compositing with EXR multi-channel support, deep compositing, keyers, and 2.5D camera. Inspired by Natron/Nuke conventions.
 
