@@ -1472,7 +1472,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **RAG chat** _(stub, awaits wire-up)_: Question-answering interface over a selected library subset using embeddings, BM25, and rerankers. Returns answers with span-level citations back to the source pages.
 
-- ⬜ **Embedding pipeline** _(planned)_: Chunks documents by layout-aware boundaries, computes embeddings with a configurable model, and writes them to a local vector store. Supports incremental reindexing as the library changes.
+- ✅ **Embedding pipeline** _(stub, awaits wire-up)_: Chunks documents by layout-aware boundaries, computes embeddings with a configurable model, and writes them to a local vector store. Supports incremental reindexing as the library changes.
 
 - ⬜ **Reference resolver** _(planned)_: Looks up DOIs, ISBNs, arXiv IDs, PubMed IDs, and free-form titles against open metadata sources to fill in missing fields. Uses an LLM as a tie-breaker when multiple plausible matches are returned.
 
