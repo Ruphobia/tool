@@ -1503,7 +1503,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **BibTeX/CSL Manager** _(stub, awaits wire-up)_: Local-first reference library with BibTeX, BibLaTeX, RIS, and CSL-JSON import/export, duplicate detection, and per-collection citation key schemes. Includes a CSL style editor with live preview against any selected entry.
 
-- ⬜ **Paper Chunker and RAG Indexer** _(planned)_: Parses PDFs into semantically coherent chunks honoring section, equation, table, and figure-caption boundaries, then embeds them into a local vector store. Supports cross-paper retrieval with citation-grounded answers.
+- ✅ **Paper Chunker and RAG Indexer** _(stub, awaits wire-up)_: Parses PDFs into semantically coherent chunks honoring section, equation, table, and figure-caption boundaries, then embeds them into a local vector store. Supports cross-paper retrieval with citation-grounded answers.
 
 - ⬜ **AI Summarizer and TLDR Stack** _(planned)_: Generates structured summaries (problem, method, data, claims, limitations, threats to validity) at multiple altitudes from abstract-length to multi-page. Cross-links each claim back to the originating PDF location.
 
