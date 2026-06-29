@@ -1954,7 +1954,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Filter designer** _(stub, awaits wire-up)_: Synthesizes passive and active filters (Butterworth, Chebyshev, Bessel, elliptic) from frequency-domain specs, with sensitivity analysis and E-series component snapping. AI-integrated suggestion of topology from a noise or interference profile.
 
-- ⬜ **Signal integrity analyzer** _(planned)_: Field solver and IBIS-driven channel simulation for crosstalk, reflections, impedance discontinuities, and eye-mask compliance. Generates fix recommendations (stub length, termination, layer stackup).
+- ✅ **Signal integrity analyzer** _(stub, awaits wire-up)_: Field solver and IBIS-driven channel simulation for crosstalk, reflections, impedance discontinuities, and eye-mask compliance. Generates fix recommendations (stub length, termination, layer stackup).
 
 - ⬜ **Power integrity analyzer** _(planned)_: PDN impedance solver with decoupling-capacitor optimization, IR drop maps, and rail transient analysis. Recommends cap value and placement to hit a target impedance curve.
 
