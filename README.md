@@ -3819,7 +3819,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Convolution and impulse-response toolkit** _(stub, awaits wire-up)_: Captures, deconvolves (sine-sweep, MLS), trims, and applies impulse responses for room/cab/speaker simulation; partitioned convolution for low-latency runtime use.
 
-- ⬜ **Synthesizer rack** _(planned)_: Modular soft-synth host running subtractive, FM, wavetable, additive, granular, and physical-modeling engines with polyphony, unison, and modulation matrices. AI-integrated patch generation from text descriptions ("warm analog pad, slow attack").
+- ✅ **Synthesizer rack** _(stub, awaits wire-up)_: Modular soft-synth host running subtractive, FM, wavetable, additive, granular, and physical-modeling engines with polyphony, unison, and modulation matrices. AI-integrated patch generation from text descriptions ("warm analog pad, slow attack").
 
 - ⬜ **Effects chain** _(planned)_: Insert/send routing for EQ, dynamics, reverb, delay, modulation, distortion, pitch, and spectral effects; supports LV2/VST3/CLAP plugins and per-effect A/B and undo history.
 
