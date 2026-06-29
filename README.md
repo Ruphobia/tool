@@ -4268,7 +4268,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Multiple Outs Planner** _(stub, awaits wire-up)_: Decision tree builder for equivoque, magician's choice, dual reality, and multi-prediction routines. Verifies every branch lands on a clean reveal and highlights paths with weak outs or audible giveaways.
 
-- ⬜ **Misdirection Heatmap** _(planned)_: Simulated audience attention overlay derived from performer gesture, gaze, motion, and visual contrast in recorded footage. AI predicts where eyes go frame by frame and rates each sleight against ambient distraction.
+- ✅ **Misdirection Heatmap** _(stub, awaits wire-up)_: Simulated audience attention overlay derived from performer gesture, gaze, motion, and visual contrast in recorded footage. AI predicts where eyes go frame by frame and rates each sleight against ambient distraction.
 
 - ⬜ **Lighting and Sound Cue Sheet** _(planned)_: DMX, MIDI, and OSC cue table synced to the beat sheet, with practice playback locally. Exports to QLab, ETC EOS, and Ableton sessions, and round-trips changes back from the console.
 
