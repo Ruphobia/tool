@@ -2607,7 +2607,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Multi-Element Airfoil Analyzer** _(stub, awaits wire-up)_: Solves slat, main, and flap configurations with gap and overlap parameters, including confluent boundary layers and wake-on-element interactions. Optimizes gap/overlap for max Cl_max at a chosen Re.
 
-- ⬜ **Propeller and Rotor Designer** _(planned)_: Blade-element momentum theory tool for propellers, ducted fans, and rotors that uses section polars from the airfoil database to predict thrust, torque, and efficiency across J and RPM. Includes Prandtl tip-loss and induced swirl corrections.
+- ✅ **Propeller and Rotor Designer** _(stub, awaits wire-up)_: Blade-element momentum theory tool for propellers, ducted fans, and rotors that uses section polars from the airfoil database to predict thrust, torque, and efficiency across J and RPM. Includes Prandtl tip-loss and induced swirl corrections.
 
 - ⬜ **Compressible Flow Calculator** _(planned)_: Isentropic, normal shock, oblique shock, Prandtl-Meyer expansion, Fanno, and Rayleigh tables and solvers with full inverse modes. Plots shock polars and theta-beta-M diagrams for supersonic geometry design.
 
