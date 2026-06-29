@@ -1750,7 +1750,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Morphological analyzer** _(stub, awaits wire-up)_: Parses ancient-language tokens to lemma, part-of-speech, and inflection using Perseus Morpheus, MorphHB, CLTK, and Buckwalter back-ends; flags ambiguities and proposes context-disambiguated readings.
 
-- ⬜ **Parallel text viewer** _(planned)_: Displays aligned passages across versions and traditions (LXX / MT / Vulgate, Synoptic Gospels, Talmudic sugyot with Rashi and Tosafot, Quranic qirāʾāt); synchronizes scrolling and color-codes divergences.
+- ✅ **Parallel text viewer** _(stub, awaits wire-up)_: Displays aligned passages across versions and traditions (LXX / MT / Vulgate, Synoptic Gospels, Talmudic sugyot with Rashi and Tosafot, Quranic qirāʾāt); synchronizes scrolling and color-codes divergences.
 
 - ⬜ **Lexicon lookup** _(planned)_: Queries domain lexica (LSJ, BDAG, HALOT, Jastrow, Monier-Williams, Lane, Du Cange) with sense disambiguation from surrounding context; cross-links each gloss to attestations in the loaded corpus.
 
