@@ -1456,7 +1456,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Document converter** _(stub, awaits wire-up)_: Routes documents between PDF, EPUB, DOCX, ODT, HTML, Markdown, LaTeX, and plain text via pandoc and format-specific backends. Falls back to model-driven structure recovery when a source is too malformed for deterministic conversion.
 
-- ⬜ **OCR engine** _(planned)_: Runs Tesseract and neural OCR over scanned pages or images, producing searchable PDFs and plain text with per-token confidence. Supports multi-language passes and AI-integrated correction of low-confidence spans.
+- ✅ **OCR engine** _(stub, awaits wire-up)_: Runs Tesseract and neural OCR over scanned pages or images, producing searchable PDFs and plain text with per-token confidence. Supports multi-language passes and AI-integrated correction of low-confidence spans.
 
 - ⬜ **Math and equation OCR** _(planned)_: Extracts LaTeX from cropped equations, screenshots, or hand-drawn formulas using a vision model. Renders the output back to verify and lets the user edit before insertion into notes.
 
