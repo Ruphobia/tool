@@ -3400,7 +3400,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Body size and mass estimator** _(stub, awaits wire-up)_: Estimates body mass, stance, and locomotor parameters from limb element dimensions (femoral circumference, humeral length) using regression equations for mammals, dinosaurs, and other clades. Reports prediction intervals and the source equation used.
 
-- ⬜ **Paleogeographic mapper** _(planned)_: Projects occurrences and sample sites onto paleocontinental reconstructions (PaleoMAP, GPlates rotation files) for chosen ages. Plots paleolatitude tracks, paleoclimate belts, and ocean-current overlays for biogeographic analysis.
+- ✅ **Paleogeographic mapper** _(stub, awaits wire-up)_: Projects occurrences and sample sites onto paleocontinental reconstructions (PaleoMAP, GPlates rotation files) for chosen ages. Plots paleolatitude tracks, paleoclimate belts, and ocean-current overlays for biogeographic analysis.
 
 - ⬜ **Geophysics survey processor** _(planned)_: Processes magnetometry, resistivity, and ground-penetrating-radar grids with gridding, despiking, destriping, gain control, and time-slice extraction. Detects linear and rectilinear anomalies and overlays them on site basemaps.
 
