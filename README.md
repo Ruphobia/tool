@@ -3212,7 +3212,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Ideal-point estimator** _(stub, awaits wire-up)_: Estimates legislator and voter ideal points from roll call or survey response matrices using NOMINATE, IDEAL (Bayesian IRT), and Wordfish for text, and plots cutting lines and party medians over time.
 
-- ⬜ **Network analysis canvas** _(planned)_: Loads edge lists and adjacency matrices for co-sponsorship, donation, citation, or interpersonal networks, computes degree, betweenness, eigenvector, and PageRank centralities, runs Louvain and Leiden community detection, and renders force-directed layouts.
+- ✅ **Network analysis canvas** _(stub, awaits wire-up)_: Loads edge lists and adjacency matrices for co-sponsorship, donation, citation, or interpersonal networks, computes degree, betweenness, eigenvector, and PageRank centralities, runs Louvain and Leiden community detection, and renders force-directed layouts.
 
 - ⬜ **Policy citation manager** _(planned)_: Stores statutes, regulations, court cases, agency reports, and academic articles with Bluebook, APA, and Chicago formatting, deduplicates via DOI/SSRN/CourtListener IDs, and exports BibTeX and CSL-JSON for use in manuscripts.
 
