@@ -4828,7 +4828,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Movie and TV trivia** _(stub, awaits wire-up)_: queries IMDb-class data offline, with cast/crew/episode/character details, behind-the-scenes notes, reception and review aggregation, soundtrack lookups.
 
-- ⬜ **General trivia and quiz** _(planned)_: categorized trivia banks (history, geography, science, sports, etc.) with question-generation, difficulty scaling, multiplayer mode, party-game format, AI-generated questions from a topic seed.
+- ✅ **General trivia and quiz** _(stub, awaits wire-up)_: categorized trivia banks (history, geography, science, sports, etc.) with question-generation, difficulty scaling, multiplayer mode, party-game format, AI-generated questions from a topic seed.
 
 - ⬜ **Music history and recognition** _(planned)_: Shazam-style audio fingerprinting, song/album metadata, lyrics, music-video matching, genre/era browsing, discography of an artist.
 
