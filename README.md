@@ -3784,7 +3784,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Key and Tempo Detector** _(stub, awaits wire-up)_: Analyzes audio or MIDI to estimate key, mode, tonic confidence, tempo, downbeat positions, time signature, and tempo map. Outputs a click track and beat grid aligned to the source.
 
-- ⬜ **Pitch and Chord Transcriber** _(planned)_: Polyphonic audio-to-MIDI with chord-symbol estimation, instrument-aware source separation, and editable piano-roll output. Useful for transcribing recordings into editable lead sheets or stems.
+- ✅ **Pitch and Chord Transcriber** _(stub, awaits wire-up)_: Polyphonic audio-to-MIDI with chord-symbol estimation, instrument-aware source separation, and editable piano-roll output. Useful for transcribing recordings into editable lead sheets or stems.
 
 - ⬜ **Rhythm and Groove Builder** _(planned)_: Step sequencer plus pattern designer for drums and percussion, with swing, micro-timing, polyrhythm and polymeter layering, Euclidean rhythm generation, and a library of genre-tagged grooves.
 
