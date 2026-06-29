@@ -2812,7 +2812,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **SLAM workbench** _(stub, awaits wire-up)_: Runs visual, LIDAR, and visual-inertial SLAM pipelines (ORB-SLAM3, RTAB-Map, LIO-SAM, Kiss-ICP) over recorded sessions with keyframe inspection, loop-closure editing, and exported map output to OctoMap, mesh, or Gaussian splat.
 
-- ⬜ **Transform tree inspector** _(planned)_: Visualizes the live TF/TF2 coordinate-frame graph, flags missing, stale, or cyclic transforms, and edits static transform publishers with side-by-side numeric and 3D representation.
+- ✅ **Transform tree inspector** _(stub, awaits wire-up)_: Visualizes the live TF/TF2 coordinate-frame graph, flags missing, stale, or cyclic transforms, and edits static transform publishers with side-by-side numeric and 3D representation.
 
 - ⬜ **ROS bag and MCAP inspector** _(planned)_: Opens .bag and .mcap recordings, indexes topics and message types, plots numeric channels, decodes image and point-cloud streams, and replays selected slices into the scene viewer or simulator.
 
