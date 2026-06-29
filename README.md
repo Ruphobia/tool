@@ -2786,7 +2786,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Robot description editor** _(stub, awaits wire-up)_: Loads, edits, and previews URDF, SDF, and MJCF robot models with live joint sliders, link inspection, and inertial/collision/visual geometry overlays. AI-integrated generation of URDF skeletons from natural-language descriptions or CAD assembly imports.
 
-- ⬜ **Kinematics solver** _(planned)_: Computes forward and inverse kinematics for serial, parallel, and branching manipulators with selectable backends (KDL, IKFast, TRAC-IK, numerical Jacobian) and exposes manipulability, condition number, and joint-limit margin per pose.
+- ✅ **Kinematics solver** _(stub, awaits wire-up)_: Computes forward and inverse kinematics for serial, parallel, and branching manipulators with selectable backends (KDL, IKFast, TRAC-IK, numerical Jacobian) and exposes manipulability, condition number, and joint-limit margin per pose.
 
 - ⬜ **Path planner** _(planned)_: Plans collision-free joint and Cartesian paths using sampling-based (RRT, RRT*, PRM, BIT*), grid-based (A*, D* Lite), and optimization-based (CHOMP, STOMP, TrajOpt) planners with constraint plugins for orientation, dual-arm, and mobile bases.
 
