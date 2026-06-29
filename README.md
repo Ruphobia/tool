@@ -1044,7 +1044,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Gantt timeline** _(stub, awaits wire-up)_: Project timeline with tasks, dependencies, milestones, baselines, and critical-path highlighting. Imports from the task inbox and exports to MS Project XML.
 
-- ⬜ **Pivot table builder** _(planned)_: Drag-and-drop aggregation over a tabular dataset with row, column, value, and filter buckets, computed fields, and drill-down. AI-integrated suggestion of pivot configurations from a question about the data.
+- ✅ **Pivot table builder** _(stub, awaits wire-up)_: Drag-and-drop aggregation over a tabular dataset with row, column, value, and filter buckets, computed fields, and drill-down. AI-integrated suggestion of pivot configurations from a question about the data.
 
 - ⬜ **Chart builder** _(planned)_: Axis, series, and style picker over a dataset with categorical, time-series, statistical, and geographic chart families. AI-integrated suggestion of chart type from the data shape and the question being asked.
 
