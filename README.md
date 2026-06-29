@@ -2896,7 +2896,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Reaction balancer** _(stub, awaits wire-up)_: Balances arbitrary chemical equations including redox half-reactions, disproportionation, and net-ionic forms; reports coefficients, atom counts, charge balance, and oxidation state changes per atom.
 
-- ⬜ **Stoichiometry calculator** _(planned)_: Computes limiting reagent, theoretical yield, percent yield, atom economy, and mass/mol/volume/concentration conversions for arbitrary balanced reactions; handles solvates, hydrates, and purity adjustments.
+- ✅ **Stoichiometry calculator** _(stub, awaits wire-up)_: Computes limiting reagent, theoretical yield, percent yield, atom economy, and mass/mol/volume/concentration conversions for arbitrary balanced reactions; handles solvates, hydrates, and purity adjustments.
 
 - ⬜ **Retrosynthesis planner** _(planned)_: AI-integrated decomposition of a target molecule into candidate precursors with scored multi-step routes, named reactions, suggested conditions, and cross-references to literature procedures.
 
