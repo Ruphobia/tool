@@ -1003,7 +1003,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Decap and Die-Shot Library** _(stub, awaits wire-up)_: Archive of die photos and reverse-engineered netlists for custom chips (SID, VIC-II, Paula, Denise, ULA, etc.) with annotated functional blocks and links to FPGA reimplementations.
 
-- ⬜ **Vintage Serial Terminal** _(planned)_: Speaks XMODEM, YMODEM, ZMODEM, Kermit, and bespoke vendor handshakes over real serial; bridges to TCP for BBS sessions and modem-emulator workflows.
+- ✅ **Vintage Serial Terminal** _(stub, awaits wire-up)_: Speaks XMODEM, YMODEM, ZMODEM, Kermit, and bespoke vendor handshakes over real serial; bridges to TCP for BBS sessions and modem-emulator workflows.
 
 - ⬜ **CRT Geometry and Convergence Tuner** _(planned)_: Generates calibration patterns, captures the screen via webcam, and suggests yoke and convergence adjustments with explicit high-voltage safety reminders before each step.
 
