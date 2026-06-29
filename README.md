@@ -2497,7 +2497,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Containment thermal-hydraulics sketcher** _(stub, awaits wire-up)_: Lumped-parameter blowdown, pressure-suppression, and hydrogen-burn estimates for LOCA scenarios; PCT and containment pressure timelines.
 
-- ⬜ **Pressure vessel designer** _(planned)_: ASME BPVC Section VIII Division 1 and 2 shell, head, flange, and nozzle-reinforcement calculations with MAWP and MDMT checks.
+- ✅ **Pressure vessel designer** _(stub, awaits wire-up)_: ASME BPVC Section VIII Division 1 and 2 shell, head, flange, and nozzle-reinforcement calculations with MAWP and MDMT checks.
 
 - ⬜ **Pipe stress and flexibility analyzer** _(planned)_: B31.3 and B31.8 sustained, expansion, and occasional stress per Markl SIFs and flexibility factors; supports, anchors, and thermal growth.
 
