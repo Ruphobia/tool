@@ -3433,7 +3433,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Hydroacoustic spectrogram** _(stub, awaits wire-up)_: Loads WAV/FLAC hydrophone recordings and renders calibrated spectrograms with band-limited SPL, 1/3-octave noise, and AI-assisted detection of cetacean calls, snapping shrimp, and vessel signatures.
 
-- ⬜ **AIS vessel decoder** _(planned)_: Decodes NMEA-0183 AIVDM/AIVDO and NMEA-2000 PGNs from a serial, UDP, or file source. Plots vessel positions, CPA/TCPA against own-ship, and replays historical traffic at adjustable speed.
+- ✅ **AIS vessel decoder** _(stub, awaits wire-up)_: Decodes NMEA-0183 AIVDM/AIVDO and NMEA-2000 PGNs from a serial, UDP, or file source. Plots vessel positions, CPA/TCPA against own-ship, and replays historical traffic at adjustable speed.
 
 - ⬜ **Wave spectrum analyzer** _(planned)_: Computes 1D and directional wave spectra from NDBC buoy spectral files or raw heave/pitch/roll. Fits JONSWAP and Pierson-Moskowitz parameters and derives Hs, Tp, mean direction, and spreading.
 
