@@ -4498,7 +4498,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Fish ID** _(stub, awaits wire-up)_: Identifies freshwater and saltwater species from a phone photo using a local vision model, with confidence scores and lookalike disambiguation (e.g., spotted vs largemouth bass). Links each ID to applicable size and bag rules from Regulation Lookup.
 
-- ⬜ **Lure and Bait Reference** _(planned)_: Cross-references species, water temperature, clarity, depth, structure, and season against a tackle library to recommend presentations. Includes retrieval cadence notes, knot pairing, and a personal confidence-bait ranking learned from your catch log.
+- ✅ **Lure and Bait Reference** _(stub, awaits wire-up)_: Cross-references species, water temperature, clarity, depth, structure, and season against a tackle library to recommend presentations. Includes retrieval cadence notes, knot pairing, and a personal confidence-bait ranking learned from your catch log.
 
 - ⬜ **Taxidermy Notebook** _(planned)_: Captures skinning measurements, eye-set references, pose sketches, form part numbers, tan recipes, and mount progress photos per specimen. Supplier order ledger and drying-time scheduler with humidity log integration.
 
