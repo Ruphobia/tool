@@ -260,7 +260,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Reference Library** _(in testing)_: Local-first reference database with collections, tags, smart folders, and full-text search across metadata and attached PDFs. Stores items in a portable SQLite store with CSL-JSON as the canonical record.
 
-- ⬜ **Format Import-Export Hub** _(planned)_: Bidirectional converter for BibTeX, BibLaTeX, RIS, EndNote XML, CSL-JSON, MODS, and Zotero RDF. Handles field mapping, character-encoding quirks, and round-trip fidelity checks.
+- ✅ **Format Import-Export Hub** _(in testing)_: Bidirectional converter for BibTeX, BibLaTeX, RIS, EndNote XML, CSL-JSON, MODS, and Zotero RDF. Handles field mapping, character-encoding quirks, and round-trip fidelity checks.
 
 - ✅ **Citation Key Generator** _(in testing)_: Rule-based BibTeX key builder with templates (author-year-title, journal abbreviations, disambiguation suffixes) and collision detection across the library and bound documents.
 
