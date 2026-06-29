@@ -1685,7 +1685,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Codicology Inspector** _(stub, awaits wire-up)_: Models quire structure, hair/flesh side patterns, ruling schemes, prickings, and pagination/foliation anomalies. Generates collation formulas (Gregory rule, Quire diagrams) and flags suspected losses or insertions.
 
-- ⬜ **Multispectral Image Stack** _(planned)_: Loads UV, IR, and visible-light captures of palimpsests and damaged folia with per-band registration and pseudocolor enhancement. Includes ink-recovery filters tuned for iron-gall, carbon, and minium pigments.
+- ✅ **Multispectral Image Stack** _(stub, awaits wire-up)_: Loads UV, IR, and visible-light captures of palimpsests and damaged folia with per-band registration and pseudocolor enhancement. Includes ink-recovery filters tuned for iron-gall, carbon, and minium pigments.
 
 - ⬜ **Abbreviation and Ligature Expander** _(planned)_: Expands Tironian notes, nomina sacra, suspension and contraction abbreviations, and scribal ligatures using script- and period-specific rule sets. Round-trips between abbreviated and expanded forms while preserving line and letter counts.
 
