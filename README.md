@@ -2143,7 +2143,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sheet metal unfolder** _(stub, awaits wire-up)_: Flattens bent sheet metal parts with k-factor and bend deduction tables, computes blank size, and outputs DXF for laser, plasma, or waterjet cutting. Detects undercuts and impossible bends.
 
-- ⬜ **Weldment designer** _(planned)_: Applies structural profiles to a wireframe with mitered and butt joints, fillet and groove weld symbols, and AWS callouts. Computes weld throat stress under combined loading.
+- ✅ **Weldment designer** _(stub, awaits wire-up)_: Applies structural profiles to a wireframe with mitered and butt joints, fillet and groove weld symbols, and AWS callouts. Computes weld throat stress under combined loading.
 
 - ⬜ **Injection molding analyzer** _(planned)_: Predicts fill time, weld lines, air traps, sink marks, and warpage from part geometry and gate location. Suggests draft, wall thickness, and gate placement adjustments.
 
