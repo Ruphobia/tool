@@ -2900,7 +2900,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Retrosynthesis planner** _(stub, awaits wire-up)_: AI-integrated decomposition of a target molecule into candidate precursors with scored multi-step routes, named reactions, suggested conditions, and cross-references to literature procedures.
 
-- ⬜ **Forward reaction predictor** _(planned)_: Predicts likely products and selectivities from reactants, reagents, solvent, and temperature; ranks side products, flags regiochemistry and stereochemistry concerns, and offers AI-integrated arrow-pushing mechanism walkthroughs.
+- ✅ **Forward reaction predictor** _(stub, awaits wire-up)_: Predicts likely products and selectivities from reactants, reagents, solvent, and temperature; ranks side products, flags regiochemistry and stereochemistry concerns, and offers AI-integrated arrow-pushing mechanism walkthroughs.
 
 - ⬜ **NMR simulator** _(planned)_: Predicts 1H, 13C, DEPT, COSY, HSQC, and HMBC spectra from a structure; reports chemical shifts, multiplicities, coupling constants, and integrations, with overlay against an imported experimental spectrum.
 
