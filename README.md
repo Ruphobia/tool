@@ -1881,7 +1881,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Speech, language, and translation
 
-- ⬜ **Transcription studio** _(planned)_: ASR pipeline with word-level timestamps, speaker diarization, and per-token confidence scoring. Routes audio through the abliterated ASR stack and renders an editable transcript synced to a waveform and spectrogram.
+- ✅ **Transcription studio** _(stub, awaits wire-up)_: ASR pipeline with word-level timestamps, speaker diarization, and per-token confidence scoring. Routes audio through the abliterated ASR stack and renders an editable transcript synced to a waveform and spectrogram.
 
 - ⬜ **Subtitle editor** _(planned)_: Caption editor for SRT, VTT, ASS, and TTML with waveform timing, shot-change snapping, CPS and reading-speed checks, and style overrides. AI-integrated retiming from raw ASR output and segment merging suggestions.
 
