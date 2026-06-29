@@ -972,7 +972,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **JWT & Token Workbench** _(stub, awaits wire-up)_: Decodes, signs, and re-signs JWT, PASETO, Macaroons, and Biscuit tokens with algorithm confusion and none-alg attack toggles. Validates claims, expiry, and JWKS resolution against a target issuer.
 
-- ⬜ **MPC Threshold Lab** _(planned)_: Runs FROST, GG20, and CMP threshold signing protocols across simulated parties with adjustable network and adversary models. Inspects DKG transcripts, abort conditions, and presigning material.
+- ✅ **MPC Threshold Lab** _(stub, awaits wire-up)_: Runs FROST, GG20, and CMP threshold signing protocols across simulated parties with adjustable network and adversary models. Inspects DKG transcripts, abort conditions, and presigning material.
 
 
 #### Vintage hardware preservation and retrocomputing
