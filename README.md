@@ -4432,7 +4432,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pet health and medication log** _(stub, awaits wire-up)_: Tracks weight, body-condition score, medications, vaccination dates, fecals, and vet notes. Generates weight-scaled dose reminders for spot-ons, oral meds, and parasite preventatives.
 
-- ⬜ **Pet diet planner** _(planned)_: Calculates RER and MER caloric needs, macronutrient targets, and BARF or PMR balance from species, weight, and activity. Flags taurine, calcium-phosphorus ratio, and thiaminase issues in raw diets.
+- ✅ **Pet diet planner** _(stub, awaits wire-up)_: Calculates RER and MER caloric needs, macronutrient targets, and BARF or PMR balance from species, weight, and activity. Flags taurine, calcium-phosphorus ratio, and thiaminase issues in raw diets.
 
 
 #### Home and DIY (plumbing, residential electrical, HVAC, landscaping)
