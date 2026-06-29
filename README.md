@@ -3513,7 +3513,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Stereonet** _(stub, awaits wire-up)_: Equal-area and equal-angle lower-hemisphere projections for planes, lines, and fold axes, with contour plots of pole density (Kamb, Schmidt). Computes intersections, rotations, and best-fit fold-axis solutions from field measurements.
 
-- ⬜ **Cross-Section Builder** _(planned)_: Draws a section line on a map and extrudes a geological cross-section from a DEM plus mapped contacts, dips, and unit polygons. Supports vertical exaggeration, fault offsets, and apparent-dip correction along oblique transects.
+- ✅ **Cross-Section Builder** _(stub, awaits wire-up)_: Draws a section line on a map and extrudes a geological cross-section from a DEM plus mapped contacts, dips, and unit polygons. Supports vertical exaggeration, fault offsets, and apparent-dip correction along oblique transects.
 
 - ⬜ **Geochemistry Plotter** _(planned)_: Standard rock-geochemistry diagrams: TAS, AFM, QAPF, Harker, Pearce, spider/REE-normalized multielement plots, and ternary classifiers. Accepts whole-rock CSV input with normalization to chondrite, primitive mantle, or NMORB.
 
