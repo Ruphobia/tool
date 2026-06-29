@@ -2943,7 +2943,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sequence Editor** _(stub, awaits wire-up)_: Multi-format viewer and editor for nucleotide and protein sequences (FASTA, GenBank, EMBL, FASTQ). Feature annotations, translation tracks, codon highlighting, GC content overlay, and per-base quality display for reads.
 
-- ⬜ **Local BLAST Console** _(planned)_: Runs blastn, blastp, blastx, tblastn, and tblastx against locally indexed databases (NCBI nr/nt mirrors, RefSeq, UniProt, custom). Tabular and pairwise output, E-value and bitscore filtering, HSP visualization, and direct drop-back into the sequence editor.
+- ✅ **Local BLAST Console** _(stub, awaits wire-up)_: Runs blastn, blastp, blastx, tblastn, and tblastx against locally indexed databases (NCBI nr/nt mirrors, RefSeq, UniProt, custom). Tabular and pairwise output, E-value and bitscore filtering, HSP visualization, and direct drop-back into the sequence editor.
 
 - ⬜ **Multiple Sequence Alignment** _(planned)_: Wraps MUSCLE, MAFFT, Clustal Omega, and T-Coffee with a common UI. Conservation tracks, consensus extraction, gap-stripping, profile-to-profile alignment, and export to PHYLIP, NEXUS, and Stockholm.
 
