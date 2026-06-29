@@ -2001,7 +2001,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Diffraction Calculator** _(stub, awaits wire-up)_: Scalar diffraction engine for Fraunhofer, Fresnel, and angular-spectrum propagation; computes PSF, MTF, encircled energy, and far-field patterns from arbitrary pupil amplitude/phase masks. Includes apodization presets and tilted-plane propagation.
 
-- ⬜ **Zernike Wavefront Analyzer** _(planned)_: Decomposes measured or simulated wavefronts into Zernike (Noll/Fringe/OSA) and Seidel coefficients, with Strehl ratio, RMS/PV, and aberration-by-aberration PSF synthesis. Loads interferograms, Shack-Hartmann spot grids, and HDF5 wavefront cubes.
+- ✅ **Zernike Wavefront Analyzer** _(stub, awaits wire-up)_: Decomposes measured or simulated wavefronts into Zernike (Noll/Fringe/OSA) and Seidel coefficients, with Strehl ratio, RMS/PV, and aberration-by-aberration PSF synthesis. Loads interferograms, Shack-Hartmann spot grids, and HDF5 wavefront cubes.
 
 - ⬜ **Thin Film Coating Designer** _(planned)_: Multilayer transfer-matrix solver for reflectance, transmittance, absorptance, and group delay vs wavelength and angle, with material dispersion library (Sellmeier, Tauc-Lorentz) and needle/tunneling optimization to user targets (AR, HR, dichroic, beam splitter).
 
