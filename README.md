@@ -4326,7 +4326,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Lichess/chess.com explorer** _(stub, awaits wire-up)_: Queries the Lichess opening explorer and master games database for any FEN, returning move frequency, win percentages by rating band, and example games. Caches results locally for offline repertoire work.
 
-- ⬜ **Syzygy tablebase probe** _(planned)_: Resolves 7-piece endgame positions against local or remote Syzygy tablebases, returning WDL and DTZ values plus the principal variation. Used to verify engine evaluations in technical endgames.
+- ✅ **Syzygy tablebase probe** _(stub, awaits wire-up)_: Resolves 7-piece endgame positions against local or remote Syzygy tablebases, returning WDL and DTZ values plus the principal variation. Used to verify engine evaluations in technical endgames.
 
 - ⬜ **KataGo analysis bridge** _(planned)_: Drives a local KataGo binary via the analysis engine JSON protocol, requesting policy/value/ownership maps and score-lead estimates for SGF positions. Surfaces winrate graphs, blunder detection, and move suggestions with visit counts.
 
