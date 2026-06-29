@@ -809,7 +809,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Lens Distortion Profiler** _(stub, awaits wire-up)_: Generates and previews barrel / pincushion mesh warps and chromatic aberration correction curves for a given lens profile, with a calibration-grid loopback. Imports common headset distortion meshes and exports as shader LUTs.
 
-- ⬜ **Locomotion Lab** _(planned)_: Sandbox for trying teleport, snap-turn, smooth, arm-swing, and vehicle locomotion against a fixed test course, with telemetry on time-to-target, off-path deviation, and comfort score from the analyzer.
+- ✅ **Locomotion Lab** _(stub, awaits wire-up)_: Sandbox for trying teleport, snap-turn, smooth, arm-swing, and vehicle locomotion against a fixed test course, with telemetry on time-to-target, off-path deviation, and comfort score from the analyzer.
 
 - ⬜ **Passthrough Compositor** _(planned)_: Mixed-reality compositing preview that layers virtual content over a recorded passthrough RGB / depth stream, with occlusion mask debugging, depth-test toggles, and lighting estimation overlays.
 
