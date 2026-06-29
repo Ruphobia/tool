@@ -431,7 +431,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **HTTP intercepting proxy** _(stub, awaits wire-up)_: Acts as a man-in-the-middle proxy for outgoing traffic with on-the-fly request and response editing, TLS interception via a generated CA, and full session recording. Filters by host, content type, or regex.
 
-- ⬜ **Packet capture** _(planned)_: Captures live packets from a chosen interface using libpcap, decodes common L2-L7 protocols, and exposes a Wireshark-style filter expression bar. Saves and reloads pcap/pcapng files; AI-integrated summarization of a capture into a plain-English flow description.
+- ✅ **Packet capture** _(stub, awaits wire-up)_: Captures live packets from a chosen interface using libpcap, decodes common L2-L7 protocols, and exposes a Wireshark-style filter expression bar. Saves and reloads pcap/pcapng files; AI-integrated summarization of a capture into a plain-English flow description.
 
 - ⬜ **DNS toolkit** _(planned)_: Resolves A, AAAA, MX, TXT, SRV, CAA, NS, SOA, and DNSKEY records against arbitrary resolvers, including DoH and DoT. Includes reverse DNS, DNSSEC chain validation, and a side-by-side resolver comparison view.
 
