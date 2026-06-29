@@ -593,7 +593,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **USB descriptor builder** _(stub, awaits wire-up)_: Composes USB device, configuration, interface, endpoint, HID, CDC, MSC, audio, and video descriptors with validation against the spec. Emits C structs and matching host-side test scripts.
 
-- ⬜ **Filesystem and storage designer** _(planned)_: Layouts and inspectors for LittleFS, SPIFFS, FATFS, EEPROM emulation, and journaled flash regions with wear and endurance modeling. Generates mkfs payloads for first-boot provisioning.
+- ✅ **Filesystem and storage designer** _(stub, awaits wire-up)_: Layouts and inspectors for LittleFS, SPIFFS, FATFS, EEPROM emulation, and journaled flash regions with wear and endurance modeling. Generates mkfs payloads for first-boot provisioning.
 
 - ⬜ **BSP and board generator** _(planned)_: Scaffolds Zephyr boards, ESP-IDF custom boards, Arduino variants, and Linux device trees from a pinmux and peripheral configuration. Keeps the board files in sync as the hardware spec evolves.
 
