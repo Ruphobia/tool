@@ -2556,7 +2556,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Atmosphere Model Browser** _(stub, awaits wire-up)_: Evaluates US Standard 1976, NRLMSISE-00, Jacchia-Bowman, and exponential atmospheres for density, temperature, pressure, and composition versus altitude, with solar/geomagnetic activity inputs.
 
-- ⬜ **Gravity Field Explorer** _(planned)_: Computes gravitational acceleration and potential from point mass, J2/J4 zonals, and full EGM2008/GRGM spherical harmonic models for Earth, Moon, Mars, and asteroids, with geoid and free-air anomaly visualization.
+- ✅ **Gravity Field Explorer** _(stub, awaits wire-up)_: Computes gravitational acceleration and potential from point mass, J2/J4 zonals, and full EGM2008/GRGM spherical harmonic models for Earth, Moon, Mars, and asteroids, with geoid and free-air anomaly visualization.
 
 - ⬜ **Attitude Dynamics Simulator** _(planned)_: Propagates rigid-body attitude using quaternions, MRPs, or Euler angles under reaction wheel, CMG, magnetic torquer, and RCS actuation, with gravity gradient, aero, SRP, and residual dipole disturbance torques.
 
