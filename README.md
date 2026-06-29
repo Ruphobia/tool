@@ -4601,7 +4601,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Raster chart georeferencer** _(stub, awaits wire-up)_: Imports BSB/KAP, GeoTIFF, and scanned pilot chart images, fits ground control points to WGS-84, and emits a calibrated tile pyramid. AI-assisted GCP suggestion reads printed graticule ticks and place names when metadata is missing.
 
-- ⬜ **Tidal harmonic predictor** _(planned)_: Computes tide height and slack/flood/ebb times from harmonic constituents (M2, S2, N2, K1, O1, etc.) using the standard 37- or 67-constituent set, with nodal corrections. Loads NOAA, UKHO TotalTide, and IHO TWL station files and can solve constituents from a logged water level series.
+- ✅ **Tidal harmonic predictor** _(stub, awaits wire-up)_: Computes tide height and slack/flood/ebb times from harmonic constituents (M2, S2, N2, K1, O1, etc.) using the standard 37- or 67-constituent set, with nodal corrections. Loads NOAA, UKHO TotalTide, and IHO TWL station files and can solve constituents from a logged water level series.
 
 - ⬜ **Tidal stream atlas** _(planned)_: Overlays vector current fields from HF-radar, ROMS, and tidal-diamond data on the chart at a chosen time, with hour-by-hour scrubbing relative to a reference port. Computes set-and-drift along a planned leg and flags tidal gates that close within a chosen window.
 
