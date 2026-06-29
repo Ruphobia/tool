@@ -1946,7 +1946,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Component library manager** _(stub, awaits wire-up)_: Unified parts database linking symbols, footprints, 3D models, datasheets, manufacturer part numbers, distributor stock, and lifecycle status. Deduplicates across libraries and tracks per-project BOMs.
 
-- ⬜ **BOM and sourcing** _(planned)_: Generates bills of materials with live pricing, stock, and lead times from Octopart, LCSC, Mouser, and Digi-Key. Suggests pin-compatible alternates when a part is EOL or out of stock.
+- ✅ **BOM and sourcing** _(stub, awaits wire-up)_: Generates bills of materials with live pricing, stock, and lead times from Octopart, LCSC, Mouser, and Digi-Key. Suggests pin-compatible alternates when a part is EOL or out of stock.
 
 - ⬜ **SPICE simulator** _(planned)_: Ngspice-based mixed-signal simulator with transient, AC, DC sweep, noise, and Monte Carlo analyses. AI-integrated translation of plain-language goals ("keep ripple under 50mV at 2A") into testbench setups and parameter sweeps.
 
