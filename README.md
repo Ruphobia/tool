@@ -1319,7 +1319,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Receipt & Document Capture** _(stub, awaits wire-up)_: Ingests receipts, bills, and statements via drag-drop or scan, runs OCR plus AI-integrated field extraction to populate vendor, date, amount, tax, and line items, and links the image to the resulting expense entry.
 
-- ⬜ **Bank Statement Importer** _(planned)_: Parses CSV, OFX, QIF, QFX, MT940, and CAMT.053 statements from any bank, normalizes column layouts, deduplicates against existing postings, and stages transactions for review with AI-suggested category mapping.
+- ✅ **Bank Statement Importer** _(stub, awaits wire-up)_: Parses CSV, OFX, QIF, QFX, MT940, and CAMT.053 statements from any bank, normalizes column layouts, deduplicates against existing postings, and stages transactions for review with AI-suggested category mapping.
 
 - ⬜ **Reconciliation Studio** _(planned)_: Matches imported bank lines against ledger postings with fuzzy date/amount tolerance, surfaces unmatched items, and walks a guided three-way reconciliation against statement balance. Flags rounding, FX, and duplicate-entry causes of drift.
 
