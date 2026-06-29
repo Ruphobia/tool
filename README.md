@@ -4397,7 +4397,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Hitbox Viewer** _(stub, awaits wire-up)_: Geometry viewer for collision, hit, and hurt volumes extracted from game files or live memory, rendered against the active animation. Supports fighting games, platformers, and FPS hitreg debugging.
 
-- ⬜ **Practice Logger** _(planned)_: Structured log of practice sessions with drills attempted, success rates, and self-rated focus. Surfaces weak spots over time and suggests next-session drills based on miss patterns.
+- ✅ **Practice Logger** _(stub, awaits wire-up)_: Structured log of practice sessions with drills attempted, success rates, and self-rated focus. Surfaces weak spots over time and suggests next-session drills based on miss patterns.
 
 
 #### Hobbies: gardening, beekeeping, aquariums, pets
