@@ -220,7 +220,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **People and Relationships** _(in testing)_: Lightweight CRM-style records for collaborators and contacts with aliases, roles, project affiliations, and links to entries that mention them.
 
-- ⬜ **Session Recap Distiller** _(planned)_: Reads a session transcript and proposes candidate memory entries (decisions made, preferences expressed, facts learned) for one-click acceptance, edit, or rejection.
+- ✅ **Session Recap Distiller** _(in testing)_: Reads a session transcript and proposes candidate memory entries (decisions made, preferences expressed, facts learned) for one-click acceptance, edit, or rejection.
 
 - ✅ **Memory Diff and Reconcile** _(in testing)_: Three-way diff across machines or branches of the memory store with conflict resolution, useful when syncing personal memory between devices or merging a teammate's project memory.
 
