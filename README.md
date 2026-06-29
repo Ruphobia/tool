@@ -3811,7 +3811,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Audio recorder** _(stub, awaits wire-up)_: Multi-input recorder with loopback, monitor mixing, punch-in/out, pre-roll buffer, takes management, and per-channel metering. Supports ASIO/JACK/PipeWire/CoreAudio backends and arbitrary sample rates and bit depths.
 
-- ⬜ **Spectrogram analyzer** _(planned)_: STFT, CQT, mel, and reassigned spectrograms with adjustable window, hop, and color mapping; supports linear/log frequency axes and per-bin readout. AI-integrated event labeling and anomaly highlighting on spectrogram regions.
+- ✅ **Spectrogram analyzer** _(stub, awaits wire-up)_: STFT, CQT, mel, and reassigned spectrograms with adjustable window, hop, and color mapping; supports linear/log frequency axes and per-bin readout. AI-integrated event labeling and anomaly highlighting on spectrogram regions.
 
 - ⬜ **FFT and spectral inspector** _(planned)_: Interactive single-shot and rolling FFT view with windowing options (Hann, Hamming, Blackman-Harris, Kaiser, flat-top), peak picking, harmonic markers, and THD/SNR/SINAD/SFDR readouts.
 
