@@ -3995,7 +3995,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Cold-Smoke and Hot-Smoke Calculator** _(stub, awaits wire-up)_: Computes wood-to-protein ratios, smoke residency time, and equivalent surface drying for cold smoking, hot smoking, and sous vide finish. Highlights nitrite/nitrate cure levels per Cure #1 and Cure #2 reference tables.
 
-- ⬜ **Salt and Brine Chemistry Solver** _(planned)_: Converts between percent salt by weight, baume, salometer degrees, and equilibrium brine for a given product mass. Includes nitrite ppm targets, sugar offsets, and water hardness adjustments.
+- ✅ **Salt and Brine Chemistry Solver** _(stub, awaits wire-up)_: Converts between percent salt by weight, baume, salometer degrees, and equilibrium brine for a given product mass. Includes nitrite ppm targets, sugar offsets, and water hardness adjustments.
 
 - ⬜ **Tempeh and Natto Incubator Log** _(planned)_: Tracks substrate hydration, acidulation, inoculation temperature, and mycelium or bacillus growth across multi-day incubations. AI summarizes failure modes from photo logs when batches go ammoniated or patchy.
 
