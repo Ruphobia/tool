@@ -1030,7 +1030,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Calendar** _(stub, awaits wire-up)_: Day, week, month, and year views with multiple overlaid calendars, ICS import and export, recurrence rules, and time-zone handling. AI-integrated scheduling that proposes time slots from a meeting brief and flags conflicts.
 
-- ⬜ **Contact manager** _(planned)_: Personal-CRM contact records with relationship history, custom fields, groups, vCard import and export, and a timeline of past interactions pulled from email and calendar. AI-integrated relationship summarization before a meeting.
+- ✅ **Contact manager** _(stub, awaits wire-up)_: Personal-CRM contact records with relationship history, custom fields, groups, vCard import and export, and a timeline of past interactions pulled from email and calendar. AI-integrated relationship summarization before a meeting.
 
 - ⬜ **Email client** _(planned)_: IMAP/SMTP mail client with threading, server-side rules, filters, and a unified inbox across accounts. AI-integrated thread summarization, draft composition in the user's voice, and triage labels.
 
