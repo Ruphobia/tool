@@ -333,7 +333,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Notebook runner** _(stub, awaits wire-up)_: Jupyter-style mixed prose, code, and plot cells stored as plain files, with kernel switching, cached outputs, and AI cells that call the pipeline as a first-class block type.
 
-- ⬜ **API client** _(planned)_: Postman-style HTTP and gRPC client with request collections, environments, scripting, and AI generation of requests and assertions from an OpenAPI spec or a curl example.
+- ✅ **API client** _(stub, awaits wire-up)_: Postman-style HTTP and gRPC client with request collections, environments, scripting, and AI generation of requests and assertions from an OpenAPI spec or a curl example.
 
 - ✅ **Regex designer** _(in testing)_: Live regex tester with sample text, capture group highlighting, and dialect translation between PCRE, RE2, ECMAScript, and POSIX, with AI synthesis of a pattern from positive and negative examples.
 
