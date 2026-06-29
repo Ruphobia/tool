@@ -1124,7 +1124,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Root-cause analyzer** _(stub, awaits wire-up)_: Combines Ishikawa fishbone, 5-Why ladders, and Pareto charts in one canvas, links causes to defect data, and surfaces AI-suggested cause categories from incident text and process variables.
 
-- ⬜ **Fault tree and bowtie analyzer** _(planned)_: Constructs FTA and ETA diagrams with AND/OR/voting gates, computes top-event probability and minimal cut sets, and renders bowtie views joining threats, barriers, top events, consequences, and escalation factors.
+- ✅ **Fault tree and bowtie analyzer** _(stub, awaits wire-up)_: Constructs FTA and ETA diagrams with AND/OR/voting gates, computes top-event probability and minimal cut sets, and renders bowtie views joining threats, barriers, top events, consequences, and escalation factors.
 
 - ⬜ **HAZOP and LOPA workbook** _(planned)_: Walks process nodes with guideword and parameter prompts (No, More, Less, Reverse, As-Well-As), records deviations, causes, consequences, and safeguards, and runs Layer of Protection Analysis to derive required SIL per IEC 61511.
 
