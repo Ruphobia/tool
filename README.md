@@ -1380,7 +1380,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Citation Formatter** _(stub, awaits wire-up)_: Converts between Bluebook, ALWD, McGill, OSCOLA, and neutral citation formats; pulls metadata from a case, statute, or article identifier and emits a properly formatted citation plus a pin cite stub.
 
-- ⬜ **License Picker** _(planned)_: SPDX-aware open-source license selector that asks a short questionnaire (patent grant, copyleft scope, attribution, commercial use, network distribution) and writes the matching license text and SPDX identifier into the project, ready to commit as LICENSE.
+- ✅ **License Picker** _(stub, awaits wire-up)_: SPDX-aware open-source license selector that asks a short questionnaire (patent grant, copyleft scope, attribution, commercial use, network distribution) and writes the matching license text and SPDX identifier into the project, ready to commit as LICENSE.
 
 - ⬜ **Privacy Policy Generator** _(planned)_: Builds a privacy policy from a checklist of data categories collected, purposes, processors, retention periods, and applicable regimes (GDPR, CCPA, PIPEDA, LGPD, PIPL). Outputs HTML, markdown, and a versioned diff against the previous published policy.
 
