@@ -1915,7 +1915,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Morphology and lemma analyzer** _(stub, awaits wire-up)_: Tokenization, lemmatization, POS tagging, dependency parsing, and morphological feature extraction across languages, with Universal Dependencies compatible output.
 
-- ⬜ **SSML and prosody editor** _(planned)_: Visual editor for SSML markup with pitch, rate, emphasis, and break controls. Previews against the selected TTS engine with per-clause waveform inspection.
+- ✅ **SSML and prosody editor** _(stub, awaits wire-up)_: Visual editor for SSML markup with pitch, rate, emphasis, and break controls. Previews against the selected TTS engine with per-clause waveform inspection.
 
 - ⬜ **Caption renderer** _(planned)_: Burns soft subtitles into video with font, position, and karaoke effect support, or muxes them as sidecar tracks. Handles RTL, ruby text, and vertical layout.
 
