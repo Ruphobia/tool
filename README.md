@@ -4028,7 +4028,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **DistillationCalculator** _(stub, awaits wire-up)_: Logs wash ABV, parrot readings, vapor and liquid temperatures, and cut points across heads, hearts, and tails. Computes proofing-down, angel's share, and yield per fermentable; flags congener thresholds.
 
-- ⬜ **BeerRecipeDesigner** _(planned)_: Mash schedule, strike water, hop IBU via Tinseth, Rager, and Garetz, yeast pitch rate, and attenuation forecast in one recipe. Exports BeerXML and compares predicted versus measured gravities.
+- ✅ **BeerRecipeDesigner** _(stub, awaits wire-up)_: Mash schedule, strike water, hop IBU via Tinseth, Rager, and Garetz, yeast pitch rate, and attenuation forecast in one recipe. Exports BeerXML and compares predicted versus measured gravities.
 
 - ⬜ **CarbonationCalculator** _(planned)_: Computes CO2 volumes from temperature and pressure for force carbonation, priming sugar dosage, or natural conditioning. Includes nitro blend ratios and bottle pressure safety checks.
 
