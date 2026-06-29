@@ -4469,7 +4469,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Planting plan and hardiness advisor** _(stub, awaits wire-up)_: Combines USDA hardiness zone, AHS heat zone, soil pH, and the shade overlay to suggest species lists with spacing, mature size, and bloom calendar; AI-integrated companion-planting and pest-pairing notes.
 
-- ⬜ **Grading and drainage planner** _(planned)_: Computes runoff via the rational method and TR-55 from contour or LiDAR DEM input, sizes swales, French drains, and dry wells, and checks 2% slope-away from foundations and ADA walkway grades.
+- ✅ **Grading and drainage planner** _(stub, awaits wire-up)_: Computes runoff via the rational method and TR-55 from contour or LiDAR DEM input, sizes swales, French drains, and dry wells, and checks 2% slope-away from foundations and ADA walkway grades.
 
 - ⬜ **Deck and fence material estimator** _(planned)_: From a deck or fence footprint and code inputs (joist span tables, footing depth, post spacing), generates a cut list of joists, beams, posts, decking, and fasteners with waste factor and a board-foot cost roll-up.
 
