@@ -2231,7 +2231,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Materials science and metallurgy
 
-- ⬜ **Material safety database** _(planned)_: keyed by (material × process). Galvanized steel + welding: zinc oxide fumes, metal fume fever. PVC + laser cutting: HCl/chlorine, eats optics and lungs. Treated wood + burning: arsenic compounds. Foam + heating: HCN. Per entry: PEL/STEL dose, exposure mechanism, recommended PPE, ventilation rate, emergency-response steps.
+- ✅ **Material safety database** _(stub, awaits wire-up)_: keyed by (material × process). Galvanized steel + welding: zinc oxide fumes, metal fume fever. PVC + laser cutting: HCl/chlorine, eats optics and lungs. Treated wood + burning: arsenic compounds. Foam + heating: HCN. Per entry: PEL/STEL dose, exposure mechanism, recommended PPE, ventilation rate, emergency-response steps.
 
 - ⬜ **Periodic Property Explorer** _(planned)_: Interactive periodic table with sortable/colorable overlays for density, modulus, melting point, electronegativity, thermal/electrical conductivity, CTE, crystal structure, abundance, and cost per kg. Click an element to drill into isotopes, oxidation states, and common alloying roles.
 
