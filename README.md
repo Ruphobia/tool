@@ -3159,7 +3159,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Power analysis calculator** _(stub, awaits wire-up)_: Computes a priori, post hoc, and sensitivity power for t-tests, ANOVA, regression, chi-square, and mixed-effects designs in a G*Power-style interface. Simulates power curves over varied effect sizes and sample sizes.
 
-- ⬜ **Statistical test guide** _(planned)_: Recommends a test from data type, design, and assumption checks via a decision tree, then runs the test and reports the result with assumption diagnostics. Suggests nonparametric or robust alternatives when assumptions fail.
+- ✅ **Statistical test guide** _(stub, awaits wire-up)_: Recommends a test from data type, design, and assumption checks via a decision tree, then runs the test and reports the result with assumption diagnostics. Suggests nonparametric or robust alternatives when assumptions fail.
 
 - ⬜ **Behavioral event coder** _(planned)_: Frame-by-frame video and audio coding with mutually exclusive and overlapping event tracks, hotkey schemas, and modifiers, in the style of BORIS and ELAN. Produces state and point event logs with durations and transitions.
 
