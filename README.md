@@ -4091,7 +4091,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Forge and Kiln Build Calculator** _(stub, awaits wire-up)_: Sizes propane and coal forges, gas kilns, and glass furnaces: chamber volume, burner BTU, refractory thickness, flue draft, and insulating firebrick layer counts. Estimates fuel burn rate and reaches-temperature time for a target peak.
 
-- ⬜ **Project Costing and Stock Ledger** _(planned)_: Tracks raw stock (bar, sheet, wire, sprue, ingot, clay, glass rod, hide) with weight, dimensions, and per-unit cost; computes piece cost from kerf, scrap, fuel, electricity, and labor. Generates client quotes and bench-time invoices.
+- ✅ **Project Costing and Stock Ledger** _(stub, awaits wire-up)_: Tracks raw stock (bar, sheet, wire, sprue, ingot, clay, glass rod, hide) with weight, dimensions, and per-unit cost; computes piece cost from kerf, scrap, fuel, electricity, and labor. Generates client quotes and bench-time invoices.
 
 
 #### Visual arts: calligraphy, painting, sculpture
