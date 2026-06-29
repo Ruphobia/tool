@@ -2271,7 +2271,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Fatigue And S-N Curve Tool** _(stub, awaits wire-up)_: Plots S-N curves for common alloys, applies Goodman/Soderberg/Gerber mean-stress corrections, and estimates endurance limit from UTS with surface, size, loading, temperature, and reliability factors per Shigley.
 
-- ⬜ **Fracture Toughness And Crack Calculator** _(planned)_: Linear-elastic fracture mechanics solver: computes K_I for common geometries (edge crack, center crack, surface flaw), critical crack length from K_IC, leak-before-break checks, and Paris-law fatigue crack growth life.
+- ✅ **Fracture Toughness And Crack Calculator** _(stub, awaits wire-up)_: Linear-elastic fracture mechanics solver: computes K_I for common geometries (edge crack, center crack, surface flaw), critical crack length from K_IC, leak-before-break checks, and Paris-law fatigue crack growth life.
 
 - ⬜ **3D Print Material Picker** _(planned)_: Recommends FDM/SLA/SLS/MJF/DMLS materials for a part given service temperature, load, chemical exposure, optical/biocompatibility needs, dimensional tolerance, and budget. Flags anisotropy and post-processing requirements.
 
