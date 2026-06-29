@@ -425,7 +425,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **GraphQL playground** _(stub, awaits wire-up)_: Introspects a GraphQL endpoint, renders the schema as a navigable graph, and provides a query editor with autocompletion and variable binding. AI-integrated query generation from a question stated in plain English against the introspected schema.
 
-- ⬜ **gRPC client** _(planned)_: Loads .proto files or uses server reflection to call unary, server-streaming, client-streaming, and bidirectional gRPC methods. Renders request and response messages as editable structured forms and raw protobuf bytes.
+- ✅ **gRPC client** _(stub, awaits wire-up)_: Loads .proto files or uses server reflection to call unary, server-streaming, client-streaming, and bidirectional gRPC methods. Renders request and response messages as editable structured forms and raw protobuf bytes.
 
 - ⬜ **REST mock server** _(planned)_: Serves configurable JSON, XML, or binary responses from local routes for offline development and contract testing. Supports latency injection, scripted response branching, and replay of recorded sessions.
 
