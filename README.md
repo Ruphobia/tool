@@ -4178,7 +4178,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Body Placement Mockup** _(stub, awaits wire-up)_: Warps the design onto an uploaded body photo using pose-aware mesh fitting so the art follows curvature of limbs, ribs, and spine. Includes flexion poses to check stretch behavior.
 
-- ⬜ **Needle and Cartridge Reference** _(planned)_: Searchable database of liner, shader, magnum, and curved configurations with diameter, taper, and recommended voltage ranges. Cross-references brands and equivalents across cartridge systems.
+- ✅ **Needle and Cartridge Reference** _(stub, awaits wire-up)_: Searchable database of liner, shader, magnum, and curved configurations with diameter, taper, and recommended voltage ranges. Cross-references brands and equivalents across cartridge systems.
 
 - ⬜ **Ink Library and Mix Calculator** _(planned)_: Tracks pigment brands, batch numbers, and MSDS data, and computes mix ratios for custom greywash dilutions or color blends. Flags inks containing reportable allergens or banned EU REACH pigments.
 
