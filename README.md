@@ -1716,7 +1716,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sacred Geography Atlas** _(stub, awaits wire-up)_: GIS layer of pilgrimage sites, holy cities, sanctuaries, monasteries, and contested loci with diachronic boundaries of religious polities. Includes route data for hajj, Camino, Shikoku 88, Char Dham, and historical missionary networks.
 
-- ⬜ **Exegesis Notebook** _(planned)_: A pericope-anchored workspace for verse-by-verse commentary that links primary text, traditional commentators (Rashi, Ibn Kathir, Aquinas, Sankara, Buddhaghosa), and the user's notes. AI drafts comparative readings on request and flags reasoning lineage.
+- ✅ **Exegesis Notebook** _(stub, awaits wire-up)_: A pericope-anchored workspace for verse-by-verse commentary that links primary text, traditional commentators (Rashi, Ibn Kathir, Aquinas, Sankara, Buddhaghosa), and the user's notes. AI drafts comparative readings on request and flags reasoning lineage.
 
 - ⬜ **Manuscript Variant Apparatus** _(planned)_: Critical apparatus tooling for textual criticism: collates witnesses (Masoretic, LXX, DSS, Vulgate, Peshitta, Quranic qira'at, Buddhist recensions) with conjectural emendation notes. Renders Nestle-Aland-style apparatus and stemma diagrams.
 
