@@ -2200,7 +2200,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Print Failure Diagnostician** _(stub, awaits wire-up)_: Analyzes photos of failed prints to identify causes (under-extrusion, warping, layer shift, elephant foot, ringing, delamination) and proposes profile changes, with AI integration for visual classification and remediation steps.
 
-- ⬜ **Pressure Advance and Input Shaper Tuner** _(planned)_: Generates PA, input shaper, retraction, flow, temperature tower, and first-layer calibration test prints; reads resonance CSVs from Klipper or accelerometer logs and recommends shaper type and frequency.
+- ✅ **Pressure Advance and Input Shaper Tuner** _(stub, awaits wire-up)_: Generates PA, input shaper, retraction, flow, temperature tower, and first-layer calibration test prints; reads resonance CSVs from Klipper or accelerometer logs and recommends shaper type and frequency.
 
 - ⬜ **Mesh Repair and Orientation Optimizer** _(planned)_: Heals non-manifold meshes, fills holes, and re-meshes; finds print orientations that minimize support volume, maximize strength along load axes, and reduce visible seams on cosmetic faces.
 
