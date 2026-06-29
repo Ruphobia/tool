@@ -3126,7 +3126,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Patient Case Notebook** _(stub, awaits wire-up)_: De-identified case workspace with HPI, ROS, exam, labs, imaging, problem list, and differential; enforces PHI redaction on import and supports SOAP, H&P, and discharge-summary templates.
 
-- ⬜ **Differential Diagnosis Generator** _(planned)_: Takes signs, symptoms, labs, and demographics and produces a ranked differential with prior probabilities, distinguishing features, and suggested next tests; AI-integrated reasoning with citation back to source guidelines.
+- ✅ **Differential Diagnosis Generator** _(stub, awaits wire-up)_: Takes signs, symptoms, labs, and demographics and produces a ranked differential with prior probabilities, distinguishing features, and suggested next tests; AI-integrated reasoning with citation back to source guidelines.
 
 - ⬜ **Lab Reference Ranges** _(planned)_: Looks up reference intervals for chemistry, hematology, coagulation, endocrine, and tumor markers with age/sex/pregnancy stratification, unit conversion (SI vs conventional), and panic-value flagging.
 
