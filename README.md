@@ -2185,7 +2185,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Lubricant and tribology advisor** _(stub, awaits wire-up)_: Recommends lubricants and surface treatments by load, speed, temperature, and environment, with Stribeck curve and wear-rate estimates. AI-integrated diagnosis of wear modes from photos of worn parts.
 
-- ⬜ **Project and shop scheduler** _(planned)_: Plans jobs across machines, fixtures, operators, and material lead times with Gantt and capacity views. Predicts conflicts and suggests reorderings.
+- ✅ **Project and shop scheduler** _(stub, awaits wire-up)_: Plans jobs across machines, fixtures, operators, and material lead times with Gantt and capacity views. Predicts conflicts and suggests reorderings.
 
 
 #### Maker fab and personal manufacturing
