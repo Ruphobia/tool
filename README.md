@@ -2157,7 +2157,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Heat transfer calculator** _(stub, awaits wire-up)_: Conduction, convection, and radiation calculators with fin, heat sink, and pipe network solvers. Includes view factor computation and transient lumped-capacitance models.
 
-- ⬜ **Pneumatics and hydraulics designer** _(planned)_: Sizes cylinders, valves, lines, and accumulators by force, stroke, speed, and pressure drop, with circuit schematic capture and ISO 1219 symbols. Simulates pressure and flow over a duty cycle.
+- ✅ **Pneumatics and hydraulics designer** _(stub, awaits wire-up)_: Sizes cylinders, valves, lines, and accumulators by force, stroke, speed, and pressure drop, with circuit schematic capture and ISO 1219 symbols. Simulates pressure and flow over a duty cycle.
 
 - ⬜ **DFM/DFA reviewer** _(planned)_: Flags geometry that is hard to machine, mold, cast, print, or assemble: thin walls, sharp internal corners, deep pockets, undercuts, fastener access. AI-integrated rewrite suggestions to reduce cost and lead time.
 
