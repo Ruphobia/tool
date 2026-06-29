@@ -4036,7 +4036,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **CuppingSession** _(stub, awaits wire-up)_: SCA cupping form with the ten scored attributes plus Q-grade overlays, triangle and duo-trio panels, and blind randomization. Aggregates panel scores and flags outlier graders.
 
-- ⬜ **FoodPairingEngine** _(planned)_: AI-assisted pairing across coffee, tea, wine, beer, and spirits given a dish, cooking technique, and dominant flavor compounds. Cross-references aromatic congruence and contrast strategies with cited tasting precedents.
+- ✅ **FoodPairingEngine** _(stub, awaits wire-up)_: AI-assisted pairing across coffee, tea, wine, beer, and spirits given a dish, cooking technique, and dominant flavor compounds. Cross-references aromatic congruence and contrast strategies with cited tasting precedents.
 
 - ⬜ **SensoryWheel** _(planned)_: Tags tastings against SCA, WSET, BJCP, and spirits flavor wheels with shared aroma compound mappings. Cross-references descriptors across modalities and tracks personal vocabulary calibration.
 
