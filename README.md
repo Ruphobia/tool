@@ -2475,7 +2475,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Drill core and chip logger** _(stub, awaits wire-up)_: Lithology, structure (alpha/beta), RQD, and assay capture against a depth-registered core photo strip; QA/QC against standards, blanks, and duplicates.
 
-- ⬜ **Resource classification tool** _(planned)_: Inferred, indicated, and measured tagging per JORC and NI 43-101 from variogram range, drill spacing, and confidence shells; auditable category boundaries.
+- ✅ **Resource classification tool** _(stub, awaits wire-up)_: Inferred, indicated, and measured tagging per JORC and NI 43-101 from variogram range, drill spacing, and confidence shells; auditable category boundaries.
 
 - ⬜ **Heap-leach and tank-leach modeller** _(planned)_: Column kinetics, cyanide or acid consumption, and Merrill-Crowe or SX-EW recovery; pad inventory and pregnant solution grade over time.
 
