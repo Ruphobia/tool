@@ -636,7 +636,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Redis client** _(stub, awaits wire-up)_: Connects to standalone, sentinel, and cluster Redis with key browser, TTL inspector, pub/sub viewer, stream consumer-group monitor, slowlog tail, and SCAN-based safe key search.
 
-- ⬜ **MongoDB client** _(planned)_: Document browser with aggregation pipeline builder, explain plan viewer, index manager, change-streams tail, and schema sampler that infers field types and cardinality across a collection.
+- ✅ **MongoDB client** _(stub, awaits wire-up)_: Document browser with aggregation pipeline builder, explain plan viewer, index manager, change-streams tail, and schema sampler that infers field types and cardinality across a collection.
 
 - ⬜ **Time-series explorer** _(planned)_: Queries InfluxDB, Prometheus, TimescaleDB, and VictoriaMetrics with PromQL/Flux/SQL editors, label autocomplete, downsampling preview, and side-by-side metric correlation plots.
 
