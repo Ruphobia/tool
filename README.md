@@ -565,7 +565,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Datasheet ingester** _(stub, awaits wire-up)_: Indexes vendor datasheets, reference manuals, errata, and app notes into a searchable corpus with page-anchored citations. AI answers register and timing questions with the exact page and figure as evidence.
 
-- ⬜ **Errata tracker** _(planned)_: Maintains per-silicon-revision errata lists and cross-references them against the firmware's used peripherals and feature flags. Surfaces relevant errata on build and links to vendor workarounds.
+- ✅ **Errata tracker** _(stub, awaits wire-up)_: Maintains per-silicon-revision errata lists and cross-references them against the firmware's used peripherals and feature flags. Surfaces relevant errata on build and links to vendor workarounds.
 
 - ⬜ **Fuzzer and property tester** _(planned)_: Drives libFuzzer, AFL++, and Hypothesis-style property tests against parsers, protocol stacks, and state machines built for host or QEMU. Reports crashes with minimized reproducers.
 
