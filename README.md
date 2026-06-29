@@ -3265,7 +3265,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Bias correction & downscaling** _(stub, awaits wire-up)_: Applies quantile mapping, BCSD, BCCA, and EQM bias correction to model output against a reference (Livneh, PRISM, ERA5-Land); supports statistical downscaling and constructed-analogue methods for climate impact studies.
 
-- ⬜ **Storm chase nowcaster** _(planned)_: Combines latest HRRR, RAP mesoanalysis, MRMS, and GOES bands into a single map; AI-integrated highlighting of likely supercell, MCS, or QLCS modes from radar morphology and environmental shear/CAPE fields.
+- ✅ **Storm chase nowcaster** _(stub, awaits wire-up)_: Combines latest HRRR, RAP mesoanalysis, MRMS, and GOES bands into a single map; AI-integrated highlighting of likely supercell, MCS, or QLCS modes from radar morphology and environmental shear/CAPE fields.
 
 - ⬜ **Wind rose & climatology builder** _(planned)_: Builds wind roses, joint speed-direction distributions, diurnal and seasonal climatologies, and return-period estimates (GEV/GPD) from station or reanalysis records; exports for siting and renewable-energy studies.
 
