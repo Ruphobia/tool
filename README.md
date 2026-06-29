@@ -866,7 +866,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Tomography Suite** _(stub, awaits wire-up)_: State, process, and gate-set tomography with MLE and linear inversion reconstructions, randomized benchmarking and direct fidelity estimation protocols, and confidence intervals from bootstrap resampling.
 
-- ⬜ **Entanglement Inspector** _(planned)_: Computes and plots entanglement entropy, concurrence, negativity, and mutual information across bipartitions, with a graph view of pairwise entanglement and Schmidt decomposition of any cut.
+- ✅ **Entanglement Inspector** _(stub, awaits wire-up)_: Computes and plots entanglement entropy, concurrence, negativity, and mutual information across bipartitions, with a graph view of pairwise entanglement and Schmidt decomposition of any cut.
 
 - ⬜ **Resource Estimator** _(planned)_: Reports qubit count, circuit depth, T-count, Toffoli-count, two-qubit-gate count, and projected wall-clock runtime on selected devices, including fault-tolerant overhead estimates for a chosen code distance.
 
