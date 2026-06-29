@@ -329,7 +329,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Secret scanner** _(in testing)_: Detects committed credentials, API keys, and PEM blobs in the working tree and history, with entropy heuristics and AI confirmation to suppress obvious false positives.
 
-- ⬜ **REPL and scratchpad** _(planned)_: Per-language interactive shells (Python, Node, Ruby, Lua, shell, SQL) with persistent sessions, attachable to project venvs, and AI scaffolding of throwaway experiments from a one-line goal.
+- ✅ **REPL and scratchpad** _(stub, awaits wire-up)_: Per-language interactive shells (Python, Node, Ruby, Lua, shell, SQL) with persistent sessions, attachable to project venvs, and AI scaffolding of throwaway experiments from a one-line goal.
 
 - ⬜ **Notebook runner** _(planned)_: Jupyter-style mixed prose, code, and plot cells stored as plain files, with kernel switching, cached outputs, and AI cells that call the pipeline as a first-class block type.
 
