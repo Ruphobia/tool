@@ -640,7 +640,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Time-series explorer** _(stub, awaits wire-up)_: Queries InfluxDB, Prometheus, TimescaleDB, and VictoriaMetrics with PromQL/Flux/SQL editors, label autocomplete, downsampling preview, and side-by-side metric correlation plots.
 
-- ⬜ **Graph DB browser** _(planned)_: Cypher and Gremlin console for Neo4j, Memgraph, and JanusGraph with force-directed graph rendering, path expansion on click, schema constraints viewer, and pattern-match templates.
+- ✅ **Graph DB browser** _(stub, awaits wire-up)_: Cypher and Gremlin console for Neo4j, Memgraph, and JanusGraph with force-directed graph rendering, path expansion on click, schema constraints viewer, and pattern-match templates.
 
 - ⬜ **Vector DB inspector** _(planned)_: Browses FAISS, Qdrant, Milvus, Weaviate, Pinecone, and pgvector collections; runs k-NN queries with score breakdown, visualizes embeddings via UMAP/t-SNE, and reports recall against a labeled probe set.
 
