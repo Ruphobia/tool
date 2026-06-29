@@ -2461,7 +2461,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Block model and ore-grade estimator** _(stub, awaits wire-up)_: Ordinary kriging, indicator kriging, IDW, and nearest-neighbor estimation onto a regular block grid; leave-one-out cross-validation and variogram fitting.
 
-- ⬜ **Pit optimizer** _(planned)_: Lerchs-Grossmann and pseudoflow ultimate pit shells with nested pits by revenue factor; pushback sequencing and stripping-ratio rollups.
+- ✅ **Pit optimizer** _(stub, awaits wire-up)_: Lerchs-Grossmann and pseudoflow ultimate pit shells with nested pits by revenue factor; pushback sequencing and stripping-ratio rollups.
 
 - ⬜ **Underground stope designer** _(planned)_: Sublevel, cut-and-fill, and longhole geometries with Mathews stability number and dilution-skin estimation; backfill strength and sequencing checks.
 
