@@ -591,7 +591,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Radio link designer** _(stub, awaits wire-up)_: Link-budget calculator for BLE, Wi-Fi, LoRa, Sub-GHz, NB-IoT, and Thread with antenna gain, path loss, and regional duty-cycle rules. AI-integrated channel and SF/PHY suggestion from a deployment description.
 
-- ⬜ **USB descriptor builder** _(planned)_: Composes USB device, configuration, interface, endpoint, HID, CDC, MSC, audio, and video descriptors with validation against the spec. Emits C structs and matching host-side test scripts.
+- ✅ **USB descriptor builder** _(stub, awaits wire-up)_: Composes USB device, configuration, interface, endpoint, HID, CDC, MSC, audio, and video descriptors with validation against the spec. Emits C structs and matching host-side test scripts.
 
 - ⬜ **Filesystem and storage designer** _(planned)_: Layouts and inspectors for LittleFS, SPIFFS, FATFS, EEPROM emulation, and journaled flash regions with wear and endurance modeling. Generates mkfs payloads for first-boot provisioning.
 
