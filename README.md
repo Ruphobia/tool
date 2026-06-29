@@ -4758,7 +4758,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Supplement and Pharmacology Log** _(stub, awaits wire-up)_: Tracks melatonin, magnesium, glycine, apigenin, and (gated, with safety notes) galantamine or choline use for REM augmentation. Correlates dose and timing with subsequent sleep architecture and lucidity outcomes.
 
-- ⬜ **Sleep Environment Audit** _(planned)_: Checklist plus optional sensor capture for bedroom temperature, humidity, CO2, noise floor, and lux at eye level. Scores the environment against evidence-based targets and recommends single-variable fixes.
+- ✅ **Sleep Environment Audit** _(stub, awaits wire-up)_: Checklist plus optional sensor capture for bedroom temperature, humidity, CO2, noise floor, and lux at eye level. Scores the environment against evidence-based targets and recommends single-variable fixes.
 
 - ⬜ **Dream Incubation Planner** _(planned)_: Composes pre-sleep intention scripts targeting a chosen theme, person, or problem, with a brief rehearsal protocol and post-wake recall prompt. Uses an on-device model to draft and refine the intention text.
 
