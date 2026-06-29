@@ -4514,7 +4514,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Game Call Library** _(stub, awaits wire-up)_: Audio reference of elk bugles, turkey yelps, whitetail grunts, predator distress, and waterfowl calls with cadence diagrams and best-use season notes. Includes a sequence builder that practices call-and-response drills against playback.
 
-- ⬜ **Field Dressing and Yield Planner** _(planned)_: Step-by-step diagrams for gutting, skinning, quartering, and butchering big game, small game, upland, waterfowl, and common fish. Estimates boneless yield by cut, generates a freezer label sheet, and tracks cooler ice budget for warm-weather hauls.
+- ✅ **Field Dressing and Yield Planner** _(stub, awaits wire-up)_: Step-by-step diagrams for gutting, skinning, quartering, and butchering big game, small game, upland, waterfowl, and common fish. Estimates boneless yield by cut, generates a freezer label sheet, and tracks cooler ice budget for warm-weather hauls.
 
 - ⬜ **Trap Line Manager** _(planned)_: Maps sets along a line with target species, lure, bait, anchor type, and last-check timestamp, and enforces statutory check intervals per jurisdiction. Pelt prep workflow tracks fleshing, drying, and grading per fur.
 
