@@ -176,7 +176,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **IP folder maintainer** _(in testing)_: auto-maintains `<project>/.tool/ip/` with dated invention disclosures, prior-art search results, claim drafts, and a defensive-publication log. Detects novel-claim-shaped content emerging in the chat and commits a timestamped disclosure with supporting file refs (commit SHAs, schematic hashes, etc.). Flags suspected infringement of patents already in the prior-art DB.
 
-- ⬜ **Decisions folder maintainer** _(planned)_: auto-maintains `<project>/.tool/decisions/` with ADR-style entries ("we picked X over Y because Z") so the project's architectural reasoning lives somewhere other than chat history.
+- ✅ **Decisions folder maintainer** _(in testing)_: auto-maintains `<project>/.tool/decisions/` with ADR-style entries ("we picked X over Y because Z") so the project's architectural reasoning lives somewhere other than chat history.
 
 - ⬜ **Project memory** _(planned)_: a knowledge base per project that accumulates across the lifetime of the project. AI tools both read from it (recall prior decisions and observations) and write to it (after each substantive session). Distinct from the per-session context and the Wikipedia knowledge base.
 
