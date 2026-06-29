@@ -1107,7 +1107,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Cost and budget tracker** _(stub, awaits wire-up)_: Per-project ledger of estimated and actual cost from time entries, fixed costs, and external invoices, charted against budget over time. Drill-down by ticket, epic, or resource with burn-rate forecasting.
 
-- ⬜ **Scope-change monitor** _(planned)_: Diff of sprint or release scope across snapshots, attributing each addition, removal, or resize to a user, time, and reason. AI-integrated classifier flags additions as in-scope clarification, true scope creep, or split-out work.
+- ✅ **Scope-change monitor** _(stub, awaits wire-up)_: Diff of sprint or release scope across snapshots, attributing each addition, removal, or resize to a user, time, and reason. AI-integrated classifier flags additions as in-scope clarification, true scope creep, or split-out work.
 
 
 #### Quality, safety, risk, and compliance
