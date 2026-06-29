@@ -1247,7 +1247,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Distractor Generator** _(stub, awaits wire-up)_: Produces plausible wrong answers for multiple-choice items, biased toward common misconceptions or controlled error categories. Useful for converting open-response banks into MCQs without trivial decoys.
 
-- ⬜ **Item Calibrator** _(planned)_: Fits 1PL, 2PL, and 3PL IRT models from response logs to estimate item difficulty, discrimination, and guessing. Flags misfit items and produces test information curves for blueprint planning.
+- ✅ **Item Calibrator** _(stub, awaits wire-up)_: Fits 1PL, 2PL, and 3PL IRT models from response logs to estimate item difficulty, discrimination, and guessing. Flags misfit items and produces test information curves for blueprint planning.
 
 - ⬜ **Classroom Runner** _(planned)_: Presents a quiz live with a projector view, anonymous response capture from learner devices on the local network, and per-question timing. Streams aggregate response distributions back to the instructor view.
 
