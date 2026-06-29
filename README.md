@@ -2544,7 +2544,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Lambert Solver** _(stub, awaits wire-up)_: Solves the two-point boundary value problem for ballistic transfers between two position vectors and a time of flight, supporting multi-revolution solutions, prograde/retrograde branches, and Izzo's universal-variable formulation.
 
-- ⬜ **Porkchop Plot Generator** _(planned)_: Sweeps launch and arrival date grids to produce C3, departure v-infinity, arrival v-infinity, declination of launch asymptote, and total delta-v contour plots for interplanetary or lunar transfers. AI-integrated suggestion of promising windows from mission constraints.
+- ✅ **Porkchop Plot Generator** _(stub, awaits wire-up)_: Sweeps launch and arrival date grids to produce C3, departure v-infinity, arrival v-infinity, declination of launch asymptote, and total delta-v contour plots for interplanetary or lunar transfers. AI-integrated suggestion of promising windows from mission constraints.
 
 - ⬜ **Delta-V Budget Planner** _(planned)_: Composes mission delta-v budgets from Hohmann, bi-elliptic, plane change, combined, phasing, and finite-burn maneuvers, with margin policies and side-by-side comparison of architectures.
 
