@@ -4055,7 +4055,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Alloy Composer** _(stub, awaits wire-up)_: Selects ferrous, copper, silver, and gold alloys by hardness, color, melting range, workability, and cost. Predicts liquidus and solidus from composition, suggests deoxidizers, and surfaces hallmark thresholds (sterling, 14k, 18k, britannia, shibuichi, shakudo).
 
-- ⬜ **Forge Heat and Color Reference** _(planned)_: Maps visible incandescent color to temperature for low-light shop conditions across carbon steels, wrought iron, bronze, and silver. Cross-references forging, normalizing, hardening, and tempering windows for the selected alloy.
+- ✅ **Forge Heat and Color Reference** _(stub, awaits wire-up)_: Maps visible incandescent color to temperature for low-light shop conditions across carbon steels, wrought iron, bronze, and silver. Cross-references forging, normalizing, hardening, and tempering windows for the selected alloy.
 
 - ⬜ **Heat Treatment Planner** _(planned)_: Builds quench and temper schedules for tool steels, spring steels, and pattern-welded billets with soak times derived from cross-section thickness. Suggests quenchant, interrupted cycles, and cryo treatment for retained austenite.
 
