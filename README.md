@@ -3675,7 +3675,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Steganography** _(stub, awaits wire-up)_: LSB and DCT hide/extract for text and small payloads inside images and audio-of-video tracks. Reports capacity and visual detectability estimates.
 
-- ⬜ **3D viewer and converter** _(planned)_: Loads OBJ, GLTF, FBX, STL, USDZ, and PLY (including Gaussian splats) with turntable preview and format conversion. Bakes textures and renders thumbnails for the asset library.
+- ✅ **3D viewer and converter** _(stub, awaits wire-up)_: Loads OBJ, GLTF, FBX, STL, USDZ, and PLY (including Gaussian splats) with turntable preview and format conversion. Bakes textures and renders thumbnails for the asset library.
 
 - ⬜ **Texture and material tools** _(planned)_: PBR texture authoring with seamless tiling, normal/height/roughness map extraction, and AI-integrated material synthesis from a single photo. Outputs glTF-ready material sets.
 
