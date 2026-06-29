@@ -1392,7 +1392,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Patent Search** _(stub, awaits wire-up)_: Full-text search over a local mirror of USPTO and EPO grants and applications with CPC class browse, claim parsing, family resolution, and prior-art assembly into a report. AI-assisted novelty triage against a draft claim set.
 
-- ⬜ **Trademark Screener** _(planned)_: Searches USPTO TESS, EUIPO, and WIPO Madrid databases for word and design marks, runs phonetic (Soundex, Metaphone) and visual similarity checks, classifies under Nice classes, and produces a clearance memo.
+- ✅ **Trademark Screener** _(stub, awaits wire-up)_: Searches USPTO TESS, EUIPO, and WIPO Madrid databases for word and design marks, runs phonetic (Soundex, Metaphone) and visual similarity checks, classifies under Nice classes, and produces a clearance memo.
 
 - ⬜ **Docket Calendar** _(planned)_: Case and deadline tracker that computes hearing, response, appeal, and statute-of-limitations dates from filing dates and applicable court rules (federal, state, local, ex-US). ICS export, per-matter reminders, and a chain-of-deadlines view.
 
