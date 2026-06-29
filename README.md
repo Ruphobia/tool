@@ -2745,7 +2745,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **DTC Fault-Code Lookup** _(stub, awaits wire-up)_: Resolves OBD-II generic and manufacturer-specific P/B/C/U codes with descriptions, common causes, and ranked fix probabilities. AI-assisted triage cross-references freeze-frame data, mileage, and prior repairs to suggest a diagnostic order.
 
-- ⬜ **Service Log & Receipts** _(planned)_: Per-vehicle ledger of oil changes, tire rotations, fluid flushes, filters, brake jobs, and timing belts. Captures odometer, parts numbers, fluid specs, torque values, cost, vendor, and scanned receipts; exports a complete service history PDF.
+- ✅ **Service Log & Receipts** _(stub, awaits wire-up)_: Per-vehicle ledger of oil changes, tire rotations, fluid flushes, filters, brake jobs, and timing belts. Captures odometer, parts numbers, fluid specs, torque values, cost, vendor, and scanned receipts; exports a complete service history PDF.
 
 - ⬜ **Tire & Wheel Calculator** _(planned)_: Converts between metric and inch tire sizes, computes overall diameter, sidewall height, revs-per-mile, and speedometer error from stock. Checks load and speed ratings, wheel offset/backspace fitment, and tire pressure recommendations by load.
 
