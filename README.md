@@ -658,7 +658,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Performance dashboard** _(stub, awaits wire-up)_: Live charts of QPS, latency percentiles, buffer cache hit ratio, lock waits, deadlocks, vacuum progress, autovacuum bloat, and connection pool saturation across configured instances.
 
-- ⬜ **Lock and deadlock inspector** _(planned)_: Shows current locks, blocked-by chains, and deadlock graph; offers safe-kill of blocking sessions and replays deadlock traces from logs to reproduce contention.
+- ✅ **Lock and deadlock inspector** _(stub, awaits wire-up)_: Shows current locks, blocked-by chains, and deadlock graph; offers safe-kill of blocking sessions and replays deadlock traces from logs to reproduce contention.
 
 - ⬜ **Sharding and partition planner** _(planned)_: Analyzes table size and access skew, recommends partition keys (range, list, hash) and shard layouts for Citus/Vitess, and previews per-shard query routing.
 
