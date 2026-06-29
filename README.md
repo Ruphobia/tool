@@ -954,7 +954,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Smart Contract Drafter** _(stub, awaits wire-up)_: Scaffolds Solidity, Vyper, and Move contracts from a natural-language spec with AI-integrated generation of standard patterns (ERC-20, ERC-721, ERC-4626, multisig, timelock). Compiles in-browser and produces deployment scripts and verification metadata.
 
-- ⬜ **Contract Analyzer** _(planned)_: Decompiles EVM bytecode, recovers function signatures via 4byte lookup, and runs static checks for reentrancy, integer overflow, tx.origin misuse, and unchecked external calls. AI-integrated explanation of detected patterns with severity scoring.
+- ✅ **Contract Analyzer** _(stub, awaits wire-up)_: Decompiles EVM bytecode, recovers function signatures via 4byte lookup, and runs static checks for reentrancy, integer overflow, tx.origin misuse, and unchecked external calls. AI-integrated explanation of detected patterns with severity scoring.
 
 - ⬜ **EVM Debugger** _(planned)_: Steps through transaction execution opcode by opcode against a local fork, with stack, memory, storage, and gas at each step. Supports source-mapped Solidity stepping and time-travel reverse execution.
 
