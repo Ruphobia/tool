@@ -2853,7 +2853,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Inverter Efficiency Mapper** _(stub, awaits wire-up)_: Loads CEC/Sandia inverter coefficients and renders the efficiency surface across DC input voltage and load fraction. Computes weighted CEC efficiency and predicts clipping losses at a chosen DC/AC ratio.
 
-- ⬜ **Load Profile Builder** _(planned)_: Constructs 8760-hour residential, commercial, or off-grid load shapes from appliance schedules, occupancy, HVAC, EV charging, and well pumps. Imports CSV smart-meter data and decomposes into base, thermal, and discretionary components.
+- ✅ **Load Profile Builder** _(stub, awaits wire-up)_: Constructs 8760-hour residential, commercial, or off-grid load shapes from appliance schedules, occupancy, HVAC, EV charging, and well pumps. Imports CSV smart-meter data and decomposes into base, thermal, and discretionary components.
 
 - ⬜ **Battery Bank Sizer** _(planned)_: Sizes a battery bank for target days of autonomy, depth-of-discharge limits, and round-trip efficiency, with chemistry-specific derating (LiFePO4, NMC, lead-acid AGM, flow). Reports usable kWh, cycle life at the chosen DoD, and replacement cadence.
 
