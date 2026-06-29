@@ -2414,7 +2414,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Leak locator** _(stub, awaits wire-up)_: Acoustic correlation and pressure-transient leak detection from time-series sensor data. Cross-correlates hydrophone signals to estimate leak position along a pipe segment and runs inverse transient analysis against the hydraulic model; AI-integrated anomaly flagging from DMA night-flow patterns.
 
-- ⬜ **IDF curve generator** _(planned)_: Fits intensity-duration-frequency curves from rainfall gauge records or NOAA Atlas 14 grids. Outputs design storms (Chicago, NRCS, alternating block, Huff) at user-selected return periods for the runoff and routing tools.
+- ✅ **IDF curve generator** _(stub, awaits wire-up)_: Fits intensity-duration-frequency curves from rainfall gauge records or NOAA Atlas 14 grids. Outputs design storms (Chicago, NRCS, alternating block, Huff) at user-selected return periods for the runoff and routing tools.
 
 - ⬜ **Utility GIS overlay** _(planned)_: Layered map view of mains, laterals, valves, hydrants, manholes, lift stations, and outfalls over basemap and parcel data. Imports shapefile/GeoJSON/GeoPackage, snaps the hydraulic and sewer models to real geometry, and exports as-builts with attribute schemas (Esri Utility Network, INSPIRE).
 
