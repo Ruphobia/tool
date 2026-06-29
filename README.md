@@ -642,7 +642,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Graph DB browser** _(stub, awaits wire-up)_: Cypher and Gremlin console for Neo4j, Memgraph, and JanusGraph with force-directed graph rendering, path expansion on click, schema constraints viewer, and pattern-match templates.
 
-- ⬜ **Vector DB inspector** _(planned)_: Browses FAISS, Qdrant, Milvus, Weaviate, Pinecone, and pgvector collections; runs k-NN queries with score breakdown, visualizes embeddings via UMAP/t-SNE, and reports recall against a labeled probe set.
+- ✅ **Vector DB inspector** _(stub, awaits wire-up)_: Browses FAISS, Qdrant, Milvus, Weaviate, Pinecone, and pgvector collections; runs k-NN queries with score breakdown, visualizes embeddings via UMAP/t-SNE, and reports recall against a labeled probe set.
 
 - ⬜ **Search index manager** _(planned)_: Manages Elasticsearch, OpenSearch, and Meilisearch indices with analyzer testing, mapping editor, reindex orchestrator, and query DSL playground with relevance scoring breakdown.
 
