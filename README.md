@@ -3943,7 +3943,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Brewing Recipe Builder** _(stub, awaits wire-up)_: Designs all-grain, extract, and BIAB recipes with grain bill, mash schedule, hop schedule, and yeast; outputs OG, FG, ABV, SRM, and IBU under selectable Tinseth, Rager, and Garetz models.
 
-- ⬜ **Mash Water Chemistry Designer** _(planned)_: Models source water plus salt and acid additions against style-appropriate sulfate, chloride, and calcium targets; predicts mash pH from grist color and acidulated malt percentage.
+- ✅ **Mash Water Chemistry Designer** _(stub, awaits wire-up)_: Models source water plus salt and acid additions against style-appropriate sulfate, chloride, and calcium targets; predicts mash pH from grist color and acidulated malt percentage.
 
 - ⬜ **Yeast Pitch & Starter Designer** _(planned)_: Computes pitch rate by gravity and volume for ale, lager, and Brettanomyces strains; designs stepped starters using stir-plate vs intermittent-shaking growth factors and viability decay.
 
