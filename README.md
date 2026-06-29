@@ -1151,7 +1151,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Logistics, supply chain, operations research
 
-- ⬜ **VRP solver** _(planned)_: Solves capacitated vehicle routing with time windows, pickup/delivery, heterogeneous fleet, and multi-depot constraints using OR-Tools / VROOM-style metaheuristics (guided local search, LNS). Imports OSM road networks for real travel times and exports per-driver manifests.
+- ✅ **VRP solver** _(stub, awaits wire-up)_: Solves capacitated vehicle routing with time windows, pickup/delivery, heterogeneous fleet, and multi-depot constraints using OR-Tools / VROOM-style metaheuristics (guided local search, LNS). Imports OSM road networks for real travel times and exports per-driver manifests.
 
 - ⬜ **TSP playground** _(planned)_: Solves large symmetric and asymmetric TSPs via Lin-Kernighan (LKH-style), Concorde-style branch-and-cut for optimality, and Christofides for bounded approximation. Visualizes tour evolution and gap-to-lower-bound in real time.
 
