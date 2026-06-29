@@ -2529,7 +2529,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Seismic SEG-Y previewer** _(stub, awaits wire-up)_: Loads SEG-Y 2D and 3D volumes; arbitrary inline/crossline/time slices with horizon picking and well-tie wavelet check.
 
-- ⬜ **GIS and georeference helper** _(planned)_: Reprojects between WGS84, UTM, state plane, and local mine grids; reads shapefiles, GeoPackage, and KML with attribute joins for lease, license, and concession boundaries.
+- ✅ **GIS and georeference helper** _(stub, awaits wire-up)_: Reprojects between WGS84, UTM, state plane, and local mine grids; reads shapefiles, GeoPackage, and KML with attribute joins for lease, license, and concession boundaries.
 
 
 #### Aerospace and orbital mechanics
