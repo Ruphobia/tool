@@ -2013,7 +2013,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Interferogram Analyzer** _(stub, awaits wire-up)_: Loads single-frame, phase-shifted, or carrier-fringe interferograms; performs Fourier-transform fringe analysis, quality-guided phase unwrapping, tilt/piston removal, and Zernike fitting to produce calibrated surface or wavefront maps.
 
-- ⬜ **Optical Bench Layout** _(planned)_: Top-down 2D and 3D scene editor for breadboard layouts with hole-grid snapping, mounted-component library (mirrors, mounts, posts, cages, kinematics), beam path visualization, and BOM export with vendor part numbers.
+- ✅ **Optical Bench Layout** _(stub, awaits wire-up)_: Top-down 2D and 3D scene editor for breadboard layouts with hole-grid snapping, mounted-component library (mirrors, mounts, posts, cages, kinematics), beam path visualization, and BOM export with vendor part numbers.
 
 - ⬜ **Diffraction Grating Designer** _(planned)_: Computes blaze efficiency, dispersion, free spectral range, and resolving power for ruled, holographic, echelle, and volume phase holographic gratings via scalar and rigorous coupled-wave analysis across polarization and order.
 
