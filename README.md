@@ -3390,7 +3390,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Faunal analysis** _(stub, awaits wire-up)_: Records NISP, MNI, MNE, MAU, %survivorship, age-at-death, and butchery/burning marks for zooarchaeological assemblages. Computes diversity indices, taphonomic profiles, and skeletal-part representation plots.
 
-- ⬜ **Lithic typology** _(planned)_: Classifies stone tools and debitage by techno-typological scheme (Bordes, Tixier, chaine operatoire stages), records metrics (length, width, thickness, platform attributes), and tracks raw-material sourcing. Generates refit diagrams and reduction-sequence flow charts.
+- ✅ **Lithic typology** _(stub, awaits wire-up)_: Classifies stone tools and debitage by techno-typological scheme (Bordes, Tixier, chaine operatoire stages), records metrics (length, width, thickness, platform attributes), and tracks raw-material sourcing. Generates refit diagrams and reduction-sequence flow charts.
 
 - ⬜ **Ceramic seriation** _(planned)_: Builds seriation matrices from sherd type counts using frequency (Ford) and occurrence (Robinson) methods, with correspondence analysis and battleship-curve plots. Links sherd drawings, fabric descriptions, and rim-diameter charts.
 
