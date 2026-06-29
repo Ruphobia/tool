@@ -2445,7 +2445,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **PVT and equation-of-state analyzer** _(stub, awaits wire-up)_: Peng-Robinson and Soave-Redlich-Kwong fluid models with volume shift; flashes mixtures, tunes BIPs to CCE/DL/CVD lab data, and exports black-oil PVT tables.
 
-- ⬜ **Decline curve analyzer** _(planned)_: Fits Arps exponential, hyperbolic, and harmonic plus Duong and SEDM unconventional models; bootstraps EUR P10/P50/P90 uncertainty and exports type curves.
+- ✅ **Decline curve analyzer** _(stub, awaits wire-up)_: Fits Arps exponential, hyperbolic, and harmonic plus Duong and SEDM unconventional models; bootstraps EUR P10/P50/P90 uncertainty and exports type curves.
 
 - ⬜ **Nodal analysis tool** _(planned)_: Vogel and Fetkovich IPR intersected with Hagedorn-Brown, Beggs-Brill, or mechanistic VLP correlations; sensitivity over choke, tubing size, and reservoir pressure.
 
