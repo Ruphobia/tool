@@ -4621,7 +4621,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Magnetic model** _(stub, awaits wire-up)_: Evaluates WMM and IGRF coefficients for variation, inclination, and field strength at a given lat/lon/date, applies deviation from a per-heading swing card, and converts between true, magnetic, and compass headings. Fits a new deviation card from a logged compass swing.
 
-- ⬜ **Route and passage planner** _(planned)_: Builds multi-leg routes with great-circle and rhumb-line segments, snaps to ENC safety contours and TSS lanes, and computes ETA bands from polar plus weather. Generates a printable passage plan with waypoints, leg bearings, tidal windows, port-of-refuge fallbacks, and a SOLAS-style berth-to-berth checklist.
+- ✅ **Route and passage planner** _(stub, awaits wire-up)_: Builds multi-leg routes with great-circle and rhumb-line segments, snaps to ENC safety contours and TSS lanes, and computes ETA bands from polar plus weather. Generates a printable passage plan with waypoints, leg bearings, tidal windows, port-of-refuge fallbacks, and a SOLAS-style berth-to-berth checklist.
 
 - ⬜ **Sail trim assistant** _(planned)_: Compares live wind, heel, rudder angle, and boatspeed against polar targets and suggests sheet, traveller, halyard, backstay, and outhaul adjustments per sail. AI-integrated recommendation explains the dominant loss (twist, depth, angle of attack) and proposes one change at a time.
 
