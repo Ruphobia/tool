@@ -2725,7 +2725,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **GPS Lap and Sector Analyzer** _(stub, awaits wire-up)_: Builds a track map from GPS traces, auto-detects start/finish and segments, and reports per-sector deltas, theoretical best, and ideal racing line offset. Supports outlap/inlap trimming and weather-tagged stint stats.
 
-- ⬜ **Race Strategy Planner** _(planned)_: Models fuel burn, tire deg, pit-stop loss, and safety-car probability to optimize stint length and tire choice across a race distance. AI-integrated what-if suggestions propose strategy alternatives from historical stint data.
+- ✅ **Race Strategy Planner** _(stub, awaits wire-up)_: Models fuel burn, tire deg, pit-stop loss, and safety-car probability to optimize stint length and tire choice across a race distance. AI-integrated what-if suggestions propose strategy alternatives from historical stint data.
 
 - ⬜ **Vehicle Dynamics Simulator** _(planned)_: Runs quarter-car, bicycle, and seven-post models with user-defined mass, geometry, tires, and aero to simulate skidpad, slalom, and acceleration tests. Outputs lateral G, yaw response, and load transfer for comparison against logged data.
 
