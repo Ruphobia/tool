@@ -3429,7 +3429,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Marine species ID** _(stub, awaits wire-up)_: Photo-based identification for reef fish, invertebrates, macroalgae, and corals with region-aware priors (Caribbean, Indo-Pacific, NE Pacific, etc.). Surfaces diagnostic features and GBIF occurrence overlays.
 
-- ⬜ **Dive log + decompression planner** _(planned)_: Records depth/time profiles from Suunto, Shearwater, and Garmin downloads. Runs Buhlmann ZH-L16C with configurable gradient factors and VPM-B; plans multi-gas, trimix, and CCR dives with bailout schedules.
+- ✅ **Dive log + decompression planner** _(stub, awaits wire-up)_: Records depth/time profiles from Suunto, Shearwater, and Garmin downloads. Runs Buhlmann ZH-L16C with configurable gradient factors and VPM-B; plans multi-gas, trimix, and CCR dives with bailout schedules.
 
 - ⬜ **Hydroacoustic spectrogram** _(planned)_: Loads WAV/FLAC hydrophone recordings and renders calibrated spectrograms with band-limited SPL, 1/3-octave noise, and AI-assisted detection of cetacean calls, snapping shrimp, and vessel signatures.
 
