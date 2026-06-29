@@ -725,7 +725,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Package manager frontend** _(stub, awaits wire-up)_: Unified view over apt, dnf, pacman, nix, flatpak, and snap with installed lists, upgrade preview, orphan detection, and pinning. Shows full transaction logs and supports rollback where the backend allows it.
 
-- ⬜ **Hardware inventory** _(planned)_: Aggregates lshw, lspci, lsusb, dmidecode, and sensors output into a browsable hardware tree with firmware versions, temperatures, and fan speeds. Highlights drivers in use and lists kernel modules per device.
+- ✅ **Hardware inventory** _(stub, awaits wire-up)_: Aggregates lshw, lspci, lsusb, dmidecode, and sensors output into a browsable hardware tree with firmware versions, temperatures, and fan speeds. Highlights drivers in use and lists kernel modules per device.
 
 - ⬜ **Performance profiler** _(planned)_: Wraps perf, eBPF, and bpftrace to record on-CPU and off-CPU profiles and render flamegraphs and latency histograms. AI-integrated narration of hot stacks and likely bottleneck classifications.
 
