@@ -3235,7 +3235,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Skew-T/Log-P sounding plotter** _(stub, awaits wire-up)_: Plots radiosonde, model, and dropsonde profiles with parcel paths, mixed-layer and most-unstable lifts, CAPE/CIN/LCL/LFC/EL, PWAT, and freezing levels using MetPy thermodynamics; loads RAOB, BUFKIT, and GFS/HRRR sounding files.
 
-- ⬜ **Hodograph & severe parameters** _(planned)_: Draws 0-1, 0-3, 0-6 km hodographs with storm motion (Bunkers right/left) and computes SRH, EHI, STP, SCP, SHIP, and effective bulk shear for severe weather analysis.
+- ✅ **Hodograph & severe parameters** _(stub, awaits wire-up)_: Draws 0-1, 0-3, 0-6 km hodographs with storm motion (Bunkers right/left) and computes SRH, EHI, STP, SCP, SHIP, and effective bulk shear for severe weather analysis.
 
 - ⬜ **NEXRAD Level II viewer** _(planned)_: Decodes WSR-88D Archive II volumes via Py-ART; renders reflectivity, velocity, spectrum width, ZDR, KDP, CC, and RhoHV with PPI, RHI, and pseudo-CAPPI views; supports dealiasing, dual-pol HCA, and storm-relative motion.
 
