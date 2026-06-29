@@ -3413,7 +3413,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Tidal current rose** _(stub, awaits wire-up)_: Predicts ebb/flood currents at NOAA current stations and renders rose diagrams of speed and direction over arbitrary intervals. Handles reversing, rotary, and hydraulic current types.
 
-- ⬜ **Bathymetry viewer** _(planned)_: Renders GEBCO, ETOPO, and BAG/GeoTIFF bathymetry with hillshade, contour lines, and along-track profile extraction. Supports vertical exaggeration sliders and slope/aspect derivatives.
+- ✅ **Bathymetry viewer** _(stub, awaits wire-up)_: Renders GEBCO, ETOPO, and BAG/GeoTIFF bathymetry with hillshade, contour lines, and along-track profile extraction. Supports vertical exaggeration sliders and slope/aspect derivatives.
 
 - ⬜ **CTD profile plotter** _(planned)_: Plots temperature, salinity, density, oxygen, and fluorometry against depth from CNV, ODV, and netCDF casts. Applies SBE-style despiking, loop-edit, and bin-averaging with per-channel QC flags.
 
