@@ -850,7 +850,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pulse Schedule Editor** _(stub, awaits wire-up)_: OpenPulse-style waveform editor with Gaussian, DRAG, and arbitrary envelopes, frame/phase tracking, calibrated single-qubit and two-qubit primitives, and an instruction schedule timeline aligned to the gate-level circuit.
 
-- ⬜ **Quantum Notebook** _(planned)_: Python notebook accepting Qiskit and Cirq style syntax with inline circuit rendering, live state plots, and AI-integrated translation between framework dialects and natural-language prompts for circuit construction.
+- ✅ **Quantum Notebook** _(stub, awaits wire-up)_: Python notebook accepting Qiskit and Cirq style syntax with inline circuit rendering, live state plots, and AI-integrated translation between framework dialects and natural-language prompts for circuit construction.
 
 - ⬜ **Transpiler** _(planned)_: Multi-pass compiler targeting selectable native gate sets (CX/CZ, iSWAP, Mølmer-Sørensen) with KAK decomposition, commutation-based optimization, Solovay-Kitaev, and side-by-side depth and gate-count diffs of each pass.
 
