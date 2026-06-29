@@ -4817,7 +4817,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Battery cycle log** _(stub, awaits wire-up)_: tracks LiPo/Li-ion pack charge cycles, internal resistance trend, voltage sag under load, abuse events. Flags packs near end-of-life.
 
-- ⬜ **FPV setup and video link** _(planned)_: VTX frequency selector (race-band awareness), goggle pairing, DVR/HD recording, latency profiling, antenna polarization mismatch detector.
+- ✅ **FPV setup and video link** _(stub, awaits wire-up)_: VTX frequency selector (race-band awareness), goggle pairing, DVR/HD recording, latency profiling, antenna polarization mismatch detector.
 
 - ⬜ **Race track timer and lap analyzer** _(planned)_: transponder integration, lap-time charts, sector splits, fastest-clean-lap, comparison across drivers/sessions.
 
