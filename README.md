@@ -4740,7 +4740,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **WBTB Alarm Composer** _(stub, awaits wire-up)_: Builds multi-stage alarm sequences for wake-back-to-bed protocols: primary wake, awake-window length, mantra rehearsal cue, and re-entry alarm. Adapts to last night's onset latency and the running cycle estimate.
 
-- ⬜ **Chronotype Quiz** _(planned)_: Administers the Morningness-Eveningness Questionnaire (MEQ), Munich Chronotype Questionnaire (MCTQ), and AutoMEQ. Reports chronotype score, mid-sleep on free days corrected for sleep debt (MSFsc), and social jetlag.
+- ✅ **Chronotype Quiz** _(stub, awaits wire-up)_: Administers the Morningness-Eveningness Questionnaire (MEQ), Munich Chronotype Questionnaire (MCTQ), and AutoMEQ. Reports chronotype score, mid-sleep on free days corrected for sleep debt (MSFsc), and social jetlag.
 
 - ⬜ **Circadian Phase Estimator** _(planned)_: Estimates dim-light melatonin onset (DLMO) and core body temperature minimum from logged sleep midpoints, light exposure, and (optionally) HRV troughs. Produces a phase-advance or phase-delay recommendation window.
 
