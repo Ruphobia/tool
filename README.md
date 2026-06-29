@@ -3706,7 +3706,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **LUT Designer** _(stub, awaits wire-up)_: Authors 1D and 3D LUTs from before/after frame pairs or from explicit gain/contrast/sat operations, converts between .cube, .3dl, and .lut formats at arbitrary cube sizes, and validates round-trip accuracy with a ColorChecker reference.
 
-- ⬜ **Film Stock Emulator** _(planned)_: Models grain structure, spectral sensitivity, characteristic curves, halation, and reciprocity behavior for catalogued color and B&W stocks (Portra, Velvia, Tri-X, Cinestill, and others), applied as a post-process pass on linear input.
+- ✅ **Film Stock Emulator** _(stub, awaits wire-up)_: Models grain structure, spectral sensitivity, characteristic curves, halation, and reciprocity behavior for catalogued color and B&W stocks (Portra, Velvia, Tri-X, Cinestill, and others), applied as a post-process pass on linear input.
 
 - ⬜ **Time-Lapse Builder** _(planned)_: Calculates intervals for a target output duration, ramps exposure across day-to-night transitions, deflickers the sequence, applies motion-blur synthesis between frames, and renders to ProRes or H.265 with optional dolly-zoom interpolation.
 
