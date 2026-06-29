@@ -4305,7 +4305,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Spell And Item Library** _(stub, awaits wire-up)_: Filterable catalog of spells, magic items, mundane gear, and crafting recipes with school/level/rarity/source filters and per-system attunement and slot rules. Items link to character sheets and loot tables for one-click assignment.
 
-- ⬜ **NPC Generator** _(planned)_: Produces NPCs with names, appearances, mannerisms, secrets, voice notes, and full stat blocks tuned to a culture/region defined in the World Bible. AI generates dialogue snippets and motive arcs grounded in the linked faction and location context.
+- ✅ **NPC Generator** _(stub, awaits wire-up)_: Produces NPCs with names, appearances, mannerisms, secrets, voice notes, and full stat blocks tuned to a culture/region defined in the World Bible. AI generates dialogue snippets and motive arcs grounded in the linked faction and location context.
 
 - ⬜ **Calendar And Timeline** _(planned)_: Custom-calendar engine supporting arbitrary months, weeks, moons, planar conjunctions, and holidays, with event scheduling and travel-time math. Renders chronological and parallel-track timelines for campaigns, factions, and PC backstories.
 
