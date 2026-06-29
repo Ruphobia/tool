@@ -4143,7 +4143,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Mint Mark and Variety Tracker** _(stub, awaits wire-up)_: Database of mint marks, die varieties, double dies, RPMs, overdates, plate flaws, and printing varieties keyed to catalog numbers. Flags collectible varieties versus errors versus PMD on a submitted specimen.
 
-- ⬜ **Hallmark and Purity Decoder** _(planned)_: Reference for silver, gold, platinum, and pewter hallmarks across jurisdictions (Britannia, Sheffield assay, French poincon, Russian zolotnik, US sterling). Decodes maker, assay office, date letter, and fineness from struck marks.
+- ✅ **Hallmark and Purity Decoder** _(stub, awaits wire-up)_: Reference for silver, gold, platinum, and pewter hallmarks across jurisdictions (Britannia, Sheffield assay, French poincon, Russian zolotnik, US sterling). Decodes maker, assay office, date letter, and fineness from struck marks.
 
 - ⬜ **Auction Price Comparator** _(planned)_: Aggregates realized prices from Heritage, Stack's Bowers, Spink, Kunker, Cherrystone, and other house archives, normalized by grade and population. Plots price-by-grade curves and flags outlier results worth investigating.
 
