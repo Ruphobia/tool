@@ -981,7 +981,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **BIOS and Firmware Catalog** _(stub, awaits wire-up)_: Searchable index of BIOS, kernal, and firmware images with SHA1, CRC32, MD5, board revision, source provenance, and No-Intro/TOSEC/Redump cross-references.
 
-- ⬜ **Disk Image Forge** _(planned)_: Converts and validates D64, D71, D81, G64, NIB, DSK, ADF, ST, IMG, IMD, and HFE; preserves error info and weak-bit data where the source format supports it.
+- ✅ **Disk Image Forge** _(stub, awaits wire-up)_: Converts and validates D64, D71, D81, G64, NIB, DSK, ADF, ST, IMG, IMD, and HFE; preserves error info and weak-bit data where the source format supports it.
 
 - ⬜ **Floppy Flux Workbench** _(planned)_: Ingests KryoFlux, Greaseweazle, and Applesauce flux streams, visualizes bit cells per track, detects common copy protections, and reconstructs sectors with confidence scores.
 
