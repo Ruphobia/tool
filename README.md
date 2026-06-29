@@ -4572,7 +4572,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Critical power and W-prime tracker** _(stub, awaits wire-up)_: Fits the CP/W' model from 3-minute all-out or multi-effort test data, then simulates W' balance during interval workouts to predict failure points.
 
-- ⬜ **Race pacing planner** _(planned)_: Computes Daniels VDOT zones and Riegel equivalent times across distances; overlays target splits on a GPX course profile with grade-adjusted pace.
+- ✅ **Race pacing planner** _(stub, awaits wire-up)_: Computes Daniels VDOT zones and Riegel equivalent times across distances; overlays target splits on a GPX course profile with grade-adjusted pace.
 
 - ⬜ **Wearable file importer** _(planned)_: Parses .fit, .tcx, .gpx, and CSV exports from Garmin, Strava, Wahoo, Polar, Apple Health, and Whoop into a normalized activity/stream schema with deduplication.
 
