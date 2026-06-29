@@ -4180,7 +4180,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Needle and Cartridge Reference** _(stub, awaits wire-up)_: Searchable database of liner, shader, magnum, and curved configurations with diameter, taper, and recommended voltage ranges. Cross-references brands and equivalents across cartridge systems.
 
-- ⬜ **Ink Library and Mix Calculator** _(planned)_: Tracks pigment brands, batch numbers, and MSDS data, and computes mix ratios for custom greywash dilutions or color blends. Flags inks containing reportable allergens or banned EU REACH pigments.
+- ✅ **Ink Library and Mix Calculator** _(stub, awaits wire-up)_: Tracks pigment brands, batch numbers, and MSDS data, and computes mix ratios for custom greywash dilutions or color blends. Flags inks containing reportable allergens or banned EU REACH pigments.
 
 - ⬜ **Aftercare Protocol Generator** _(planned)_: Produces client-specific aftercare instructions based on placement, size, technique, and skin type, with day-by-day timelines. AI adapts wording for reading level and translates to client's preferred language.
 
