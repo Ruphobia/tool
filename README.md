@@ -4383,7 +4383,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **RNG Manipulator** _(stub, awaits wire-up)_: RNG state tracker and manipulation planner that models per-frame PRNG advancement for games with exposed seeds. Generates input sequences that hit target seeds and verifies them against captured runs.
 
-- ⬜ **VOD Indexer** _(planned)_: Local index over Twitch, YouTube, and downloaded VODs with chat ingest, scene detection, and OCR of in-game HUDs. AI tagger marks deaths, objective takes, and notable plays for instant jump-to.
+- ✅ **VOD Indexer** _(stub, awaits wire-up)_: Local index over Twitch, YouTube, and downloaded VODs with chat ingest, scene detection, and OCR of in-game HUDs. AI tagger marks deaths, objective takes, and notable plays for instant jump-to.
 
 - ⬜ **Highlight Cutter** _(planned)_: Clip extractor that takes timestamps from the VOD indexer or chat spikes and produces vertical/horizontal cuts with captions, splits overlay, and watermark. Renders via local ffmpeg with deterministic encode profiles.
 
