@@ -1542,7 +1542,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Regression workbench** _(stub, awaits wire-up)_: Fits OLS, GLM, mixed-effects, quantile, robust, and regularized (Ridge/Lasso/ElasticNet) regressions with full diagnostics: residual plots, leverage, VIF, Cook's distance, and partial dependence. AI-integrated narration of which diagnostics actually matter for the fit at hand.
 
-- ⬜ **Bayesian sandbox** _(planned)_: PyMC and NumPyro front-end for specifying priors, running NUTS/HMC/SVI, and inspecting traces, R-hat, ESS, posterior predictive checks, and pair plots. Supports model comparison via LOO and WAIC.
+- ✅ **Bayesian sandbox** _(stub, awaits wire-up)_: PyMC and NumPyro front-end for specifying priors, running NUTS/HMC/SVI, and inspecting traces, R-hat, ESS, posterior predictive checks, and pair plots. Supports model comparison via LOO and WAIC.
 
 - ⬜ **Time-series lab** _(planned)_: Decomposes series into trend/seasonal/residual, fits ARIMA, SARIMAX, ETS, Prophet, and state-space models, runs stationarity and cointegration tests, and produces forecasts with prediction intervals. AI-integrated model-class recommendation based on ACF/PACF and seasonality signatures.
 
