@@ -2729,7 +2729,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Vehicle Dynamics Simulator** _(stub, awaits wire-up)_: Runs quarter-car, bicycle, and seven-post models with user-defined mass, geometry, tires, and aero to simulate skidpad, slalom, and acceleration tests. Outputs lateral G, yaw response, and load transfer for comparison against logged data.
 
-- ⬜ **Quarter-Mile Predictor** _(planned)_: Estimates 0-60, 60-foot, ET, and trap speed from weight, power curve, drivetrain loss, tire grip, gearing, and drag, with launch-RPM and clutch-slip sweeps. Reverse-solves for the power needed to hit a target ET.
+- ✅ **Quarter-Mile Predictor** _(stub, awaits wire-up)_: Estimates 0-60, 60-foot, ET, and trap speed from weight, power curve, drivetrain loss, tire grip, gearing, and drag, with launch-RPM and clutch-slip sweeps. Reverse-solves for the power needed to hit a target ET.
 
 - ⬜ **Wheel and Tire Fitment Calculator** _(planned)_: Computes rolling circumference, speedometer error, fender clearance, scrub radius shift, and load-rating delta when changing wheel offset, width, or tire size. Visualizes the resulting wheel pose inside a fender outline.
 
