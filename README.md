@@ -1562,7 +1562,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Labeling studio** _(stub, awaits wire-up)_: Annotation interface for classification, NER, span, bbox, polygon, keypoint, and audio segment tasks with inter-annotator agreement metrics. AI-integrated pre-labeling and active-learning sample selection.
 
-- ⬜ **Data quality profiler** _(planned)_: Produces per-column distributions, missingness patterns, cardinality, drift vs. a reference snapshot, and Great-Expectations-style assertions. Flags schema changes, outliers, and constant or near-constant columns.
+- ✅ **Data quality profiler** _(stub, awaits wire-up)_: Produces per-column distributions, missingness patterns, cardinality, drift vs. a reference snapshot, and Great-Expectations-style assertions. Flags schema changes, outliers, and constant or near-constant columns.
 
 - ⬜ **Vector index lab** _(planned)_: Build, inspect, and query FAISS, HNSW, ScaNN, and LanceDB indexes over arbitrary embedding columns with recall/latency tradeoff curves and ANN-vs-exact comparison.
 
