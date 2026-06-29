@@ -3983,7 +3983,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Dehydration and Curing Scheduler** _(stub, awaits wire-up)_: Plans drying schedules for jerky, biltong, charcuterie, and herbs with target water activity and equilibrium humidity. Models weight loss curves and flags hazard windows where surface case hardening or mold growth is likely.
 
-- ⬜ **Modified Atmosphere Packaging Reference** _(planned)_: Looks up recommended gas mixtures (CO2, N2, O2 residuals) for cheese, cured meats, produce, and coffee. Calculates headspace volume, gas flush durations, and OTR/MVTR film selection for a given shelf-life target.
+- ✅ **Modified Atmosphere Packaging Reference** _(stub, awaits wire-up)_: Looks up recommended gas mixtures (CO2, N2, O2 residuals) for cheese, cured meats, produce, and coffee. Calculates headspace volume, gas flush durations, and OTR/MVTR film selection for a given shelf-life target.
 
 - ⬜ **Water-Bath and Pressure Canning Guide** _(planned)_: Provides validated process times for high-acid and low-acid recipes indexed by jar size, altitude, and product density. Cross-references USDA and NCHFP guidance and refuses to generate schedules outside tested parameter envelopes.
 
