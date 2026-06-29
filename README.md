@@ -476,7 +476,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Device frame composer** _(stub, awaits wire-up)_: Wraps captured screenshots in current Apple and Android device bezels at App Store and Play Console required resolutions, with locale overlays, status bar normalization, and notch/Dynamic Island masking.
 
-- ⬜ **App icon set generator** _(planned)_: Takes one master 1024px artwork and emits the full iOS AppIcon.appiconset, Android mipmap densities, adaptive icon foreground/background layers, monochrome themed icon, and watchOS/tvOS variants.
+- ✅ **App icon set generator** _(stub, awaits wire-up)_: Takes one master 1024px artwork and emits the full iOS AppIcon.appiconset, Android mipmap densities, adaptive icon foreground/background layers, monochrome themed icon, and watchOS/tvOS variants.
 
 - ⬜ **Adaptive icon studio** _(planned)_: Previews Android adaptive icons across OEM mask shapes (circle, squircle, teardrop, rounded square), animates the parallax wiggle, and validates safe zone clearance for the foreground layer.
 
