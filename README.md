@@ -1736,7 +1736,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Field Ethnography Recorder** _(stub, awaits wire-up)_: Local-first capture tool for participant-observation: timestamped notes, audio, photos, and geotags bound to ritual event schemas. Enforces an IRB-style consent and provenance ledger for sensitive material.
 
-- ⬜ **Argument map editor** _(planned)_: Builds argument maps with premises, conclusions, attacks, and supports; imports Argdown syntax, exports to JSON-LD and SVG, and validates instantiations of Walton argument schemes.
+- ✅ **Argument map editor** _(stub, awaits wire-up)_: Builds argument maps with premises, conclusions, attacks, and supports; imports Argdown syntax, exports to JSON-LD and SVG, and validates instantiations of Walton argument schemes.
 
 - ⬜ **Formal logic prover** _(planned)_: Checks propositional, first-order, and modal arguments by dispatching to Prover9, Mace4, Z3, and a native tableaux engine; renders natural-deduction proofs, countermodels, and truth tables.
 
