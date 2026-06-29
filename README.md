@@ -3231,7 +3231,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **GRIB2/NetCDF inspector** _(stub, awaits wire-up)_: Opens GRIB1/GRIB2, NetCDF3/4, HDF5, and Zarr stores; lists messages, variables, dimensions, CF attributes, and projection metadata; previews fields as quicklook maps with subsetting by bbox, level, and time.
 
-- ⬜ **NWP model field viewer** _(planned)_: Renders GFS, HRRR, NAM, RAP, ECMWF, ICON, and GEM output as filled contours, streamlines, and wind barbs over Cartopy basemaps; supports run cycle picker, forecast hour scrubber, and side-by-side model comparison.
+- ✅ **NWP model field viewer** _(stub, awaits wire-up)_: Renders GFS, HRRR, NAM, RAP, ECMWF, ICON, and GEM output as filled contours, streamlines, and wind barbs over Cartopy basemaps; supports run cycle picker, forecast hour scrubber, and side-by-side model comparison.
 
 - ⬜ **Skew-T/Log-P sounding plotter** _(planned)_: Plots radiosonde, model, and dropsonde profiles with parcel paths, mixed-layer and most-unstable lifts, CAPE/CIN/LCL/LFC/EL, PWAT, and freezing levels using MetPy thermodynamics; loads RAOB, BUFKIT, and GFS/HRRR sounding files.
 
