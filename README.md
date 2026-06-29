@@ -1441,7 +1441,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **PII Redactor** _(stub, awaits wire-up)_: Masks faces, MRZ, signatures, and structured fields in images, PDFs, and JSON payloads; supports differential redaction with reversible vault entries gated by purpose-bound access tokens.
 
-- ⬜ **Consent and Lawful-Basis Tracker** _(planned)_: Records GDPR Article 6 and 9 basis per data element, tracks consent versioning, expiry, and withdrawal events, and emits Records-of-Processing (ROPA) inventories for the DPO.
+- ✅ **Consent and Lawful-Basis Tracker** _(stub, awaits wire-up)_: Records GDPR Article 6 and 9 basis per data element, tracks consent versioning, expiry, and withdrawal events, and emits Records-of-Processing (ROPA) inventories for the DPO.
 
 - ⬜ **DSAR Builder** _(planned)_: Assembles a GDPR or CCPA subject access response pack: locates all records by subject identifier across stores, redacts third-party data, and produces a portable JSON and PDF export with chain-of-custody manifest.
 
