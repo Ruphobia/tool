@@ -1083,7 +1083,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Milestone and release tracker** _(stub, awaits wire-up)_: Versioned releases with target dates, scope sets, freeze windows, and per-ticket inclusion criteria. Computes release readiness from open-blocker count and required-review state.
 
-- ⬜ **OKR and goal tracker** _(planned)_: Objective/key-result hierarchy with measurable targets, current values, check-in cadence, and confidence scores. Key results link to the tickets and metrics that drive them, with automatic progress rollup.
+- ✅ **OKR and goal tracker** _(stub, awaits wire-up)_: Objective/key-result hierarchy with measurable targets, current values, check-in cadence, and confidence scores. Key results link to the tickets and metrics that drive them, with automatic progress rollup.
 
 - ⬜ **Risk register** _(planned)_: Catalog of identified risks with probability, impact, owner, mitigation, and trigger conditions, scored into a heatmap. AI-integrated scan of recent tickets, retros, and incidents proposes new candidate risks.
 
