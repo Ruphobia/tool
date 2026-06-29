@@ -1128,7 +1128,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **HAZOP and LOPA workbook** _(stub, awaits wire-up)_: Walks process nodes with guideword and parameter prompts (No, More, Less, Reverse, As-Well-As), records deviations, causes, consequences, and safeguards, and runs Layer of Protection Analysis to derive required SIL per IEC 61511.
 
-- ⬜ **Risk-matrix heatmap** _(planned)_: Renders configurable likelihood-by-consequence matrices (3x3, 5x5, ISO 31000, MIL-STD-882) with calibrated probability bands, plots inherent vs residual risk, and exports ALARP demonstrations.
+- ✅ **Risk-matrix heatmap** _(stub, awaits wire-up)_: Renders configurable likelihood-by-consequence matrices (3x3, 5x5, ISO 31000, MIL-STD-882) with calibrated probability bands, plots inherent vs residual risk, and exports ALARP demonstrations.
 
 - ⬜ **Hazard register** _(planned)_: Maintains a structured hazard inventory tagged by location, activity, energy source, and affected receptor, links each hazard to controls, owners, due dates, and references HIRA, JHA, and bowtie records.
 
