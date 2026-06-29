@@ -1654,7 +1654,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **IPA Reconstruction Lab** _(stub, awaits wire-up)_: Reconstructs probable pronunciations for attested and unattested forms using comparative method rules: PIE, Proto-Semitic, Proto-Indo-Iranian, and intermediate stages. Outputs IPA with stress, vowel length, and tonal accent, plus audio synthesis where periodization permits.
 
-- ⬜ **Critical Apparatus Editor** _(planned)_: Authors TEI-conformant critical editions with sigla management, variant readings, conjectures, and lemma-keyed apparatus entries. Renders the Leiden conventions for papyrology (square brackets, dots under, underdot) and outputs print-ready PDF via XeLaTeX.
+- ✅ **Critical Apparatus Editor** _(stub, awaits wire-up)_: Authors TEI-conformant critical editions with sigla management, variant readings, conjectures, and lemma-keyed apparatus entries. Renders the Leiden conventions for papyrology (square brackets, dots under, underdot) and outputs print-ready PDF via XeLaTeX.
 
 - ⬜ **Parallel Corpus Aligner** _(planned)_: Aligns ancient text with translations and other versions at the word, phrase, or verse level: Hebrew/LXX/Vulgate, Sanskrit/Pali, Akkadian/Sumerian bilinguals, Greek/Coptic. Supports concordance search and lemma-based queries across aligned layers.
 
