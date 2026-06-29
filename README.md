@@ -1251,7 +1251,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Classroom Runner** _(stub, awaits wire-up)_: Presents a quiz live with a projector view, anonymous response capture from learner devices on the local network, and per-question timing. Streams aggregate response distributions back to the instructor view.
 
-- ⬜ **Mastery Tracker** _(planned)_: Maintains per-learner knowledge state across a skill graph using Bayesian knowledge tracing and forgetting-curve projections. Recommends the next review item and predicts retention at chosen horizons.
+- ✅ **Mastery Tracker** _(stub, awaits wire-up)_: Maintains per-learner knowledge state across a skill graph using Bayesian knowledge tracing and forgetting-curve projections. Recommends the next review item and predicts retention at chosen horizons.
 
 - ⬜ **Worked Example Generator** _(planned)_: Produces step-by-step solutions for a target problem, plus faded-step and hint-laddered variants for scaffolded practice. Renders math via LaTeX and code via syntax-highlighted blocks.
 
