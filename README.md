@@ -2381,7 +2381,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Bolted & Welded Connection Designer** _(stub, awaits wire-up)_: Designs steel connections (shear tabs, end plates, base plates, moment connections) per AISC 360 with block shear, prying, and weld capacity checks. Outputs detail drawings and bolt schedules.
 
-- ⬜ **Section Property Calculator** _(planned)_: Computes area, centroid, moments of inertia, plastic modulus, torsion constant, and shear center for arbitrary built-up sections. Imports DXF outlines and rolled-shape libraries.
+- ✅ **Section Property Calculator** _(stub, awaits wire-up)_: Computes area, centroid, moments of inertia, plastic modulus, torsion constant, and shear center for arbitrary built-up sections. Imports DXF outlines and rolled-shape libraries.
 
 - ⬜ **Quantity Takeoff & Cost Estimator** _(planned)_: Extracts material quantities from a model or marked-up plan and prices them against RSMeans-style unit-cost libraries. Rolls into CSI-formatted cost reports with regional adjustment factors.
 
