@@ -3194,7 +3194,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Microdata explorer** _(stub, awaits wire-up)_: Loads IPUMS, CPS, and PUMS extracts with variable harmonization across years, applies replicate weights for variance estimation, and exposes a tabulation grid with crosstabs and significance flags.
 
-- ⬜ **Shapefile/GIS overlay** _(planned)_: Reads shapefiles, GeoJSON, GeoPackage, and KML, reprojects between CRS (NAD83, WGS84, state plane), performs spatial joins, buffers, and dissolves, and renders choropleths with classed breaks (Jenks, quantile, equal interval).
+- ✅ **Shapefile/GIS overlay** _(stub, awaits wire-up)_: Reads shapefiles, GeoJSON, GeoPackage, and KML, reprojects between CRS (NAD83, WGS84, state plane), performs spatial joins, buffers, and dissolves, and renders choropleths with classed breaks (Jenks, quantile, equal interval).
 
 - ⬜ **Redistricting plan editor** _(planned)_: Builds and edits district plans from precinct or block building blocks, enforces contiguity and population equality tolerances, and shows live compactness (Polsby-Popper, Reock, Schwartzberg), VRA-relevant demographic splits, and partisan composition.
 
