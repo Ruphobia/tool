@@ -1726,7 +1726,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Comparative Mythology Graph** _(stub, awaits wire-up)_: Knowledge graph of deities, archetypes, cosmogonies, eschatons, and culture heroes with typed edges for cognates, syncretisms, and influence vectors. Supports Dumezilian, Eliadean, and historicist queries.
 
-- ⬜ **Canon and Apocrypha Tracker** _(planned)_: Tabulates inclusion status of every candidate text across canons (Catholic, Protestant, Ethiopian Orthodox, Tewahedo, rabbinic, Samaritan, Mandaean, various Buddhist canons, Daoist Daozang). Includes council decisions and dating ranges.
+- ✅ **Canon and Apocrypha Tracker** _(stub, awaits wire-up)_: Tabulates inclusion status of every candidate text across canons (Catholic, Protestant, Ethiopian Orthodox, Tewahedo, rabbinic, Samaritan, Mandaean, various Buddhist canons, Daoist Daozang). Includes council decisions and dating ranges.
 
 - ⬜ **Hymnody and Chant Archive** _(planned)_: Searchable repository of hymns, chants, qawwali, kirtan, gregorian neumes, Byzantine ekphonetic notation, and shomyo with notation, audio, and lyric translations. Indexes by mode, occasion, and tradition.
 
