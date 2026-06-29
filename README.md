@@ -498,7 +498,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Privacy manifest generator** _(stub, awaits wire-up)_: Builds PrivacyInfo.xcprivacy for iOS and the Play Console Data Safety form from a single declared inventory of SDKs, tracking domains, required-reason API usage, and data categories collected.
 
-- ⬜ **Fastlane lane scaffolder** _(planned)_: Generates Fastfile lanes for match, gym, scan, supply, and pilot tuned to the project's signing setup, with secrets resolved from the signing identity vault and CI YAML stubs for GitHub Actions and Bitrise.
+- ✅ **Fastlane lane scaffolder** _(stub, awaits wire-up)_: Generates Fastfile lanes for match, gym, scan, supply, and pilot tuned to the project's signing setup, with secrets resolved from the signing identity vault and CI YAML stubs for GitHub Actions and Bitrise.
 
 - ⬜ **UI flow recorder** _(planned)_: Captures user flows from a connected simulator/emulator and emits Maestro YAML, XCUITest Swift, and Espresso Kotlin equivalents, with element selectors stabilized via accessibility identifiers rather than coordinates.
 
