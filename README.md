@@ -1868,7 +1868,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Orthography Mapper** _(stub, awaits wire-up)_: Defines bidirectional phoneme-grapheme correspondences, romanization schemes, and transliteration tables between scripts. Renders any lexicon entry or text sample in the chosen orthography on demand.
 
-- ⬜ **Comparative Method Workbench** _(planned)_: Aligns cognate sets across related languages, derives regular sound correspondences, and reconstructs proto-forms. Flags borrowings and chance resemblances against the established regularity baseline.
+- ✅ **Comparative Method Workbench** _(stub, awaits wire-up)_: Aligns cognate sets across related languages, derives regular sound correspondences, and reconstructs proto-forms. Flags borrowings and chance resemblances against the established regularity baseline.
 
 - ⬜ **Diachronic Family Tree** _(planned)_: Models a language family as a branching tree with dated splits, inherited sound-change cascades, and contact-induced borrowing arrows. Re-running the cascade re-derives every daughter lexicon from the proto-lexicon, keeping the family internally consistent.
 
