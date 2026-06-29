@@ -1903,7 +1903,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Translation memory** _(stub, awaits wire-up)_: TMX-backed segment store with fuzzy match retrieval, leverage statistics, penalty configuration, and project-scoped concordance search.
 
-- ⬜ **Diarization and speaker tool** _(planned)_: Speaker turn segmentation, speaker embedding clustering, and named-speaker labeling persisted across sessions and projects.
+- ✅ **Diarization and speaker tool** _(stub, awaits wire-up)_: Speaker turn segmentation, speaker embedding clustering, and named-speaker labeling persisted across sessions and projects.
 
 - ⬜ **Speech denoiser** _(planned)_: Noise reduction, dereverberation, and bandwidth extension tuned for ASR and TTS input quality. AI-integrated model selection from a captured noise profile of the source clip.
 
