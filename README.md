@@ -3398,7 +3398,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Stable isotope analyzer** _(stub, awaits wire-up)_: Ingests delta 13C, delta 15N, delta 18O, and 87Sr/86Sr measurements from bone collagen, enamel, and shell to reconstruct diet, mobility, and paleoclimate. Plots mixing models (FRUITS/MixSIAR-style) and applies trophic enrichment factors.
 
-- ⬜ **Body size and mass estimator** _(planned)_: Estimates body mass, stance, and locomotor parameters from limb element dimensions (femoral circumference, humeral length) using regression equations for mammals, dinosaurs, and other clades. Reports prediction intervals and the source equation used.
+- ✅ **Body size and mass estimator** _(stub, awaits wire-up)_: Estimates body mass, stance, and locomotor parameters from limb element dimensions (femoral circumference, humeral length) using regression equations for mammals, dinosaurs, and other clades. Reports prediction intervals and the source equation used.
 
 - ⬜ **Paleogeographic mapper** _(planned)_: Projects occurrences and sample sites onto paleocontinental reconstructions (PaleoMAP, GPlates rotation files) for chosen ages. Plots paleolatitude tracks, paleoclimate belts, and ocean-current overlays for biogeographic analysis.
 
