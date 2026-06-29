@@ -4311,7 +4311,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Language And Script Lab** _(stub, awaits wire-up)_: Conlang workbench with phoneme inventories, sound-change rules, lexicon, romanization, and glyph/script designers for in-world writing systems. Renders inscriptions and produces player-handout images with optional cipher-reveal layers.
 
-- ⬜ **Handout And Prop Studio** _(planned)_: Layout tool for letters, maps-in-the-fiction, ransom notes, wanted posters, and tavern menus with parchment/ink presets and aging effects. Exports print-ready PDFs and player-screen variants; AI drafts in-character prose from bullet briefs.
+- ✅ **Handout And Prop Studio** _(stub, awaits wire-up)_: Layout tool for letters, maps-in-the-fiction, ransom notes, wanted posters, and tavern menus with parchment/ink presets and aging effects. Exports print-ready PDFs and player-screen variants; AI drafts in-character prose from bullet briefs.
 
 - ⬜ **Voice And Ambience Mixer** _(planned)_: Local audio board for combat tracks, biome ambience, weather layers, and stinger cues with crossfade, ducking, and scene presets that follow the active map or encounter. Drives playback from initiative events (round start, low HP, boss phase).
 
