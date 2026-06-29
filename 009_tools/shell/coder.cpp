@@ -4,6 +4,7 @@
 #include "../../model_chunks.hpp"
 
 extern "C" void physics_shutdown_if_loaded();
+extern "C" void chemistry_shutdown_if_loaded();
 
 #include <algorithm>
 #include <cstdio>
@@ -45,8 +46,9 @@ std::string strip(const std::string & s) {
 Runtime * get_runtime_locked() {
     if (g_runtime) return g_runtime;
 
-    // Evict the physics model (if it's holding GPU 1) before we load.
+    // Evict any other tenant of GPU 1 before we load.
     physics_shutdown_if_loaded();
+    chemistry_shutdown_if_loaded();
 
     llama_model_params mp = llama_model_default_params();
     mp.n_gpu_layers = 999;

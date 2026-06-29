@@ -26,3 +26,4 @@ std::string answer(std::string_view question);
 // to forward-declare from the other side.
 extern "C" void physics_shutdown_if_loaded();
 extern "C" void coder_shutdown_if_loaded();
+extern "C" void chemistry_shutdown_if_loaded();

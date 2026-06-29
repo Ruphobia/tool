@@ -213,12 +213,11 @@ function joinPath(base, name) {
 function commitOpenFolder(path) {
   state.rootDir = path;
   document.getElementById('files-root').textContent = path;
-  // open terminals reset to new project root; update their prompt lines too.
-  for (const [id, t] of Object.entries(state.terminals)) {
-    t.cwd = path;
-    const scr = termStack.querySelector(`.term-instance[data-id="${id}"] .term-screen`);
-    if (scr) renderPromptLine(scr, t.cwd, t.input || '');
-  }
+  // Close every existing terminal and open a fresh one rooted at the new
+  // folder — matches the user's "should close that terminal and open a
+  // terminal in the new folder" model.
+  for (const id of Object.keys(state.terminals)) closeTerminal(id);
+  newTerminal();
   closeFolderPicker();
   refreshFileTree();
 }
@@ -347,16 +346,23 @@ async function openFile(path) {
     const host = document.createElement('div');
     host.className = 'md-editor-host';
     surface.appendChild(host);
+    // Force a layout pass so the host has real dimensions BEFORE Toast UI
+    // measures it. Otherwise Toast UI sometimes throws or renders blank.
+    await new Promise(r => requestAnimationFrame(r));
+    void host.offsetHeight;
     try {
       const editor = new toastui.Editor({
         el: host,
         initialValue: j.content,
-        previewStyle: 'tab',
-        initialEditType: 'wysiwyg',
+        // Hide Toast UI's bottom-right mode switch; we put our own toggle
+        // ON the tab (see addMdModeToggle below).
+        previewStyle: 'vertical',
+        initialEditType: 'markdown',
+        previewHighlight: true,
         theme: 'dark',
         height: '100%',
         usageStatistics: false,
-        hideModeSwitch: false,
+        hideModeSwitch: true,
         toolbarItems: [
           ['heading','bold','italic','strike'],
           ['hr','quote'],
@@ -372,11 +378,22 @@ async function openFile(path) {
       });
       getContent = () => editor.getMarkdown();
       destroy    = () => { try { editor.destroy(); } catch {} };
+      // Stash a mode-switch callback so the tab toggle can drive it.
+      state.files[path].changeMode = (m) => {
+        try { editor.changeMode(m); } catch {}
+        state.files[path].mdMode = m;
+      };
+      state.files[path].mdMode = 'markdown';
     } catch (err) {
       // Toast UI blew up. Fall back to a plain textarea showing the source
-      // so the user can at least see + edit the markdown.
+      // so the user can at least see + edit the markdown. Surface the
+      // error visibly above the textarea so we can diagnose.
       console.error('Toast UI editor failed:', err);
       host.remove();
+      const errBar = document.createElement('div');
+      errBar.style.cssText = 'background:#7a3030;color:#fff;padding:4px 8px;font-size:11px;';
+      errBar.textContent = 'Markdown engine failed (' + (err && err.message ? err.message : 'unknown') + ') — falling back to plain text editor.';
+      surface.appendChild(errBar);
       const ta = document.createElement('textarea');
       ta.className = 'editor-textarea prose';
       ta.spellcheck = true;
@@ -420,21 +437,46 @@ async function openFile(path) {
     getContent = () => j.content;
   }
 
-  // Build tab
+  // Build tab. Markdown files always get a Source/Rendered toggle.
   const tab = document.createElement('div');
   tab.className = 'editor-tab';
   tab.dataset.path = path;
-  tab.innerHTML = `<span class="dirty">●</span><span class="label"></span><span class="x" title="Close">×</span>`;
+  const showMdToggle = (mode === 'markdown');
+  const toggleHTML = showMdToggle
+    ? `<button class="md-toggle" title="Switch markdown source / rendered">Source</button>`
+    : '';
+  tab.innerHTML =
+    `<span class="dirty">●</span>` +
+    `<span class="label"></span>` +
+    toggleHTML +
+    `<span class="x" title="Close">×</span>`;
   tab.querySelector('.label').textContent = path.split('/').pop();
   tab.title = path;
   tab.addEventListener('click', e => {
-    if (e.target.classList.contains('x')) return;
+    if (e.target.classList.contains('x'))         return;
+    if (e.target.classList.contains('md-toggle')) return;
     activateFile(path);
   });
   tab.querySelector('.x').addEventListener('click', e => {
     e.stopPropagation();
     closeFile(path);
   });
+  if (showMdToggle) {
+    const btn = tab.querySelector('.md-toggle');
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      const f = state.files[path];
+      if (!f) return;
+      if (!f.changeMode) {
+        // Toast UI failed to load; we're using fallback textarea. Inform.
+        btn.textContent = '(no md engine)';
+        return;
+      }
+      const next = (f.mdMode === 'markdown') ? 'wysiwyg' : 'markdown';
+      f.changeMode(next);
+      btn.textContent = (next === 'markdown') ? 'Source' : 'Rendered';
+    });
+  }
   editorTabs.appendChild(tab);
 
   // Finalize the state entry — overwrite the early placeholder we wrote
@@ -700,7 +742,8 @@ function computeHeadline(j) {
     if (h.exit_code === 0) return out ? out : 'done';
     return (out ? out + '\n' : '') + '[exit ' + h.exit_code + ']';
   }
-  if (h.kind === 'answer' || h.kind === 'physics_answer') {
+  // answer / physics_answer / chemistry_answer / future *_answer handlers
+  if (h.kind && h.kind.endsWith('answer')) {
     return h.answer || '';
   }
   if (h.kind === 'statement' || h.kind === 'noted')   return h.message || '(noted)';
@@ -865,6 +908,15 @@ async function submitTerminalCommand(id, raw) {
     return;
   }
 
+  // Client-side `clear` so we don't emit raw ANSI escape codes.
+  if (raw.trim() === 'clear') {
+    frozen.remove();           // don't show the issued `clear`
+    scr.innerHTML = '';
+    t.input = '';              // ← critical: reset input buffer
+    renderPromptLine(scr, t.cwd, '');
+    return;
+  }
+
   // Handle cd client-side so cwd survives.
   const cdMatch = raw.trim().match(/^cd(?:\s+(.+))?$/);
   if (cdMatch) {
@@ -950,21 +1002,10 @@ function newTerminalAtCwd(id, cwd) {
   scr.addEventListener('keydown', e => {
     const t = state.terminals[id];
     if (!t) return;
-    if (e.ctrlKey && e.key === 'c') {
-      // Ctrl-C clears the current input (no signal — no PTY)
-      e.preventDefault();
-      const old = t.input;
-      t.input = '';
-      // Freeze the abandoned line as visible feedback.
-      const frozen = document.createElement('div');
-      frozen.className = 'term-entry';
-      frozen.innerHTML = `<div class="frozen-line"><span class="term-prompt"></span><span class="term-cmd"></span><span class="ctrlc">^C</span></div>`;
-      frozen.querySelector('.term-prompt').textContent = shortCwd(t.cwd) + '$ ';
-      frozen.querySelector('.term-cmd').textContent    = old;
-      const promptLine = scr.querySelector('.term-prompt-line');
-      scr.insertBefore(frozen, promptLine);
-      renderPromptLine(scr, t.cwd, '');
-      return;
+    // Let the browser handle Ctrl+C (copy), Ctrl+V (paste), Ctrl+X (cut),
+    // Ctrl+A (select all). Standard browser shortcuts win.
+    if ((e.ctrlKey || e.metaKey) && 'cvxa'.includes(e.key.toLowerCase())) {
+      return;  // do NOT preventDefault; let browser do its thing
     }
     if (e.ctrlKey && e.key === 'l') {
       // Ctrl-L clears the screen.
@@ -1094,7 +1135,9 @@ async function restoreState() {
     for (const [id, hide, key] of [
       ['pane-files',   s.panes.filesHidden, 'pane-files'],
       ['pane-chat',    s.panes.chatHidden,  'pane-chat'],
-      ['terminal-bar', s.panes.termHidden,  'terminal-bar'],
+      // Do NOT restore termHidden: always show the terminal on load so the
+      // user can't end up with a perpetually-hidden terminal they forgot
+      // about. (They can still toggle it off this session via the ⌨ icon.)
     ]) {
       if (!hide) continue;
       const target = document.getElementById(id);
@@ -1176,20 +1219,64 @@ window.addEventListener('beforeunload', e => {
 // ---- file tree auto-refresh after any shell/term action --------------
 function refreshFileTreeIfOpen() { if (state.rootDir) refreshFileTree(); }
 
-// Cheap fallback poll for external file changes.
+// Poll for external file changes. Recurses into every currently-expanded
+// subfolder so changes inside open folders also trigger refresh. Preserves
+// expansion state across the re-render so the user's open folders survive.
 let __lastTreeHash = '';
-async function pollFileTree() {
-  if (!state.rootDir) return;
-  const data = await fsList(state.rootDir);
-  if (!data) return;
-  const h = data.entries.map(e => e.name + (e.is_dir ? '/' : '')).join('|');
-  if (h !== __lastTreeHash) {
-    __lastTreeHash = h;
-    filesTree.innerHTML = '';
-    renderEntries(filesTree, data.path, data.entries);
+async function snapshotTree(rootPath, expanded) {
+  // Returns a hash string covering root + all expanded subfolders.
+  const stack = [rootPath];
+  const parts = [];
+  while (stack.length) {
+    const p = stack.shift();
+    const d = await fsList(p);
+    if (!d) continue;
+    parts.push(p + ':' + d.entries.map(e => e.name + (e.is_dir ? '/' : '')).join(','));
+    for (const e of d.entries) {
+      if (e.is_dir && expanded.has(joinPath(p, e.name))) {
+        stack.push(joinPath(p, e.name));
+      }
+    }
+  }
+  return parts.join('|');
+}
+
+function getExpandedPaths() {
+  const s = new Set();
+  filesTree.querySelectorAll('.fs-dir').forEach(node => {
+    const kids = node.querySelector('.fs-children');
+    if (kids && !kids.classList.contains('hidden')) s.add(node.dataset.path);
+  });
+  return s;
+}
+
+async function reExpand(expanded) {
+  for (const path of expanded) {
+    const node = filesTree.querySelector(`.fs-dir[data-path="${CSS.escape(path)}"]`);
+    if (!node) continue;
+    const kids = node.querySelector('.fs-children');
+    if (!kids) continue;
+    kids.classList.remove('hidden');
+    if (kids.children.length === 0) {
+      const sub = await fsList(path);
+      if (sub) renderEntries(kids, sub.path, sub.entries);
+    }
   }
 }
-setInterval(pollFileTree, 4000);
+
+async function pollFileTree() {
+  if (!state.rootDir) return;
+  const expanded = getExpandedPaths();
+  const h = await snapshotTree(state.rootDir, expanded);
+  if (h === __lastTreeHash) return;
+  __lastTreeHash = h;
+  const data = await fsList(state.rootDir);
+  if (!data) return;
+  filesTree.innerHTML = '';
+  renderEntries(filesTree, data.path, data.entries);
+  await reExpand(expanded);
+}
+setInterval(pollFileTree, 1500);
 
 // Hook terminal submit + chat shell to refresh immediately too.
 const _origSubmit = submitTerminalCommand;

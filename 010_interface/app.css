@@ -190,6 +190,28 @@ body {
   flex: 1; min-height: 0;
   border: none;
 }
+/* Pin the Markdown/WYSIWYG mode-switch so it can't get pushed off-screen
+   by a short editor pane. */
+.md-editor-host .toastui-editor-mode-switch {
+  background: var(--bg3) !important;
+  border-top: 1px solid var(--border);
+}
+.md-editor-host .toastui-editor-mode-switch .tab-item {
+  color: var(--fg-dim);
+  font-weight: 600;
+}
+.md-editor-host .toastui-editor-mode-switch .tab-item.active {
+  color: var(--fg);
+  background: var(--bg);
+}
+/* Make CodeMirror's markdown syntax highlighting readable on dark bg */
+.md-editor-host .ProseMirror,
+.md-editor-host .toastui-editor-md-container {
+  background: var(--bg) !important;
+}
+.md-editor-host .toastui-editor-md-preview {
+  background: var(--bg2) !important;
+}
 
 /* ----- editor tab strip ----- */
 .editor-tab-bar { padding: 0; min-height: 26px; }
@@ -221,6 +243,14 @@ body {
   padding: 0 4px; border-radius: 2px; color: var(--fg-dim);
 }
 .editor-tab .x:hover { color: var(--fg); background: var(--bg3); }
+.editor-tab .md-toggle {
+  background: var(--accent); border: 1px solid var(--accent);
+  color: #fff; font: inherit; font-size: 11px; font-weight: 600;
+  padding: 1px 8px; cursor: pointer; border-radius: 3px;
+  white-space: nowrap;
+}
+.editor-tab .md-toggle:hover { background: var(--accent2); border-color: var(--accent2); }
+.editor-tab { max-width: 320px; }   /* room for label + toggle + close */
 
 /* ----- resizers ----- */
 .resizer {

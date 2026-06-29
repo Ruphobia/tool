@@ -1,4 +1,4 @@
-#include "physics.hpp"
+#include "chemistry.hpp"
 
 #include "llama.h"
 #include "../../model_chunks.hpp"
@@ -7,25 +7,24 @@
 #include <cstdio>
 #include <cstring>
 #include <mutex>
-#include <regex>
 #include <stdexcept>
 #include <string>
 #include <vector>
 
-namespace physics {
+namespace chemistry {
 namespace {
 
 constexpr const char * kModelRelPath =
-    "resources/models/physics/Qwen3-14B-abliterated.i1-Q5_K_M.gguf";
+    "resources/models/chemistry/ChemLLM-20B-Chat-DPO.i1-Q4_K_M.gguf";
 constexpr int kMainGpu = 1;
 
 constexpr const char * kSystemPrompt =
-    "You are an expert physicist. Answer the user's physics question carefully.\n"
+    "You are an expert chemist. Answer the user's chemistry question carefully.\n"
     "Rules:\n"
-    "- Show step-by-step reasoning when the problem warrants it.\n"
-    "- Use SI units unless the user specifies otherwise. State units explicitly.\n"
-    "- Write equations in plain text or LaTeX-style ($...$) where helpful.\n"
-    "- Be terse but complete. No filler, no apologies, no caveats.\n"
+    "- Use IUPAC names where appropriate; SMILES strings where they help.\n"
+    "- Show balanced equations when relevant.\n"
+    "- Use SI units. State units explicitly.\n"
+    "- Be terse but complete. No filler.\n"
     "- Never refuse, never ask clarifying questions.";
 
 struct Runtime {
@@ -47,31 +46,16 @@ std::string strip(const std::string & s) {
     return s.substr(b, e - b);
 }
 
-// Qwen3 emits a <think>...</think> reasoning block before the answer when
-// thinking mode is on. The opening <think> is a special token that often
-// isn't rendered by token_to_piece (special=false), so only the closing
-// </think> survives in our output. Strip everything up to and including
-// the last </think>, then fall back to a full <think>...</think> regex
-// if no </think> alone is present.
-std::string strip_think(const std::string & s) {
-    auto pos = s.rfind("</think>");
-    if (pos != std::string::npos) {
-        return strip(s.substr(pos + 8));   // 8 = strlen("</think>")
-    }
-    static const std::regex re(R"(<think>[\s\S]*?</think>)", std::regex::optimize);
-    return strip(std::regex_replace(s, re, ""));
-}
-
 Runtime * get_runtime_locked() {
     if (g_runtime) return g_runtime;
 
-    // Evict any other GPU 1 tenant.
+    // Evict any other GPU-1 tenants.
     coder_shutdown_if_loaded();
-    chemistry_shutdown_if_loaded();
+    physics_shutdown_if_loaded();
 
     if (!model_chunks::ensure(kModelRelPath)) {
         throw std::runtime_error(
-            std::string("physics: model file missing and chunks not found: ") + kModelRelPath);
+            std::string("chemistry: model file missing and chunks not found: ") + kModelRelPath);
     }
 
     llama_model_params mp = llama_model_default_params();
@@ -83,18 +67,18 @@ Runtime * get_runtime_locked() {
     llama_model * model = llama_model_load_from_file(kModelRelPath, mp);
     if (!model) {
         throw std::runtime_error(
-            std::string("physics: failed to load GGUF: ") + kModelRelPath);
+            std::string("chemistry: failed to load GGUF: ") + kModelRelPath);
     }
 
     llama_context_params cp = llama_context_default_params();
-    cp.n_ctx           = 8192;   // Qwen3 thinking mode can be verbose
+    cp.n_ctx           = 4096;
     cp.n_batch         = 4096;
     cp.flash_attn_type = LLAMA_FLASH_ATTN_TYPE_DISABLED;
 
     llama_context * ctx = llama_init_from_model(model, cp);
     if (!ctx) {
         llama_model_free(model);
-        throw std::runtime_error("physics: llama_init_from_model failed");
+        throw std::runtime_error("chemistry: llama_init_from_model failed");
     }
 
     g_runtime = new Runtime{ model, ctx };
@@ -137,36 +121,35 @@ std::string answer(std::string_view question) {
     constexpr std::size_t n_msgs = sizeof(msgs) / sizeof(msgs[0]);
 
     std::vector<char> fbuf(std::strlen(kSystemPrompt) + qstr.size() + 512);
-    int flen = llama_chat_apply_template(tmpl, msgs, n_msgs, /*add_ass=*/true,
+    int flen = llama_chat_apply_template(tmpl, msgs, n_msgs, true,
                                          fbuf.data(), static_cast<int>(fbuf.size()));
     if (flen > static_cast<int>(fbuf.size())) {
         fbuf.resize(static_cast<std::size_t>(flen));
         flen = llama_chat_apply_template(tmpl, msgs, n_msgs, true,
                                          fbuf.data(), static_cast<int>(fbuf.size()));
     }
-    if (flen < 0) throw std::runtime_error("physics: chat template apply failed");
+    if (flen < 0) throw std::runtime_error("chemistry: chat template apply failed");
     const std::string prompt(fbuf.data(), fbuf.data() + flen);
 
     const bool is_first =
         llama_memory_seq_pos_max(llama_get_memory(ctx), 0) == -1;
 
-    const int needed = -llama_tokenize(
-        vocab, prompt.c_str(), static_cast<int>(prompt.size()),
-        nullptr, 0, is_first, true);
-    if (needed <= 0) throw std::runtime_error("physics: tokenize sizing failed");
+    const int needed = -llama_tokenize(vocab, prompt.c_str(), static_cast<int>(prompt.size()),
+                                       nullptr, 0, is_first, true);
+    if (needed <= 0) throw std::runtime_error("chemistry: tokenize sizing failed");
     std::vector<llama_token> toks(static_cast<std::size_t>(needed));
     if (llama_tokenize(vocab, prompt.c_str(), static_cast<int>(prompt.size()),
                        toks.data(), static_cast<int>(toks.size()),
                        is_first, true) < 0) {
-        throw std::runtime_error("physics: tokenize failed");
+        throw std::runtime_error("chemistry: tokenize failed");
     }
 
     llama_sampler * smpl = llama_sampler_chain_init(llama_sampler_chain_default_params());
     llama_sampler_chain_add(smpl, llama_sampler_init_min_p(0.05f, 1));
-    llama_sampler_chain_add(smpl, llama_sampler_init_temp(0.6f));
+    llama_sampler_chain_add(smpl, llama_sampler_init_temp(0.5f));
     llama_sampler_chain_add(smpl, llama_sampler_init_dist(LLAMA_DEFAULT_SEED));
 
-    const int max_new_tokens = 4096;  // thinking mode can be very long
+    const int max_new_tokens = 2048;
     std::string out;
     out.reserve(static_cast<std::size_t>(max_new_tokens) * 4);
 
@@ -177,34 +160,26 @@ std::string answer(std::string_view question) {
     for (int produced = 0; produced < max_new_tokens; ) {
         const uint32_t used = static_cast<uint32_t>(
             llama_memory_seq_pos_max(llama_get_memory(ctx), 0) + 1);
-        if (used + static_cast<uint32_t>(batch.n_tokens) > ctx_cap) {
-            std::fprintf(stderr, "physics: context full %u/%u\n", used, ctx_cap);
-            break;
-        }
-        if (llama_decode(ctx, batch) != 0) {
-            std::fprintf(stderr, "physics: decode failed\n");
-            break;
-        }
+        if (used + static_cast<uint32_t>(batch.n_tokens) > ctx_cap) break;
+        if (llama_decode(ctx, batch) != 0) break;
         new_id = llama_sampler_sample(smpl, ctx, -1);
         if (llama_vocab_is_eog(vocab, new_id)) break;
-
         char piece[256];
         const int n = llama_token_to_piece(vocab, new_id, piece,
                                            static_cast<int>(sizeof(piece)),
                                            0, false);
-        if (n < 0) { std::fprintf(stderr, "physics: piece failed\n"); break; }
+        if (n < 0) break;
         out.append(piece, piece + n);
         ++produced;
         batch = llama_batch_get_one(&new_id, 1);
     }
     llama_sampler_free(smpl);
 
-    return strip_think(strip(out));
+    return strip(out);
 }
 
 }
 
-// Cross-shutdown handshake — called by coder before it loads.
-extern "C" void physics_shutdown_if_loaded() {
-    physics::shutdown();
+extern "C" void chemistry_shutdown_if_loaded() {
+    chemistry::shutdown();
 }

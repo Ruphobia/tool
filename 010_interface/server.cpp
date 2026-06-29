@@ -17,6 +17,7 @@
 #include "../009_tools/statement.hpp"
 #include "../009_tools/shell/shell.hpp"
 #include "../009_tools/physics/physics.hpp"
+#include "../009_tools/chemistry/chemistry.hpp"
 
 #include <nlohmann/json.hpp>
 
@@ -419,21 +420,28 @@ void handle_chat(const httplib::Request & req, httplib::Response & res) {
                                    {"content", sh.command + "\n" + sh.stdout_text +
                                                "\n[exit " + std::to_string(sh.exit_code) + "]"}});
                 } else if (act.act == "question") {
-                    // Route physics questions to the physics-specialist
-                    // (Qwen3-14B reasoning) on GPU 1; everything else uses
-                    // the general answer handler on GPU 0.
+                    // Domain routing by expertise label:
+                    //   chemistry → ChemLLM-20B on GPU 1
+                    //   physics   → Qwen3-14B on GPU 1
+                    //   else      → general answer handler on GPU 0
                     std::string field_lc;
                     field_lc.reserve(field.size());
                     for (char c : field) field_lc.push_back(
                         static_cast<char>(std::tolower(static_cast<unsigned char>(c))));
-                    const bool is_physics = field_lc.find("physics") != std::string::npos;
-                    const std::string a = is_physics
-                        ? physics::answer(final_text)
-                        : answer::respond(final_text);
-                    context::append("answer", "response", a, is_physics ? "physics" : "");
-                    handler["kind"]   = is_physics ? "physics_answer" : "answer";
+                    const bool is_chem    = field_lc.find("chem") != std::string::npos;
+                    const bool is_physics = !is_chem &&
+                        field_lc.find("physics") != std::string::npos;
+                    const char * which = is_chem ? "chemistry"
+                                       : is_physics ? "physics"
+                                       : "answer";
+                    std::string a;
+                    if      (is_chem)    a = chemistry::answer(final_text);
+                    else if (is_physics) a = physics::answer  (final_text);
+                    else                 a = answer::respond  (final_text);
+                    context::append("answer", "response", a, which);
+                    handler["kind"]   = std::string(which) + "_answer";
                     handler["answer"] = a;
-                    emit("layer", {{"name", is_physics ? "physics" : "answer"}, {"content", a}});
+                    emit("layer", {{"name", which}, {"content", a}});
                 } else if (act.act == "statement") {
                     bool persistent = false;
                     for (const auto & t : act.tags) if (t == "persistent") persistent = true;
