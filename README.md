@@ -206,7 +206,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Forget and Redact** _(in testing)_: Soft-forget, hard-delete, or redact entries by selector or query, with tombstones, audit trail, and a recoverable trash window before permanent removal.
 
-- ⬜ **Decision Log** _(planned)_: Append-only journal of project decisions in an ADR-like template (context, options, decision, consequences) with bidirectional links to the entries and code they affect.
+- ✅ **Decision Log** _(in testing)_: Append-only journal of project decisions in an ADR-like template (context, options, decision, consequences) with bidirectional links to the entries and code they affect.
 
 - ⬜ **Personal Style Profile** _(planned)_: User-facing summary of preferences, idioms, recurring patterns, and people, editable as plain text and surfaced to assistants as a system-prompt fragment.
 
