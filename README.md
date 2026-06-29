@@ -3829,7 +3829,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Loudness and metering suite** _(stub, awaits wire-up)_: True-peak, RMS, LUFS (integrated/short-term/momentary), LRA, K-system, VU, PPM, correlation, vectorscope, and goniometer meters compliant with EBU R128 and ITU-R BS.1770.
 
-- ⬜ **Source separation studio** _(planned)_: AI-integrated stem separation (vocals, drums, bass, guitar, piano, other) using Demucs/MDX/Spleeter-class models; per-stem export, residual extraction, and karaoke creation.
+- ✅ **Source separation studio** _(stub, awaits wire-up)_: AI-integrated stem separation (vocals, drums, bass, guitar, piano, other) using Demucs/MDX/Spleeter-class models; per-stem export, residual extraction, and karaoke creation.
 
 - ⬜ **Noise reduction and restoration** _(planned)_: Spectral subtraction, Wiener filtering, RNNoise-style learned denoising, declicking, decrackle, dehum, and dereverb; manual noise-profile capture and AI-integrated automatic profiling.
 
