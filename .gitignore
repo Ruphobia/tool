@@ -1,0 +1,25 @@
+# Build artifacts
+/tool
+/bin/
+/_deps/
+/CMakeCache.txt
+/CMakeFiles/
+/cmake_install.cmake
+/Makefile
+/compile_commands.json
+/libsqlite3_amalgamation.a
+/interface_gen/
+*.o
+
+# Reassembled GGUF originals (chunks are committed; runtime reassembles)
+**/*.gguf
+**/*.reassembling
+
+# Per-session ephemeral data
+/005_context/sessions/
+
+# Auto-downloaded large data (Wikipedia ZIM is fetched at runtime)
+/resources/wikipedia/wikipedia.zim
+/resources/wikipedia/wikipedia.zim-wal
+/resources/wikipedia/wikipedia.zim-shm
+/resources/wikipedia/wikipedia.download.json
