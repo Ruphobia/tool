@@ -2898,7 +2898,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Stoichiometry calculator** _(stub, awaits wire-up)_: Computes limiting reagent, theoretical yield, percent yield, atom economy, and mass/mol/volume/concentration conversions for arbitrary balanced reactions; handles solvates, hydrates, and purity adjustments.
 
-- ⬜ **Retrosynthesis planner** _(planned)_: AI-integrated decomposition of a target molecule into candidate precursors with scored multi-step routes, named reactions, suggested conditions, and cross-references to literature procedures.
+- ✅ **Retrosynthesis planner** _(stub, awaits wire-up)_: AI-integrated decomposition of a target molecule into candidate precursors with scored multi-step routes, named reactions, suggested conditions, and cross-references to literature procedures.
 
 - ⬜ **Forward reaction predictor** _(planned)_: Predicts likely products and selectivities from reactants, reagents, solvent, and temperature; ranks side products, flags regiochemistry and stereochemistry concerns, and offers AI-integrated arrow-pushing mechanism walkthroughs.
 
