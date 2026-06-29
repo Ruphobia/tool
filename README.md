@@ -3817,7 +3817,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Bode and pole-zero plotter** _(stub, awaits wire-up)_: Plots magnitude, phase, group delay, step, and impulse responses for arbitrary transfer functions; supports symbolic entry, s-domain to z-domain conversion, and interactive pole-zero dragging.
 
-- ⬜ **Convolution and impulse-response toolkit** _(planned)_: Captures, deconvolves (sine-sweep, MLS), trims, and applies impulse responses for room/cab/speaker simulation; partitioned convolution for low-latency runtime use.
+- ✅ **Convolution and impulse-response toolkit** _(stub, awaits wire-up)_: Captures, deconvolves (sine-sweep, MLS), trims, and applies impulse responses for room/cab/speaker simulation; partitioned convolution for low-latency runtime use.
 
 - ⬜ **Synthesizer rack** _(planned)_: Modular soft-synth host running subtractive, FM, wavetable, additive, granular, and physical-modeling engines with polyphony, unison, and modulation matrices. AI-integrated patch generation from text descriptions ("warm analog pad, slow attack").
 
