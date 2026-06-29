@@ -2731,7 +2731,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Quarter-Mile Predictor** _(stub, awaits wire-up)_: Estimates 0-60, 60-foot, ET, and trap speed from weight, power curve, drivetrain loss, tire grip, gearing, and drag, with launch-RPM and clutch-slip sweeps. Reverse-solves for the power needed to hit a target ET.
 
-- ⬜ **Wheel and Tire Fitment Calculator** _(planned)_: Computes rolling circumference, speedometer error, fender clearance, scrub radius shift, and load-rating delta when changing wheel offset, width, or tire size. Visualizes the resulting wheel pose inside a fender outline.
+- ✅ **Wheel and Tire Fitment Calculator** _(stub, awaits wire-up)_: Computes rolling circumference, speedometer error, fender clearance, scrub radius shift, and load-rating delta when changing wheel offset, width, or tire size. Visualizes the resulting wheel pose inside a fender outline.
 
 - ⬜ **EV Pack and Range Calculator** _(planned)_: Designs series/parallel battery configurations from cell datasheets, computes pack voltage, capacity, internal resistance, and sag under load, and estimates range from a drive cycle. Models regen recovery and DC fast-charge time curves.
 
