@@ -3474,7 +3474,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Invasive species alert** _(stub, awaits wire-up)_: Cross-references occurrence streams against GISD, CABI, and EDDMapS invasive lists for the target region. Projects invasion fronts from current detections and AI-integrated risk scoring on climate suitability and propagule pressure.
 
-- ⬜ **Citizen-science submission helper** _(planned)_: Formats field observations into iNaturalist, eBird, GBIF, and CitSci.org submission payloads with EXIF georeferencing and Darwin Core tagging. AI-integrated species suggestion from photo and call clip with confidence and reviewer notes.
+- ✅ **Citizen-science submission helper** _(stub, awaits wire-up)_: Formats field observations into iNaturalist, eBird, GBIF, and CitSci.org submission payloads with EXIF georeferencing and Darwin Core tagging. AI-integrated species suggestion from photo and call clip with confidence and reviewer notes.
 
 - ⬜ **Bioacoustic classifier** _(planned)_: Processes audio recordings with BirdNET, Perch, BatDetect2, and Koogu for bird, bat, and anuran identification. Generates spectrograms, detection timestamps, vocal activity rates, and species accumulation curves.
 
