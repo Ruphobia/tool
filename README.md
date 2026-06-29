@@ -4811,7 +4811,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **RC transmitter and receiver pairing reference** _(stub, awaits wire-up)_: covers OpenTX/EdgeTX/Spektrum/Futaba/FrSky/ELRS protocols, model setup, dual rates, expo, mixes, telemetry.
 
-- ⬜ **ESC, motor, prop matching** _(planned)_: kV vs. battery vs. prop diameter and pitch sizing for given target speed/thrust; thermal and current-draw checks; current sensor and ESC current limit verification.
+- ✅ **ESC, motor, prop matching** _(stub, awaits wire-up)_: kV vs. battery vs. prop diameter and pitch sizing for given target speed/thrust; thermal and current-draw checks; current sensor and ESC current limit verification.
 
 - ⬜ **CG and balance calculator** _(planned)_: for fixed-wing planes, helis, multirotors: balance point from layout, neutral-point and static-margin calculation, payload effect.
 
