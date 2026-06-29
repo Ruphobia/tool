@@ -244,7 +244,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ⬜ **API Harvester** _(planned)_: Declarative HTTP client for paginated REST and GraphQL endpoints with auth, retry, backoff, and cursor/offset/keyset pagination strategies. Streams results into the same ingest pipeline as the crawler.
 
-- ⬜ **Deduplicating Ingest** _(planned)_: Canonicalizes URLs, hashes content with SimHash and MinHash, and merges near-duplicate records across sources. Tracks provenance so the original fetch context is never lost.
+- ✅ **Deduplicating Ingest** _(in testing)_: Canonicalizes URLs, hashes content with SimHash and MinHash, and merges near-duplicate records across sources. Tracks provenance so the original fetch context is never lost.
 
 - ⬜ **Knowledge Base Store** _(planned)_: Per-project content-addressed store for raw responses, extracted text, and metadata, with full-text and vector indexes. Queryable by URL, host, time range, tag, or semantic similarity.
 
