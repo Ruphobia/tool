@@ -4798,7 +4798,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **HRV and biofeedback viewer** _(stub, awaits wire-up)_: Ingests RR-interval CSV from Polar H10, EliteHRV, or Kubios exports and computes RMSSD, SDNN, LF/HF, and the resonant breathing frequency. Live mode renders a coherence score during paced-breathing sessions.
 
-- ⬜ **Bilateral stimulation tool** _(planned)_: EMDR-style alternating audio (panned L/R) and visual (moving dot) stimulus with adjustable speed, set length, and set count. Logs SUDS and VOC ratings between sets per the standard protocol.
+- ✅ **Bilateral stimulation tool** _(stub, awaits wire-up)_: EMDR-style alternating audio (panned L/R) and visual (moving dot) stimulus with adjustable speed, set length, and set count. Logs SUDS and VOC ratings between sets per the standard protocol.
 
 - ⬜ **Soundscape and binaural generator** _(planned)_: Generates pink/brown/violet noise, rain, and binaural or isochronic tones at chosen carrier and beat frequencies (delta through gamma). Sessions are mixable, loopable, and saveable as preset stacks.
 
