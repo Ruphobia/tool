@@ -1758,7 +1758,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Doxographic citation graph** _(stub, awaits wire-up)_: Maps influence and citation lineages among philosophers and theologians using PhilPapers, Diels-Kranz, and user-imported bibliographies; supports forward and backward traversal, community detection, and lineage queries.
 
-- ⬜ **Ethics scenario explorer** _(planned)_: Runs canonical thought experiments (trolley variants, violinist, experience machine, ring of Gyges, original position) under selectable normative frameworks (utilitarian, Kantian, virtue, care, contractualist, divine command); records verdicts with reasons and saves comparative tables.
+- ✅ **Ethics scenario explorer** _(stub, awaits wire-up)_: Runs canonical thought experiments (trolley variants, violinist, experience machine, ring of Gyges, original position) under selectable normative frameworks (utilitarian, Kantian, virtue, care, contractualist, divine command); records verdicts with reasons and saves comparative tables.
 
 - ⬜ **Bayesian belief sandbox** _(planned)_: Models credences over hypotheses (theism vs. naturalism, miracle reports, authorship attributions) with priors and likelihood ratios; performs Jeffrey conditionalization on evidence and visualizes posterior shifts.
 
