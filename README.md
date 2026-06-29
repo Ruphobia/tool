@@ -472,7 +472,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Mobile development
 
-- ⬜ **Simulator and emulator orchestrator** _(planned)_: Boots iOS Simulator runtimes and Android AVDs, snapshots state, records video/screenshots, and fans one build across a matrix of device profiles (iPhone SE through Pro Max, Pixel, foldables, tablets) in parallel.
+- ✅ **Simulator and emulator orchestrator** _(stub, awaits wire-up)_: Boots iOS Simulator runtimes and Android AVDs, snapshots state, records video/screenshots, and fans one build across a matrix of device profiles (iPhone SE through Pro Max, Pixel, foldables, tablets) in parallel.
 
 - ⬜ **Device frame composer** _(planned)_: Wraps captured screenshots in current Apple and Android device bezels at App Store and Play Console required resolutions, with locale overlays, status bar normalization, and notch/Dynamic Island masking.
 
