@@ -4213,7 +4213,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Previz Renderer** _(stub, awaits wire-up)_: Renders fixtures in a 3D venue model driven by live sACN/Art-Net/DMX input. Shows beams, shutter cuts, gobo rotation, prism break-up, and CMY/RGB color mixing for offline programming and dry tech.
 
-- ⬜ **Magic Sheet Builder** _(planned)_: Lays out clickable channel buttons, group thumbnails, and palette tiles over a stage diagram. The designer pokes a position to recall a focus palette or to see at a glance what is live.
+- ✅ **Magic Sheet Builder** _(stub, awaits wire-up)_: Lays out clickable channel buttons, group thumbnails, and palette tiles over a stage diagram. The designer pokes a position to recall a focus palette or to see at a glance what is live.
 
 - ⬜ **Photometric Calculator** _(planned)_: Computes throw distance, beam and field angles, footcandle/lux at the deck, edge falloff, and pool diameter from each fixture's photometric data and hang height.
 
