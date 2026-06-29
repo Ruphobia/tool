@@ -2755,7 +2755,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Torque Spec & Fastener Lookup** _(stub, awaits wire-up)_: OEM torque specifications for wheel lugs, head bolts, cam caps, suspension, brake calipers, and oil drain plugs. Includes torque-angle sequences, reuse rules for stretch bolts, and unit conversion between ft-lb, Nm, and in-lb.
 
-- ⬜ **Wiring Diagram & Pinout Browser** _(planned)_: Renders interactive vehicle wiring diagrams with connector pinouts, ground points, fuse box maps, and CAN bus topology. Supports search by circuit, component, or DTC and overlays measured voltages from a connected multimeter or scope.
+- ✅ **Wiring Diagram & Pinout Browser** _(stub, awaits wire-up)_: Renders interactive vehicle wiring diagrams with connector pinouts, ground points, fuse box maps, and CAN bus topology. Supports search by circuit, component, or DTC and overlays measured voltages from a connected multimeter or scope.
 
 - ⬜ **CAN Bus & UDS Inspector** _(planned)_: Sniffs raw CAN frames at configurable baud rates, decodes against DBC files, and performs UDS/KWP2000 service requests (read DTCs, clear codes, read DIDs, actuator tests). Includes bit-rate detection and J1939 support for diesels.
 
