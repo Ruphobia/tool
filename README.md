@@ -2548,7 +2548,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Delta-V Budget Planner** _(stub, awaits wire-up)_: Composes mission delta-v budgets from Hohmann, bi-elliptic, plane change, combined, phasing, and finite-burn maneuvers, with margin policies and side-by-side comparison of architectures.
 
-- ⬜ **Rocket Equation Solver** _(planned)_: Evaluates Tsiolkovsky's equation for single and multi-stage vehicles, solving for delta-v, propellant mass, payload mass, or Isp; includes staging optimization and gravity/drag loss models for ascent.
+- ✅ **Rocket Equation Solver** _(stub, awaits wire-up)_: Evaluates Tsiolkovsky's equation for single and multi-stage vehicles, solving for delta-v, propellant mass, payload mass, or Isp; includes staging optimization and gravity/drag loss models for ascent.
 
 - ⬜ **Launch Window Finder** _(planned)_: Computes daily launch windows from a given site to a target orbit or interplanetary trajectory, honoring inclination reachability, ascending-node alignment, eclipse, range-safety azimuth, and lighting constraints.
 
