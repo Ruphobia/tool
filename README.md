@@ -3599,7 +3599,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Inpainter** _(stub, awaits wire-up)_: Mask-driven local regeneration over an existing image with edge-aware blending and seed control. Reuses the active generator and prompt context.
 
-- ⬜ **Upscaler** _(planned)_: Tiled super-resolution using ESRGAN/Real-ESRGAN/SwinIR families with face-restore (GFPGAN/CodeFormer) and configurable denoise strength. Handles batch jobs and arbitrary integer or fractional factors.
+- ✅ **Upscaler** _(stub, awaits wire-up)_: Tiled super-resolution using ESRGAN/Real-ESRGAN/SwinIR families with face-restore (GFPGAN/CodeFormer) and configurable denoise strength. Handles batch jobs and arbitrary integer or fractional factors.
 
 - ⬜ **Background remover** _(planned)_: Foreground extraction via segmentation models (RMBG, BiRefNet, U2Net) with alpha refinement around hair and translucent edges. Supports batch processing and replacement backgrounds.
 
