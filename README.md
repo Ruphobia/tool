@@ -4666,7 +4666,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Field pharmacy reference** _(stub, awaits wire-up)_: Drug reference covering shelf life beyond labeled expiry, vet and aquarium-grade substitutions with caveats, common antibiotic regimens by indication, and interaction warnings. Includes a dosing calculator for pediatric and weight-based adjustment.
 
-- ⬜ **Ham antenna designer** _(planned)_: Designs dipole, end-fed half-wave, vertical, loop, and NVIS antennas with element lengths, feed impedance, height-above-ground modeling, and SWR projection across the band. Outputs cut lengths in copper or steel wire for field construction.
+- ✅ **Ham antenna designer** _(stub, awaits wire-up)_: Designs dipole, end-fed half-wave, vertical, loop, and NVIS antennas with element lengths, feed impedance, height-above-ground modeling, and SWR projection across the band. Outputs cut lengths in copper or steel wire for field construction.
 
 - ⬜ **HF propagation forecaster** _(planned)_: Predicts band openings and maximum usable frequency for a given path using current solar flux, K-index, and ionospheric models. Recommends band and mode windows for NVIS, regional, and DX work over the next 24 hours.
 
