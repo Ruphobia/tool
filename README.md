@@ -864,7 +864,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **QEC Workbench** _(stub, awaits wire-up)_: Build and simulate stabilizer codes (repetition, Steane, surface, color), inject Pauli errors, run minimum-weight perfect matching and union-find decoders, and plot logical error rate versus physical noise.
 
-- ⬜ **Tomography Suite** _(planned)_: State, process, and gate-set tomography with MLE and linear inversion reconstructions, randomized benchmarking and direct fidelity estimation protocols, and confidence intervals from bootstrap resampling.
+- ✅ **Tomography Suite** _(stub, awaits wire-up)_: State, process, and gate-set tomography with MLE and linear inversion reconstructions, randomized benchmarking and direct fidelity estimation protocols, and confidence intervals from bootstrap resampling.
 
 - ⬜ **Entanglement Inspector** _(planned)_: Computes and plots entanglement entropy, concurrence, negativity, and mutual information across bipartitions, with a graph view of pairwise entanglement and Schmidt decomposition of any cut.
 
