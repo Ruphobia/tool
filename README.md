@@ -3772,7 +3772,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Lead Sheet Generator** _(stub, awaits wire-up)_: Builds a single-staff melody plus chord-symbol chart from a chord progression, melody fragment, or AI-integrated prompt. Supports jazz, pop, and Nashville-number conventions and exports to iReal Pro, MusicXML, and PDF.
 
-- ⬜ **Voice Leading Checker** _(planned)_: Validates four-part and chorale-style writing against configurable rules: parallel fifths and octaves, hidden parallels, doubled leading tone, voice crossing, spacing, and resolution of dissonances. Suggests minimum-move corrections.
+- ✅ **Voice Leading Checker** _(stub, awaits wire-up)_: Validates four-part and chorale-style writing against configurable rules: parallel fifths and octaves, hidden parallels, doubled leading tone, voice crossing, spacing, and resolution of dissonances. Suggests minimum-move corrections.
 
 - ⬜ **Counterpoint Tutor** _(planned)_: Species counterpoint editor (Fux/Gradus) covering first through fifth species in two to four voices, with live error highlighting, cantus firmus library, and step-by-step Schenkerian-style reduction view.
 
