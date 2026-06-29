@@ -956,7 +956,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Contract Analyzer** _(stub, awaits wire-up)_: Decompiles EVM bytecode, recovers function signatures via 4byte lookup, and runs static checks for reentrancy, integer overflow, tx.origin misuse, and unchecked external calls. AI-integrated explanation of detected patterns with severity scoring.
 
-- ⬜ **EVM Debugger** _(planned)_: Steps through transaction execution opcode by opcode against a local fork, with stack, memory, storage, and gas at each step. Supports source-mapped Solidity stepping and time-travel reverse execution.
+- ✅ **EVM Debugger** _(stub, awaits wire-up)_: Steps through transaction execution opcode by opcode against a local fork, with stack, memory, storage, and gas at each step. Supports source-mapped Solidity stepping and time-travel reverse execution.
 
 - ⬜ **ABI & Calldata Decoder** _(planned)_: Decodes raw calldata, event logs, and revert reasons against known ABIs or guessed selectors. Re-encodes edited parameters and supports nested structs, dynamic arrays, and EIP-712 typed data.
 
