@@ -3402,7 +3402,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Paleogeographic mapper** _(stub, awaits wire-up)_: Projects occurrences and sample sites onto paleocontinental reconstructions (PaleoMAP, GPlates rotation files) for chosen ages. Plots paleolatitude tracks, paleoclimate belts, and ocean-current overlays for biogeographic analysis.
 
-- ⬜ **Geophysics survey processor** _(planned)_: Processes magnetometry, resistivity, and ground-penetrating-radar grids with gridding, despiking, destriping, gain control, and time-slice extraction. Detects linear and rectilinear anomalies and overlays them on site basemaps.
+- ✅ **Geophysics survey processor** _(stub, awaits wire-up)_: Processes magnetometry, resistivity, and ground-penetrating-radar grids with gridding, despiking, destriping, gain control, and time-slice extraction. Detects linear and rectilinear anomalies and overlays them on site basemaps.
 
 - ⬜ **Bibliographic search** _(planned)_: Searches GeoRef, Biodiversity Heritage Library, JSTOR, BHL, ADS, and CrossRef for paleontological and archaeological literature with citation graph traversal and DOI resolution. Maintains a local BibTeX/CSL library with PDF storage and OCR full-text indexing.
 
