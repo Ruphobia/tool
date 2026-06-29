@@ -1001,7 +1001,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **PCB Silkscreen Reader** _(stub, awaits wire-up)_: Photographs board images and uses OCR plus AI to extract component designators, IC part numbers, and revision marks into a structured parts list tied to the catalog.
 
-- ⬜ **Decap and Die-Shot Library** _(planned)_: Archive of die photos and reverse-engineered netlists for custom chips (SID, VIC-II, Paula, Denise, ULA, etc.) with annotated functional blocks and links to FPGA reimplementations.
+- ✅ **Decap and Die-Shot Library** _(stub, awaits wire-up)_: Archive of die photos and reverse-engineered netlists for custom chips (SID, VIC-II, Paula, Denise, ULA, etc.) with annotated functional blocks and links to FPGA reimplementations.
 
 - ⬜ **Vintage Serial Terminal** _(planned)_: Speaks XMODEM, YMODEM, ZMODEM, Kermit, and bespoke vendor handshakes over real serial; bridges to TCP for BBS sessions and modem-emulator workflows.
 
