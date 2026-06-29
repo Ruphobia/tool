@@ -2668,7 +2668,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Touchstone viewer** _(stub, awaits wire-up)_: Loads .s1p through .s4p files and plots magnitude, phase, group delay, Smith, and polar. Cascades networks, de-embeds fixtures, converts between S, Y, Z, T, and ABCD, and exports back to Touchstone or CITI.
 
-- ⬜ **Spectrum analyzer console** _(planned)_: Drives RTL-SDR, HackRF, Airspy, USRP, LimeSDR, and PlutoSDR for live FFT, waterfall, peak table, occupied bandwidth, ACPR, and channel power. Records sweeps for long-term band-occupancy studies.
+- ✅ **Spectrum analyzer console** _(stub, awaits wire-up)_: Drives RTL-SDR, HackRF, Airspy, USRP, LimeSDR, and PlutoSDR for live FFT, waterfall, peak table, occupied bandwidth, ACPR, and channel power. Records sweeps for long-term band-occupancy studies.
 
 - ⬜ **SDR receiver console** _(planned)_: Tunes a soft radio with AM, FM, NFM, SSB, CW, DSD+ digital voice, POCSAG, ACARS, and APRS demodulators. Supports squelch, AGC, noise blanker, notch, and a software panadapter slaved to the rig control bridge.
 
