@@ -938,7 +938,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **TLS Probe** _(stub, awaits wire-up)_: Connects to a host, enumerates offered ciphersuites, ALPN, OCSP stapling, session resumption, and post-quantum hybrid support. Highlights deprecated suites, weak DH parameters, and certificate transparency gaps.
 
-- ⬜ **PGP/GPG Console** _(planned)_: Imports keyrings, signs, encrypts, decrypts, and verifies armored or binary OpenPGP messages. Visualizes web-of-trust signatures, subkey relationships, and revocation status without shelling out to gpg.
+- ✅ **PGP/GPG Console** _(stub, awaits wire-up)_: Imports keyrings, signs, encrypts, decrypts, and verifies armored or binary OpenPGP messages. Visualizes web-of-trust signatures, subkey relationships, and revocation status without shelling out to gpg.
 
 - ⬜ **SSH Toolkit** _(planned)_: Generates, audits, and converts SSH keys, parses known_hosts and authorized_keys, and verifies host key pinning. Includes SSH certificate authority signing with principals, validity windows, and force-command extensions.
 
