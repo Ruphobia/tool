@@ -3163,7 +3163,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Behavioral event coder** _(stub, awaits wire-up)_: Frame-by-frame video and audio coding with mutually exclusive and overlapping event tracks, hotkey schemas, and modifiers, in the style of BORIS and ELAN. Produces state and point event logs with durations and transitions.
 
-- ⬜ **Qualitative theme tagger** _(planned)_: NVivo-style coding of text, audio transcripts, and image regions with hierarchical codebooks, memos, and query matrices. AI-integrated initial code suggestions seed open coding for the researcher to accept, merge, or reject.
+- ✅ **Qualitative theme tagger** _(stub, awaits wire-up)_: NVivo-style coding of text, audio transcripts, and image regions with hierarchical codebooks, memos, and query matrices. AI-integrated initial code suggestions seed open coding for the researcher to accept, merge, or reject.
 
 - ⬜ **Reaction time task runner** _(planned)_: Presents stimuli and records keypress, mouse, and touch responses with sub-millisecond timestamping and frame-locked onsets. Supports Stroop, flanker, go/no-go, n-back, and IAT templates with custom block scripts.
 
