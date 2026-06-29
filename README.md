@@ -4521,7 +4521,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Outdoor recreation: camping, climbing, skiing, paragliding, geocaching
 
-- ⬜ **Topo Route Viewer** _(planned)_: Renders crag and big-wall topos from local PDFs, JPEGs, or imported guidebook data with pitch overlays, bolt counts, and beta annotations. AI vision tags features (cruxes, belays, fixed gear) from uploaded photos and aligns them to the route line.
+- ✅ **Topo Route Viewer** _(stub, awaits wire-up)_: Renders crag and big-wall topos from local PDFs, JPEGs, or imported guidebook data with pitch overlays, bolt counts, and beta annotations. AI vision tags features (cruxes, belays, fixed gear) from uploaded photos and aligns them to the route line.
 
 - ⬜ **GPX Track Workbench** _(planned)_: Loads, splits, merges, simplifies, and re-times GPX/TCX/FIT tracks with elevation smoothing and pause detection. Includes waypoint snapping, segment statistics, and export to common watch and GPS formats.
 
