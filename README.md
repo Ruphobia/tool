@@ -3122,7 +3122,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Clinical Trial Search** _(stub, awaits wire-up)_: Queries ClinicalTrials.gov, EU CTR, and WHO ICTRP via local indexes, with filters for phase, condition, intervention, geography, and eligibility; supports patient-criteria matching against a de-identified profile.
 
-- ⬜ **Literature Search** _(planned)_: Federated search over PubMed, Europe PMC, and bioRxiv/medRxiv with MeSH expansion, citation graph traversal, and AI summarization of abstracts into structured PICO (population, intervention, comparator, outcome) tuples.
+- ✅ **Literature Search** _(stub, awaits wire-up)_: Federated search over PubMed, Europe PMC, and bioRxiv/medRxiv with MeSH expansion, citation graph traversal, and AI summarization of abstracts into structured PICO (population, intervention, comparator, outcome) tuples.
 
 - ⬜ **Patient Case Notebook** _(planned)_: De-identified case workspace with HPI, ROS, exam, labs, imaging, problem list, and differential; enforces PHI redaction on import and supports SOAP, H&P, and discharge-summary templates.
 
