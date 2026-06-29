@@ -3349,7 +3349,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Parasitology bench** _(stub, awaits wire-up)_: Fecal egg count workflow (McMaster, Mini-FLOTAC, Wisconsin) with image-assisted ova/oocyst identification, FECR calculation for anthelmintic resistance, and a blood-smear differential counter. Tracks herd/colony parasite loads over time.
 
-- ⬜ **Vaccine and prophylaxis scheduler** _(planned)_: Generates vaccine, anthelmintic, and zoonosis-screening schedules per WSAVA/AAHA/AAFP/AAEP guidelines for domestic species and per AZA/EAZA/AAZV husbandry manuals for exotics. Tracks lot numbers, sites, adverse events, and titer results.
+- ✅ **Vaccine and prophylaxis scheduler** _(stub, awaits wire-up)_: Generates vaccine, anthelmintic, and zoonosis-screening schedules per WSAVA/AAHA/AAFP/AAEP guidelines for domestic species and per AZA/EAZA/AAZV husbandry manuals for exotics. Tracks lot numbers, sites, adverse events, and titer results.
 
 - ⬜ **Studbook and pedigree manager** _(planned)_: PopLink/SPARKS/PMx-style studbook keeper with kinship and mean-kinship calculation, inbreeding coefficients, gene-drop simulation, and breeding-pair recommendations. Imports/exports ZIMS Species360 and standard studbook formats.
 
