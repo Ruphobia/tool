@@ -2826,7 +2826,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Octomap and occupancy editor** _(stub, awaits wire-up)_: Builds, edits, and queries 2D and 3D occupancy grids, OctoMaps, and ESDFs with frustum carving, raycasting, dilation, and probabilistic thresholding for navigation and manipulation planning.
 
-- ⬜ **Gripper and end-effector designer** _(planned)_: Parametrically generates parallel-jaw, suction, soft, and adaptive grippers, attaches them to the active URDF, and previews antipodal and force-closure grasp candidates on target meshes or point clouds. AI-integrated grasp ranking via GraspNet-style scorers.
+- ✅ **Gripper and end-effector designer** _(stub, awaits wire-up)_: Parametrically generates parallel-jaw, suction, soft, and adaptive grippers, attaches them to the active URDF, and previews antipodal and force-closure grasp candidates on target meshes or point clouds. AI-integrated grasp ranking via GraspNet-style scorers.
 
 - ⬜ **Gait and legged-locomotion designer** _(planned)_: Authors stepping patterns, contact schedules, and CoM/ZMP references for bipeds and quadrupeds, tunes MPC and whole-body controllers, and plays results back in the physics simulator.
 
