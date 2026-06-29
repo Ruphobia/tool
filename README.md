@@ -4087,7 +4087,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Engraving and Chasing Pattern Studio** _(stub, awaits wire-up)_: Vector design surface for hand engraving, chasing, repousse, and bulino with bright-cut shading, scroll layout aids, and mirror-image preview for transfer. AI-assisted style transfer adapts a sketch into period-appropriate acanthus, arabesque, or mokume motifs while preserving cut-friendly line weights.
 
-- ⬜ **Wax and Lost-Wax Casting Planner** _(planned)_: Sizes sprues, gates, vents, and risers for centrifugal and vacuum casting by alloy and pattern volume; computes investment water ratio, burnout schedule, and flask preheat. Estimates metal weight from wax weight per alloy and flags shrinkage porosity hotspots.
+- ✅ **Wax and Lost-Wax Casting Planner** _(stub, awaits wire-up)_: Sizes sprues, gates, vents, and risers for centrifugal and vacuum casting by alloy and pattern volume; computes investment water ratio, burnout schedule, and flask preheat. Estimates metal weight from wax weight per alloy and flags shrinkage porosity hotspots.
 
 - ⬜ **Forge and Kiln Build Calculator** _(planned)_: Sizes propane and coal forges, gas kilns, and glass furnaces: chamber volume, burner BTU, refractory thickness, flue draft, and insulating firebrick layer counts. Estimates fuel burn rate and reaches-temperature time for a target peak.
 
