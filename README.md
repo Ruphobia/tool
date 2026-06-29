@@ -638,7 +638,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **MongoDB client** _(stub, awaits wire-up)_: Document browser with aggregation pipeline builder, explain plan viewer, index manager, change-streams tail, and schema sampler that infers field types and cardinality across a collection.
 
-- ⬜ **Time-series explorer** _(planned)_: Queries InfluxDB, Prometheus, TimescaleDB, and VictoriaMetrics with PromQL/Flux/SQL editors, label autocomplete, downsampling preview, and side-by-side metric correlation plots.
+- ✅ **Time-series explorer** _(stub, awaits wire-up)_: Queries InfluxDB, Prometheus, TimescaleDB, and VictoriaMetrics with PromQL/Flux/SQL editors, label autocomplete, downsampling preview, and side-by-side metric correlation plots.
 
 - ⬜ **Graph DB browser** _(planned)_: Cypher and Gremlin console for Neo4j, Memgraph, and JanusGraph with force-directed graph rendering, path expansion on click, schema constraints viewer, and pattern-match templates.
 
