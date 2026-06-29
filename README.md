@@ -3351,7 +3351,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Vaccine and prophylaxis scheduler** _(stub, awaits wire-up)_: Generates vaccine, anthelmintic, and zoonosis-screening schedules per WSAVA/AAHA/AAFP/AAEP guidelines for domestic species and per AZA/EAZA/AAZV husbandry manuals for exotics. Tracks lot numbers, sites, adverse events, and titer results.
 
-- ⬜ **Studbook and pedigree manager** _(planned)_: PopLink/SPARKS/PMx-style studbook keeper with kinship and mean-kinship calculation, inbreeding coefficients, gene-drop simulation, and breeding-pair recommendations. Imports/exports ZIMS Species360 and standard studbook formats.
+- ✅ **Studbook and pedigree manager** _(stub, awaits wire-up)_: PopLink/SPARKS/PMx-style studbook keeper with kinship and mean-kinship calculation, inbreeding coefficients, gene-drop simulation, and breeding-pair recommendations. Imports/exports ZIMS Species360 and standard studbook formats.
 
 - ⬜ **Incubation and reproduction tracker** _(planned)_: Species-specific gestation, incubation, and hatching calculators (mammals, birds, reptiles with TSD curves) with weight-loss and temperature/humidity logging. Predicts hatch/parturition windows and flags deviations from reference curves.
 
