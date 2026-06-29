@@ -1546,7 +1546,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Time-series lab** _(stub, awaits wire-up)_: Decomposes series into trend/seasonal/residual, fits ARIMA, SARIMAX, ETS, Prophet, and state-space models, runs stationarity and cointegration tests, and produces forecasts with prediction intervals. AI-integrated model-class recommendation based on ACF/PACF and seasonality signatures.
 
-- ⬜ **Survival analysis** _(planned)_: Kaplan-Meier curves, Cox proportional hazards, Aalen additive, and accelerated failure time models with log-rank tests, Schoenfeld residuals, and time-varying covariates.
+- ✅ **Survival analysis** _(stub, awaits wire-up)_: Kaplan-Meier curves, Cox proportional hazards, Aalen additive, and accelerated failure time models with log-rank tests, Schoenfeld residuals, and time-varying covariates.
 
 - ⬜ **Causal inference toolkit** _(planned)_: DoWhy/EconML-style interface for DAG specification, identification, estimation (IPW, doubly robust, double ML, synthetic control, regression discontinuity), and sensitivity analysis. AI-integrated DAG drafting from a written problem description.
 
