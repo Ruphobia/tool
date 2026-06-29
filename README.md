@@ -2523,7 +2523,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **HAZID and HAZOP register** _(stub, awaits wire-up)_: Node-by-node guideword prompting (NO, MORE, LESS, REVERSE) with consequence, safeguard, and SIL assignment; AI-suggested deviations from a P&ID.
 
-- ⬜ **Reliability and RAM modeller** _(planned)_: Fault-tree and reliability block diagram solver with Weibull, exponential, and lognormal distributions; computes availability, MTTR, and production efficiency.
+- ✅ **Reliability and RAM modeller** _(stub, awaits wire-up)_: Fault-tree and reliability block diagram solver with Weibull, exponential, and lognormal distributions; computes availability, MTTR, and production efficiency.
 
 - ⬜ **Bathymetry and DEM viewer** _(planned)_: GeoTIFF, BAG, and XYZ terrain rendering with slope, aspect, and contour generation; overlay for cable routes, anchor patterns, and tailings dam siting.
 
