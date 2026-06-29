@@ -4726,7 +4726,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Wearable Data Importer** _(stub, awaits wire-up)_: Ingests CSV, FIT, JSON, and Apple Health XML exports from Oura, Whoop, Fitbit, Garmin, and Withings. Normalizes nightly summaries and per-epoch stage arrays into a single local schema.
 
-- ⬜ **Hypnogram Viewer** _(planned)_: Renders the night as a stepped stage plot over time with overlays for HR, HRV, SpO2, movement, and ambient temperature. Supports zoom, multi-night stacking, and side-by-side comparison.
+- ✅ **Hypnogram Viewer** _(stub, awaits wire-up)_: Renders the night as a stepped stage plot over time with overlays for HR, HRV, SpO2, movement, and ambient temperature. Supports zoom, multi-night stacking, and side-by-side comparison.
 
 - ⬜ **Dream Journal with Motif Tagger** _(planned)_: Free-text journal with timestamped entries, voice-note transcription, and lucidity flags. An on-device language model extracts recurring motifs, characters, settings, and emotional valence into a tag index.
 
