@@ -1323,7 +1323,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Reconciliation Studio** _(stub, awaits wire-up)_: Matches imported bank lines against ledger postings with fuzzy date/amount tolerance, surfaces unmatched items, and walks a guided three-way reconciliation against statement balance. Flags rounding, FX, and duplicate-entry causes of drift.
 
-- ⬜ **Tax Form Filler** _(planned)_: Fills US and international tax forms (1040 and schedules, Schedule C, 1099, W-2, W-9, UK SA100, German EUR) from ledger data, with line-by-line provenance back to source transactions and an AI-integrated explanation of each computed figure.
+- ✅ **Tax Form Filler** _(stub, awaits wire-up)_: Fills US and international tax forms (1040 and schedules, Schedule C, 1099, W-2, W-9, UK SA100, German EUR) from ledger data, with line-by-line provenance back to source transactions and an AI-integrated explanation of each computed figure.
 
 - ⬜ **Portfolio Tracker** _(planned)_: Tracks equity, ETF, bond, crypto, and cash holdings across multiple accounts and currencies; computes time-weighted and money-weighted returns, allocation drift, dividend income, and realized/unrealized gains with FIFO, LIFO, and average-cost lots.
 
