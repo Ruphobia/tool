@@ -2194,7 +2194,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Resin Slicer** _(stub, awaits wire-up)_: Slices meshes into masked layer images for MSLA, DLP, and SLA printers with anti-aliasing, light PWM, hollow-and-drain, automatic raft and support trees, and per-layer exposure compensation.
 
-- ⬜ **Printer Profile Manager** _(planned)_: Stores and edits machine, material, and process profiles with inheritance and diffing; imports from PrusaSlicer, OrcaSlicer, and Cura, and tracks per-printer calibration constants like flow, e-steps, PA, and bed mesh.
+- ✅ **Printer Profile Manager** _(stub, awaits wire-up)_: Stores and edits machine, material, and process profiles with inheritance and diffing; imports from PrusaSlicer, OrcaSlicer, and Cura, and tracks per-printer calibration constants like flow, e-steps, PA, and bed mesh.
 
 - ⬜ **Filament and Resin Library** _(planned)_: Catalogs filaments and resins with vendor specs, glass transition, shrinkage, drying schedule, shelf life, and spool inventory; logs print results to refine recommended temps, speeds, and exposure over time.
 
