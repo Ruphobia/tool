@@ -3747,7 +3747,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Camera and Lens Sim** _(stub, awaits wire-up)_: Physically based camera with focal length, aperture, shutter, focus, ND, and lens distortion presets matched to real-world bodies. Includes anamorphic bokeh, chromatic aberration, and rolling-shutter playback.
 
-- ⬜ **Path Tracer Preview** _(planned)_: Embedded interactive path tracer with denoiser, light groups, and AOV passes for IPR while editing the scene. Renders to OpenColorIO display transforms with VR/stereo support.
+- ✅ **Path Tracer Preview** _(stub, awaits wire-up)_: Embedded interactive path tracer with denoiser, light groups, and AOV passes for IPR while editing the scene. Renders to OpenColorIO display transforms with VR/stereo support.
 
 - ⬜ **Shader Graph** _(planned)_: OSL and MaterialX node editor with live-compiled GPU preview, BRDF inspector, and energy-conservation checks. Imports and round-trips to Blender, USD MaterialX, and glTF KHR extensions.
 
