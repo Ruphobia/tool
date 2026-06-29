@@ -2636,7 +2636,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Performance calculator** _(stub, awaits wire-up)_: Interpolates POH takeoff, landing, climb, and cruise charts for density altitude, weight, wind, runway slope, and surface. Computes accelerate-stop distance, single-engine service ceiling, and drift-down for twins.
 
-- ⬜ **E6B flight computer** _(planned)_: Solves wind triangle, true airspeed, true altitude, density altitude, fuel burn, time and distance, crosswind components, and unit conversions. Available as both an interactive panel and a callable solver for chained calculations.
+- ✅ **E6B flight computer** _(stub, awaits wire-up)_: Solves wind triangle, true airspeed, true altitude, density altitude, fuel burn, time and distance, crosswind components, and unit conversions. Available as both an interactive panel and a callable solver for chained calculations.
 
 - ⬜ **ADS-B traffic console** _(planned)_: Decodes 1090ES and 978 UAT from a local dongle (dump1090/dump978), shows traffic with Mode S registry lookup, and logs tracks for replay. Cross-references with FlightAware and OpenSky for missing aircraft.
 
