@@ -1097,7 +1097,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Meeting notes and action extractor** _(stub, awaits wire-up)_: Notes surface with agenda, attendees, and timestamped sections, accepting pasted or recorded transcripts. AI-integrated extraction lifts action items, owners, due dates, and decisions into tickets and the decision log.
 
-- ⬜ **Stakeholder and RACI map** _(planned)_: Roster of stakeholders with role, interest, influence, and communication cadence, plus a RACI matrix per workstream. Drives reminder generation for status updates owed to each stakeholder.
+- ✅ **Stakeholder and RACI map** _(stub, awaits wire-up)_: Roster of stakeholders with role, interest, influence, and communication cadence, plus a RACI matrix per workstream. Drives reminder generation for status updates owed to each stakeholder.
 
 - ⬜ **Changelog and release-notes generator** _(planned)_: Aggregates merged tickets, commits, and PRs between two release tags into grouped notes by category (feature, fix, breaking). AI-integrated rewrite produces user-facing copy at a chosen tone and length.
 
