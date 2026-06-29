@@ -4642,7 +4642,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Survival, emergency preparedness, off-grid
 
-- ⬜ **Water filter sizing planner** _(planned)_: Computes required filter throughput and replacement cadence from household size, source-water contaminant profile, and target log-reduction values for bacteria, protozoa, and viruses. Compares ceramic, hollow-fiber, carbon block, and RO elements against the demand curve.
+- ✅ **Water filter sizing planner** _(stub, awaits wire-up)_: Computes required filter throughput and replacement cadence from household size, source-water contaminant profile, and target log-reduction values for bacteria, protozoa, and viruses. Compares ceramic, hollow-fiber, carbon block, and RO elements against the demand curve.
 
 - ⬜ **Water treatment dose calculator** _(planned)_: Calculates chlorine, iodine, and UV doses for batch disinfection given volume, turbidity, and water temperature, and adjusts boil times for altitude. Includes SODIS exposure tables and pool-shock dilution for emergency potable conversion.
 
