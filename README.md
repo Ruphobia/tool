@@ -2253,7 +2253,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Galvanic Corrosion Checker** _(stub, awaits wire-up)_: Looks up galvanic potentials in seawater and other electrolytes, flags incompatible material pairs by potential difference, and estimates area-ratio-weighted corrosion risk. Suggests insulating, coating, or sacrificial-anode mitigations.
 
-- ⬜ **Corrosion Compatibility Matrix** _(planned)_: Material-vs-chemical resistance grid covering common metals, plastics, and elastomers against acids, bases, solvents, fuels, salts, and foods at various temperatures, sourced from compiled vendor and NACE tables.
+- ✅ **Corrosion Compatibility Matrix** _(stub, awaits wire-up)_: Material-vs-chemical resistance grid covering common metals, plastics, and elastomers against acids, bases, solvents, fuels, salts, and foods at various temperatures, sourced from compiled vendor and NACE tables.
 
 - ⬜ **Pourbaix Diagram Viewer** _(planned)_: E-pH (Pourbaix) diagrams for iron, copper, aluminum, zinc, nickel, titanium, lead, and chromium, with overlay of a user's electrolyte conditions to predict passivation, immunity, or active corrosion regions.
 
