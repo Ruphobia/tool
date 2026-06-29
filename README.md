@@ -2088,7 +2088,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Control systems designer** _(stub, awaits wire-up)_: Transfer-function and state-space modeling with root-locus, Bode, Nyquist, Nichols, pole placement, LQR/LQG, and PID auto-tuning against a plant model.
 
-- ⬜ **Dimensional-analysis assistant** _(planned)_: Buckingham-pi reduction of governing equations to dimensionless groups, with named-group recognition (Reynolds, Nusselt, Prandtl, Mach, Weber) and scaling-law derivation.
+- ✅ **Dimensional-analysis assistant** _(stub, awaits wire-up)_: Buckingham-pi reduction of governing equations to dimensionless groups, with named-group recognition (Reynolds, Nusselt, Prandtl, Mach, Weber) and scaling-law derivation.
 
 - ⬜ **Error propagation tool** _(planned)_: Symbolic and Monte-Carlo propagation of measurement uncertainties through arbitrary expressions, with correlated inputs, sensitivity coefficients, and GUM-compliant reporting.
 
