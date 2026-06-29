@@ -4523,7 +4523,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Topo Route Viewer** _(stub, awaits wire-up)_: Renders crag and big-wall topos from local PDFs, JPEGs, or imported guidebook data with pitch overlays, bolt counts, and beta annotations. AI vision tags features (cruxes, belays, fixed gear) from uploaded photos and aligns them to the route line.
 
-- ⬜ **GPX Track Workbench** _(planned)_: Loads, splits, merges, simplifies, and re-times GPX/TCX/FIT tracks with elevation smoothing and pause detection. Includes waypoint snapping, segment statistics, and export to common watch and GPS formats.
+- ✅ **GPX Track Workbench** _(stub, awaits wire-up)_: Loads, splits, merges, simplifies, and re-times GPX/TCX/FIT tracks with elevation smoothing and pause detection. Includes waypoint snapping, segment statistics, and export to common watch and GPS formats.
 
 - ⬜ **Avalanche Forecast Overlay** _(planned)_: Pulls regional avalanche center bulletins (CAIC, UAC, Avalanche Canada, EAWS) and overlays danger rose, problem types, and elevation bands onto the map. Caches forecasts offline for backcountry trips.
 
