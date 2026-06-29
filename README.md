@@ -2433,7 +2433,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Hydrostatics and stability calculator** _(stub, awaits wire-up)_: Builds Bonjean curves, KN tables, and intact/damage GZ curves from an offsets table; checks IMO IS Code and SOLAS damaged-stability criteria.
 
-- ⬜ **Mooring catenary solver** _(planned)_: Static and quasi-dynamic multi-segment catenary for spread and turret moorings; reports line tensions, vessel offsets, watch circles, and anchor uplift.
+- ✅ **Mooring catenary solver** _(stub, awaits wire-up)_: Static and quasi-dynamic multi-segment catenary for spread and turret moorings; reports line tensions, vessel offsets, watch circles, and anchor uplift.
 
 - ⬜ **Ship structural midship designer** _(planned)_: Section modulus, neutral axis, and hull-girder bending checks against IACS CSR longitudinal strength; plate buckling per DNV/ABS allowables.
 
