@@ -2322,7 +2322,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Hydraulic circuit designer** _(stub, awaits wire-up)_: Schematic editor for hydraulic power packs with pumps, valves, accumulators, and actuators; simulates flow, pressure, and load dynamics. Sizes reservoirs, coolers, and filters from duty cycle and contamination targets.
 
-- ⬜ **Compressed air system designer** _(planned)_: Sizes compressors, dryers, receivers, and distribution piping from CFM demand profiles and pressure-dew-point targets. Estimates leakage loss, specific energy (kW/cfm), and storage for peak shaving.
+- ✅ **Compressed air system designer** _(stub, awaits wire-up)_: Sizes compressors, dryers, receivers, and distribution piping from CFM demand profiles and pressure-dew-point targets. Estimates leakage loss, specific energy (kW/cfm), and storage for peak shaving.
 
 - ⬜ **Fluid properties database** _(planned)_: CoolProp/REFPROP-style lookup of density, viscosity, cp, k, Pr, surface tension, and saturation curves for water, refrigerants, oils, air, and mixtures. Returns properties along arbitrary T,P or T,x paths for use by other tools.
 
