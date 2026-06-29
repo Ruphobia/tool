@@ -1822,7 +1822,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Syntax Tree Builder** _(stub, awaits wire-up)_: Draws constituency and dependency trees from bracketed strings, CoNLL-U, or natural-language input, with drag-to-reattach editing and labeled arcs. Renders to PDF, SVG, and qtree/tikz-dependency.
 
-- ⬜ **Corpus Concordancer** _(planned)_: Loads plain text, TEI, or CoNLL corpora and runs KWIC search with regex, lemma, and POS filters, plus frequency lists, collocation scores (PMI, log-Dice, t-score), and keyness against a reference corpus.
+- ✅ **Corpus Concordancer** _(stub, awaits wire-up)_: Loads plain text, TEI, or CoNLL corpora and runs KWIC search with regex, lemma, and POS filters, plus frequency lists, collocation scores (PMI, log-Dice, t-score), and keyness against a reference corpus.
 
 - ⬜ **Etymology Explorer** _(planned)_: Looks up word histories from vendored Wiktionary and Etymonline dumps, drawing cognate and borrowing graphs across language families. AI-integrated hypothesis generation for missing intermediate forms with confidence flags.
 
