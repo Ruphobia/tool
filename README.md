@@ -1270,7 +1270,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Amortization schedule builder** _(stub, awaits wire-up)_: Generates a payment-by-payment table for fixed, ARM, interest-only, and balloon mortgages, with principal/interest split, remaining balance, and effects of extra principal payments or recasts.
 
-- ⬜ **Mortgage scenario comparator** _(planned)_: Compares loan offers side by side across rate, term, points, PMI, and closing costs, computing APR, total interest, and break-even points between scenarios.
+- ✅ **Mortgage scenario comparator** _(stub, awaits wire-up)_: Compares loan offers side by side across rate, term, points, PMI, and closing costs, computing APR, total interest, and break-even points between scenarios.
 
 - ⬜ **Cap rate and NOI calculator** _(planned)_: Builds net operating income from rent roll, vacancy, opex, and reserves, then derives cap rate, gross rent multiplier, and price per door from sale or list price.
 
