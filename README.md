@@ -3255,7 +3255,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **ERA5/reanalysis extractor** _(stub, awaits wire-up)_: Fetches ERA5, MERRA-2, JRA-55, and NCEP/NCAR reanalysis subsets from CDS, GES DISC, or Copernicus Marine; caches monthly tiles locally and exports point, transect, or area-weighted time series.
 
-- ⬜ **Drought & precip index calculator** _(planned)_: Computes SPI, SPEI, PDSI, scPDSI, EDDI, and percent of normal from GHCN, PRISM, CHIRPS, or model precip and PET; produces gridded anomaly maps and basin-aggregated drought monitor overlays.
+- ✅ **Drought & precip index calculator** _(stub, awaits wire-up)_: Computes SPI, SPEI, PDSI, scPDSI, EDDI, and percent of normal from GHCN, PRISM, CHIRPS, or model precip and PET; produces gridded anomaly maps and basin-aggregated drought monitor overlays.
 
 - ⬜ **Fire weather index suite** _(planned)_: Calculates Canadian FWI (FFMC, DMC, DC, ISI, BUI, FWI), NFDRS, KBDI, Haines, and Hot-Dry-Windy indices from station or model surface fields; flags red-flag conditions on a map.
 
