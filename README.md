@@ -4209,7 +4209,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Lighting Plot Drafter** _(stub, awaits wire-up)_: Drafts a 2D plot and section view with positions, pipes, booms, and fixtures pulled from a profile library; tracks channel, address, dimmer, circuit, color, gobo, accessory, and focus note per unit.
 
-- ⬜ **Console Syntax Editor** _(planned)_: Offers an Eos/grandMA-style command line over groups, palettes, presets, and cue lists. Edits intensity, focus, color, beam, and effect parameters with keypad-style syntax and tracking semantics.
+- ✅ **Console Syntax Editor** _(stub, awaits wire-up)_: Offers an Eos/grandMA-style command line over groups, palettes, presets, and cue lists. Edits intensity, focus, color, beam, and effect parameters with keypad-style syntax and tracking semantics.
 
 - ⬜ **Previz Renderer** _(planned)_: Renders fixtures in a 3D venue model driven by live sACN/Art-Net/DMX input. Shows beams, shutter cuts, gobo rotation, prism break-up, and CMY/RGB color mixing for offline programming and dry tech.
 
