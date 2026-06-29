@@ -1773,7 +1773,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Mythology, folklore, and comparative narrative
 
-- ⬜ **ATU Motif Index Browser** _(planned)_: Searchable, cross-referenced index of Aarne-Thompson-Uther tale types and Thompson motif numbers, with filters by region, motif element, and tale family. Supports tagging custom corpus entries with ATU codes for later aggregation.
+- ✅ **ATU Motif Index Browser** _(stub, awaits wire-up)_: Searchable, cross-referenced index of Aarne-Thompson-Uther tale types and Thompson motif numbers, with filters by region, motif element, and tale family. Supports tagging custom corpus entries with ATU codes for later aggregation.
 
 - ⬜ **Pantheon Cross-Reference Atlas** _(planned)_: Side-by-side comparison grids of deities across cultures (Indo-European, Mesoamerican, West African, Polynesian, Sino-Tibetan, etc.), aligned by domain (sky, storm, trickster, underworld). Includes etymology trails and known syncretic identifications.
 
