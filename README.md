@@ -2005,7 +2005,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Thin Film Coating Designer** _(stub, awaits wire-up)_: Multilayer transfer-matrix solver for reflectance, transmittance, absorptance, and group delay vs wavelength and angle, with material dispersion library (Sellmeier, Tauc-Lorentz) and needle/tunneling optimization to user targets (AR, HR, dichroic, beam splitter).
 
-- ⬜ **Polarization Calculator** _(planned)_: Jones and Mueller calculus workbench for polarizers, retarders, rotators, depolarizers, and arbitrary anisotropic stacks; visualizes states on the Poincare sphere and computes degree of polarization, ellipticity, and orientation through user-built optical chains.
+- ✅ **Polarization Calculator** _(stub, awaits wire-up)_: Jones and Mueller calculus workbench for polarizers, retarders, rotators, depolarizers, and arbitrary anisotropic stacks; visualizes states on the Poincare sphere and computes degree of polarization, ellipticity, and orientation through user-built optical chains.
 
 - ⬜ **Fiber Mode Solver** _(planned)_: Finite-difference vector mode solver for step-index, graded-index, photonic-crystal, and arbitrary-cross-section fibers, returning effective index, group/chromatic/PMD dispersion, mode field diameter, confinement, and bend loss.
 
