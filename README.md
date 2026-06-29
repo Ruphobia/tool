@@ -317,7 +317,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ⬜ **Profiler** _(planned)_: Sampling and tracing profiler with flamegraph, call tree, and allocation views for native and managed runtimes, with AI annotation of hot paths and suggested optimizations.
 
-- ⬜ **Linter and formatter** _(planned)_: Aggregator for ruff, eslint, clippy, shellcheck, gofmt, prettier, and friends, with per-project config, autofix on save, and AI rationale for any rule that is otherwise opaque.
+- ✅ **Linter and formatter** _(in testing)_: Aggregator for ruff, eslint, clippy, shellcheck, gofmt, prettier, and friends, with per-project config, autofix on save, and AI rationale for any rule that is otherwise opaque.
 
 - ⬜ **Static analyzer** _(planned)_: Cross-language semantic analysis for dead code, unsafe patterns, taint flow, and complexity hotspots, with AI triage of findings into real issues versus noise.
 
