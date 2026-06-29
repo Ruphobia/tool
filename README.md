@@ -4008,7 +4008,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Coffee, tea, wine, spirits, beverages
 
-- ⬜ **RoastProfileStudio** _(planned)_: Live roast logger capturing bean temp, environmental temp, and Rate of Rise with timestamped events (charge, turning point, yellow, first crack, drop). Replays curves, overlays batches, and flags crash/flick artifacts.
+- ✅ **RoastProfileStudio** _(stub, awaits wire-up)_: Live roast logger capturing bean temp, environmental temp, and Rate of Rise with timestamped events (charge, turning point, yellow, first crack, drop). Replays curves, overlays batches, and flags crash/flick artifacts.
 
 - ⬜ **EspressoShotLog** _(planned)_: Per-shot record of dose, yield, time, grind setting, basket, water temp, pressure profile, TDS, and extraction yield. Trends results per bean over time and surfaces drift in grinder or beans.
 
