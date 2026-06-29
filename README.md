@@ -1956,7 +1956,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Signal integrity analyzer** _(stub, awaits wire-up)_: Field solver and IBIS-driven channel simulation for crosstalk, reflections, impedance discontinuities, and eye-mask compliance. Generates fix recommendations (stub length, termination, layer stackup).
 
-- ⬜ **Power integrity analyzer** _(planned)_: PDN impedance solver with decoupling-capacitor optimization, IR drop maps, and rail transient analysis. Recommends cap value and placement to hit a target impedance curve.
+- ✅ **Power integrity analyzer** _(stub, awaits wire-up)_: PDN impedance solver with decoupling-capacitor optimization, IR drop maps, and rail transient analysis. Recommends cap value and placement to hit a target impedance curve.
 
 - ⬜ **Thermal simulator** _(planned)_: Finite-element thermal solver for board and enclosure heat flow with copper-pour modeling, airflow, and heatsink libraries. Flags components near junction-temperature limits under worst-case load.
 
