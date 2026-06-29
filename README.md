@@ -437,7 +437,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **WHOIS and RDAP lookup** _(stub, awaits wire-up)_: Queries WHOIS and RDAP for domains, IP ranges, and ASNs across regional registries. Normalizes results into a single structured view with registration, expiry, registrar, and abuse contact fields.
 
-- ⬜ **Traceroute and latency map** _(planned)_: Runs ICMP, UDP, and TCP traceroutes with per-hop RTT histograms and renders the path on a geolocated map using offline GeoIP and ASN data. Supports MTR-style continuous probing and loss tracking.
+- ✅ **Traceroute and latency map** _(stub, awaits wire-up)_: Runs ICMP, UDP, and TCP traceroutes with per-hop RTT histograms and renders the path on a geolocated map using offline GeoIP and ASN data. Supports MTR-style continuous probing and loss tracking.
 
 - ⬜ **Port scanner** _(planned)_: Performs TCP connect, SYN, and UDP scans across user-defined host and port ranges with banner grabbing and service fingerprinting. Annotates open ports with likely service identities from a local signature database.
 
