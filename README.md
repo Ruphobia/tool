@@ -2857,7 +2857,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Battery Bank Sizer** _(stub, awaits wire-up)_: Sizes a battery bank for target days of autonomy, depth-of-discharge limits, and round-trip efficiency, with chemistry-specific derating (LiFePO4, NMC, lead-acid AGM, flow). Reports usable kWh, cycle life at the chosen DoD, and replacement cadence.
 
-- ⬜ **Battery Chemistry Comparator** _(planned)_: Side-by-side comparison of energy density, cycle life vs DoD, calendar aging, temperature derating, C-rate limits, and $/kWh-cycle across chemistries. Highlights the break-even crossover for a given duty cycle.
+- ✅ **Battery Chemistry Comparator** _(stub, awaits wire-up)_: Side-by-side comparison of energy density, cycle life vs DoD, calendar aging, temperature derating, C-rate limits, and $/kWh-cycle across chemistries. Highlights the break-even crossover for a given duty cycle.
 
 - ⬜ **Charge Controller Selector** _(planned)_: Picks PWM vs MPPT controllers and sizes them against array Isc, Voc-cold, and battery bus voltage with the required safety margins. Flags when paralleling controllers or moving to a higher bus voltage beats a single oversize unit.
 
