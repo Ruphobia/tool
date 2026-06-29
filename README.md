@@ -1766,7 +1766,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Source-layer visualizer** _(stub, awaits wire-up)_: Overlays critical hypotheses on a text (JEPD for the Pentateuch, Q / M / L for the Synoptics, Markan priority variants, redactional strata) with color-coded spans; supports user-defined source theories and side-by-side comparison.
 
-- ⬜ **Sacred geography GIS** _(planned)_: Plots pilgrimage routes, holy sites, monasteries, episcopal sees, and council locations on Pelagios-linked maps; computes travel-time isochrones over reconstructed ancient road and sea networks.
+- ✅ **Sacred geography GIS** _(stub, awaits wire-up)_: Plots pilgrimage routes, holy sites, monasteries, episcopal sees, and council locations on Pelagios-linked maps; computes travel-time isochrones over reconstructed ancient road and sea networks.
 
 - ⬜ **Iconography classifier** _(planned)_: Identifies saints, attributes, mudrās, asanas, and narrative scenes in images using an AI vision model fine-tuned on Iconclass, the Index of Medieval Art, and Buddhist and Hindu iconographic corpora; returns ranked Iconclass codes with provenance.
 
