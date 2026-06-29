@@ -1556,7 +1556,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **AutoML pipeline** _(stub, awaits wire-up)_: Generates feature pipelines and model ensembles over tabular data using PyCaret/AutoGluon/TPOT backends, with leakage detection and target-leakage warnings. AI-integrated narration of why the chosen pipeline beat the others.
 
-- ⬜ **Feature store** _(planned)_: Versioned offline/online feature definitions with point-in-time correct joins, freshness tracking, and lineage from raw source to training example.
+- ✅ **Feature store** _(stub, awaits wire-up)_: Versioned offline/online feature definitions with point-in-time correct joins, freshness tracking, and lineage from raw source to training example.
 
 - ⬜ **Dataset curator** _(planned)_: Sample-level review surface for image, audio, text, and tabular datasets with labels, splits, dedup (MinHash/SimHash/embedding), PII scan, and class-balance views. AI-integrated outlier and mislabel surfacing using model disagreement.
 
