@@ -3802,7 +3802,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Style Corpus Search** _(stub, awaits wire-up)_: Searches a local corpus of MIDI, MusicXML, and audio (Bach chorales, jazz standards, folk tunes, pop charts) by melodic contour, harmonic pattern, rhythmic motif, or text query, and reports matches with citations.
 
-- ⬜ **Prosody and Lyric Setter** _(planned)_: Aligns lyrics to a melody by syllable count, stress pattern, and phrase shape, flagging mismatches between linguistic stress and metric accent. Offers AI-integrated rewrites that preserve meaning while fixing prosody.
+- ✅ **Prosody and Lyric Setter** _(stub, awaits wire-up)_: Aligns lyrics to a melody by syllable count, stress pattern, and phrase shape, flagging mismatches between linguistic stress and metric accent. Offers AI-integrated rewrites that preserve meaning while fixing prosody.
 
 
 #### Signal processing and audio
