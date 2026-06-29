@@ -1114,7 +1114,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **FMEA editor** _(stub, awaits wire-up)_: Builds Design and Process FMEA worksheets with severity, occurrence, and detection scoring, computes RPN and AIAG-VDA action priority, and links failure modes to causes, controls, and recommended actions.
 
-- ⬜ **SPC control chart studio** _(planned)_: Plots Xbar-R, Xbar-S, I-MR, p, np, c, u, CUSUM, and EWMA charts from time-series measurements, applies Nelson and Western Electric rules, and flags out-of-control points with annotated runs.
+- ✅ **SPC control chart studio** _(stub, awaits wire-up)_: Plots Xbar-R, Xbar-S, I-MR, p, np, c, u, CUSUM, and EWMA charts from time-series measurements, applies Nelson and Western Electric rules, and flags out-of-control points with annotated runs.
 
 - ⬜ **Process capability analyzer** _(planned)_: Computes Cp, Cpk, Pp, Ppk, and Cpm against engineering tolerances, tests normality (Anderson-Darling, Shapiro-Wilk), and fits Johnson or Box-Cox transforms for non-normal data with capability indices recalculated.
 
