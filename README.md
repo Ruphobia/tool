@@ -1452,7 +1452,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **EPUB reader** _(stub, awaits wire-up)_: Reflowable reader for EPUB, MOBI, AZW3, and FB2 with adjustable typography, TOC navigation, bookmarks, and per-book reading state. Shares the same annotation store as the PDF reader.
 
-- ⬜ **Comic and manga reader** _(planned)_: Page and strip viewers for CBZ, CBR, and PDF comics with right-to-left mode, double-page spreads, panel-by-panel zoom, and per-volume reading position.
+- ✅ **Comic and manga reader** _(stub, awaits wire-up)_: Page and strip viewers for CBZ, CBR, and PDF comics with right-to-left mode, double-page spreads, panel-by-panel zoom, and per-volume reading position.
 
 - ⬜ **Document converter** _(planned)_: Routes documents between PDF, EPUB, DOCX, ODT, HTML, Markdown, LaTeX, and plain text via pandoc and format-specific backends. Falls back to model-driven structure recovery when a source is too malformed for deterministic conversion.
 
