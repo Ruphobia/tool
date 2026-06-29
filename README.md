@@ -349,7 +349,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ⬜ **Documentation generator** _(planned)_: Builds API docs from docstrings, types, and examples across languages, with AI-drafted prose for undocumented surfaces and consistency checks between code and prose.
 
-- ⬜ **Changelog and release tool** _(planned)_: Compiles changelogs from commit history and merged PRs, applies semver heuristics, tags releases, and produces signed artifacts and release notes with AI editing for tone and accuracy.
+- ✅ **Changelog and release tool** _(in testing)_: Compiles changelogs from commit history and merged PRs, applies semver heuristics, tags releases, and produces signed artifacts and release notes with AI editing for tone and accuracy.
 
 - ⬜ **Code-to-code translator** _(planned)_: Pipeline-driven port of a function or module between languages (Python, Rust, Go, TS, C, Lua) with side-by-side review, type and idiom adaptation, and round-trip test validation.
 
