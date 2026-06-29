@@ -3169,7 +3169,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Inter-rater reliability calculator** _(stub, awaits wire-up)_: Computes Cohen's and Fleiss' kappa, Krippendorff's alpha, ICC variants, and percent agreement from coder x item matrices. Highlights disagreement cells for adjudication and recoder calibration.
 
-- ⬜ **Psychometric scale validator** _(planned)_: Runs reliability (Cronbach's alpha, McDonald's omega), item-total correlations, and exploratory and confirmatory factor analysis with fit indices. Generates a scale report with item-drop simulations and loading plots.
+- ✅ **Psychometric scale validator** _(stub, awaits wire-up)_: Runs reliability (Cronbach's alpha, McDonald's omega), item-total correlations, and exploratory and confirmatory factor analysis with fit indices. Generates a scale report with item-drop simulations and loading plots.
 
 - ⬜ **Mixed-effects model builder** _(planned)_: Specifies lme4-style random and fixed effects with crossed and nested factors, fits with REML or ML, and compares models via likelihood ratio and AIC. Outputs marginal and conditional R-squared, EMMs, and contrast tests.
 
