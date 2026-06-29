@@ -2682,7 +2682,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **QTH and station planner** _(stub, awaits wire-up)_: Models the home or portable station with antenna heights, terrain (SRTM), HAAT, and obstruction profiles. Runs Longley-Rice/ITM, Splat!, and HFTA for VHF/UHF and HF takeoff angle studies.
 
-- ⬜ **Pre-flight briefing aggregator** _(planned)_: Pulls 1800wxbrief, Leidos, GFA, winds aloft, icing/turbulence (GTG, FIP), PIREPs, and SWPC HF impact tables into a single brief. Stores the brief with the flight log entry for FAR 91.103 compliance evidence.
+- ✅ **Pre-flight briefing aggregator** _(stub, awaits wire-up)_: Pulls 1800wxbrief, Leidos, GFA, winds aloft, icing/turbulence (GTG, FIP), PIREPs, and SWPC HF impact tables into a single brief. Stores the brief with the flight log entry for FAR 91.103 compliance evidence.
 
 
 #### Automotive and vehicle systems
