@@ -494,7 +494,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Push notification tester** _(stub, awaits wire-up)_: Sends APNs payloads via token or .p8 key and FCM messages via service account, with templates for alerts, silent background, Live Activity updates, and rich attachments; logs delivery receipts and decode errors.
 
-- ⬜ **Universal Link validator** _(planned)_: Fetches and lints apple-app-site-association and assetlinks.json against the configured bundle IDs and SHA-256 fingerprints, simulates link resolution per platform, and explains why a deep link fell back to Safari or the Play Store.
+- ✅ **Universal Link validator** _(stub, awaits wire-up)_: Fetches and lints apple-app-site-association and assetlinks.json against the configured bundle IDs and SHA-256 fingerprints, simulates link resolution per platform, and explains why a deep link fell back to Safari or the Play Store.
 
 - ⬜ **Privacy manifest generator** _(planned)_: Builds PrivacyInfo.xcprivacy for iOS and the Play Console Data Safety form from a single declared inventory of SDKs, tracking domains, required-reason API usage, and data categories collected.
 
