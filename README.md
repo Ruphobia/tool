@@ -4108,7 +4108,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pigment mixer** _(stub, awaits wire-up)_: Simulates subtractive paint mixing using a Kubelka-Munk two-constant model over a built-in library of watercolor, oil, acrylic, and gouache pigments with lightfastness, granulation, and staining metadata.
 
-- ⬜ **Value and notan studio** _(planned)_: Posterizes a reference image to 2 to 9 value steps, generates thumbnail variants, and overlays a notan mask so light/dark composition can be judged independently of hue.
+- ✅ **Value and notan studio** _(stub, awaits wire-up)_: Posterizes a reference image to 2 to 9 value steps, generates thumbnail variants, and overlays a notan mask so light/dark composition can be judged independently of hue.
 
 - ⬜ **Perspective grid overlay** _(planned)_: Generates 1-, 2-, 3-, 4-, and 5-point perspective grids plus fisheye and curvilinear projections, with adjustable horizon, station point, cone of vision, and exportable transparent overlays for tracing.
 
