@@ -3449,7 +3449,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Nautical chart viewer** _(stub, awaits wire-up)_: Renders S-57/S-101 ENCs and BSB raster charts with depth contours, navaids, and AIS overlay. Supports route planning with cross-track error, waypoint export to GPX, and tidal-height-aware UKC checks.
 
-- ⬜ **Coral DHW tracker** _(planned)_: Pulls NOAA Coral Reef Watch SST anomaly and Degree Heating Weeks for any reef polygon, tracks bleaching alert level history, and overlays in-situ HOBO logger data for ground-truth comparison.
+- ✅ **Coral DHW tracker** _(stub, awaits wire-up)_: Pulls NOAA Coral Reef Watch SST anomaly and Degree Heating Weeks for any reef polygon, tracks bleaching alert level history, and overlays in-situ HOBO logger data for ground-truth comparison.
 
 - ⬜ **Mixed layer depth detector** _(planned)_: Identifies MLD on CTD or glider casts using threshold (de Boyer Montegut), gradient, and curvature methods. Flags barrier layers and compensation depth from paired PAR/oxygen.
 
