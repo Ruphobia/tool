@@ -2733,7 +2733,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Wheel and Tire Fitment Calculator** _(stub, awaits wire-up)_: Computes rolling circumference, speedometer error, fender clearance, scrub radius shift, and load-rating delta when changing wheel offset, width, or tire size. Visualizes the resulting wheel pose inside a fender outline.
 
-- ⬜ **EV Pack and Range Calculator** _(planned)_: Designs series/parallel battery configurations from cell datasheets, computes pack voltage, capacity, internal resistance, and sag under load, and estimates range from a drive cycle. Models regen recovery and DC fast-charge time curves.
+- ✅ **EV Pack and Range Calculator** _(stub, awaits wire-up)_: Designs series/parallel battery configurations from cell datasheets, computes pack voltage, capacity, internal resistance, and sag under load, and estimates range from a drive cycle. Models regen recovery and DC fast-charge time curves.
 
 - ⬜ **Cooling System Calculator** _(planned)_: Sizes radiator core area, fan CFM, oil cooler, and intercooler from engine heat rejection, coolant flow, and ambient conditions. Plots coolant and IAT temperatures over a simulated track stint.
 
