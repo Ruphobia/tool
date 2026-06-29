@@ -2224,7 +2224,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Wood Movement Calculator** _(stub, awaits wire-up)_: Predicts seasonal dimensional change from species, grain orientation, starting and target moisture content, and ambient humidity range; flags panels and joints likely to cup, split, or bind.
 
-- ⬜ **Nesting and Cut List Optimizer** _(planned)_: Packs parts onto sheet goods, plate, plywood, leather, or fabric with rotation locks, grain constraints, kerf, and common cuts; produces ordered, labeled cut lists for table saw, panel saw, laser, waterjet, or plasma.
+- ✅ **Nesting and Cut List Optimizer** _(stub, awaits wire-up)_: Packs parts onto sheet goods, plate, plywood, leather, or fabric with rotation locks, grain constraints, kerf, and common cuts; produces ordered, labeled cut lists for table saw, panel saw, laser, waterjet, or plasma.
 
 - ⬜ **Tolerance and Fit Calculator** _(planned)_: Sizes clearance, transition, press, and snap-fit features per ISO 286 and process-specific shrinkage; recommends hole and shaft modifications by manufacturing method (FDM, resin, CNC, laser kerf, sheet bend).
 
