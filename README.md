@@ -3243,7 +3243,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **GOES ABI composer** _(stub, awaits wire-up)_: Loads GOES-16/18 and Himawari L1b/L2 NetCDF; generates true color, AirMass, day cloud phase, dust, fire, and GeoColor RGBs using Satpy recipes; supports CONUS, full disk, and mesoscale sector animation.
 
-- ⬜ **Lightning density mapper** _(planned)_: Ingests GOES GLM flash/group/event data and NLDN/ENTLN CG/IC stroke feeds; produces flash extent density, total optical energy, and flash rate time series with parallax correction.
+- ✅ **Lightning density mapper** _(stub, awaits wire-up)_: Ingests GOES GLM flash/group/event data and NLDN/ENTLN CG/IC stroke feeds; produces flash extent density, total optical energy, and flash rate time series with parallax correction.
 
 - ⬜ **METAR/SYNOP station plotter** _(planned)_: Pulls ASOS, AWOS, METAR, and SYNOP observations from MADIS, Iowa Mesonet, or Synoptic API; renders WMO-standard station models with wind barbs, sky cover, present weather, and pressure tendency.
 
