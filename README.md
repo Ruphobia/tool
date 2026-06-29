@@ -1069,7 +1069,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Roadmap visualizer** _(stub, awaits wire-up)_: Quarter or month grid of epics and themes with status, confidence, and target windows, rendered as swimlanes per team or product area. Supports now/next/later columns as an alternate layout.
 
-- ⬜ **Burndown and burnup charts** _(planned)_: Scope and remaining-work charts for sprints, releases, and epics, with ideal-trend overlays and scope-change annotations. Forecast lines are projected from rolling velocity.
+- ✅ **Burndown and burnup charts** _(stub, awaits wire-up)_: Scope and remaining-work charts for sprints, releases, and epics, with ideal-trend overlays and scope-change annotations. Forecast lines are projected from rolling velocity.
 
 - ⬜ **Velocity tracker** _(planned)_: Per-iteration throughput in points, tickets closed, and hours, with rolling averages and confidence bands. Outliers are flagged with the events that caused them (holidays, incidents, scope cuts).
 
