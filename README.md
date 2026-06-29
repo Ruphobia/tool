@@ -264,7 +264,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Citation Key Generator** _(in testing)_: Rule-based BibTeX key builder with templates (author-year-title, journal abbreviations, disambiguation suffixes) and collision detection across the library and bound documents.
 
-- ⬜ **Metadata Resolver** _(planned)_: Looks up records by DOI, ISBN, arXiv ID, PMID, PMC, ADS bibcode, or freeform title; merges results from Crossref, OpenAlex, DataCite, PubMed, and Semantic Scholar with provenance tracking.
+- ✅ **Metadata Resolver** _(stub, awaits wire-up)_: Looks up records by DOI, ISBN, arXiv ID, PMID, PMC, ADS bibcode, or freeform title; merges results from Crossref, OpenAlex, DataCite, PubMed, and Semantic Scholar with provenance tracking.
 
 - ⬜ **PDF Ingestor** _(planned)_: Extracts metadata, references, and structural sections from PDFs using GROBID-style parsing, then proposes a CSL record. AI assists when scans, preprints, or malformed headers defeat heuristic extraction.
 
