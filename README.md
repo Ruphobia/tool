@@ -1274,7 +1274,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Cap rate and NOI calculator** _(stub, awaits wire-up)_: Builds net operating income from rent roll, vacancy, opex, and reserves, then derives cap rate, gross rent multiplier, and price per door from sale or list price.
 
-- ⬜ **Rental pro forma modeler** _(planned)_: Projects multi-year cash flow for an income property including rent growth, expense inflation, capex reserves, financing, depreciation, and after-tax IRR, NPV, equity multiple, and cash-on-cash return.
+- ✅ **Rental pro forma modeler** _(stub, awaits wire-up)_: Projects multi-year cash flow for an income property including rent growth, expense inflation, capex reserves, financing, depreciation, and after-tax IRR, NPV, equity multiple, and cash-on-cash return.
 
 - ⬜ **Comps analyzer** _(planned)_: Loads comparable sales, normalizes price per sqft, and applies grid adjustments (location, condition, GLA, beds/baths, lot, time) to produce an adjusted indicated value with a reconciled range.
 
