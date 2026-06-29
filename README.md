@@ -1075,7 +1075,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Time tracker** _(stub, awaits wire-up)_: Timer and manual-entry log of effort against tickets, with daily/weekly timesheets, idle detection, and per-project rollups. AI-integrated activity classification suggests which ticket recent terminal, editor, and browser activity belongs to.
 
-- ⬜ **Estimation board** _(planned)_: Planning-poker-style estimation surface for single-user or multi-seat sessions, with reference tickets, t-shirt or Fibonacci scales, and reveal/discuss flow. AI provides a baseline estimate from comparable closed tickets and is treated as one anonymous voter.
+- ✅ **Estimation board** _(stub, awaits wire-up)_: Planning-poker-style estimation surface for single-user or multi-seat sessions, with reference tickets, t-shirt or Fibonacci scales, and reveal/discuss flow. AI provides a baseline estimate from comparable closed tickets and is treated as one anonymous voter.
 
 - ⬜ **Backlog groomer** _(planned)_: Filtered list view that surfaces stale, underspecified, duplicate, or dependency-blocked tickets and walks them one at a time. AI-integrated rewriter expands one-line tickets into structured acceptance criteria and clarifying questions.
 
