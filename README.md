@@ -1876,7 +1876,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Speech Synthesizer** _(stub, awaits wire-up)_: Renders conlang text as audio through a phoneme-to-acoustic pipeline (formant or neural backend) parameterized by the language's inventory and prosody. Useful for hearing the language and for stress-testing phonotactics by ear.
 
-- ⬜ **Translation Workbench** _(planned)_: Edits parallel texts aligned at sentence and morpheme level with AI-assisted glossing, back-translation, and naturalness scoring. Flags lexicon gaps and proposes coinages consistent with the active phonology and morphology.
+- ✅ **Translation Workbench** _(stub, awaits wire-up)_: Edits parallel texts aligned at sentence and morpheme level with AI-assisted glossing, back-translation, and naturalness scoring. Flags lexicon gaps and proposes coinages consistent with the active phonology and morphology.
 
 
 #### Speech, language, and translation
