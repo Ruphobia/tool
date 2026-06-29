@@ -49,6 +49,15 @@ list(FILTER TOOL_CPP_HEADERS  EXCLUDE REGEX "/005_context/sqlite3\\.h$")
 # Vendored cpp-httplib single header lives next to the web UI; not source.
 list(FILTER TOOL_CPP_HEADERS  EXCLUDE REGEX "/010_interface/httplib\\.h$")
 
+# tool_test owns its own main(); compute its source list now (same tree
+# minus tool's main and the web UI), then strip the testing harness out
+# of the main tool target so its main() doesn't collide with main.cpp.
+set(TOOL_TEST_CPP_SOURCES ${TOOL_CPP_SOURCES})
+list(FILTER TOOL_TEST_CPP_SOURCES EXCLUDE REGEX "/main\\.cpp$")
+list(FILTER TOOL_TEST_CPP_SOURCES EXCLUDE REGEX "/010_interface/")
+list(FILTER TOOL_CPP_SOURCES      EXCLUDE REGEX "/testing/")
+list(FILTER TOOL_CPP_HEADERS      EXCLUDE REGEX "/testing/")
+
 if(TOOL_CUDA_SOURCES)
     enable_language(CUDA)
     set(CMAKE_CUDA_STANDARD 17)
@@ -237,3 +246,45 @@ target_sources(${PROJECT_NAME} PRIVATE
 target_include_directories(${PROJECT_NAME} PRIVATE "${_IFACE_GEN_DIR}")
 # cpp-httplib needs threads (already linked) and gets included as a header.
 target_include_directories(${PROJECT_NAME} PRIVATE "${_IFACE_DIR}")
+
+# =====================================================================
+# tool_test: standalone smoke-test runner. Same source tree minus tool's
+# main and the web UI; links the same libraries so any module can
+# register its own CLI smoke test from a static initializer under
+# testing/. No model loads at startup; the per-feature test is what
+# decides whether to call its module's init().
+# =====================================================================
+add_executable(tool_test
+    ${TOOL_TEST_CPP_SOURCES}
+    ${TOOL_CUDA_SOURCES}
+    ${TOOL_CPP_HEADERS}
+    ${TOOL_CUDA_HEADERS}
+)
+
+target_include_directories(tool_test PRIVATE
+    "${CMAKE_SOURCE_DIR}"
+    ${LIBZIM_INCLUDE_DIR}
+    "${llama_cpp_SOURCE_DIR}/tools/mtmd"
+)
+
+target_link_libraries(tool_test PRIVATE
+    llama
+    mtmd
+    nlohmann_json::nlohmann_json
+    sqlite3_amalgamation
+    CURL::libcurl
+    ${LIBZIM_LIB}
+    Threads::Threads
+)
+
+if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
+    target_compile_options(tool_test PRIVATE -Wall -Wextra -Wpedantic)
+elseif(CMAKE_CXX_COMPILER_ID MATCHES "MSVC")
+    target_compile_options(tool_test PRIVATE /W4)
+endif()
+
+if(TOOL_CUDA_SOURCES)
+    set_target_properties(tool_test PROPERTIES
+        CUDA_SEPARABLE_COMPILATION ON
+    )
+endif()

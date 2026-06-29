@@ -1,5 +1,6 @@
 # Build artifacts
 /tool
+/tool_test
 /bin/
 /_deps/
 /CMakeCache.txt
