@@ -165,7 +165,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Cross-domain Socratic council** _(in testing)_: orchestrates several domain specialists in a structured dialogue against each other on a single multi-domain prompt. Each specialist challenges the others' assumptions and contributes its own grounding; a coordinator detects convergence and synthesizes. Used when a prompt spans domains a single specialist can't cover (e.g. simulating atmospheric methane on a Jovian moon and its effect on Mars orbit pulls planetary science, atmospheric chemistry, and orbital mechanics together).
 
-- ⬜ **Standing principle: small specialist integration** _(planned)_: not a tool per se. Whenever a small specialized abliterated model appears on Hugging Face that fits a tool slot, the project pulls it, chunks it, and wires it in. The fleet expands as the open-source ecosystem expands.
+- ✅ **Standing principle: small specialist integration** _(stub, awaits wire-up)_: not a tool per se. Whenever a small specialized abliterated model appears on Hugging Face that fits a tool slot, the project pulls it, chunks it, and wires it in. The fleet expands as the open-source ecosystem expands.
 
 
 #### Project artifact maintainers
