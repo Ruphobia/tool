@@ -2139,7 +2139,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Spring designer** _(stub, awaits wire-up)_: Sizes compression, extension, torsion, and Belleville springs with stress, fatigue life, and natural frequency checks. Outputs manufacturable wire diameter, coil count, and free length.
 
-- ⬜ **Material library** _(planned)_: Curated database of metals, polymers, ceramics, composites, and woods with mechanical, thermal, electrical, and processing properties plus cost and availability. AI-integrated material selection from functional requirements and constraints.
+- ✅ **Material library** _(stub, awaits wire-up)_: Curated database of metals, polymers, ceramics, composites, and woods with mechanical, thermal, electrical, and processing properties plus cost and availability. AI-integrated material selection from functional requirements and constraints.
 
 - ⬜ **Sheet metal unfolder** _(planned)_: Flattens bent sheet metal parts with k-factor and bend deduction tables, computes blank size, and outputs DXF for laser, plasma, or waterjet cutting. Detects undercuts and impossible bends.
 
