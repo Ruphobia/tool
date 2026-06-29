@@ -4617,7 +4617,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Anchor watch** _(stub, awaits wire-up)_: Sets a swing-circle alarm from anchor drop position, rode length, depth, and tide range, with separate alarms for drag, depth excursion, and wind shift beyond a threshold. Logs the swing pattern through the night and AI-suggests a likely drag event versus a normal tide-driven swing.
 
-- ⬜ **Celestial sight reducer** _(planned)_: Reduces sun, star, moon, and planet sights using the NA almanac and the Bowditch/HO 229 intercept method, builds a fix from multiple LOPs with a least-squares cocked-hat solution, and propagates DR between sights. Handles index error, dip, refraction, parallax, and limb corrections.
+- ✅ **Celestial sight reducer** _(stub, awaits wire-up)_: Reduces sun, star, moon, and planet sights using the NA almanac and the Bowditch/HO 229 intercept method, builds a fix from multiple LOPs with a least-squares cocked-hat solution, and propagates DR between sights. Handles index error, dip, refraction, parallax, and limb corrections.
 
 - ⬜ **Magnetic model** _(planned)_: Evaluates WMM and IGRF coefficients for variation, inclination, and field strength at a given lat/lon/date, applies deviation from a per-heading swing card, and converts between true, magnetic, and compass headings. Fits a new deviation card from a logged compass swing.
 
