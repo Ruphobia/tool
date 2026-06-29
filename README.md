@@ -744,7 +744,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Particle Designer** _(stub, awaits wire-up)_: Visual emitter editor with curve-driven lifetime properties, sub-emitters, force fields, GPU and CPU backends, and live preview against a chosen game background. Exports to a portable JSON spec consumable by common engines.
 
-- ⬜ **Level Layout Studio** _(planned)_: Grid-and-free 2D/2.5D level editor with entities, prefab instances, rooms, doors, spawners, and runtime-tunable parameters. Supports tile-collision baking and navmesh generation in the same view.
+- ✅ **Level Layout Studio** _(stub, awaits wire-up)_: Grid-and-free 2D/2.5D level editor with entities, prefab instances, rooms, doors, spawners, and runtime-tunable parameters. Supports tile-collision baking and navmesh generation in the same view.
 
 - ⬜ **Dialog Scripter** _(planned)_: Node-graph branching dialog editor with conditions, variables, speakers, voice-line slots, and inline localization. Compiles to Yarn, Ink, or a portable JSON runtime and round-trips with plain-text source.
 
