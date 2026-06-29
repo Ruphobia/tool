@@ -1656,7 +1656,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Critical Apparatus Editor** _(stub, awaits wire-up)_: Authors TEI-conformant critical editions with sigla management, variant readings, conjectures, and lemma-keyed apparatus entries. Renders the Leiden conventions for papyrology (square brackets, dots under, underdot) and outputs print-ready PDF via XeLaTeX.
 
-- ⬜ **Parallel Corpus Aligner** _(planned)_: Aligns ancient text with translations and other versions at the word, phrase, or verse level: Hebrew/LXX/Vulgate, Sanskrit/Pali, Akkadian/Sumerian bilinguals, Greek/Coptic. Supports concordance search and lemma-based queries across aligned layers.
+- ✅ **Parallel Corpus Aligner** _(stub, awaits wire-up)_: Aligns ancient text with translations and other versions at the word, phrase, or verse level: Hebrew/LXX/Vulgate, Sanskrit/Pali, Akkadian/Sumerian bilinguals, Greek/Coptic. Supports concordance search and lemma-based queries across aligned layers.
 
 - ⬜ **Meter and Prosody Scanner** _(planned)_: Scans Latin and Greek verse (dactylic hexameter, elegiacs, iambics, lyric meters), Sanskrit chandas (anushtubh, tristubh, jagati), and Hebrew biblical poetry parallelism. Marks longs, shorts, caesurae, and ictus with explanations of resolutions and substitutions.
 
