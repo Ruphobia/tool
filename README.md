@@ -1564,7 +1564,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Data quality profiler** _(stub, awaits wire-up)_: Produces per-column distributions, missingness patterns, cardinality, drift vs. a reference snapshot, and Great-Expectations-style assertions. Flags schema changes, outliers, and constant or near-constant columns.
 
-- ⬜ **Vector index lab** _(planned)_: Build, inspect, and query FAISS, HNSW, ScaNN, and LanceDB indexes over arbitrary embedding columns with recall/latency tradeoff curves and ANN-vs-exact comparison.
+- ✅ **Vector index lab** _(stub, awaits wire-up)_: Build, inspect, and query FAISS, HNSW, ScaNN, and LanceDB indexes over arbitrary embedding columns with recall/latency tradeoff curves and ANN-vs-exact comparison.
 
 - ⬜ **Embedding atlas** _(planned)_: UMAP/t-SNE/PCA/PaCMAP projections of embedding spaces with lasso selection, cluster labels, nearest-neighbor inspection, and cross-modal projection (text-to-image, audio-to-text). AI-integrated cluster naming from sample contents.
 
