@@ -618,7 +618,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Migration tool** _(stub, awaits wire-up)_: Generates, applies, and rolls back versioned migrations across Alembic, Flyway, Liquibase, Prisma, and golang-migrate; diffs schema state against target and writes idempotent up/down scripts with AI-integrated drafting from natural-language change requests.
 
-- ⬜ **Schema diff** _(planned)_: Compares two databases or a database against a schema dump and emits a minimal ALTER script, with destructive-change highlighting and dry-run impact estimate.
+- ✅ **Schema diff** _(stub, awaits wire-up)_: Compares two databases or a database against a schema dump and emits a minimal ALTER script, with destructive-change highlighting and dry-run impact estimate.
 
 - ⬜ **Query builder** _(planned)_: Visual join and filter composer that emits dialect-correct SQL, supports CTEs, window functions, and lateral joins, and round-trips between graphical and text views.
 
