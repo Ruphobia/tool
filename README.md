@@ -3953,7 +3953,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sake Sandan-Jikomi Planner** _(stub, awaits wire-up)_: Schedules three-step moromi additions with rice, koji, mizu, and shubo masses; computes seimaibuai, expected SMV (nihonshudo), and acidity targets across the moto and main mash.
 
-- ⬜ **Lacto-Ferment Workbench** _(planned)_: Solves salt percentage and brine ratios for vegetable ferments, kimchi, and pickles; tracks pH, temperature, and CO2 vent timeline with safety thresholds for Listeria and Clostridium.
+- ✅ **Lacto-Ferment Workbench** _(stub, awaits wire-up)_: Solves salt percentage and brine ratios for vegetable ferments, kimchi, and pickles; tracks pH, temperature, and CO2 vent timeline with safety thresholds for Listeria and Clostridium.
 
 - ⬜ **Sourdough Schedule Builder** _(planned)_: Plans starter feedings, levain build, autolyse, bulk, and cold retard against ambient temperature and starter activity; estimates dough doubling time and final crumb hydration.
 
