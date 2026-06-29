@@ -3016,7 +3016,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pangenome analyzer** _(stub, awaits wire-up)_: Builds core and accessory gene matrices via Roary, Panaroo, or PPanGGOLiN, computes presence-absence, gene gain-loss, and rarefaction curves across isolate sets.
 
-- ⬜ **Strain typer** _(planned)_: Runs MLST, cgMLST, wgMLST, spaTyping, serotyping (SISTR, SeqSero, Kaptive), and SNP-based clustering for outbreak investigation. Outputs minimum spanning trees and transmission inference.
+- ✅ **Strain typer** _(stub, awaits wire-up)_: Runs MLST, cgMLST, wgMLST, spaTyping, serotyping (SISTR, SeqSero, Kaptive), and SNP-based clustering for outbreak investigation. Outputs minimum spanning trees and transmission inference.
 
 - ⬜ **AMR profiler** _(planned)_: Screens isolates for resistance genes, plasmid replicons, and point mutations via AMRFinderPlus, CARD-RGI, ResFinder, and PlasmidFinder. Cross-references with EUCAST and CLSI breakpoint tables.
 
