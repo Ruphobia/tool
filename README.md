@@ -723,7 +723,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Secrets vault** _(stub, awaits wire-up)_: Local encrypted store for API keys, SSH keys, passwords, and tokens, with per-entry rotation reminders and clipboard auto-clear. Exposes entries to other workbench tools through a scoped reference rather than raw value.
 
-- ⬜ **Package manager frontend** _(planned)_: Unified view over apt, dnf, pacman, nix, flatpak, and snap with installed lists, upgrade preview, orphan detection, and pinning. Shows full transaction logs and supports rollback where the backend allows it.
+- ✅ **Package manager frontend** _(stub, awaits wire-up)_: Unified view over apt, dnf, pacman, nix, flatpak, and snap with installed lists, upgrade preview, orphan detection, and pinning. Shows full transaction logs and supports rollback where the backend allows it.
 
 - ⬜ **Hardware inventory** _(planned)_: Aggregates lshw, lspci, lsusb, dmidecode, and sensors output into a browsable hardware tree with firmware versions, temperatures, and fan speeds. Highlights drivers in use and lists kernel modules per device.
 
