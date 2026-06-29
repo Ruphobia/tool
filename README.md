@@ -2881,7 +2881,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Thermal Performance Modeler** _(stub, awaits wire-up)_: Estimates cell temperature from POA irradiance, ambient, and wind via Sandia, NOCT, or PVsyst models, then applies temperature coefficients to module power. Compares roof-mount, ground-mount, and bifacial backside ventilation.
 
-- ⬜ **Protection & Grounding Calculator** _(planned)_: Sizes fuses, breakers, and DC arc-fault/rapid-shutdown devices, plus equipment grounding conductor and bonding per NEC 690/705 and IEC 62548. Verifies short-circuit current paths and series fuse compatibility.
+- ✅ **Protection & Grounding Calculator** _(stub, awaits wire-up)_: Sizes fuses, breakers, and DC arc-fault/rapid-shutdown devices, plus equipment grounding conductor and bonding per NEC 690/705 and IEC 62548. Verifies short-circuit current paths and series fuse compatibility.
 
 - ⬜ **Demand Response & TOU Optimizer** _(planned)_: Schedules battery charge/discharge and deferrable loads (EV, water heater, HVAC pre-cool) against TOU tariffs and demand charges. Returns the optimal dispatch and the marginal value of an additional kWh of storage.
 
