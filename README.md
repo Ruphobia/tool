@@ -2794,7 +2794,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Reachability analyzer** _(stub, awaits wire-up)_: Sweeps the workspace of a manipulator on a configurable voxel grid and produces reachability, dexterity, and manipulability heatmaps with collision-aware filtering and base-placement optimization.
 
-- ⬜ **Collision checker** _(planned)_: Performs broad and narrow-phase collision and distance queries between robot links, meshes, point clouds, primitives, and swept volumes via FCL/HPP-FCL with per-pair allowed-collision matrices.
+- ✅ **Collision checker** _(stub, awaits wire-up)_: Performs broad and narrow-phase collision and distance queries between robot links, meshes, point clouds, primitives, and swept volumes via FCL/HPP-FCL with per-pair allowed-collision matrices.
 
 - ⬜ **Physics simulator** _(planned)_: Drives rigid-body and articulated-system simulation through MuJoCo, Bullet, Drake, or Genesis backends with contact dynamics, joint friction, sensor models, and headless batch rollouts for policy evaluation and domain randomization.
 
