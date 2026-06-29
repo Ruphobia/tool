@@ -2062,7 +2062,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Rigid-body simulator** _(stub, awaits wire-up)_: Time-domain simulation of constrained rigid bodies with contacts, joints, friction, and gravity. Exports trajectories, energy, and momentum traces; takes natural-language scene descriptions and emits an editable scene graph.
 
-- ⬜ **FEM solver** _(planned)_: Mesh-based finite-element analysis for static and dynamic structural, thermal, and electromagnetic problems with material library, boundary-condition painter, and stress/strain/temperature field visualization.
+- ✅ **FEM solver** _(stub, awaits wire-up)_: Mesh-based finite-element analysis for static and dynamic structural, thermal, and electromagnetic problems with material library, boundary-condition painter, and stress/strain/temperature field visualization.
 
 - ⬜ **CFD playground** _(planned)_: 2D/3D incompressible and compressible flow solver (lattice-Boltzmann and finite-volume) with sketch-to-geometry input, turbulence model selection, and streamline/vorticity rendering.
 
