@@ -942,7 +942,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **SSH Toolkit** _(stub, awaits wire-up)_: Generates, audits, and converts SSH keys, parses known_hosts and authorized_keys, and verifies host key pinning. Includes SSH certificate authority signing with principals, validity windows, and force-command extensions.
 
-- ⬜ **Secret Sharing Bench** _(planned)_: Splits secrets via Shamir's Secret Sharing and verifiable variants (Feldman, Pedersen) with configurable threshold and field. Reassembles shares from QR, mnemonics, or hex with corruption detection.
+- ✅ **Secret Sharing Bench** _(stub, awaits wire-up)_: Splits secrets via Shamir's Secret Sharing and verifiable variants (Feldman, Pedersen) with configurable threshold and field. Reassembles shares from QR, mnemonics, or hex with corruption detection.
 
 - ⬜ **Mnemonic & HD Wallet Studio** _(planned)_: Generates and parses BIP39/SLIP39 mnemonics, derives BIP32/BIP44/BIP84/BIP86 paths across coins, and exports xpub/xprv. Validates passphrase variants, surfaces address gaps, and detects path collisions across wallets.
 
