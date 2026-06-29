@@ -2577,7 +2577,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Aerodynamics and CFD
 
-- ⬜ **Airfoil Library** _(planned)_: Browsable, searchable catalog of UIUC, NACA, Selig, Eppler, Wortmann, and Drela airfoils with coordinates, thumbnails, and metadata (max thickness, camber, design Re). Supports tagging, favorites, and side-by-side overlay of section geometry.
+- ✅ **Airfoil Library** _(stub, awaits wire-up)_: Browsable, searchable catalog of UIUC, NACA, Selig, Eppler, Wortmann, and Drela airfoils with coordinates, thumbnails, and metadata (max thickness, camber, design Re). Supports tagging, favorites, and side-by-side overlay of section geometry.
 
 - ⬜ **NACA Generator** _(planned)_: Parametric generator for 4-digit, 5-digit, and 6-series NACA sections from camber, thickness, and reflex parameters. Outputs cleanly redistributed point clouds with cosine spacing suitable for panel solvers.
 
