@@ -1292,7 +1292,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Loss triangle reserve estimator** _(stub, awaits wire-up)_: Loads claim development triangles (paid, incurred, counts) and runs chain-ladder with volume-weighted, simple-average, and selected LDFs; outputs ultimates, IBNR, and Mack standard errors.
 
-- ⬜ **Bornhuetter-Ferguson and Cape Cod estimator** _(planned)_: Runs BF and Cape Cod reserving methods alongside chain-ladder using a priori loss ratios and exposure, with blended ultimates and a reconciliation report across methods.
+- ✅ **Bornhuetter-Ferguson and Cape Cod estimator** _(stub, awaits wire-up)_: Runs BF and Cape Cod reserving methods alongside chain-ladder using a priori loss ratios and exposure, with blended ultimates and a reconciliation report across methods.
 
 - ⬜ **Frequency-severity simulator** _(planned)_: Simulates aggregate losses from compound Poisson, negative binomial, and mixed frequency models combined with lognormal, Pareto, or empirical severity, producing VaR, TVaR, and exceedance probability curves.
 
