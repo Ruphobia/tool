@@ -3841,7 +3841,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **MIDI router and monitor** _(stub, awaits wire-up)_: Routes and filters MIDI between hardware/virtual ports, transforms channels/CCs, monitors raw bytes and SysEx, and records MIDI streams with timestamps.
 
-- ⬜ **Music notation editor** _(planned)_: Score editor with staff layout, transposition, chord symbols, lyrics, articulations, MusicXML/LilyPond import/export, and bidirectional MIDI<->score conversion. AI-integrated automatic transcription from audio to notation.
+- ✅ **Music notation editor** _(stub, awaits wire-up)_: Score editor with staff layout, transposition, chord symbols, lyrics, articulations, MusicXML/LilyPond import/export, and bidirectional MIDI<->score conversion. AI-integrated automatic transcription from audio to notation.
 
 - ⬜ **Audio-to-MIDI transcription** _(planned)_: AI-integrated monophonic and polyphonic transcription of recordings to MIDI with onset/offset, pitch, and velocity estimation; drum hit detection and groove extraction.
 
