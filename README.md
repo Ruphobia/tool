@@ -3263,7 +3263,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Reprojection & regrid kitchen** _(stub, awaits wire-up)_: Resamples between lat/lon, Lambert Conformal, polar stereographic, rotated pole, and EASE-Grid using wgrib2, CDO, NCO, and xESMF; handles conservative, bilinear, and nearest-neighbor methods with mask-aware weights.
 
-- ⬜ **Bias correction & downscaling** _(planned)_: Applies quantile mapping, BCSD, BCCA, and EQM bias correction to model output against a reference (Livneh, PRISM, ERA5-Land); supports statistical downscaling and constructed-analogue methods for climate impact studies.
+- ✅ **Bias correction & downscaling** _(stub, awaits wire-up)_: Applies quantile mapping, BCSD, BCCA, and EQM bias correction to model output against a reference (Livneh, PRISM, ERA5-Land); supports statistical downscaling and constructed-analogue methods for climate impact studies.
 
 - ⬜ **Storm chase nowcaster** _(planned)_: Combines latest HRRR, RAP mesoanalysis, MRMS, and GOES bands into a single map; AI-integrated highlighting of likely supercell, MCS, or QLCS modes from radar morphology and environmental shear/CAPE fields.
 
