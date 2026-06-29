@@ -3451,7 +3451,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Coral DHW tracker** _(stub, awaits wire-up)_: Pulls NOAA Coral Reef Watch SST anomaly and Degree Heating Weeks for any reef polygon, tracks bleaching alert level history, and overlays in-situ HOBO logger data for ground-truth comparison.
 
-- ⬜ **Mixed layer depth detector** _(planned)_: Identifies MLD on CTD or glider casts using threshold (de Boyer Montegut), gradient, and curvature methods. Flags barrier layers and compensation depth from paired PAR/oxygen.
+- ✅ **Mixed layer depth detector** _(stub, awaits wire-up)_: Identifies MLD on CTD or glider casts using threshold (de Boyer Montegut), gradient, and curvature methods. Flags barrier layers and compensation depth from paired PAR/oxygen.
 
 - ⬜ **Reef transect logger** _(planned)_: Structured entry for belt-transect and point-intercept surveys (Reef Life Survey, AGRRA, CoralWatch protocols) with size-class abundance, substrate cover, and offline-first sync to a portable SQLite store.
 
