@@ -335,7 +335,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ⬜ **API client** _(planned)_: Postman-style HTTP and gRPC client with request collections, environments, scripting, and AI generation of requests and assertions from an OpenAPI spec or a curl example.
 
-- ⬜ **Regex designer** _(planned)_: Live regex tester with sample text, capture group highlighting, and dialect translation between PCRE, RE2, ECMAScript, and POSIX, with AI synthesis of a pattern from positive and negative examples.
+- ✅ **Regex designer** _(in testing)_: Live regex tester with sample text, capture group highlighting, and dialect translation between PCRE, RE2, ECMAScript, and POSIX, with AI synthesis of a pattern from positive and negative examples.
 
 - ⬜ **SQL workbench** _(planned)_: Connects to SQLite, Postgres, MySQL, and DuckDB, with schema browser, query editor, result grid, and AI translation between natural language, SQL, and across dialects.
 
