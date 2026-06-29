@@ -4075,7 +4075,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Glass COE and Color Match** _(stub, awaits wire-up)_: Compatibility checker for soft glass, borosilicate, quartz, and lead crystal across vendors (Bullseye 90, System 96, Effetre 104, Boro 33). Stores striking and reduction color libraries with working temperature ranges and suggests anneal soak times by section thickness.
 
-- ⬜ **Annealing and Lehr Planner** _(planned)_: Derives anneal point, strain point, hold, and cool-rate schedules for glass pieces by thickness and geometry; for metals, plans recrystallization anneals for sterling, copper, brass, gold, and titanium with pickle and oxide-mitigation steps.
+- ✅ **Annealing and Lehr Planner** _(stub, awaits wire-up)_: Derives anneal point, strain point, hold, and cool-rate schedules for glass pieces by thickness and geometry; for metals, plans recrystallization anneals for sterling, copper, brass, gold, and titanium with pickle and oxide-mitigation steps.
 
 - ⬜ **Leather Pattern Drafter** _(planned)_: Unfolds 3D shapes into flat patterns for bags, sheaths, holsters, saddle skirts, and bookbinding cases with seam, turn, and skive allowances. Computes stitch line offsets, edge bevel, and burnish length per leather weight and tannage.
 
