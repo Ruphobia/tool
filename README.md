@@ -1513,7 +1513,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Peer-Review Reading Queue** _(stub, awaits wire-up)_: Prioritized queue with SLA timers, conflict-of-interest checks against the user's coauthor graph, and per-section comment drafting. Includes a reviewer-style checklist generator tuned to the venue's guidelines.
 
-- ⬜ **Journal Impact and Predatory Flag** _(planned)_: Combines JIF, SJR, SNIP, h5-index, and OpenAlex venue stats with predatory-publisher lists (Beall successor lists, DOAJ status, OASPA membership). Flags suspect APC patterns, fake metric badges, and hijacked-journal lookalikes.
+- ✅ **Journal Impact and Predatory Flag** _(stub, awaits wire-up)_: Combines JIF, SJR, SNIP, h5-index, and OpenAlex venue stats with predatory-publisher lists (Beall successor lists, DOAJ status, OASPA membership). Flags suspect APC patterns, fake metric badges, and hijacked-journal lookalikes.
 
 - ⬜ **Equation and Notation Workbench** _(planned)_: Extracts equations from PDFs into editable LaTeX, resolves symbol definitions across the paper, and aligns notation between multiple sources into a unified glossary. Renders inline with MathJax/KaTeX and supports symbolic diff.
 
