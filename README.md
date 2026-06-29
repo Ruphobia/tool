@@ -2709,7 +2709,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Damper Tuning Workbench** _(stub, awaits wire-up)_: Imports shock-dyno CSV traces and overlays force-velocity curves with bump/rebound separation, hysteresis loops, and digressive/linear/progressive classification. Cross-plots damper position with vehicle telemetry to find packer hits and frequency-domain artifacts.
 
-- ⬜ **Suspension Geometry Visualizer** _(planned)_: Sketches double-wishbone, MacPherson, or multi-link geometry in 2D, computes roll center, instant center, anti-dive, anti-squat, and camber/bump-steer curves through travel. Outputs kinematics CSV for use in a vehicle model.
+- ✅ **Suspension Geometry Visualizer** _(stub, awaits wire-up)_: Sketches double-wishbone, MacPherson, or multi-link geometry in 2D, computes roll center, instant center, anti-dive, anti-squat, and camber/bump-steer curves through travel. Outputs kinematics CSV for use in a vehicle model.
 
 - ⬜ **Pacejka Tire Model Lab** _(planned)_: Fits the Magic Formula (PAC2002 / MF6.1) to measured Fy/Fx/Mz data and plots slip angle, slip ratio, and combined-grip friction ellipses. Generates parameter sets ready for export to vehicle-dynamics solvers.
 
