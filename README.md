@@ -1218,7 +1218,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Anachronism checker** _(stub, awaits wire-up)_: Cross-references vocabulary, named entities, technologies, and brand mentions against the story's stated period or setting. Flags terms postdating the era using etymology and product-launch data from vendored Wiktionary and reference dumps.
 
-- ⬜ **Manuscript typesetter** _(planned)_: LaTeX and Pandoc backed page layout with running heads, drop caps, microtype, ligature handling, widow and orphan control, and CMYK or grayscale output. Produces press-ready PDF, accessible EPUB, and reflowable HTML from one source.
+- ✅ **Manuscript typesetter** _(stub, awaits wire-up)_: LaTeX and Pandoc backed page layout with running heads, drop caps, microtype, ligature handling, widow and orphan control, and CMYK or grayscale output. Produces press-ready PDF, accessible EPUB, and reflowable HTML from one source.
 
 - ⬜ **Ebook compiler** _(planned)_: EPUB3, MOBI, AZW3, and KFX builds with embedded fonts, accessible navigation, MathML, SVG cover, and image optimization. Validates against epubcheck and KDP Previewer rules and reports failures inline with the offending file and line.
 
