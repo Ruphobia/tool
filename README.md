@@ -1482,7 +1482,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Annotation store** _(stub, awaits wire-up)_: Central database of highlights, margin notes, bookmarks, and ink strokes, keyed to stable text anchors that survive reflow and reconversion. Exposes a search and timeline view across all books.
 
-- ⬜ **Highlight exporter** _(planned)_: Dumps annotations to Markdown, Org, Obsidian, or Anki packages, grouped by book, tag, or color, with surrounding context windows and optional model-generated synthesis per highlight cluster.
+- ✅ **Highlight exporter** _(stub, awaits wire-up)_: Dumps annotations to Markdown, Org, Obsidian, or Anki packages, grouped by book, tag, or color, with surrounding context windows and optional model-generated synthesis per highlight cluster.
 
 - ⬜ **Document summarizer** _(planned)_: Produces per-section, per-chapter, and whole-document summaries at selectable depth, with extractive quote pulls alongside abstractive paraphrase. Caches summaries per content hash so they survive reopen.
 
