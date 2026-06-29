@@ -1799,7 +1799,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Trickster Taxonomy Viewer** _(stub, awaits wire-up)_: Specialized typology for trickster figures (Loki, Anansi, Coyote, Hermes, Sun Wukong, Eshu, Raven) cross-indexed by traits: shapeshifting, theft, boundary-crossing, culture-hero overlap, gender fluidity.
 
-- ⬜ **Cosmogony Comparator** _(planned)_: Structured comparison of creation accounts: ex nihilo, world-egg, primordial dismemberment, earth-diver, emergence, world-parents. Aligns stages and lists exemplar traditions for each pattern.
+- ✅ **Cosmogony Comparator** _(stub, awaits wire-up)_: Structured comparison of creation accounts: ex nihilo, world-egg, primordial dismemberment, earth-diver, emergence, world-parents. Aligns stages and lists exemplar traditions for each pattern.
 
 - ⬜ **Symbol Concordance** _(planned)_: Cross-cultural concordance for recurring symbols (tree, serpent, twin, mountain, weaver, smith, threshold) with attested meanings per tradition. Links each symbol entry to motif index codes and corpus citations.
 
