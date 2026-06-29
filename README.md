@@ -4085,7 +4085,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Hallmark and Assay Reference** _(stub, awaits wire-up)_: Searchable database of maker, assay-office, date, and standard marks across UK, France, Russia, Sweden, and Japan, with touchstone and acid-test fineness procedures. Includes XRF interpretation hints and minimum legal finenesses by jurisdiction.
 
-- ⬜ **Engraving and Chasing Pattern Studio** _(planned)_: Vector design surface for hand engraving, chasing, repousse, and bulino with bright-cut shading, scroll layout aids, and mirror-image preview for transfer. AI-assisted style transfer adapts a sketch into period-appropriate acanthus, arabesque, or mokume motifs while preserving cut-friendly line weights.
+- ✅ **Engraving and Chasing Pattern Studio** _(stub, awaits wire-up)_: Vector design surface for hand engraving, chasing, repousse, and bulino with bright-cut shading, scroll layout aids, and mirror-image preview for transfer. AI-assisted style transfer adapts a sketch into period-appropriate acanthus, arabesque, or mokume motifs while preserving cut-friendly line weights.
 
 - ⬜ **Wax and Lost-Wax Casting Planner** _(planned)_: Sizes sprues, gates, vents, and risers for centrifugal and vacuum casting by alloy and pattern volume; computes investment water ratio, burnout schedule, and flask preheat. Estimates metal weight from wax weight per alloy and flags shrinkage porosity hotspots.
 
