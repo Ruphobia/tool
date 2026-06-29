@@ -4728,7 +4728,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Hypnogram Viewer** _(stub, awaits wire-up)_: Renders the night as a stepped stage plot over time with overlays for HR, HRV, SpO2, movement, and ambient temperature. Supports zoom, multi-night stacking, and side-by-side comparison.
 
-- ⬜ **Dream Journal with Motif Tagger** _(planned)_: Free-text journal with timestamped entries, voice-note transcription, and lucidity flags. An on-device language model extracts recurring motifs, characters, settings, and emotional valence into a tag index.
+- ✅ **Dream Journal with Motif Tagger** _(stub, awaits wire-up)_: Free-text journal with timestamped entries, voice-note transcription, and lucidity flags. An on-device language model extracts recurring motifs, characters, settings, and emotional valence into a tag index.
 
 - ⬜ **Dream Sign Catalog** _(planned)_: Catalogs personal dream signs (inner, action, form, context) with frequency and co-occurrence statistics across the journal. Surfaces the top-N signs to rehearse for prospective lucidity training.
 
