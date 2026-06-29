@@ -214,7 +214,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Provenance Tracker** _(in testing)_: Records the source of every entry (file, URL, chat turn, command output, manual) with timestamp, hash, and a one-click jump back to the originating context.
 
-- ⬜ **Semantic Recall Probe** _(planned)_: Query box that runs hybrid keyword plus vector search over memory, shows ranked hits with highlighted spans, and explains why each entry matched.
+- ✅ **Semantic Recall Probe** _(in testing)_: Query box that runs hybrid keyword plus vector search over memory, shows ranked hits with highlighted spans, and explains why each entry matched.
 
 - ⬜ **Knowledge Graph View** _(planned)_: Interactive graph of entries linked by references, tags, people, and projects, with clustering, path-finding between two notes, and orphan detection.
 
