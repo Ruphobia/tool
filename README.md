@@ -337,7 +337,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Regex designer** _(in testing)_: Live regex tester with sample text, capture group highlighting, and dialect translation between PCRE, RE2, ECMAScript, and POSIX, with AI synthesis of a pattern from positive and negative examples.
 
-- ⬜ **SQL workbench** _(planned)_: Connects to SQLite, Postgres, MySQL, and DuckDB, with schema browser, query editor, result grid, and AI translation between natural language, SQL, and across dialects.
+- ✅ **SQL workbench** _(stub, awaits wire-up)_: Connects to SQLite, Postgres, MySQL, and DuckDB, with schema browser, query editor, result grid, and AI translation between natural language, SQL, and across dialects.
 
 - ✅ **Log viewer** _(in testing)_: Streams and tails local and remote logs with structured (JSON, logfmt) parsing, filtering, faceting, and AI summarization of an error burst into a likely cause.
 
