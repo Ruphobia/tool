@@ -421,7 +421,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **HTTP client** _(stub, awaits wire-up)_: Composes and sends arbitrary HTTP/HTTPS requests with full control over method, headers, body, auth, and TLS options. Saves request collections, environments, and variables; replays from cURL, HAR, or OpenAPI. AI-integrated drafting of requests from natural-language descriptions of an endpoint and synthesis of follow-up calls from observed responses.
 
-- ⬜ **WebSocket explorer** _(planned)_: Opens persistent WebSocket connections, sends framed text or binary payloads, and logs the full bidirectional transcript with timestamps. Supports subprotocol negotiation, ping/pong inspection, and scripted message sequences.
+- ✅ **WebSocket explorer** _(stub, awaits wire-up)_: Opens persistent WebSocket connections, sends framed text or binary payloads, and logs the full bidirectional transcript with timestamps. Supports subprotocol negotiation, ping/pong inspection, and scripted message sequences.
 
 - ⬜ **GraphQL playground** _(planned)_: Introspects a GraphQL endpoint, renders the schema as a navigable graph, and provides a query editor with autocompletion and variable binding. AI-integrated query generation from a question stated in plain English against the introspected schema.
 
