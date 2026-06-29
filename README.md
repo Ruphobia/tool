@@ -222,7 +222,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ⬜ **Session Recap Distiller** _(planned)_: Reads a session transcript and proposes candidate memory entries (decisions made, preferences expressed, facts learned) for one-click acceptance, edit, or rejection.
 
-- ⬜ **Memory Diff and Reconcile** _(planned)_: Three-way diff across machines or branches of the memory store with conflict resolution, useful when syncing personal memory between devices or merging a teammate's project memory.
+- ✅ **Memory Diff and Reconcile** _(in testing)_: Three-way diff across machines or branches of the memory store with conflict resolution, useful when syncing personal memory between devices or merging a teammate's project memory.
 
 - ✅ **Export and Import** _(in testing)_: Round-trippable export to plain markdown plus JSON sidecars, with import from Obsidian vaults, Logseq graphs, Apple Notes dumps, and Claude/ChatGPT memory exports.
 
