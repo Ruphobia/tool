@@ -2765,7 +2765,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Carburetor & EFI Tuning Workbench** _(stub, awaits wire-up)_: Jet size selector by altitude, temperature, and humidity for common carbs (Mikuni, Keihin, Dell'Orto). For EFI, imports fuel and ignition tables (Tunerstudio, EcuTek, HPTuners exports) and visualizes AFR/timing maps against logged data.
 
-- ⬜ **Bicycle Gear-Inch Calculator** _(planned)_: Computes gear inches, gain ratio, development, and speed-at-cadence for any chainring/cog/wheel combination. Compares 1x, 2x, 3x, and internally-geared hubs side-by-side; flags cross-chain and unusable overlapping gears.
+- ✅ **Bicycle Gear-Inch Calculator** _(stub, awaits wire-up)_: Computes gear inches, gain ratio, development, and speed-at-cadence for any chainring/cog/wheel combination. Compares 1x, 2x, 3x, and internally-geared hubs side-by-side; flags cross-chain and unusable overlapping gears.
 
 - ⬜ **Frame Geometry Comparator** _(planned)_: Overlays stack, reach, head/seat tube angles, BB drop, chainstay, wheelbase, and standover across multiple bicycles or motorcycles. Computes effective top tube and saddle/bar position deltas to predict fit changes between frames.
 
