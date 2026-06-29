@@ -4112,7 +4112,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Perspective grid overlay** _(stub, awaits wire-up)_: Generates 1-, 2-, 3-, 4-, and 5-point perspective grids plus fisheye and curvilinear projections, with adjustable horizon, station point, cone of vision, and exportable transparent overlays for tracing.
 
-- ⬜ **Calligraphy nib simulator** _(planned)_: Simulates broad-edge, pointed-pen, and brush-pen strokes with pressure- and angle-driven contrast, supports historical hands (Italic, Copperplate, Uncial, Kufic, Sōsho), and produces guide sheets at requested x-height and slant.
+- ✅ **Calligraphy nib simulator** _(stub, awaits wire-up)_: Simulates broad-edge, pointed-pen, and brush-pen strokes with pressure- and angle-driven contrast, supports historical hands (Italic, Copperplate, Uncial, Kufic, Sōsho), and produces guide sheets at requested x-height and slant.
 
 - ⬜ **Brushwork trainer** _(planned)_: Plays stepped exercises for pressure control, hairline-to-swell transitions, ovals, and ductus drills, with AI-integrated stroke analysis that scores the user trace against the target path for smoothness and angle.
 
