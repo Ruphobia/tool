@@ -2214,7 +2214,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **CNC CAM Studio** _(stub, awaits wire-up)_: Generates 2.5D and 3-axis toolpaths (contour, pocket, adaptive clearing, parallel, scallop, drilling, engraving, V-carving) from STEP/DXF with stock-aware roughing, rest machining, and post-processors per controller.
 
-- ⬜ **Feeds, Speeds and Tool Library** _(planned)_: Computes feeds, speeds, chip load, axial/radial engagement, and HP/torque per tool, material, and operation; maintains an endmill, drill, and tap library with stickout, runout, and wear tracking.
+- ✅ **Feeds, Speeds and Tool Library** _(stub, awaits wire-up)_: Computes feeds, speeds, chip load, axial/radial engagement, and HP/torque per tool, material, and operation; maintains an endmill, drill, and tap library with stickout, runout, and wear tracking.
 
 - ⬜ **G-code Visualizer and Simulator** _(planned)_: Renders FDM, laser, and CNC G-code with toolpath coloring by speed, layer, or extruder; simulates material removal, detects collisions and rapids through stock, and verifies post-processor output before machine time.
 
