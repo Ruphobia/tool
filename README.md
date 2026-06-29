@@ -3120,7 +3120,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **ICD / CPT / SNOMED Lookup** _(stub, awaits wire-up)_: Search and reverse-lookup across ICD-10/11, CPT, HCPCS, SNOMED CT, and LOINC code sets, with synonym expansion and AI-assisted mapping from free-text clinical phrases to candidate codes.
 
-- ⬜ **Clinical Trial Search** _(planned)_: Queries ClinicalTrials.gov, EU CTR, and WHO ICTRP via local indexes, with filters for phase, condition, intervention, geography, and eligibility; supports patient-criteria matching against a de-identified profile.
+- ✅ **Clinical Trial Search** _(stub, awaits wire-up)_: Queries ClinicalTrials.gov, EU CTR, and WHO ICTRP via local indexes, with filters for phase, condition, intervention, geography, and eligibility; supports patient-criteria matching against a de-identified profile.
 
 - ⬜ **Literature Search** _(planned)_: Federated search over PubMed, Europe PMC, and bioRxiv/medRxiv with MeSH expansion, citation graph traversal, and AI summarization of abstracts into structured PICO (population, intervention, comparator, outcome) tuples.
 
