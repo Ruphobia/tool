@@ -465,7 +465,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Feed and sitemap inspector** _(stub, awaits wire-up)_: Parses RSS, Atom, JSON Feed, and XML sitemaps; validates structure; and renders entries with diff against a previous fetch. Flags broken links, stale dates, and protocol-level caching issues.
 
-- ⬜ **cURL and code generator** _(planned)_: Converts any saved request into runnable cURL, HTTPie, Python requests, Node fetch, Go net/http, or PowerShell Invoke-WebRequest snippets. Round-trips parsed cURL strings back into the HTTP client for editing.
+- ✅ **cURL and code generator** _(stub, awaits wire-up)_: Converts any saved request into runnable cURL, HTTPie, Python requests, Node fetch, Go net/http, or PowerShell Invoke-WebRequest snippets. Round-trips parsed cURL strings back into the HTTP client for editing.
 
 - ⬜ **Network log triage** _(planned)_: Ingests captured HTTP transcripts, pcaps, or server access logs and clusters them by endpoint, status, and anomaly. AI-integrated explanation of suspicious patterns and proposed next checks, with citations back to the originating log lines.
 
