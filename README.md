@@ -3751,7 +3751,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Shader Graph** _(stub, awaits wire-up)_: OSL and MaterialX node editor with live-compiled GPU preview, BRDF inspector, and energy-conservation checks. Imports and round-trips to Blender, USD MaterialX, and glTF KHR extensions.
 
-- ⬜ **Cloth and Hair Sim** _(planned)_: XPBD-based cloth, hair card and strand grooming, with collisions, wind fields, and pinning maps; cached to Alembic and previewable in the viewport with self-collision toggles.
+- ✅ **Cloth and Hair Sim** _(stub, awaits wire-up)_: XPBD-based cloth, hair card and strand grooming, with collisions, wind fields, and pinning maps; cached to Alembic and previewable in the viewport with self-collision toggles.
 
 - ⬜ **Crowd Director** _(planned)_: Agent-based crowd system with state-machine behaviors, navmesh pathing, animation-clip stitching, and per-agent variation. AI-integrated locomotion blending so feet stay planted across speeds.
 
