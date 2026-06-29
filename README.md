@@ -1261,7 +1261,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Syllabus Planner** _(stub, awaits wire-up)_: Lays out a course week by week with topics, readings, assessments, holidays, and pacing constraints. Solves for even workload, prerequisite ordering, and review-week placement.
 
-- ⬜ **Exit Ticket Designer** _(planned)_: Generates one to three question formative checks tied to a lesson's stated objectives, with an expected-response key and a misconception map. Outputs to print, slide, or classroom-runner format.
+- ✅ **Exit Ticket Designer** _(stub, awaits wire-up)_: Generates one to three question formative checks tied to a lesson's stated objectives, with an expected-response key and a misconception map. Outputs to print, slide, or classroom-runner format.
 
 - ⬜ **Note-to-Deck Converter** _(planned)_: Ingests lecture notes, slides, or PDFs and emits spaced-repetition cards with cloze, Q-and-A, and image-occlusion forms. Ranks candidate cards by salience and lets the user accept or edit before adding to a deck.
 
