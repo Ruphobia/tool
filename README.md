@@ -2654,7 +2654,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **CW trainer and decoder** _(stub, awaits wire-up)_: Generates Koch and Farnsworth practice with adjustable WPM, character set, and weight, and decodes received audio with adaptive noise gating. Includes paddle/keyer simulation and contest-style head-copy drills.
 
-- ⬜ **Digital mode bridge** _(planned)_: Wraps WSJT-X (FT8, FT4, JT65, Q65, MSK144), JS8Call, fldigi (PSK31, RTTY, Olivia, Contestia), and VARA. Routes decodes into the ADIF log and exposes a programmatic API for automated CQ, sked, and grid-square chasing.
+- ✅ **Digital mode bridge** _(stub, awaits wire-up)_: Wraps WSJT-X (FT8, FT4, JT65, Q65, MSK144), JS8Call, fldigi (PSK31, RTTY, Olivia, Contestia), and VARA. Routes decodes into the ADIF log and exposes a programmatic API for automated CQ, sked, and grid-square chasing.
 
 - ⬜ **NEC antenna designer** _(planned)_: Edits wire and surface geometries, runs NEC2, NEC4, and MININEC engines, and plots 2D/3D gain patterns, SWR sweeps, current distribution, and near-field. Supports radials, lossy ground, tapered elements, and Sommerfeld-Norton modeling.
 
