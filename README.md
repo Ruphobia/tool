@@ -652,7 +652,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Data masking and anonymizer** _(stub, awaits wire-up)_: Generates sanitized dev/test datasets from production via deterministic hashing, format-preserving encryption, fake-data substitution (Faker), and referential-integrity-preserving subsetting.
 
-- ⬜ **Row-level lineage** _(planned)_: Traces a value across joins and views to its source tables and columns, parses CREATE VIEW and CTAS definitions, and renders column-level lineage graphs for impact analysis.
+- ✅ **Row-level lineage** _(stub, awaits wire-up)_: Traces a value across joins and views to its source tables and columns, parses CREATE VIEW and CTAS definitions, and renders column-level lineage graphs for impact analysis.
 
 - ⬜ **Audit and query log viewer** _(planned)_: Ingests pgaudit, MySQL general log, and MongoDB profiler output with per-user, per-table activity timelines, anomaly flagging on novel access patterns, and exportable compliance reports.
 
