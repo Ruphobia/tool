@@ -3669,7 +3669,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Face tools** _(stub, awaits wire-up)_: Detection, landmarking, recognition, swap (InsightFace/InSwapper/Roop-style), and identity-preserving re-render. Includes consent/provenance flags in metadata per release-licensing intent.
 
-- ⬜ **NSFW and safety classifier** _(planned)_: Optional local content classification with adjustable thresholds and per-tag reporting. Off by default since abliterated models are in scope.
+- ✅ **NSFW and safety classifier** _(stub, awaits wire-up)_: Optional local content classification with adjustable thresholds and per-tag reporting. Off by default since abliterated models are in scope.
 
 - ⬜ **Watermark and provenance** _(planned)_: Visible watermarking plus invisible signatures (StegaStamp, Trustmark) and C2PA manifest read/write. Verifies and strips watermarks where licensing allows.
 
