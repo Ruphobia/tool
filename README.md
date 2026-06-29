@@ -3339,7 +3339,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Wildlife telemetry analyzer** _(stub, awaits wire-up)_: Ingests GPS/Argos/VHF collar fixes (Movebank, Vectronic, Lotek formats), filters for DOP and speed outliers, and computes home ranges (MCP, KDE, AKDE, LoCoH), step-selection functions, and migration phenology. Renders tracks on offline tiles with utilization-distribution overlays.
 
-- ⬜ **Occupancy and capture-recapture** _(planned)_: Fits single- and multi-season occupancy, N-mixture, and spatially explicit capture-recapture models (PRESENCE/unmarked/secr/oSCR style) to detection histories from camera traps and acoustic arrays. Reports detection probability, density estimates, and goodness-of-fit diagnostics.
+- ✅ **Occupancy and capture-recapture** _(stub, awaits wire-up)_: Fits single- and multi-season occupancy, N-mixture, and spatially explicit capture-recapture models (PRESENCE/unmarked/secr/oSCR style) to detection histories from camera traps and acoustic arrays. Reports detection probability, density estimates, and goodness-of-fit diagnostics.
 
 - ⬜ **Species distribution modeler** _(planned)_: Trains MaxEnt / Random Forest / boosted-tree SDMs on occurrence records and WorldClim/Chelsa/soil rasters with k-fold spatial cross-validation and variable-importance plots. Projects to future climate scenarios and writes range rasters as GeoTIFF.
 
