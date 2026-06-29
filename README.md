@@ -3667,7 +3667,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Style transfer** _(stub, awaits wire-up)_: Reference-style restyling via IP-Adapter, InstantStyle, StyleAlign, and neural style transfer with content/style weight controls. Supports both image and video inputs.
 
-- ⬜ **Face tools** _(planned)_: Detection, landmarking, recognition, swap (InsightFace/InSwapper/Roop-style), and identity-preserving re-render. Includes consent/provenance flags in metadata per release-licensing intent.
+- ✅ **Face tools** _(stub, awaits wire-up)_: Detection, landmarking, recognition, swap (InsightFace/InSwapper/Roop-style), and identity-preserving re-render. Includes consent/provenance flags in metadata per release-licensing intent.
 
 - ⬜ **NSFW and safety classifier** _(planned)_: Optional local content classification with adjustable thresholds and per-tag reporting. Off by default since abliterated models are in scope.
 
