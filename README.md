@@ -3729,7 +3729,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Particle and Fluid Sim** _(stub, awaits wire-up)_: GPU-backed solver for SPH/FLIP fluids, smoke, fire, sand, and instanced particles with collision against signed-distance fields. Caches to OpenVDB and exports velocity fields for motion blur.
 
-- ⬜ **Node Compositor** _(planned)_: Nuke-style node graph compositor supporting EXR multilayer, deep compositing, premultiplication-correct merges, color management via OCIO, and animated reads. Renders out tiles in parallel with disk-backed caches.
+- ✅ **Node Compositor** _(stub, awaits wire-up)_: Nuke-style node graph compositor supporting EXR multilayer, deep compositing, premultiplication-correct merges, color management via OCIO, and animated reads. Renders out tiles in parallel with disk-backed caches.
 
 - ⬜ **Rotoscope Studio** _(planned)_: Frame-by-frame matte authoring with planar tracker assisted Bezier splines, motion-blur aware edges, and per-feather animation. AI mask propagation between sparse keyframes using a local segmentation model.
 
