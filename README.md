@@ -2820,7 +2820,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Computer vision pipeline** _(stub, awaits wire-up)_: Composes OpenCV and Kornia operators (detection, segmentation, optical flow, feature matching, pose estimation) as a runnable graph with live preview against cameras, video, or bag playback. AI-integrated swap-in of vision foundation models (SAM, DINOv2, YOLO, Grounding DINO) as graph nodes.
 
-- ⬜ **Pose estimation studio** _(planned)_: Estimates 6D object poses from RGB and RGB-D inputs using FoundationPose, MegaPose, fiducial markers (AprilTag, ArUco), and template matching, with ground-truth annotation and refinement tooling.
+- ✅ **Pose estimation studio** _(stub, awaits wire-up)_: Estimates 6D object poses from RGB and RGB-D inputs using FoundationPose, MegaPose, fiducial markers (AprilTag, ArUco), and template matching, with ground-truth annotation and refinement tooling.
 
 - ⬜ **Photogrammetry and radiance-field workbench** _(planned)_: Reconstructs scenes via structure-from-motion (COLMAP, OpenMVG), NeRF (nerfstudio), and Gaussian splatting (gsplat, SuGaR) from image sets, with mesh, point cloud, and splat export plus pose-graph editing.
 
