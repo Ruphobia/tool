@@ -2141,7 +2141,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Material library** _(stub, awaits wire-up)_: Curated database of metals, polymers, ceramics, composites, and woods with mechanical, thermal, electrical, and processing properties plus cost and availability. AI-integrated material selection from functional requirements and constraints.
 
-- ⬜ **Sheet metal unfolder** _(planned)_: Flattens bent sheet metal parts with k-factor and bend deduction tables, computes blank size, and outputs DXF for laser, plasma, or waterjet cutting. Detects undercuts and impossible bends.
+- ✅ **Sheet metal unfolder** _(stub, awaits wire-up)_: Flattens bent sheet metal parts with k-factor and bend deduction tables, computes blank size, and outputs DXF for laser, plasma, or waterjet cutting. Detects undercuts and impossible bends.
 
 - ⬜ **Weldment designer** _(planned)_: Applies structural profiles to a wireframe with mitered and butt joints, fillet and groove weld symbols, and AWS callouts. Computes weld throat stress under combined loading.
 
