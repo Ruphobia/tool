@@ -3058,7 +3058,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Metabolic model workbench** _(stub, awaits wire-up)_: Builds and curates genome-scale models via CarveMe or gapseq, runs FBA, FVA, and pFBA with COBRApy, and predicts essential genes and growth media.
 
-- ⬜ **Pathway and ontology enricher** _(planned)_: Maps gene or protein sets onto KEGG, Reactome, GO, and MetaCyc with hypergeometric or GSEA enrichment, and renders pathway diagrams with expression overlays.
+- ✅ **Pathway and ontology enricher** _(stub, awaits wire-up)_: Maps gene or protein sets onto KEGG, Reactome, GO, and MetaCyc with hypergeometric or GSEA enrichment, and renders pathway diagrams with expression overlays.
 
 - ⬜ **Biosecurity screener** _(planned)_: Screens designed sequences against select agent and dual-use signature databases (e.g. IGSC-style) and flags hits with risk context before synthesis order export.
 
