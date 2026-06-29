@@ -3554,7 +3554,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Crop Rotation Planner** _(stub, awaits wire-up)_: Plans multi-year rotations across beds using family grouping, nitrogen demand, allelopathy, disease carryover windows, and cover crop slots. AI-integrated suggestion of a rotation that satisfies the user's beds, crops, and constraints.
 
-- ⬜ **Companion Matrix** _(planned)_: Interactive grid of beneficial, neutral, and antagonistic plant pairings sourced from published trial data and traditional polyculture references, with provenance flags so folk wisdom and replicated studies are distinguishable.
+- ✅ **Companion Matrix** _(stub, awaits wire-up)_: Interactive grid of beneficial, neutral, and antagonistic plant pairings sourced from published trial data and traditional polyculture references, with provenance flags so folk wisdom and replicated studies are distinguishable.
 
 - ⬜ **Growing Degree Day Tracker** _(planned)_: Accumulates GDD against base and ceiling temperatures per crop or pest from local station or gridded forecast data. Predicts bloom, ripening, and insect emergence windows (e.g. codling moth, corn earworm).
 
