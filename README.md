@@ -685,7 +685,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Log aggregator** _(stub, awaits wire-up)_: Tails arbitrary log files and journald streams into one searchable timeline with regex, severity, and source filters. AI-integrated anomaly highlighting against a learned baseline of normal log volume and content.
 
-- ⬜ **Cron and timer editor** _(planned)_: Unified editor for user crontabs, /etc/cron.d, anacron, and systemd timers, with next-fire-time preview and dry-run execution. AI-integrated translation between natural-language schedules and cron or OnCalendar expressions.
+- ✅ **Cron and timer editor** _(stub, awaits wire-up)_: Unified editor for user crontabs, /etc/cron.d, anacron, and systemd timers, with next-fire-time preview and dry-run execution. AI-integrated translation between natural-language schedules and cron or OnCalendar expressions.
 
 - ⬜ **Disk usage analyzer** _(planned)_: Hierarchical treemap and sunburst of filesystem usage with per-directory size, file count, age, and largest-file lists. Identifies duplicate files by hash and offers in-place deletion or archive routing.
 
