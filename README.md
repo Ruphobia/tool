@@ -2060,7 +2060,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Vector and tensor calculator** _(stub, awaits wire-up)_: Grad/div/curl/Laplacian in arbitrary coordinate systems, Christoffel symbols, Riemann/Ricci tensors, and index-notation manipulation for GR and continuum mechanics.
 
-- ⬜ **Rigid-body simulator** _(planned)_: Time-domain simulation of constrained rigid bodies with contacts, joints, friction, and gravity. Exports trajectories, energy, and momentum traces; takes natural-language scene descriptions and emits an editable scene graph.
+- ✅ **Rigid-body simulator** _(stub, awaits wire-up)_: Time-domain simulation of constrained rigid bodies with contacts, joints, friction, and gravity. Exports trajectories, energy, and momentum traces; takes natural-language scene descriptions and emits an editable scene graph.
 
 - ⬜ **FEM solver** _(planned)_: Mesh-based finite-element analysis for static and dynamic structural, thermal, and electromagnetic problems with material library, boundary-condition painter, and stress/strain/temperature field visualization.
 
