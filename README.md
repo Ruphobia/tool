@@ -4139,7 +4139,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Attribution Assistant** _(stub, awaits wire-up)_: Identifies an unknown coin, stamp, or note from a photo or rubbing using on-device vision plus catalog metadata. Returns ranked candidate matches with KM/Scott numbers, mint years, and diagnostic features (legends, dates, watermarks, perforations).
 
-- ⬜ **Grading Guide** _(planned)_: Side-by-side reference plates for major grading standards (Sheldon 1-70 for coins, PSE/PF for stamps, PMG for paper money) with annotated wear points. Guides user through a grading interview and produces a defensible grade with notes.
+- ✅ **Grading Guide** _(stub, awaits wire-up)_: Side-by-side reference plates for major grading standards (Sheldon 1-70 for coins, PSE/PF for stamps, PMG for paper money) with annotated wear points. Guides user through a grading interview and produces a defensible grade with notes.
 
 - ⬜ **Mint Mark and Variety Tracker** _(planned)_: Database of mint marks, die varieties, double dies, RPMs, overdates, plate flaws, and printing varieties keyed to catalog numbers. Flags collectible varieties versus errors versus PMD on a submitted specimen.
 
