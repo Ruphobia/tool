@@ -3896,7 +3896,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Marker Nester** _(stub, awaits wire-up)_: Auto-nests pattern pieces onto fabric width with nap, stripe match, plaid match, and grain constraints to minimize yardage. Reports efficiency percent and lay length and exports cut files for manual or plotter cutting.
 
-- ⬜ **Fabric Yardage Calculator** _(planned)_: Estimates required yardage from selected pattern, fabric width, repeat, nap, and shrinkage. Computes cost from price per yard, accounts for fussy-cut waste, and stores fabric-specific defaults.
+- ✅ **Fabric Yardage Calculator** _(stub, awaits wire-up)_: Estimates required yardage from selected pattern, fabric width, repeat, nap, and shrinkage. Computes cost from price per yard, accounts for fussy-cut waste, and stores fabric-specific defaults.
 
 - ⬜ **Drape Simulator** _(planned)_: 3D cloth simulation of a flat pattern on a parametric avatar with adjustable stretch, bending, and friction per fabric. Highlights strain and pressure to flag tight zones before cutting.
 
