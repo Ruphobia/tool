@@ -799,7 +799,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **World Anchor Workbench** _(stub, awaits wire-up)_: Place, name, and persist spatial anchors against a captured room mesh; export to ARKit, ARCore, OpenXR Spatial Anchors, and a portable JSON format. Visualizes anchor confidence and drift over relocalization passes.
 
-- ⬜ **Comfort Analyzer** _(planned)_: Motion-sickness predictor that scores a recorded locomotion clip on optical flow magnitude, vection, unexpected yaw/pitch, frame-time stability, and acceleration profile. Flags offending segments on a timeline with suggested fixes (vignette, snap-turn, reduced FOV).
+- ✅ **Comfort Analyzer** _(stub, awaits wire-up)_: Motion-sickness predictor that scores a recorded locomotion clip on optical flow magnitude, vection, unexpected yaw/pitch, frame-time stability, and acceleration profile. Flags offending segments on a timeline with suggested fixes (vignette, snap-turn, reduced FOV).
 
 - ⬜ **360 Video Studio** _(planned)_: Viewer and light editor for equirectangular, cubemap, and VR180 footage with stereo pair alignment, seam blending, stabilization, and overlay tracks (subtitles, hotspots). Exports to MP4, MKV, and a WebXR-ready package.
 
