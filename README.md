@@ -4736,7 +4736,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Reality Check Scheduler** _(stub, awaits wire-up)_: Fires configurable randomized prompts during waking hours for digit-glance, hand-check, light-switch, and breath-through-nose tests. Logs hit, miss, and false-positive outcomes for habit-strength tracking.
 
-- ⬜ **Sleep Cycle Calculator** _(planned)_: Computes candidate bedtimes or wake times in 90-minute (or user-tuned) ultradian increments, factoring sleep-onset latency. Outputs alarm targets aligned to predicted REM exits.
+- ✅ **Sleep Cycle Calculator** _(stub, awaits wire-up)_: Computes candidate bedtimes or wake times in 90-minute (or user-tuned) ultradian increments, factoring sleep-onset latency. Outputs alarm targets aligned to predicted REM exits.
 
 - ⬜ **WBTB Alarm Composer** _(planned)_: Builds multi-stage alarm sequences for wake-back-to-bed protocols: primary wake, awake-window length, mantra rehearsal cue, and re-entry alarm. Adapts to last night's onset latency and the running cycle estimate.
 
