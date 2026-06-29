@@ -709,7 +709,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Port and connection viewer** _(stub, awaits wire-up)_: Shows listening sockets, established connections, and per-process socket ownership with reverse-DNS and geo annotation. Includes scan-from-here actions against a target host with nmap-style probes.
 
-- ⬜ **Firewall rule editor** _(planned)_: Unified editor for nftables, iptables, ufw, and firewalld rule sets with live counters and packet trace. AI-integrated translation between human intent ("block all inbound except SSH from LAN") and concrete ruleset diffs.
+- ✅ **Firewall rule editor** _(stub, awaits wire-up)_: Unified editor for nftables, iptables, ufw, and firewalld rule sets with live counters and packet trace. AI-integrated translation between human intent ("block all inbound except SSH from LAN") and concrete ruleset diffs.
 
 - ⬜ **DNS diagnostic console** _(planned)_: Runs dig, drill, and resolved queries against arbitrary nameservers with DNSSEC validation, trace, and EDNS options. Caches results and diffs zone-file changes across resolvers.
 
