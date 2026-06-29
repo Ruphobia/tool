@@ -4834,7 +4834,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pop culture timeline** _(stub, awaits wire-up)_: year-by-year cultural reference: hit songs, top films, news events, fashion, technology releases. Useful for period-correct writing, escape-room design, themed parties, and quick context for historical research.
 
-- ⬜ **Fandom and lore database** _(planned)_: structured data for well-documented fictional universes (Star Wars, Tolkien, Marvel, Star Trek, Pokemon, etc.) for AI-grounded answers on canon/character/timeline questions without making things up.
+- ✅ **Fandom and lore database** _(stub, awaits wire-up)_: structured data for well-documented fictional universes (Star Wars, Tolkien, Marvel, Star Trek, Pokemon, etc.) for AI-grounded answers on canon/character/timeline questions without making things up.
 
 ### Interface
 
