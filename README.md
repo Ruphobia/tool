@@ -2554,7 +2554,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Re-entry Calculator** _(stub, awaits wire-up)_: Simulates ballistic and lifting re-entry trajectories with selectable atmosphere and drag models, reporting peak g-load, peak heating rate, integrated heat load, downrange/crossrange, and a landing footprint ellipse.
 
-- ⬜ **Atmosphere Model Browser** _(planned)_: Evaluates US Standard 1976, NRLMSISE-00, Jacchia-Bowman, and exponential atmospheres for density, temperature, pressure, and composition versus altitude, with solar/geomagnetic activity inputs.
+- ✅ **Atmosphere Model Browser** _(stub, awaits wire-up)_: Evaluates US Standard 1976, NRLMSISE-00, Jacchia-Bowman, and exponential atmospheres for density, temperature, pressure, and composition versus altitude, with solar/geomagnetic activity inputs.
 
 - ⬜ **Gravity Field Explorer** _(planned)_: Computes gravitational acceleration and potential from point mass, J2/J4 zonals, and full EGM2008/GRGM spherical harmonic models for Earth, Moon, Mars, and asteroids, with geoid and free-air anomaly visualization.
 
