@@ -2599,7 +2599,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Wing and Fuselage Drag Estimator** _(stub, awaits wire-up)_: Component drag buildup combining skin friction, form factor, interference, induced, wave, and trim drag for wings, fuselages, nacelles, and pylons. Cross-checks against the VLM and polar solver and breaks down the drag stack in a stacked bar.
 
-- ⬜ **CFD Mesh Generator** _(planned)_: Generates structured C-meshes and O-meshes around airfoils and unstructured triangular/tetrahedral meshes around arbitrary STL geometry. Provides hyperbolic extrusion for boundary-layer prism layers with target y+ and growth ratio.
+- ✅ **CFD Mesh Generator** _(stub, awaits wire-up)_: Generates structured C-meshes and O-meshes around airfoils and unstructured triangular/tetrahedral meshes around arbitrary STL geometry. Provides hyperbolic extrusion for boundary-layer prism layers with target y+ and growth ratio.
 
 - ⬜ **RANS Solver** _(planned)_: Local finite-volume Navier-Stokes solver for 2D and small 3D cases with Spalart-Allmaras and k-omega SST turbulence models, compressible and incompressible branches. Streams residuals, force coefficients, and convergence plots live during the run.
 
