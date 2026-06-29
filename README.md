@@ -2113,7 +2113,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Mesh editor** _(stub, awaits wire-up)_: Imports, repairs, and edits STL/OBJ/3MF meshes with hole filling, decimation, remeshing, and boolean operations. Includes non-manifold detection and automatic repair suggestions.
 
-- ⬜ **STEP/IGES converter** _(planned)_: Converts between STEP, IGES, BREP, STL, 3MF, OBJ, DXF, and SVG with healing of broken topology. Preserves assembly structure and metadata where possible.
+- ✅ **STEP/IGES converter** _(stub, awaits wire-up)_: Converts between STEP, IGES, BREP, STL, 3MF, OBJ, DXF, and SVG with healing of broken topology. Preserves assembly structure and metadata where possible.
 
 - ⬜ **Slicer** _(planned)_: Generates G-code for FDM, SLA, and SLS printers with per-feature overrides, tree supports, ironing, and variable layer height. AI-integrated suggestion of slicing profiles from part geometry, material, and intended use.
 
