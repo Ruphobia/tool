@@ -327,7 +327,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ⬜ **Vulnerability scanner** _(planned)_: Cross-references the dependency tree and committed code against OSV, GHSA, and CVE feeds, with AI-explained exploit paths and patch suggestions.
 
-- ⬜ **Secret scanner** _(planned)_: Detects committed credentials, API keys, and PEM blobs in the working tree and history, with entropy heuristics and AI confirmation to suppress obvious false positives.
+- ✅ **Secret scanner** _(in testing)_: Detects committed credentials, API keys, and PEM blobs in the working tree and history, with entropy heuristics and AI confirmation to suppress obvious false positives.
 
 - ⬜ **REPL and scratchpad** _(planned)_: Per-language interactive shells (Python, Node, Ruby, Lua, shell, SQL) with persistent sessions, attachable to project venvs, and AI scaffolding of throwaway experiments from a one-line goal.
 
