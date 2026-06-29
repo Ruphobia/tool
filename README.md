@@ -364,7 +364,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Python environment** _(stub, awaits wire-up)_: a tool for Python development: venv/uv/pipx environment management, pip/poetry/uv package install, pytest harness, mypy/pyright type checking, jupyter notebook integration, debugger, profile/cProfile viewer, pyenv version switcher.
 
-- ⬜ **Bash and shell scripting** _(planned)_: a tool for shell-script development: shellcheck linting, bats test harness, completion writer, manpage drafting, POSIX vs. bash compatibility checker, dependency-on-binary auditor.
+- ✅ **Bash and shell scripting** _(stub, awaits wire-up)_: a tool for shell-script development: shellcheck linting, bats test harness, completion writer, manpage drafting, POSIX vs. bash compatibility checker, dependency-on-binary auditor.
 
 - ⬜ **JavaScript and Node** _(planned)_: a tool for JS/TS development: Node runtime, npm/pnpm/yarn package management, bundler config (vite/webpack/rollup/esbuild), tsc/tsserver, ESLint/Prettier, framework dev servers (Next/Nuxt/SvelteKit/Astro), browser devtools bridge.
 
