@@ -3957,7 +3957,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sourdough Schedule Builder** _(stub, awaits wire-up)_: Plans starter feedings, levain build, autolyse, bulk, and cold retard against ambient temperature and starter activity; estimates dough doubling time and final crumb hydration.
 
-- ⬜ **Cheesemaking Worksheet** _(planned)_: Templates fresh, bloomy, washed-rind, and aged cheese makes with target pH and temperature curves, rennet and culture dosing, draining schedule, and affinage parameters.
+- ✅ **Cheesemaking Worksheet** _(stub, awaits wire-up)_: Templates fresh, bloomy, washed-rind, and aged cheese makes with target pH and temperature curves, rennet and culture dosing, draining schedule, and affinage parameters.
 
 - ⬜ **Modernist Hydrocolloid Calculator** _(planned)_: Computes agar, gellan (high and low acyl), xanthan, methylcellulose, and alginate doses for gels, fluid gels, foams, and spherification by texture target and syneresis tolerance.
 
