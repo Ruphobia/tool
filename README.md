@@ -4764,7 +4764,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sleep Paralysis and False Awakening Journal** _(stub, awaits wire-up)_: Specialized log for SP episodes, hypnagogic and hypnopompic imagery, and false awakenings, with severity, duration, and induction-attempt fields. Cross-references entries with the main dream journal and stage data.
 
-- ⬜ **Polyphasic Schedule Designer** _(planned)_: Models Everyman, Uberman, Dymaxion, Biphasic, and custom segmented schedules with core and nap placement on a 24-hour circadian curve. Simulates expected REM and SWS allocation and adaptation-period sleep deprivation.
+- ✅ **Polyphasic Schedule Designer** _(stub, awaits wire-up)_: Models Everyman, Uberman, Dymaxion, Biphasic, and custom segmented schedules with core and nap placement on a 24-hour circadian curve. Simulates expected REM and SWS allocation and adaptation-period sleep deprivation.
 
 - ⬜ **Mood log with valence-arousal grid** _(planned)_: Logs mood as a two-axis point (valence x arousal) plus tags, notes, and contextual fields (sleep, caffeine, social). Renders Daylio-style streaks and weekly heatmaps over the local store.
 
