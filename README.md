@@ -3165,7 +3165,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Qualitative theme tagger** _(stub, awaits wire-up)_: NVivo-style coding of text, audio transcripts, and image regions with hierarchical codebooks, memos, and query matrices. AI-integrated initial code suggestions seed open coding for the researcher to accept, merge, or reject.
 
-- ⬜ **Reaction time task runner** _(planned)_: Presents stimuli and records keypress, mouse, and touch responses with sub-millisecond timestamping and frame-locked onsets. Supports Stroop, flanker, go/no-go, n-back, and IAT templates with custom block scripts.
+- ✅ **Reaction time task runner** _(stub, awaits wire-up)_: Presents stimuli and records keypress, mouse, and touch responses with sub-millisecond timestamping and frame-locked onsets. Supports Stroop, flanker, go/no-go, n-back, and IAT templates with custom block scripts.
 
 - ⬜ **Inter-rater reliability calculator** _(planned)_: Computes Cohen's and Fleiss' kappa, Krippendorff's alpha, ICC variants, and percent agreement from coder x item matrices. Highlights disagreement cells for adjudication and recoder calibration.
 
