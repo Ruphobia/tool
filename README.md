@@ -2439,7 +2439,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Cathodic protection sizer** _(stub, awaits wire-up)_: Sacrificial-anode and ICCP current-demand sizing for ship hulls, jackets, and pipelines; coating breakdown factors per DNV-RP-B401 with anode mass and life.
 
-- ⬜ **Well log analyzer** _(planned)_: Loads LAS and DLIS curves; computes Vsh from GR/SP, porosity from density-neutron, Sw via Archie or Indonesia, and net-pay flags with depth-aligned plotting.
+- ✅ **Well log analyzer** _(stub, awaits wire-up)_: Loads LAS and DLIS curves; computes Vsh from GR/SP, porosity from density-neutron, Sw via Archie or Indonesia, and net-pay flags with depth-aligned plotting.
 
 - ⬜ **Reservoir grid viewer** _(planned)_: Reads ECLIPSE EGRID, INIT, and UNRST and CMG output; slices and animates pressure, saturation, and streamlines, with well trajectories and completion intervals.
 
