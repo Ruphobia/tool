@@ -3538,7 +3538,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Agriculture and horticulture
 
-- ⬜ **Plant identification** _(planned)_: image-based species identification from leaf/flower/bark/fruit photos (PlantNet/iNaturalist-style flow), regional flora filter, look-alike disambiguation, edibility and toxicity tagging, care guidance per species.
+- ✅ **Plant identification** _(stub, awaits wire-up)_: image-based species identification from leaf/flower/bark/fruit photos (PlantNet/iNaturalist-style flow), regional flora filter, look-alike disambiguation, edibility and toxicity tagging, care guidance per species.
 
 - ⬜ **Planting Calendar** _(planned)_: Generates per-crop sow, transplant, and harvest dates from local frost dates, day length, and hardiness zone. Supports succession planting, indoor starts, and ICS export to a calendar app.
 
