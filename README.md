@@ -4172,7 +4172,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Body art: tattoo and body modification
 
-- ⬜ **Stencil Transfer Designer** _(planned)_: Vectorizes line art and converts raster references into clean single-line stencils sized to print on thermal or hectograph paper. Supports mirroring, registration marks, and multi-page tiling for large back pieces.
+- ✅ **Stencil Transfer Designer** _(stub, awaits wire-up)_: Vectorizes line art and converts raster references into clean single-line stencils sized to print on thermal or hectograph paper. Supports mirroring, registration marks, and multi-page tiling for large back pieces.
 
 - ⬜ **Skin Tone Preview** _(planned)_: Renders the design over a calibrated swatch of Fitzpatrick types I through VI, simulating ink saturation, healing fade, and contrast loss on each tone. AI color-correction suggests adjusted palettes for darker skin.
 
