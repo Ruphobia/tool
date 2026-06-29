@@ -632,7 +632,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Backup and restore** _(stub, awaits wire-up)_: Schedules and runs pg_dump, mysqldump, mongodump, and physical base backups; verifies restore integrity to ephemeral instances and tracks PITR window and WAL/binlog retention.
 
-- ⬜ **Replication monitor** _(planned)_: Displays primary/replica topology, lag in bytes and seconds, slot status, and binlog position; alerts on stalled replicas and supports failover dry-runs against test clusters.
+- ✅ **Replication monitor** _(stub, awaits wire-up)_: Displays primary/replica topology, lag in bytes and seconds, slot status, and binlog position; alerts on stalled replicas and supports failover dry-runs against test clusters.
 
 - ⬜ **Redis client** _(planned)_: Connects to standalone, sentinel, and cluster Redis with key browser, TTL inspector, pub/sub viewer, stream consumer-group monitor, slowlog tail, and SCAN-based safe key search.
 
