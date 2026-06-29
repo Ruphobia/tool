@@ -234,7 +234,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Feed Reader** _(in testing)_: Polls RSS, Atom, and JSON Feed sources with conditional GET (ETag, If-Modified-Since) and per-feed schedules. Normalizes entries into a common record shape for downstream ingest.
 
-- ⬜ **Readability Extractor** _(planned)_: Strips boilerplate from HTML to recover the main article body, byline, and publish date. Supports site-specific overrides for templates the generic heuristic gets wrong.
+- ✅ **Readability Extractor** _(in testing)_: Strips boilerplate from HTML to recover the main article body, byline, and publish date. Supports site-specific overrides for templates the generic heuristic gets wrong.
 
 - ⬜ **Structured Data Scraper** _(planned)_: Pulls JSON-LD, microdata, RDFa, and OpenGraph blocks from pages and reconciles overlapping claims into a single schema.org-shaped record per URL.
 
