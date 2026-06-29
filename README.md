@@ -660,7 +660,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Lock and deadlock inspector** _(stub, awaits wire-up)_: Shows current locks, blocked-by chains, and deadlock graph; offers safe-kill of blocking sessions and replays deadlock traces from logs to reproduce contention.
 
-- ⬜ **Sharding and partition planner** _(planned)_: Analyzes table size and access skew, recommends partition keys (range, list, hash) and shard layouts for Citus/Vitess, and previews per-shard query routing.
+- ✅ **Sharding and partition planner** _(stub, awaits wire-up)_: Analyzes table size and access skew, recommends partition keys (range, list, hash) and shard layouts for Citus/Vitess, and previews per-shard query routing.
 
 - ⬜ **CDC stream viewer** _(planned)_: Taps Debezium, Postgres logical decoding, MySQL binlog, and MongoDB oplog streams; renders change events as a tail with filtering, schema-evolution tracking, and replay-to-sink testing.
 
