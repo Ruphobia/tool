@@ -545,7 +545,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Startup and vector table generator** _(stub, awaits wire-up)_: Generates reset handlers, ISR vector tables, and C runtime init for ARM, RISC-V, AVR, and Xtensa targets. Cross-checks vector names against linker-referenced weak symbols.
 
-- ⬜ **Bootloader builder** _(planned)_: Templates and customizes MCUboot, U-Boot SPL, Tinyboot, and vendor bootloaders with slot layout, signing, and rollback policy. Produces signed update payloads in step with the application build.
+- ✅ **Bootloader builder** _(stub, awaits wire-up)_: Templates and customizes MCUboot, U-Boot SPL, Tinyboot, and vendor bootloaders with slot layout, signing, and rollback policy. Produces signed update payloads in step with the application build.
 
 - ⬜ **OTA update designer** _(planned)_: Defines delta, A/B, and dual-bank update schemes with transport (BLE, Wi-Fi, LoRa, USB, UART) and rollback rules. Simulates power-loss at every stage and reports recoverability.
 
