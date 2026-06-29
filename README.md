@@ -2928,7 +2928,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Conformer and minimizer** _(stub, awaits wire-up)_: Runs UFF, MMFF, GAFF, and AMBER energy minimization and stochastic conformer search; reports relative energies, RMSDs, and Boltzmann populations and exports the lowest-energy ensemble for downstream calculation.
 
-- ⬜ **Quantum chemistry interface** _(planned)_: Generates input files for Psi4, ORCA, NWChem, and xTB and parses outputs for energies, optimized geometries, frequencies, NMR shieldings, and orbitals. AI-integrated suggestion of method and basis from system size, element set, and target property.
+- ✅ **Quantum chemistry interface** _(stub, awaits wire-up)_: Generates input files for Psi4, ORCA, NWChem, and xTB and parses outputs for energies, optimized geometries, frequencies, NMR shieldings, and orbitals. AI-integrated suggestion of method and basis from system size, element set, and target property.
 
 - ⬜ **Kinetics and calibration fitter** _(planned)_: Fits concentration-versus-time data to zeroth, first, second-order, Arrhenius, and Michaelis-Menten models, and fits linear or weighted calibration curves; reports rate constants, half-lives, LOD, LOQ, R squared, and back-calculated unknowns.
 
