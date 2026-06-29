@@ -4674,7 +4674,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Celestial navigation aid** _(stub, awaits wire-up)_: Identifies stars and planets, reduces sextant sights to a line of position, and derives latitude from Polaris altitude or noon-sun observations. Includes a pre-computed almanac for sun, moon, and navigational stars at any date and location.
 
-- ⬜ **Land navigation toolkit** _(planned)_: Converts between lat/lon, UTM, and MGRS, applies local magnetic declination, computes pace count over slope, and walks dead-reckoning legs with cumulative error estimates. Reads topo contours for slope angle, viewshed, and water-flow direction.
+- ✅ **Land navigation toolkit** _(stub, awaits wire-up)_: Converts between lat/lon, UTM, and MGRS, applies local magnetic declination, computes pace count over slope, and walks dead-reckoning legs with cumulative error estimates. Reads topo contours for slope angle, viewshed, and water-flow direction.
 
 - ⬜ **Knot and lashing library** _(planned)_: Cataloged knots and lashings with use cases, breaking-strength derating versus rope material and diameter, and step-by-step diagrams. Recommends an appropriate knot from the load type (life-safety, hauling, hitching, joining, securing).
 
