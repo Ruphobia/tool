@@ -1740,7 +1740,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Formal logic prover** _(stub, awaits wire-up)_: Checks propositional, first-order, and modal arguments by dispatching to Prover9, Mace4, Z3, and a native tableaux engine; renders natural-deduction proofs, countermodels, and truth tables.
 
-- ⬜ **Fallacy detector** _(planned)_: Scans prose arguments for informal fallacies (straw man, false dichotomy, ad hominem, motte-and-bailey) with AI-integrated pattern matching against a curated catalog; highlights offending spans and proposes reformulations.
+- ✅ **Fallacy detector** _(stub, awaits wire-up)_: Scans prose arguments for informal fallacies (straw man, false dichotomy, ad hominem, motte-and-bailey) with AI-integrated pattern matching against a curated catalog; highlights offending spans and proposes reformulations.
 
 - ⬜ **Manuscript variant collator** _(planned)_: Aligns multiple witnesses of a text in CollateX style and produces a variant graph; emits TEI parallel-segmentation markup and supports manual override of disputed alignments.
 
