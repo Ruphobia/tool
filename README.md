@@ -4558,7 +4558,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **1RM and load calculator** _(stub, awaits wire-up)_: Estimates one-rep max via Epley, Brzycki, Lombardi, and Lander; renders %1RM tables and velocity-based training zones from bar-speed input.
 
-- ⬜ **Macro and calorie ledger** _(planned)_: Logs foods against USDA FoodData Central and Open Food Facts (barcode lookup), rolling up daily protein/carb/fat/fiber/micros against targets with weekly trend smoothing.
+- ✅ **Macro and calorie ledger** _(stub, awaits wire-up)_: Logs foods against USDA FoodData Central and Open Food Facts (barcode lookup), rolling up daily protein/carb/fat/fiber/micros against targets with weekly trend smoothing.
 
 - ⬜ **Recipe builder** _(planned)_: Composes recipes from ingredient lists with per-serving nutrient roll-up, batch scaling, leftover-aware meal planning, and grocery list export.
 
