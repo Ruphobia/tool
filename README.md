@@ -3431,7 +3431,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Dive log + decompression planner** _(stub, awaits wire-up)_: Records depth/time profiles from Suunto, Shearwater, and Garmin downloads. Runs Buhlmann ZH-L16C with configurable gradient factors and VPM-B; plans multi-gas, trimix, and CCR dives with bailout schedules.
 
-- ⬜ **Hydroacoustic spectrogram** _(planned)_: Loads WAV/FLAC hydrophone recordings and renders calibrated spectrograms with band-limited SPL, 1/3-octave noise, and AI-assisted detection of cetacean calls, snapping shrimp, and vessel signatures.
+- ✅ **Hydroacoustic spectrogram** _(stub, awaits wire-up)_: Loads WAV/FLAC hydrophone recordings and renders calibrated spectrograms with band-limited SPL, 1/3-octave noise, and AI-assisted detection of cetacean calls, snapping shrimp, and vessel signatures.
 
 - ⬜ **AIS vessel decoder** _(planned)_: Decodes NMEA-0183 AIVDM/AIVDO and NMEA-2000 PGNs from a serial, UDP, or file source. Plots vessel positions, CPA/TCPA against own-ship, and replays historical traffic at adjustable speed.
 
