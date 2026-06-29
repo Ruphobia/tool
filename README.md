@@ -842,7 +842,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Statevector Simulator** _(stub, awaits wire-up)_: Exact dense simulator up to roughly 25 qubits with parameter binding, conditional ops, deferred measurement, and caching of intermediate states for fast scrubbing inside the builder.
 
-- ⬜ **Stabilizer Simulator** _(planned)_: Clifford-only simulator running thousands of qubits via tableau or graph-state representation, with magic-state injection support so non-Clifford gates fall back to a sliced full simulation.
+- ✅ **Stabilizer Simulator** _(stub, awaits wire-up)_: Clifford-only simulator running thousands of qubits via tableau or graph-state representation, with magic-state injection support so non-Clifford gates fall back to a sliced full simulation.
 
 - ⬜ **Tensor Network Simulator** _(planned)_: MPS and PEPS based simulator with adjustable bond dimension, contraction order optimization, and entanglement-entropy tracking for circuits too wide for statevector methods.
 
