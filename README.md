@@ -784,7 +784,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **UI/HUD Layout Editor** _(stub, awaits wire-up)_: Anchor-and-flex UI authoring with responsive breakpoints, theming, focus order, controller navigation, and live data bindings to game variables. Exports to engine UI formats or a portable retained-mode JSON.
 
-- ⬜ **Bitmap Font Forge** _(planned)_: Generates SDF, MSDF, and classic bitmap fonts from TTF/OTF sources with kerning, custom glyph painting, and CJK subsetting. Packs into the atlas pipeline and previews against in-game UI styles.
+- ✅ **Bitmap Font Forge** _(stub, awaits wire-up)_: Generates SDF, MSDF, and classic bitmap fonts from TTF/OTF sources with kerning, custom glyph painting, and CJK subsetting. Packs into the atlas pipeline and previews against in-game UI styles.
 
 - ⬜ **Replay Recorder** _(planned)_: Captures deterministic input traces and engine snapshots, scrubbable like a video, with bookmarks, branch points, and side-by-side comparison. Doubles as a regression harness for gameplay bugs.
 
