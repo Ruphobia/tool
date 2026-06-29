@@ -3157,7 +3157,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Likert scale builder** _(stub, awaits wire-up)_: Composes ordinal item batteries with balanced anchors, reverse-scored items, and forced-choice variants. AI-integrated wording critique flags double-barreled, leading, or low-readability items.
 
-- ⬜ **Power analysis calculator** _(planned)_: Computes a priori, post hoc, and sensitivity power for t-tests, ANOVA, regression, chi-square, and mixed-effects designs in a G*Power-style interface. Simulates power curves over varied effect sizes and sample sizes.
+- ✅ **Power analysis calculator** _(stub, awaits wire-up)_: Computes a priori, post hoc, and sensitivity power for t-tests, ANOVA, regression, chi-square, and mixed-effects designs in a G*Power-style interface. Simulates power curves over varied effect sizes and sample sizes.
 
 - ⬜ **Statistical test guide** _(planned)_: Recommends a test from data type, design, and assumption checks via a decision tree, then runs the test and reports the result with assumption diagnostics. Suggests nonparametric or robust alternatives when assumptions fail.
 
