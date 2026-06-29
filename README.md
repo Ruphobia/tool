@@ -2292,7 +2292,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sound transmission loss calculator** _(stub, awaits wire-up)_: Estimates STC, Rw, and OITC for single panels, double walls, and composite partitions using mass law, coincidence dip, and double-leaf resonance. Includes flanking path bookkeeping and a partition library.
 
-- ⬜ **Anechoic chamber sizer** _(planned)_: Sizes wedge depth, cutoff frequency, and free-field volume for anechoic and hemi-anechoic rooms. Generates wedge tip/base geometry and predicts low-frequency absorption performance.
+- ✅ **Anechoic chamber sizer** _(stub, awaits wire-up)_: Sizes wedge depth, cutoff frequency, and free-field volume for anechoic and hemi-anechoic rooms. Generates wedge tip/base geometry and predicts low-frequency absorption performance.
 
 - ⬜ **Absorber and diffuser designer** _(planned)_: Designs porous, Helmholtz, membrane, and slot resonator absorbers to a target absorption curve. Includes QRD and PRD diffuser well-depth generation and far-field scattering estimates.
 
