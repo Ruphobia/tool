@@ -2839,7 +2839,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Solar Resource Fetcher** _(stub, awaits wire-up)_: Pulls TMY3, PVGIS, and NSRDB irradiance, ambient temperature, and wind data for any latitude/longitude with offline caching. Exposes GHI/DNI/DHI hourly series and monthly summaries for downstream PV and thermal tools.
 
-- ⬜ **Sun Path & Shading Analyzer** _(planned)_: Plots solar altitude/azimuth across the year on a stereographic chart and overlays a user-drawn horizon (terrain, buildings, trees). Computes per-hour shade losses and annual energy lost to obstructions.
+- ✅ **Sun Path & Shading Analyzer** _(stub, awaits wire-up)_: Plots solar altitude/azimuth across the year on a stereographic chart and overlays a user-drawn horizon (terrain, buildings, trees). Computes per-hour shade losses and annual energy lost to obstructions.
 
 - ⬜ **PV Array Layout Designer** _(planned)_: Lays out modules on a rooftop or ground plot with row spacing, tilt, and azimuth, computing inter-row self-shading by ground coverage ratio. Reports kWp density and structural footprint.
 
