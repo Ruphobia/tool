@@ -4512,7 +4512,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Tide and Current Charts** _(stub, awaits wire-up)_: Provides tide height, slack, and current vectors for NOAA and international stations with bite-window heuristics by target species. Pairs lunar phase, water temperature, and wind to score coastal and estuary trips.
 
-- ⬜ **Game Call Library** _(planned)_: Audio reference of elk bugles, turkey yelps, whitetail grunts, predator distress, and waterfowl calls with cadence diagrams and best-use season notes. Includes a sequence builder that practices call-and-response drills against playback.
+- ✅ **Game Call Library** _(stub, awaits wire-up)_: Audio reference of elk bugles, turkey yelps, whitetail grunts, predator distress, and waterfowl calls with cadence diagrams and best-use season notes. Includes a sequence builder that practices call-and-response drills against playback.
 
 - ⬜ **Field Dressing and Yield Planner** _(planned)_: Step-by-step diagrams for gutting, skinning, quartering, and butchering big game, small game, upland, waterfowl, and common fish. Estimates boneless yield by cut, generates a freezer label sheet, and tracks cooler ice budget for warm-weather hauls.
 
