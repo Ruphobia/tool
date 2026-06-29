@@ -1597,7 +1597,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Timeline composer** _(stub, awaits wire-up)_: Builds multi-track chronologies with fuzzy date ranges, regnal/era dating, and confidence intervals. Renders parallel tracks for polities, persons, and events; exports to TimelineJS or static SVG.
 
-- ⬜ **Calendar converter** _(planned)_: Converts dates across Julian, Gregorian, Hijri, Hebrew, Coptic, Byzantine AM, French Republican, Mayan Long Count, and regnal years. Handles the 1582 cutover region-by-region and old-style year-start conventions.
+- ✅ **Calendar converter** _(stub, awaits wire-up)_: Converts dates across Julian, Gregorian, Hijri, Hebrew, Coptic, Byzantine AM, French Republican, Mayan Long Count, and regnal years. Handles the 1582 cutover region-by-region and old-style year-start conventions.
 
 - ⬜ **Paleography HTR** _(planned)_: Handwritten text recognition for manuscripts using local models in the Transkribus/eScriptorium tradition. Supports line segmentation, custom model training on user transcriptions, and confidence overlays per character.
 
