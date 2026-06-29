@@ -3087,7 +3087,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Liquid-handler protocol writer** _(stub, awaits wire-up)_: Generates Opentrons OT-2 Python and Hamilton Venus scripts from plate layouts, source/destination maps, and pipetting plans, with tip-tracking and deck-collision validation.
 
-- ⬜ **EEG/MEG analyzer** _(planned)_: Loads EDF, BDF, BrainVision, FIF, and BIDS recordings, performs ICA artifact removal, time-frequency decomposition (Morlet, multitaper), source localization, and evoked-response averaging in an MNE-style workflow.
+- ✅ **EEG/MEG analyzer** _(stub, awaits wire-up)_: Loads EDF, BDF, BrainVision, FIF, and BIDS recordings, performs ICA artifact removal, time-frequency decomposition (Morlet, multitaper), source localization, and evoked-response averaging in an MNE-style workflow.
 
 - ⬜ **MRI/fMRI viewer** _(planned)_: Renders NIfTI and DICOM volumes with multiplanar reformat, BOLD activation overlays, motion-correction QC, and atlas-based parcellation lookup.
 
