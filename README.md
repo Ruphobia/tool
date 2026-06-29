@@ -950,7 +950,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Blockchain Explorer** _(stub, awaits wire-up)_: Queries Bitcoin, Ethereum, L2 rollups, Solana, and Cosmos chains via local node RPC or vendored archival mirrors. Renders blocks, transactions, mempool state, fee histograms, and reorg history with offline-capable caches.
 
-- ⬜ **Transaction Builder** _(planned)_: Constructs raw transactions for Bitcoin (PSBT), Ethereum (EIP-1559, EIP-4844 blob), Solana, and Cosmos with manual fee, nonce, and signature control. Simulates execution against a forked state before broadcast.
+- ✅ **Transaction Builder** _(stub, awaits wire-up)_: Constructs raw transactions for Bitcoin (PSBT), Ethereum (EIP-1559, EIP-4844 blob), Solana, and Cosmos with manual fee, nonce, and signature control. Simulates execution against a forked state before broadcast.
 
 - ⬜ **Smart Contract Drafter** _(planned)_: Scaffolds Solidity, Vyper, and Move contracts from a natural-language spec with AI-integrated generation of standard patterns (ERC-20, ERC-721, ERC-4626, multisig, timelock). Compiles in-browser and produces deployment scripts and verification metadata.
 
