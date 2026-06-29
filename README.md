@@ -2676,7 +2676,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Band plan and regulatory checker** _(stub, awaits wire-up)_: Holds IARU Region 1/2/3 band plans, FCC Part 97/15/87/80/90 allocations, and ITU footnotes. Validates a planned transmission against license class privileges, power limits, mode restrictions, and channel spacing.
 
-- ⬜ **GNU Radio flowgraph runner** _(planned)_: Loads .grc flowgraphs, parameterizes them, and runs them headless against live SDR hardware or recorded IQ. Captures sink outputs (audio, file, ZMQ) and pipes them into the logger or classifier.
+- ✅ **GNU Radio flowgraph runner** _(stub, awaits wire-up)_: Loads .grc flowgraphs, parameterizes them, and runs them headless against live SDR hardware or recorded IQ. Captures sink outputs (audio, file, ZMQ) and pipes them into the logger or classifier.
 
 - ⬜ **PCB RF stackup helper** _(planned)_: Solves microstrip, stripline, CPWG, and differential impedance for common laminates (FR-4, Rogers 4350B, Duroid, Isola). Estimates dielectric and conductor loss, via inductance, and recommends stitching for a target return path.
 
