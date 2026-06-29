@@ -1617,7 +1617,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Map georectifier** _(stub, awaits wire-up)_: Warps historical maps onto a modern basemap using control points, in the MapWarper/Allmaps tradition. Produces tile sources for overlay and exports GCPs plus a transformation matrix for reproducibility.
 
-- ⬜ **Authority record reconciler** _(planned)_: Links extracted entities to VIAF, LCNAF, GND, ULAN, and Wikidata QIDs with batch reconciliation, candidate scoring, and AI-integrated disambiguation from surrounding context.
+- ✅ **Authority record reconciler** _(stub, awaits wire-up)_: Links extracted entities to VIAF, LCNAF, GND, ULAN, and Wikidata QIDs with batch reconciliation, candidate scoring, and AI-integrated disambiguation from surrounding context.
 
 - ⬜ **Historical NER tagger** _(planned)_: Named entity recognition tuned for archaic orthography, abbreviations, and code-switching across Latin, Greek, Old English, and early modern vernaculars. Outputs CoNLL or standoff annotations with model confidence.
 
