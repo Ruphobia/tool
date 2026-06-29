@@ -664,7 +664,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **CDC stream viewer** _(stub, awaits wire-up)_: Taps Debezium, Postgres logical decoding, MySQL binlog, and MongoDB oplog streams; renders change events as a tail with filtering, schema-evolution tracking, and replay-to-sink testing.
 
-- ⬜ **Embedded SQLite/DuckDB workbench** _(planned)_: Opens local .db, .sqlite, and .duckdb files with attached-database joins across files, Parquet/CSV virtual tables, and one-click export to a hosted database for promotion.
+- ✅ **Embedded SQLite/DuckDB workbench** _(stub, awaits wire-up)_: Opens local .db, .sqlite, and .duckdb files with attached-database joins across files, Parquet/CSV virtual tables, and one-click export to a hosted database for promotion.
 
 - ⬜ **NL-to-SQL** _(planned)_: AI-integrated translator from plain-English questions to SQL grounded in the live schema, sample rows, and prior query history; shows generated SQL with EXPLAIN and required permissions before run.
 
