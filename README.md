@@ -3542,7 +3542,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Planting Calendar** _(stub, awaits wire-up)_: Generates per-crop sow, transplant, and harvest dates from local frost dates, day length, and hardiness zone. Supports succession planting, indoor starts, and ICS export to a calendar app.
 
-- ⬜ **Soil Test Interpreter** _(planned)_: Parses lab reports (Mehlich-3, Bray, Olsen, Morgan, saturated paste) into normalized nutrient, CEC, base saturation, and pH metrics, then flags deficiencies and toxicities against crop-specific targets with AI-integrated narrative summaries of what the numbers actually mean.
+- ✅ **Soil Test Interpreter** _(stub, awaits wire-up)_: Parses lab reports (Mehlich-3, Bray, Olsen, Morgan, saturated paste) into normalized nutrient, CEC, base saturation, and pH metrics, then flags deficiencies and toxicities against crop-specific targets with AI-integrated narrative summaries of what the numbers actually mean.
 
 - ⬜ **Fertilizer Blend Calculator** _(planned)_: Solves NPK and micronutrient targets across arbitrary input materials (urea, MAP, KCl, gypsum, fish emulsion, compost analyses) using linear programming to minimize cost or salt index. Outputs per-bed application rates in lb/ac, g/m2, or tsp/gal.
 
