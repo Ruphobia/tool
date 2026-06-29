@@ -323,7 +323,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ⬜ **Dependency manager** _(planned)_: Unified view of declared and resolved dependencies across package ecosystems, with version pinning, vuln advisories, license badges, and AI-suggested upgrade paths that flag breaking changes.
 
-- ⬜ **SBOM and license auditor** _(planned)_: Generates CycloneDX/SPDX bills of materials, classifies licenses (PD, permissive, copyleft, share-alike, restricted), and warns when a transitive pull conflicts with the project's licensing intent.
+- ✅ **SBOM and license auditor** _(in testing)_: Generates CycloneDX/SPDX bills of materials, classifies licenses (PD, permissive, copyleft, share-alike, restricted), and warns when a transitive pull conflicts with the project's licensing intent.
 
 - ⬜ **Vulnerability scanner** _(planned)_: Cross-references the dependency tree and committed code against OSV, GHSA, and CVE feeds, with AI-explained exploit paths and patch suggestions.
 
