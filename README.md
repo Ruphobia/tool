@@ -1732,7 +1732,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Comparative Ethics Engine** _(stub, awaits wire-up)_: Queries normative positions across traditions on a given case (war, usury, sexuality, dietary law, end-of-life, environmental stewardship) with primary citations from each. AI synthesizes the spread of views and surfaces dissenting minorities.
 
-- ⬜ **Mystical Praxis Codex** _(planned)_: Catalog of contemplative and ascetic techniques (hesychasm, dhikr, zazen, vipassana, kabbalistic meditation, hatha yoga, Ignatian exercises) with prerequisites, stages, and primary-source instructions. Cross-references phenomenological reports.
+- ✅ **Mystical Praxis Codex** _(stub, awaits wire-up)_: Catalog of contemplative and ascetic techniques (hesychasm, dhikr, zazen, vipassana, kabbalistic meditation, hatha yoga, Ignatian exercises) with prerequisites, stages, and primary-source instructions. Cross-references phenomenological reports.
 
 - ⬜ **Field Ethnography Recorder** _(planned)_: Local-first capture tool for participant-observation: timestamped notes, audio, photos, and geotags bound to ritual event schemas. Enforces an IRB-style consent and provenance ledger for sensitive material.
 
