@@ -940,7 +940,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **PGP/GPG Console** _(stub, awaits wire-up)_: Imports keyrings, signs, encrypts, decrypts, and verifies armored or binary OpenPGP messages. Visualizes web-of-trust signatures, subkey relationships, and revocation status without shelling out to gpg.
 
-- ⬜ **SSH Toolkit** _(planned)_: Generates, audits, and converts SSH keys, parses known_hosts and authorized_keys, and verifies host key pinning. Includes SSH certificate authority signing with principals, validity windows, and force-command extensions.
+- ✅ **SSH Toolkit** _(stub, awaits wire-up)_: Generates, audits, and converts SSH keys, parses known_hosts and authorized_keys, and verifies host key pinning. Includes SSH certificate authority signing with principals, validity windows, and force-command extensions.
 
 - ⬜ **Secret Sharing Bench** _(planned)_: Splits secrets via Shamir's Secret Sharing and verifiable variants (Feldman, Pedersen) with configurable threshold and field. Reassembles shares from QR, mnemonics, or hex with corruption detection.
 
