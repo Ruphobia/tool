@@ -2926,7 +2926,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Crystallography viewer** _(stub, awaits wire-up)_: Loads CIF and PDB files and visualizes unit cell, symmetry operations, asymmetric unit, packing diagrams, and Miller planes; simulates powder XRD patterns and indexes a measured pattern against candidate cells.
 
-- ⬜ **Conformer and minimizer** _(planned)_: Runs UFF, MMFF, GAFF, and AMBER energy minimization and stochastic conformer search; reports relative energies, RMSDs, and Boltzmann populations and exports the lowest-energy ensemble for downstream calculation.
+- ✅ **Conformer and minimizer** _(stub, awaits wire-up)_: Runs UFF, MMFF, GAFF, and AMBER energy minimization and stochastic conformer search; reports relative energies, RMSDs, and Boltzmann populations and exports the lowest-energy ensemble for downstream calculation.
 
 - ⬜ **Quantum chemistry interface** _(planned)_: Generates input files for Psi4, ORCA, NWChem, and xTB and parses outputs for energies, optimized geometries, frequencies, NMR shieldings, and orbitals. AI-integrated suggestion of method and basis from system size, element set, and target property.
 
