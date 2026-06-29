@@ -2595,7 +2595,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Vortex Lattice Method** _(stub, awaits wire-up)_: AVL-style 3D VLM for wings, tails, and canards with control surface deflections, dihedral, sweep, and twist. Returns span loading, induced drag, stability derivatives, and trim solutions.
 
-- ⬜ **Lifting Line Analyzer** _(planned)_: Prandtl lifting-line solver with arbitrary planform, taper, twist, and section polars per station. Reports elliptic-comparison efficiency, local Cl distribution, and stall onset station.
+- ✅ **Lifting Line Analyzer** _(stub, awaits wire-up)_: Prandtl lifting-line solver with arbitrary planform, taper, twist, and section polars per station. Reports elliptic-comparison efficiency, local Cl distribution, and stall onset station.
 
 - ⬜ **Wing and Fuselage Drag Estimator** _(planned)_: Component drag buildup combining skin friction, form factor, interference, induced, wave, and trim drag for wings, fuselages, nacelles, and pylons. Cross-checks against the VLM and polar solver and breaks down the drag stack in a stacked bar.
 
