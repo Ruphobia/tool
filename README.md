@@ -3480,7 +3480,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Remote sensing indexer** _(stub, awaits wire-up)_: Pulls Sentinel-2, Landsat, MODIS, and PlanetScope tiles via STAC and computes NDVI, EVI, NDWI, NBR, and tasseled cap indices. Builds time series for phenology, deforestation alerts, and burn severity mapping.
 
-- ⬜ **Protected area overlay** _(planned)_: Queries WDPA, OECMs, KBA, and Natura 2000 polygons against project footprints. Computes coverage, gap analysis against Aichi/30x30 targets, and management category breakdowns.
+- ✅ **Protected area overlay** _(stub, awaits wire-up)_: Queries WDPA, OECMs, KBA, and Natura 2000 polygons against project footprints. Computes coverage, gap analysis against Aichi/30x30 targets, and management category breakdowns.
 
 - ⬜ **Red List status checker** _(planned)_: Looks up IUCN Red List category, criteria, population trend, and threat codes via the Red List API for a species list. Cross-checks national lists (USFWS ESA, EU Habitats Directive, COSEWIC, CITES appendices) and flags taxonomic synonyms.
 
