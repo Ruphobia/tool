@@ -4116,7 +4116,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Brushwork trainer** _(stub, awaits wire-up)_: Plays stepped exercises for pressure control, hairline-to-swell transitions, ovals, and ductus drills, with AI-integrated stroke analysis that scores the user trace against the target path for smoothness and angle.
 
-- ⬜ **Anatomy reference viewer** _(planned)_: Displays a layered écorché of skeleton, deep muscle, superficial muscle, fascia, and skin with per-layer opacity, sex/build presets, and labeled origins and insertions.
+- ✅ **Anatomy reference viewer** _(stub, awaits wire-up)_: Displays a layered écorché of skeleton, deep muscle, superficial muscle, fascia, and skin with per-layer opacity, sex/build presets, and labeled origins and insertions.
 
 - ⬜ **Pose mannequin** _(planned)_: Poses a 3D figure via IK handles or imported BVH/Mixamo clips, controls camera, lighting, and lens length, and exports turnaround sheets or single-frame references with adjustable line-art shading.
 
