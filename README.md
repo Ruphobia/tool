@@ -2888,7 +2888,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Chemistry and lab
 
-- ⬜ **Molecule editor** _(planned)_: 2D structure drawing with atom, bond, ring, and template tools; keeps SMILES, InChI, and molfile representations live-synced as you draw. AI-integrated parsing of pasted text, hand-drawn sketches, or photographs of structures into editable molecules.
+- ✅ **Molecule editor** _(stub, awaits wire-up)_: 2D structure drawing with atom, bond, ring, and template tools; keeps SMILES, InChI, and molfile representations live-synced as you draw. AI-integrated parsing of pasted text, hand-drawn sketches, or photographs of structures into editable molecules.
 
 - ⬜ **3D molecule viewer** _(planned)_: Renders structures from SMILES, MOL, SDF, PDB, and CIF in ball-and-stick, space-fill, ribbon, and surface modes. Supports measurement of distances, angles, dihedrals, electron density isosurfaces, and animated trajectories from MD or IRC files.
 
