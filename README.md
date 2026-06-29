@@ -1552,7 +1552,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Experiment tracker** _(stub, awaits wire-up)_: Local MLflow-compatible store for runs, params, metrics, artifacts, and model versions with side-by-side run comparison and parallel-coordinates plots over the hyperparameter space.
 
-- ⬜ **Hyperparameter sweeper** _(planned)_: Runs grid, random, Bayesian (Optuna), Hyperband, and population-based searches against any training script with early stopping, pruning, and live Pareto-front visualization.
+- ✅ **Hyperparameter sweeper** _(stub, awaits wire-up)_: Runs grid, random, Bayesian (Optuna), Hyperband, and population-based searches against any training script with early stopping, pruning, and live Pareto-front visualization.
 
 - ⬜ **AutoML pipeline** _(planned)_: Generates feature pipelines and model ensembles over tabular data using PyCaret/AutoGluon/TPOT backends, with leakage detection and target-leakage warnings. AI-integrated narration of why the chosen pipeline beat the others.
 
