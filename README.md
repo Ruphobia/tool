@@ -1521,7 +1521,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Reproducibility Sandbox** _(stub, awaits wire-up)_: Spins up a containerized environment from a paper's code repo, pinning Python/R/Julia toolchains, seeds, and dataset hashes. Runs the headline experiment and reports deltas against the paper's reported numbers.
 
-- ⬜ **Annotation and Margin-Notes Layer** _(planned)_: PDF and HTML annotation with highlights, threaded notes, tags, and backlinks across the library; notes are stored as portable JSON next to the source. AI suggests cross-references to your own prior notes when a passage echoes earlier reading.
+- ✅ **Annotation and Margin-Notes Layer** _(stub, awaits wire-up)_: PDF and HTML annotation with highlights, threaded notes, tags, and backlinks across the library; notes are stored as portable JSON next to the source. AI suggests cross-references to your own prior notes when a passage echoes earlier reading.
 
 - ⬜ **Author and Affiliation Disambiguator** _(planned)_: Resolves author identities across ORCID, OpenAlex, DBLP, and Semantic Scholar, merging duplicate profiles and tracking institutional moves over time. Surfaces collaboration networks and self-citation ratios per author.
 
