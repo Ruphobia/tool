@@ -1697,7 +1697,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Provenance and Dating Estimator** _(stub, awaits wire-up)_: Estimates date and scriptorium of a manuscript from script style, decoration, parchment preparation, and ink chemistry inputs. Combines radiocarbon priors with paleographic and codicological evidence into a posterior date range.
 
-- ⬜ **Concordance and Lexicon Workbench** _(planned)_: Generates lemmatized concordances and KWIC views across Greek, Hebrew, Aramaic, Latin, Coptic, Syriac, and Ge'ez corpora. Integrates LSJ, BDAG, HALOT, Lewis and Short, Sokoloff, and Crum with morphological tagging.
+- ✅ **Concordance and Lexicon Workbench** _(stub, awaits wire-up)_: Generates lemmatized concordances and KWIC views across Greek, Hebrew, Aramaic, Latin, Coptic, Syriac, and Ge'ez corpora. Integrates LSJ, BDAG, HALOT, Lewis and Short, Sokoloff, and Crum with morphological tagging.
 
 - ⬜ **Collation Engine** _(planned)_: Performs automated witness collation (CollateX-style) with configurable tokenization for unpointed Hebrew, accented Greek, and unspaced majuscule. Emits variant graphs, alignment tables, and TEI apparatus seeded for editorial review.
 
