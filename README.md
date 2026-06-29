@@ -1572,7 +1572,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Fine-tuning runner** _(stub, awaits wire-up)_: Configurable LoRA/QLoRA/DoRA/full-finetune launcher over transformers, axolotl, and unsloth backends with VRAM estimation, dataset format validation, and live loss/grad-norm plots. AI-integrated learning-rate and rank suggestion from dataset shape and target model.
 
-- ⬜ **Quantization bench** _(planned)_: Convert checkpoints to GGUF, AWQ, GPTQ, EXL2, and bitsandbytes formats and benchmark perplexity, latency, throughput, and VRAM at each quant level on a held-out eval set.
+- ✅ **Quantization bench** _(stub, awaits wire-up)_: Convert checkpoints to GGUF, AWQ, GPTQ, EXL2, and bitsandbytes formats and benchmark perplexity, latency, throughput, and VRAM at each quant level on a held-out eval set.
 
 - ⬜ **Eval harness** _(planned)_: Runs MMLU, HumanEval, GSM8K, BIG-Bench, MT-Bench, IFEval, and user-defined rubric evals against any local or routed model with per-task breakdown and confidence intervals. Supports LLM-as-judge with bias controls.
 
