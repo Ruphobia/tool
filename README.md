@@ -3372,7 +3372,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Harris matrix editor** _(stub, awaits wire-up)_: Builds and validates stratigraphic context relationships (above, below, equals, cuts, fills) for excavation units, detects cycles, and renders the matrix as a layered DAG. Imports context sheet CSVs from single-context recording systems.
 
-- ⬜ **Radiocarbon calibrator** _(planned)_: Calibrates uncalibrated 14C dates against IntCal20, SHCal20, and Marine20 curves with reservoir corrections, producing probability density distributions and 1/2-sigma ranges. Supports R_Combine, R_Date, sequence, and phase Bayesian models in the OxCal idiom.
+- ✅ **Radiocarbon calibrator** _(stub, awaits wire-up)_: Calibrates uncalibrated 14C dates against IntCal20, SHCal20, and Marine20 curves with reservoir corrections, producing probability density distributions and 1/2-sigma ranges. Supports R_Combine, R_Date, sequence, and phase Bayesian models in the OxCal idiom.
 
 - ⬜ **Geochronology calculator** _(planned)_: Computes ages for K-Ar, 40Ar/39Ar, U-Pb concordia, U-Th, OSL/TL, ESR, and amino acid racemization from raw measurements with full uncertainty propagation. Plots isochrons, concordia diagrams, and probability-density spectra.
 
