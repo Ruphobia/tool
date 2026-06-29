@@ -3651,7 +3651,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Color grading** _(stub, awaits wire-up)_: Scene-referred grading with primary wheels, curves, qualifiers, and CDL/ACES workflows. Includes AI-integrated shot-match against a reference frame.
 
-- ⬜ **GIF and sprite toolkit** _(planned)_: Lossy GIF optimization, palette quantization, sprite-sheet packing, and APNG/WebP-animated output. Includes onion-skin frame review.
+- ✅ **GIF and sprite toolkit** _(stub, awaits wire-up)_: Lossy GIF optimization, palette quantization, sprite-sheet packing, and APNG/WebP-animated output. Includes onion-skin frame review.
 
 - ⬜ **Screenshot and capture** _(planned)_: Region, window, and scrolling-page capture with annotation, redaction, and screen recording to MP4/WebM. Pipes captures directly into the editor or generator.
 
