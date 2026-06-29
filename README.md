@@ -4809,7 +4809,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Radio-control modeling (planes, cars, trucks, boats, drones)
 
-- ⬜ **RC transmitter and receiver pairing reference** _(planned)_: covers OpenTX/EdgeTX/Spektrum/Futaba/FrSky/ELRS protocols, model setup, dual rates, expo, mixes, telemetry.
+- ✅ **RC transmitter and receiver pairing reference** _(stub, awaits wire-up)_: covers OpenTX/EdgeTX/Spektrum/Futaba/FrSky/ELRS protocols, model setup, dual rates, expo, mixes, telemetry.
 
 - ⬜ **ESC, motor, prop matching** _(planned)_: kV vs. battery vs. prop diameter and pitch sizing for given target speed/thrust; thermal and current-draw checks; current sensor and ESC current limit verification.
 
