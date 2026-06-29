@@ -4475,7 +4475,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Lumber cut optimizer** _(stub, awaits wire-up)_: Solves 1D bin-packing across a cut list against available stock lengths to minimize offcut waste and board count, accounting for kerf and grain-direction constraints.
 
-- ⬜ **Paint and primer coverage calculator** _(planned)_: Estimates gallons of primer and topcoat from wall, ceiling, and trim surface areas net of openings, given the product spread rate, substrate porosity, and number of coats; outputs a buy list rounded to can sizes.
+- ✅ **Paint and primer coverage calculator** _(stub, awaits wire-up)_: Estimates gallons of primer and topcoat from wall, ceiling, and trim surface areas net of openings, given the product spread rate, substrate porosity, and number of coats; outputs a buy list rounded to can sizes.
 
 - ⬜ **Concrete and aggregate volume calculator** _(planned)_: Computes yards of concrete, rebar weight, and base aggregate for slabs, footings, piers, and stairs from dimensions and reinforcement spacing; adds waste factor and converts to bag count for small pours.
 
