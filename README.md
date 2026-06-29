@@ -762,7 +762,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Skeletal Rigger** _(stub, awaits wire-up)_: 2D skeletal animation tool with bones, IK chains, mesh deformation, skinning weights, and per-slot attachments. Compatible with Spine and DragonBones JSON for engine portability.
 
-- ⬜ **Asset Pipeline Manager** _(planned)_: Declarative import pipeline that watches source folders, runs reproducible transforms (atlas pack, compress, mip, ETC/BCn), and writes lockfiles. Caches by content hash and surfaces diffs when an asset rebuilds.
+- ✅ **Asset Pipeline Manager** _(stub, awaits wire-up)_: Declarative import pipeline that watches source folders, runs reproducible transforms (atlas pack, compress, mip, ETC/BCn), and writes lockfiles. Caches by content hash and surfaces diffs when an asset rebuilds.
 
 - ⬜ **Sprite Atlas Packer** _(planned)_: Multi-bin texture packer with rotation, trim, padding, POT/NPOT modes, and stable IDs across rebuilds for diff-friendly atlases. Generates engine-specific metadata (Unity, Godot, LOVE, raw JSON).
 
