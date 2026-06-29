@@ -351,7 +351,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Changelog and release tool** _(in testing)_: Compiles changelogs from commit history and merged PRs, applies semver heuristics, tags releases, and produces signed artifacts and release notes with AI editing for tone and accuracy.
 
-- ⬜ **Code-to-code translator** _(planned)_: Pipeline-driven port of a function or module between languages (Python, Rust, Go, TS, C, Lua) with side-by-side review, type and idiom adaptation, and round-trip test validation.
+- ✅ **Code-to-code translator** _(stub, awaits wire-up)_: Pipeline-driven port of a function or module between languages (Python, Rust, Go, TS, C, Lua) with side-by-side review, type and idiom adaptation, and round-trip test validation.
 
 - ✅ **Snippet library** _(in testing)_: Tag-searchable store of reusable code, commands, queries, and prompts, with parameterized templates, project-local overrides, and AI extraction of new snippets from accepted edits.
 
