@@ -355,7 +355,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Snippet library** _(in testing)_: Tag-searchable store of reusable code, commands, queries, and prompts, with parameterized templates, project-local overrides, and AI extraction of new snippets from accepted edits.
 
-- ⬜ **Code review companion** _(planned)_: Reviews the current diff for correctness bugs, simplifications, and altitude issues at selectable effort levels, posts findings inline, and optionally applies fixes.
+- ✅ **Code review companion** _(stub, awaits wire-up)_: Reviews the current diff for correctness bugs, simplifications, and altitude issues at selectable effort levels, posts findings inline, and optionally applies fixes.
 
 
 #### Per-language toolchains
