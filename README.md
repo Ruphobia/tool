@@ -3792,7 +3792,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Form and Structure Analyzer** _(stub, awaits wire-up)_: Segments a score or audio file into sections (intro, verse, chorus, bridge, coda), detects repetition and variation, and produces a labeled timeline with phrase and period grouping.
 
-- ⬜ **Set Theory Workbench** _(planned)_: Pitch-class set calculator producing prime form, normal form, interval vector, Forte number, complement, Z-relations, and transformations (Tn, TnI). Visualizes set webs for 20th-century and post-tonal analysis.
+- ✅ **Set Theory Workbench** _(stub, awaits wire-up)_: Pitch-class set calculator producing prime form, normal form, interval vector, Forte number, complement, Z-relations, and transformations (Tn, TnI). Visualizes set webs for 20th-century and post-tonal analysis.
 
 - ⬜ **Tuning and Temperament Lab** _(planned)_: Compares equal temperament, just intonation, meantone, well-tempered, and custom Scala scales. Plays intervals and chords in each tuning and visualizes cents deviation and harmonic-entropy curves.
 
