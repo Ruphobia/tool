@@ -3327,7 +3327,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Acoustic species ID** _(stub, awaits wire-up)_: Analyzes audio files with BirdNET-Analyzer / Perch / BatDetect2 backends to produce time-stamped species predictions, confidence, and a reviewable spectrogram of each hit. Supports region/season filters and custom classifiers trained on the user's own annotations.
 
-- ⬜ **Spectrogram annotator** _(planned)_: Interactive spectrogram and waveform viewer for bird, bat, cetacean, and anuran recordings with selection boxes, call-type labels, and Raven/Audacity label export. AI-integrated suggestion of call boundaries and species from the active selection.
+- ✅ **Spectrogram annotator** _(stub, awaits wire-up)_: Interactive spectrogram and waveform viewer for bird, bat, cetacean, and anuran recordings with selection boxes, call-type labels, and Raven/Audacity label export. AI-integrated suggestion of call boundaries and species from the active selection.
 
 - ⬜ **Allometric dose calculator** _(planned)_: Computes interspecific drug doses by metabolic body-weight scaling (BW^0.75) with species-specific overrides for sensitivities (e.g. alpha-2 in domestic cats, opioid response in ungulates, ivermectin in collies/MDR1, succinylcholine in raptors). Cross-checks against a local Plumb's-style formulary and flags contraindications.
 
