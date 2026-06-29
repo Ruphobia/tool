@@ -4453,7 +4453,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Psychrometric tool** _(stub, awaits wire-up)_: Plots state points and processes (mixing, sensible heat, latent, cooling coil bypass) on a psychrometric chart for a given elevation; solves for SHR, enthalpy, dew point, and required reheat.
 
-- ⬜ **Refrigerant charge analyzer** _(planned)_: Computes superheat and subcooling targets for fixed-orifice and TXV systems from suction/liquid pressures and temperatures, with refrigerant property tables for R-410A, R-32, R-454B, and R-22; flags over/undercharge.
+- ✅ **Refrigerant charge analyzer** _(stub, awaits wire-up)_: Computes superheat and subcooling targets for fixed-orifice and TXV systems from suction/liquid pressures and temperatures, with refrigerant property tables for R-410A, R-32, R-454B, and R-22; flags over/undercharge.
 
 - ⬜ **Heat pump balance point planner** _(planned)_: Overlays equipment capacity curves against the building heat-loss line versus outdoor temperature, locating the thermal and economic balance points and sizing auxiliary strip heat or backup fuel.
 
