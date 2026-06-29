@@ -3004,7 +3004,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Multiple sequence aligner** _(stub, awaits wire-up)_: Aligns nucleotide or protein sets via MAFFT, MUSCLE, or Clustal Omega with column conservation scoring and consensus extraction. Exports to Stockholm, FASTA, and PHYLIP.
 
-- ⬜ **Genome assembler** _(planned)_: Runs SPAdes, Flye, Unicycler, or Canu pipelines for short, long, and hybrid reads with quality trimming via fastp and assembly QC via QUAST and BUSCO.
+- ✅ **Genome assembler** _(stub, awaits wire-up)_: Runs SPAdes, Flye, Unicycler, or Canu pipelines for short, long, and hybrid reads with quality trimming via fastp and assembly QC via QUAST and BUSCO.
 
 - ⬜ **Read mapper** _(planned)_: Aligns reads to a reference with BWA-MEM, minimap2, or Bowtie2, calls variants via bcftools or DeepVariant, and produces coverage tracks and consensus FASTAs.
 
