@@ -2418,7 +2418,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Utility GIS overlay** _(stub, awaits wire-up)_: Layered map view of mains, laterals, valves, hydrants, manholes, lift stations, and outfalls over basemap and parcel data. Imports shapefile/GeoJSON/GeoPackage, snaps the hydraulic and sewer models to real geometry, and exports as-builts with attribute schemas (Esri Utility Network, INSPIRE).
 
-- ⬜ **Asset deterioration model** _(planned)_: Pipe break and condition forecasting from age, material, soil corrosivity, traffic loading, and historical work-order data. Produces likelihood-of-failure scores, renewal prioritization, and capital plan curves; AI-integrated cohort survival fits where break records are sparse.
+- ✅ **Asset deterioration model** _(stub, awaits wire-up)_: Pipe break and condition forecasting from age, material, soil corrosivity, traffic loading, and historical work-order data. Produces likelihood-of-failure scores, renewal prioritization, and capital plan curves; AI-integrated cohort survival fits where break records are sparse.
 
 - ⬜ **SCADA timeseries viewer** _(planned)_: Imports historian exports (OSIsoft PI, Ignition, InfluxDB, CSV) and aligns flow, pressure, level, turbidity, and chlorine traces against the hydraulic model. Computes mass balance, unaccounted-for water, pump run hours, and minimum night flow per district metered area.
 
