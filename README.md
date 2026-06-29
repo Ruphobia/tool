@@ -504,7 +504,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Snapshot test diff viewer** _(stub, awaits wire-up)_: Compares Paparazzi, swift-snapshot-testing, and Roborazzi reference images against new runs, highlights pixel deltas with anti-aliasing tolerance, and lets the user accept or reject per-device baselines from one canvas.
 
-- ⬜ **Storyboard and XML porter** _(planned)_: Converts UIKit storyboards/XIBs to SwiftUI and Android XML layouts to Jetpack Compose, preserving constraints, styles, and accessibility traits; flags constructs (segues, include tags) that need manual reconciliation.
+- ✅ **Storyboard and XML porter** _(stub, awaits wire-up)_: Converts UIKit storyboards/XIBs to SwiftUI and Android XML layouts to Jetpack Compose, preserving constraints, styles, and accessibility traits; flags constructs (segues, include tags) that need manual reconciliation.
 
 - ⬜ **Vector asset converter** _(planned)_: Imports SVG, Figma, and Lottie sources and emits iOS PDF vector assets, Android VectorDrawable XML, Compose ImageVector, and Flutter flutter_svg-compatible output, normalizing fills, strokes, and tint behavior across targets.
 
