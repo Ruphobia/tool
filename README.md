@@ -4709,7 +4709,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Newspaper and Obituary Miner** _(stub, awaits wire-up)_: Full-text search across Chronicling America, BNA, Trove, and user-supplied OCR'd local papers. Uses an LLM pass to pull names, relationships, residences, and dates out of obituaries and social columns into structured event records.
 
-- ⬜ **Cemetery and Burial Mapper** _(planned)_: Imports BillionGraves / Find a Grave exports plus user GPS walks, and stores headstone photos with plot coordinates. Renders cemetery maps showing family clustering and unassigned adjacent plots worth investigating.
+- ✅ **Cemetery and Burial Mapper** _(stub, awaits wire-up)_: Imports BillionGraves / Find a Grave exports plus user GPS walks, and stores headstone photos with plot coordinates. Renders cemetery maps showing family clustering and unassigned adjacent plots worth investigating.
 
 - ⬜ **Source Citation Manager** _(planned)_: Generates citations in Evidence Explained, NGSQ, and Chicago formats with templates per record type (census, vital, church, probate). Tracks evidence quality (original / derivative, primary / secondary) and surfaces conflicting source claims on the same fact.
 
