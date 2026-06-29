@@ -3631,7 +3631,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Frame interpolator** _(stub, awaits wire-up)_: Optical-flow and learned interpolation (RIFE, FILM, IFRNet) for slow motion and frame-rate upconversion. Supports scene-cut detection to avoid blending across cuts.
 
-- ⬜ **Video upscaler** _(planned)_: Temporally-coherent super-resolution using Real-ESRGAN-Video, BasicVSR++, and Topaz-style pipelines. Streams frames through tiled inference with optional codec passthrough.
+- ✅ **Video upscaler** _(stub, awaits wire-up)_: Temporally-coherent super-resolution using Real-ESRGAN-Video, BasicVSR++, and Topaz-style pipelines. Streams frames through tiled inference with optional codec passthrough.
 
 - ⬜ **Video matting** _(planned)_: Per-frame alpha extraction via RVM/MODNet/BiRefNet with temporal smoothing and trimap refinement. Outputs alpha video, mattes, and per-shot masks.
 
