@@ -1063,7 +1063,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Ticket tracker** _(stub, awaits wire-up)_: Local-first issue database with markdown bodies, custom fields, labels, assignees, parent/child links, and saved queries. AI-integrated triage proposes labels, priority, and likely owner from the ticket text and history.
 
-- ⬜ **Sprint planner** _(planned)_: Iteration container that pulls from the backlog under a capacity budget, with point or hour sizing, scope-lock dates, and carryover tracking. AI-integrated suggestion of a sprint composition given velocity history and explicit team availability.
+- ✅ **Sprint planner** _(stub, awaits wire-up)_: Iteration container that pulls from the backlog under a capacity budget, with point or hour sizing, scope-lock dates, and carryover tracking. AI-integrated suggestion of a sprint composition given velocity history and explicit team availability.
 
 - ⬜ **Gantt scheduler** _(planned)_: Time-axis chart of tasks with start/end dates, dependencies, critical-path highlighting, baseline vs current snapshots, and per-row resource assignment. Slippage is propagated through the dependency graph.
 
