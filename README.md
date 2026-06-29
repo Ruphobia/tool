@@ -693,7 +693,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Filesystem and mount manager** _(stub, awaits wire-up)_: Lists block devices, partitions, LVM volumes, and mount points; performs mount, unmount, fstab edits, and filesystem creation. Includes BTRFS and ZFS subvolume and snapshot management.
 
-- ⬜ **Backup scheduler** _(planned)_: Configures restic, borg, or rsync jobs with retention policies, encryption keys, and target repositories (local, SFTP, S3). Runs scheduled and ad-hoc backups, verifies snapshots, and offers point-in-time restore browsing.
+- ✅ **Backup scheduler** _(stub, awaits wire-up)_: Configures restic, borg, or rsync jobs with retention policies, encryption keys, and target repositories (local, SFTP, S3). Runs scheduled and ad-hoc backups, verifies snapshots, and offers point-in-time restore browsing.
 
 - ⬜ **Snapshot manager** _(planned)_: Creates, lists, diffs, and rolls back BTRFS, ZFS, and LVM snapshots. Diff view shows file-level changes between any two snapshots and supports per-file restore without full rollback.
 
