@@ -2845,7 +2845,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Tilt & Azimuth Optimizer** _(stub, awaits wire-up)_: Sweeps tilt and azimuth across the TMY year to find the angle that maximizes annual yield, winter-only yield, or a custom-weighted load match. Returns isocontour plots and sensitivity bands.
 
-- ⬜ **Module I-V Curve Simulator** _(planned)_: Builds the single-diode-model I-V and P-V curves for any datasheet module across irradiance and cell temperature, including bypass-diode behavior under partial shading. Useful for picking MPPT windows and string sizing.
+- ✅ **Module I-V Curve Simulator** _(stub, awaits wire-up)_: Builds the single-diode-model I-V and P-V curves for any datasheet module across irradiance and cell temperature, including bypass-diode behavior under partial shading. Useful for picking MPPT windows and string sizing.
 
 - ⬜ **String & Inverter Sizing** _(planned)_: Solves Vmp/Voc string windows against inverter MPPT range and absolute max DC voltage at record-low ambient (per NEC 690.7). Recommends string length, parallel count, and DC/AC ratio with AI-assisted starting point from module + inverter pair.
 
