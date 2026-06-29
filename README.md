@@ -1419,7 +1419,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Authenticity Inspector** _(stub, awaits wire-up)_: Runs tamper detection via Error Level Analysis, copy-move forensics, font-consistency checks, hologram region sampling, UV/IR layer review, and microprint inspection; renders a per-zone heatmap of suspect regions.
 
-- ⬜ **ePassport Chip Reader** _(planned)_: Performs BAC, PACE, Chip Authentication, and Terminal Authentication against eMRTD chips; parses LDS data groups DG1 through DG15 and verifies the SOD signature chain against the CSCA master list.
+- ✅ **ePassport Chip Reader** _(stub, awaits wire-up)_: Performs BAC, PACE, Chip Authentication, and Terminal Authentication against eMRTD chips; parses LDS data groups DG1 through DG15 and verifies the SOD signature chain against the CSCA master list.
 
 - ⬜ **Face Matcher** _(planned)_: Computes a face embedding for the selfie and the document portrait, returns cosine and L2 similarity, and reports FMR/FNMR threshold guidance per ISO/IEC 19795 with bias slice diagnostics.
 
