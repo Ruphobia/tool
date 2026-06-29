@@ -3306,7 +3306,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Satellite Tracker** _(stub, awaits wire-up)_: Propagates TLE/OMM elements with SGP4 to predict satellite passes, ISS sightings, Starlink trains, and iridium-style flares. Supports radio-link Doppler computation and antenna-rotator output.
 
-- ⬜ **Exoplanet Modeler** _(planned)_: Fits transit and radial-velocity datasets to Keplerian + limb-darkened-transit models using MCMC or nested sampling. Reports planet radius, mass, eccentricity, and stellar-density posteriors with corner plots.
+- ✅ **Exoplanet Modeler** _(stub, awaits wire-up)_: Fits transit and radial-velocity datasets to Keplerian + limb-darkened-transit models using MCMC or nested sampling. Reports planet radius, mass, eccentricity, and stellar-density posteriors with corner plots.
 
 - ⬜ **Optics Designer** _(planned)_: Computes telescope, eyepiece, and camera-train parameters: focal ratio, exit pupil, true field of view, pixel scale, critical sampling, and diffraction limit. Includes Bahtinov-mask focus simulator and Strehl-from-collimation estimator.
 
