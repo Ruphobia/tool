@@ -3200,7 +3200,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Ensemble plan analyzer** _(stub, awaits wire-up)_: Runs Markov chain (ReCom) ensembles of legal districting plans for a state, scores each on partisan bias, efficiency gap, mean-median, and seat-vote curves, and locates the user's plan in the resulting distribution as an outlier test.
 
-- ⬜ **Precinct-to-district joiner** _(planned)_: Disaggregates precinct-level election returns to census blocks via population weights, then reaggregates to arbitrary district plans, with reconciliation reports for split precincts and missing returns.
+- ✅ **Precinct-to-district joiner** _(stub, awaits wire-up)_: Disaggregates precinct-level election returns to census blocks via population weights, then reaggregates to arbitrary district plans, with reconciliation reports for split precincts and missing returns.
 
 - ⬜ **Survey weighting designer** _(planned)_: Applies design weights, raking (anesrake-style iterative proportional fitting), post-stratification, and trimming against population targets, and reports effective sample size, design effect, and weight distribution diagnostics.
 
