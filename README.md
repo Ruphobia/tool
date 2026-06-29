@@ -2837,7 +2837,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Energy systems
 
-- ⬜ **Solar Resource Fetcher** _(planned)_: Pulls TMY3, PVGIS, and NSRDB irradiance, ambient temperature, and wind data for any latitude/longitude with offline caching. Exposes GHI/DNI/DHI hourly series and monthly summaries for downstream PV and thermal tools.
+- ✅ **Solar Resource Fetcher** _(stub, awaits wire-up)_: Pulls TMY3, PVGIS, and NSRDB irradiance, ambient temperature, and wind data for any latitude/longitude with offline caching. Exposes GHI/DNI/DHI hourly series and monthly summaries for downstream PV and thermal tools.
 
 - ⬜ **Sun Path & Shading Analyzer** _(planned)_: Plots solar altitude/azimuth across the year on a stereographic chart and overlays a user-drawn horizon (terrain, buildings, trees). Computes per-hour shade losses and annual energy lost to obstructions.
 
