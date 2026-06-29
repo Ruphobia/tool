@@ -3999,7 +3999,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Tempeh and Natto Incubator Log** _(stub, awaits wire-up)_: Tracks substrate hydration, acidulation, inoculation temperature, and mycelium or bacillus growth across multi-day incubations. AI summarizes failure modes from photo logs when batches go ammoniated or patchy.
 
-- ⬜ **Ingredient Substitution and Flavor Pairing Assistant** _(planned)_: Maps ingredients by dominant volatile compounds, fermentation behavior, and acid/sugar/salt ratios. AI suggests substitutions that preserve safety-critical parameters (Aw, pH, salt percent) rather than only flavor.
+- ✅ **Ingredient Substitution and Flavor Pairing Assistant** _(stub, awaits wire-up)_: Maps ingredients by dominant volatile compounds, fermentation behavior, and acid/sugar/salt ratios. AI suggests substitutions that preserve safety-critical parameters (Aw, pH, salt percent) rather than only flavor.
 
 - ⬜ **Recipe Scaling and Yield Tracker** _(planned)_: Scales fermentation and curing recipes by ingredient, batch volume, or vessel headspace while preserving ratio-critical parameters. Records actual yield, loss, and shrinkage against predicted values across runs.
 
