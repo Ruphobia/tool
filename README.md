@@ -1988,7 +1988,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Reverse-engineering board scanner** _(stub, awaits wire-up)_: Aligns photos of top and bottom copper, traces nets, and reconstructs a schematic from a physical board. AI-integrated identification of unmarked SMD parts from package, markings, and surrounding context.
 
-- ⬜ **Gerber and fab-output viewer** _(planned)_: Renders Gerber X2, Excellon, IPC-D-356 netlists, and pick-and-place files with layer toggling and DFM checks. Validates against fab capability profiles (JLCPCB, PCBWay, OSHPark) before sending.
+- ✅ **Gerber and fab-output viewer** _(stub, awaits wire-up)_: Renders Gerber X2, Excellon, IPC-D-356 netlists, and pick-and-place files with layer toggling and DFM checks. Validates against fab capability profiles (JLCPCB, PCBWay, OSHPark) before sending.
 
 
 #### Optics and photonics
