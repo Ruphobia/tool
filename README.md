@@ -4418,7 +4418,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Water chemistry calculator** _(stub, awaits wire-up)_: Converts and reconciles GH, KH, TDS, conductivity, salinity, and specific gravity. Computes RO remineralization recipes for soft-water biotopes, blackwater tannins, or reef salt mixing targets.
 
-- ⬜ **Stocking and bioload calculator** _(planned)_: Estimates bioload from species, adult size, and activity profile against tank volume and filtration turnover. Warns on aggression, schooling minimums, and pH/temperature/hardness compatibility across the proposed list.
+- ✅ **Stocking and bioload calculator** _(stub, awaits wire-up)_: Estimates bioload from species, adult size, and activity profile against tank volume and filtration turnover. Warns on aggression, schooling minimums, and pH/temperature/hardness compatibility across the proposed list.
 
 - ⬜ **Dosing calculator** _(planned)_: Computes dose volumes for Estimative Index (planted), two-part and Balling (reef), and trace supplementation given measured Ca, Alk, Mg, NO3, PO4, and Fe consumption rates.
 
