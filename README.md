@@ -4457,7 +4457,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Heat pump balance point planner** _(stub, awaits wire-up)_: Overlays equipment capacity curves against the building heat-loss line versus outdoor temperature, locating the thermal and economic balance points and sizing auxiliary strip heat or backup fuel.
 
-- ⬜ **Envelope heat-loss stack** _(planned)_: Builds U-value assemblies layer by layer (framing fraction, cavity insulation, sheathing, cladding) with parallel-path and isothermal-planes methods; rolls up whole-building UA and design heat loss/gain.
+- ✅ **Envelope heat-loss stack** _(stub, awaits wire-up)_: Builds U-value assemblies layer by layer (framing fraction, cavity insulation, sheathing, cladding) with parallel-path and isothermal-planes methods; rolls up whole-building UA and design heat loss/gain.
 
 - ⬜ **Blower-door and infiltration estimator** _(planned)_: Converts blower-door CFM50 to ACH50, ACHnat, and equivalent leakage area using the LBL model with shielding and stack-height coefficients; suggests target tightness for the climate zone.
 
