@@ -4043,7 +4043,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Traditional crafts: horology, blacksmithing, jewelry, glassblowing, pottery, leatherwork, cobbling
 
-- ⬜ **Cobbling and shoe repair** _(planned)_: sole/welt construction reference (Goodyear, Blake, Norwegian), last sizing, last-grading by foot type, leather and lasting/closing materials database with sourcing, heel-height pattern adjustment, repair logbook with photo before/after.
+- ✅ **Cobbling and shoe repair** _(stub, awaits wire-up)_: sole/welt construction reference (Goodyear, Blake, Norwegian), last sizing, last-grading by foot type, leather and lasting/closing materials database with sourcing, heel-height pattern adjustment, repair logbook with photo before/after.
 
 - ⬜ **Gear Train Calculator** _(planned)_: Computes wheel and pinion tooth counts, ratios, and beats-per-hour for clock and watch movements. Solves for missing members given a target frequency, mainspring torque, and going-train depth.
 
