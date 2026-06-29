@@ -3821,7 +3821,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Synthesizer rack** _(stub, awaits wire-up)_: Modular soft-synth host running subtractive, FM, wavetable, additive, granular, and physical-modeling engines with polyphony, unison, and modulation matrices. AI-integrated patch generation from text descriptions ("warm analog pad, slow attack").
 
-- ⬜ **Effects chain** _(planned)_: Insert/send routing for EQ, dynamics, reverb, delay, modulation, distortion, pitch, and spectral effects; supports LV2/VST3/CLAP plugins and per-effect A/B and undo history.
+- ✅ **Effects chain** _(stub, awaits wire-up)_: Insert/send routing for EQ, dynamics, reverb, delay, modulation, distortion, pitch, and spectral effects; supports LV2/VST3/CLAP plugins and per-effect A/B and undo history.
 
 - ⬜ **Parametric and graphic EQ** _(planned)_: Linear-phase and minimum-phase EQ with dynamic bands, mid/side processing, spectrum overlay, and match-EQ from reference tracks. AI-integrated EQ-curve suggestion from a target tonal reference.
 
