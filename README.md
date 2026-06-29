@@ -1613,7 +1613,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Prosopography database** _(stub, awaits wire-up)_: Tracks persons, roles, offices, and relationships with explicit uncertainty, multiple attestations per assertion, and source-grounded provenance per claim. Models the Factoid Prosopography pattern used by PBW and PASE.
 
-- ⬜ **Historical gazetteer** _(planned)_: Resolves place names across periods against Pleiades, GeoNames, World Historical Gazetteer, and Wikidata. Handles renamings, boundary shifts, and ambiguous toponyms; emits stable Linked Places URIs.
+- ✅ **Historical gazetteer** _(stub, awaits wire-up)_: Resolves place names across periods against Pleiades, GeoNames, World Historical Gazetteer, and Wikidata. Handles renamings, boundary shifts, and ambiguous toponyms; emits stable Linked Places URIs.
 
 - ⬜ **Map georectifier** _(planned)_: Warps historical maps onto a modern basemap using control points, in the MapWarper/Allmaps tradition. Produces tile sources for overlay and exports GCPs plus a transformation matrix for reproducibility.
 
