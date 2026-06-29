@@ -677,7 +677,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Process explorer** _(stub, awaits wire-up)_: Live tree of running processes with CPU, memory, IO, file descriptor, and thread counts. Supports kill, renice, signal, attach-strace, and pinning to per-process resource graphs. AI-integrated annotation of unfamiliar processes from binary path and cmdline.
 
-- ⬜ **Resource monitor** _(planned)_: Real-time and historical graphs of CPU, memory, swap, disk IO, network throughput, and load average, sampled per-core and per-device. Exports to CSV and links each spike to the processes running at that timestamp.
+- ✅ **Resource monitor** _(stub, awaits wire-up)_: Real-time and historical graphs of CPU, memory, swap, disk IO, network throughput, and load average, sampled per-core and per-device. Exports to CSV and links each spike to the processes running at that timestamp.
 
 - ⬜ **Systemd unit manager** _(planned)_: Browse, start, stop, enable, disable, mask, and edit systemd units and their drop-ins, with dependency graph and timer view. AI-integrated drafting of unit files from a plain-language service description.
 
