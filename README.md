@@ -3118,7 +3118,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **DICOM Viewer** _(stub, awaits wire-up)_: Loads CT, MRI, PET, and ultrasound DICOM series locally with windowing presets, multi-planar reformatting, MIP/MinIP, measurement tools, and segmentation overlay support.
 
-- ⬜ **ICD / CPT / SNOMED Lookup** _(planned)_: Search and reverse-lookup across ICD-10/11, CPT, HCPCS, SNOMED CT, and LOINC code sets, with synonym expansion and AI-assisted mapping from free-text clinical phrases to candidate codes.
+- ✅ **ICD / CPT / SNOMED Lookup** _(stub, awaits wire-up)_: Search and reverse-lookup across ICD-10/11, CPT, HCPCS, SNOMED CT, and LOINC code sets, with synonym expansion and AI-assisted mapping from free-text clinical phrases to candidate codes.
 
 - ⬜ **Clinical Trial Search** _(planned)_: Queries ClinicalTrials.gov, EU CTR, and WHO ICTRP via local indexes, with filters for phase, condition, intervention, geography, and eligibility; supports patient-criteria matching against a de-identified profile.
 
