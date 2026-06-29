@@ -4124,7 +4124,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Kiln schedule planner** _(stub, awaits wire-up)_: Builds segmented ramp/hold/cool firing schedules by cone and atmosphere (oxidation, reduction, salt, raku), estimates work-heat via Orton cone tables, and exports controller programs for Bartlett, Skutt, and Genesis profiles.
 
-- ⬜ **Clay and shrinkage calculator** _(planned)_: Tracks wet, leather-hard, bone-dry, bisque, and glaze-fired dimensions for a clay body, computes total linear and volumetric shrinkage, and back-solves the wet size needed to hit a target finished dimension.
+- ✅ **Clay and shrinkage calculator** _(stub, awaits wire-up)_: Tracks wet, leather-hard, bone-dry, bisque, and glaze-fired dimensions for a clay body, computes total linear and volumetric shrinkage, and back-solves the wet size needed to hit a target finished dimension.
 
 - ⬜ **Maquette viewer** _(planned)_: Loads STL, OBJ, PLY, and 3MF maquettes with PBR or matcap shading, measures distances/angles/cross-sections, slices for armature planning, and snapshots reference views at standard sculptor angles.
 
