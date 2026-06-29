@@ -3006,7 +3006,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Genome assembler** _(stub, awaits wire-up)_: Runs SPAdes, Flye, Unicycler, or Canu pipelines for short, long, and hybrid reads with quality trimming via fastp and assembly QC via QUAST and BUSCO.
 
-- ⬜ **Read mapper** _(planned)_: Aligns reads to a reference with BWA-MEM, minimap2, or Bowtie2, calls variants via bcftools or DeepVariant, and produces coverage tracks and consensus FASTAs.
+- ✅ **Read mapper** _(stub, awaits wire-up)_: Aligns reads to a reference with BWA-MEM, minimap2, or Bowtie2, calls variants via bcftools or DeepVariant, and produces coverage tracks and consensus FASTAs.
 
 - ⬜ **Genome annotator** _(planned)_: Predicts CDS, rRNA, tRNA, and CRISPR arrays via Prokka, Bakta, or Pharokka for prokaryotes and phages. Augments with eggNOG, InterProScan, and AMRFinderPlus functional layers.
 
