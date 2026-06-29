@@ -3038,7 +3038,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **HLA typer and neoantigen pipeline** _(stub, awaits wire-up)_: Calls class I and II HLA types from sequencing data via OptiType or arcasHLA and ranks candidate neoepitopes by binding affinity, presentation, and immunogenicity.
 
-- ⬜ **BCR/TCR repertoire analyzer** _(planned)_: Processes AIRR-seq data with MiXCR or IgBLAST; computes V(D)J usage, CDR3 diversity (Shannon, Simpson, D50), clonotype tracking, and lineage trees via Change-O.
+- ✅ **BCR/TCR repertoire analyzer** _(stub, awaits wire-up)_: Processes AIRR-seq data with MiXCR or IgBLAST; computes V(D)J usage, CDR3 diversity (Shannon, Simpson, D50), clonotype tracking, and lineage trees via Change-O.
 
 - ⬜ **Flow cytometry workbench** _(planned)_: Loads FCS files, applies compensation, transforms (logicle, arcsinh), gates manually or via FlowSOM and UMAP, and exports population statistics and publication-grade plots.
 
