@@ -3739,7 +3739,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **PBR Material Lab** _(stub, awaits wire-up)_: Layer-stack material editor producing metallic-roughness or specular-glossiness sets, with substance-like procedural noises, generators, and bake-to-texture from a high-poly source. Exports glTF, MaterialX, and OSL.
 
-- ⬜ **UV Toolkit** _(planned)_: Automatic and manual UV unwrap with angle-based flattening, packed tile (UDIM) layout, seam painter, and distortion heatmap. Suggests seam placement from mesh curvature and symmetry analysis.
+- ✅ **UV Toolkit** _(stub, awaits wire-up)_: Automatic and manual UV unwrap with angle-based flattening, packed tile (UDIM) layout, seam painter, and distortion heatmap. Suggests seam placement from mesh curvature and symmetry analysis.
 
 - ⬜ **Sculpt and Retopo** _(planned)_: Multiresolution dynamic-topology sculpting with masks, layers, and remeshing; coupled with quad-dominant retopology for animation-ready meshes. AI-integrated auto-retopo respecting edge loops at deformation regions.
 
