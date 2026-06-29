@@ -3807,7 +3807,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Signal processing and audio
 
-- ⬜ **Multitrack audio editor** _(planned)_: Non-destructive timeline editor with clip-based editing, crossfades, ripple/slip/roll edits, comping lanes, time-stretching, and pitch-shifting. AI-integrated source separation, transient detection, silence trimming, and natural-language edit commands ("tighten the vocal between 0:42 and 1:10").
+- ✅ **Multitrack audio editor** _(stub, awaits wire-up)_: Non-destructive timeline editor with clip-based editing, crossfades, ripple/slip/roll edits, comping lanes, time-stretching, and pitch-shifting. AI-integrated source separation, transient detection, silence trimming, and natural-language edit commands ("tighten the vocal between 0:42 and 1:10").
 
 - ⬜ **Audio recorder** _(planned)_: Multi-input recorder with loopback, monitor mixing, punch-in/out, pre-roll buffer, takes management, and per-channel metering. Supports ASIO/JACK/PipeWire/CoreAudio backends and arbitrary sample rates and bit depths.
 
