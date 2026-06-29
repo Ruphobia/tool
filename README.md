@@ -2040,7 +2040,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Symbolic CAS** _(stub, awaits wire-up)_: Computer algebra system for simplification, expansion, factoring, solving equations, limits, derivatives, integrals, series, and matrix algebra. AI-integrated translation of natural-language problem statements into canonical symbolic expressions and step-by-step derivations.
 
-- ⬜ **Numerical kernel** _(planned)_: Jupyter-style interactive notebook with NumPy/SciPy/Julia kernels, persistent variable state, and inline plot rendering. Routes natural-language requests to generated code blocks the user can review and re-run.
+- ✅ **Numerical kernel** _(stub, awaits wire-up)_: Jupyter-style interactive notebook with NumPy/SciPy/Julia kernels, persistent variable state, and inline plot rendering. Routes natural-language requests to generated code blocks the user can review and re-run.
 
 - ⬜ **Unit converter** _(planned)_: Bidirectional converter across SI, imperial, CGS, natural/Planck, astronomical, and engineering units with dimensional-analysis checks. Flags dimensionally inconsistent expressions before evaluation.
 
