@@ -2135,7 +2135,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Bearing and shaft designer** _(stub, awaits wire-up)_: Sizes ball, roller, plain, and thrust bearings with L10 life, dynamic load, and shaft fit calculations. Generates shoulder, fillet, and keyway dimensions per ISO standards.
 
-- ⬜ **Gear designer** _(planned)_: Designs spur, helical, bevel, worm, and planetary gear trains with AGMA strength and pitting calculations, then exports involute profiles to CAD or DXF. Includes ratio solver for a target reduction.
+- ✅ **Gear designer** _(stub, awaits wire-up)_: Designs spur, helical, bevel, worm, and planetary gear trains with AGMA strength and pitting calculations, then exports involute profiles to CAD or DXF. Includes ratio solver for a target reduction.
 
 - ⬜ **Spring designer** _(planned)_: Sizes compression, extension, torsion, and Belleville springs with stress, fatigue life, and natural frequency checks. Outputs manufacturable wire diameter, coil count, and free length.
 
