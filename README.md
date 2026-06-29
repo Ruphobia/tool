@@ -1742,7 +1742,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Fallacy detector** _(stub, awaits wire-up)_: Scans prose arguments for informal fallacies (straw man, false dichotomy, ad hominem, motte-and-bailey) with AI-integrated pattern matching against a curated catalog; highlights offending spans and proposes reformulations.
 
-- ⬜ **Manuscript variant collator** _(planned)_: Aligns multiple witnesses of a text in CollateX style and produces a variant graph; emits TEI parallel-segmentation markup and supports manual override of disputed alignments.
+- ✅ **Manuscript variant collator** _(stub, awaits wire-up)_: Aligns multiple witnesses of a text in CollateX style and produces a variant graph; emits TEI parallel-segmentation markup and supports manual override of disputed alignments.
 
 - ⬜ **Stemma builder** _(planned)_: Constructs manuscript family trees from variant data using Lachmannian, neighbor-joining, and RHM phylogenetic methods; visualizes contamination, lost archetypes, and bootstrap support.
 
