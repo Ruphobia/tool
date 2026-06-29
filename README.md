@@ -1529,7 +1529,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Writing and Citation Linter** _(stub, awaits wire-up)_: Lints manuscripts for missing citations, broken cross-references, undefined acronyms, inconsistent notation, and weak-claim/strong-claim mismatches against cited evidence. Integrates with LaTeX, Typst, Markdown, and Pandoc workflows.
 
-- ⬜ **Grant and CFP Radar** _(planned)_: Tracks funding calls and conference CFPs from NSF, NIH, ERC, UKRI, DARPA, OpenReview, WikiCFP, and society mailing lists with topic-matched alerts. Builds a per-deadline checklist with required documents and eligibility flags.
+- ✅ **Grant and CFP Radar** _(stub, awaits wire-up)_: Tracks funding calls and conference CFPs from NSF, NIH, ERC, UKRI, DARPA, OpenReview, WikiCFP, and society mailing lists with topic-matched alerts. Builds a per-deadline checklist with required documents and eligibility flags.
 
 
 #### Data, statistics, and ML
