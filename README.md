@@ -3737,7 +3737,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Asset Library** _(stub, awaits wire-up)_: Tagged, versioned browser for models, materials, HDRIs, brushes, rigs, and FX setups with USD-based references, thumbnail bake, and dependency tracking. AI-tagged from preview renders to enable natural-language search.
 
-- ⬜ **PBR Material Lab** _(planned)_: Layer-stack material editor producing metallic-roughness or specular-glossiness sets, with substance-like procedural noises, generators, and bake-to-texture from a high-poly source. Exports glTF, MaterialX, and OSL.
+- ✅ **PBR Material Lab** _(stub, awaits wire-up)_: Layer-stack material editor producing metallic-roughness or specular-glossiness sets, with substance-like procedural noises, generators, and bake-to-texture from a high-poly source. Exports glTF, MaterialX, and OSL.
 
 - ⬜ **UV Toolkit** _(planned)_: Automatic and manual UV unwrap with angle-based flattening, packed tile (UDIM) layout, seam painter, and distortion heatmap. Suggests seam placement from mesh curvature and symmetry analysis.
 
