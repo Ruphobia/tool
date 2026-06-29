@@ -3224,7 +3224,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Codebook manager** _(stub, awaits wire-up)_: Generates and maintains DDI/Codebook-compliant data dictionaries with variable labels, value labels, skip patterns, and provenance for survey and administrative datasets, with diff views across waves and harmonization mappings.
 
-- ⬜ **Map composer** _(planned)_: Lays out static and interactive maps with insets, legends, scale bars, north arrows, and cartogram (Dorling, Gastner-Newman) options, and exports to SVG, PNG, and web tiles (MBTiles, PMTiles) for offline serving.
+- ✅ **Map composer** _(stub, awaits wire-up)_: Lays out static and interactive maps with insets, legends, scale bars, north arrows, and cartogram (Dorling, Gastner-Newman) options, and exports to SVG, PNG, and web tiles (MBTiles, PMTiles) for offline serving.
 
 
 #### Climate, weather, and atmospheric science
