@@ -1625,7 +1625,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Provenance chain tracker** _(stub, awaits wire-up)_: Records chain-of-custody for documents and objects from creation through repositories and private collections. Uses PROV-O/W3C PROV serialization and flags gaps, contradictions, and suspect transfers.
 
-- ⬜ **Regesta builder** _(planned)_: Produces structured summaries (regesta) of charters and diplomatic documents with parties, dispositive act, date clause, witnesses, and dating elements. Templates follow Bohmer and MGH conventions.
+- ✅ **Regesta builder** _(stub, awaits wire-up)_: Produces structured summaries (regesta) of charters and diplomatic documents with parties, dispositive act, date clause, witnesses, and dating elements. Templates follow Bohmer and MGH conventions.
 
 - ⬜ **Historical units converter** _(planned)_: Converts pre-metric weights, measures, currencies, and prices across periods and polities, with purchasing-power equivalence via wage-basket and silver-content series. Cites the underlying source table per conversion.
 
