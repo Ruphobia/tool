@@ -23,3 +23,6 @@
 /resources/wikipedia/wikipedia.zim-wal
 /resources/wikipedia/wikipedia.zim-shm
 /resources/wikipedia/wikipedia.download.json
+
+# User settings (API keys etc.) — never commit
+/settings/

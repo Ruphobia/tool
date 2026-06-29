@@ -54,6 +54,51 @@ function handleMenuAction(action) {
     case 'delete':        deleteSelected();   break;
     case 'quit':          fetch('/api/quit', {method:'POST'}); break;
     case 'clear-context': clearContext(); break;
+    case 'api-credentials': openCredsModal(); break;
+  }
+}
+
+// ---- API credentials modal -------------------------------------------
+const credsModal  = document.getElementById('creds-modal');
+const credMouser  = document.getElementById('cred-mouser');
+document.getElementById('creds-close') .addEventListener('click', () => credsModal.classList.add('hidden'));
+document.getElementById('creds-cancel').addEventListener('click', () => credsModal.classList.add('hidden'));
+document.getElementById('creds-save')  .addEventListener('click', saveCreds);
+credsModal.addEventListener('click', e => { if (e.target === credsModal) credsModal.classList.add('hidden'); });
+document.querySelectorAll('.creds-toggle').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const target = document.getElementById(btn.dataset.target);
+    target.type = (target.type === 'password') ? 'text' : 'password';
+  });
+});
+
+async function openCredsModal() {
+  try {
+    const r = await fetch('/api/settings');
+    if (r.ok) {
+      const s = await r.json();
+      credMouser.value = (s.mouser && s.mouser.api_key) || '';
+    }
+  } catch {}
+  credsModal.classList.remove('hidden');
+}
+
+async function saveCreds() {
+  const body = {
+    mouser: { api_key: credMouser.value.trim() },
+  };
+  try {
+    const r = await fetch('/api/settings', {
+      method: 'POST', headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify(body),
+    });
+    if (!r.ok) {
+      alert('save failed: ' + r.status);
+      return;
+    }
+    credsModal.classList.add('hidden');
+  } catch (err) {
+    alert('save failed: ' + err.message);
   }
 }
 
@@ -210,12 +255,54 @@ async function loadPickerPath(path) {
 function joinPath(base, name) {
   return base.endsWith('/') ? base + name : base + '/' + name;
 }
-function commitOpenFolder(path) {
+async function commitOpenFolder(path) {
+  // Dirty-aware close of all open files before switching folders.
+  const dirtyPaths = Object.entries(state.files)
+    .filter(([_, f]) => f.dirty)
+    .map(([p]) => p);
+  if (dirtyPaths.length) {
+    const list = dirtyPaths.map(p => '  • ' + p.split('/').pop()).join('\n');
+    const choice = window.prompt(
+      `Unsaved changes in ${dirtyPaths.length} file(s):\n${list}\n\n` +
+      `Type:\n  s  -> save all & switch folder\n  d  -> discard all & switch\n  c  -> cancel folder change`,
+      's'
+    );
+    if (choice === null || choice.toLowerCase().startsWith('c')) {
+      closeFolderPicker();
+      return;  // cancel
+    }
+    if (choice.toLowerCase().startsWith('s')) {
+      for (const p of dirtyPaths) {
+        const f = state.files[p];
+        if (!f) continue;
+        await saveFile(p, f.getContent());
+      }
+    }
+    // 'd' (discard) falls through, files are closed without saving below
+  }
+
+  // Close every open file (destroy editors, remove tabs).
+  for (const p of Object.keys(state.files)) {
+    const f = state.files[p];
+    if (f) {
+      try { f.destroy(); } catch {}
+      f.surface.remove();
+      f.tab.remove();
+    }
+    delete state.files[p];
+  }
+  state.activeFilePath = null;
+  // Re-show the placeholder.
+  if (!editorBody.querySelector('.editor-empty')) {
+    const empty = document.createElement('div');
+    empty.className = 'editor-empty hint';
+    empty.textContent = 'No file open.';
+    editorBody.appendChild(empty);
+  }
+
   state.rootDir = path;
   document.getElementById('files-root').textContent = path;
-  // Close every existing terminal and open a fresh one rooted at the new
-  // folder — matches the user's "should close that terminal and open a
-  // terminal in the new folder" model.
+  // Close every existing terminal and open a fresh one rooted at the new folder.
   for (const id of Object.keys(state.terminals)) closeTerminal(id);
   newTerminal();
   closeFolderPicker();
@@ -254,6 +341,15 @@ function renderEntries(into, parentPath, entries) {
       });
     } else {
       node.querySelector('.fs-name').addEventListener('click', () => openFile(node.dataset.path));
+      // Make file rows draggable so the user can drop an image onto the AI
+      // pane to trigger a vision analysis (or onto anywhere else that wires
+      // up a drop handler in the future).
+      node.draggable = true;
+      node.addEventListener('dragstart', ev => {
+        ev.dataTransfer.setData('text/x-tool-path', node.dataset.path);
+        ev.dataTransfer.setData('text/plain',       node.dataset.path);
+        ev.dataTransfer.effectAllowed = 'copy';
+      });
     }
     into.appendChild(node);
   }
@@ -281,6 +377,8 @@ const EDITOR_MODES = {
                      'py','sh','bash','zsh','rb','go','rs','java','kt',
                      'lua','pl','php','sql','yml','yaml','toml','ini','cfg',
                      'xml','svg','log','cmake','make','makefile','dockerfile']),
+  pdf:      new Set(['pdf']),
+  image:    new Set(['png','jpg','jpeg','gif','webp','ico','bmp']),
 };
 
 function detectMode(path) {
@@ -290,6 +388,8 @@ function detectMode(path) {
   if (EDITOR_MODES.markdown.has(ext)) return 'markdown';
   if (EDITOR_MODES.prose.has(ext))    return 'prose';
   if (EDITOR_MODES.code.has(ext))     return 'code';
+  if (EDITOR_MODES.pdf.has(ext))      return 'pdf';
+  if (EDITOR_MODES.image.has(ext))    return 'image';
   return 'unknown';
 }
 
@@ -328,6 +428,81 @@ async function openFile(path) {
   // show this new one, THEN construct.
   for (const ff of Object.values(state.files)) ff.surface.classList.remove('active');
   surface.classList.add('active');
+
+  // ---- Binary modes ----
+  // PDF: read-only iframe embed.
+  if (mode === 'pdf') {
+    state.files[path] = {
+      mode, savedContent: '',
+      surface, tab: null,
+      getContent: () => '',
+      destroy: () => {},
+      dirty: false,
+    };
+    const iframe = document.createElement('iframe');
+    iframe.className = 'pdf-embed';
+    iframe.src = '/api/fs/raw?path=' + encodeURIComponent(path);
+    surface.appendChild(iframe);
+    buildEditorTab(path, mode);
+    activateFile(path);
+    saveState();
+    return;
+  }
+
+  // Image: view (img tag) OR edit (canvas paint UI). Toggle via tab button.
+  if (mode === 'image') {
+    state.files[path] = {
+      mode, savedContent: '',
+      surface, tab: null,
+      getContent: () => '',
+      destroy: () => {},
+      dirty: false,
+      imgMode: 'view',
+      paint: null,     // populated when entering edit mode
+    };
+
+    const viewWrap = document.createElement('div');
+    viewWrap.className = 'image-view-wrap active';
+    const img = document.createElement('img');
+    img.className = 'image-embed';
+    img.src = '/api/fs/raw?path=' + encodeURIComponent(path) +
+              '&_t=' + Date.now();    // cache-bust so re-opens see edits
+    img.draggable = true;
+    img.addEventListener('dragstart', ev => {
+      ev.dataTransfer.setData('text/x-tool-path', path);
+      ev.dataTransfer.setData('text/plain',       path);
+      ev.dataTransfer.effectAllowed = 'copy';
+    });
+    viewWrap.appendChild(img);
+    surface.appendChild(viewWrap);
+
+    // Edit surface (canvas + paint toolbar) is lazy — only built when the
+    // user toggles to edit mode for the first time.
+    state.files[path].buildPaint = () => {
+      if (state.files[path].paint) return;
+      const paintWrap = document.createElement('div');
+      paintWrap.className = 'image-edit-wrap';
+      surface.appendChild(paintWrap);
+      const paint = buildPaintEditor(paintWrap, img, path);
+      state.files[path].paint = paint;
+    };
+
+    state.files[path].setImgMode = (m) => {
+      const f = state.files[path];
+      if (!f) return;
+      if (m === 'edit') f.buildPaint();
+      f.imgMode = m;
+      const v = f.surface.querySelector('.image-view-wrap');
+      const e = f.surface.querySelector('.image-edit-wrap');
+      if (v) v.classList.toggle('active', m === 'view');
+      if (e) e.classList.toggle('active', m === 'edit');
+    };
+
+    buildEditorTab(path, mode);
+    activateFile(path);
+    saveState();
+    return;
+  }
 
   // Register the file in state EARLY (before any editor construction) so
   // change handlers that fire during init don't NPE on state.files[path].
@@ -437,47 +612,7 @@ async function openFile(path) {
     getContent = () => j.content;
   }
 
-  // Build tab. Markdown files always get a Source/Rendered toggle.
-  const tab = document.createElement('div');
-  tab.className = 'editor-tab';
-  tab.dataset.path = path;
-  const showMdToggle = (mode === 'markdown');
-  const toggleHTML = showMdToggle
-    ? `<button class="md-toggle" title="Switch markdown source / rendered">Source</button>`
-    : '';
-  tab.innerHTML =
-    `<span class="dirty">●</span>` +
-    `<span class="label"></span>` +
-    toggleHTML +
-    `<span class="x" title="Close">×</span>`;
-  tab.querySelector('.label').textContent = path.split('/').pop();
-  tab.title = path;
-  tab.addEventListener('click', e => {
-    if (e.target.classList.contains('x'))         return;
-    if (e.target.classList.contains('md-toggle')) return;
-    activateFile(path);
-  });
-  tab.querySelector('.x').addEventListener('click', e => {
-    e.stopPropagation();
-    closeFile(path);
-  });
-  if (showMdToggle) {
-    const btn = tab.querySelector('.md-toggle');
-    btn.addEventListener('click', e => {
-      e.stopPropagation();
-      const f = state.files[path];
-      if (!f) return;
-      if (!f.changeMode) {
-        // Toast UI failed to load; we're using fallback textarea. Inform.
-        btn.textContent = '(no md engine)';
-        return;
-      }
-      const next = (f.mdMode === 'markdown') ? 'wysiwyg' : 'markdown';
-      f.changeMode(next);
-      btn.textContent = (next === 'markdown') ? 'Source' : 'Rendered';
-    });
-  }
-  editorTabs.appendChild(tab);
+  const tab = buildEditorTab(path, mode);
 
   // Finalize the state entry — overwrite the early placeholder we wrote
   // before editor construction with the real getContent / destroy + tab.
@@ -487,6 +622,300 @@ async function openFile(path) {
 
   activateFile(path);
   saveState();
+}
+
+function buildEditorTab(path, mode) {
+  const tab = document.createElement('div');
+  tab.className = 'editor-tab';
+  tab.dataset.path = path;
+  let extra = '';
+  if (mode === 'markdown') {
+    extra = `<button class="md-toggle" title="Switch markdown source / rendered">Source</button>`;
+  } else if (mode === 'image') {
+    extra =
+      `<button class="img-toggle" title="Toggle view / edit">Edit</button>` +
+      `<button class="img-describe" title="Ask the vision AI to describe this image">🧠</button>`;
+  }
+  tab.innerHTML =
+    `<span class="dirty">●</span>` +
+    `<span class="label"></span>` +
+    extra +
+    `<span class="x" title="Close">×</span>`;
+  tab.querySelector('.label').textContent = path.split('/').pop();
+  tab.title = path;
+  tab.addEventListener('click', e => {
+    if (e.target.classList.contains('x'))            return;
+    if (e.target.classList.contains('md-toggle'))    return;
+    if (e.target.classList.contains('img-toggle'))   return;
+    if (e.target.classList.contains('img-describe')) return;
+    activateFile(path);
+  });
+  tab.querySelector('.x').addEventListener('click', e => {
+    e.stopPropagation();
+    closeFile(path);
+  });
+  if (mode === 'markdown') {
+    const btn = tab.querySelector('.md-toggle');
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      const f = state.files[path];
+      if (!f) return;
+      if (!f.changeMode) {
+        btn.textContent = '(no md engine)';
+        return;
+      }
+      const next = (f.mdMode === 'markdown') ? 'wysiwyg' : 'markdown';
+      f.changeMode(next);
+      btn.textContent = (next === 'markdown') ? 'Source' : 'Rendered';
+    });
+  } else if (mode === 'image') {
+    const tbtn = tab.querySelector('.img-toggle');
+    tbtn.addEventListener('click', e => {
+      e.stopPropagation();
+      const f = state.files[path];
+      if (!f || !f.setImgMode) return;
+      const next = (f.imgMode === 'view') ? 'edit' : 'view';
+      f.setImgMode(next);
+      tbtn.textContent = (next === 'view') ? 'Edit' : 'View';
+    });
+    tab.querySelector('.img-describe').addEventListener('click', e => {
+      e.stopPropagation();
+      analyzeImage(path);
+    });
+  }
+  editorTabs.appendChild(tab);
+
+  // For binary modes the state entry needs the tab linked too.
+  if (state.files[path]) state.files[path].tab = tab;
+
+  return tab;
+}
+
+// ===== Image paint editor (MS-Paint-style) ==============================
+// Builds a canvas + toolbar inside `host`. Returns an object exposing
+// .save() and .getCanvas(). The canvas is initialized from `srcImg` once
+// the image's natural dimensions are known.
+function buildPaintEditor(host, srcImg, path) {
+  // Toolbar (color picker, brush size, tool select, save).
+  const toolbar = document.createElement('div');
+  toolbar.className = 'paint-toolbar';
+  toolbar.innerHTML =
+    `<button data-tool="brush"  class="paint-tool active" title="Brush">✎</button>` +
+    `<button data-tool="eraser" class="paint-tool"        title="Eraser">⌫</button>` +
+    `<button data-tool="line"   class="paint-tool"        title="Line">／</button>` +
+    `<button data-tool="rect"   class="paint-tool"        title="Rectangle">▭</button>` +
+    `<input  type="color" class="paint-color" value="#ff2222" title="Color">` +
+    `<input  type="range" class="paint-size"  min="1" max="60" value="4" title="Brush size">` +
+    `<span   class="paint-size-label">4px</span>` +
+    `<button class="paint-save" title="Save (Ctrl+S)">Save</button>`;
+  host.appendChild(toolbar);
+
+  // Canvas stack: base (committed pixels) + overlay (preview for shapes).
+  // The .paint-canvases wrapper sits on .paint-stack (which centers + scrolls),
+  // and the overlay is absolutely positioned over the base inside it.
+  const stack = document.createElement('div');
+  stack.className = 'paint-stack';
+  host.appendChild(stack);
+  const inner = document.createElement('div');
+  inner.className = 'paint-canvases';
+  stack.appendChild(inner);
+  const base    = document.createElement('canvas');
+  const overlay = document.createElement('canvas');
+  base.className    = 'paint-canvas base';
+  overlay.className = 'paint-canvas overlay';
+  inner.appendChild(base);
+  inner.appendChild(overlay);
+
+  const state = {
+    tool: 'brush',
+    color: '#ff2222',
+    size: 4,
+    drawing: false,
+    startX: 0, startY: 0,
+    lastX: 0,  lastY: 0,
+  };
+
+  // Resize canvases to match the natural image dimensions (or, if the image
+  // is huge, the displayed size — keep 1:1 for fidelity).
+  const initCanvases = () => {
+    const w = srcImg.naturalWidth  || srcImg.width  || 600;
+    const h = srcImg.naturalHeight || srcImg.height || 400;
+    base.width    = w; base.height    = h;
+    overlay.width = w; overlay.height = h;
+    base.getContext('2d').drawImage(srcImg, 0, 0, w, h);
+  };
+  if (srcImg.complete && srcImg.naturalWidth) initCanvases();
+  else srcImg.addEventListener('load', initCanvases, { once: true });
+
+  // Tool buttons.
+  toolbar.querySelectorAll('.paint-tool').forEach(btn => {
+    btn.addEventListener('click', () => {
+      state.tool = btn.dataset.tool;
+      toolbar.querySelectorAll('.paint-tool').forEach(b =>
+        b.classList.toggle('active', b === btn));
+    });
+  });
+  toolbar.querySelector('.paint-color').addEventListener('input', e => {
+    state.color = e.target.value;
+  });
+  const sizeInput = toolbar.querySelector('.paint-size');
+  const sizeLabel = toolbar.querySelector('.paint-size-label');
+  sizeInput.addEventListener('input', e => {
+    state.size = parseInt(e.target.value, 10);
+    sizeLabel.textContent = state.size + 'px';
+  });
+
+  // Map a pointer event to canvas-pixel coordinates (handles CSS scaling).
+  const ptFromEvent = e => {
+    const r = base.getBoundingClientRect();
+    return {
+      x: (e.clientX - r.left) * (base.width  / r.width),
+      y: (e.clientY - r.top)  * (base.height / r.height),
+    };
+  };
+
+  const bctx = base.getContext('2d');
+  const octx = overlay.getContext('2d');
+
+  const drawStroke = (ctx, x0, y0, x1, y1) => {
+    ctx.lineCap   = 'round';
+    ctx.lineJoin  = 'round';
+    ctx.strokeStyle = state.color;
+    ctx.lineWidth = state.size;
+    if (state.tool === 'eraser') {
+      ctx.globalCompositeOperation = 'destination-out';
+    } else {
+      ctx.globalCompositeOperation = 'source-over';
+    }
+    ctx.beginPath();
+    ctx.moveTo(x0, y0);
+    ctx.lineTo(x1, y1);
+    ctx.stroke();
+    ctx.globalCompositeOperation = 'source-over';
+  };
+
+  overlay.addEventListener('pointerdown', e => {
+    overlay.setPointerCapture(e.pointerId);
+    const p = ptFromEvent(e);
+    state.drawing = true;
+    state.startX = p.x; state.startY = p.y;
+    state.lastX  = p.x; state.lastY  = p.y;
+    if (state.tool === 'brush' || state.tool === 'eraser') {
+      drawStroke(bctx, p.x, p.y, p.x + 0.01, p.y + 0.01);  // dot
+    }
+  });
+  overlay.addEventListener('pointermove', e => {
+    if (!state.drawing) return;
+    const p = ptFromEvent(e);
+    if (state.tool === 'brush' || state.tool === 'eraser') {
+      drawStroke(bctx, state.lastX, state.lastY, p.x, p.y);
+      state.lastX = p.x; state.lastY = p.y;
+    } else {
+      // Preview shape on the overlay.
+      octx.clearRect(0, 0, overlay.width, overlay.height);
+      octx.strokeStyle = state.color;
+      octx.lineWidth   = state.size;
+      octx.lineCap     = 'round';
+      if (state.tool === 'line') {
+        octx.beginPath();
+        octx.moveTo(state.startX, state.startY);
+        octx.lineTo(p.x, p.y);
+        octx.stroke();
+      } else if (state.tool === 'rect') {
+        const x = Math.min(state.startX, p.x);
+        const y = Math.min(state.startY, p.y);
+        const w = Math.abs(p.x - state.startX);
+        const h = Math.abs(p.y - state.startY);
+        octx.strokeRect(x, y, w, h);
+      }
+    }
+    markImageDirty(path);
+  });
+  overlay.addEventListener('pointerup', e => {
+    if (!state.drawing) return;
+    state.drawing = false;
+    const p = ptFromEvent(e);
+    if (state.tool === 'line') {
+      drawStroke(bctx, state.startX, state.startY, p.x, p.y);
+    } else if (state.tool === 'rect') {
+      bctx.strokeStyle = state.color;
+      bctx.lineWidth   = state.size;
+      const x = Math.min(state.startX, p.x);
+      const y = Math.min(state.startY, p.y);
+      const w = Math.abs(p.x - state.startX);
+      const h = Math.abs(p.y - state.startY);
+      bctx.strokeRect(x, y, w, h);
+    }
+    octx.clearRect(0, 0, overlay.width, overlay.height);
+    markImageDirty(path);
+  });
+
+  toolbar.querySelector('.paint-save').addEventListener('click', () =>
+    saveImageFile(path));
+
+  return {
+    save: () => saveImageFile(path),
+    getCanvas: () => base,
+  };
+}
+
+function markImageDirty(path) {
+  const f = state.files[path];
+  if (!f) return;
+  setFileDirty(path, true);
+}
+
+async function saveImageFile(path) {
+  const f = state.files[path];
+  if (!f || !f.paint) return;
+  const canvas = f.paint.getCanvas();
+  // Pick a sensible mime from the file extension.
+  const ext = (path.split('.').pop() || 'png').toLowerCase();
+  const mime = (ext === 'jpg' || ext === 'jpeg') ? 'image/jpeg' :
+               (ext === 'webp') ? 'image/webp' : 'image/png';
+  const blob = await new Promise(res => canvas.toBlob(res, mime, 0.92));
+  if (!blob) { alert('save failed: blob conversion'); return; }
+  try {
+    const r = await fetch('/api/fs/write_raw?path=' + encodeURIComponent(path), {
+      method: 'POST',
+      headers: { 'Content-Type': mime },
+      body: blob,
+    });
+    if (!r.ok) {
+      const j = await r.json().catch(() => ({}));
+      alert('save failed: ' + (j.error || r.status));
+      return;
+    }
+    setFileDirty(path, false);
+    // Refresh the view <img> so it picks up the saved pixels.
+    const v = f.surface.querySelector('.image-view-wrap img');
+    if (v) v.src = '/api/fs/raw?path=' + encodeURIComponent(path) + '&_t=' + Date.now();
+  } catch (err) {
+    alert('save failed: ' + err.message);
+  }
+}
+
+// ===== Vision: send an image to the AI for description ==================
+async function analyzeImage(path, prompt) {
+  const aiEl = pushMsg('user', '[image] ' + path);
+  const resp = pushMsg('ai', 'looking at image…');
+  try {
+    const r = await fetch('/api/vision', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        path,
+        prompt: prompt || 'Describe what you see in this image. Be specific and concrete.',
+      }),
+    });
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok) {
+      resp.querySelector('.body').textContent = 'vision error: ' + (j.error || r.status);
+      return;
+    }
+    resp.querySelector('.body').textContent = j.text || '(empty response)';
+  } catch (err) {
+    resp.querySelector('.body').textContent = 'vision error: ' + err.message;
+  }
 }
 
 function activateFile(path) {
@@ -561,7 +990,11 @@ document.addEventListener('keydown', e => {
     const f = state.files[path];
     if (!f) return;
     e.preventDefault();
-    saveFile(path, f.getContent());
+    if (f.mode === 'image' && f.imgMode === 'edit') {
+      saveImageFile(path);
+    } else {
+      saveFile(path, f.getContent());
+    }
   }
 });
 
@@ -633,6 +1066,36 @@ async function deleteSelected() {
 const chatForm  = document.getElementById('chat-form');
 const chatInput = document.getElementById('chat-input');
 const chatLog   = document.getElementById('chat-log');
+
+// Drop an image from the file tree onto the AI pane to trigger vision
+// analysis. Both the log and the input field accept the drop.
+const chatPane  = document.getElementById('pane-chat');
+const IMG_EXTS  = new Set(['png','jpg','jpeg','gif','webp','bmp']);
+const isImagePath = p => {
+  const e = (p.split('.').pop() || '').toLowerCase();
+  return IMG_EXTS.has(e);
+};
+chatPane.addEventListener('dragover', e => {
+  if (e.dataTransfer.types.includes('text/x-tool-path')) {
+    e.preventDefault();
+    e.dataTransfer.dropEffect = 'copy';
+    chatPane.classList.add('drop-target');
+  }
+});
+chatPane.addEventListener('dragleave', e => {
+  if (e.target === chatPane) chatPane.classList.remove('drop-target');
+});
+chatPane.addEventListener('drop', e => {
+  chatPane.classList.remove('drop-target');
+  const path = e.dataTransfer.getData('text/x-tool-path');
+  if (!path) return;
+  e.preventDefault();
+  if (!isImagePath(path)) {
+    pushMsg('ai', 'drop an image (png/jpg/webp/…) to analyse.');
+    return;
+  }
+  analyzeImage(path);
+});
 
 chatForm.addEventListener('submit', async e => {
   e.preventDefault();

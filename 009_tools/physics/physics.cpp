@@ -68,6 +68,7 @@ Runtime * get_runtime_locked() {
     // Evict any other GPU 1 tenant.
     coder_shutdown_if_loaded();
     chemistry_shutdown_if_loaded();
+    vision_shutdown_if_loaded();
 
     if (!model_chunks::ensure(kModelRelPath)) {
         throw std::runtime_error(

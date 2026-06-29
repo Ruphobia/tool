@@ -5,6 +5,7 @@
 
 extern "C" void physics_shutdown_if_loaded();
 extern "C" void chemistry_shutdown_if_loaded();
+extern "C" void vision_shutdown_if_loaded();
 
 #include <algorithm>
 #include <cstdio>
@@ -49,6 +50,7 @@ Runtime * get_runtime_locked() {
     // Evict any other tenant of GPU 1 before we load.
     physics_shutdown_if_loaded();
     chemistry_shutdown_if_loaded();
+    vision_shutdown_if_loaded();
 
     llama_model_params mp = llama_model_default_params();
     mp.n_gpu_layers = 999;

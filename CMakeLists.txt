@@ -108,6 +108,11 @@ set(LLAMA_BUILD_COMMON   OFF CACHE BOOL "" FORCE)
 set(GGML_BUILD_TESTS     OFF CACHE BOOL "" FORCE)
 set(GGML_BUILD_EXAMPLES  OFF CACHE BOOL "" FORCE)
 
+# Standalone libmtmd build (vision / multimodal support for 009_tools/vision).
+# Skips ffmpeg-dependent video features; image-only is fine for our needs.
+set(LLAMA_BUILD_MTMD     ON  CACHE BOOL "" FORCE)
+set(MTMD_VIDEO           OFF CACHE BOOL "" FORCE)
+
 FetchContent_Declare(
     llama_cpp
     GIT_REPOSITORY https://github.com/ggml-org/llama.cpp.git
@@ -116,7 +121,10 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(llama_cpp)
 
-target_link_libraries(${PROJECT_NAME} PRIVATE llama)
+target_link_libraries(${PROJECT_NAME} PRIVATE llama mtmd)
+target_include_directories(${PROJECT_NAME} PRIVATE
+    "${llama_cpp_SOURCE_DIR}/tools/mtmd"
+)
 
 # =====================================================================
 # nlohmann/json (header-only, MIT) for 002_dictionary

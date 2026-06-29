@@ -25,6 +25,12 @@
         <button data-action="quit">Quit Server</button>
       </div>
     </div>
+    <div class="menu-item" data-menu="settings">
+      Settings
+      <div class="menu-dropdown" id="menu-settings">
+        <button data-action="api-credentials">API Credentials…</button>
+      </div>
+    </div>
   </nav>
 
   <div class="pane-toggles">
@@ -88,6 +94,30 @@
   </div>
   <div class="term-stack" id="term-stack"></div>
 </footer>
+
+<!-- API credentials modal -->
+<div id="creds-modal" class="modal-overlay hidden">
+  <div class="modal modal-tall">
+    <header class="modal-header">
+      <span>API Credentials</span>
+      <button type="button" id="creds-close" class="modal-close" title="Close">×</button>
+    </header>
+    <div class="modal-body" id="creds-body">
+      <p class="hint" style="padding: 0 12px;">Stored locally in <code>settings/credentials.json</code> (gitignored). Used by component-lookup and other API tools.</p>
+      <div class="creds-row">
+        <label>Mouser API Key
+          <span class="creds-hint">Get one free at <a href="https://www.mouser.com/api-hub/" target="_blank">mouser.com/api-hub</a></span>
+        </label>
+        <input id="cred-mouser" type="password" autocomplete="off" placeholder="paste your Mouser key…">
+        <button type="button" class="creds-toggle" data-target="cred-mouser" title="Show/hide">👁</button>
+      </div>
+    </div>
+    <footer class="modal-footer">
+      <button type="button" id="creds-cancel">Cancel</button>
+      <button type="button" id="creds-save">Save</button>
+    </footer>
+  </div>
+</div>
 
 <!-- Folder picker modal -->
 <div id="folder-picker" class="modal-overlay hidden">

@@ -180,6 +180,81 @@ body {
   font: 12px/1.45 "Cascadia Mono", monospace;
   white-space: pre-wrap;
 }
+.pdf-embed {
+  width: 100%; height: 100%;
+  border: none; background: #525659;
+}
+.image-embed {
+  width: 100%; height: 100%;
+  object-fit: contain; background: #000;
+}
+/* Image surface stacks two layers: view <img> and edit canvas. Only one
+   has the .active class at a time. */
+.image-view-wrap, .image-edit-wrap {
+  position: absolute; inset: 0;
+  display: none;
+}
+.image-view-wrap.active, .image-edit-wrap.active {
+  display: block;
+}
+.image-edit-wrap {
+  display: none;
+  flex-direction: column;
+  background: var(--bg2);
+}
+.image-edit-wrap.active { display: flex; }
+.paint-toolbar {
+  display: flex; align-items: center; gap: 6px;
+  padding: 6px 8px;
+  background: var(--bg3);
+  border-bottom: 1px solid var(--border);
+  flex: 0 0 auto;
+}
+.paint-toolbar .paint-tool {
+  font-size: 14px; line-height: 1;
+  padding: 3px 8px; cursor: pointer;
+  background: var(--bg); color: var(--fg);
+  border: 1px solid var(--border); border-radius: 3px;
+}
+.paint-toolbar .paint-tool.active {
+  background: var(--accent); color: #fff; border-color: var(--accent);
+}
+.paint-toolbar .paint-color {
+  width: 28px; height: 24px; padding: 0; border: 1px solid var(--border);
+  background: transparent; cursor: pointer;
+}
+.paint-toolbar .paint-size { width: 110px; }
+.paint-toolbar .paint-size-label {
+  font: 11px monospace; color: var(--fg-dim); min-width: 36px;
+}
+.paint-toolbar .paint-save {
+  margin-left: auto;
+  background: var(--accent); color: #fff;
+  border: 1px solid var(--accent); border-radius: 3px;
+  font: inherit; font-weight: 600; font-size: 12px;
+  padding: 3px 12px; cursor: pointer;
+}
+.paint-toolbar .paint-save:hover { background: var(--accent2); }
+.paint-stack {
+  flex: 1 1 auto;
+  min-height: 0;
+  background: repeating-conic-gradient(#444 0 25%, #555 0 50%) 0/16px 16px;
+  overflow: auto;
+  display: flex;
+  align-items: center; justify-content: center;
+  padding: 12px;
+}
+.paint-canvases {
+  position: relative;
+  background: #fff;
+  box-shadow: 0 0 0 1px var(--border), 0 8px 24px rgba(0,0,0,0.4);
+  flex: 0 0 auto;
+}
+.paint-canvas {
+  display: block;
+}
+.paint-canvas.base    { position: relative; }
+.paint-canvas.overlay { position: absolute; top: 0; left: 0; }
 /* Toast UI Editor host: fills its surface */
 .md-editor-host {
   width: 100%; height: 100%;
@@ -250,7 +325,23 @@ body {
   white-space: nowrap;
 }
 .editor-tab .md-toggle:hover { background: var(--accent2); border-color: var(--accent2); }
-.editor-tab { max-width: 320px; }   /* room for label + toggle + close */
+.editor-tab .img-toggle {
+  background: var(--accent); border: 1px solid var(--accent);
+  color: #fff; font: inherit; font-size: 11px; font-weight: 600;
+  padding: 1px 8px; cursor: pointer; border-radius: 3px;
+  white-space: nowrap;
+}
+.editor-tab .img-toggle:hover { background: var(--accent2); border-color: var(--accent2); }
+.editor-tab .img-describe {
+  background: transparent; border: 1px solid var(--border);
+  color: var(--fg-dim); font: inherit; font-size: 11px;
+  padding: 1px 6px; cursor: pointer; border-radius: 3px;
+}
+.editor-tab .img-describe:hover { color: var(--fg); border-color: var(--accent); }
+.editor-tab { max-width: 380px; }   /* room for label + toggles + close */
+
+/* Drop target highlight (file dragged from tree onto AI pane). */
+#pane-chat.drop-target { outline: 2px dashed var(--accent); outline-offset: -6px; }
 
 /* ----- resizers ----- */
 .resizer {
@@ -499,3 +590,31 @@ body {
 }
 .modal-footer button:hover { background: var(--accent); color: #fff; }
 .modal-footer button#picker-open { background: var(--accent); color: #fff; }
+.modal-footer button#creds-save  { background: var(--accent); color: #fff; }
+
+.modal-tall { height: 420px; }
+.modal-body { flex: 1; overflow: auto; padding: 12px; }
+.creds-row {
+  display: grid; grid-template-columns: 1fr auto;
+  align-items: center; gap: 6px;
+  padding: 10px 0; border-bottom: 1px solid var(--border);
+}
+.creds-row label {
+  grid-column: 1 / -1;
+  display: block;
+  font-weight: 600; margin-bottom: 4px;
+}
+.creds-row .creds-hint {
+  display: block; font-weight: 400; color: var(--fg-dim); font-size: 11px;
+}
+.creds-row .creds-hint a { color: var(--accent2); }
+.creds-row input {
+  background: var(--bg); color: var(--fg);
+  border: 1px solid var(--border); padding: 6px 8px;
+  font: 12px/1.4 "Cascadia Mono", monospace;
+}
+.creds-row .creds-toggle {
+  background: var(--bg3); border: 1px solid var(--border);
+  color: var(--fg); cursor: pointer; padding: 4px 8px;
+}
+.creds-row .creds-toggle:hover { background: var(--accent); }

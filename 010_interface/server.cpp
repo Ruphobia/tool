@@ -18,6 +18,7 @@
 #include "../009_tools/shell/shell.hpp"
 #include "../009_tools/physics/physics.hpp"
 #include "../009_tools/chemistry/chemistry.hpp"
+#include "../009_tools/vision/vision.hpp"
 
 #include <nlohmann/json.hpp>
 
@@ -159,6 +160,42 @@ void handle_fs_list(const httplib::Request & req, httplib::Response & res) {
     res.set_content(out.dump(), "application/json");
 }
 
+// GET /api/fs/raw?path=...  — stream the file as its native bytes with
+// a sniffed MIME type. Used by the editor pane to embed binary files
+// (PDFs, images) directly via iframe / <img> instead of reading them
+// through the JSON /api/fs/read path.
+void handle_fs_raw(const httplib::Request & req, httplib::Response & res) {
+    const std::string path = expand_home(req.get_param_value("path"));
+    std::error_code ec;
+    if (!fs::is_regular_file(path, ec)) {
+        res.status = 404;
+        res.set_content("not a file", "text/plain");
+        return;
+    }
+    std::ifstream f(path, std::ios::binary);
+    std::stringstream ss; ss << f.rdbuf();
+    std::string body = ss.str();
+    // Sniff MIME from extension.
+    std::string mime = "application/octet-stream";
+    auto dot = path.find_last_of('.');
+    if (dot != std::string::npos) {
+        std::string ext = path.substr(dot + 1);
+        for (char & c : ext) c = static_cast<char>(std::tolower((unsigned char)c));
+        if      (ext == "pdf")  mime = "application/pdf";
+        else if (ext == "png")  mime = "image/png";
+        else if (ext == "jpg" || ext == "jpeg") mime = "image/jpeg";
+        else if (ext == "gif")  mime = "image/gif";
+        else if (ext == "svg")  mime = "image/svg+xml";
+        else if (ext == "webp") mime = "image/webp";
+        else if (ext == "ico")  mime = "image/x-icon";
+        else if (ext == "mp3")  mime = "audio/mpeg";
+        else if (ext == "wav")  mime = "audio/wav";
+        else if (ext == "mp4")  mime = "video/mp4";
+        else if (ext == "txt" || ext == "md") mime = "text/plain; charset=utf-8";
+    }
+    res.set_content(body, mime);
+}
+
 void handle_fs_read(const httplib::Request & req, httplib::Response & res) {
     std::string path = expand_home(req.get_param_value("path"));
     std::error_code ec;
@@ -177,7 +214,11 @@ void handle_fs_read(const httplib::Request & req, httplib::Response & res) {
     json out;
     out["path"]    = path;
     out["content"] = ss.str();
-    res.set_content(out.dump(), "application/json");
+    // Use replace error-handler so binary content (e.g. someone clicking a
+    // PDF expecting text) returns a lossy JSON instead of throwing 500.
+    res.set_content(out.dump(-1, ' ', /*ensure_ascii=*/false,
+                             nlohmann::json::error_handler_t::replace),
+                    "application/json");
 }
 
 void handle_fs_mkdir(const httplib::Request & req, httplib::Response & res) {
@@ -214,6 +255,26 @@ void handle_fs_write(const httplib::Request & req, httplib::Response & res) {
     }
     const std::string c = body["content"].get<std::string>();
     f.write(c.data(), c.size());
+    res.set_content(R"({"ok":true})", "application/json");
+}
+
+// POST /api/fs/write_raw?path=...   body = raw bytes (any Content-Type)
+// Used by the image editor to overwrite an image file with the canvas
+// contents (PNG, etc.) without base64 framing.
+void handle_fs_write_raw(const httplib::Request & req, httplib::Response & res) {
+    std::string path = expand_home(req.get_param_value("path"));
+    if (path.empty()) {
+        res.status = 400;
+        res.set_content(R"({"error":"missing path"})", "application/json");
+        return;
+    }
+    std::ofstream f(path, std::ios::binary | std::ios::trunc);
+    if (!f) {
+        res.status = 500;
+        res.set_content(R"({"error":"open failed"})", "application/json");
+        return;
+    }
+    f.write(req.body.data(), static_cast<std::streamsize>(req.body.size()));
     res.set_content(R"({"ok":true})", "application/json");
 }
 
@@ -431,13 +492,23 @@ void handle_chat(const httplib::Request & req, httplib::Response & res) {
                     const bool is_chem    = field_lc.find("chem") != std::string::npos;
                     const bool is_physics = !is_chem &&
                         field_lc.find("physics") != std::string::npos;
-                    const char * which = is_chem ? "chemistry"
-                                       : is_physics ? "physics"
+                    // Electronics / electrical / embedded → Qwen3-14B (the
+                    // same model physics uses). Same broad academic
+                    // reasoning + good EE coverage in training data.
+                    const bool is_electronics = !is_chem && !is_physics && (
+                        field_lc.find("electronic") != std::string::npos ||
+                        field_lc.find("electrical") != std::string::npos ||
+                        field_lc.find("embedded")   != std::string::npos ||
+                        field_lc.find("circuit")    != std::string::npos);
+                    const char * which = is_chem        ? "chemistry"
+                                       : is_physics     ? "physics"
+                                       : is_electronics ? "electronics"
                                        : "answer";
                     std::string a;
-                    if      (is_chem)    a = chemistry::answer(final_text);
-                    else if (is_physics) a = physics::answer  (final_text);
-                    else                 a = answer::respond  (final_text);
+                    if      (is_chem)        a = chemistry::answer(final_text);
+                    else if (is_physics)     a = physics::answer  (final_text);
+                    else if (is_electronics) a = physics::answer  (final_text);
+                    else                     a = answer::respond  (final_text);
                     context::append("answer", "response", a, which);
                     handler["kind"]   = std::string(which) + "_answer";
                     handler["answer"] = a;
@@ -494,14 +565,70 @@ void run(const std::string & host, int port) {
     srv.Get ("/api/status",        handle_status);
     srv.Get ("/api/fs/list",       handle_fs_list);
     srv.Get ("/api/fs/read",       handle_fs_read);
+    srv.Get ("/api/fs/raw",        handle_fs_raw);
     srv.Post("/api/fs/mkdir",      handle_fs_mkdir);
     srv.Post("/api/fs/write",      handle_fs_write);
+    srv.Post("/api/fs/write_raw",  handle_fs_write_raw);
     srv.Delete("/api/fs/delete",   handle_fs_delete);
+
+    // POST /api/vision  {path: "...", prompt: "..."}  -> {text: "..."}
+    // Loads the Qwen3-VL model on demand (evicts coder/physics/chemistry on
+    // GPU 1), runs the image + prompt through it, returns the description.
+    srv.Post("/api/vision", [](const httplib::Request & req, httplib::Response & res) {
+        json body = json::parse(req.body, nullptr, false);
+        if (!body.is_object() || !body.contains("path")) {
+            res.status = 400;
+            res.set_content(R"({"error":"missing path"})", "application/json");
+            return;
+        }
+        const std::string p   = expand_home(body["path"].get<std::string>());
+        const std::string pr  = body.value("prompt",
+                                           std::string("Describe what is shown in this image."));
+        try {
+            std::string out = vision::describe(p, pr);
+            json j{{"text", out}};
+            res.set_content(j.dump(), "application/json");
+        } catch (const std::exception & e) {
+            res.status = 500;
+            json j{{"error", e.what()}};
+            res.set_content(j.dump(), "application/json");
+        }
+    });
     srv.Post("/api/terminal/exec", handle_terminal_exec);
     srv.Post("/api/chat",          handle_chat);
     srv.Post("/api/context/clear", [](const httplib::Request &, httplib::Response & r) {
         context::new_session();
         r.set_content(R"({"ok":true})", "application/json");
+    });
+
+    // GET  /api/settings -> returns stored API credentials JSON (or {} if none).
+    // POST /api/settings -> overwrites settings/credentials.json with the
+    //                       JSON body. Used by component-lookup and future
+    //                       API-driven tools (Mouser, Digi-Key, etc.).
+    srv.Get("/api/settings", [](const httplib::Request &, httplib::Response & res) {
+        const std::string path = "settings/credentials.json";
+        if (!fs::is_regular_file(path)) {
+            res.set_content("{}", "application/json");
+            return;
+        }
+        std::ifstream f(path);
+        std::stringstream ss; ss << f.rdbuf();
+        std::string body = ss.str();
+        if (body.empty()) body = "{}";
+        res.set_content(body, "application/json");
+    });
+    srv.Post("/api/settings", [](const httplib::Request & req, httplib::Response & res) {
+        // Validate it's parseable JSON before writing.
+        auto j = json::parse(req.body, nullptr, false);
+        if (j.is_discarded()) {
+            res.status = 400;
+            res.set_content(R"({"error":"invalid JSON"})", "application/json");
+            return;
+        }
+        fs::create_directories("settings");
+        std::ofstream f("settings/credentials.json", std::ios::trunc);
+        f << j.dump(2);
+        res.set_content(R"({"ok":true})", "application/json");
     });
     srv.Post("/api/quit", [](const httplib::Request &, httplib::Response & r) {
         r.set_content(R"({"ok":true})", "application/json");
