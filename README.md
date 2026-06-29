@@ -3167,7 +3167,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Reaction time task runner** _(stub, awaits wire-up)_: Presents stimuli and records keypress, mouse, and touch responses with sub-millisecond timestamping and frame-locked onsets. Supports Stroop, flanker, go/no-go, n-back, and IAT templates with custom block scripts.
 
-- ⬜ **Inter-rater reliability calculator** _(planned)_: Computes Cohen's and Fleiss' kappa, Krippendorff's alpha, ICC variants, and percent agreement from coder x item matrices. Highlights disagreement cells for adjudication and recoder calibration.
+- ✅ **Inter-rater reliability calculator** _(stub, awaits wire-up)_: Computes Cohen's and Fleiss' kappa, Krippendorff's alpha, ICC variants, and percent agreement from coder x item matrices. Highlights disagreement cells for adjudication and recoder calibration.
 
 - ⬜ **Psychometric scale validator** _(planned)_: Runs reliability (Cronbach's alpha, McDonald's omega), item-total correlations, and exploratory and confirmatory factor analysis with fit indices. Generates a scale report with item-drop simulations and loading plots.
 
