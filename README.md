@@ -3216,7 +3216,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Policy citation manager** _(stub, awaits wire-up)_: Stores statutes, regulations, court cases, agency reports, and academic articles with Bluebook, APA, and Chicago formatting, deduplicates via DOI/SSRN/CourtListener IDs, and exports BibTeX and CSL-JSON for use in manuscripts.
 
-- ⬜ **Document text analyzer** _(planned)_: Ingests legislative text, hearing transcripts, agency comments, and news corpora, fits LDA and BERTopic topic models, runs dictionary methods (LIWC-style, MFD), and computes readability (Flesch-Kincaid) and policy-area classifiers with AI-integrated few-shot labeling against a Comparative Agendas Project codebook.
+- ✅ **Document text analyzer** _(stub, awaits wire-up)_: Ingests legislative text, hearing transcripts, agency comments, and news corpora, fits LDA and BERTopic topic models, runs dictionary methods (LIWC-style, MFD), and computes readability (Flesch-Kincaid) and policy-area classifiers with AI-integrated few-shot labeling against a Comparative Agendas Project codebook.
 
 - ⬜ **Inequality and segregation metrics** _(planned)_: Computes Gini, Theil T/L, Atkinson, and 90/10 ratios for income/wealth distributions, plus dissimilarity, isolation, exposure, and Moran's I for residential segregation, with decomposition by group and geography.
 
