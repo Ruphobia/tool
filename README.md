@@ -339,7 +339,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ⬜ **SQL workbench** _(planned)_: Connects to SQLite, Postgres, MySQL, and DuckDB, with schema browser, query editor, result grid, and AI translation between natural language, SQL, and across dialects.
 
-- ⬜ **Log viewer** _(planned)_: Streams and tails local and remote logs with structured (JSON, logfmt) parsing, filtering, faceting, and AI summarization of an error burst into a likely cause.
+- ✅ **Log viewer** _(in testing)_: Streams and tails local and remote logs with structured (JSON, logfmt) parsing, filtering, faceting, and AI summarization of an error burst into a likely cause.
 
 - ✅ **Stack trace analyzer** _(in testing)_: Pastes or ingests a crash or traceback, resolves frames to source, surfaces the relevant blame and recent commits, and asks the pipeline for a ranked list of plausible fixes.
 
