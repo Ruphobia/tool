@@ -2859,7 +2859,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Battery Chemistry Comparator** _(stub, awaits wire-up)_: Side-by-side comparison of energy density, cycle life vs DoD, calendar aging, temperature derating, C-rate limits, and $/kWh-cycle across chemistries. Highlights the break-even crossover for a given duty cycle.
 
-- ⬜ **Charge Controller Selector** _(planned)_: Picks PWM vs MPPT controllers and sizes them against array Isc, Voc-cold, and battery bus voltage with the required safety margins. Flags when paralleling controllers or moving to a higher bus voltage beats a single oversize unit.
+- ✅ **Charge Controller Selector** _(stub, awaits wire-up)_: Picks PWM vs MPPT controllers and sizes them against array Isc, Voc-cold, and battery bus voltage with the required safety margins. Flags when paralleling controllers or moving to a higher bus voltage beats a single oversize unit.
 
 - ⬜ **Off-Grid System Sizer** _(planned)_: End-to-end sizing of array, battery, controller, and inverter against a load profile and worst-month solar resource, including loss-of-load probability. AI-integrated suggestion of a starting topology from constraints (budget, autonomy, climate).
 
