@@ -4633,7 +4633,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **MOB and SAR pattern generator** _(stub, awaits wire-up)_: Drops a MOB datum, computes Williamson, Anderson, and Scharnow turn solutions for the current speed and rudder rate, and generates expanding-square, sector, and parallel-track search patterns sized from leeway and elapsed-time uncertainty. Outputs waypoints ready to push to the autopilot.
 
-- ⬜ **Fuel, range, and provisioning calculator** _(planned)_: Computes range and endurance from tank capacity, engine fuel curve, hotel load, and current/wind drag, with a reserve policy. Sizes water, food, gas, and battery provisioning per crew per day and warns when a planned passage exceeds any single resource.
+- ✅ **Fuel, range, and provisioning calculator** _(stub, awaits wire-up)_: Computes range and endurance from tank capacity, engine fuel curve, hotel load, and current/wind drag, with a reserve policy. Sizes water, food, gas, and battery provisioning per crew per day and warns when a planned passage exceeds any single resource.
 
 - ⬜ **Engine and systems maintenance log** _(planned)_: Tracks engine hours, impeller, oil, filter, anode, and rig service intervals against manufacturer schedules, and records observed RPM, EGT, oil pressure, and alternator output curves. AI-flags drift in those curves that precedes a known failure mode.
 
