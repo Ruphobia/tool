@@ -4145,7 +4145,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Hallmark and Purity Decoder** _(stub, awaits wire-up)_: Reference for silver, gold, platinum, and pewter hallmarks across jurisdictions (Britannia, Sheffield assay, French poincon, Russian zolotnik, US sterling). Decodes maker, assay office, date letter, and fineness from struck marks.
 
-- ⬜ **Auction Price Comparator** _(planned)_: Aggregates realized prices from Heritage, Stack's Bowers, Spink, Kunker, Cherrystone, and other house archives, normalized by grade and population. Plots price-by-grade curves and flags outlier results worth investigating.
+- ✅ **Auction Price Comparator** _(stub, awaits wire-up)_: Aggregates realized prices from Heritage, Stack's Bowers, Spink, Kunker, Cherrystone, and other house archives, normalized by grade and population. Plots price-by-grade curves and flags outlier results worth investigating.
 
 - ⬜ **Population and Census Tracker** _(planned)_: Local snapshot of PCGS, NGC, CAC, PSE, and PMG population reports per issue and grade. Computes rarity ratios, condition census standings, and registry-set scoring against user holdings.
 
