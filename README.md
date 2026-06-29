@@ -936,7 +936,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Certificate Inspector** _(stub, awaits wire-up)_: Parses X.509 certs, CSRs, CRLs, and full chains, validating signatures, hostname matching, key usage, SAN entries, and CT log inclusion. Renders the trust path against system and custom root stores and flags policy violations.
 
-- ⬜ **TLS Probe** _(planned)_: Connects to a host, enumerates offered ciphersuites, ALPN, OCSP stapling, session resumption, and post-quantum hybrid support. Highlights deprecated suites, weak DH parameters, and certificate transparency gaps.
+- ✅ **TLS Probe** _(stub, awaits wire-up)_: Connects to a host, enumerates offered ciphersuites, ALPN, OCSP stapling, session resumption, and post-quantum hybrid support. Highlights deprecated suites, weak DH parameters, and certificate transparency gaps.
 
 - ⬜ **PGP/GPG Console** _(planned)_: Imports keyrings, signs, encrypts, decrypts, and verifies armored or binary OpenPGP messages. Visualizes web-of-trust signatures, subkey relationships, and revocation status without shelling out to gpg.
 
