@@ -2451,7 +2451,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Drilling hydraulics and torque/drag** _(stub, awaits wire-up)_: Bingham, power-law, and Herschel-Bulkley rheology for ECD, swab/surge, and bit pressure drop; soft-string torque-drag along the wellbore trajectory.
 
-- ⬜ **Material balance solver** _(planned)_: Havlena-Odeh straight-line plots and tank models for solution-gas, gas-cap, and water-drive reservoirs; estimates OOIP/OGIP and aquifer strength.
+- ✅ **Material balance solver** _(stub, awaits wire-up)_: Havlena-Odeh straight-line plots and tank models for solution-gas, gas-cap, and water-drive reservoirs; estimates OOIP/OGIP and aquifer strength.
 
 - ⬜ **Geosteering and stratigraphy viewer** _(planned)_: Cross-section builder with LWD curves, dip picks, and lateral-vs-pilot correlation; AI-assisted marker matching against a type log.
 
