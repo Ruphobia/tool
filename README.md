@@ -895,7 +895,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **YARA Rule Builder** _(stub, awaits wire-up)_: Authors, tests, and tunes YARA rules against sample corpora with auto-generated atom suggestions and false-positive scoring. AI-integrated drafting of starter rules from a labeled sample plus negative set.
 
-- ⬜ **Disassembler/Decompiler Viewer** _(planned)_: Loads PE, ELF, Mach-O, and raw binaries with graph and linear views, symbol resolution, and decompiled C output via Ghidra/Radare backends. Pivots between cross-references, strings, and import tables.
+- ✅ **Disassembler/Decompiler Viewer** _(stub, awaits wire-up)_: Loads PE, ELF, Mach-O, and raw binaries with graph and linear views, symbol resolution, and decompiled C output via Ghidra/Radare backends. Pivots between cross-references, strings, and import tables.
 
 - ⬜ **Entropy Mapper** _(planned)_: Plots byte entropy across files and disk regions to surface packed, encrypted, or compressed sections. Overlays section boundaries, signature hits, and suspected key material for triage.
 
