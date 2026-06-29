@@ -4231,7 +4231,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Script Breakdown Grid** _(stub, awaits wire-up)_: Parses the script into French scenes and produces a character/scene presence grid with tagged props, costumes, sound effects, and lighting moments. AI-integrated parsing extracts entrances, exits, and implicit cues from the dramatic text.
 
-- ⬜ **Rehearsal Scheduler** _(planned)_: Solves rehearsal calls against actor availability, French-scene presence, room and director conflicts, and Equity break rules. Emits daily call sheets and conflict reports.
+- ✅ **Rehearsal Scheduler** _(stub, awaits wire-up)_: Solves rehearsal calls against actor availability, French-scene presence, room and director conflicts, and Equity break rules. Emits daily call sheets and conflict reports.
 
 - ⬜ **Costume and Wig Tracker** _(planned)_: Builds the change plot per actor per scene, flags quick changes shorter than the available stage time, and tracks fittings, dressers assigned, laundry runs, and wig dressing appointments.
 
