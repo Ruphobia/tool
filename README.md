@@ -513,7 +513,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Firmware and embedded
 
-- ⬜ **MCU target picker** _(planned)_: Catalog of microcontrollers and SoCs with filtering by core, flash, RAM, peripherals, package, and supply state. AI-integrated narrowing from a plain-text requirement list (e.g. 'BLE, low power, 2x I2S, 256KB flash') to a shortlist with tradeoff notes.
+- ✅ **MCU target picker** _(stub, awaits wire-up)_: Catalog of microcontrollers and SoCs with filtering by core, flash, RAM, peripherals, package, and supply state. AI-integrated narrowing from a plain-text requirement list (e.g. 'BLE, low power, 2x I2S, 256KB flash') to a shortlist with tradeoff notes.
 
 - ⬜ **Pinmux planner** _(planned)_: Visual pin assignment editor for a chosen MCU package that enforces alternate-function constraints, peripheral conflicts, and electrical class rules. Generates initialization code and a pinout PDF; AI proposes assignments from a peripheral wishlist.
 
