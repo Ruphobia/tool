@@ -3507,7 +3507,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Geologic Time Scale** _(stub, awaits wire-up)_: Interactive ICS chronostratigraphic chart with zoomable eons, eras, periods, epochs, and ages, plus GSSP markers and major bio/geo events. Click any unit to get duration, key fossils, climate state, and references.
 
-- ⬜ **Seismic Trace Viewer** _(planned)_: Reads SEG-Y, miniSEED, and SAC files and renders waveforms, wiggle traces, or variable-density displays with bandpass/notch filtering, picking, and FFT spectra. Supports event windowing, STA/LTA detection, and arrival-time picking with first-motion polarity.
+- ✅ **Seismic Trace Viewer** _(stub, awaits wire-up)_: Reads SEG-Y, miniSEED, and SAC files and renders waveforms, wiggle traces, or variable-density displays with bandpass/notch filtering, picking, and FFT spectra. Supports event windowing, STA/LTA detection, and arrival-time picking with first-motion polarity.
 
 - ⬜ **Watershed Analyzer** _(planned)_: Performs pit filling, D8/D-infinity flow direction, flow accumulation, stream network extraction, and basin delineation from a DEM. Computes runoff curves (SCS-CN) and time-of-concentration for a user-placed pour point.
 
