@@ -1282,7 +1282,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Refinance break-even analyzer** _(stub, awaits wire-up)_: Calculates the months-to-recover on a refinance by comparing new payment, closing costs, and remaining term against the existing loan, including cash-out and rate-and-term variants.
 
-- ⬜ **Cap stack and waterfall modeler** _(planned)_: Stacks senior debt, mezz, preferred equity, and common equity, then runs a distribution waterfall with hurdles, IRR lookbacks, catch-ups, and promote splits for GP/LP returns.
+- ✅ **Cap stack and waterfall modeler** _(stub, awaits wire-up)_: Stacks senior debt, mezz, preferred equity, and common equity, then runs a distribution waterfall with hurdles, IRR lookbacks, catch-ups, and promote splits for GP/LP returns.
 
 - ⬜ **Mortality table browser** _(planned)_: Loads standard tables (SOA 2017 CSO, Annuity 2012, US Life Tables, AM92) and queries qx, px, lx, dx, ex, and select-and-ultimate cells with table-vs-table comparison plots.
 
