@@ -3081,7 +3081,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Alignment viewer** _(stub, awaits wire-up)_: Runs MUSCLE, MAFFT, or Clustal alignments, renders conservation and consensus tracks, and builds neighbor-joining or maximum-likelihood phylogenies from the result.
 
-- ⬜ **Read aligner and variant caller** _(planned)_: Wraps BWA-MEM, minimap2, bcftools, and DeepVariant for short- and long-read alignment and SNV/indel calling, with BAM and VCF inspection plus depth and coverage QC.
+- ✅ **Read aligner and variant caller** _(stub, awaits wire-up)_: Wraps BWA-MEM, minimap2, bcftools, and DeepVariant for short- and long-read alignment and SNV/indel calling, with BAM and VCF inspection plus depth and coverage QC.
 
 - ⬜ **Single-cell expression viewer** _(planned)_: Loads h5ad and loom matrices, computes Scanpy-style PCA, UMAP, and Leiden clustering, and supports marker-gene browsing and cluster annotation against reference atlases.
 
