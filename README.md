@@ -319,7 +319,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Linter and formatter** _(in testing)_: Aggregator for ruff, eslint, clippy, shellcheck, gofmt, prettier, and friends, with per-project config, autofix on save, and AI rationale for any rule that is otherwise opaque.
 
-- ⬜ **Static analyzer** _(planned)_: Cross-language semantic analysis for dead code, unsafe patterns, taint flow, and complexity hotspots, with AI triage of findings into real issues versus noise.
+- ✅ **Static analyzer** _(stub, awaits wire-up)_: Cross-language semantic analysis for dead code, unsafe patterns, taint flow, and complexity hotspots, with AI triage of findings into real issues versus noise.
 
 - ⬜ **Dependency manager** _(planned)_: Unified view of declared and resolved dependencies across package ecosystems, with version pinning, vuln advisories, license badges, and AI-suggested upgrade paths that flag breaking changes.
 
