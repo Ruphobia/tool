@@ -1615,7 +1615,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Historical gazetteer** _(stub, awaits wire-up)_: Resolves place names across periods against Pleiades, GeoNames, World Historical Gazetteer, and Wikidata. Handles renamings, boundary shifts, and ambiguous toponyms; emits stable Linked Places URIs.
 
-- ⬜ **Map georectifier** _(planned)_: Warps historical maps onto a modern basemap using control points, in the MapWarper/Allmaps tradition. Produces tile sources for overlay and exports GCPs plus a transformation matrix for reproducibility.
+- ✅ **Map georectifier** _(stub, awaits wire-up)_: Warps historical maps onto a modern basemap using control points, in the MapWarper/Allmaps tradition. Produces tile sources for overlay and exports GCPs plus a transformation matrix for reproducibility.
 
 - ⬜ **Authority record reconciler** _(planned)_: Links extracted entities to VIAF, LCNAF, GND, ULAN, and Wikidata QIDs with batch reconciliation, candidate scoring, and AI-integrated disambiguation from surrounding context.
 
