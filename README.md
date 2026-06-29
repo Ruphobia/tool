@@ -3663,7 +3663,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Prompt library** _(stub, awaits wire-up)_: Versioned prompt and negative-prompt snippets with tags, sample grids, and seed history. Integrates with the interpretation pipeline so prompts can be replayed or remixed.
 
-- ⬜ **XYZ plot and grid** _(planned)_: Parameter-sweep renderer that varies prompts, seeds, CFG, samplers, and LoRA weights to produce comparison grids. Annotates each cell with its parameters.
+- ✅ **XYZ plot and grid** _(stub, awaits wire-up)_: Parameter-sweep renderer that varies prompts, seeds, CFG, samplers, and LoRA weights to produce comparison grids. Annotates each cell with its parameters.
 
 - ⬜ **Style transfer** _(planned)_: Reference-style restyling via IP-Adapter, InstantStyle, StyleAlign, and neural style transfer with content/style weight controls. Supports both image and video inputs.
 
