@@ -766,7 +766,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sprite Atlas Packer** _(stub, awaits wire-up)_: Multi-bin texture packer with rotation, trim, padding, POT/NPOT modes, and stable IDs across rebuilds for diff-friendly atlases. Generates engine-specific metadata (Unity, Godot, LOVE, raw JSON).
 
-- ⬜ **Palette Workshop** _(planned)_: Color ramp and indexed palette designer with LCh-aware interpolation, dithering preview, palette extraction from reference images, and palette-swap testing across all sprites at once.
+- ✅ **Palette Workshop** _(stub, awaits wire-up)_: Color ramp and indexed palette designer with LCh-aware interpolation, dithering preview, palette extraction from reference images, and palette-swap testing across all sprites at once.
 
 - ⬜ **Save Format Editor** _(planned)_: Structured editor for save files with schema inference, hex/text dual view, checksum repair, and field-level diffing between saves. Useful for testing migrations, debugging corruption, and authoring fixture saves.
 
