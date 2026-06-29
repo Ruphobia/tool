@@ -3519,7 +3519,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **CIPW Norm Calculator** _(stub, awaits wire-up)_: Computes the CIPW normative mineralogy of an igneous rock from a major-element whole-rock analysis, with iron oxidation handled by user ratio or empirical adjustment. Reports normative percentages and a derived rock classification.
 
-- ⬜ **Earthquake Feed** _(planned)_: Queries USGS, EMSC, and IRIS catalogs for events filtered by magnitude, depth, time window, and polygon. Plots epicenters on the map with focal-mechanism beachballs and links to per-event waveform pulls.
+- ✅ **Earthquake Feed** _(stub, awaits wire-up)_: Queries USGS, EMSC, and IRIS catalogs for events filtered by magnitude, depth, time window, and polygon. Plots epicenters on the map with focal-mechanism beachballs and links to per-event waveform pulls.
 
 - ⬜ **Viewshed and Line-of-Sight** _(planned)_: Computes single-observer and cumulative viewsheds across a DEM, accounting for observer height, target height, earth curvature, and atmospheric refraction. Includes a point-to-point LOS profile with obstruction highlighting.
 
