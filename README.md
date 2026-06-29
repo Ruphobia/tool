@@ -3267,7 +3267,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Storm chase nowcaster** _(stub, awaits wire-up)_: Combines latest HRRR, RAP mesoanalysis, MRMS, and GOES bands into a single map; AI-integrated highlighting of likely supercell, MCS, or QLCS modes from radar morphology and environmental shear/CAPE fields.
 
-- ⬜ **Wind rose & climatology builder** _(planned)_: Builds wind roses, joint speed-direction distributions, diurnal and seasonal climatologies, and return-period estimates (GEV/GPD) from station or reanalysis records; exports for siting and renewable-energy studies.
+- ✅ **Wind rose & climatology builder** _(stub, awaits wire-up)_: Builds wind roses, joint speed-direction distributions, diurnal and seasonal climatologies, and return-period estimates (GEV/GPD) from station or reanalysis records; exports for siting and renewable-energy studies.
 
 
 #### Astronomy and astrophysics
