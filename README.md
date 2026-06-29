@@ -4340,7 +4340,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **TCG deck builder** _(stub, awaits wire-up)_: Builds Magic, Hearthstone, and Pokemon TCG decklists with mana-curve analysis, color-source counts, legality checking per format, and sideboard guides. Imports/exports MTGA, MTGO, and Cockatrice formats and resolves cards against a local Scryfall mirror.
 
-- ⬜ **Meta snapshot scraper** _(planned)_: Pulls tournament results and tier lists from MTGTop8, Untapped.gg, 17lands, and Smogon usage stats, normalizing them into a single 'archetype share + winrate' table. Tracks deltas week-over-week to flag emerging archetypes.
+- ✅ **Meta snapshot scraper** _(stub, awaits wire-up)_: Pulls tournament results and tier lists from MTGTop8, Untapped.gg, 17lands, and Smogon usage stats, normalizing them into a single 'archetype share + winrate' table. Tracks deltas week-over-week to flag emerging archetypes.
 
 - ⬜ **Frame data lookup** _(planned)_: Queries fighting-game frame-data sets (Street Fighter, Tekken, Guilty Gear, Smash Ultimate) by character and move, returning startup, active, recovery, on-block, and cancel-routes. Supports punish-window queries ('what punishes Ryu cr.MK on block?').
 
