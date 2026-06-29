@@ -2562,7 +2562,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **RCS & Thruster Sizer** _(stub, awaits wire-up)_: Sizes reaction control thrusters and propellant tanks from required impulse bits, minimum-impulse pulses, slew rate, and translation delta-v, accounting for plume impingement and duty cycle.
 
-- ⬜ **Link Budget Calculator** _(planned)_: Builds RF and optical link budgets between spacecraft and ground stations or relay satellites, computing EIRP, free-space loss, atmospheric and rain attenuation, G/T, C/N0, Eb/N0, and margin versus required BER.
+- ✅ **Link Budget Calculator** _(stub, awaits wire-up)_: Builds RF and optical link budgets between spacecraft and ground stations or relay satellites, computing EIRP, free-space loss, atmospheric and rain attenuation, G/T, C/N0, Eb/N0, and margin versus required BER.
 
 - ⬜ **Power & Eclipse Budget** _(planned)_: Models solar array power generation versus sun angle, eclipse fraction, and degradation, sizes battery depth-of-discharge for the worst-case orbit, and balances against a load timeline keyed to mission modes.
 
