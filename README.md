@@ -3939,7 +3939,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sous-Vide Pasteurization Table** _(stub, awaits wire-up)_: Computes time-to-pasteurization by core thickness and target log reduction for poultry, beef, pork, fish, and egg using published D and z values, with come-up time correction.
 
-- ⬜ **Equilibrium Cure & Brine Calculator** _(planned)_: Solves salt, sugar, and nitrite (Prague #1 and #2) percentages by total system mass for wet, dry, and EQ cures; enforces safe ppm bounds and estimates dwell time by thickness.
+- ✅ **Equilibrium Cure & Brine Calculator** _(stub, awaits wire-up)_: Solves salt, sugar, and nitrite (Prague #1 and #2) percentages by total system mass for wet, dry, and EQ cures; enforces safe ppm bounds and estimates dwell time by thickness.
 
 - ⬜ **Brewing Recipe Builder** _(planned)_: Designs all-grain, extract, and BIAB recipes with grain bill, mash schedule, hop schedule, and yeast; outputs OG, FG, ABV, SRM, and IBU under selectable Tinseth, Rager, and Garetz models.
 
