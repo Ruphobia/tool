@@ -2568,7 +2568,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Constellation Designer** _(stub, awaits wire-up)_: Lays out Walker-Delta, Walker-Star, flower, and custom constellations, evaluating global coverage, revisit time, gap statistics, and inter-satellite link geometry; supports automated phasing optimization.
 
-- ⬜ **Gravity Assist Planner** _(planned)_: Designs single and multi-flyby trajectories using patched-conics with v-infinity matching, periapsis altitude constraints, and Tisserand parameter plots for tour design across moons or planets.
+- ✅ **Gravity Assist Planner** _(stub, awaits wire-up)_: Designs single and multi-flyby trajectories using patched-conics with v-infinity matching, periapsis altitude constraints, and Tisserand parameter plots for tour design across moons or planets.
 
 - ⬜ **Mission Timeline Planner** _(planned)_: Sequences mission phases, maneuvers, ground passes, eclipses, and deliverables on a Gantt-style timeline with dependencies, resource consumption, and automatic conflict detection against the propagated ephemeris.
 
