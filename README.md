@@ -315,7 +315,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Debugger** _(stub, awaits wire-up)_: DAP-based stepping debugger with watch expressions, conditional breakpoints, and reverse step where supported, plus AI explanation of variable state and likely root cause at a breakpoint.
 
-- ⬜ **Profiler** _(planned)_: Sampling and tracing profiler with flamegraph, call tree, and allocation views for native and managed runtimes, with AI annotation of hot paths and suggested optimizations.
+- ✅ **Profiler** _(stub, awaits wire-up)_: Sampling and tracing profiler with flamegraph, call tree, and allocation views for native and managed runtimes, with AI annotation of hot paths and suggested optimizations.
 
 - ✅ **Linter and formatter** _(in testing)_: Aggregator for ruff, eslint, clippy, shellcheck, gofmt, prettier, and friends, with per-project config, autofix on save, and AI rationale for any rule that is otherwise opaque.
 
