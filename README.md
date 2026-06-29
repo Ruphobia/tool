@@ -3894,7 +3894,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Garment Grader** _(stub, awaits wire-up)_: Applies grade rules across a size range with proportional, vector, or industry-standard grading. Visualizes nested sizes, edits grade points per landmark, and validates dart truing across the run.
 
-- ⬜ **Marker Nester** _(planned)_: Auto-nests pattern pieces onto fabric width with nap, stripe match, plaid match, and grain constraints to minimize yardage. Reports efficiency percent and lay length and exports cut files for manual or plotter cutting.
+- ✅ **Marker Nester** _(stub, awaits wire-up)_: Auto-nests pattern pieces onto fabric width with nap, stripe match, plaid match, and grain constraints to minimize yardage. Reports efficiency percent and lay length and exports cut files for manual or plotter cutting.
 
 - ⬜ **Fabric Yardage Calculator** _(planned)_: Estimates required yardage from selected pattern, fabric width, repeat, nap, and shrinkage. Computes cost from price per yard, accounts for fussy-cut waste, and stores fabric-specific defaults.
 
