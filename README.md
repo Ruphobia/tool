@@ -4732,7 +4732,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Dream Sign Catalog** _(stub, awaits wire-up)_: Catalogs personal dream signs (inner, action, form, context) with frequency and co-occurrence statistics across the journal. Surfaces the top-N signs to rehearse for prospective lucidity training.
 
-- ⬜ **Lucid Technique Tracker** _(planned)_: Logs attempts and outcomes for MILD, WBTB, WILD, SSILD, FILD, and DEILD with protocol parameters (WBTB delay, mantra text, anchor duration). Computes per-technique success rate, dwell time before lucidity, and confounds.
+- ✅ **Lucid Technique Tracker** _(stub, awaits wire-up)_: Logs attempts and outcomes for MILD, WBTB, WILD, SSILD, FILD, and DEILD with protocol parameters (WBTB delay, mantra text, anchor duration). Computes per-technique success rate, dwell time before lucidity, and confounds.
 
 - ⬜ **Reality Check Scheduler** _(planned)_: Fires configurable randomized prompts during waking hours for digit-glance, hand-check, light-switch, and breath-through-nose tests. Logs hit, miss, and false-positive outcomes for habit-strength tracking.
 
