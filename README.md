@@ -4770,7 +4770,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **CBT thought record** _(stub, awaits wire-up)_: Structured template with situation, automatic thought, evidence-for/against, cognitive-distortion tags (Burns' list), and reframe. AI-integrated distortion classifier suggests likely distortions from the thought text.
 
-- ⬜ **Consensus sleep diary** _(planned)_: Implements the Carney et al. Consensus Sleep Diary fields: bedtime, sleep latency, WASO, final awakening, time out of bed. Computes sleep efficiency, total sleep time, and rolling 7- and 14-day averages.
+- ✅ **Consensus sleep diary** _(stub, awaits wire-up)_: Implements the Carney et al. Consensus Sleep Diary fields: bedtime, sleep latency, WASO, final awakening, time out of bed. Computes sleep efficiency, total sleep time, and rolling 7- and 14-day averages.
 
 - ⬜ **Meditation timer with interval bells** _(planned)_: Configurable session timer with warm-up, primary interval, and cool-down phases, plus repeating interval bells (Tibetan bowl, woodblock, or custom WAV). Logs session length, technique tag, and post-session rating.
 
