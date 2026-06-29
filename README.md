@@ -3455,7 +3455,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Reef transect logger** _(stub, awaits wire-up)_: Structured entry for belt-transect and point-intercept surveys (Reef Life Survey, AGRRA, CoralWatch protocols) with size-class abundance, substrate cover, and offline-first sync to a portable SQLite store.
 
-- ⬜ **NetCDF/HDF5 explorer** _(planned)_: Browses CF-compliant ocean datasets with dimension-aware slicing, attribute inspection, and quicklook plots for ROMS, MOM6, HYCOM, WW3, and Argo files. Exports subsets to Zarr or COG for downstream use.
+- ✅ **NetCDF/HDF5 explorer** _(stub, awaits wire-up)_: Browses CF-compliant ocean datasets with dimension-aware slicing, attribute inspection, and quicklook plots for ROMS, MOM6, HYCOM, WW3, and Argo files. Exports subsets to Zarr or COG for downstream use.
 
 
 #### Ecology, conservation, sustainability
