@@ -3310,7 +3310,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Optics Designer** _(stub, awaits wire-up)_: Computes telescope, eyepiece, and camera-train parameters: focal ratio, exit pupil, true field of view, pixel scale, critical sampling, and diffraction limit. Includes Bahtinov-mask focus simulator and Strehl-from-collimation estimator.
 
-- ⬜ **Light Pollution Map** _(planned)_: Renders Bortle/SQM sky-brightness maps from VIIRS data with limiting-magnitude estimates per filter and zenith angle. Suggests dark-sky sites within a chosen drive radius.
+- ✅ **Light Pollution Map** _(stub, awaits wire-up)_: Renders Bortle/SQM sky-brightness maps from VIIRS data with limiting-magnitude estimates per filter and zenith angle. Suggests dark-sky sites within a chosen drive radius.
 
 - ⬜ **Radio Astronomy Toolkit** _(planned)_: Decodes hydrogen-line (1420 MHz) drift scans, pulsar dedispersion, and meteor-scatter detections from RTL-SDR/AirSpy inputs. Includes waterfall display, baseline subtraction, and galactic-plane survey mode.
 
