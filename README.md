@@ -3357,7 +3357,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Diet and nutrition formulator** _(stub, awaits wire-up)_: Formulates rations against NRC/AZA nutrient targets for the species and life stage, balancing prey items, produce, and pellets for ME, protein, Ca:P, vitamin A/E, and taurine. Computes feeding cost and writes daily-prep sheets for keepers.
 
-- ⬜ **Wildlife disease surveillance** _(planned)_: Logs syndromic mortality and morbidity events, maps clusters, and runs SaTScan-style space-time scans for outbreaks (HPAI, CWD, white-nose, ranavirus, chytrid). Generates submission packets for state/federal wildlife health labs.
+- ✅ **Wildlife disease surveillance** _(stub, awaits wire-up)_: Logs syndromic mortality and morbidity events, maps clusters, and runs SaTScan-style space-time scans for outbreaks (HPAI, CWD, white-nose, ranavirus, chytrid). Generates submission packets for state/federal wildlife health labs.
 
 - ⬜ **Morphometric and aging tool** _(planned)_: Records standard morphometrics (skull, wing chord, tarsus, carapace, dentition wear, cementum annuli, otolith rings) with species reference ranges for sex and age class determination. Supports DXA/CT-derived measurements and exports to Darwin Core.
 
