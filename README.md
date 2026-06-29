@@ -4664,7 +4664,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **First-aid decision tree** _(stub, awaits wire-up)_: Triage and treatment walkthroughs for trauma, hemorrhage, hypothermia, hyperthermia, anaphylaxis, snakebite, and burns, with tourniquet timing, TXA window, and improvised splint guidance. Adapts to the kit on hand and projected time-to-evac.
 
-- ⬜ **Field pharmacy reference** _(planned)_: Drug reference covering shelf life beyond labeled expiry, vet and aquarium-grade substitutions with caveats, common antibiotic regimens by indication, and interaction warnings. Includes a dosing calculator for pediatric and weight-based adjustment.
+- ✅ **Field pharmacy reference** _(stub, awaits wire-up)_: Drug reference covering shelf life beyond labeled expiry, vet and aquarium-grade substitutions with caveats, common antibiotic regimens by indication, and interaction warnings. Includes a dosing calculator for pediatric and weight-based adjustment.
 
 - ⬜ **Ham antenna designer** _(planned)_: Designs dipole, end-fed half-wave, vertical, loop, and NVIS antennas with element lengths, feed impedance, height-above-ground modeling, and SWR projection across the band. Outputs cut lengths in copper or steel wire for field construction.
 
