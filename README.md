@@ -1437,7 +1437,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Transaction Monitor** _(stub, awaits wire-up)_: Applies typology rules (structuring, smurfing, layering, rapid pass-through, sanctioned-corridor, mule-pattern) over a streaming ledger, opens cases above threshold, and drafts FinCEN SAR and goAML XML reports.
 
-- ⬜ **Audit Trail Ledger** _(planned)_: Append-only hash-chained event log with per-event Merkle proofs, signed periodic snapshots, and WORM export; queryable by subject, operator, document, or decision outcome for regulator inspection.
+- ✅ **Audit Trail Ledger** _(stub, awaits wire-up)_: Append-only hash-chained event log with per-event Merkle proofs, signed periodic snapshots, and WORM export; queryable by subject, operator, document, or decision outcome for regulator inspection.
 
 - ⬜ **PII Redactor** _(planned)_: Masks faces, MRZ, signatures, and structured fields in images, PDFs, and JSON payloads; supports differential redaction with reversible vault entries gated by purpose-bound access tokens.
 
