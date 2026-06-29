@@ -3847,7 +3847,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Beat, tempo, and key detection** _(stub, awaits wire-up)_: Detects BPM, downbeats, beat grid, time signature, and musical key/scale; supports variable-tempo mapping and warp-marker editing.
 
-- ⬜ **Mixing console** _(planned)_: Channel-strip mixer with faders, pans, mutes, solos, busses, sends, VCA groups, automation lanes, and snapshot/scene recall.
+- ✅ **Mixing console** _(stub, awaits wire-up)_: Channel-strip mixer with faders, pans, mutes, solos, busses, sends, VCA groups, automation lanes, and snapshot/scene recall.
 
 - ⬜ **Mastering workbench** _(planned)_: Reference-track A/B, loudness normalization, dithering, oversampling, codec preview, and ISP-aware limiting; batch export to streaming-platform targets. AI-integrated mastering profile matched to a reference.
 
