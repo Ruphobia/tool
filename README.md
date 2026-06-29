@@ -1171,7 +1171,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Facility location optimizer** _(stub, awaits wire-up)_: Solves p-median, p-center, set-cover, and capacitated facility location with fixed costs and assignment constraints via MILP. Performs sensitivity analysis on demand and overlays candidate sites on the map with weighted catchments.
 
-- ⬜ **Warehouse slotting tool** _(planned)_: Performs ABC / XYZ classification and cube-per-order indexing, then assigns SKUs to pick locations to minimize expected travel given affinity (order-line co-occurrence) and ergonomic golden-zone constraints. Compares S-shape, return, midpoint, and largest-gap routing.
+- ✅ **Warehouse slotting tool** _(stub, awaits wire-up)_: Performs ABC / XYZ classification and cube-per-order indexing, then assigns SKUs to pick locations to minimize expected travel given affinity (order-line co-occurrence) and ergonomic golden-zone constraints. Compares S-shape, return, midpoint, and largest-gap routing.
 
 - ⬜ **Pick path optimizer** _(planned)_: Generates optimal or near-optimal picker routes through aisle-rack-bin grids using Ratliff-Rosenthal exact DP for rectangular warehouses and metaheuristics for irregular layouts. Supports zone picking, batch picking with capacity, and wave release simulation.
 
