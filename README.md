@@ -246,7 +246,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Deduplicating Ingest** _(in testing)_: Canonicalizes URLs, hashes content with SimHash and MinHash, and merges near-duplicate records across sources. Tracks provenance so the original fetch context is never lost.
 
-- ⬜ **Knowledge Base Store** _(planned)_: Per-project content-addressed store for raw responses, extracted text, and metadata, with full-text and vector indexes. Queryable by URL, host, time range, tag, or semantic similarity.
+- ✅ **Knowledge Base Store** _(in testing)_: Per-project content-addressed store for raw responses, extracted text, and metadata, with full-text and vector indexes. Queryable by URL, host, time range, tag, or semantic similarity.
 
 - ⬜ **AI Page Triage** _(planned)_: Classifies fetched pages by topic, language, paywall status, and content quality so the queue can drop junk before extraction. Optional LLM pass tags entities and summarizes long articles for fast skimming.
 
