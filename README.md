@@ -4303,7 +4303,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Monster Compendium** _(stub, awaits wire-up)_: Searchable bestiary with full stat blocks, CR/level, tags, environments, lore, and reaction/legendary actions across SRD-licensed sources. Includes a stat-block editor with CR estimator and homebrew validation.
 
-- ⬜ **Spell And Item Library** _(planned)_: Filterable catalog of spells, magic items, mundane gear, and crafting recipes with school/level/rarity/source filters and per-system attunement and slot rules. Items link to character sheets and loot tables for one-click assignment.
+- ✅ **Spell And Item Library** _(stub, awaits wire-up)_: Filterable catalog of spells, magic items, mundane gear, and crafting recipes with school/level/rarity/source filters and per-system attunement and slot rules. Items link to character sheets and loot tables for one-click assignment.
 
 - ⬜ **NPC Generator** _(planned)_: Produces NPCs with names, appearances, mannerisms, secrets, voice notes, and full stat blocks tuned to a culture/region defined in the World Bible. AI generates dialogue snippets and motive arcs grounded in the linked faction and location context.
 
