@@ -2721,7 +2721,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Aero CdA and Downforce Estimator** _(stub, awaits wire-up)_: Solves CdA and ClA from coast-down runs, constant-speed power data, or wind-tunnel CSV, and models drag, lift, and balance shifts versus ride height and yaw. Predicts top speed and braking-distance delta for a setup change.
 
-- ⬜ **Telemetry Log Viewer** _(planned)_: Loads MoTeC i2, AiM, RaceCapture, VBox, and generic CSV logs into a multi-channel scope with math channels, lap splits, and X-Y plots. Overlays multiple laps, computes time-loss histograms, and exports synchronized video frames.
+- ✅ **Telemetry Log Viewer** _(stub, awaits wire-up)_: Loads MoTeC i2, AiM, RaceCapture, VBox, and generic CSV logs into a multi-channel scope with math channels, lap splits, and X-Y plots. Overlays multiple laps, computes time-loss histograms, and exports synchronized video frames.
 
 - ⬜ **GPS Lap and Sector Analyzer** _(planned)_: Builds a track map from GPS traces, auto-detects start/finish and segments, and reports per-sector deltas, theoretical best, and ideal racing line offset. Supports outlap/inlap trimming and weather-tagged stint stats.
 
