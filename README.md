@@ -3969,7 +3969,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Coffee & Tea Extraction Bench** _(stub, awaits wire-up)_: Computes TDS, extraction yield, brew ratio, and grind setting for pour-over, espresso, immersion, and tea; logs refractometer reads against brew curves and roast profile.
 
-- ⬜ **Shelf-Life & Spoilage Modeler** _(planned)_: Predicts shelf life from water activity, pH, salt, and storage temperature using Q10 kinetics and published pathogen growth boundaries, with HACCP-style critical control point review.
+- ✅ **Shelf-Life & Spoilage Modeler** _(stub, awaits wire-up)_: Predicts shelf life from water activity, pH, salt, and storage temperature using Q10 kinetics and published pathogen growth boundaries, with HACCP-style critical control point review.
 
 - ⬜ **Sourdough Starter Logger** _(planned)_: Tracks feedings, hydration ratio, peak times, and rise heights across multiple starters. Plots ambient temperature against doubling time to predict readiness windows.
 
