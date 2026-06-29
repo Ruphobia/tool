@@ -3831,7 +3831,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Source separation studio** _(stub, awaits wire-up)_: AI-integrated stem separation (vocals, drums, bass, guitar, piano, other) using Demucs/MDX/Spleeter-class models; per-stem export, residual extraction, and karaoke creation.
 
-- ⬜ **Noise reduction and restoration** _(planned)_: Spectral subtraction, Wiener filtering, RNNoise-style learned denoising, declicking, decrackle, dehum, and dereverb; manual noise-profile capture and AI-integrated automatic profiling.
+- ✅ **Noise reduction and restoration** _(stub, awaits wire-up)_: Spectral subtraction, Wiener filtering, RNNoise-style learned denoising, declicking, decrackle, dehum, and dereverb; manual noise-profile capture and AI-integrated automatic profiling.
 
 - ⬜ **Pitch and time tools** _(planned)_: Phase-vocoder, PSOLA, and elastique-style time-stretch and pitch-shift; melodic pitch correction with note-grid editing similar to Melodyne/Auto-Tune workflows.
 
