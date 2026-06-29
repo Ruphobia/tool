@@ -3177,7 +3177,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pre-registration drafter** _(stub, awaits wire-up)_: Fills OSF and AsPredicted templates from the experiment design, hypotheses, and planned analyses already specified in the workbench. Locks the protocol with a hash for later deviation tracking.
 
-- ⬜ **Vignette factorial designer** _(planned)_: Builds factorial vignette and conjoint stimuli by combining attribute levels, with fractional-factorial reduction and balanced presentation across respondents. Exports to survey runners with per-respondent randomization.
+- ✅ **Vignette factorial designer** _(stub, awaits wire-up)_: Builds factorial vignette and conjoint stimuli by combining attribute levels, with fractional-factorial reduction and balanced presentation across respondents. Exports to survey runners with per-respondent randomization.
 
 - ⬜ **Ecological momentary assessment scheduler** _(planned)_: Designs ESM/EMA and diary protocols with signal-contingent, interval-contingent, and event-contingent prompts across days. Generates participant schedules, compliance dashboards, and aggregated multilevel-ready datasets.
 
