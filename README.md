@@ -3394,7 +3394,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Ceramic seriation** _(stub, awaits wire-up)_: Builds seriation matrices from sherd type counts using frequency (Ford) and occurrence (Robinson) methods, with correspondence analysis and battleship-curve plots. Links sherd drawings, fabric descriptions, and rim-diameter charts.
 
-- ⬜ **Sediment and soil logger** _(planned)_: Records Munsell color, texture, structure, inclusions, pH, and organic content for excavation contexts and core samples with controlled vocabularies. Plots grain-size distributions from sieve/laser data and computes sorting, skewness, and kurtosis.
+- ✅ **Sediment and soil logger** _(stub, awaits wire-up)_: Records Munsell color, texture, structure, inclusions, pH, and organic content for excavation contexts and core samples with controlled vocabularies. Plots grain-size distributions from sieve/laser data and computes sorting, skewness, and kurtosis.
 
 - ⬜ **Stable isotope analyzer** _(planned)_: Ingests delta 13C, delta 15N, delta 18O, and 87Sr/86Sr measurements from bone collagen, enamel, and shell to reconstruct diet, mobility, and paleoclimate. Plots mixing models (FRUITS/MixSIAR-style) and applies trophic enrichment factors.
 
