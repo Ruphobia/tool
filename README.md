@@ -2310,7 +2310,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pressure drop and Moody tool** _(stub, awaits wire-up)_: Computes friction factor, Reynolds number, and dP for pipes, ducts, and fittings across laminar, transitional, and turbulent regimes. Includes Crane K-factor and equivalent-length libraries for valves and bends.
 
-- ⬜ **Pump and fan curve fitter** _(planned)_: Fits H-Q, eta-Q, and NPSHr-Q polynomial curves from manufacturer points and applies affinity laws for speed/diameter scaling. Finds operating point against a system curve and flags off-BEP operation.
+- ✅ **Pump and fan curve fitter** _(stub, awaits wire-up)_: Fits H-Q, eta-Q, and NPSHr-Q polynomial curves from manufacturer points and applies affinity laws for speed/diameter scaling. Finds operating point against a system curve and flags off-BEP operation.
 
 - ⬜ **NPSH and cavitation checker** _(planned)_: Computes NPSHa from suction-side geometry, vapor pressure, and elevation; compares against NPSHr with margin. Estimates cavitation damage risk and suction specific speed for centrifugal pumps.
 
