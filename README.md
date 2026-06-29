@@ -3550,7 +3550,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Drip Layout Designer** _(stub, awaits wire-up)_: Lays out drip lines, emitters, and submains over a plot drawing with hydraulic calculations for pressure loss, emitter flow uniformity (EU), and lateral length limits. Generates a parts list keyed to standard fittings.
 
-- ⬜ **Garden Plot Designer** _(planned)_: 2D bed and row editor with scale, sun exposure overlay, path widths, and plant spacing footprints from a built-in cultivar database. Snaps to companion planting and rotation constraints.
+- ✅ **Garden Plot Designer** _(stub, awaits wire-up)_: 2D bed and row editor with scale, sun exposure overlay, path widths, and plant spacing footprints from a built-in cultivar database. Snaps to companion planting and rotation constraints.
 
 - ⬜ **Crop Rotation Planner** _(planned)_: Plans multi-year rotations across beds using family grouping, nitrogen demand, allelopathy, disease carryover windows, and cover crop slots. AI-integrated suggestion of a rotation that satisfies the user's beds, crops, and constraints.
 
