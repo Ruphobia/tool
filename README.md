@@ -3714,7 +3714,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Photo Catalog** _(stub, awaits wire-up)_: Local-first DAM with content-addressed storage, tag and rating hierarchies, smart collections, face and scene clustering, similarity search via image embeddings, and non-destructive edit history per asset.
 
-- ⬜ **Print Soft Proofer** _(planned)_: Previews an image under a paper and printer ICC profile with selectable rendering intent, marks out-of-gamut pixels, simulates D50 viewing illuminant, and predicts ink coverage for fine-art and commercial print workflows.
+- ✅ **Print Soft Proofer** _(stub, awaits wire-up)_: Previews an image under a paper and printer ICC profile with selectable rendering intent, marks out-of-gamut pixels, simulates D50 viewing illuminant, and predicts ink coverage for fine-art and commercial print workflows.
 
 - ⬜ **MTF Chart Analyzer** _(planned)_: Measures lens resolution from photographs of slanted-edge or Siemens-star targets, computes MTF50 across the frame, plots field curvature and astigmatism, and compares results against the lens database reference values.
 
