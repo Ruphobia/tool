@@ -2699,7 +2699,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Engine Geometry Lab** _(stub, awaits wire-up)_: Computes bore, stroke, rod ratio, deck height, swept and clearance volume, static and dynamic compression ratio, and piston speed. Includes a valve-event and cam-timing visualizer with overlap, LSA, and effective duration.
 
-- ⬜ **Volumetric Efficiency Calculator** _(planned)_: Back-calculates VE and BSFC from MAF/MAP, intake air temperature, RPM, displacement, and injector duty cycle. Plots VE surfaces against load and RPM for tuning verification against logged data.
+- ✅ **Volumetric Efficiency Calculator** _(stub, awaits wire-up)_: Back-calculates VE and BSFC from MAF/MAP, intake air temperature, RPM, displacement, and injector duty cycle. Plots VE surfaces against load and RPM for tuning verification against logged data.
 
 - ⬜ **Turbo and Supercharger Sizing** _(planned)_: Plots required mass flow and pressure ratio against compressor maps loaded as polylines, with surge and choke margins highlighted. AI-integrated starting point picks a turbo from target power, altitude, and engine displacement.
 
