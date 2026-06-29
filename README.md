@@ -3755,7 +3755,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Crowd Director** _(stub, awaits wire-up)_: Agent-based crowd system with state-machine behaviors, navmesh pathing, animation-clip stitching, and per-agent variation. AI-integrated locomotion blending so feet stay planted across speeds.
 
-- ⬜ **USD Stage Editor** _(planned)_: Hierarchical USD composition browser with layer stacks, variants, references, payloads, and reference resolution. Provides a diff view between layers and an integrated USD-python script console.
+- ✅ **USD Stage Editor** _(stub, awaits wire-up)_: Hierarchical USD composition browser with layer stacks, variants, references, payloads, and reference resolution. Provides a diff view between layers and an integrated USD-python script console.
 
 - ⬜ **Audio and Lip Sync** _(planned)_: Waveform-aligned dope-sheet for dialogue, with phoneme detection driving viseme blendshapes and procedural facial micro-expressions. AI phoneme alignment runs locally from an audio file and a transcript.
 
