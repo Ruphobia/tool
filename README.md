@@ -2269,7 +2269,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Tribology And Wear Estimator** _(stub, awaits wire-up)_: Archard wear-rate calculator with a friction-coefficient lookup for dry, boundary, and lubricated sliding pairs (steel-on-steel, bronze-on-steel, PTFE, UHMWPE, ceramics). Estimates PV limits for plain bearings.
 
-- ⬜ **Fatigue And S-N Curve Tool** _(planned)_: Plots S-N curves for common alloys, applies Goodman/Soderberg/Gerber mean-stress corrections, and estimates endurance limit from UTS with surface, size, loading, temperature, and reliability factors per Shigley.
+- ✅ **Fatigue And S-N Curve Tool** _(stub, awaits wire-up)_: Plots S-N curves for common alloys, applies Goodman/Soderberg/Gerber mean-stress corrections, and estimates endurance limit from UTS with surface, size, loading, temperature, and reliability factors per Shigley.
 
 - ⬜ **Fracture Toughness And Crack Calculator** _(planned)_: Linear-elastic fracture mechanics solver: computes K_I for common geometries (edge crack, center crack, surface flaw), critical crack length from K_IC, leak-before-break checks, and Paris-law fatigue crack growth life.
 
