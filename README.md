@@ -1834,7 +1834,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Spectrogram Studio** _(stub, awaits wire-up)_: Praat-lite audio analyzer with waveform, wide- and narrow-band spectrograms, pitch and intensity tracks, formant overlays, and cursor-driven measurements. Annotates intervals and points on TextGrid tiers.
 
-- ⬜ **Forced Aligner** _(planned)_: Aligns audio to a phoneme or word transcript using Montreal-Forced-Aligner-style acoustic models, producing TextGrid output with per-phone boundaries. Falls back to AI-integrated transcription when the script is missing or partial.
+- ✅ **Forced Aligner** _(stub, awaits wire-up)_: Aligns audio to a phoneme or word transcript using Montreal-Forced-Aligner-style acoustic models, producing TextGrid output with per-phone boundaries. Falls back to AI-integrated transcription when the script is missing or partial.
 
 - ⬜ **Script & Romanization Converter** _(planned)_: Transliterates bidirectionally between native scripts and romanizations (ISO, ALA-LC, Hepburn, Pinyin, BGN/PCGN), with reversible mappings and per-character provenance. Highlights lossy substitutions.
 
