@@ -2441,7 +2441,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Well log analyzer** _(stub, awaits wire-up)_: Loads LAS and DLIS curves; computes Vsh from GR/SP, porosity from density-neutron, Sw via Archie or Indonesia, and net-pay flags with depth-aligned plotting.
 
-- ⬜ **Reservoir grid viewer** _(planned)_: Reads ECLIPSE EGRID, INIT, and UNRST and CMG output; slices and animates pressure, saturation, and streamlines, with well trajectories and completion intervals.
+- ✅ **Reservoir grid viewer** _(stub, awaits wire-up)_: Reads ECLIPSE EGRID, INIT, and UNRST and CMG output; slices and animates pressure, saturation, and streamlines, with well trajectories and completion intervals.
 
 - ⬜ **PVT and equation-of-state analyzer** _(planned)_: Peng-Robinson and Soave-Redlich-Kwong fluid models with volume shift; flashes mixtures, tunes BIPs to CCE/DL/CVD lab data, and exports black-oil PVT tables.
 
