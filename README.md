@@ -2540,7 +2540,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Element Set Converter** _(stub, awaits wire-up)_: Round-trips between Cartesian state, classical orbital elements, equinoctial elements, modified equinoctial, TLE mean elements, and Keplerian osculating elements, with frame transforms across ECI, ECEF, RIC, LVLH, and J2000.
 
-- ⬜ **Ground Track Visualizer** _(planned)_: Renders satellite ground tracks, sub-solar points, and instrument footprints on a 2D Earth map and 3D globe, with revisit overlays, swath width from sensor FOV, and exportable KML/GeoJSON.
+- ✅ **Ground Track Visualizer** _(stub, awaits wire-up)_: Renders satellite ground tracks, sub-solar points, and instrument footprints on a 2D Earth map and 3D globe, with revisit overlays, swath width from sensor FOV, and exportable KML/GeoJSON.
 
 - ⬜ **Lambert Solver** _(planned)_: Solves the two-point boundary value problem for ballistic transfers between two position vectors and a time of flight, supporting multi-revolution solutions, prograde/retrograde branches, and Izzo's universal-variable formulation.
 
