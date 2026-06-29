@@ -2181,7 +2181,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pump and fan sizer** _(stub, awaits wire-up)_: Selects centrifugal and positive-displacement pumps and fans against a system curve with NPSH, efficiency, and viscosity corrections. Outputs operating point, power draw, and recommended drive.
 
-- ⬜ **Pressure vessel and piping calculator** _(planned)_: ASME BPVC Section VIII and B31.1/B31.3 thickness, stress, and code compliance calculations for shells, heads, nozzles, and piping. Includes flange rating lookup.
+- ✅ **Pressure vessel and piping calculator** _(stub, awaits wire-up)_: ASME BPVC Section VIII and B31.1/B31.3 thickness, stress, and code compliance calculations for shells, heads, nozzles, and piping. Includes flange rating lookup.
 
 - ⬜ **Lubricant and tribology advisor** _(planned)_: Recommends lubricants and surface treatments by load, speed, temperature, and environment, with Stribeck curve and wear-rate estimates. AI-integrated diagnosis of wear modes from photos of worn parts.
 
