@@ -4449,7 +4449,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Manual J load calculator** _(stub, awaits wire-up)_: Performs ACCA Manual J8 room-by-room heating and cooling load calculations from envelope assemblies, orientation, infiltration (ACH50 to natural), and occupant/internal gains; outputs sensible, latent, and design CFM per room.
 
-- ⬜ **Manual D duct designer** _(planned)_: Sizes supply and return trunks and branches using equal-friction or static-regain methods, given the available static pressure, fitting equivalent lengths, and target room CFM from the Manual J output.
+- ✅ **Manual D duct designer** _(stub, awaits wire-up)_: Sizes supply and return trunks and branches using equal-friction or static-regain methods, given the available static pressure, fitting equivalent lengths, and target room CFM from the Manual J output.
 
 - ⬜ **Psychrometric tool** _(planned)_: Plots state points and processes (mixing, sensible heat, latent, cooling coil bypass) on a psychrometric chart for a given elevation; solves for SHR, enthalpy, dew point, and required reheat.
 
