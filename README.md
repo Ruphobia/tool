@@ -4122,7 +4122,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Gesture session timer** _(stub, awaits wire-up)_: Runs timed life-drawing sessions over a local pose library or user folder, with configurable 30s/1m/2m/5m/10m intervals, warmup ramps, and grayscale or silhouette modes.
 
-- ⬜ **Kiln schedule planner** _(planned)_: Builds segmented ramp/hold/cool firing schedules by cone and atmosphere (oxidation, reduction, salt, raku), estimates work-heat via Orton cone tables, and exports controller programs for Bartlett, Skutt, and Genesis profiles.
+- ✅ **Kiln schedule planner** _(stub, awaits wire-up)_: Builds segmented ramp/hold/cool firing schedules by cone and atmosphere (oxidation, reduction, salt, raku), estimates work-heat via Orton cone tables, and exports controller programs for Bartlett, Skutt, and Genesis profiles.
 
 - ⬜ **Clay and shrinkage calculator** _(planned)_: Tracks wet, leather-hard, bone-dry, bisque, and glaze-fired dimensions for a clay body, computes total linear and volumetric shrinkage, and back-solves the wet size needed to hit a target finished dimension.
 
