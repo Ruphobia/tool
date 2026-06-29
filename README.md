@@ -3050,7 +3050,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Restriction and cloning planner** _(stub, awaits wire-up)_: Searches for restriction sites, plans isocaudomer swaps, simulates digests, ligations, Gateway, and TOPO reactions, and predicts agarose gel band patterns.
 
-- ⬜ **qPCR and dPCR analyzer** _(planned)_: Ingests amplification curves, computes Cq via second derivative max, performs standard curve, efficiency, and melt analysis, and runs ddCt or Pfaffl relative quantification with reference gene validation (geNorm, NormFinder).
+- ✅ **qPCR and dPCR analyzer** _(stub, awaits wire-up)_: Ingests amplification curves, computes Cq via second derivative max, performs standard curve, efficiency, and melt analysis, and runs ddCt or Pfaffl relative quantification with reference gene validation (geNorm, NormFinder).
 
 - ⬜ **ELISA and Luminex analyzer** _(planned)_: Fits 4PL and 5PL standard curves with weighted regression, back-calculates analyte concentrations, flags out-of-range wells, and computes inter and intra-plate CVs.
 
