@@ -1993,7 +1993,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Optics and photonics
 
-- ⬜ **Sequential Lens Designer** _(planned)_: Sequential ray-tracing workbench for multi-element lens systems with surface editor, real ray and paraxial trace, spot diagrams, MTF, field curvature, distortion, and damped-least-squares optimization against user merit functions. AI-integrated starting-point synthesis from specs (focal length, f-number, field, wavelength band).
+- ✅ **Sequential Lens Designer** _(stub, awaits wire-up)_: Sequential ray-tracing workbench for multi-element lens systems with surface editor, real ray and paraxial trace, spot diagrams, MTF, field curvature, distortion, and damped-least-squares optimization against user merit functions. AI-integrated starting-point synthesis from specs (focal length, f-number, field, wavelength band).
 
 - ⬜ **Non-Sequential Ray Tracer** _(planned)_: Monte Carlo ray tracer for illumination, stray light, lightguides, and TIR optics with arbitrary CAD geometry, source models (point, extended, IES/LDT), BSDF surfaces, and detector irradiance/intensity maps.
 
