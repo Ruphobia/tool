@@ -461,7 +461,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **ASN and BGP browser** _(stub, awaits wire-up)_: Looks up IP-to-ASN mappings, prefix announcements, and peering relationships from a local snapshot of routing data. Visualizes upstreams, downstreams, and overlapping prefixes for a chosen AS.
 
-- ⬜ **Subdomain and asset enumerator** _(planned)_: Discovers subdomains and exposed assets through certificate transparency logs, passive DNS snapshots, and active brute force against wordlists. Deduplicates findings into a single inventory per root domain with last-seen timestamps.
+- ✅ **Subdomain and asset enumerator** _(stub, awaits wire-up)_: Discovers subdomains and exposed assets through certificate transparency logs, passive DNS snapshots, and active brute force against wordlists. Deduplicates findings into a single inventory per root domain with last-seen timestamps.
 
 - ⬜ **Feed and sitemap inspector** _(planned)_: Parses RSS, Atom, JSON Feed, and XML sitemaps; validates structure; and renders entries with diff against a previous fetch. Flags broken links, stale dates, and protocol-level caching issues.
 
