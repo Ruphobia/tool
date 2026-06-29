@@ -695,7 +695,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Backup scheduler** _(stub, awaits wire-up)_: Configures restic, borg, or rsync jobs with retention policies, encryption keys, and target repositories (local, SFTP, S3). Runs scheduled and ad-hoc backups, verifies snapshots, and offers point-in-time restore browsing.
 
-- ⬜ **Snapshot manager** _(planned)_: Creates, lists, diffs, and rolls back BTRFS, ZFS, and LVM snapshots. Diff view shows file-level changes between any two snapshots and supports per-file restore without full rollback.
+- ✅ **Snapshot manager** _(stub, awaits wire-up)_: Creates, lists, diffs, and rolls back BTRFS, ZFS, and LVM snapshots. Diff view shows file-level changes between any two snapshots and supports per-file restore without full rollback.
 
 - ⬜ **Container manager** _(planned)_: Manages Docker and Podman containers, images, volumes, and networks, with logs, exec, stats, and inspect panels. AI-integrated explanation of layer bloat and Dockerfile cleanup suggestions from a built image.
 
