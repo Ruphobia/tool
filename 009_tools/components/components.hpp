@@ -29,6 +29,8 @@ struct Intent {
     bool        is_parts_request = false;
     std::string keyword;          // search query to send to Mouser
     std::string reasoning;        // short LLM-emitted rationale (for the layer trail)
+    bool        write_to_file    = false;
+    std::string filename;         // suggested .md filename when write_to_file
 };
 
 // True if `settings/credentials.json` has a non-empty `mouser.api_key`.

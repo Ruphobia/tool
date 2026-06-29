@@ -1629,6 +1629,14 @@ chatForm.addEventListener('submit', async e => {
       `${tags ? ' tags=' + tags : ''}] [${j.expertise || '?'}]`;
     layersEl.appendChild(tag);
     if (j.handler && j.handler.kind === 'shell') refreshFileTreeIfOpen();
+    // When the components tool wrote a markdown file, refresh the tree
+    // and pop the file open in a new editor tab so the user can see /
+    // edit the result directly.
+    if (j.handler && j.handler.kind === 'components_answer' &&
+        j.handler.file_path) {
+      refreshFileTreeIfOpen();
+      openFile(j.handler.file_path);
+    }
     chatLog.scrollTop = chatLog.scrollHeight;
   };
 
@@ -2297,6 +2305,10 @@ const _origRender = renderAIResponse;
 renderAIResponse = function(el, j) {
   _origRender(el, j);
   if (j.handler && j.handler.kind === 'shell') refreshFileTreeIfOpen();
+  if (j.handler && j.handler.kind === 'components_answer' && j.handler.file_path) {
+    refreshFileTreeIfOpen();
+    openFile(j.handler.file_path);
+  }
 };
 
 // Boot — resolve session first, then restore state.

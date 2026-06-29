@@ -98,37 +98,66 @@ bool has_credentials() {
 
 Intent extract_intent(std::string_view prompt) {
     static constexpr const char * kSystem =
-        "You decide whether the user is asking to FIND or BUY a specific "
+        "You decide whether the user wants to FIND or BUY a specific "
         "electronic component (resistor, capacitor, voltage regulator, IC, "
         "MCU, transistor, connector, LED, inductor, crystal, etc.) WITH "
-        "given specifications, vs. asking a general technical / conceptual "
-        "question.\n"
+        "given specifications. Phrases like \"find me a …\", \"I need a …\","
+        " \"list 5 …\", \"source a …\" all count, including when followed by"
+        " \"and write/save the list to a file\".\n"
         "Output STRICT JSON only — no prose, no code fences. Schema:\n"
         "{\n"
         "  \"is_parts_request\": boolean,\n"
-        "  \"keyword\": string,    // short Mouser search query (3-10 words)\n"
-        "  \"explain\":  string    // one terse sentence on the call\n"
+        "  \"keyword\": string,        // short Mouser search query (3-10 words)\n"
+        "  \"write_to_file\": boolean, // true iff the user asked to write/save"
+                                       " the results to a file\n"
+        "  \"filename\": string,       // suggested .md filename if write_to_file,"
+                                       " else \"\"\n"
+        "  \"explain\":  string        // one terse sentence on the call\n"
         "}\n"
         "Rules:\n"
         "- \"keyword\" must be a real Mouser keyword search; lead with the "
         "component type (\"3.3V switching regulator\"), then key specs "
-        "(\"1A SMD\"). No verbs, no \"I need\", no quotes inside.\n"
-        "- A conceptual question (e.g. \"how does a buck converter work\") "
-        "is NOT a parts request → is_parts_request=false, keyword=\"\".\n"
-        "- If unsure, prefer is_parts_request=false.\n"
+        "(\"1A SMD\", \"12V input\"). No verbs, no \"I need\", no quotes inside.\n"
+        "- A purely conceptual question (e.g. \"how does a buck converter "
+        "work\") is NOT a parts request → is_parts_request=false.\n"
+        "- \"filename\" must be a simple lowercase-with-dashes name ending in"
+        " \".md\" (e.g. \"regulators.md\", \"3v3-bucks.md\"). No paths, no"
+        " spaces. If the user didn't ask to save, leave it \"\".\n"
+        "- If unsure about is_parts_request, prefer false.\n"
         "- Output exactly one JSON object. No markdown.";
 
-    std::string raw = qwen14b::generate(kSystem, prompt, /*max_new_tokens=*/192);
+    std::string raw = qwen14b::generate(kSystem, prompt, /*max_new_tokens=*/224);
     json j = parse_loose_json(raw);
     Intent out;
     if (j.is_object()) {
         out.is_parts_request = j.value("is_parts_request", false);
         out.keyword          = trim(j.value("keyword",     std::string{}));
         out.reasoning        = trim(j.value("explain",     std::string{}));
+        out.write_to_file    = j.value("write_to_file", false);
+        out.filename         = trim(j.value("filename",    std::string{}));
     } else {
         out.reasoning = "intent JSON parse failed; raw=" + raw.substr(0, 240);
     }
     if (out.keyword.empty()) out.is_parts_request = false;
+    // Sanity-strip the filename: keep [a-z0-9._-] only and force .md ending.
+    if (out.write_to_file) {
+        std::string clean;
+        for (char c : out.filename) {
+            char lc = static_cast<char>(std::tolower(static_cast<unsigned char>(c)));
+            if ((lc >= 'a' && lc <= 'z') || (lc >= '0' && lc <= '9') ||
+                lc == '.' || lc == '_' || lc == '-') {
+                clean.push_back(lc);
+            } else if (lc == ' ') {
+                clean.push_back('-');
+            }
+        }
+        if (clean.empty()) clean = "parts.md";
+        if (clean.size() < 3 || clean.substr(clean.size() - 3) != ".md")
+            clean += ".md";
+        out.filename = clean;
+    } else {
+        out.filename.clear();
+    }
     return out;
 }
 

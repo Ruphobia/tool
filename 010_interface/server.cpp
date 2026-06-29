@@ -487,7 +487,67 @@ void handle_chat(const httplib::Request & req, httplib::Response & res) {
                 emit("layer", {{"name", "render_final"}, {"content", final_text}});
 
                 json handler;
-                if (act.act == "command") {
+
+                // Parts-search short-circuit: applies to BOTH question and
+                // command acts (the latter catches "find me X and write to a
+                // file" — without this, the shell handler tries to scrape a
+                // catalog page and usually fails). Runs only when the user
+                // has a Mouser key configured.
+                bool served_by_components = false;
+                if ((act.act == "question" || act.act == "command") &&
+                    components::has_credentials())
+                {
+                    components::Intent it = components::extract_intent(final_text);
+                    emit("layer", {{"name", "parts_intent"},
+                                   {"content",
+                                    std::string("is_parts_request=") +
+                                    (it.is_parts_request ? "true" : "false") +
+                                    " keyword=\"" + it.keyword + "\"" +
+                                    (it.write_to_file
+                                       ? " write_to=" + it.filename
+                                       : "") +
+                                    " " + it.reasoning}});
+                    if (it.is_parts_request) {
+                        auto parts = components::search(it.keyword, /*limit=*/20);
+                        std::string a = components::format_results(parts, it.keyword);
+                        context::append("components", "response", a, it.keyword);
+
+                        handler["kind"]    = "components_answer";
+                        handler["keyword"] = it.keyword;
+
+                        if (it.write_to_file && !it.filename.empty()) {
+                            // Write into the chat's cwd if we have one, else
+                            // the process cwd. Best-effort — if the write
+                            // fails we still hand the user the inline answer.
+                            std::string root = cwd.empty() ? std::string(".") : cwd;
+                            std::string full =
+                                root + (root.back() == '/' ? "" : "/") + it.filename;
+                            std::ofstream f(full, std::ios::binary | std::ios::trunc);
+                            if (f) {
+                                f.write(a.data(), a.size());
+                                handler["file_path"] = full;
+                                handler["answer"]    =
+                                    "Wrote " + std::to_string(parts.size()) +
+                                    " parts to `" + full + "`.\n\n" + a;
+                                context::append("components", "file_written", full);
+                            } else {
+                                handler["answer"] =
+                                    "Could not write " + full + " (open failed). "
+                                    "Here are the results inline:\n\n" + a;
+                            }
+                        } else {
+                            handler["answer"] = a;
+                        }
+                        emit("layer", {{"name", "mouser"},
+                                       {"content", std::to_string(parts.size()) +
+                                                   " parts; keyword=" + it.keyword}});
+                        served_by_components = true;
+                    }
+                }
+
+                if (served_by_components) {
+                    // handler is already filled in; skip the act-based dispatch.
+                } else if (act.act == "command") {
                     const auto sh = shell_tool::execute(final_text, cwd);
                     context::append("shell", "command", sh.command);
                     context::append("shell", "output",  sh.stdout_text,
@@ -523,43 +583,18 @@ void handle_chat(const httplib::Request & req, httplib::Response & res) {
                                        : is_physics     ? "physics"
                                        : is_electronics ? "electronics"
                                        : "answer";
+                    // (parts-search short-circuit already handled above for
+                    // both question and command acts; if we're here, the
+                    // prompt isn't a parts request.)
                     std::string a;
-                    bool        served_by_components = false;
-                    // Before falling into the generic electronics LLM, see
-                    // if this is a parts-search request the Mouser tool can
-                    // handle directly. Cheaper, more useful, and gives the
-                    // user actual orderable part numbers + prices.
-                    if (is_electronics && components::has_credentials()) {
-                        components::Intent it = components::extract_intent(final_text);
-                        emit("layer", {{"name", "parts_intent"},
-                                       {"content",
-                                        std::string("is_parts_request=") +
-                                        (it.is_parts_request ? "true" : "false") +
-                                        " keyword=\"" + it.keyword + "\" " +
-                                        it.reasoning}});
-                        if (it.is_parts_request) {
-                            auto parts = components::search(it.keyword, /*limit=*/20);
-                            a = components::format_results(parts, it.keyword);
-                            context::append("components", "response", a, it.keyword);
-                            handler["kind"]    = "components_answer";
-                            handler["answer"]  = a;
-                            handler["keyword"] = it.keyword;
-                            emit("layer", {{"name", "mouser"},
-                                           {"content", std::to_string(parts.size()) +
-                                                       " parts; keyword=" + it.keyword}});
-                            served_by_components = true;
-                        }
-                    }
-                    if (!served_by_components) {
-                        if      (is_chem)        a = chemistry::answer(final_text);
-                        else if (is_physics)     a = physics::answer  (final_text);
-                        else if (is_electronics) a = physics::answer  (final_text);
-                        else                     a = answer::respond  (final_text);
-                        context::append("answer", "response", a, which);
-                        handler["kind"]   = std::string(which) + "_answer";
-                        handler["answer"] = a;
-                        emit("layer", {{"name", which}, {"content", a}});
-                    }
+                    if      (is_chem)        a = chemistry::answer(final_text);
+                    else if (is_physics)     a = physics::answer  (final_text);
+                    else if (is_electronics) a = physics::answer  (final_text);
+                    else                     a = answer::respond  (final_text);
+                    context::append("answer", "response", a, which);
+                    handler["kind"]   = std::string(which) + "_answer";
+                    handler["answer"] = a;
+                    emit("layer", {{"name", which}, {"content", a}});
                 } else if (act.act == "statement") {
                     bool persistent = false;
                     for (const auto & t : act.tags) if (t == "persistent") persistent = true;
