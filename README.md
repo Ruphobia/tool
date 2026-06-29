@@ -1298,7 +1298,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **GLM rate modeler** _(stub, awaits wire-up)_: Fits Poisson, gamma, and Tweedie GLMs to policy-level frequency and severity data for ratemaking, with relativity tables, lift charts, double-lift comparisons, and one-way exhibits.
 
-- ⬜ **Lee-Carter mortality forecaster** _(planned)_: Decomposes historical age-specific mortality into kt and bx factors via SVD, projects kt with ARIMA, and produces forecasted qx surfaces with prediction intervals for longevity work.
+- ✅ **Lee-Carter mortality forecaster** _(stub, awaits wire-up)_: Decomposes historical age-specific mortality into kt and bx factors via SVD, projects kt with ARIMA, and produces forecasted qx surfaces with prediction intervals for longevity work.
 
 - ⬜ **Reinsurance treaty modeler** _(planned)_: Applies quota share, surplus, per-risk XoL, per-occurrence XoL, and stop-loss layers to a simulated or historical loss set, returning ceded/net distributions, reinstatement premiums, and expected layer cost.
 
