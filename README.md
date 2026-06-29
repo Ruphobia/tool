@@ -2983,7 +2983,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Lab Protocol Planner** _(stub, awaits wire-up)_: Assay and protocol authoring with reagent table, dilution calculator (C1V1 = C2V2, serial dilutions, master mixes), buffer recipe builder, timer chaining, and step-by-step worksheet export. AI-integrated draft of a starting protocol from an experimental goal.
 
-- ⬜ **Sequence Property Calculator** _(planned)_: Computes molecular weight, isoelectric point, extinction coefficient, hydrophobicity (Kyte-Doolittle, GRAVY), instability index, codon adaptation index, and Tm for DNA/RNA/protein inputs. Batch mode over FASTA.
+- ✅ **Sequence Property Calculator** _(stub, awaits wire-up)_: Computes molecular weight, isoelectric point, extinction coefficient, hydrophobicity (Kyte-Doolittle, GRAVY), instability index, codon adaptation index, and Tm for DNA/RNA/protein inputs. Batch mode over FASTA.
 
 - ⬜ **Variant Annotator and Interpreter** _(planned)_: Annotates VCFs with gene models, consequence (VEP/SnpEff-style), population frequencies (gnomAD), clinical significance (ClinVar), and predicted impact (SIFT, PolyPhen, CADD, AlphaMissense). Filters and ranks for follow-up; outputs an annotated VCF and a candidate table.
 
