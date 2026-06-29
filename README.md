@@ -2505,7 +2505,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Corrosion and metallurgy advisor** _(stub, awaits wire-up)_: Galvanic series, mixed-potential, CO2/H2S corrosion (de Waard-Milliams), and NACE MR0175 sour-service envelope; material selection notes for CRAs.
 
-- ⬜ **Pump and compressor curve tool** _(planned)_: Affinity laws, NPSH margin, surge and stonewall checks; overlays vendor curves on system head and shifts for speed, impeller trim, and viscosity.
+- ✅ **Pump and compressor curve tool** _(stub, awaits wire-up)_: Affinity laws, NPSH margin, surge and stonewall checks; overlays vendor curves on system head and shifts for speed, impeller trim, and viscosity.
 
 - ⬜ **Multiphase pipeline flow tool** _(planned)_: Beggs-Brill, OLGAS-style mechanistic, and Lockhart-Martinelli regimes for two- and three-phase pipelines; slug-catcher sizing and erosional velocity.
 
