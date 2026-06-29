@@ -368,7 +368,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **JavaScript and Node** _(stub, awaits wire-up)_: a tool for JS/TS development: Node runtime, npm/pnpm/yarn package management, bundler config (vite/webpack/rollup/esbuild), tsc/tsserver, ESLint/Prettier, framework dev servers (Next/Nuxt/SvelteKit/Astro), browser devtools bridge.
 
-- ⬜ **Rust toolchain** _(planned)_: a tool for Rust development: rustup, cargo, cargo-watch, rust-analyzer, clippy/rustfmt, miri (UB checker), criterion benchmarks, cargo-flamegraph, cross compilation, no_std/embedded support.
+- ✅ **Rust toolchain** _(stub, awaits wire-up)_: a tool for Rust development: rustup, cargo, cargo-watch, rust-analyzer, clippy/rustfmt, miri (UB checker), criterion benchmarks, cargo-flamegraph, cross compilation, no_std/embedded support.
 
 - ⬜ **Go toolchain** _(planned)_: a tool for Go development: go modules, go test, gofmt/goimports, golangci-lint, delve debugger, pprof viewer, cross-compilation, cgo helpers.
 
