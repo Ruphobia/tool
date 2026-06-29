@@ -3963,7 +3963,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Flavor & Aroma Pairing Explorer** _(stub, awaits wire-up)_: Maps shared volatile aroma compounds across ingredients with overlap scoring. AI-integrated suggestion of novel pairings constrained by cuisine, season, and dietary rules.
 
-- ⬜ **Smoke, Roast & Stall Modeler** _(planned)_: Predicts internal temperature curves for low-and-slow cooks including the evaporative stall; recommends wood, rub, and wrap timing by protein cut and target bark.
+- ✅ **Smoke, Roast & Stall Modeler** _(stub, awaits wire-up)_: Predicts internal temperature curves for low-and-slow cooks including the evaporative stall; recommends wood, rub, and wrap timing by protein cut and target bark.
 
 - ⬜ **Spirit Proofing & Cuts Workbench** _(planned)_: Handles ABV and temperature correction, Pearson square dilution and blending, and heads/hearts/tails cut planning by congener volatility where legally applicable.
 
