@@ -3677,7 +3677,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **3D viewer and converter** _(stub, awaits wire-up)_: Loads OBJ, GLTF, FBX, STL, USDZ, and PLY (including Gaussian splats) with turntable preview and format conversion. Bakes textures and renders thumbnails for the asset library.
 
-- ⬜ **Texture and material tools** _(planned)_: PBR texture authoring with seamless tiling, normal/height/roughness map extraction, and AI-integrated material synthesis from a single photo. Outputs glTF-ready material sets.
+- ✅ **Texture and material tools** _(stub, awaits wire-up)_: PBR texture authoring with seamless tiling, normal/height/roughness map extraction, and AI-integrated material synthesis from a single photo. Outputs glTF-ready material sets.
 
 
 #### Photography and cinematography
