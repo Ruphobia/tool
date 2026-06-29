@@ -3702,7 +3702,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **HDR Merger** _(stub, awaits wire-up)_: Aligns and combines bracketed exposures into a 32-bit float radiance map, deghosts moving elements, and tone-maps via global (Reinhard, Drago) or local (Mantiuk, Durand) operators with controllable contrast preservation.
 
-- ⬜ **Color Grading Suite** _(planned)_: Node-based grading with lift/gamma/gain wheels, log/linear curves, qualifier-driven secondaries, scopes (waveform, vectorscope, parade, histogram), and ACES/Rec.709/Rec.2020 working spaces. Renders to ProRes and DNxHR.
+- ✅ **Color Grading Suite** _(stub, awaits wire-up)_: Node-based grading with lift/gamma/gain wheels, log/linear curves, qualifier-driven secondaries, scopes (waveform, vectorscope, parade, histogram), and ACES/Rec.709/Rec.2020 working spaces. Renders to ProRes and DNxHR.
 
 - ⬜ **LUT Designer** _(planned)_: Authors 1D and 3D LUTs from before/after frame pairs or from explicit gain/contrast/sat operations, converts between .cube, .3dl, and .lut formats at arbitrary cube sizes, and validates round-trip accuracy with a ColorChecker reference.
 
