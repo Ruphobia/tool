@@ -1439,7 +1439,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Audit Trail Ledger** _(stub, awaits wire-up)_: Append-only hash-chained event log with per-event Merkle proofs, signed periodic snapshots, and WORM export; queryable by subject, operator, document, or decision outcome for regulator inspection.
 
-- ⬜ **PII Redactor** _(planned)_: Masks faces, MRZ, signatures, and structured fields in images, PDFs, and JSON payloads; supports differential redaction with reversible vault entries gated by purpose-bound access tokens.
+- ✅ **PII Redactor** _(stub, awaits wire-up)_: Masks faces, MRZ, signatures, and structured fields in images, PDFs, and JSON payloads; supports differential redaction with reversible vault entries gated by purpose-bound access tokens.
 
 - ⬜ **Consent and Lawful-Basis Tracker** _(planned)_: Records GDPR Article 6 and 9 basis per data element, tracks consent versioning, expiry, and withdrawal events, and emits Records-of-Processing (ROPA) inventories for the DPO.
 
