@@ -1950,7 +1950,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **SPICE simulator** _(stub, awaits wire-up)_: Ngspice-based mixed-signal simulator with transient, AC, DC sweep, noise, and Monte Carlo analyses. AI-integrated translation of plain-language goals ("keep ripple under 50mV at 2A") into testbench setups and parameter sweeps.
 
-- ⬜ **Waveform viewer** _(planned)_: Plots simulation outputs and captured scope traces with cursors, math channels, FFT, eye diagrams, and jitter histograms. Side-by-side comparison of simulated vs measured signals.
+- ✅ **Waveform viewer** _(stub, awaits wire-up)_: Plots simulation outputs and captured scope traces with cursors, math channels, FFT, eye diagrams, and jitter histograms. Side-by-side comparison of simulated vs measured signals.
 
 - ⬜ **Filter designer** _(planned)_: Synthesizes passive and active filters (Butterworth, Chebyshev, Bessel, elliptic) from frequency-domain specs, with sensitivity analysis and E-series component snapping. AI-integrated suggestion of topology from a noise or interference profile.
 
