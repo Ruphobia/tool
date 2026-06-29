@@ -3353,7 +3353,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Studbook and pedigree manager** _(stub, awaits wire-up)_: PopLink/SPARKS/PMx-style studbook keeper with kinship and mean-kinship calculation, inbreeding coefficients, gene-drop simulation, and breeding-pair recommendations. Imports/exports ZIMS Species360 and standard studbook formats.
 
-- ⬜ **Incubation and reproduction tracker** _(planned)_: Species-specific gestation, incubation, and hatching calculators (mammals, birds, reptiles with TSD curves) with weight-loss and temperature/humidity logging. Predicts hatch/parturition windows and flags deviations from reference curves.
+- ✅ **Incubation and reproduction tracker** _(stub, awaits wire-up)_: Species-specific gestation, incubation, and hatching calculators (mammals, birds, reptiles with TSD curves) with weight-loss and temperature/humidity logging. Predicts hatch/parturition windows and flags deviations from reference curves.
 
 - ⬜ **Diet and nutrition formulator** _(planned)_: Formulates rations against NRC/AZA nutrient targets for the species and life stage, balancing prey items, produce, and pellets for ME, protein, Ca:P, vitamin A/E, and taurine. Computes feeding cost and writes daily-prep sheets for keepers.
 
