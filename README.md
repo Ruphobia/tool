@@ -3079,7 +3079,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Construct assembly planner** _(stub, awaits wire-up)_: Plans Gibson, Golden Gate, MoClo, and In-Fusion assemblies from fragment graphs, emits junction overhangs and primer orders, and simulates the final plasmid. Detects illegal internal cut sites for the chosen type IIS enzyme.
 
-- ⬜ **Alignment viewer** _(planned)_: Runs MUSCLE, MAFFT, or Clustal alignments, renders conservation and consensus tracks, and builds neighbor-joining or maximum-likelihood phylogenies from the result.
+- ✅ **Alignment viewer** _(stub, awaits wire-up)_: Runs MUSCLE, MAFFT, or Clustal alignments, renders conservation and consensus tracks, and builds neighbor-joining or maximum-likelihood phylogenies from the result.
 
 - ⬜ **Read aligner and variant caller** _(planned)_: Wraps BWA-MEM, minimap2, bcftools, and DeepVariant for short- and long-read alignment and SNV/indel calling, with BAM and VCF inspection plus depth and coverage QC.
 
