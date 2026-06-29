@@ -3548,7 +3548,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Irrigation Scheduler** _(stub, awaits wire-up)_: Computes daily and weekly water needs from reference ET (Penman-Monteith or Hargreaves), crop coefficient (Kc) curves, root depth, soil water holding capacity, and rainfall. Outputs run times per zone for drip, micro-spray, or overhead emitters.
 
-- ⬜ **Drip Layout Designer** _(planned)_: Lays out drip lines, emitters, and submains over a plot drawing with hydraulic calculations for pressure loss, emitter flow uniformity (EU), and lateral length limits. Generates a parts list keyed to standard fittings.
+- ✅ **Drip Layout Designer** _(stub, awaits wire-up)_: Lays out drip lines, emitters, and submains over a plot drawing with hydraulic calculations for pressure loss, emitter flow uniformity (EU), and lateral length limits. Generates a parts list keyed to standard fittings.
 
 - ⬜ **Garden Plot Designer** _(planned)_: 2D bed and row editor with scale, sun exposure overlay, path widths, and plant spacing footprints from a built-in cultivar database. Snaps to companion planting and rotation constraints.
 
