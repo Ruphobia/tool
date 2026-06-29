@@ -3937,7 +3937,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Baker's Percentage Workbench** _(stub, awaits wire-up)_: Edits formulas as baker's percentages with total dough weight, hydration, salt, and pre-ferment targets; back-solves any field from any other and validates against style ranges.
 
-- ⬜ **Sous-Vide Pasteurization Table** _(planned)_: Computes time-to-pasteurization by core thickness and target log reduction for poultry, beef, pork, fish, and egg using published D and z values, with come-up time correction.
+- ✅ **Sous-Vide Pasteurization Table** _(stub, awaits wire-up)_: Computes time-to-pasteurization by core thickness and target log reduction for poultry, beef, pork, fish, and egg using published D and z values, with come-up time correction.
 
 - ⬜ **Equilibrium Cure & Brine Calculator** _(planned)_: Solves salt, sugar, and nitrite (Prague #1 and #2) percentages by total system mass for wet, dry, and EQ cures; enforces safe ppm bounds and estimates dwell time by thickness.
 
