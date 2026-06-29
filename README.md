@@ -3741,7 +3741,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **UV Toolkit** _(stub, awaits wire-up)_: Automatic and manual UV unwrap with angle-based flattening, packed tile (UDIM) layout, seam painter, and distortion heatmap. Suggests seam placement from mesh curvature and symmetry analysis.
 
-- ⬜ **Sculpt and Retopo** _(planned)_: Multiresolution dynamic-topology sculpting with masks, layers, and remeshing; coupled with quad-dominant retopology for animation-ready meshes. AI-integrated auto-retopo respecting edge loops at deformation regions.
+- ✅ **Sculpt and Retopo** _(stub, awaits wire-up)_: Multiresolution dynamic-topology sculpting with masks, layers, and remeshing; coupled with quad-dominant retopology for animation-ready meshes. AI-integrated auto-retopo respecting edge loops at deformation regions.
 
 - ⬜ **Motion Tracker** _(planned)_: 2D point tracker, planar tracker, and full 3D camera solve from monocular footage with lens-distortion calibration and survey-point constraints. Exports solved cameras and tracked geometry to USD or Alembic.
 
