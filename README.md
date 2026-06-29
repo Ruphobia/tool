@@ -4182,7 +4182,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Ink Library and Mix Calculator** _(stub, awaits wire-up)_: Tracks pigment brands, batch numbers, and MSDS data, and computes mix ratios for custom greywash dilutions or color blends. Flags inks containing reportable allergens or banned EU REACH pigments.
 
-- ⬜ **Aftercare Protocol Generator** _(planned)_: Produces client-specific aftercare instructions based on placement, size, technique, and skin type, with day-by-day timelines. AI adapts wording for reading level and translates to client's preferred language.
+- ✅ **Aftercare Protocol Generator** _(stub, awaits wire-up)_: Produces client-specific aftercare instructions based on placement, size, technique, and skin type, with day-by-day timelines. AI adapts wording for reading level and translates to client's preferred language.
 
 - ⬜ **Jewelry Sizing Calculator** _(planned)_: Converts gauge, diameter, and length across metric and imperial standards for barbells, rings, labrets, and plugs. Accounts for swelling allowances and anatomy-specific minimums (septum, daith, surface).
 
