@@ -2822,7 +2822,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pose estimation studio** _(stub, awaits wire-up)_: Estimates 6D object poses from RGB and RGB-D inputs using FoundationPose, MegaPose, fiducial markers (AprilTag, ArUco), and template matching, with ground-truth annotation and refinement tooling.
 
-- ⬜ **Photogrammetry and radiance-field workbench** _(planned)_: Reconstructs scenes via structure-from-motion (COLMAP, OpenMVG), NeRF (nerfstudio), and Gaussian splatting (gsplat, SuGaR) from image sets, with mesh, point cloud, and splat export plus pose-graph editing.
+- ✅ **Photogrammetry and radiance-field workbench** _(stub, awaits wire-up)_: Reconstructs scenes via structure-from-motion (COLMAP, OpenMVG), NeRF (nerfstudio), and Gaussian splatting (gsplat, SuGaR) from image sets, with mesh, point cloud, and splat export plus pose-graph editing.
 
 - ⬜ **Octomap and occupancy editor** _(planned)_: Builds, edits, and queries 2D and 3D occupancy grids, OctoMaps, and ESDFs with frustum carving, raycasting, dilation, and probabilistic thresholding for navigation and manipulation planning.
 
