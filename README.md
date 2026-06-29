@@ -276,7 +276,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ⬜ **Footnote and Endnote Manager** _(planned)_: Tracks footnotes, endnotes, ibid/op-cit short forms, and cross-references across long documents. Renumbers and re-resolves automatically when sections move or sources change.
 
-- ⬜ **Attachment Deduper** _(planned)_: Content-hash and perceptual-hash detection for duplicate PDFs, supplementary files, and figures. Proposes merges that preserve annotations, notes, and citation-key history.
+- ✅ **Attachment Deduper** _(in testing)_: Content-hash and perceptual-hash detection for duplicate PDFs, supplementary files, and figures. Proposes merges that preserve annotations, notes, and citation-key history.
 
 - ⬜ **Citation Graph Explorer** _(planned)_: Local citation network built from extracted references and OpenAlex/Semantic Scholar edges. Surfaces co-citation clusters, seminal works, missing forward citations, and review-article shortcuts.
 
