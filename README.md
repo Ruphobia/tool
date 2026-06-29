@@ -313,7 +313,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Test runner** _(stub, awaits wire-up)_: Discovers and executes unit, integration, and property tests across frameworks, surfaces failure deltas over time, and offers AI-generated test cases and fixtures from a function under cursor.
 
-- ⬜ **Debugger** _(planned)_: DAP-based stepping debugger with watch expressions, conditional breakpoints, and reverse step where supported, plus AI explanation of variable state and likely root cause at a breakpoint.
+- ✅ **Debugger** _(stub, awaits wire-up)_: DAP-based stepping debugger with watch expressions, conditional breakpoints, and reverse step where supported, plus AI explanation of variable state and likely root cause at a breakpoint.
 
 - ⬜ **Profiler** _(planned)_: Sampling and tracing profiler with flamegraph, call tree, and allocation views for native and managed runtimes, with AI annotation of hot paths and suggested optimizations.
 
