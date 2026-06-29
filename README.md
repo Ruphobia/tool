@@ -4225,7 +4225,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **RF Coordination Planner** _(stub, awaits wire-up)_: Assigns wireless mic and IEM frequencies inside a license-free band, avoiding intermodulation products through third and fifth order, local broadcast TV channels, and on-site bleed.
 
-- ⬜ **Set Drafting Workspace** _(planned)_: Drafts ground plan, section, and elevation views at scale with line weights, hatches, dimensions, and a title block. Exports DWG/PDF for the scene shop and load-in crew.
+- ✅ **Set Drafting Workspace** _(stub, awaits wire-up)_: Drafts ground plan, section, and elevation views at scale with line weights, hatches, dimensions, and a title block. Exports DWG/PDF for the scene shop and load-in crew.
 
 - ⬜ **Blocking Notation Pad** _(planned)_: Captures actor positions on a top-down stage diagram beat by beat or page by page. Scrubs through the script timeline to see entrances, crosses, exits, and stage picture changes.
 
