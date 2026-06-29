@@ -3032,7 +3032,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Structure viewer** _(stub, awaits wire-up)_: Renders proteins, ligands, and nucleic acids in cartoon, surface, and electrostatic modes via PyMOL or Mol* bindings with structural alignment via TM-align or Foldseek.
 
-- ⬜ **Docking and binding workbench** _(planned)_: Runs AutoDock Vina, DiffDock, or HADDOCK for ligand and protein-protein docking; scores poses and computes interface residues for inhibitor and antibody studies.
+- ✅ **Docking and binding workbench** _(stub, awaits wire-up)_: Runs AutoDock Vina, DiffDock, or HADDOCK for ligand and protein-protein docking; scores poses and computes interface residues for inhibitor and antibody studies.
 
 - ⬜ **Antibody and epitope mapper** _(planned)_: Numbers antibody sequences (IMGT, Kabat, Chothia, AHo), models Fv structures via ABodyBuilder, and predicts linear and conformational B-cell and T-cell epitopes (BepiPred, DiscoTope, NetMHCpan).
 
