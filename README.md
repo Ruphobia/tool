@@ -3914,7 +3914,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Quilt Block Designer** _(stub, awaits wire-up)_: Block library and layout canvas with fabric swatches, sashing, borders, and on-point sets. Auto-computes piecing yardage, cutting list, and half-square-triangle math, and renders a fabric-colored preview.
 
-- ⬜ **Dye Recipe Tracker** _(planned)_: Logs immersion, low-water, acid, fiber-reactive, and natural dye recipes with weight-of-fiber percentages, depth of shade, mordants, water hardness, and temperature curves. Reproduces a target color from a recorded swatch and predicts recipe scaling.
+- ✅ **Dye Recipe Tracker** _(stub, awaits wire-up)_: Logs immersion, low-water, acid, fiber-reactive, and natural dye recipes with weight-of-fiber percentages, depth of shade, mordants, water hardness, and temperature curves. Reproduces a target color from a recorded swatch and predicts recipe scaling.
 
 - ⬜ **Yarn Substitution Calculator** _(planned)_: Matches a target yarn by gauge, wraps per inch, fiber blend, twist, and weight category against a personal stash database. Recomputes ball quantity needed for a given pattern when substituting.
 
