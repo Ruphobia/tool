@@ -1470,7 +1470,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Page operations** _(stub, awaits wire-up)_: Splits, merges, reorders, rotates, crops, and renumbers PDF pages with a thumbnail editor. Handles bookmark and outline preservation across operations.
 
-- ⬜ **RAG chat** _(planned)_: Question-answering interface over a selected library subset using embeddings, BM25, and rerankers. Returns answers with span-level citations back to the source pages.
+- ✅ **RAG chat** _(stub, awaits wire-up)_: Question-answering interface over a selected library subset using embeddings, BM25, and rerankers. Returns answers with span-level citations back to the source pages.
 
 - ⬜ **Embedding pipeline** _(planned)_: Chunks documents by layout-aware boundaries, computes embeddings with a configurable model, and writes them to a local vector store. Supports incremental reindexing as the library changes.
 
