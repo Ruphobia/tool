@@ -4527,7 +4527,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Avalanche Forecast Overlay** _(stub, awaits wire-up)_: Pulls regional avalanche center bulletins (CAIC, UAC, Avalanche Canada, EAWS) and overlays danger rose, problem types, and elevation bands onto the map. Caches forecasts offline for backcountry trips.
 
-- ⬜ **Slope Angle & Aspect Map** _(planned)_: Renders slope angle shading (27, 30, 35, 38, 45 degree bands) and aspect coloring from local DEM tiles. Highlights terrain traps, runout zones, and ATES classifications along a planned ski tour line.
+- ✅ **Slope Angle & Aspect Map** _(stub, awaits wire-up)_: Renders slope angle shading (27, 30, 35, 38, 45 degree bands) and aspect coloring from local DEM tiles. Highlights terrain traps, runout zones, and ATES classifications along a planned ski tour line.
 
 - ⬜ **Climb Grade Converter** _(planned)_: Converts between YDS, French, UIAA, British trad (adjectival + technical), Australian, Hueco, Font, and ice/mixed (WI, M) scales. Handles route grades, boulder grades, ice grades, and aid grades with confidence bands where systems do not map cleanly.
 
