@@ -1331,7 +1331,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Currency Converter** _(stub, awaits wire-up)_: Converts between fiat and crypto at spot or historical rates from vendored daily FX series, with offline fallback and pluggable live feeds. Handles cross-rate triangulation and inline conversion inside any other tool.
 
-- ⬜ **Budget & Cash Flow Forecaster** _(planned)_: Projects month-by-month inflows and outflows from recurring rules, scheduled invoices, and ledger trends; surfaces runway, minimum-balance dates, and seasonality. AI-integrated anomaly detection flags categories drifting from baseline.
+- ✅ **Budget & Cash Flow Forecaster** _(stub, awaits wire-up)_: Projects month-by-month inflows and outflows from recurring rules, scheduled invoices, and ledger trends; surfaces runway, minimum-balance dates, and seasonality. AI-integrated anomaly detection flags categories drifting from baseline.
 
 - ⬜ **Amortization & Loan Designer** _(planned)_: Schedules amortization for mortgages, auto loans, student loans, and custom instruments with fixed, variable, balloon, interest-only, or step-rate terms; compares prepayment, refinance, and recast strategies side by side with total-interest and break-even analysis.
 
