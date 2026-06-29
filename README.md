@@ -3280,7 +3280,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Image Stacker** _(stub, awaits wire-up)_: Aligns and combines astrophotography subexposures with star detection, registration, sigma-clipped stacking, and dark/flat/bias calibration. Supports drizzle integration, dithered mosaics, and per-frame quality scoring.
 
-- ⬜ **Aperture Photometry** _(planned)_: Measures source brightness with circular, elliptical, or PSF-fitted apertures and annular sky subtraction. Outputs differential and absolute magnitudes against catalog comparison stars with airmass and color-term correction.
+- ✅ **Aperture Photometry** _(stub, awaits wire-up)_: Measures source brightness with circular, elliptical, or PSF-fitted apertures and annular sky subtraction. Outputs differential and absolute magnitudes against catalog comparison stars with airmass and color-term correction.
 
 - ⬜ **Plate Solver** _(planned)_: Determines WCS astrometric solution for any image by matching detected stars against Gaia or Tycho catalogs. Returns RA/Dec center, rotation, pixel scale, and field distortion polynomial.
 
