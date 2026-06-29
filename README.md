@@ -4348,7 +4348,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Speedrun split timer** _(stub, awaits wire-up)_: LiveSplit-compatible timer with autosplitters, gold-split tracking, sum-of-best, and run history. Imports splits.io files and exports run attempts as JSON for pacing analysis.
 
-- ⬜ **Walkthrough/wiki indexer** _(planned)_: Builds a local full-text index over GameFAQs guides, Fandom wikis, speedrun.com resources, and StrategyWiki pages for a given game. Returns ranked passages with citations and supports follow-up questions grounded in the indexed corpus.
+- ✅ **Walkthrough/wiki indexer** _(stub, awaits wire-up)_: Builds a local full-text index over GameFAQs guides, Fandom wikis, speedrun.com resources, and StrategyWiki pages for a given game. Returns ranked passages with citations and supports follow-up questions grounded in the indexed corpus.
 
 - ⬜ **Replay annotator** _(planned)_: Ingests game replays (chess PGN, StarCraft .rep, Dota .dem, fighting-game match video) and produces a turn/tick-aligned annotation track with engine evaluation, key-moment markers, and AI-generated commentary. Exports to a timeline UI or video overlay.
 
