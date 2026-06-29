@@ -321,7 +321,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Static analyzer** _(stub, awaits wire-up)_: Cross-language semantic analysis for dead code, unsafe patterns, taint flow, and complexity hotspots, with AI triage of findings into real issues versus noise.
 
-- ⬜ **Dependency manager** _(planned)_: Unified view of declared and resolved dependencies across package ecosystems, with version pinning, vuln advisories, license badges, and AI-suggested upgrade paths that flag breaking changes.
+- ✅ **Dependency manager** _(stub, awaits wire-up)_: Unified view of declared and resolved dependencies across package ecosystems, with version pinning, vuln advisories, license badges, and AI-suggested upgrade paths that flag breaking changes.
 
 - ✅ **SBOM and license auditor** _(in testing)_: Generates CycloneDX/SPDX bills of materials, classifies licenses (PD, permissive, copyleft, share-alike, restricted), and warns when a transitive pull conflicts with the project's licensing intent.
 
