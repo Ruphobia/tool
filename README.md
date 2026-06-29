@@ -4350,7 +4350,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Walkthrough/wiki indexer** _(stub, awaits wire-up)_: Builds a local full-text index over GameFAQs guides, Fandom wikis, speedrun.com resources, and StrategyWiki pages for a given game. Returns ranked passages with citations and supports follow-up questions grounded in the indexed corpus.
 
-- ⬜ **Replay annotator** _(planned)_: Ingests game replays (chess PGN, StarCraft .rep, Dota .dem, fighting-game match video) and produces a turn/tick-aligned annotation track with engine evaluation, key-moment markers, and AI-generated commentary. Exports to a timeline UI or video overlay.
+- ✅ **Replay annotator** _(stub, awaits wire-up)_: Ingests game replays (chess PGN, StarCraft .rep, Dota .dem, fighting-game match video) and produces a turn/tick-aligned annotation track with engine evaluation, key-moment markers, and AI-generated commentary. Exports to a timeline UI or video overlay.
 
 - ⬜ **Randomizer seed analyzer** _(planned)_: Loads randomizer logic files (OoT, ALttP, Pokemon) for a given seed and computes item placement, required tricks, and shortest-path routes through dungeons. Surfaces logic-locked items and beatability checks.
 
