@@ -691,7 +691,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **SMART and disk health** _(stub, awaits wire-up)_: Reads SMART attributes, runs short and long self-tests, and tracks attribute trends per device over time. AI-integrated failure-risk scoring from attribute drift, with replacement urgency suggestions.
 
-- ⬜ **Filesystem and mount manager** _(planned)_: Lists block devices, partitions, LVM volumes, and mount points; performs mount, unmount, fstab edits, and filesystem creation. Includes BTRFS and ZFS subvolume and snapshot management.
+- ✅ **Filesystem and mount manager** _(stub, awaits wire-up)_: Lists block devices, partitions, LVM volumes, and mount points; performs mount, unmount, fstab edits, and filesystem creation. Includes BTRFS and ZFS subvolume and snapshot management.
 
 - ⬜ **Backup scheduler** _(planned)_: Configures restic, borg, or rsync jobs with retention policies, encryption keys, and target repositories (local, SFTP, S3). Runs scheduled and ad-hoc backups, verifies snapshots, and offers point-in-time restore browsing.
 
