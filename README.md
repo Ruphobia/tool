@@ -4381,7 +4381,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Memory Watcher** _(stub, awaits wire-up)_: Lightweight RAM watcher and pointer-path resolver for emulators and PC processes, with named addresses, struct overlays, and tick-aligned logging. Used as the data source for auto-splitters and route validators.
 
-- ⬜ **RNG Manipulator** _(planned)_: RNG state tracker and manipulation planner that models per-frame PRNG advancement for games with exposed seeds. Generates input sequences that hit target seeds and verifies them against captured runs.
+- ✅ **RNG Manipulator** _(stub, awaits wire-up)_: RNG state tracker and manipulation planner that models per-frame PRNG advancement for games with exposed seeds. Generates input sequences that hit target seeds and verifies them against captured runs.
 
 - ⬜ **VOD Indexer** _(planned)_: Local index over Twitch, YouTube, and downloaded VODs with chat ingest, scene detection, and OCR of in-game HUDs. AI tagger marks deaths, objective takes, and notable plays for instant jump-to.
 
