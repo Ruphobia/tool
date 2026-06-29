@@ -2090,7 +2090,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Dimensional-analysis assistant** _(stub, awaits wire-up)_: Buckingham-pi reduction of governing equations to dimensionless groups, with named-group recognition (Reynolds, Nusselt, Prandtl, Mach, Weber) and scaling-law derivation.
 
-- ⬜ **Error propagation tool** _(planned)_: Symbolic and Monte-Carlo propagation of measurement uncertainties through arbitrary expressions, with correlated inputs, sensitivity coefficients, and GUM-compliant reporting.
+- ✅ **Error propagation tool** _(stub, awaits wire-up)_: Symbolic and Monte-Carlo propagation of measurement uncertainties through arbitrary expressions, with correlated inputs, sensitivity coefficients, and GUM-compliant reporting.
 
 - ⬜ **Optimization studio** _(planned)_: Linear, nonlinear, integer, and global optimization with constraint editor, gradient/Hessian inspection, and multi-objective Pareto-front exploration. AI-integrated formulation from a natural-language problem statement.
 
