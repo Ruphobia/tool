@@ -2204,7 +2204,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Mesh Repair and Orientation Optimizer** _(stub, awaits wire-up)_: Heals non-manifold meshes, fills holes, and re-meshes; finds print orientations that minimize support volume, maximize strength along load axes, and reduce visible seams on cosmetic faces.
 
-- ⬜ **Lattice and TPMS Infill Generator** _(planned)_: Generates gyroid, Schwarz, voronoi, and graded lattices inside arbitrary shells with target density, stiffness, and porosity for lightweighting, conformal cushioning, and heat exchanger geometry.
+- ✅ **Lattice and TPMS Infill Generator** _(stub, awaits wire-up)_: Generates gyroid, Schwarz, voronoi, and graded lattices inside arbitrary shells with target density, stiffness, and porosity for lightweighting, conformal cushioning, and heat exchanger geometry.
 
 - ⬜ **Laser Toolpath Generator** _(planned)_: Plans laser cutting and vector engraving paths with kerf compensation, lead-ins, tab bridges, focus offset, and multi-pass strategies; orders cuts to minimize travel and heat buildup, and tags parts to keep falling pieces in place.
 
