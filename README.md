@@ -1343,7 +1343,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Cap Table Modeler** _(stub, awaits wire-up)_: Tracks shares, options, SAFEs, convertible notes, and warrants across founding, seed, and priced rounds; computes pre/post-money dilution, waterfall payouts at exit, and option-pool top-up effects. Generates 409A-style summary outputs.
 
-- ⬜ **Crypto Cost-Basis Tracker** _(planned)_: Ingests on-chain transactions and exchange exports, reconstructs cost basis per lot across wallets, handles staking, airdrops, hard forks, DeFi swaps, and bridges, and exports realized-gain reports for tax filing in multiple jurisdictions.
+- ✅ **Crypto Cost-Basis Tracker** _(stub, awaits wire-up)_: Ingests on-chain transactions and exchange exports, reconstructs cost basis per lot across wallets, handles staking, airdrops, hard forks, DeFi swaps, and bridges, and exports realized-gain reports for tax filing in multiple jurisdictions.
 
 - ⬜ **Financial Statement Analyzer** _(planned)_: Loads 10-K, 10-Q, and 20-F filings or pasted statements, normalizes line items, and computes liquidity, leverage, profitability, efficiency, and valuation ratios across periods; benchmarks against industry medians with AI-integrated commentary on outliers.
 
