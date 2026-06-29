@@ -1870,7 +1870,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Comparative Method Workbench** _(stub, awaits wire-up)_: Aligns cognate sets across related languages, derives regular sound correspondences, and reconstructs proto-forms. Flags borrowings and chance resemblances against the established regularity baseline.
 
-- ⬜ **Diachronic Family Tree** _(planned)_: Models a language family as a branching tree with dated splits, inherited sound-change cascades, and contact-induced borrowing arrows. Re-running the cascade re-derives every daughter lexicon from the proto-lexicon, keeping the family internally consistent.
+- ✅ **Diachronic Family Tree** _(stub, awaits wire-up)_: Models a language family as a branching tree with dated splits, inherited sound-change cascades, and contact-induced borrowing arrows. Re-running the cascade re-derives every daughter lexicon from the proto-lexicon, keeping the family internally consistent.
 
 - ⬜ **Conworld Linguistic Atlas** _(planned)_: Plots language and dialect regions on a world map with isoglosses, sprachbund boundaries, and contact zones. Each polygon links back to its lexicon, phonology, and demographic notes.
 
