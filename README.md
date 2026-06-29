@@ -797,7 +797,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Spatial Audio Mixer** _(stub, awaits wire-up)_: Ambisonic (1st to 3rd order) and HRTF binaural mixer with per-source distance, occlusion, and reverb-zone controls. Includes head-locked rotation preview and A/B against a standard HRTF set.
 
-- ⬜ **World Anchor Workbench** _(planned)_: Place, name, and persist spatial anchors against a captured room mesh; export to ARKit, ARCore, OpenXR Spatial Anchors, and a portable JSON format. Visualizes anchor confidence and drift over relocalization passes.
+- ✅ **World Anchor Workbench** _(stub, awaits wire-up)_: Place, name, and persist spatial anchors against a captured room mesh; export to ARKit, ARCore, OpenXR Spatial Anchors, and a portable JSON format. Visualizes anchor confidence and drift over relocalization passes.
 
 - ⬜ **Comfort Analyzer** _(planned)_: Motion-sickness predictor that scores a recorded locomotion clip on optical flow magnitude, vection, unexpected yaw/pitch, frame-time stability, and acceleration profile. Flags offending segments on a timeline with suggested fixes (vignette, snap-turn, reduced FOV).
 
