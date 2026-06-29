@@ -3077,7 +3077,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Genomics, synthetic biology, and neuroscience
 
-- ⬜ **Construct assembly planner** _(planned)_: Plans Gibson, Golden Gate, MoClo, and In-Fusion assemblies from fragment graphs, emits junction overhangs and primer orders, and simulates the final plasmid. Detects illegal internal cut sites for the chosen type IIS enzyme.
+- ✅ **Construct assembly planner** _(stub, awaits wire-up)_: Plans Gibson, Golden Gate, MoClo, and In-Fusion assemblies from fragment graphs, emits junction overhangs and primer orders, and simulates the final plasmid. Detects illegal internal cut sites for the chosen type IIS enzyme.
 
 - ⬜ **Alignment viewer** _(planned)_: Runs MUSCLE, MAFFT, or Clustal alignments, renders conservation and consensus tracks, and builds neighbor-joining or maximum-likelihood phylogenies from the result.
 
