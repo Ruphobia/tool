@@ -2507,7 +2507,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pump and compressor curve tool** _(stub, awaits wire-up)_: Affinity laws, NPSH margin, surge and stonewall checks; overlays vendor curves on system head and shifts for speed, impeller trim, and viscosity.
 
-- ⬜ **Multiphase pipeline flow tool** _(planned)_: Beggs-Brill, OLGAS-style mechanistic, and Lockhart-Martinelli regimes for two- and three-phase pipelines; slug-catcher sizing and erosional velocity.
+- ✅ **Multiphase pipeline flow tool** _(stub, awaits wire-up)_: Beggs-Brill, OLGAS-style mechanistic, and Lockhart-Martinelli regimes for two- and three-phase pipelines; slug-catcher sizing and erosional velocity.
 
 - ⬜ **Subsea riser and umbilical analyzer** _(planned)_: Catenary, lazy-wave, and steel catenary riser configurations with VIV fatigue screening per DNV-RP-F204; touchdown-point fatigue hot spots.
 
