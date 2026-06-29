@@ -1302,7 +1302,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Reinsurance treaty modeler** _(stub, awaits wire-up)_: Applies quota share, surplus, per-risk XoL, per-occurrence XoL, and stop-loss layers to a simulated or historical loss set, returning ceded/net distributions, reinstatement premiums, and expected layer cost.
 
-- ⬜ **Credibility and experience rating tool** _(planned)_: Applies limited fluctuation (classical) and Buhlmann-Straub credibility to experience data, blending observed and prior loss ratios with credibility weights for individual risk rating.
+- ✅ **Credibility and experience rating tool** _(stub, awaits wire-up)_: Applies limited fluctuation (classical) and Buhlmann-Straub credibility to experience data, blending observed and prior loss ratios with credibility weights for individual risk rating.
 
 
 #### Finance, markets, accounting
