@@ -1413,7 +1413,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Document Classifier** _(stub, awaits wire-up)_: Identifies document type, issuing country, and template version from an image using a local catalog of known layouts plus an AI-integrated visual classifier fallback for unseen variants.
 
-- ⬜ **ID OCR Pipeline** _(planned)_: Runs template-aware OCR across passport, driver license, and national ID layouts; extracts named fields (name, DOB, MRZ, document number, expiry, address) into a typed record with per-field confidence.
+- ✅ **ID OCR Pipeline** _(stub, awaits wire-up)_: Runs template-aware OCR across passport, driver license, and national ID layouts; extracts named fields (name, DOB, MRZ, document number, expiry, address) into a typed record with per-field confidence.
 
 - ⬜ **PDF417 Barcode Reader** _(planned)_: Decodes AAMVA PDF417 driver license barcodes, Code128, QR, and Aztec symbologies into structured demographic fields; cross-checks decoded values against visible OCR text for tamper signal.
 
