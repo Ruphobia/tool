@@ -4510,7 +4510,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Track and Sign ID** _(stub, awaits wire-up)_: Identifies mammal and bird tracks, scat, rubs, scrapes, and feathers from photos with a measurement overlay for scale. Gait analysis suggests species, direction, and time-since with confidence rationale.
 
-- ⬜ **Tide and Current Charts** _(planned)_: Provides tide height, slack, and current vectors for NOAA and international stations with bite-window heuristics by target species. Pairs lunar phase, water temperature, and wind to score coastal and estuary trips.
+- ✅ **Tide and Current Charts** _(stub, awaits wire-up)_: Provides tide height, slack, and current vectors for NOAA and international stations with bite-window heuristics by target species. Pairs lunar phase, water temperature, and wind to score coastal and estuary trips.
 
 - ⬜ **Game Call Library** _(planned)_: Audio reference of elk bugles, turkey yelps, whitetail grunts, predator distress, and waterfowl calls with cadence diagrams and best-use season notes. Includes a sequence builder that practices call-and-response drills against playback.
 
