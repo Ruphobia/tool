@@ -248,7 +248,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Knowledge Base Store** _(in testing)_: Per-project content-addressed store for raw responses, extracted text, and metadata, with full-text and vector indexes. Queryable by URL, host, time range, tag, or semantic similarity.
 
-- ⬜ **AI Page Triage** _(planned)_: Classifies fetched pages by topic, language, paywall status, and content quality so the queue can drop junk before extraction. Optional LLM pass tags entities and summarizes long articles for fast skimming.
+- ✅ **AI Page Triage** _(in testing)_: Classifies fetched pages by topic, language, paywall status, and content quality so the queue can drop junk before extraction. Optional LLM pass tags entities and summarizes long articles for fast skimming.
 
 - ✅ **Change Watcher** _(in testing)_: Diffs successive fetches of the same URL at the rendered-text level and emits a change event when meaningful content shifts. Ignores rotating ads, CSRF tokens, and timestamp churn via learned noise masks.
 
