@@ -1548,7 +1548,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Survival analysis** _(stub, awaits wire-up)_: Kaplan-Meier curves, Cox proportional hazards, Aalen additive, and accelerated failure time models with log-rank tests, Schoenfeld residuals, and time-varying covariates.
 
-- ⬜ **Causal inference toolkit** _(planned)_: DoWhy/EconML-style interface for DAG specification, identification, estimation (IPW, doubly robust, double ML, synthetic control, regression discontinuity), and sensitivity analysis. AI-integrated DAG drafting from a written problem description.
+- ✅ **Causal inference toolkit** _(stub, awaits wire-up)_: DoWhy/EconML-style interface for DAG specification, identification, estimation (IPW, doubly robust, double ML, synthetic control, regression discontinuity), and sensitivity analysis. AI-integrated DAG drafting from a written problem description.
 
 - ⬜ **Experiment tracker** _(planned)_: Local MLflow-compatible store for runs, params, metrics, artifacts, and model versions with side-by-side run comparison and parallel-coordinates plots over the hyperparameter space.
 
