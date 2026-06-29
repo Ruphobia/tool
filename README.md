@@ -1838,7 +1838,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Script & Romanization Converter** _(stub, awaits wire-up)_: Transliterates bidirectionally between native scripts and romanizations (ISO, ALA-LC, Hepburn, Pinyin, BGN/PCGN), with reversible mappings and per-character provenance. Highlights lossy substitutions.
 
-- ⬜ **Unicode Inspector** _(planned)_: Decomposes a string into codepoints, grapheme clusters, normalization forms (NFC/NFD/NFKC/NFKD), bidi runs, and script/block metadata. Flags confusables, mixed-script spoofs, and zero-width controls.
+- ✅ **Unicode Inspector** _(stub, awaits wire-up)_: Decomposes a string into codepoints, grapheme clusters, normalization forms (NFC/NFD/NFKC/NFKD), bidi runs, and script/block metadata. Flags confusables, mixed-script spoofs, and zero-width controls.
 
 - ⬜ **Conlang Workbench** _(planned)_: Integrated environment for constructed languages: phoneme inventory, phonotactic constraints, lexicon with custom fields, generative word forge, and chained sound-change diachronics. Exports a printable grammar and dictionary.
 
