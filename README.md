@@ -4705,7 +4705,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Historical Jurisdiction Atlas** _(stub, awaits wire-up)_: Time-sliced map overlay of county, parish, diocese, and country boundaries from roughly 1500 to present. Given an event date and modern place, returns the correct jurisdiction that would hold the original record.
 
-- ⬜ **Endogamy and Pedigree Collapse Detector** _(planned)_: Scans the tree for shared ancestors within a configurable generational window and computes inbreeding coefficients. Warns when DNA cM predictions should be widened due to endogamous populations (Ashkenazi, Acadian, isolated island, colonial Virginia).
+- ✅ **Endogamy and Pedigree Collapse Detector** _(stub, awaits wire-up)_: Scans the tree for shared ancestors within a configurable generational window and computes inbreeding coefficients. Warns when DNA cM predictions should be widened due to endogamous populations (Ashkenazi, Acadian, isolated island, colonial Virginia).
 
 - ⬜ **Newspaper and Obituary Miner** _(planned)_: Full-text search across Chronicling America, BNA, Trove, and user-supplied OCR'd local papers. Uses an LLM pass to pull names, relationships, residences, and dates out of obituaries and social columns into structured event records.
 
