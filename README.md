@@ -3845,7 +3845,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Audio-to-MIDI transcription** _(stub, awaits wire-up)_: AI-integrated monophonic and polyphonic transcription of recordings to MIDI with onset/offset, pitch, and velocity estimation; drum hit detection and groove extraction.
 
-- ⬜ **Beat, tempo, and key detection** _(planned)_: Detects BPM, downbeats, beat grid, time signature, and musical key/scale; supports variable-tempo mapping and warp-marker editing.
+- ✅ **Beat, tempo, and key detection** _(stub, awaits wire-up)_: Detects BPM, downbeats, beat grid, time signature, and musical key/scale; supports variable-tempo mapping and warp-marker editing.
 
 - ⬜ **Mixing console** _(planned)_: Channel-strip mixer with faders, pans, mutes, solos, busses, sends, VCA groups, automation lanes, and snapshot/scene recall.
 
