@@ -4701,7 +4701,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Probate and Land Parser** _(stub, awaits wire-up)_: Extracts heirs, executors, witnesses, bequests, and metes-and-bounds descriptions from wills and deeds. Produces an inferred kinship graph and a polygon plat for land records that include surveyor calls.
 
-- ⬜ **Surname Etymology and Patronymic Resolver** _(planned)_: Looks up surname origins across British Isles, Scandinavian, Iberian, Slavic, Arabic, and East Asian traditions. Handles patronymic chain resolution (Petersen -> Peter's son) and known anglicization / Ellis Island mis-transcriptions.
+- ✅ **Surname Etymology and Patronymic Resolver** _(stub, awaits wire-up)_: Looks up surname origins across British Isles, Scandinavian, Iberian, Slavic, Arabic, and East Asian traditions. Handles patronymic chain resolution (Petersen -> Peter's son) and known anglicization / Ellis Island mis-transcriptions.
 
 - ⬜ **Historical Jurisdiction Atlas** _(planned)_: Time-sliced map overlay of county, parish, diocese, and country boundaries from roughly 1500 to present. Given an event date and modern place, returns the correct jurisdiction that would hold the original record.
 
