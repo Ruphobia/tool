@@ -4713,7 +4713,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Source Citation Manager** _(stub, awaits wire-up)_: Generates citations in Evidence Explained, NGSQ, and Chicago formats with templates per record type (census, vital, church, probate). Tracks evidence quality (original / derivative, primary / secondary) and surfaces conflicting source claims on the same fact.
 
-- ⬜ **Brick Wall Research Planner** _(planned)_: Given a stuck ancestor, the LLM proposes prioritized next steps (specific microfilm rolls, FHL catalog numbers, FAN-club candidates, DNA targets) with rationale. Tracks completed and pending tasks per research question in a kanban-style log.
+- ✅ **Brick Wall Research Planner** _(stub, awaits wire-up)_: Given a stuck ancestor, the LLM proposes prioritized next steps (specific microfilm rolls, FHL catalog numbers, FAN-club candidates, DNA targets) with rationale. Tracks completed and pending tasks per research question in a kanban-style log.
 
 - ⬜ **Photo Restoration and Face Matcher** _(planned)_: Local diffusion-based deblur, colorize, and tear-fill for daguerreotypes, tintypes, and early prints. Runs face embeddings across the photo library to suggest the same individual across decades, and can age-progress or age-regress between known reference shots.
 
