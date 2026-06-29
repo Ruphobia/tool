@@ -2936,7 +2936,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Polymer builder** _(stub, awaits wire-up)_: Constructs homopolymer, copolymer, and block-copolymer chains from monomer repeats with chosen tacticity and dispersity; reports Mn, Mw, PDI, and predicts Tg, Tm, and solubility parameter from group contributions.
 
-- ⬜ **Apparatus and glassware sketcher** _(planned)_: Schematic editor for distillation, reflux, Schlenk, flow, and electrochemical setups with a library of standard glassware, joints, condensers, and stirrers; outputs an annotated diagram that drops directly into the notebook entry.
+- ✅ **Apparatus and glassware sketcher** _(stub, awaits wire-up)_: Schematic editor for distillation, reflux, Schlenk, flow, and electrochemical setups with a library of standard glassware, joints, condensers, and stirrers; outputs an annotated diagram that drops directly into the notebook entry.
 
 
 #### Biology and bioinformatics
