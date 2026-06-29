@@ -1370,7 +1370,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Redline Diff** _(stub, awaits wire-up)_: Three-pane document comparison showing insertions, deletions, and moved blocks across DOCX, PDF (with OCR fallback), markdown, and plain text. Accept or reject per change, with export back to the original format and a changebar PDF for circulation.
 
-- ⬜ **Clause Library** _(planned)_: Searchable repository of reusable contract clauses tagged by jurisdiction, party position (favorable, neutral, hostile), risk score, and dependencies. Drag into a draft; version history per clause; AI-integrated suggestion of a clause variant for the current deal.
+- ✅ **Clause Library** _(stub, awaits wire-up)_: Searchable repository of reusable contract clauses tagged by jurisdiction, party position (favorable, neutral, hostile), risk score, and dependencies. Drag into a draft; version history per clause; AI-integrated suggestion of a clause variant for the current deal.
 
 - ⬜ **Defined Terms Checker** _(planned)_: Scans a contract for capitalized defined terms, flags terms used but not defined, terms defined but not used, inconsistent capitalization, and circular definitions. Auto-generates a definitions section and cross-reference table.
 
