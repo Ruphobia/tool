@@ -630,7 +630,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Import/Export hub** _(stub, awaits wire-up)_: Bulk loads and dumps CSV, TSV, Parquet, Avro, JSONL, Excel, and SQL dumps with column mapping, type coercion, error quarantine, and resumable streaming for billion-row tables.
 
-- ⬜ **Backup and restore** _(planned)_: Schedules and runs pg_dump, mysqldump, mongodump, and physical base backups; verifies restore integrity to ephemeral instances and tracks PITR window and WAL/binlog retention.
+- ✅ **Backup and restore** _(stub, awaits wire-up)_: Schedules and runs pg_dump, mysqldump, mongodump, and physical base backups; verifies restore integrity to ephemeral instances and tracks PITR window and WAL/binlog retention.
 
 - ⬜ **Replication monitor** _(planned)_: Displays primary/replica topology, lag in bytes and seconds, slot status, and binlog position; alerts on stalled replicas and supports failover dry-runs against test clusters.
 
