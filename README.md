@@ -2810,7 +2810,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Hand-eye and base calibrator** _(stub, awaits wire-up)_: Solves AX=XB and AX=ZB calibrations for camera-on-arm and camera-on-base mounts using Tsai-Lenz, Park-Martin, and Daniilidis dual-quaternion methods with bootstrap uncertainty estimates.
 
-- ⬜ **SLAM workbench** _(planned)_: Runs visual, LIDAR, and visual-inertial SLAM pipelines (ORB-SLAM3, RTAB-Map, LIO-SAM, Kiss-ICP) over recorded sessions with keyframe inspection, loop-closure editing, and exported map output to OctoMap, mesh, or Gaussian splat.
+- ✅ **SLAM workbench** _(stub, awaits wire-up)_: Runs visual, LIDAR, and visual-inertial SLAM pipelines (ORB-SLAM3, RTAB-Map, LIO-SAM, Kiss-ICP) over recorded sessions with keyframe inspection, loop-closure editing, and exported map output to OctoMap, mesh, or Gaussian splat.
 
 - ⬜ **Transform tree inspector** _(planned)_: Visualizes the live TF/TF2 coordinate-frame graph, flags missing, stale, or cyclic transforms, and edits static transform publishers with side-by-side numeric and 3D representation.
 
