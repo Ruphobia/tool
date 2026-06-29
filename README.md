@@ -4104,7 +4104,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Color space converter** _(stub, awaits wire-up)_: Round-trips colors between sRGB, Adobe RGB, Display P3, Rec.2020, CIE XYZ, CIELAB, OKLab, HSL, HSV, and CMYK with explicit white point and gamma handling, and flags out-of-gamut values.
 
-- ⬜ **Color vision simulator** _(planned)_: Renders an image or palette as seen under protanopia, deuteranopia, tritanopia, achromatopsia, and low-contrast vision, and scores adjacent swatch pairs for confusability.
+- ✅ **Color vision simulator** _(stub, awaits wire-up)_: Renders an image or palette as seen under protanopia, deuteranopia, tritanopia, achromatopsia, and low-contrast vision, and scores adjacent swatch pairs for confusability.
 
 - ⬜ **Pigment mixer** _(planned)_: Simulates subtractive paint mixing using a Kubelka-Munk two-constant model over a built-in library of watercolor, oil, acrylic, and gouache pigments with lightfastness, granulation, and staining metadata.
 
