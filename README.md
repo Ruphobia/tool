@@ -1854,7 +1854,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Phonotactics Editor** _(stub, awaits wire-up)_: Defines syllable templates (onset, nucleus, coda), sonority constraints, cluster restrictions, and stress/tone placement rules. Validates candidate words against the active phonotactic grammar and reports which constraint each rejection violated.
 
-- ⬜ **Word Generator** _(planned)_: Produces plausible lexemes from the active phonology and phonotactics with weighted phoneme and syllable-shape frequencies. AI biasing nudges output toward a target aesthetic (harsh, melodic, agglutinative-looking) described in natural language.
+- ✅ **Word Generator** _(stub, awaits wire-up)_: Produces plausible lexemes from the active phonology and phonotactics with weighted phoneme and syllable-shape frequencies. AI biasing nudges output toward a target aesthetic (harsh, melodic, agglutinative-looking) described in natural language.
 
 - ⬜ **Lexicon Builder** _(planned)_: Stores dictionary entries with part of speech, IPA, glosses, semantic domains, etymology pointers, example sentences, and recorded audio. Searchable by gloss, phonetic shape, semantic field, or morphological template.
 
