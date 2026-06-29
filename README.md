@@ -4687,7 +4687,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Segment Triangulator** _(stub, awaits wire-up)_: Loads chromosome browser CSVs and finds three-way triangulated segments above a user-set cM floor. Annotates each segment with candidate most-recent-common-ancestor couples pulled from linked trees.
 
-- ⬜ **Y-DNA and mtDNA Haplogroup Explorer** _(planned)_: Browses ISOGG / YFull haplotrees offline, places STR and SNP results on the tree, and estimates TMRCA between kits using infinite-alleles and Bayesian (BATWING-style) models.
+- ✅ **Y-DNA and mtDNA Haplogroup Explorer** _(stub, awaits wire-up)_: Browses ISOGG / YFull haplotrees offline, places STR and SNP results on the tree, and estimates TMRCA between kits using infinite-alleles and Bayesian (BATWING-style) models.
 
 - ⬜ **Oral History Studio** _(planned)_: Multi-track recorder with local Whisper transcription, speaker diarization, and timestamped name/place tagging. Exports interview transcripts as linked sources attached to the relevant INDI records in the tree.
 
