@@ -1018,7 +1018,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Outline editor** _(stub, awaits wire-up)_: Hierarchical bullet outliner with infinite nesting, fold and zoom, drag-reorder, and bidirectional conversion to and from a long-form document or a slide deck.
 
-- ⬜ **Mind map** _(planned)_: Radial node-and-link concept-map canvas with auto-layout, collapsible branches, and export to outline or document. AI-assisted expansion of any node into child nodes from the surrounding context.
+- ✅ **Mind map** _(stub, awaits wire-up)_: Radial node-and-link concept-map canvas with auto-layout, collapsible branches, and export to outline or document. AI-assisted expansion of any node into child nodes from the surrounding context.
 
 - ⬜ **Linked notebook** _(planned)_: Zettelkasten-style wiki with bidirectional links, a backlinks pane, tag index, and a graph view of the whole vault. AI-suggested links and tags from note content.
 
