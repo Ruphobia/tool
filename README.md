@@ -2273,7 +2273,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Fracture Toughness And Crack Calculator** _(stub, awaits wire-up)_: Linear-elastic fracture mechanics solver: computes K_I for common geometries (edge crack, center crack, surface flaw), critical crack length from K_IC, leak-before-break checks, and Paris-law fatigue crack growth life.
 
-- ⬜ **3D Print Material Picker** _(planned)_: Recommends FDM/SLA/SLS/MJF/DMLS materials for a part given service temperature, load, chemical exposure, optical/biocompatibility needs, dimensional tolerance, and budget. Flags anisotropy and post-processing requirements.
+- ✅ **3D Print Material Picker** _(stub, awaits wire-up)_: Recommends FDM/SLA/SLS/MJF/DMLS materials for a part given service temperature, load, chemical exposure, optical/biocompatibility needs, dimensional tolerance, and budget. Flags anisotropy and post-processing requirements.
 
 - ⬜ **Density And Mass Calculator** _(planned)_: Computes mass, volume, buoyancy, and material cost for stock shapes (round bar, plate, tube, sheet, hex) in any alloy, with unit conversion and packing-density estimates for powders and pellets.
 
