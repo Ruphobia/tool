@@ -1580,7 +1580,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **RAG builder** _(stub, awaits wire-up)_: End-to-end retrieval pipeline composer covering chunkers, embedders, rerankers, hybrid (BM25 + dense) retrieval, and generation with per-stage trace inspection and retrieval-quality metrics (nDCG, MRR, hit@k).
 
-- ⬜ **Prompt lab** _(planned)_: Side-by-side prompt variant runner with templating, structured-output schemas, temperature/top-p sweeps, and regression tests against a saved golden set. AI-integrated prompt-rewrite suggestions from failure patterns.
+- ✅ **Prompt lab** _(stub, awaits wire-up)_: Side-by-side prompt variant runner with templating, structured-output schemas, temperature/top-p sweeps, and regression tests against a saved golden set. AI-integrated prompt-rewrite suggestions from failure patterns.
 
 - ⬜ **Interpretation pipeline inspector** _(planned)_: Step-by-step view of the explicit interpretation pipeline used to route prompts through abliterated models, exposing every transform, classifier verdict, and routing decision with replay and per-stage override.
 
