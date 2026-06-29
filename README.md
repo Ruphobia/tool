@@ -4196,7 +4196,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sterilization and Bloodborne Log** _(stub, awaits wire-up)_: Tracks autoclave cycles, spore test results, sharps disposal, and surface barrier changes against OSHA and local health department schedules. Generates inspection-ready reports.
 
-- ⬜ **Style Reference Generator** _(planned)_: AI image synthesis tuned for tattoo idioms: traditional, neo-trad, blackwork, irezumi, tribal, single-needle, biomech, ornamental. Outputs are watermarked as reference-only and never used as final stencils without artist line work.
+- ✅ **Style Reference Generator** _(stub, awaits wire-up)_: AI image synthesis tuned for tattoo idioms: traditional, neo-trad, blackwork, irezumi, tribal, single-needle, biomech, ornamental. Outputs are watermarked as reference-only and never used as final stencils without artist line work.
 
 - ⬜ **Pricing and Session Planner** _(planned)_: Estimates session count and pricing from design dimensions, detail density, and placement difficulty, with hourly versus piece-rate modes. Schedules touch-up windows aligned to expected healing time.
 
