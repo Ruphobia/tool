@@ -3786,7 +3786,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pitch and Chord Transcriber** _(stub, awaits wire-up)_: Polyphonic audio-to-MIDI with chord-symbol estimation, instrument-aware source separation, and editable piano-roll output. Useful for transcribing recordings into editable lead sheets or stems.
 
-- ⬜ **Rhythm and Groove Builder** _(planned)_: Step sequencer plus pattern designer for drums and percussion, with swing, micro-timing, polyrhythm and polymeter layering, Euclidean rhythm generation, and a library of genre-tagged grooves.
+- ✅ **Rhythm and Groove Builder** _(stub, awaits wire-up)_: Step sequencer plus pattern designer for drums and percussion, with swing, micro-timing, polyrhythm and polymeter layering, Euclidean rhythm generation, and a library of genre-tagged grooves.
 
 - ⬜ **Melody Generator and Harmonizer** _(planned)_: Generates melodic lines constrained by scale, contour, range, motivic seed, and target harmony, or harmonizes an existing melody with multiple voicing styles. AI-integrated continuation when given a short motif.
 
