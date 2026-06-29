@@ -3637,7 +3637,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Text-to-video** _(stub, awaits wire-up)_: Local video generation using AnimateDiff, CogVideoX, Mochi, LTX-Video, and Wan-class models with ControlNet, motion LoRAs, and reference-image conditioning. Reuses prompts and seeds from the image generator.
 
-- ⬜ **Lipsync and talking head** _(planned)_: Audio-driven facial animation using SadTalker, Wav2Lip, and LivePortrait over a still portrait or driving video. Exposes head-pose and expression strength controls.
+- ✅ **Lipsync and talking head** _(stub, awaits wire-up)_: Audio-driven facial animation using SadTalker, Wav2Lip, and LivePortrait over a still portrait or driving video. Exposes head-pose and expression strength controls.
 
 - ⬜ **Speech and caption** _(planned)_: Whisper-based transcription, forced alignment, and burned-in or sidecar subtitle generation (SRT/VTT/ASS) with speaker diarization. Translates captions via the local LLM.
 
