@@ -2145,7 +2145,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Weldment designer** _(stub, awaits wire-up)_: Applies structural profiles to a wireframe with mitered and butt joints, fillet and groove weld symbols, and AWS callouts. Computes weld throat stress under combined loading.
 
-- ⬜ **Injection molding analyzer** _(planned)_: Predicts fill time, weld lines, air traps, sink marks, and warpage from part geometry and gate location. Suggests draft, wall thickness, and gate placement adjustments.
+- ✅ **Injection molding analyzer** _(stub, awaits wire-up)_: Predicts fill time, weld lines, air traps, sink marks, and warpage from part geometry and gate location. Suggests draft, wall thickness, and gate placement adjustments.
 
 - ⬜ **3D printing failure diagnoser** _(planned)_: Analyzes photos or videos of failed prints to identify warping, stringing, layer shifts, under/over extrusion, and adhesion issues. AI-integrated recommendation of slicer and hardware fixes.
 
