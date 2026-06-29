@@ -1836,7 +1836,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Forced Aligner** _(stub, awaits wire-up)_: Aligns audio to a phoneme or word transcript using Montreal-Forced-Aligner-style acoustic models, producing TextGrid output with per-phone boundaries. Falls back to AI-integrated transcription when the script is missing or partial.
 
-- ⬜ **Script & Romanization Converter** _(planned)_: Transliterates bidirectionally between native scripts and romanizations (ISO, ALA-LC, Hepburn, Pinyin, BGN/PCGN), with reversible mappings and per-character provenance. Highlights lossy substitutions.
+- ✅ **Script & Romanization Converter** _(stub, awaits wire-up)_: Transliterates bidirectionally between native scripts and romanizations (ISO, ALA-LC, Hepburn, Pinyin, BGN/PCGN), with reversible mappings and per-character provenance. Highlights lossy substitutions.
 
 - ⬜ **Unicode Inspector** _(planned)_: Decomposes a string into codepoints, grapheme clusters, normalization forms (NFC/NFD/NFKC/NFKD), bidi runs, and script/block metadata. Flags confusables, mixed-script spoofs, and zero-width controls.
 
