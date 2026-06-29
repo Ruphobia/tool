@@ -1474,7 +1474,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Embedding pipeline** _(stub, awaits wire-up)_: Chunks documents by layout-aware boundaries, computes embeddings with a configurable model, and writes them to a local vector store. Supports incremental reindexing as the library changes.
 
-- ⬜ **Reference resolver** _(planned)_: Looks up DOIs, ISBNs, arXiv IDs, PubMed IDs, and free-form titles against open metadata sources to fill in missing fields. Uses an LLM as a tie-breaker when multiple plausible matches are returned.
+- ✅ **Reference resolver** _(stub, awaits wire-up)_: Looks up DOIs, ISBNs, arXiv IDs, PubMed IDs, and free-form titles against open metadata sources to fill in missing fields. Uses an LLM as a tie-breaker when multiple plausible matches are returned.
 
 - ⬜ **Library catalog** _(planned)_: Calibre-style shelf for the local document collection with cover thumbnails, metadata columns, saved searches, virtual shelves, and duplicate detection by content fingerprint.
 
