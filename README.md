@@ -2670,7 +2670,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Spectrum analyzer console** _(stub, awaits wire-up)_: Drives RTL-SDR, HackRF, Airspy, USRP, LimeSDR, and PlutoSDR for live FFT, waterfall, peak table, occupied bandwidth, ACPR, and channel power. Records sweeps for long-term band-occupancy studies.
 
-- ⬜ **SDR receiver console** _(planned)_: Tunes a soft radio with AM, FM, NFM, SSB, CW, DSD+ digital voice, POCSAG, ACARS, and APRS demodulators. Supports squelch, AGC, noise blanker, notch, and a software panadapter slaved to the rig control bridge.
+- ✅ **SDR receiver console** _(stub, awaits wire-up)_: Tunes a soft radio with AM, FM, NFM, SSB, CW, DSD+ digital voice, POCSAG, ACARS, and APRS demodulators. Supports squelch, AGC, noise blanker, notch, and a software panadapter slaved to the rig control bridge.
 
 - ⬜ **IQ recorder and classifier** _(planned)_: Captures baseband to SigMF, WAV, or cfile with metadata, and replays into demodulators or external GNU Radio flowgraphs. AI-integrated signal classifier proposes modulation, baud, and likely service from a short capture.
 
