@@ -3161,7 +3161,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Statistical test guide** _(stub, awaits wire-up)_: Recommends a test from data type, design, and assumption checks via a decision tree, then runs the test and reports the result with assumption diagnostics. Suggests nonparametric or robust alternatives when assumptions fail.
 
-- ⬜ **Behavioral event coder** _(planned)_: Frame-by-frame video and audio coding with mutually exclusive and overlapping event tracks, hotkey schemas, and modifiers, in the style of BORIS and ELAN. Produces state and point event logs with durations and transitions.
+- ✅ **Behavioral event coder** _(stub, awaits wire-up)_: Frame-by-frame video and audio coding with mutually exclusive and overlapping event tracks, hotkey schemas, and modifiers, in the style of BORIS and ELAN. Produces state and point event logs with durations and transitions.
 
 - ⬜ **Qualitative theme tagger** _(planned)_: NVivo-style coding of text, audio transcripts, and image regions with hierarchical codebooks, memos, and query matrices. AI-integrated initial code suggestions seed open coding for the researcher to accept, merge, or reject.
 
