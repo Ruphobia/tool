@@ -3661,7 +3661,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Model hub** _(stub, awaits wire-up)_: Local registry of checkpoints, LoRAs, VAEs, embeddings, and ControlNets with hashes, sources, license tags, and per-model usage notes. Surfaces share-alike and restricted licenses per release-licensing intent.
 
-- ⬜ **Prompt library** _(planned)_: Versioned prompt and negative-prompt snippets with tags, sample grids, and seed history. Integrates with the interpretation pipeline so prompts can be replayed or remixed.
+- ✅ **Prompt library** _(stub, awaits wire-up)_: Versioned prompt and negative-prompt snippets with tags, sample grids, and seed history. Integrates with the interpretation pipeline so prompts can be replayed or remixed.
 
 - ⬜ **XYZ plot and grid** _(planned)_: Parameter-sweep renderer that varies prompts, seeds, CFG, samplers, and LoRA weights to produce comparison grids. Annotates each cell with its parameters.
 
