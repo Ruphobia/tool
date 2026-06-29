@@ -4703,7 +4703,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Surname Etymology and Patronymic Resolver** _(stub, awaits wire-up)_: Looks up surname origins across British Isles, Scandinavian, Iberian, Slavic, Arabic, and East Asian traditions. Handles patronymic chain resolution (Petersen -> Peter's son) and known anglicization / Ellis Island mis-transcriptions.
 
-- ⬜ **Historical Jurisdiction Atlas** _(planned)_: Time-sliced map overlay of county, parish, diocese, and country boundaries from roughly 1500 to present. Given an event date and modern place, returns the correct jurisdiction that would hold the original record.
+- ✅ **Historical Jurisdiction Atlas** _(stub, awaits wire-up)_: Time-sliced map overlay of county, parish, diocese, and country boundaries from roughly 1500 to present. Given an event date and modern place, returns the correct jurisdiction that would hold the original record.
 
 - ⬜ **Endogamy and Pedigree Collapse Detector** _(planned)_: Scans the tree for shared ancestors within a configurable generational window and computes inbreeding coefficients. Warns when DNA cM predictions should be widened due to endogamous populations (Ashkenazi, Acadian, isolated island, colonial Virginia).
 
