@@ -3298,7 +3298,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Light Curve Analyzer** _(stub, awaits wire-up)_: Plots time-series photometry with Lomb-Scargle and Box-Least-Squares periodograms, phase folding, transit-shape fitting, and detrending. AI-integrated classification hint between eclipsing binary, transit, RR Lyrae, and flare candidates.
 
-- ⬜ **Catalog Browser** _(planned)_: Queries Gaia, 2MASS, SDSS, Pan-STARRS, SIMBAD, NED, VizieR, and MPC with cone, box, and crossmatch searches. Loads results as overlays on the sky chart and FITS viewer with persistent local caches.
+- ✅ **Catalog Browser** _(stub, awaits wire-up)_: Queries Gaia, 2MASS, SDSS, Pan-STARRS, SIMBAD, NED, VizieR, and MPC with cone, box, and crossmatch searches. Loads results as overlays on the sky chart and FITS viewer with persistent local caches.
 
 - ⬜ **Observatory Planner** _(planned)_: Generates nightly observing plans optimized for altitude, moon separation, twilight, meridian crossing, and target priorities. Produces airmass plots, finder charts, and exportable session scripts.
 
