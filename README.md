@@ -3574,7 +3574,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Greenhouse Climate Simulator** _(stub, awaits wire-up)_: Models heat load, ventilation, transpiration, and supplemental light for a hoop house or glasshouse given glazing, orientation, and local TMY weather. Sizes heaters, fans, shade cloth, and HAF circulation.
 
-- ⬜ **Rainwater Catchment Calculator** _(planned)_: Sizes cisterns and gutters from roof area, local precipitation records, demand schedule, and first-flush losses. Plots reliability curves and overflow frequency for candidate tank volumes.
+- ✅ **Rainwater Catchment Calculator** _(stub, awaits wire-up)_: Sizes cisterns and gutters from roof area, local precipitation records, demand schedule, and first-flush losses. Plots reliability curves and overflow frequency for candidate tank volumes.
 
 - ⬜ **Cover Crop Selector** _(planned)_: Recommends cover crop species or mixes for a target window based on biomass goal, N fixation, scavenging, weed suppression, soil compaction relief, and termination method. Computes seeding rates in lb/ac or g/m2.
 
