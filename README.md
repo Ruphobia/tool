@@ -1901,7 +1901,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Terminology manager** _(stub, awaits wire-up)_: Termbase editor with definitions, domain tags, forbidden terms, and cross-language equivalents. Imports and exports TBX and pushes enforcement into the translation workbench.
 
-- ⬜ **Translation memory** _(planned)_: TMX-backed segment store with fuzzy match retrieval, leverage statistics, penalty configuration, and project-scoped concordance search.
+- ✅ **Translation memory** _(stub, awaits wire-up)_: TMX-backed segment store with fuzzy match retrieval, leverage statistics, penalty configuration, and project-scoped concordance search.
 
 - ⬜ **Diarization and speaker tool** _(planned)_: Speaker turn segmentation, speaker embedding clustering, and named-speaker labeling persisted across sessions and projects.
 
