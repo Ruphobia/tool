@@ -2875,7 +2875,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Single-Line Diagram Editor** _(stub, awaits wire-up)_: Schematic editor with PV-specific blocks (combiner, RSD, disconnect, inverter, ATS, meter, breaker panel) that auto-labels wire gauges and OCPD ratings from upstream calculations. Exports PDF for permit submittal.
 
-- ⬜ **Soiling, Snow & Degradation Model** _(planned)_: Applies monthly soiling losses, snow coverage from temperature and snowfall, and linear or step-wise module degradation across a 25-year horizon. Feeds the LCOE and lifetime-yield estimators.
+- ✅ **Soiling, Snow & Degradation Model** _(stub, awaits wire-up)_: Applies monthly soiling losses, snow coverage from temperature and snowfall, and linear or step-wise module degradation across a 25-year horizon. Feeds the LCOE and lifetime-yield estimators.
 
 - ⬜ **LCOE & Payback Analyzer** _(planned)_: Computes levelized cost of energy, net present value, IRR, and simple/discounted payback with degradation, O&M, inverter replacements, ITC/rebates, and escalating utility rates. Sensitivity tornado on the top cost drivers.
 
