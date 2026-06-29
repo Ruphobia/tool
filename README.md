@@ -4788,7 +4788,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sleep restriction scheduler** _(stub, awaits wire-up)_: CBT-I sleep restriction therapy calendar: sets prescribed time-in-bed from diary sleep efficiency, advances or holds windows by the 85/90% rule, and tracks adherence and TST drift week over week.
 
-- ⬜ **Behavioral activation planner** _(planned)_: Schedules mastery and pleasure activities on a weekly grid, with pre/post mood and engagement ratings (0-10). Suggests activities from the user's own historical high-rated entries (AI-integrated ranking).
+- ✅ **Behavioral activation planner** _(stub, awaits wire-up)_: Schedules mastery and pleasure activities on a weekly grid, with pre/post mood and engagement ratings (0-10). Suggests activities from the user's own historical high-rated entries (AI-integrated ranking).
 
 - ⬜ **Exposure hierarchy builder** _(planned)_: Constructs a SUDS-rated fear hierarchy with steps, planned exposures, expectancy vs outcome ratings, and inhibitory-learning prompts. Logs trial-by-trial SUDS curves to visualize habituation.
 
