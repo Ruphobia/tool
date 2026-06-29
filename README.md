@@ -2769,7 +2769,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Frame Geometry Comparator** _(stub, awaits wire-up)_: Overlays stack, reach, head/seat tube angles, BB drop, chainstay, wheelbase, and standover across multiple bicycles or motorcycles. Computes effective top tube and saddle/bar position deltas to predict fit changes between frames.
 
-- ⬜ **Parts Compatibility Checker** _(planned)_: Validates bottom bracket, headset, axle, brake mount, derailleur hanger, freehub, and seatpost standards against frame and component specs. For motos and cars, checks bolt patterns, hub bores, caliper mounts, and ECU/harness compatibility.
+- ✅ **Parts Compatibility Checker** _(stub, awaits wire-up)_: Validates bottom bracket, headset, axle, brake mount, derailleur hanger, freehub, and seatpost standards against frame and component specs. For motos and cars, checks bolt patterns, hub bores, caliper mounts, and ECU/harness compatibility.
 
 - ⬜ **Tire Wear & Alignment Tracker** _(planned)_: Logs tread depth at multiple points per tire, projects remaining life by mileage, and flags wear patterns (inner/outer edge, cupping, feathering) indicative of toe, camber, or pressure issues. Tracks alignment specs before and after adjustment.
 
