@@ -666,7 +666,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Embedded SQLite/DuckDB workbench** _(stub, awaits wire-up)_: Opens local .db, .sqlite, and .duckdb files with attached-database joins across files, Parquet/CSV virtual tables, and one-click export to a hosted database for promotion.
 
-- ⬜ **NL-to-SQL** _(planned)_: AI-integrated translator from plain-English questions to SQL grounded in the live schema, sample rows, and prior query history; shows generated SQL with EXPLAIN and required permissions before run.
+- ✅ **NL-to-SQL** _(stub, awaits wire-up)_: AI-integrated translator from plain-English questions to SQL grounded in the live schema, sample rows, and prior query history; shows generated SQL with EXPLAIN and required permissions before run.
 
 - ⬜ **Seed data generator** _(planned)_: Produces realistic synthetic rows respecting foreign keys, unique constraints, and check constraints; learns distributions from a sample of production data when permitted.
 
