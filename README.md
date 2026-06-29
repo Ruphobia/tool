@@ -4554,7 +4554,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Sports analytics, fitness, nutrition, coaching
 
-- ⬜ **Periodization scheduler** _(planned)_: Lays out macro, meso, and microcycles with block, linear, conjugate, or DUP templates; supports RPE-based and percent-of-1RM progressions, automatic deload weeks, and taper curves into a target date.
+- ✅ **Periodization scheduler** _(stub, awaits wire-up)_: Lays out macro, meso, and microcycles with block, linear, conjugate, or DUP templates; supports RPE-based and percent-of-1RM progressions, automatic deload weeks, and taper curves into a target date.
 
 - ⬜ **1RM and load calculator** _(planned)_: Estimates one-rep max via Epley, Brzycki, Lombardi, and Lander; renders %1RM tables and velocity-based training zones from bar-speed input.
 
