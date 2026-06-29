@@ -3627,7 +3627,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Video editor** _(stub, awaits wire-up)_: Non-linear timeline with multi-track audio/video, trimming, transitions, keyframed effects, and proxy editing. Renders via the transcoder with project-level color management.
 
-- ⬜ **Transcoder** _(planned)_: FFmpeg-driven batch encoder/decoder with presets for H.264, H.265, AV1, VP9, ProRes, DNxHR, and HAP. Exposes hardware-accelerated paths (NVENC/QSV/VAAPI) and two-pass settings.
+- ✅ **Transcoder** _(stub, awaits wire-up)_: FFmpeg-driven batch encoder/decoder with presets for H.264, H.265, AV1, VP9, ProRes, DNxHR, and HAP. Exposes hardware-accelerated paths (NVENC/QSV/VAAPI) and two-pass settings.
 
 - ⬜ **Frame interpolator** _(planned)_: Optical-flow and learned interpolation (RIFE, FILM, IFRNet) for slow motion and frame-rate upconversion. Supports scene-cut detection to avoid blending across cuts.
 
