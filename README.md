@@ -1768,7 +1768,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sacred geography GIS** _(stub, awaits wire-up)_: Plots pilgrimage routes, holy sites, monasteries, episcopal sees, and council locations on Pelagios-linked maps; computes travel-time isochrones over reconstructed ancient road and sea networks.
 
-- ⬜ **Iconography classifier** _(planned)_: Identifies saints, attributes, mudrās, asanas, and narrative scenes in images using an AI vision model fine-tuned on Iconclass, the Index of Medieval Art, and Buddhist and Hindu iconographic corpora; returns ranked Iconclass codes with provenance.
+- ✅ **Iconography classifier** _(stub, awaits wire-up)_: Identifies saints, attributes, mudrās, asanas, and narrative scenes in images using an AI vision model fine-tuned on Iconclass, the Index of Medieval Art, and Buddhist and Hindu iconographic corpora; returns ranked Iconclass codes with provenance.
 
 
 #### Mythology, folklore, and comparative narrative
