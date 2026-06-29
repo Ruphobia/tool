@@ -1286,7 +1286,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Mortality table browser** _(stub, awaits wire-up)_: Loads standard tables (SOA 2017 CSO, Annuity 2012, US Life Tables, AM92) and queries qx, px, lx, dx, ex, and select-and-ultimate cells with table-vs-table comparison plots.
 
-- ⬜ **Life table generator** _(planned)_: Constructs period or cohort life tables from raw deaths and exposure, smooths qx via Whittaker-Henderson or Kannisto, and graduates with confidence bands.
+- ✅ **Life table generator** _(stub, awaits wire-up)_: Constructs period or cohort life tables from raw deaths and exposure, smooths qx via Whittaker-Henderson or Kannisto, and graduates with confidence bands.
 
 - ⬜ **Life contingencies pricer** _(planned)_: Prices term, whole life, endowment, and annuities (immediate, deferred, joint-life, last-survivor) from a chosen mortality table and interest assumption, returning net and gross premiums with loadings and reserves.
 
