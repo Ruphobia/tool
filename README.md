@@ -353,7 +353,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ⬜ **Code-to-code translator** _(planned)_: Pipeline-driven port of a function or module between languages (Python, Rust, Go, TS, C, Lua) with side-by-side review, type and idiom adaptation, and round-trip test validation.
 
-- ⬜ **Snippet library** _(planned)_: Tag-searchable store of reusable code, commands, queries, and prompts, with parameterized templates, project-local overrides, and AI extraction of new snippets from accepted edits.
+- ✅ **Snippet library** _(in testing)_: Tag-searchable store of reusable code, commands, queries, and prompts, with parameterized templates, project-local overrides, and AI extraction of new snippets from accepted edits.
 
 - ⬜ **Code review companion** _(planned)_: Reviews the current diff for correctness bugs, simplifications, and altitude issues at selectable effort levels, posts findings inline, and optionally applies fixes.
 
