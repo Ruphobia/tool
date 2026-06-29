@@ -1079,7 +1079,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Backlog groomer** _(stub, awaits wire-up)_: Filtered list view that surfaces stale, underspecified, duplicate, or dependency-blocked tickets and walks them one at a time. AI-integrated rewriter expands one-line tickets into structured acceptance criteria and clarifying questions.
 
-- ⬜ **Dependency graph** _(planned)_: Directed graph of blocks/blocked-by, parent/child, and cross-project links, with cycle detection and shortest-path tracing from any leaf to its containing epic. Nodes are colorable by status, owner, or risk.
+- ✅ **Dependency graph** _(stub, awaits wire-up)_: Directed graph of blocks/blocked-by, parent/child, and cross-project links, with cycle detection and shortest-path tracing from any leaf to its containing epic. Nodes are colorable by status, owner, or risk.
 
 - ⬜ **Milestone and release tracker** _(planned)_: Versioned releases with target dates, scope sets, freeze windows, and per-ticket inclusion criteria. Computes release readiness from open-blocker count and required-review state.
 
