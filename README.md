@@ -4032,7 +4032,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **CarbonationCalculator** _(stub, awaits wire-up)_: Computes CO2 volumes from temperature and pressure for force carbonation, priming sugar dosage, or natural conditioning. Includes nitro blend ratios and bottle pressure safety checks.
 
-- ⬜ **FermentationLog** _(planned)_: Gravity, Brix, pH, and temperature curves for beer, wine, mead, cider, and kombucha. Detects stuck fermentation, predicts terminal gravity, and prompts dry hop or rack windows.
+- ✅ **FermentationLog** _(stub, awaits wire-up)_: Gravity, Brix, pH, and temperature curves for beer, wine, mead, cider, and kombucha. Detects stuck fermentation, predicts terminal gravity, and prompts dry hop or rack windows.
 
 - ⬜ **CuppingSession** _(planned)_: SCA cupping form with the ten scored attributes plus Q-grade overlays, triangle and duo-trio panels, and blind randomization. Aggregates panel scores and flags outlier graders.
 
