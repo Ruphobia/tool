@@ -587,7 +587,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **DSP and filter designer** _(stub, awaits wire-up)_: Designs FIR, IIR, biquad, and adaptive filters with fixed-point quantization and CMSIS-DSP/ESP-DSP code emission. AI-integrated suggestion of filter topology from a captured noise profile.
 
-- ⬜ **Edge ML deployer** _(planned)_: Converts and quantizes TensorFlow Lite Micro, ONNX, and Edge Impulse models for target MCUs with operator support checks and memory arena sizing. Benchmarks inference latency and energy on connected hardware.
+- ✅ **Edge ML deployer** _(stub, awaits wire-up)_: Converts and quantizes TensorFlow Lite Micro, ONNX, and Edge Impulse models for target MCUs with operator support checks and memory arena sizing. Benchmarks inference latency and energy on connected hardware.
 
 - ⬜ **Radio link designer** _(planned)_: Link-budget calculator for BLE, Wi-Fi, LoRa, Sub-GHz, NB-IoT, and Thread with antenna gain, path loss, and regional duty-cycle rules. AI-integrated channel and SF/PHY suggestion from a deployment description.
 
