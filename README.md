@@ -1478,7 +1478,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Library catalog** _(stub, awaits wire-up)_: Calibre-style shelf for the local document collection with cover thumbnails, metadata columns, saved searches, virtual shelves, and duplicate detection by content fingerprint.
 
-- ⬜ **Metadata editor** _(planned)_: Edits title, author, series, ISBN, language, cover, and custom fields across PDF, EPUB, and audiobook formats, with batch operations and AI-integrated inference of missing fields from the first pages of the file.
+- ✅ **Metadata editor** _(stub, awaits wire-up)_: Edits title, author, series, ISBN, language, cover, and custom fields across PDF, EPUB, and audiobook formats, with batch operations and AI-integrated inference of missing fields from the first pages of the file.
 
 - ⬜ **Annotation store** _(planned)_: Central database of highlights, margin notes, bookmarks, and ink strokes, keyed to stable text anchors that survive reflow and reconversion. Exposes a search and timeline view across all books.
 
