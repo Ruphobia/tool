@@ -3546,7 +3546,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Fertilizer Blend Calculator** _(stub, awaits wire-up)_: Solves NPK and micronutrient targets across arbitrary input materials (urea, MAP, KCl, gypsum, fish emulsion, compost analyses) using linear programming to minimize cost or salt index. Outputs per-bed application rates in lb/ac, g/m2, or tsp/gal.
 
-- ⬜ **Irrigation Scheduler** _(planned)_: Computes daily and weekly water needs from reference ET (Penman-Monteith or Hargreaves), crop coefficient (Kc) curves, root depth, soil water holding capacity, and rainfall. Outputs run times per zone for drip, micro-spray, or overhead emitters.
+- ✅ **Irrigation Scheduler** _(stub, awaits wire-up)_: Computes daily and weekly water needs from reference ET (Penman-Monteith or Hargreaves), crop coefficient (Kc) curves, root depth, soil water holding capacity, and rainfall. Outputs run times per zone for drip, micro-spray, or overhead emitters.
 
 - ⬜ **Drip Layout Designer** _(planned)_: Lays out drip lines, emitters, and submains over a plot drawing with hydraulic calculations for pressure loss, emitter flow uniformity (EU), and lateral length limits. Generates a parts list keyed to standard fittings.
 
