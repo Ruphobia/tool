@@ -687,7 +687,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Cron and timer editor** _(stub, awaits wire-up)_: Unified editor for user crontabs, /etc/cron.d, anacron, and systemd timers, with next-fire-time preview and dry-run execution. AI-integrated translation between natural-language schedules and cron or OnCalendar expressions.
 
-- ⬜ **Disk usage analyzer** _(planned)_: Hierarchical treemap and sunburst of filesystem usage with per-directory size, file count, age, and largest-file lists. Identifies duplicate files by hash and offers in-place deletion or archive routing.
+- ✅ **Disk usage analyzer** _(stub, awaits wire-up)_: Hierarchical treemap and sunburst of filesystem usage with per-directory size, file count, age, and largest-file lists. Identifies duplicate files by hash and offers in-place deletion or archive routing.
 
 - ⬜ **SMART and disk health** _(planned)_: Reads SMART attributes, runs short and long self-tests, and tracks attribute trends per device over time. AI-integrated failure-risk scoring from attribute drift, with replacement urgency suggestions.
 
