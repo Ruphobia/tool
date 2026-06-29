@@ -2017,7 +2017,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Diffraction Grating Designer** _(stub, awaits wire-up)_: Computes blaze efficiency, dispersion, free spectral range, and resolving power for ruled, holographic, echelle, and volume phase holographic gratings via scalar and rigorous coupled-wave analysis across polarization and order.
 
-- ⬜ **FDTD Nanophotonics Simulator** _(planned)_: Finite-difference time-domain solver for sub-wavelength structures (waveguides, resonators, metasurfaces, plasmonics) with PML boundaries, dispersive materials, mode and TFSF sources, and S-parameter, transmission, and near-to-far-field projection monitors.
+- ✅ **FDTD Nanophotonics Simulator** _(stub, awaits wire-up)_: Finite-difference time-domain solver for sub-wavelength structures (waveguides, resonators, metasurfaces, plasmonics) with PML boundaries, dispersive materials, mode and TFSF sources, and S-parameter, transmission, and near-to-far-field projection monitors.
 
 - ⬜ **Camera Imaging Calculator** _(planned)_: Computes depth of field, hyperfocal distance, diffraction limit, angle of view, exposure value, equivalent focal length, and pixel-limited resolution for arbitrary sensor and lens combinations, with side-by-side format comparison.
 
