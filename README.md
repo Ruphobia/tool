@@ -1913,7 +1913,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Corpus and concordance browser** _(stub, awaits wire-up)_: Parallel and monolingual corpus loader with KWIC concordance, collocation statistics, n-gram frequency lists, and span-level query.
 
-- ⬜ **Morphology and lemma analyzer** _(planned)_: Tokenization, lemmatization, POS tagging, dependency parsing, and morphological feature extraction across languages, with Universal Dependencies compatible output.
+- ✅ **Morphology and lemma analyzer** _(stub, awaits wire-up)_: Tokenization, lemmatization, POS tagging, dependency parsing, and morphological feature extraction across languages, with Universal Dependencies compatible output.
 
 - ⬜ **SSML and prosody editor** _(planned)_: Visual editor for SSML markup with pitch, rate, emphasis, and break controls. Previews against the selected TTS engine with per-clause waveform inspection.
 
