@@ -1850,7 +1850,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Lemmatizer & POS Lab** _(stub, awaits wire-up)_: Runs and compares lemmatizers and POS taggers (spaCy, Stanza, UDPipe, Snowball stemmers) across languages on the same input, with confusion matrices and per-token disagreement highlighting.
 
-- ⬜ **Phoneme Inventory Designer** _(planned)_: Builds consonant and vowel inventories via a clickable IPA matrix, tracks distinctive features, and flags gaps against typological norms (e.g., having /p t/ but no /k/). Exports the inventory as a feature table consumed by downstream tools.
+- ✅ **Phoneme Inventory Designer** _(stub, awaits wire-up)_: Builds consonant and vowel inventories via a clickable IPA matrix, tracks distinctive features, and flags gaps against typological norms (e.g., having /p t/ but no /k/). Exports the inventory as a feature table consumed by downstream tools.
 
 - ⬜ **Phonotactics Editor** _(planned)_: Defines syllable templates (onset, nucleus, coda), sonority constraints, cluster restrictions, and stress/tone placement rules. Validates candidate words against the active phonotactic grammar and reports which constraint each rejection violated.
 
