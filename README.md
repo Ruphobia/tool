@@ -827,7 +827,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **WebXR Live Preview** _(stub, awaits wire-up)_: Spins up a local WebXR session of the current scene over HTTPS / ADB reverse, with hot-reload of glTF assets and a desktop emulated controller for non-headset iteration. Logs runtime feature support per device.
 
-- ⬜ **Frustum and FOV Visualizer** _(planned)_: Third-person view of headset and controller frustums, render bounds, and guardian / chaperone polygons, with measurements of effective horizontal / vertical FOV per eye and stereo overlap region.
+- ✅ **Frustum and FOV Visualizer** _(stub, awaits wire-up)_: Third-person view of headset and controller frustums, render bounds, and guardian / chaperone polygons, with measurements of effective horizontal / vertical FOV per eye and stereo overlap region.
 
 - ⬜ **XR Input Recorder** _(planned)_: Captures full OpenXR input state (poses, buttons, axes, haptic outputs, hand joints, eye gaze) into a deterministic timeline that can be replayed into the runtime for regression testing locomotion, UI, and gesture code.
 
