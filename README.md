@@ -968,7 +968,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Random & Entropy Auditor** _(stub, awaits wire-up)_: Samples system, hardware, and user-supplied entropy sources, running NIST SP 800-22, Dieharder, and ent statistical batteries. Detects biased RNGs, stuck bits, and PRNG state recovery from observed outputs.
 
-- ⬜ **Password Cracker Sandbox** _(planned)_: Runs hashcat/John-style attacks against locally provided hashes with mask, dictionary, and rule-based strategies on CPU and GPU. Estimates crack time against current hardware for chosen hash and KDF parameters.
+- ✅ **Password Cracker Sandbox** _(stub, awaits wire-up)_: Runs hashcat/John-style attacks against locally provided hashes with mask, dictionary, and rule-based strategies on CPU and GPU. Estimates crack time against current hardware for chosen hash and KDF parameters.
 
 - ⬜ **JWT & Token Workbench** _(planned)_: Decodes, signs, and re-signs JWT, PASETO, Macaroons, and Biscuit tokens with algorithm confusion and none-alg attack toggles. Validates claims, expiry, and JWKS resolution against a target issuer.
 
