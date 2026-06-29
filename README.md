@@ -3066,7 +3066,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Lab protocol and ELN** _(stub, awaits wire-up)_: Authors and runs protocols with step timers, reagent inventory deduction, instrument metadata capture, and signed read-only snapshots for compliance and reproducibility.
 
-- ⬜ **Outbreak and transmission tracker** _(planned)_: Integrates strain typing, geocoded metadata, and timed phylogenies via Nextstrain or BEAST to infer transmission chains, R_e, and introduction events.
+- ✅ **Outbreak and transmission tracker** _(stub, awaits wire-up)_: Integrates strain typing, geocoded metadata, and timed phylogenies via Nextstrain or BEAST to infer transmission chains, R_e, and introduction events.
 
 - ⬜ **Vaccine antigen designer** _(planned)_: Selects conserved epitopes across strains, scaffolds multi-epitope constructs with linkers and adjuvant fusions, and evaluates population coverage across HLA distributions.
 
