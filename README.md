@@ -256,7 +256,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Crawl Politeness Dashboard** _(in testing)_: Live view of per-host request rates, error budgets, 4xx/5xx clusters, and robots violations. Lets the operator throttle, pause, or blacklist hosts without restarting jobs.
 
-- ⬜ **Export and Replay** _(planned)_: Writes the harvested corpus to WARC, JSONL, Parquet, or Markdown bundles, and can replay a WARC back through the extractor without re-fetching. Keeps the knowledge base reproducible from cold storage.
+- ✅ **Export and Replay** _(in testing)_: Writes the harvested corpus to WARC, JSONL, Parquet, or Markdown bundles, and can replay a WARC back through the extractor without re-fetching. Keeps the knowledge base reproducible from cold storage.
 
 - ⬜ **Reference Library** _(planned)_: Local-first reference database with collections, tags, smart folders, and full-text search across metadata and attached PDFs. Stores items in a portable SQLite store with CSL-JSON as the canonical record.
 
