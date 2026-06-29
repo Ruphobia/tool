@@ -2235,7 +2235,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Periodic Property Explorer** _(stub, awaits wire-up)_: Interactive periodic table with sortable/colorable overlays for density, modulus, melting point, electronegativity, thermal/electrical conductivity, CTE, crystal structure, abundance, and cost per kg. Click an element to drill into isotopes, oxidation states, and common alloying roles.
 
-- ⬜ **Alloy Database Browser** _(planned)_: Searchable database of steels, aluminums, titaniums, coppers, nickels, magnesiums, and superalloys keyed by UNS/AISI/EN/JIS designation, with composition ranges, tempers, and typical mechanical properties. Filter by yield, UTS, density, machinability, weldability, or cost.
+- ✅ **Alloy Database Browser** _(stub, awaits wire-up)_: Searchable database of steels, aluminums, titaniums, coppers, nickels, magnesiums, and superalloys keyed by UNS/AISI/EN/JIS designation, with composition ranges, tempers, and typical mechanical properties. Filter by yield, UTS, density, machinability, weldability, or cost.
 
 - ⬜ **Ashby Chart Plotter** _(planned)_: Plots any pair of material properties (modulus vs density, strength vs cost, toughness vs hardness, etc.) as a Cambridge-style Ashby map with envelope overlays for metals, polymers, ceramics, composites, woods, and foams. Supports custom material indices and selection lines.
 
