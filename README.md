@@ -4508,7 +4508,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Ballistics and Arrow Calculator** _(stub, awaits wire-up)_: Computes bullet drop, wind drift, energy, and point-blank range for cataloged loads, and arrow trajectory with FOC, spine, and broadhead drag for compound and traditional setups. Range-card export sized for stock and quiver labels.
 
-- ⬜ **Track and Sign ID** _(planned)_: Identifies mammal and bird tracks, scat, rubs, scrapes, and feathers from photos with a measurement overlay for scale. Gait analysis suggests species, direction, and time-since with confidence rationale.
+- ✅ **Track and Sign ID** _(stub, awaits wire-up)_: Identifies mammal and bird tracks, scat, rubs, scrapes, and feathers from photos with a measurement overlay for scale. Gait analysis suggests species, direction, and time-since with confidence rationale.
 
 - ⬜ **Tide and Current Charts** _(planned)_: Provides tide height, slack, and current vectors for NOAA and international stations with bite-window heuristics by target species. Pairs lunar phase, water temperature, and wind to score coastal and estuary trips.
 
