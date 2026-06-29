@@ -3597,7 +3597,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Image generator** _(stub, awaits wire-up)_: Local text-to-image and image-to-image diffusion runner with controlnet, LoRA, IP-Adapter, and regional prompting. Routes prompts through the interpretation pipeline before sampling.
 
-- ⬜ **Inpainter** _(planned)_: Mask-driven local regeneration over an existing image with edge-aware blending and seed control. Reuses the active generator and prompt context.
+- ✅ **Inpainter** _(stub, awaits wire-up)_: Mask-driven local regeneration over an existing image with edge-aware blending and seed control. Reuses the active generator and prompt context.
 
 - ⬜ **Upscaler** _(planned)_: Tiled super-resolution using ESRGAN/Real-ESRGAN/SwinIR families with face-restore (GFPGAN/CodeFormer) and configurable denoise strength. Handles batch jobs and arbitrary integer or fractional factors.
 
