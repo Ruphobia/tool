@@ -1222,7 +1222,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Ebook compiler** _(stub, awaits wire-up)_: EPUB3, MOBI, AZW3, and KFX builds with embedded fonts, accessible navigation, MathML, SVG cover, and image optimization. Validates against epubcheck and KDP Previewer rules and reports failures inline with the offending file and line.
 
-- ⬜ **Submission tracker** _(planned)_: Query log per agent, editor, or publication with status timeline (queried, partial, full, passed, offered, withdrawn), simultaneous-submission rules, and follow-up reminders. Imports Submittable, QueryTracker, and Duotrope exports and respects per-market response-time norms.
+- ✅ **Submission tracker** _(stub, awaits wire-up)_: Query log per agent, editor, or publication with status timeline (queried, partial, full, passed, offered, withdrawn), simultaneous-submission rules, and follow-up reminders. Imports Submittable, QueryTracker, and Duotrope exports and respects per-market response-time norms.
 
 - ⬜ **Public-records desk** _(planned)_: FOIA and FOI request drafter with per-agency templates, statutory deadline tracking, appeal scaffolding, redaction OCR, and response indexer. Cross-links released documents to draft sections that cite them.
 
