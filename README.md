@@ -3975,7 +3975,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Kombucha SCOBY Tracker** _(stub, awaits wire-up)_: Logs brew batches with starting tea pH, sugar concentration, and daily acidity readings. Estimates F1 finish dates from temperature curves and flags vinegar-tier overshoot risk.
 
-- ⬜ **Koji and Miso Schedule** _(planned)_: Schedules koji incubation, salt-cure timing, and miso aging milestones for shiro, aka, and hatcho styles. Adjusts moromi turning intervals based on logged temperature and humidity readings.
+- ✅ **Koji and Miso Schedule** _(stub, awaits wire-up)_: Schedules koji incubation, salt-cure timing, and miso aging milestones for shiro, aka, and hatcho styles. Adjusts moromi turning intervals based on logged temperature and humidity readings.
 
 - ⬜ **Lacto-Fermentation Acidity Tracker** _(planned)_: Records brine salinity, pH, and titratable acidity for kimchi, sauerkraut, kosher dills, and giardiniera. Computes lactic acid percentage from titration volumes and warns when pH stalls outside safe descent curves.
 
