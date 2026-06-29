@@ -4211,7 +4211,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Console Syntax Editor** _(stub, awaits wire-up)_: Offers an Eos/grandMA-style command line over groups, palettes, presets, and cue lists. Edits intensity, focus, color, beam, and effect parameters with keypad-style syntax and tracking semantics.
 
-- ⬜ **Previz Renderer** _(planned)_: Renders fixtures in a 3D venue model driven by live sACN/Art-Net/DMX input. Shows beams, shutter cuts, gobo rotation, prism break-up, and CMY/RGB color mixing for offline programming and dry tech.
+- ✅ **Previz Renderer** _(stub, awaits wire-up)_: Renders fixtures in a 3D venue model driven by live sACN/Art-Net/DMX input. Shows beams, shutter cuts, gobo rotation, prism break-up, and CMY/RGB color mixing for offline programming and dry tech.
 
 - ⬜ **Magic Sheet Builder** _(planned)_: Lays out clickable channel buttons, group thumbnails, and palette tiles over a stage diagram. The designer pokes a position to recall a focus palette or to see at a glance what is live.
 
