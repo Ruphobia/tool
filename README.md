@@ -4506,7 +4506,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Wind and Scent Planner** _(stub, awaits wire-up)_: Models prevailing and forecast wind at each stand against terrain-driven thermals to recommend morning vs evening sits. Visualizes scent cones over the atlas and flags entry and exit routes that stay downwind of bedding.
 
-- ⬜ **Ballistics and Arrow Calculator** _(planned)_: Computes bullet drop, wind drift, energy, and point-blank range for cataloged loads, and arrow trajectory with FOC, spine, and broadhead drag for compound and traditional setups. Range-card export sized for stock and quiver labels.
+- ✅ **Ballistics and Arrow Calculator** _(stub, awaits wire-up)_: Computes bullet drop, wind drift, energy, and point-blank range for cataloged loads, and arrow trajectory with FOC, spine, and broadhead drag for compound and traditional setups. Range-card export sized for stock and quiver labels.
 
 - ⬜ **Track and Sign ID** _(planned)_: Identifies mammal and bird tracks, scat, rubs, scrapes, and feathers from photos with a measurement overlay for scale. Gait analysis suggests species, direction, and time-since with confidence rationale.
 
