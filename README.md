@@ -1748,7 +1748,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Concordance and KWIC** _(stub, awaits wire-up)_: Generates keyword-in-context indexes, frequency tables, and collocation profiles over user corpora; supports lemmatized queries and regex across Greek, Hebrew, Latin, Sanskrit, Pali, and Arabic.
 
-- ⬜ **Morphological analyzer** _(planned)_: Parses ancient-language tokens to lemma, part-of-speech, and inflection using Perseus Morpheus, MorphHB, CLTK, and Buckwalter back-ends; flags ambiguities and proposes context-disambiguated readings.
+- ✅ **Morphological analyzer** _(stub, awaits wire-up)_: Parses ancient-language tokens to lemma, part-of-speech, and inflection using Perseus Morpheus, MorphHB, CLTK, and Buckwalter back-ends; flags ambiguities and proposes context-disambiguated readings.
 
 - ⬜ **Parallel text viewer** _(planned)_: Displays aligned passages across versions and traditions (LXX / MT / Vulgate, Synoptic Gospels, Talmudic sugyot with Rashi and Tosafot, Quranic qirāʾāt); synchronizes scrolling and color-codes divergences.
 
