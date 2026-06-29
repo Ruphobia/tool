@@ -4654,7 +4654,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Food storage rotation tracker** _(stub, awaits wire-up)_: Tracks pantry inventory with purchase date, best-by, and rehydrated calorie/macro yield per item, and generates a FIFO rotation schedule. Flags items approaching expiry and suggests substitutions that keep the stored ration on its macro target.
 
-- ⬜ **Ration and caloric needs calculator** _(planned)_: Computes daily caloric and macronutrient needs from body mass, activity tier, ambient temperature, and altitude, then assembles a ration plan from on-hand storage items. Outputs grams-per-day per item and total pack weight for bug-out or sheltered scenarios.
+- ✅ **Ration and caloric needs calculator** _(stub, awaits wire-up)_: Computes daily caloric and macronutrient needs from body mass, activity tier, ambient temperature, and altitude, then assembles a ration plan from on-hand storage items. Outputs grams-per-day per item and total pack weight for bug-out or sheltered scenarios.
 
 - ⬜ **Garden and permaculture planner** _(planned)_: Lays out beds, succession plantings, and companion groupings against local frost dates and hardiness zone, with caloric-yield-per-square-meter rankings for staple crops. Schedules seed-starting, transplant, and harvest windows and tracks seed-bank viability.
 
