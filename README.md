@@ -4668,7 +4668,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Ham antenna designer** _(stub, awaits wire-up)_: Designs dipole, end-fed half-wave, vertical, loop, and NVIS antennas with element lengths, feed impedance, height-above-ground modeling, and SWR projection across the band. Outputs cut lengths in copper or steel wire for field construction.
 
-- ⬜ **HF propagation forecaster** _(planned)_: Predicts band openings and maximum usable frequency for a given path using current solar flux, K-index, and ionospheric models. Recommends band and mode windows for NVIS, regional, and DX work over the next 24 hours.
+- ✅ **HF propagation forecaster** _(stub, awaits wire-up)_: Predicts band openings and maximum usable frequency for a given path using current solar flux, K-index, and ionospheric models. Recommends band and mode windows for NVIS, regional, and DX work over the next 24 hours.
 
 - ⬜ **Radio link planner** _(planned)_: Plots line-of-sight and Fresnel-zone clearance across terrain between two coordinates for VHF/UHF simplex, repeater, or Meshtastic/LoRa links. Estimates path loss, fade margin, and antenna height needed for a target link budget.
 
