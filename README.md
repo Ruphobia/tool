@@ -2167,7 +2167,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **PLM/revision tracker** _(stub, awaits wire-up)_: Versions CAD, drawings, BOMs, and G-code with branching, diffing, and ECO/ECR workflows. Visual diff of geometry highlights added, removed, and changed features.
 
-- ⬜ **OCR for drawings** _(planned)_: Extracts dimensions, tolerances, GD&T frames, notes, and title block data from scanned or photographed engineering drawings into a structured model. AI-integrated reconstruction of geometry from a complete drawing set.
+- ✅ **OCR for drawings** _(stub, awaits wire-up)_: Extracts dimensions, tolerances, GD&T frames, notes, and title block data from scanned or photographed engineering drawings into a structured model. AI-integrated reconstruction of geometry from a complete drawing set.
 
 - ⬜ **Machine controller bridge** _(planned)_: Streams G-code to LinuxCNC, GRBL, Klipper, Marlin, Smoothie, and Mach3/4 over USB, serial, or network with live overrides and probe support. Captures probing results back into CAM and CAD.
 
