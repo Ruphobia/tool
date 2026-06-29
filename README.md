@@ -427,7 +427,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **gRPC client** _(stub, awaits wire-up)_: Loads .proto files or uses server reflection to call unary, server-streaming, client-streaming, and bidirectional gRPC methods. Renders request and response messages as editable structured forms and raw protobuf bytes.
 
-- ⬜ **REST mock server** _(planned)_: Serves configurable JSON, XML, or binary responses from local routes for offline development and contract testing. Supports latency injection, scripted response branching, and replay of recorded sessions.
+- ✅ **REST mock server** _(stub, awaits wire-up)_: Serves configurable JSON, XML, or binary responses from local routes for offline development and contract testing. Supports latency injection, scripted response branching, and replay of recorded sessions.
 
 - ⬜ **HTTP intercepting proxy** _(planned)_: Acts as a man-in-the-middle proxy for outgoing traffic with on-the-fly request and response editing, TLS interception via a generated CA, and full session recording. Filters by host, content type, or regex.
 
