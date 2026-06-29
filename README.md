@@ -1710,7 +1710,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Liturgical Calendar Engine** _(stub, awaits wire-up)_: Computes feast days, fasts, observances, and moveable dates across Gregorian, Julian, Hebrew, Hijri, Bikram Sambat, Buddhist, and Bahai calendars. Supports recurrence queries, sect-specific variants, and ICS export.
 
-- ⬜ **Theological Lexicon** _(planned)_: A cross-referenced glossary of doctrinal, mystical, and ritual terminology (e.g., kenosis, tawhid, sunyata, halakhah, dharma, theosis) with etymology, tradition-of-origin, and conceptual neighbors. AI assists by surfacing analogous concepts across traditions when prompted.
+- ✅ **Theological Lexicon** _(stub, awaits wire-up)_: A cross-referenced glossary of doctrinal, mystical, and ritual terminology (e.g., kenosis, tawhid, sunyata, halakhah, dharma, theosis) with etymology, tradition-of-origin, and conceptual neighbors. AI assists by surfacing analogous concepts across traditions when prompted.
 
 - ⬜ **Ritual Database** _(planned)_: Structured records of rites (liturgies, sacraments, pujas, salat, sadhana, sacrifice) with components: officiants, instruments, gestures, recitations, temporal constraints, and required objects. Filterable by tradition, life-cycle stage, or functional category.
 
