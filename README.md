@@ -2871,7 +2871,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Grid-Tie & Net Metering Calculator** _(stub, awaits wire-up)_: Models monthly bill impact under net metering, net billing, time-of-use, and demand charges, including export caps and true-up. Compares self-consumption vs full export economics.
 
-- ⬜ **DC/AC Cable & Conduit Sizer** _(planned)_: Sizes conductors for voltage drop, ampacity, and temperature derating under NEC/IEC tables, including continuous-load 1.25x factors and conduit fill. Outputs a bill of materials with copper vs aluminum cost comparison.
+- ✅ **DC/AC Cable & Conduit Sizer** _(stub, awaits wire-up)_: Sizes conductors for voltage drop, ampacity, and temperature derating under NEC/IEC tables, including continuous-load 1.25x factors and conduit fill. Outputs a bill of materials with copper vs aluminum cost comparison.
 
 - ⬜ **Single-Line Diagram Editor** _(planned)_: Schematic editor with PV-specific blocks (combiner, RSD, disconnect, inverter, ATS, meter, breaker panel) that auto-labels wire gauges and OCPD ratings from upstream calculations. Exports PDF for permit submittal.
 
