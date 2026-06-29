@@ -4780,7 +4780,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Encrypted therapy session notes** _(stub, awaits wire-up)_: Age- or libsodium-encrypted notes in SOAP or DAP format, with client/session metadata stored separately from body text. Local-only by default; supports offline passphrase-derived keys and a panic-lock shortcut.
 
-- ⬜ **Validated-instrument battery** _(planned)_: Self-administered PHQ-9, GAD-7, PSQI, ISI, AUDIT-C, K10, and PCL-5 with correct scoring, severity bands, and longitudinal plots. Flags clinical thresholds and surfaces item-level changes between administrations.
+- ✅ **Validated-instrument battery** _(stub, awaits wire-up)_: Self-administered PHQ-9, GAD-7, PSQI, ISI, AUDIT-C, K10, and PCL-5 with correct scoring, severity bands, and longitudinal plots. Flags clinical thresholds and surfaces item-level changes between administrations.
 
 - ⬜ **Stanley-Brown safety plan** _(planned)_: Guided builder for the six-step safety plan: warning signs, internal coping, social distractions, support contacts, professionals, and means restriction. Prints a wallet-card PDF and an on-device quick-access view.
 
