@@ -807,7 +807,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Stereo View Inspector** _(stub, awaits wire-up)_: Side-by-side per-eye render preview with adjustable IPD, vergence, and zero-parallax distance; highlights pixels with excessive stereo disparity that cause eye strain. Useful for tuning UI placement and depth budgets.
 
-- ⬜ **Lens Distortion Profiler** _(planned)_: Generates and previews barrel / pincushion mesh warps and chromatic aberration correction curves for a given lens profile, with a calibration-grid loopback. Imports common headset distortion meshes and exports as shader LUTs.
+- ✅ **Lens Distortion Profiler** _(stub, awaits wire-up)_: Generates and previews barrel / pincushion mesh warps and chromatic aberration correction curves for a given lens profile, with a calibration-grid loopback. Imports common headset distortion meshes and exports as shader LUTs.
 
 - ⬜ **Locomotion Lab** _(planned)_: Sandbox for trying teleport, snap-turn, smooth, arm-swing, and vehicle locomotion against a fixed test course, with telemetry on time-to-target, off-path deviation, and comfort score from the analyzer.
 
