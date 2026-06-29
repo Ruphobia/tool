@@ -2581,7 +2581,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **NACA Generator** _(stub, awaits wire-up)_: Parametric generator for 4-digit, 5-digit, and 6-series NACA sections from camber, thickness, and reflex parameters. Outputs cleanly redistributed point clouds with cosine spacing suitable for panel solvers.
 
-- ⬜ **Airfoil Shape Editor** _(planned)_: Direct manipulation of camber line and thickness distribution via Bezier or PARSEC control points, with live update of leading-edge radius, trailing-edge angle, and area. Includes AI-integrated suggestion of a starting shape from target Cl, Re, and thickness constraints.
+- ✅ **Airfoil Shape Editor** _(stub, awaits wire-up)_: Direct manipulation of camber line and thickness distribution via Bezier or PARSEC control points, with live update of leading-edge radius, trailing-edge angle, and area. Includes AI-integrated suggestion of a starting shape from target Cl, Re, and thickness constraints.
 
 - ⬜ **Polar Solver** _(planned)_: XFOIL-style viscous/inviscid 2D solver that sweeps angle of attack and Reynolds number to produce Cl, Cd, Cm, and L/D polars. Handles forced and free transition with selectable Ncrit and supports batch runs across an airfoil set.
 
