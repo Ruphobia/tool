@@ -2965,7 +2965,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **CRISPR Guide Designer** _(stub, awaits wire-up)_: Designs sgRNAs for Cas9, Cas12a, base editors, and prime editors with on-target efficiency scoring (Doench, DeepCRISPR) and genome-wide off-target enumeration. Repair-template builder for HDR knock-ins and library design for pooled screens.
 
-- ⬜ **Codon Optimizer** _(planned)_: Re-codes a protein sequence for expression in a chosen host (E. coli, yeast, CHO, HEK, plant, custom codon table) while honoring constraints: avoided restriction sites, avoided repeats, target GC window, and preserved regulatory motifs. Multi-objective with tunable weights.
+- ✅ **Codon Optimizer** _(stub, awaits wire-up)_: Re-codes a protein sequence for expression in a chosen host (E. coli, yeast, CHO, HEK, plant, custom codon table) while honoring constraints: avoided restriction sites, avoided repeats, target GC window, and preserved regulatory motifs. Multi-objective with tunable weights.
 
 - ⬜ **Read Mapper and Variant Caller** _(planned)_: Short and long read alignment (BWA-MEM, minimap2, bowtie2) followed by variant calling (bcftools, DeepVariant-style, Strelka-style) with VCF annotation against gene models. QC, coverage, duplicate marking, and indel realignment.
 
