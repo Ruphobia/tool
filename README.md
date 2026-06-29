@@ -3973,7 +3973,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sourdough Starter Logger** _(stub, awaits wire-up)_: Tracks feedings, hydration ratio, peak times, and rise heights across multiple starters. Plots ambient temperature against doubling time to predict readiness windows.
 
-- ⬜ **Kombucha SCOBY Tracker** _(planned)_: Logs brew batches with starting tea pH, sugar concentration, and daily acidity readings. Estimates F1 finish dates from temperature curves and flags vinegar-tier overshoot risk.
+- ✅ **Kombucha SCOBY Tracker** _(stub, awaits wire-up)_: Logs brew batches with starting tea pH, sugar concentration, and daily acidity readings. Estimates F1 finish dates from temperature curves and flags vinegar-tier overshoot risk.
 
 - ⬜ **Koji and Miso Schedule** _(planned)_: Schedules koji incubation, salt-cure timing, and miso aging milestones for shiro, aka, and hatcho styles. Adjusts moromi turning intervals based on logged temperature and humidity readings.
 
