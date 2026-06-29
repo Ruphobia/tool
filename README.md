@@ -3409,7 +3409,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Oceanography and marine science
 
-- ⬜ **Tide predictor** _(planned)_: Computes tidal elevation at any station using NOAA/IHO harmonic constituents. Plots high/low tables, lunar phase overlay, and supports custom constituent fits from a user-supplied time series.
+- ✅ **Tide predictor** _(stub, awaits wire-up)_: Computes tidal elevation at any station using NOAA/IHO harmonic constituents. Plots high/low tables, lunar phase overlay, and supports custom constituent fits from a user-supplied time series.
 
 - ⬜ **Tidal current rose** _(planned)_: Predicts ebb/flood currents at NOAA current stations and renders rose diagrams of speed and direction over arbitrary intervals. Handles reversing, rotary, and hydraulic current types.
 
