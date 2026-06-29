@@ -2930,7 +2930,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Quantum chemistry interface** _(stub, awaits wire-up)_: Generates input files for Psi4, ORCA, NWChem, and xTB and parses outputs for energies, optimized geometries, frequencies, NMR shieldings, and orbitals. AI-integrated suggestion of method and basis from system size, element set, and target property.
 
-- ⬜ **Kinetics and calibration fitter** _(planned)_: Fits concentration-versus-time data to zeroth, first, second-order, Arrhenius, and Michaelis-Menten models, and fits linear or weighted calibration curves; reports rate constants, half-lives, LOD, LOQ, R squared, and back-calculated unknowns.
+- ✅ **Kinetics and calibration fitter** _(stub, awaits wire-up)_: Fits concentration-versus-time data to zeroth, first, second-order, Arrhenius, and Michaelis-Menten models, and fits linear or weighted calibration curves; reports rate constants, half-lives, LOD, LOQ, R squared, and back-calculated unknowns.
 
 - ⬜ **Chromatography method designer** _(planned)_: Plans HPLC, UPLC, and GC methods from analyte properties; predicts retention, resolution, and peak shape under a chosen column, mobile phase, gradient, and temperature. AI-integrated suggestion of starting conditions from a target analyte mixture.
 
