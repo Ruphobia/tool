@@ -958,7 +958,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **EVM Debugger** _(stub, awaits wire-up)_: Steps through transaction execution opcode by opcode against a local fork, with stack, memory, storage, and gas at each step. Supports source-mapped Solidity stepping and time-travel reverse execution.
 
-- ⬜ **ABI & Calldata Decoder** _(planned)_: Decodes raw calldata, event logs, and revert reasons against known ABIs or guessed selectors. Re-encodes edited parameters and supports nested structs, dynamic arrays, and EIP-712 typed data.
+- ✅ **ABI & Calldata Decoder** _(stub, awaits wire-up)_: Decodes raw calldata, event logs, and revert reasons against known ABIs or guessed selectors. Re-encodes edited parameters and supports nested structs, dynamic arrays, and EIP-712 typed data.
 
 - ⬜ **ZK Circuit Playground** _(planned)_: Authors and proves Circom, Halo2, and Noir circuits with witness inspection and constraint visualization. Generates Groth16/PLONK proofs locally and exports Solidity verifier contracts.
 
