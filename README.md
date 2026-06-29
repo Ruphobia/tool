@@ -3558,7 +3558,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Growing Degree Day Tracker** _(stub, awaits wire-up)_: Accumulates GDD against base and ceiling temperatures per crop or pest from local station or gridded forecast data. Predicts bloom, ripening, and insect emergence windows (e.g. codling moth, corn earworm).
 
-- ⬜ **Frost Risk Predictor** _(planned)_: Combines forecast lows, dew point, wind, and microclimate offsets to score nightly frost probability for each bed or row. Recommends row cover, sprinkler frost protection, or harvest-now triggers.
+- ✅ **Frost Risk Predictor** _(stub, awaits wire-up)_: Combines forecast lows, dew point, wind, and microclimate offsets to score nightly frost probability for each bed or row. Recommends row cover, sprinkler frost protection, or harvest-now triggers.
 
 - ⬜ **Pest and Disease Identifier** _(planned)_: AI-integrated photo classifier for common crop pests, diseases, and nutrient deficiencies, with confidence scores, scouting checklist, lifecycle notes, and ranked IPM responses (cultural, biological, chemical) keyed to regional pesticide labels.
 
