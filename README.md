@@ -3002,7 +3002,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **BLAST runner** _(stub, awaits wire-up)_: Executes local blastn, blastp, blastx, tblastn, and psiblast against bundled or custom databases. Parses results into hit tables, alignment views, and taxonomy breakdowns; supports remote NCBI fallback when offline corpora miss.
 
-- ⬜ **Multiple sequence aligner** _(planned)_: Aligns nucleotide or protein sets via MAFFT, MUSCLE, or Clustal Omega with column conservation scoring and consensus extraction. Exports to Stockholm, FASTA, and PHYLIP.
+- ✅ **Multiple sequence aligner** _(stub, awaits wire-up)_: Aligns nucleotide or protein sets via MAFFT, MUSCLE, or Clustal Omega with column conservation scoring and consensus extraction. Exports to Stockholm, FASTA, and PHYLIP.
 
 - ⬜ **Genome assembler** _(planned)_: Runs SPAdes, Flye, Unicycler, or Canu pipelines for short, long, and hybrid reads with quality trimming via fastp and assembly QC via QUAST and BUSCO.
 
