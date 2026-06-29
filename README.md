@@ -1919,7 +1919,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Caption renderer** _(stub, awaits wire-up)_: Burns soft subtitles into video with font, position, and karaoke effect support, or muxes them as sidecar tracks. Handles RTL, ruby text, and vertical layout.
 
-- ⬜ **Back-translation QA** _(planned)_: Round-trips translations through reverse MT and AI-integrated semantic comparison against the source to flag meaning drift, omissions, and hallucinated content.
+- ✅ **Back-translation QA** _(stub, awaits wire-up)_: Round-trips translations through reverse MT and AI-integrated semantic comparison against the source to flag meaning drift, omissions, and hallucinated content.
 
 - ⬜ **Lyric timing and karaoke** _(planned)_: Word-level and syllable-level lyric synchronization editor producing LRC, enhanced LRC, KAR, and ASS karaoke tags from audio plus text.
 
