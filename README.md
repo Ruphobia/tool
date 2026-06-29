@@ -4293,7 +4293,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Random Table Generator** _(stub, awaits wire-up)_: Authoring and rolling environment for nested weighted tables with recursion, conditional branches, and inline dice expressions. Imports common formats (Perchance, RollTables, Foundry) and exposes tables as macros to other modules.
 
-- ⬜ **Hex And Grid Mapper** _(planned)_: Virtual tabletop canvas with square, hex (pointy/flat), and gridless modes; supports tokens, fog of war, dynamic line-of-sight, elevation layers, and measured templates. Exports battle maps to print-tiled PDFs or image atlases.
+- ✅ **Hex And Grid Mapper** _(stub, awaits wire-up)_: Virtual tabletop canvas with square, hex (pointy/flat), and gridless modes; supports tokens, fog of war, dynamic line-of-sight, elevation layers, and measured templates. Exports battle maps to print-tiled PDFs or image atlases.
 
 - ⬜ **Regional Map Sculptor** _(planned)_: Procedural overworld generator producing biomes, rivers, coastlines, settlements, and trade routes with editable splines and tectonic/climate simulation. Outputs labeled atlas pages and player-facing fog-redacted variants.
 
