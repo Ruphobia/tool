@@ -1891,7 +1891,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **G2P and phonetic transcriber** _(stub, awaits wire-up)_: Grapheme-to-phoneme conversion with IPA, X-SAMPA, and language-specific phone sets. Per-project lexicon overrides and pronunciation variants.
 
-- ⬜ **OCR studio** _(planned)_: Document and image OCR with layout reconstruction, multi-column handling, RTL and vertical-script support, and per-character confidence overlays. AI-integrated postcorrection of recognizer errors against a language model.
+- ✅ **OCR studio** _(stub, awaits wire-up)_: Document and image OCR with layout reconstruction, multi-column handling, RTL and vertical-script support, and per-character confidence overlays. AI-integrated postcorrection of recognizer errors against a language model.
 
 - ⬜ **Keyboard layout designer** _(planned)_: Editor for custom IME and keyboard layouts targeting non-Latin scripts, dead keys, combining marks, and stenographic chords. Exports to xkb, Karabiner, MSKLC, and ibus.
 
