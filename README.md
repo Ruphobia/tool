@@ -2080,7 +2080,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Quantum mechanics sandbox** _(stub, awaits wire-up)_: Bound-state, scattering, and time-dependent Schrödinger solver in 1D/2D/3D with interactive potential editor, eigenstate viewer, and density-matrix evolution for open systems.
 
-- ⬜ **Relativity playground** _(planned)_: Special-relativity kinematics (Lorentz boosts, Minkowski diagrams) and general-relativity geodesic integrator for canonical metrics (Schwarzschild, Kerr, FLRW) with embedding-diagram and orbit visualization.
+- ✅ **Relativity playground** _(stub, awaits wire-up)_: Special-relativity kinematics (Lorentz boosts, Minkowski diagrams) and general-relativity geodesic integrator for canonical metrics (Schwarzschild, Kerr, FLRW) with embedding-diagram and orbit visualization.
 
 - ⬜ **N-body integrator** _(planned)_: Symplectic and high-order N-body simulator for celestial mechanics and molecular dynamics with adaptive timestepping, energy-drift monitoring, and Barnes-Hut/FMM acceleration.
 
