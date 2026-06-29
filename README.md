@@ -2239,7 +2239,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Ashby Chart Plotter** _(stub, awaits wire-up)_: Plots any pair of material properties (modulus vs density, strength vs cost, toughness vs hardness, etc.) as a Cambridge-style Ashby map with envelope overlays for metals, polymers, ceramics, composites, woods, and foams. Supports custom material indices and selection lines.
 
-- ⬜ **Phase Diagram Viewer** _(planned)_: Binary and ternary equilibrium phase diagrams (Fe-C, Cu-Sn, Al-Si, Pb-Sn, Cu-Zn, Ag-Cu, Ti-Al, etc.) with lever-rule readouts at a clicked composition/temperature. Overlays metastable lines and identifies the phases present plus their fractions.
+- ✅ **Phase Diagram Viewer** _(stub, awaits wire-up)_: Binary and ternary equilibrium phase diagrams (Fe-C, Cu-Sn, Al-Si, Pb-Sn, Cu-Zn, Ag-Cu, Ti-Al, etc.) with lever-rule readouts at a clicked composition/temperature. Overlays metastable lines and identifies the phases present plus their fractions.
 
 - ⬜ **TTT/CCT Plotter** _(planned)_: Time-temperature-transformation and continuous-cooling-transformation curves for common steels, with overlay of a user-defined cooling profile to predict resulting microstructure (martensite, bainite, pearlite, ferrite) and approximate hardness.
 
