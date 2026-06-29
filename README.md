@@ -3237,7 +3237,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Hodograph & severe parameters** _(stub, awaits wire-up)_: Draws 0-1, 0-3, 0-6 km hodographs with storm motion (Bunkers right/left) and computes SRH, EHI, STP, SCP, SHIP, and effective bulk shear for severe weather analysis.
 
-- ⬜ **NEXRAD Level II viewer** _(planned)_: Decodes WSR-88D Archive II volumes via Py-ART; renders reflectivity, velocity, spectrum width, ZDR, KDP, CC, and RhoHV with PPI, RHI, and pseudo-CAPPI views; supports dealiasing, dual-pol HCA, and storm-relative motion.
+- ✅ **NEXRAD Level II viewer** _(stub, awaits wire-up)_: Decodes WSR-88D Archive II volumes via Py-ART; renders reflectivity, velocity, spectrum width, ZDR, KDP, CC, and RhoHV with PPI, RHI, and pseudo-CAPPI views; supports dealiasing, dual-pol HCA, and storm-relative motion.
 
 - ⬜ **MRMS mosaic browser** _(planned)_: Streams MRMS composite reflectivity, QPE, rotation tracks, and hail size grids; overlays SPC storm reports, NWS warnings, and county/CWA polygons for verification.
 
