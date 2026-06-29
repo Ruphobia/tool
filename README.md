@@ -1429,7 +1429,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Adverse Media Scanner** _(stub, awaits wire-up)_: Aggregates open-web and licensed news sources for negative-news hits per subject, classifies by FATF predicate offense category, and dedupes near-identical reports across outlets using AI-integrated semantic clustering.
 
-- ⬜ **Address Verifier** _(planned)_: Validates and standardizes addresses against USPS, Royal Mail PAF, AusPost, Canada Post, and UPU formats; geocodes to lat/lon and cross-checks against utility, credit header, and electoral roll sources where licensed.
+- ✅ **Address Verifier** _(stub, awaits wire-up)_: Validates and standardizes addresses against USPS, Royal Mail PAF, AusPost, Canada Post, and UPU formats; geocodes to lat/lon and cross-checks against utility, credit header, and electoral roll sources where licensed.
 
 - ⬜ **UBO Graph Explorer** _(planned)_: Pulls corporate registry filings from Companies House, OpenCorporates, SEC EDGAR, and GLEIF LEI records; traces beneficial ownership through layered entities and highlights >25% control paths, nominees, and circular structures.
 
