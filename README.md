@@ -4676,7 +4676,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Land navigation toolkit** _(stub, awaits wire-up)_: Converts between lat/lon, UTM, and MGRS, applies local magnetic declination, computes pace count over slope, and walks dead-reckoning legs with cumulative error estimates. Reads topo contours for slope angle, viewshed, and water-flow direction.
 
-- ⬜ **Knot and lashing library** _(planned)_: Cataloged knots and lashings with use cases, breaking-strength derating versus rope material and diameter, and step-by-step diagrams. Recommends an appropriate knot from the load type (life-safety, hauling, hitching, joining, securing).
+- ✅ **Knot and lashing library** _(stub, awaits wire-up)_: Cataloged knots and lashings with use cases, breaking-strength derating versus rope material and diameter, and step-by-step diagrams. Recommends an appropriate knot from the load type (life-safety, hauling, hitching, joining, securing).
 
 
 #### Detailed genealogy and family history
