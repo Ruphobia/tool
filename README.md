@@ -2233,7 +2233,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Material safety database** _(stub, awaits wire-up)_: keyed by (material × process). Galvanized steel + welding: zinc oxide fumes, metal fume fever. PVC + laser cutting: HCl/chlorine, eats optics and lungs. Treated wood + burning: arsenic compounds. Foam + heating: HCN. Per entry: PEL/STEL dose, exposure mechanism, recommended PPE, ventilation rate, emergency-response steps.
 
-- ⬜ **Periodic Property Explorer** _(planned)_: Interactive periodic table with sortable/colorable overlays for density, modulus, melting point, electronegativity, thermal/electrical conductivity, CTE, crystal structure, abundance, and cost per kg. Click an element to drill into isotopes, oxidation states, and common alloying roles.
+- ✅ **Periodic Property Explorer** _(stub, awaits wire-up)_: Interactive periodic table with sortable/colorable overlays for density, modulus, melting point, electronegativity, thermal/electrical conductivity, CTE, crystal structure, abundance, and cost per kg. Click an element to drill into isotopes, oxidation states, and common alloying roles.
 
 - ⬜ **Alloy Database Browser** _(planned)_: Searchable database of steels, aluminums, titaniums, coppers, nickels, magnesiums, and superalloys keyed by UNS/AISI/EN/JIS designation, with composition ranges, tempers, and typical mechanical properties. Filter by yield, UTS, density, machinability, weldability, or cost.
 
