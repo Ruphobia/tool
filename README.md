@@ -1040,7 +1040,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Whiteboard** _(stub, awaits wire-up)_: Infinite-canvas freeform surface with sketch, shape, text, sticky-note, image, and lasso-group tools, plus snap-to-grid for tidy diagrams. AI-assisted cleanup of hand-drawn shapes into rectilinear ones.
 
-- ⬜ **Diagram editor** _(planned)_: Structured-diagram tool for flowcharts, swimlanes, sequence diagrams, ERDs, and state machines, driven by a text DSL (mermaid-style) with bidirectional graphical editing. AI-integrated generation from a textual description.
+- ✅ **Diagram editor** _(stub, awaits wire-up)_: Structured-diagram tool for flowcharts, swimlanes, sequence diagrams, ERDs, and state machines, driven by a text DSL (mermaid-style) with bidirectional graphical editing. AI-integrated generation from a textual description.
 
 - ⬜ **Gantt timeline** _(planned)_: Project timeline with tasks, dependencies, milestones, baselines, and critical-path highlighting. Imports from the task inbox and exports to MS Project XML.
 
