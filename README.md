@@ -597,7 +597,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **BSP and board generator** _(stub, awaits wire-up)_: Scaffolds Zephyr boards, ESP-IDF custom boards, Arduino variants, and Linux device trees from a pinmux and peripheral configuration. Keeps the board files in sync as the hardware spec evolves.
 
-- ⬜ **Device tree editor** _(planned)_: Structured editor for Linux/Zephyr device trees with overlay support, binding validation, and live preview of the resolved tree. AI-integrated translation from natural-language hardware descriptions into DT fragments.
+- ✅ **Device tree editor** _(stub, awaits wire-up)_: Structured editor for Linux/Zephyr device trees with overlay support, binding validation, and live preview of the resolved tree. AI-integrated translation from natural-language hardware descriptions into DT fragments.
 
 - ⬜ **Compliance and EMC prep** _(planned)_: Checklists and pre-scan helpers for FCC, CE, RED, and radio module certifications with test-mode firmware stubs and reporting templates. Tracks artifacts required for the submission package.
 
