@@ -4281,7 +4281,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Tabletop RPG and world building
 
-- ⬜ **Character Sheet Forge** _(planned)_: Multi-system character sheet manager supporting D&D 5e, Pathfinder 1e/2e, OSR, and custom rulesets. Tracks stats, inventory, spells, conditions, and resource pools with live derived-stat recalculation and per-system rule validation.
+- ✅ **Character Sheet Forge** _(stub, awaits wire-up)_: Multi-system character sheet manager supporting D&D 5e, Pathfinder 1e/2e, OSR, and custom rulesets. Tracks stats, inventory, spells, conditions, and resource pools with live derived-stat recalculation and per-system rule validation.
 
 - ⬜ **Dice Roller With Macros** _(planned)_: Parser for full dice notation (advantage, exploding, keep-highest, fudge, success-counting pools) with named macros, roll history, and probability previews. Roll templates bind to character sheet fields for one-click attacks, saves, and skill checks.
 
