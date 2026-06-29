@@ -531,7 +531,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Fault decoder** _(stub, awaits wire-up)_: Decodes ARM Cortex-M HardFault, MemManage, BusFault, UsageFault, and RISC-V mcause/mtval traps into a human-readable cause with the offending instruction, stack frame, and likely source line. AI proposes the root-cause class (null deref, stack overflow, unaligned access, MPU violation).
 
-- ⬜ **SWO/ITM/RTT console** _(planned)_: Live capture of SWO, ITM, and Segger RTT channels with timestamping, channel routing, and binary frame decoding. Streams into the workbench log pipeline for AI search and summarization.
+- ✅ **SWO/ITM/RTT console** _(stub, awaits wire-up)_: Live capture of SWO, ITM, and Segger RTT channels with timestamping, channel routing, and binary frame decoding. Streams into the workbench log pipeline for AI search and summarization.
 
 - ⬜ **Logic analyzer bridge** _(planned)_: Driver for sigrok, Saleae, and Kingst captures with protocol decoders for UART, SPI, I2C, CAN, LIN, 1-Wire, SDIO, I2S, and SWD. AI-integrated annotation of unknown bus traffic and anomaly flagging.
 
