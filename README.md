@@ -4393,7 +4393,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Coach Telestrator** _(stub, awaits wire-up)_: Drawing and annotation layer over paused VOD frames or live spectator feeds, with arrow, zone, and timing-marker tools. Exports annotated frame sequences as study packets for players.
 
-- ⬜ **Input Lab** _(planned)_: Latency and polling-rate measurement bench for controllers, monitors, and capture cards, using a USB microcontroller probe or audio-flash sync. Stores per-device profiles and warns when latency drifts.
+- ✅ **Input Lab** _(stub, awaits wire-up)_: Latency and polling-rate measurement bench for controllers, monitors, and capture cards, using a USB microcontroller probe or audio-flash sync. Stores per-device profiles and warns when latency drifts.
 
 - ⬜ **Hitbox Viewer** _(planned)_: Geometry viewer for collision, hit, and hurt volumes extracted from game files or live memory, rendered against the active animation. Supports fighting games, platformers, and FPS hitreg debugging.
 
