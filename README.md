@@ -3453,7 +3453,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Mixed layer depth detector** _(stub, awaits wire-up)_: Identifies MLD on CTD or glider casts using threshold (de Boyer Montegut), gradient, and curvature methods. Flags barrier layers and compensation depth from paired PAR/oxygen.
 
-- ⬜ **Reef transect logger** _(planned)_: Structured entry for belt-transect and point-intercept surveys (Reef Life Survey, AGRRA, CoralWatch protocols) with size-class abundance, substrate cover, and offline-first sync to a portable SQLite store.
+- ✅ **Reef transect logger** _(stub, awaits wire-up)_: Structured entry for belt-transect and point-intercept surveys (Reef Life Survey, AGRRA, CoralWatch protocols) with size-class abundance, substrate cover, and offline-first sync to a portable SQLite store.
 
 - ⬜ **NetCDF/HDF5 explorer** _(planned)_: Browses CF-compliant ocean datasets with dimension-aware slicing, attribute inspection, and quicklook plots for ROMS, MOM6, HYCOM, WW3, and Argo files. Exports subsets to Zarr or COG for downstream use.
 
