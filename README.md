@@ -4597,7 +4597,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Sailing, boating, navigation
 
-- ⬜ **ENC chart renderer** _(planned)_: Parses S-57 ENC cells and S-63 encrypted exchange sets, applies S-52 presentation library symbology with day/dusk/night palettes, and renders configurable safety contours, scamin filters, and CATZOC quality overlays. Supports M_QUAL accuracy diamonds and depth area shading at a chosen safety depth.
+- ✅ **ENC chart renderer** _(stub, awaits wire-up)_: Parses S-57 ENC cells and S-63 encrypted exchange sets, applies S-52 presentation library symbology with day/dusk/night palettes, and renders configurable safety contours, scamin filters, and CATZOC quality overlays. Supports M_QUAL accuracy diamonds and depth area shading at a chosen safety depth.
 
 - ⬜ **Raster chart georeferencer** _(planned)_: Imports BSB/KAP, GeoTIFF, and scanned pilot chart images, fits ground control points to WGS-84, and emits a calibrated tile pyramid. AI-assisted GCP suggestion reads printed graticule ticks and place names when metadata is missing.
 
