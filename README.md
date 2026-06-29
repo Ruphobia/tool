@@ -3633,7 +3633,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Video upscaler** _(stub, awaits wire-up)_: Temporally-coherent super-resolution using Real-ESRGAN-Video, BasicVSR++, and Topaz-style pipelines. Streams frames through tiled inference with optional codec passthrough.
 
-- ⬜ **Video matting** _(planned)_: Per-frame alpha extraction via RVM/MODNet/BiRefNet with temporal smoothing and trimap refinement. Outputs alpha video, mattes, and per-shot masks.
+- ✅ **Video matting** _(stub, awaits wire-up)_: Per-frame alpha extraction via RVM/MODNet/BiRefNet with temporal smoothing and trimap refinement. Outputs alpha video, mattes, and per-shot masks.
 
 - ⬜ **Text-to-video** _(planned)_: Local video generation using AnimateDiff, CogVideoX, Mochi, LTX-Video, and Wan-class models with ControlNet, motion LoRAs, and reference-image conditioning. Reuses prompts and seeds from the image generator.
 
