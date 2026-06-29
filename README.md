@@ -1568,7 +1568,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Embedding atlas** _(stub, awaits wire-up)_: UMAP/t-SNE/PCA/PaCMAP projections of embedding spaces with lasso selection, cluster labels, nearest-neighbor inspection, and cross-modal projection (text-to-image, audio-to-text). AI-integrated cluster naming from sample contents.
 
-- ⬜ **Model browser** _(planned)_: Hugging Face Hub front-end with offline cache, model card preview, license/quant/size filters, dependency check, and one-click pull to local. Flags share-alike or restricted licenses against the project's PD/permissive policy.
+- ✅ **Model browser** _(stub, awaits wire-up)_: Hugging Face Hub front-end with offline cache, model card preview, license/quant/size filters, dependency check, and one-click pull to local. Flags share-alike or restricted licenses against the project's PD/permissive policy.
 
 - ⬜ **Fine-tuning runner** _(planned)_: Configurable LoRA/QLoRA/DoRA/full-finetune launcher over transformers, axolotl, and unsloth backends with VRAM estimation, dataset format validation, and live loss/grad-norm plots. AI-integrated learning-rate and rank suggestion from dataset shape and target model.
 
