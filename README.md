@@ -3068,7 +3068,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Outbreak and transmission tracker** _(stub, awaits wire-up)_: Integrates strain typing, geocoded metadata, and timed phylogenies via Nextstrain or BEAST to infer transmission chains, R_e, and introduction events.
 
-- ⬜ **Vaccine antigen designer** _(planned)_: Selects conserved epitopes across strains, scaffolds multi-epitope constructs with linkers and adjuvant fusions, and evaluates population coverage across HLA distributions.
+- ✅ **Vaccine antigen designer** _(stub, awaits wire-up)_: Selects conserved epitopes across strains, scaffolds multi-epitope constructs with linkers and adjuvant fusions, and evaluates population coverage across HLA distributions.
 
 - ⬜ **RNA structure and riboswitch tool** _(planned)_: Predicts secondary structures via RNAfold, ViennaRNA, and CONTRAfold, scans for riboswitches and CRISPR scaffolds, and renders dot-bracket and arc diagrams.
 
