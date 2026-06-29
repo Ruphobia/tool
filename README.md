@@ -4157,7 +4157,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Bullion and Melt Calculator** _(stub, awaits wire-up)_: Real-time and historical spot price feeds for Au, Ag, Pt, Pd, Cu, Ni applied to coin weights and finenesses by KM number. Computes intrinsic melt floor versus numismatic premium and break-even spreads.
 
-- ⬜ **Counterfeit and Alteration Detector** _(planned)_: Checks weight, diameter, edge, magnetic response, specific gravity, and surface texture against catalog specs; pattern-matches against known fake dies (Omega, Henning, Micro O, Chinese counterfeit families) and altered-date diagnostics. Flags suspect pieces with reasoning.
+- ✅ **Counterfeit and Alteration Detector** _(stub, awaits wire-up)_: Checks weight, diameter, edge, magnetic response, specific gravity, and surface texture against catalog specs; pattern-matches against known fake dies (Omega, Henning, Micro O, Chinese counterfeit families) and altered-date diagnostics. Flags suspect pieces with reasoning.
 
 - ⬜ **Watermark and Perforation Analyzer** _(planned)_: For stamps and banknotes: detects watermarks via fluid-free image enhancement, measures perforation gauge to 0.1, and identifies paper type, gum, and printing method (engraved, typographed, photogravure, offset). Outputs Scott/SG-compatible attribution data.
 
