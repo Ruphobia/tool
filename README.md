@@ -2949,7 +2949,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pairwise Aligner** _(stub, awaits wire-up)_: Smith-Waterman and Needleman-Wunsch with configurable scoring matrices (BLOSUM, PAM, custom), gap penalties, and seed-and-extend for long sequences. Dot-plot view for spotting repeats, inversions, and duplications.
 
-- ⬜ **Genome Browser** _(planned)_: Track-based viewer for assemblies and annotations (FASTA + GFF3, GTF, BED, BigWig, VCF, BAM, CRAM). Zoom from chromosome to base, synteny ribbons across loaded genomes, and read pileups with mismatch coloring.
+- ✅ **Genome Browser** _(stub, awaits wire-up)_: Track-based viewer for assemblies and annotations (FASTA + GFF3, GTF, BED, BigWig, VCF, BAM, CRAM). Zoom from chromosome to base, synteny ribbons across loaded genomes, and read pileups with mismatch coloring.
 
 - ⬜ **Phylogenetic Tree Builder** _(planned)_: Constructs trees with neighbor-joining, maximum-likelihood (RAxML/IQ-TREE-style), and Bayesian (MrBayes-style) backends from an alignment. Bootstrap support, ultrafast bootstrap, model selection (ModelTest), and interactive radial/rectangular/circular tree rendering with reroot, collapse, and taxon coloring.
 
