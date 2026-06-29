@@ -1756,7 +1756,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Comparative-religion timeline** _(stub, awaits wire-up)_: Plots texts, councils, schisms, founders, dynasties, persecutions, and translation movements across traditions on a synchronizable timeline; filters by region, language, tradition, and confidence of dating.
 
-- ⬜ **Doxographic citation graph** _(planned)_: Maps influence and citation lineages among philosophers and theologians using PhilPapers, Diels-Kranz, and user-imported bibliographies; supports forward and backward traversal, community detection, and lineage queries.
+- ✅ **Doxographic citation graph** _(stub, awaits wire-up)_: Maps influence and citation lineages among philosophers and theologians using PhilPapers, Diels-Kranz, and user-imported bibliographies; supports forward and backward traversal, community detection, and lineage queries.
 
 - ⬜ **Ethics scenario explorer** _(planned)_: Runs canonical thought experiments (trolley variants, violinist, experience machine, ring of Gyges, original position) under selectable normative frameworks (utilitarian, Kantian, virtue, care, contractualist, divine command); records verdicts with reasons and saves comparative tables.
 
