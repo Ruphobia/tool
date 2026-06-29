@@ -3181,7 +3181,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Ecological momentary assessment scheduler** _(stub, awaits wire-up)_: Designs ESM/EMA and diary protocols with signal-contingent, interval-contingent, and event-contingent prompts across days. Generates participant schedules, compliance dashboards, and aggregated multilevel-ready datasets.
 
-- ⬜ **Facial action coder** _(planned)_: Detects AU activations and intensities from video via an OpenFace-style pipeline, with head pose and gaze direction tracks. Aligns AU streams to event codes and stimulus onsets for time-locked analysis.
+- ✅ **Facial action coder** _(stub, awaits wire-up)_: Detects AU activations and intensities from video via an OpenFace-style pipeline, with head pose and gaze direction tracks. Aligns AU streams to event codes and stimulus onsets for time-locked analysis.
 
 - ⬜ **Eye-tracking analyzer** _(planned)_: Parses raw gaze samples into fixations and saccades (I-VT, I-DT), maps to AOIs, and computes dwell time, time-to-first-fixation, and transition matrices. Renders heatmaps and scanpaths over stimulus images.
 
