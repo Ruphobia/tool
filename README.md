@@ -4410,7 +4410,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Varroa load tracker** _(stub, awaits wire-up)_: Records alcohol-wash and sugar-roll counts, computes mites per 100 bees, and recommends a treatment window (oxalic dribble/vapor, formic, thymol) against a configurable threshold and brood status.
 
-- ⬜ **Swarm and queen lineage tracker** _(planned)_: Logs queen marking color, source, mating date, supersedure, and pedigree across splits. Predicts swarm risk from frame congestion, drone brood, and seasonal cues.
+- ✅ **Swarm and queen lineage tracker** _(stub, awaits wire-up)_: Logs queen marking color, source, mating date, supersedure, and pedigree across splits. Predicts swarm risk from frame congestion, drone brood, and seasonal cues.
 
 - ⬜ **Pollinator phenology log** _(planned)_: Time-series record of bloom onset, pollinator species sightings (iNaturalist-style taxonomy), and forage availability. Correlates with hive scale weight gain and weather to surface dearth periods.
 
