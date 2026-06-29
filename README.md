@@ -1536,7 +1536,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Dataframe explorer** _(stub, awaits wire-up)_: Interactive tabular browser for CSV, Parquet, Arrow, JSON, and SQL result sets with column-type inference, filtering, sorting, pivoting, and group-by. Includes AI-integrated natural-language to pandas/Polars query translation against the loaded frame.
 
-- ⬜ **Plot studio** _(planned)_: Composable charting surface supporting line, scatter, histogram, box, violin, heatmap, contour, ridge, and small-multiples plots over Matplotlib, Plotly, and Vega-Lite backends. AI-integrated chart-type suggestion from column dtypes and a stated analytical intent.
+- ✅ **Plot studio** _(stub, awaits wire-up)_: Composable charting surface supporting line, scatter, histogram, box, violin, heatmap, contour, ridge, and small-multiples plots over Matplotlib, Plotly, and Vega-Lite backends. AI-integrated chart-type suggestion from column dtypes and a stated analytical intent.
 
 - ⬜ **Statistics console** _(planned)_: Runs descriptive statistics, hypothesis tests (t, Mann-Whitney, chi-square, KS, ANOVA, Kruskal-Wallis), effect sizes, confidence intervals, and power analyses on selected columns or groups. Reports assumptions checked and assumptions violated alongside each result.
 
