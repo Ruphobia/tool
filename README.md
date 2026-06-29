@@ -2767,7 +2767,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Bicycle Gear-Inch Calculator** _(stub, awaits wire-up)_: Computes gear inches, gain ratio, development, and speed-at-cadence for any chainring/cog/wheel combination. Compares 1x, 2x, 3x, and internally-geared hubs side-by-side; flags cross-chain and unusable overlapping gears.
 
-- ⬜ **Frame Geometry Comparator** _(planned)_: Overlays stack, reach, head/seat tube angles, BB drop, chainstay, wheelbase, and standover across multiple bicycles or motorcycles. Computes effective top tube and saddle/bar position deltas to predict fit changes between frames.
+- ✅ **Frame Geometry Comparator** _(stub, awaits wire-up)_: Overlays stack, reach, head/seat tube angles, BB drop, chainstay, wheelbase, and standover across multiple bicycles or motorcycles. Computes effective top tube and saddle/bar position deltas to predict fit changes between frames.
 
 - ⬜ **Parts Compatibility Checker** _(planned)_: Validates bottom bracket, headset, axle, brake mount, derailleur hanger, freehub, and seatpost standards against frame and component specs. For motos and cars, checks bolt patterns, hub bores, caliper mounts, and ECU/harness compatibility.
 
