@@ -4441,7 +4441,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Service panel load calculator** _(stub, awaits wire-up)_: Runs NEC Article 220 standard and optional-method dwelling load calculations, including 240V appliance branches, EV charger, heat pump, and PV backfeed; sizes the service entrance conductor and main breaker.
 
-- ⬜ **Motor and HVAC circuit sizer** _(planned)_: Computes MCA, MOCP, disconnect, and overload sizing for compressors and motors per NEC 430/440, using nameplate FLA/RLA/LRA and the appropriate code factors.
+- ✅ **Motor and HVAC circuit sizer** _(stub, awaits wire-up)_: Computes MCA, MOCP, disconnect, and overload sizing for compressors and motors per NEC 430/440, using nameplate FLA/RLA/LRA and the appropriate code factors.
 
 - ⬜ **Plumbing fixture-unit pipe sizer** _(planned)_: Sizes water supply mains and branches by WSFU per IPC/UPC Hunter curves, with simultaneous Hazen-Williams pressure-loss check across fittings and elevation; sizes DWV by DFU and slope.
 
