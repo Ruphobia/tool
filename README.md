@@ -2420,7 +2420,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Asset deterioration model** _(stub, awaits wire-up)_: Pipe break and condition forecasting from age, material, soil corrosivity, traffic loading, and historical work-order data. Produces likelihood-of-failure scores, renewal prioritization, and capital plan curves; AI-integrated cohort survival fits where break records are sparse.
 
-- ⬜ **SCADA timeseries viewer** _(planned)_: Imports historian exports (OSIsoft PI, Ignition, InfluxDB, CSV) and aligns flow, pressure, level, turbidity, and chlorine traces against the hydraulic model. Computes mass balance, unaccounted-for water, pump run hours, and minimum night flow per district metered area.
+- ✅ **SCADA timeseries viewer** _(stub, awaits wire-up)_: Imports historian exports (OSIsoft PI, Ignition, InfluxDB, CSV) and aligns flow, pressure, level, turbidity, and chlorine traces against the hydraulic model. Computes mass balance, unaccounted-for water, pump run hours, and minimum night flow per district metered area.
 
 
 #### Heavy engineering: naval, petroleum, mining, nuclear
