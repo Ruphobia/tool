@@ -157,7 +157,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Hex editor** _(in testing)_: a binary file editor with offset/value display in hex, decimal, ASCII; structure templates for common formats (ELF, PE, PNG, GGUF, etc.); diff and patch over a binary; checksum and entropy view.
 
-- ⬜ **File format translators** _(planned)_: a collection of converters between common file formats: pandoc-style document conversion, image format conversion, point-cloud format conversion, audio/video transcoding, archive (zip/tar/7z) repacking. Single-command invocation, batch mode, AI-suggested target format from the use case.
+- ✅ **File format translators** _(in testing)_: a collection of converters between common file formats: pandoc-style document conversion, image format conversion, point-cloud format conversion, audio/video transcoding, archive (zip/tar/7z) repacking. Single-command invocation, batch mode, AI-suggested target format from the use case.
 
 - ⬜ **Document reader (RAG)** _(planned)_: a tool for ingesting documents (Word, PDF, plain text, HTML, datasheets) into a per-project retrieval index, so the AI can answer questions grounded in the user's own documents. Distinct from the Wikipedia knowledge base.
 
