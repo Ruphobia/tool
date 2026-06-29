@@ -1435,7 +1435,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **AML Risk Scorer** _(stub, awaits wire-up)_: Combines a policy DSL (country risk, occupation, product, channel, source-of-funds) with a gradient-boosted residual model; surfaces per-factor SHAP contributions to justify the score in a SAR or review note.
 
-- ⬜ **Transaction Monitor** _(planned)_: Applies typology rules (structuring, smurfing, layering, rapid pass-through, sanctioned-corridor, mule-pattern) over a streaming ledger, opens cases above threshold, and drafts FinCEN SAR and goAML XML reports.
+- ✅ **Transaction Monitor** _(stub, awaits wire-up)_: Applies typology rules (structuring, smurfing, layering, rapid pass-through, sanctioned-corridor, mule-pattern) over a streaming ledger, opens cases above threshold, and drafts FinCEN SAR and goAML XML reports.
 
 - ⬜ **Audit Trail Ledger** _(planned)_: Append-only hash-chained event log with per-event Merkle proofs, signed periodic snapshots, and WORM export; queryable by subject, operator, document, or decision outcome for regulator inspection.
 
