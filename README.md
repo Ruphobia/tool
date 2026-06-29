@@ -3815,7 +3815,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **FFT and spectral inspector** _(stub, awaits wire-up)_: Interactive single-shot and rolling FFT view with windowing options (Hann, Hamming, Blackman-Harris, Kaiser, flat-top), peak picking, harmonic markers, and THD/SNR/SINAD/SFDR readouts.
 
-- ⬜ **Bode and pole-zero plotter** _(planned)_: Plots magnitude, phase, group delay, step, and impulse responses for arbitrary transfer functions; supports symbolic entry, s-domain to z-domain conversion, and interactive pole-zero dragging.
+- ✅ **Bode and pole-zero plotter** _(stub, awaits wire-up)_: Plots magnitude, phase, group delay, step, and impulse responses for arbitrary transfer functions; supports symbolic entry, s-domain to z-domain conversion, and interactive pole-zero dragging.
 
 - ⬜ **Convolution and impulse-response toolkit** _(planned)_: Captures, deconvolves (sine-sweep, MLS), trims, and applies impulse responses for room/cab/speaker simulation; partitioned convolution for low-latency runtime use.
 
