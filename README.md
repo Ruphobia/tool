@@ -2070,7 +2070,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Wave optics simulator** _(stub, awaits wire-up)_: Fourier optics, diffraction (Fraunhofer/Fresnel), interferometry, and beam-propagation method for Gaussian and structured beams with phase-mask editor.
 
-- ⬜ **EM field solver** _(planned)_: FDTD and method-of-moments solver for time- and frequency-domain electromagnetics with antenna patterns, S-parameters, near/far-field plots, and PML boundary conditions.
+- ✅ **EM field solver** _(stub, awaits wire-up)_: FDTD and method-of-moments solver for time- and frequency-domain electromagnetics with antenna patterns, S-parameters, near/far-field plots, and PML boundary conditions.
 
 - ⬜ **Circuit physics sim** _(planned)_: SPICE-compatible analog and mixed-signal simulator with transient, AC, noise, and Monte-Carlo analyses; integrates with the EM solver for parasitic extraction.
 
