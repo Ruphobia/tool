@@ -4428,7 +4428,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Terrarium climate logger** _(stub, awaits wire-up)_: Ingests temp, humidity, and UVB sensor streams (Solarmeter, BLE hygrometers, MQTT probes). Computes basking-to-cool-side gradient adherence, night drop compliance, and shed-cycle humidity bumps.
 
-- ⬜ **Pet training log** _(planned)_: Records sessions per cue with criteria, reinforcement schedule, latency, and success rate. Tracks shaping progress and proofs against distraction levels in a Karen Pryor / clicker style ladder.
+- ✅ **Pet training log** _(stub, awaits wire-up)_: Records sessions per cue with criteria, reinforcement schedule, latency, and success rate. Tracks shaping progress and proofs against distraction levels in a Karen Pryor / clicker style ladder.
 
 - ⬜ **Pet health and medication log** _(planned)_: Tracks weight, body-condition score, medications, vaccination dates, fecals, and vet notes. Generates weight-scaled dose reminders for spot-ons, oral meds, and parasite preventatives.
 
