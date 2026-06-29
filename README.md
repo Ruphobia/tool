@@ -1540,7 +1540,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Statistics console** _(stub, awaits wire-up)_: Runs descriptive statistics, hypothesis tests (t, Mann-Whitney, chi-square, KS, ANOVA, Kruskal-Wallis), effect sizes, confidence intervals, and power analyses on selected columns or groups. Reports assumptions checked and assumptions violated alongside each result.
 
-- ⬜ **Regression workbench** _(planned)_: Fits OLS, GLM, mixed-effects, quantile, robust, and regularized (Ridge/Lasso/ElasticNet) regressions with full diagnostics: residual plots, leverage, VIF, Cook's distance, and partial dependence. AI-integrated narration of which diagnostics actually matter for the fit at hand.
+- ✅ **Regression workbench** _(stub, awaits wire-up)_: Fits OLS, GLM, mixed-effects, quantile, robust, and regularized (Ridge/Lasso/ElasticNet) regressions with full diagnostics: residual plots, leverage, VIF, Cook's distance, and partial dependence. AI-integrated narration of which diagnostics actually matter for the fit at hand.
 
 - ⬜ **Bayesian sandbox** _(planned)_: PyMC and NumPyro front-end for specifying priors, running NUTS/HMC/SVI, and inspecting traces, R-hat, ESS, posterior predictive checks, and pair plots. Supports model comparison via LOO and WAIC.
 
