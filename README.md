@@ -303,7 +303,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Diff viewer** _(in testing)_: Side-by-side and inline diff renderer for files, commits, branches, and arbitrary buffers, with hunk staging, three-way merge, and AI summarization of what a diff actually changes.
 
-- ⬜ **Git workbench** _(planned)_: Local VCS interface for staging, committing, branching, rebasing, cherry-picking, and stash management, with AI-drafted commit messages and PR descriptions derived from the staged diff.
+- ✅ **Git workbench** _(in testing)_: Local VCS interface for staging, committing, branching, rebasing, cherry-picking, and stash management, with AI-drafted commit messages and PR descriptions derived from the staged diff.
 
 - ⬜ **History explorer** _(planned)_: Commit graph, blame, and pickaxe browser that traces how a line, function, or file evolved, with AI narration of the reasoning behind a change cluster.
 
