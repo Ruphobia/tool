@@ -1409,7 +1409,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### KYC, identity, compliance verification
 
-- ⬜ **MRZ Decoder** _(planned)_: Parses ICAO 9303 machine-readable zones for passports, visas, and TD1/TD2/TD3 cards; validates per-field and composite check digits and surfaces alignment or substitution errors with confidence per glyph.
+- ✅ **MRZ Decoder** _(stub, awaits wire-up)_: Parses ICAO 9303 machine-readable zones for passports, visas, and TD1/TD2/TD3 cards; validates per-field and composite check digits and surfaces alignment or substitution errors with confidence per glyph.
 
 - ⬜ **Document Classifier** _(planned)_: Identifies document type, issuing country, and template version from an image using a local catalog of known layouts plus an AI-integrated visual classifier fallback for unseen variants.
 
