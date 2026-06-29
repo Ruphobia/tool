@@ -1280,7 +1280,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **DSCR and debt yield calculator** _(stub, awaits wire-up)_: Computes debt service coverage ratio, debt yield, LTV, and break-even occupancy for an income property given NOI and proposed loan terms, with sensitivity tables over rate and NOI.
 
-- ⬜ **Refinance break-even analyzer** _(planned)_: Calculates the months-to-recover on a refinance by comparing new payment, closing costs, and remaining term against the existing loan, including cash-out and rate-and-term variants.
+- ✅ **Refinance break-even analyzer** _(stub, awaits wire-up)_: Calculates the months-to-recover on a refinance by comparing new payment, closing costs, and remaining term against the existing loan, including cash-out and rate-and-term variants.
 
 - ⬜ **Cap stack and waterfall modeler** _(planned)_: Stacks senior debt, mezz, preferred equity, and common equity, then runs a distribution waterfall with hurdles, IRR lookbacks, catch-ups, and promote splits for GP/LP returns.
 
