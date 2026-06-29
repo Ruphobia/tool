@@ -3587,7 +3587,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Image editor** _(in testing)_: MS-Paint-style canvas with brush, eraser, line, rectangle, and select tools, color picker, brush size, zoom (Ctrl+wheel and toolbar), 30-step undo/redo, and copy/cut/paste that talks to the OS clipboard. View/edit toggle on the image tab.
 
-- ⬜ **Advanced raster image editor (Photoshop / GIMP class)** _(planned)_: layers, masks, blend modes, smart selections (lasso, magic wand, color range), healing/clone tools, content-aware fill, adjustment layers, color grading, photo retouching, compositing, plug-in/script architecture. Goes beyond the MS-Paint-style image editor for real photo work.
+- ✅ **Advanced raster image editor (Photoshop / GIMP class)** _(stub, awaits wire-up)_: layers, masks, blend modes, smart selections (lasso, magic wand, color range), healing/clone tools, content-aware fill, adjustment layers, color grading, photo retouching, compositing, plug-in/script architecture. Goes beyond the MS-Paint-style image editor for real photo work.
 
 - ⬜ **Vector graphics editor (Illustrator / Inkscape class)** _(planned)_: paths and beziers, boolean operations, gradients, typography (text on path, OpenType features), live filters, layered SVG export, vector effects. For logos, schematic illustrations, icons, layout artwork.
 
