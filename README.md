@@ -1005,7 +1005,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Vintage Serial Terminal** _(stub, awaits wire-up)_: Speaks XMODEM, YMODEM, ZMODEM, Kermit, and bespoke vendor handshakes over real serial; bridges to TCP for BBS sessions and modem-emulator workflows.
 
-- ⬜ **CRT Geometry and Convergence Tuner** _(planned)_: Generates calibration patterns, captures the screen via webcam, and suggests yoke and convergence adjustments with explicit high-voltage safety reminders before each step.
+- ✅ **CRT Geometry and Convergence Tuner** _(stub, awaits wire-up)_: Generates calibration patterns, captures the screen via webcam, and suggests yoke and convergence adjustments with explicit high-voltage safety reminders before each step.
 
 
 #### Office productivity
