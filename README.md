@@ -3993,7 +3993,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Cheese Make Planner** _(stub, awaits wire-up)_: Walks through milk pasteurization, culture inoculation, rennet set, curd cut, cook, drain, press, brine, and affinage stages. Logs target pH and titratable acidity at each step and adjusts hold times when readings drift.
 
-- ⬜ **Cold-Smoke and Hot-Smoke Calculator** _(planned)_: Computes wood-to-protein ratios, smoke residency time, and equivalent surface drying for cold smoking, hot smoking, and sous vide finish. Highlights nitrite/nitrate cure levels per Cure #1 and Cure #2 reference tables.
+- ✅ **Cold-Smoke and Hot-Smoke Calculator** _(stub, awaits wire-up)_: Computes wood-to-protein ratios, smoke residency time, and equivalent surface drying for cold smoking, hot smoking, and sous vide finish. Highlights nitrite/nitrate cure levels per Cure #1 and Cure #2 reference tables.
 
 - ⬜ **Salt and Brine Chemistry Solver** _(planned)_: Converts between percent salt by weight, baume, salometer degrees, and equilibrium brine for a given product mass. Includes nitrite ppm targets, sugar offsets, and water hardness adjustments.
 
