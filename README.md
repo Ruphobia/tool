@@ -3898,7 +3898,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Fabric Yardage Calculator** _(stub, awaits wire-up)_: Estimates required yardage from selected pattern, fabric width, repeat, nap, and shrinkage. Computes cost from price per yard, accounts for fussy-cut waste, and stores fabric-specific defaults.
 
-- ⬜ **Drape Simulator** _(planned)_: 3D cloth simulation of a flat pattern on a parametric avatar with adjustable stretch, bending, and friction per fabric. Highlights strain and pressure to flag tight zones before cutting.
+- ✅ **Drape Simulator** _(stub, awaits wire-up)_: 3D cloth simulation of a flat pattern on a parametric avatar with adjustable stretch, bending, and friction per fabric. Highlights strain and pressure to flag tight zones before cutting.
 
 - ⬜ **Embroidery Digitizer** _(planned)_: Converts raster or vector art into machine-stitch files (DST, PES, EXP, JEF, VP3) with auto-underlay, density, push-pull compensation, stitch direction, and color stops. AI-integrated auto-digitize that proposes fills, satins, and run paths from an input image.
 
