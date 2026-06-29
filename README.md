@@ -3251,7 +3251,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **HYSPLIT trajectory runner** _(stub, awaits wire-up)_: Wraps HYSPLIT for forward/back trajectories, dispersion, and concentration runs from GDAS/HRRR ARL files; generates ensemble trajectories and source-receptor matrices with plume animation.
 
-- ⬜ **CMIP6 scenario browser** _(planned)_: Indexes local or Pangeo cloud CMIP6 Zarr stores; filters by experiment (historical, ssp245, ssp585), model, variant, and frequency; extracts time series, climatologies, and ensemble means with regridding via xESMF.
+- ✅ **CMIP6 scenario browser** _(stub, awaits wire-up)_: Indexes local or Pangeo cloud CMIP6 Zarr stores; filters by experiment (historical, ssp245, ssp585), model, variant, and frequency; extracts time series, climatologies, and ensemble means with regridding via xESMF.
 
 - ⬜ **ERA5/reanalysis extractor** _(planned)_: Fetches ERA5, MERRA-2, JRA-55, and NCEP/NCAR reanalysis subsets from CDS, GES DISC, or Copernicus Marine; caches monthly tiles locally and exports point, transect, or area-weighted time series.
 
