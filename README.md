@@ -341,7 +341,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ⬜ **Log viewer** _(planned)_: Streams and tails local and remote logs with structured (JSON, logfmt) parsing, filtering, faceting, and AI summarization of an error burst into a likely cause.
 
-- ⬜ **Stack trace analyzer** _(planned)_: Pastes or ingests a crash or traceback, resolves frames to source, surfaces the relevant blame and recent commits, and asks the pipeline for a ranked list of plausible fixes.
+- ✅ **Stack trace analyzer** _(in testing)_: Pastes or ingests a crash or traceback, resolves frames to source, surfaces the relevant blame and recent commits, and asks the pipeline for a ranked list of plausible fixes.
 
 - ⬜ **Benchmark harness** _(planned)_: Microbenchmark and end-to-end timing runner with statistical confidence, regression tracking across commits, and AI commentary on why a delta likely appeared.
 
