@@ -3692,7 +3692,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Shot List Builder** _(stub, awaits wire-up)_: Structured planner for scenes, shots, takes, and setups with fields for lens, filter, lighting, action, dialogue, and coverage. Exports to CSV, PDF, and EDL-compatible formats and links each row to storyboard frames.
 
-- ⬜ **Storyboard Composer** _(planned)_: Frame-by-frame storyboard editor with aspect-ratio guides, figure and prop placement, camera position and lens indicator, and arrow annotations for movement. AI-integrated rough sketch generation from a shot description and reference image.
+- ✅ **Storyboard Composer** _(stub, awaits wire-up)_: Frame-by-frame storyboard editor with aspect-ratio guides, figure and prop placement, camera position and lens indicator, and arrow annotations for movement. AI-integrated rough sketch generation from a shot description and reference image.
 
 - ⬜ **Lighting Diagram Designer** _(planned)_: Top-down 2D lighting plot with subjects, key/fill/back/rim sources, modifiers, flags, power levels, color temperatures, and gel selections. Renders a quick BRDF preview of the resulting key-to-fill ratio on a standard head model.
 
