@@ -1664,7 +1664,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Cognate and Etymology Tracer** _(stub, awaits wire-up)_: Traces a word back through attested stages and reconstructed proto-forms with regular sound correspondences shown step by step. Links to Indo-European (LIV, NIL), Semitic (SED), and Dravidian etymological databases bundled locally.
 
-- ⬜ **Manuscript Image Annotator** _(planned)_: IIIF-compatible viewer for high-resolution manuscript folios with deep zoom, region selection, and layered annotations for transcription, codicology, and decoration. AI-assisted line and column segmentation accelerates initial markup; corrections feed back into the OCR model.
+- ✅ **Manuscript Image Annotator** _(stub, awaits wire-up)_: IIIF-compatible viewer for high-resolution manuscript folios with deep zoom, region selection, and layered annotations for transcription, codicology, and decoration. AI-assisted line and column segmentation accelerates initial markup; corrections feed back into the OCR model.
 
 - ⬜ **Translation Drafting Assistant** _(planned)_: Produces draft English translations of ancient passages with morphological tooltips, alternative renderings, and citations to standard reference grammars (Smyth, Gildersleeve, Gesenius, Whitney, GAG). Flags hapax legomena, textual cruces, and idioms for human review.
 
