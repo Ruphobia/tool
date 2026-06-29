@@ -705,7 +705,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Network interface configurator** _(stub, awaits wire-up)_: Lists physical and virtual interfaces with addresses, routes, MTU, and link state. Edits NetworkManager, systemd-networkd, or netplan configs and applies changes with rollback on connectivity loss.
 
-- ⬜ **Packet inspector** _(planned)_: Live tcpdump and pcap capture per interface with BPF filter, decoded protocol layers, and follow-stream view. AI-integrated explanation of unfamiliar protocols and flagging of plaintext credentials or odd handshakes.
+- ✅ **Packet inspector** _(stub, awaits wire-up)_: Live tcpdump and pcap capture per interface with BPF filter, decoded protocol layers, and follow-stream view. AI-integrated explanation of unfamiliar protocols and flagging of plaintext credentials or odd handshakes.
 
 - ⬜ **Port and connection viewer** _(planned)_: Shows listening sockets, established connections, and per-process socket ownership with reverse-DNS and geo annotation. Includes scan-from-here actions against a target host with nmap-style probes.
 
