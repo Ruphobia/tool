@@ -284,7 +284,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Quote and Passage Index** _(in testing)_: Searchable index of highlighted passages and pulled quotes with source, locator, and surrounding context. Generates blockquote-ready snippets in any citation style on demand.
 
-- ⬜ **Reading Queue and Tracker** _(planned)_: Kanban-style queue with priority, read status, time-to-read estimates, and spaced re-read prompts. Logs reading sessions and per-item dwell time for retrospective analytics.
+- ✅ **Reading Queue and Tracker** _(in testing)_: Kanban-style queue with priority, read status, time-to-read estimates, and spaced re-read prompts. Logs reading sessions and per-item dwell time for retrospective analytics.
 
 - ⬜ **Style Editor** _(planned)_: Visual and source editor for CSL 1.0.2 files with live preview against sample items, validation, and a diff view against upstream style repository versions.
 
