@@ -3443,7 +3443,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Carbonate chemistry calculator** _(stub, awaits wire-up)_: Runs CO2SYS-style computations across DIC, alkalinity, pH, pCO2, and aragonite/calcite saturation with selectable K1/K2 constants and total/seawater pH scales for ocean acidification work.
 
-- ⬜ **Sound speed profile builder** _(planned)_: Generates c(z) profiles via Mackenzie, Chen-Millero, and Del Grosso equations from CTD casts or climatology, exports to Bellhop/Kraken envfiles, and previews ray traces for sonar range prediction.
+- ✅ **Sound speed profile builder** _(stub, awaits wire-up)_: Generates c(z) profiles via Mackenzie, Chen-Millero, and Del Grosso equations from CTD casts or climatology, exports to Bellhop/Kraken envfiles, and previews ray traces for sonar range prediction.
 
 - ⬜ **Lagrangian drift simulator** _(planned)_: Tracks particle trajectories through HYCOM, CMEMS, or user-supplied velocity fields with Stokes drift and windage. Supports larval competency windows and beaching/MPA-intersection statistics.
 
