@@ -1061,7 +1061,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Project management
 
-- ⬜ **Ticket tracker** _(planned)_: Local-first issue database with markdown bodies, custom fields, labels, assignees, parent/child links, and saved queries. AI-integrated triage proposes labels, priority, and likely owner from the ticket text and history.
+- ✅ **Ticket tracker** _(stub, awaits wire-up)_: Local-first issue database with markdown bodies, custom fields, labels, assignees, parent/child links, and saved queries. AI-integrated triage proposes labels, priority, and likely owner from the ticket text and history.
 
 - ⬜ **Sprint planner** _(planned)_: Iteration container that pulls from the backlog under a capacity budget, with point or hour sizing, scope-lock dates, and carryover tracking. AI-integrated suggestion of a sprint composition given velocity history and explicit team availability.
 
