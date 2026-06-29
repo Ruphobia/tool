@@ -4059,7 +4059,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Heat Treatment Planner** _(stub, awaits wire-up)_: Builds quench and temper schedules for tool steels, spring steels, and pattern-welded billets with soak times derived from cross-section thickness. Suggests quenchant, interrupted cycles, and cryo treatment for retained austenite.
 
-- ⬜ **Damascus Layer Calculator** _(planned)_: Plans pattern-welded billet stacks: starting layer count, folds, target layer count, drawn length, and finished thickness. Previews canister, ladder, raindrop, and mosaic patterns and estimates etch contrast from alloy nickel content.
+- ✅ **Damascus Layer Calculator** _(stub, awaits wire-up)_: Plans pattern-welded billet stacks: starting layer count, folds, target layer count, drawn length, and finished thickness. Previews canister, ladder, raindrop, and mosaic patterns and estimates etch contrast from alloy nickel content.
 
 - ⬜ **Ring and Chain Sizer** _(planned)_: Converts ring sizes across US, UK, EU, JP, and CN scales; computes blank length from finger size, profile, and metal stretch. For chains, derives wire gauge, link aspect ratio, and weave density for byzantine, jens pind, foxtail, and european weaves.
 
