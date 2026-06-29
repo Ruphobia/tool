@@ -1795,7 +1795,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Primary Source Reader** _(stub, awaits wire-up)_: Annotated reader for canonical texts (Theogony, Eddas, Mahabharata, Popol Vuh, Kojiki, Kalevala, Epic of Gilgamesh) with parallel-column translations, line numbering, and inline philological notes.
 
-- ⬜ **Hero Journey Composer** _(planned)_: Authoring workspace that scaffolds a narrative against a chosen structural template (monomyth, Propp, kishotenketsu, three-act). Tracks stage completion and surfaces structural gaps as the draft evolves.
+- ✅ **Hero Journey Composer** _(stub, awaits wire-up)_: Authoring workspace that scaffolds a narrative against a chosen structural template (monomyth, Propp, kishotenketsu, three-act). Tracks stage completion and surfaces structural gaps as the draft evolves.
 
 - ⬜ **Trickster Taxonomy Viewer** _(planned)_: Specialized typology for trickster figures (Loki, Anansi, Coyote, Hermes, Sun Wukong, Eshu, Raven) cross-indexed by traits: shapeshifting, theft, boundary-crossing, culture-hero overlap, gender fluidity.
 
