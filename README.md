@@ -4221,7 +4221,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Speaker Coverage Predictor** _(stub, awaits wire-up)_: Maps SPL coverage, direct-to-reverberant ratio, and STI across the seating plan from speaker placement, aim angles, splay, and a venue acoustic model in the MAPP/EASE lineage.
 
-- ⬜ **Acoustic Measurement Suite** _(planned)_: Performs dual-channel FFT transfer function, RTA, impulse response, RT60, and coherence measurement against a reference signal; used to tune a PA or characterize a room.
+- ✅ **Acoustic Measurement Suite** _(stub, awaits wire-up)_: Performs dual-channel FFT transfer function, RTA, impulse response, RT60, and coherence measurement against a reference signal; used to tune a PA or characterize a room.
 
 - ⬜ **RF Coordination Planner** _(planned)_: Assigns wireless mic and IEM frequencies inside a license-free band, avoiding intermodulation products through third and fifth order, local broadcast TV channels, and on-site bleed.
 
