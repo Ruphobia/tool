@@ -626,7 +626,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Index advisor** _(stub, awaits wire-up)_: Captures slow query logs or pg_stat_statements, proposes candidate indexes with hypothetical (HypoPG-style) testing, and reports redundant or unused indexes for removal.
 
-- ⬜ **Data grid editor** _(planned)_: Spreadsheet-style row editor with inline foreign key navigation, JSON/JSONB drill-down, BLOB hex/image preview, multi-row paste, and pending-change review before commit.
+- ✅ **Data grid editor** _(stub, awaits wire-up)_: Spreadsheet-style row editor with inline foreign key navigation, JSON/JSONB drill-down, BLOB hex/image preview, multi-row paste, and pending-change review before commit.
 
 - ⬜ **Import/Export hub** _(planned)_: Bulk loads and dumps CSV, TSV, Parquet, Avro, JSONL, Excel, and SQL dumps with column mapping, type coercion, error quarantine, and resumable streaming for billion-row tables.
 
