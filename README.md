@@ -4762,7 +4762,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Dream Incubation Planner** _(stub, awaits wire-up)_: Composes pre-sleep intention scripts targeting a chosen theme, person, or problem, with a brief rehearsal protocol and post-wake recall prompt. Uses an on-device model to draft and refine the intention text.
 
-- ⬜ **Sleep Paralysis and False Awakening Journal** _(planned)_: Specialized log for SP episodes, hypnagogic and hypnopompic imagery, and false awakenings, with severity, duration, and induction-attempt fields. Cross-references entries with the main dream journal and stage data.
+- ✅ **Sleep Paralysis and False Awakening Journal** _(stub, awaits wire-up)_: Specialized log for SP episodes, hypnagogic and hypnopompic imagery, and false awakenings, with severity, duration, and induction-attempt fields. Cross-references entries with the main dream journal and stage data.
 
 - ⬜ **Polyphasic Schedule Designer** _(planned)_: Models Everyman, Uberman, Dymaxion, Biphasic, and custom segmented schedules with core and nap placement on a 24-hour circadian curve. Simulates expected REM and SWS allocation and adaptation-period sleep deprivation.
 
