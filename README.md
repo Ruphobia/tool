@@ -2611,7 +2611,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Compressible Flow Calculator** _(stub, awaits wire-up)_: Isentropic, normal shock, oblique shock, Prandtl-Meyer expansion, Fanno, and Rayleigh tables and solvers with full inverse modes. Plots shock polars and theta-beta-M diagrams for supersonic geometry design.
 
-- ⬜ **Standard Atmosphere** _(planned)_: ISA and non-standard atmosphere model returning density, pressure, temperature, viscosity, speed of sound, and Reynolds-per-meter as a function of altitude and offset. Converts between TAS, EAS, CAS, and Mach for any given condition.
+- ✅ **Standard Atmosphere** _(stub, awaits wire-up)_: ISA and non-standard atmosphere model returning density, pressure, temperature, viscosity, speed of sound, and Reynolds-per-meter as a function of altitude and offset. Converts between TAS, EAS, CAS, and Mach for any given condition.
 
 - ⬜ **Wind Tunnel Importer** _(planned)_: Imports tabular and image-based polar data from NACA reports, UIUC low-Re tests, and CSV/JSON exports, applying solid-blockage, wake-blockage, and streamline-curvature corrections. Aligns imported data with solver output for validation overlays.
 
