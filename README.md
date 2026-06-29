@@ -1065,7 +1065,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sprint planner** _(stub, awaits wire-up)_: Iteration container that pulls from the backlog under a capacity budget, with point or hour sizing, scope-lock dates, and carryover tracking. AI-integrated suggestion of a sprint composition given velocity history and explicit team availability.
 
-- ⬜ **Gantt scheduler** _(planned)_: Time-axis chart of tasks with start/end dates, dependencies, critical-path highlighting, baseline vs current snapshots, and per-row resource assignment. Slippage is propagated through the dependency graph.
+- ✅ **Gantt scheduler** _(stub, awaits wire-up)_: Time-axis chart of tasks with start/end dates, dependencies, critical-path highlighting, baseline vs current snapshots, and per-row resource assignment. Slippage is propagated through the dependency graph.
 
 - ⬜ **Roadmap visualizer** _(planned)_: Quarter or month grid of epics and themes with status, confidence, and target windows, rendered as swimlanes per team or product area. Supports now/next/later columns as an alternate layout.
 
