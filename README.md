@@ -2967,7 +2967,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Codon Optimizer** _(stub, awaits wire-up)_: Re-codes a protein sequence for expression in a chosen host (E. coli, yeast, CHO, HEK, plant, custom codon table) while honoring constraints: avoided restriction sites, avoided repeats, target GC window, and preserved regulatory motifs. Multi-objective with tunable weights.
 
-- ⬜ **Read Mapper and Variant Caller** _(planned)_: Short and long read alignment (BWA-MEM, minimap2, bowtie2) followed by variant calling (bcftools, DeepVariant-style, Strelka-style) with VCF annotation against gene models. QC, coverage, duplicate marking, and indel realignment.
+- ✅ **Read Mapper and Variant Caller** _(stub, awaits wire-up)_: Short and long read alignment (BWA-MEM, minimap2, bowtie2) followed by variant calling (bcftools, DeepVariant-style, Strelka-style) with VCF annotation against gene models. QC, coverage, duplicate marking, and indel realignment.
 
 - ⬜ **Expression Analysis** _(planned)_: RNA-seq and single-cell pipeline: quantification (salmon/kallisto/STAR), differential expression (DESeq2/edgeR/limma-voom), PCA/UMAP/t-SNE, heatmaps, volcano plots, and GSEA against MSigDB. Reads in counts matrices or runs from FASTQ end-to-end.
 
