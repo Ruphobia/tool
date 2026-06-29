@@ -2890,7 +2890,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Molecule editor** _(stub, awaits wire-up)_: 2D structure drawing with atom, bond, ring, and template tools; keeps SMILES, InChI, and molfile representations live-synced as you draw. AI-integrated parsing of pasted text, hand-drawn sketches, or photographs of structures into editable molecules.
 
-- ⬜ **3D molecule viewer** _(planned)_: Renders structures from SMILES, MOL, SDF, PDB, and CIF in ball-and-stick, space-fill, ribbon, and surface modes. Supports measurement of distances, angles, dihedrals, electron density isosurfaces, and animated trajectories from MD or IRC files.
+- ✅ **3D molecule viewer** _(stub, awaits wire-up)_: Renders structures from SMILES, MOL, SDF, PDB, and CIF in ball-and-stick, space-fill, ribbon, and surface modes. Supports measurement of distances, angles, dihedrals, electron density isosurfaces, and animated trajectories from MD or IRC files.
 
 - ⬜ **Name and identifier translator** _(planned)_: Round-trips between SMILES, canonical SMILES, InChI, InChIKey, IUPAC name, CAS number, and common synonyms. AI-integrated naming of arbitrary structures and structure-from-name resolution for ambiguous or trivial inputs.
 
