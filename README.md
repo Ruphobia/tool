@@ -3468,7 +3468,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Connectivity modeler** _(stub, awaits wire-up)_: Builds resistance surfaces and runs Circuitscape current-flow and Conefor graph-theoretic connectivity (dPC, IIC) between habitat patches. Identifies pinch points, corridors, and critical stepping-stone nodes.
 
-- ⬜ **LCA inventory builder** _(planned)_: Assembles life-cycle inventories with process flows from ecoinvent, USLCI, and Agribalyse libraries. Runs ReCiPe, TRACI, CML, and ILCD impact assessment methods with contribution and sensitivity analysis.
+- ✅ **LCA inventory builder** _(stub, awaits wire-up)_: Assembles life-cycle inventories with process flows from ecoinvent, USLCI, and Agribalyse libraries. Runs ReCiPe, TRACI, CML, and ILCD impact assessment methods with contribution and sensitivity analysis.
 
 - ⬜ **Carbon footprint calculator** _(planned)_: Computes GHG inventories across Scope 1/2/3 using EPA, DEFRA, IPCC AR6, and EXIOBASE emission factors. Supports product, organizational, and project boundaries with biogenic carbon and land-use change accounting.
 
