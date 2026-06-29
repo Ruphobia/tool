@@ -697,7 +697,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Snapshot manager** _(stub, awaits wire-up)_: Creates, lists, diffs, and rolls back BTRFS, ZFS, and LVM snapshots. Diff view shows file-level changes between any two snapshots and supports per-file restore without full rollback.
 
-- ⬜ **Container manager** _(planned)_: Manages Docker and Podman containers, images, volumes, and networks, with logs, exec, stats, and inspect panels. AI-integrated explanation of layer bloat and Dockerfile cleanup suggestions from a built image.
+- ✅ **Container manager** _(stub, awaits wire-up)_: Manages Docker and Podman containers, images, volumes, and networks, with logs, exec, stats, and inspect panels. AI-integrated explanation of layer bloat and Dockerfile cleanup suggestions from a built image.
 
 - ⬜ **Compose stack runner** _(planned)_: Edits and runs docker-compose and podman-compose files with dependency-aware up, down, and rebuild actions. Visualizes service graph, port bindings, and volume mounts.
 
