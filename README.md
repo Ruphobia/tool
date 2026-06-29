@@ -854,7 +854,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Transpiler** _(stub, awaits wire-up)_: Multi-pass compiler targeting selectable native gate sets (CX/CZ, iSWAP, Mølmer-Sørensen) with KAK decomposition, commutation-based optimization, Solovay-Kitaev, and side-by-side depth and gate-count diffs of each pass.
 
-- ⬜ **Qubit Layout and Router** _(planned)_: Maps logical qubits to a chosen device topology (heavy-hex, square lattice, linear ion chain) with SABRE-style routing, swap insertion preview, and AI-integrated suggestion of initial layouts from circuit interaction graphs.
+- ✅ **Qubit Layout and Router** _(stub, awaits wire-up)_: Maps logical qubits to a chosen device topology (heavy-hex, square lattice, linear ion chain) with SABRE-style routing, swap insertion preview, and AI-integrated suggestion of initial layouts from circuit interaction graphs.
 
 - ⬜ **Algorithm Scaffolds** _(planned)_: Parameterized templates for QFT, Quantum Phase Estimation, Grover, Shor, HHL, Bernstein-Vazirani, Simon, Deutsch-Jozsa, and amplitude estimation, instantiable with chosen problem size and oracle wiring.
 
