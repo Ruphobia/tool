@@ -4151,7 +4151,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Provenance and Pedigree Ledger** _(stub, awaits wire-up)_: Chain-of-custody log linking each item to prior owners, named collections (Eliasberg, Norweb, Pittman, Ferrari), auction lot numbers, and dated invoices. Generates a provenance dossier with citations for sale or insurance.
 
-- ⬜ **Condition and Conservation Log** _(planned)_: Per-item record of toning, planchet flaws, stamp gum state, hinge marks, fold lines, foxing, and prior interventions (cleaning, dipping, pressing, restoration). Tracks change over time with dated macro photos and notes.
+- ✅ **Condition and Conservation Log** _(stub, awaits wire-up)_: Per-item record of toning, planchet flaws, stamp gum state, hinge marks, fold lines, foxing, and prior interventions (cleaning, dipping, pressing, restoration). Tracks change over time with dated macro photos and notes.
 
 - ⬜ **Die Marriage and Plate Mapper** _(planned)_: Tool for early US coppers, bust coinage, ancient Greek and Roman issues, and classic stamp plates: aligns specimen photos to known die or plate diagnostics (Sheldon, Overton, Bolender, Newcomb; Mayer, Crawford, RIC; Stanley Gibbons plating). Returns most likely die marriage or plate position.
 
