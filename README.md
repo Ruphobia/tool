@@ -551,7 +551,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Secure provisioning console** _(stub, awaits wire-up)_: Generates and injects device keys, certificates, and unique identifiers into OTP/eFuse with audit logging. Integrates with HSMs and PKCS#11 tokens; AI walks through fuse-once decisions before they are committed.
 
-- ⬜ **RTOS inspector** _(planned)_: Thread, queue, semaphore, timer, and heap inspection for FreeRTOS, Zephyr, ThreadX, NuttX, RT-Thread, and Mbed OS via runtime tracing or live debugger. AI-integrated narration of why a task missed its deadline.
+- ✅ **RTOS inspector** _(stub, awaits wire-up)_: Thread, queue, semaphore, timer, and heap inspection for FreeRTOS, Zephyr, ThreadX, NuttX, RT-Thread, and Mbed OS via runtime tracing or live debugger. AI-integrated narration of why a task missed its deadline.
 
 - ⬜ **Trace and profiler** _(planned)_: Captures ETM/ITM and Tracealyzer-style event streams with CPU load, ISR latency, and context-switch timelines. Highlights priority inversions and lock contention.
 
