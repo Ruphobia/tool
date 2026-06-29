@@ -1706,7 +1706,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Cross-Tradition Concordance** _(stub, awaits wire-up)_: Indexes canonical scriptures (Tanakh, Bible variants, Quran, Tipitaka, Vedas, Avesta, Guru Granth Sahib, Tao Te Ching, Analects) into a unified searchable corpus. Supports lemma, root, and theme queries with side-by-side parallel views across traditions.
 
-- ⬜ **Polyglot Scripture Viewer** _(planned)_: Aligns verse-keyed source texts (Hebrew, Koine Greek, Classical Arabic, Sanskrit, Pali, Ge'ez, Latin, Church Slavonic) with multiple translations and morphological tagging. Hover reveals lexicon entries, variant readings, and manuscript witnesses.
+- ✅ **Polyglot Scripture Viewer** _(stub, awaits wire-up)_: Aligns verse-keyed source texts (Hebrew, Koine Greek, Classical Arabic, Sanskrit, Pali, Ge'ez, Latin, Church Slavonic) with multiple translations and morphological tagging. Hover reveals lexicon entries, variant readings, and manuscript witnesses.
 
 - ⬜ **Liturgical Calendar Engine** _(planned)_: Computes feast days, fasts, observances, and moveable dates across Gregorian, Julian, Hebrew, Hijri, Bikram Sambat, Buddhist, and Bahai calendars. Supports recurrence queries, sect-specific variants, and ICS export.
 
