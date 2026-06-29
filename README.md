@@ -1382,7 +1382,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **License Picker** _(stub, awaits wire-up)_: SPDX-aware open-source license selector that asks a short questionnaire (patent grant, copyleft scope, attribution, commercial use, network distribution) and writes the matching license text and SPDX identifier into the project, ready to commit as LICENSE.
 
-- ⬜ **Privacy Policy Generator** _(planned)_: Builds a privacy policy from a checklist of data categories collected, purposes, processors, retention periods, and applicable regimes (GDPR, CCPA, PIPEDA, LGPD, PIPL). Outputs HTML, markdown, and a versioned diff against the previous published policy.
+- ✅ **Privacy Policy Generator** _(stub, awaits wire-up)_: Builds a privacy policy from a checklist of data categories collected, purposes, processors, retention periods, and applicable regimes (GDPR, CCPA, PIPEDA, LGPD, PIPL). Outputs HTML, markdown, and a versioned diff against the previous published policy.
 
 - ⬜ **Terms of Service Builder** _(planned)_: Assembles a Terms of Service, EULA, or acceptable-use policy from modules (arbitration, class-action waiver, liability cap, choice of law, IP, indemnification, data use). Flags clauses that are unenforceable in named jurisdictions and emits a per-jurisdiction variant.
 
