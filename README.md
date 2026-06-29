@@ -4804,7 +4804,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Symptom and medication tracker** _(stub, awaits wire-up)_: Bearable-style daily log of symptoms, medications (with doses and times), supplements, and factors (sleep, food, cycle). Computes lagged correlations between factors and symptoms over a configurable window.
 
-- ⬜ **Body scan and yoga nidra player** _(planned)_: Plays scripted body-scan and iRest yoga-nidra sequences with adjustable pacing, region order, and background bell. Scripts are plain-text editable; TTS rendering uses an on-device voice for full local operation.
+- ✅ **Body scan and yoga nidra player** _(stub, awaits wire-up)_: Plays scripted body-scan and iRest yoga-nidra sequences with adjustable pacing, region order, and background bell. Scripts are plain-text editable; TTS rendering uses an on-device voice for full local operation.
 
 
 #### Radio-control modeling (planes, cars, trucks, boats, drones)
