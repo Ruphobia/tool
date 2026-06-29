@@ -1233,7 +1233,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Spaced Repetition Deck Builder** _(stub, awaits wire-up)_: Builds flashcard decks with SM-2 and FSRS scheduling, cloze deletion, and image occlusion. Imports and exports Anki .apkg, Mnemosyne, and CSV, with deduplication and reverse-card generation.
 
-- ⬜ **Lesson Plan Composer** _(planned)_: Drafts lesson plans with objectives, materials, timed segments, differentiation tiers, and standards alignment. Outputs to printable handouts, slides, and a structured JSON the rest of the workbench can read.
+- ✅ **Lesson Plan Composer** _(stub, awaits wire-up)_: Drafts lesson plans with objectives, materials, timed segments, differentiation tiers, and standards alignment. Outputs to printable handouts, slides, and a structured JSON the rest of the workbench can read.
 
 - ⬜ **Rubric Builder** _(planned)_: Constructs analytic and holistic rubrics as criterion-by-level matrices with point weights and descriptor cells. Includes AI-integrated descriptor expansion from a single anchor phrase per cell.
 
