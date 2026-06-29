@@ -537,7 +537,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Bus protocol sniffer** _(stub, awaits wire-up)_: Live decode and replay for CAN/CAN-FD, LIN, Modbus, RS-485, BLE HCI, Zigbee, Thread, and USB packets via attached interfaces. Saves sessions as searchable transcripts.
 
-- ⬜ **Firmware image inspector** _(planned)_: Parses ELF, HEX, BIN, UF2, ESP image, and TI-TXT files with section maps, symbol tables, entropy plots, and signature/CRC validation. Diffs two images down to the symbol and basic block.
+- ✅ **Firmware image inspector** _(stub, awaits wire-up)_: Parses ELF, HEX, BIN, UF2, ESP image, and TI-TXT files with section maps, symbol tables, entropy plots, and signature/CRC validation. Diffs two images down to the symbol and basic block.
 
 - ⬜ **Memory map and footprint analyzer** _(planned)_: Visualizes flash and RAM occupancy by section, object, and symbol with stack usage estimates from call graphs and -fstack-usage data. AI suggests size reductions and flags symbols that ballooned since the last build.
 
