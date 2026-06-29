@@ -1586,7 +1586,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Activation explorer** _(stub, awaits wire-up)_: Captures hidden states and attention patterns from local models, projects them, and supports probing, SAE feature browsing, and steering-vector authoring for mechanistic interpretability work.
 
-- ⬜ **Synthetic data generator** _(planned)_: Produces synthetic tabular (SDV, CTGAN, copulas), text (template + LLM), and image (diffusion) datasets with fidelity, utility, and privacy (membership-inference) metrics against a real reference set.
+- ✅ **Synthetic data generator** _(stub, awaits wire-up)_: Produces synthetic tabular (SDV, CTGAN, copulas), text (template + LLM), and image (diffusion) datasets with fidelity, utility, and privacy (membership-inference) metrics against a real reference set.
 
 - ⬜ **Image dataset toolkit** _(planned)_: Bulk crop, resize, dedup (perceptual hash), color-space convert, EXIF strip, and caption (BLIP/LLaVA) over image folders, with class-balance and resolution-distribution reports.
 
