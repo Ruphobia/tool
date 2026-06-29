@@ -2021,7 +2021,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Camera Imaging Calculator** _(stub, awaits wire-up)_: Computes depth of field, hyperfocal distance, diffraction limit, angle of view, exposure value, equivalent focal length, and pixel-limited resolution for arbitrary sensor and lens combinations, with side-by-side format comparison.
 
-- ⬜ **Radiometry Photometry Bench** _(planned)_: Converts between radiometric and photometric quantities (radiance, irradiance, luminance, illuminance, candela, lumen) under arbitrary spectra and observer functions; computes throughput, etendue, and source-detector link budgets with cosine and inverse-square geometry.
+- ✅ **Radiometry Photometry Bench** _(stub, awaits wire-up)_: Converts between radiometric and photometric quantities (radiance, irradiance, luminance, illuminance, candela, lumen) under arbitrary spectra and observer functions; computes throughput, etendue, and source-detector link budgets with cosine and inverse-square geometry.
 
 - ⬜ **Color Science Workbench** _(planned)_: Spectral-to-tristimulus pipeline for CIE 1931/2015 observers, chromaticity diagrams, CCT and CRI/TM-30, chromatic adaptation, ICC profile inspection, and rendering of arbitrary illuminant-reflectance-observer products.
 
