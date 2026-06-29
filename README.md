@@ -2981,7 +2981,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Gel Simulator** _(stub, awaits wire-up)_: Predicts agarose and polyacrylamide gel banding from sequences, restriction digests, or PCR product lists at a given percentage and ladder. Useful for planning a digest before pipetting and for sanity-checking an unexpected band.
 
-- ⬜ **Lab Protocol Planner** _(planned)_: Assay and protocol authoring with reagent table, dilution calculator (C1V1 = C2V2, serial dilutions, master mixes), buffer recipe builder, timer chaining, and step-by-step worksheet export. AI-integrated draft of a starting protocol from an experimental goal.
+- ✅ **Lab Protocol Planner** _(stub, awaits wire-up)_: Assay and protocol authoring with reagent table, dilution calculator (C1V1 = C2V2, serial dilutions, master mixes), buffer recipe builder, timer chaining, and step-by-step worksheet export. AI-integrated draft of a starting protocol from an experimental goal.
 
 - ⬜ **Sequence Property Calculator** _(planned)_: Computes molecular weight, isoelectric point, extinction coefficient, hydrophobicity (Kyte-Doolittle, GRAVY), instability index, codon adaptation index, and Tm for DNA/RNA/protein inputs. Batch mode over FASTA.
 
