@@ -3128,7 +3128,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Differential Diagnosis Generator** _(stub, awaits wire-up)_: Takes signs, symptoms, labs, and demographics and produces a ranked differential with prior probabilities, distinguishing features, and suggested next tests; AI-integrated reasoning with citation back to source guidelines.
 
-- ⬜ **Lab Reference Ranges** _(planned)_: Looks up reference intervals for chemistry, hematology, coagulation, endocrine, and tumor markers with age/sex/pregnancy stratification, unit conversion (SI vs conventional), and panic-value flagging.
+- ✅ **Lab Reference Ranges** _(stub, awaits wire-up)_: Looks up reference intervals for chemistry, hematology, coagulation, endocrine, and tumor markers with age/sex/pregnancy stratification, unit conversion (SI vs conventional), and panic-value flagging.
 
 - ⬜ **ECG Caliper** _(planned)_: Loads 12-lead ECG images or waveforms and provides digital calipers for intervals (PR, QRS, QT, QTc Bazett/Fridericia/Framingham), axis calculation, and ischemia/arrhythmia pattern annotation.
 
