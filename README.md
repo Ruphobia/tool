@@ -2550,7 +2550,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Rocket Equation Solver** _(stub, awaits wire-up)_: Evaluates Tsiolkovsky's equation for single and multi-stage vehicles, solving for delta-v, propellant mass, payload mass, or Isp; includes staging optimization and gravity/drag loss models for ascent.
 
-- ⬜ **Launch Window Finder** _(planned)_: Computes daily launch windows from a given site to a target orbit or interplanetary trajectory, honoring inclination reachability, ascending-node alignment, eclipse, range-safety azimuth, and lighting constraints.
+- ✅ **Launch Window Finder** _(stub, awaits wire-up)_: Computes daily launch windows from a given site to a target orbit or interplanetary trajectory, honoring inclination reachability, ascending-node alignment, eclipse, range-safety azimuth, and lighting constraints.
 
 - ⬜ **Re-entry Calculator** _(planned)_: Simulates ballistic and lifting re-entry trajectories with selectable atmosphere and drag models, reporting peak g-load, peak heating rate, integrated heat load, downrange/crossrange, and a landing footprint ellipse.
 
