@@ -2159,7 +2159,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pneumatics and hydraulics designer** _(stub, awaits wire-up)_: Sizes cylinders, valves, lines, and accumulators by force, stroke, speed, and pressure drop, with circuit schematic capture and ISO 1219 symbols. Simulates pressure and flow over a duty cycle.
 
-- ⬜ **DFM/DFA reviewer** _(planned)_: Flags geometry that is hard to machine, mold, cast, print, or assemble: thin walls, sharp internal corners, deep pockets, undercuts, fastener access. AI-integrated rewrite suggestions to reduce cost and lead time.
+- ✅ **DFM/DFA reviewer** _(stub, awaits wire-up)_: Flags geometry that is hard to machine, mold, cast, print, or assemble: thin walls, sharp internal corners, deep pockets, undercuts, fastener access. AI-integrated rewrite suggestions to reduce cost and lead time.
 
 - ⬜ **BOM and cost estimator** _(planned)_: Rolls up multi-level bills of materials with vendor pricing, lead time, MOQ, and weight; estimates machining, printing, and molding cost from geometry. Exports CSV and supplier RFQs.
 
