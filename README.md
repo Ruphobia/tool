@@ -1590,7 +1590,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Image dataset toolkit** _(stub, awaits wire-up)_: Bulk crop, resize, dedup (perceptual hash), color-space convert, EXIF strip, and caption (BLIP/LLaVA) over image folders, with class-balance and resolution-distribution reports.
 
-- ⬜ **Audio dataset toolkit** _(planned)_: Voice-activity detection, diarization, transcription (Whisper), loudness normalization, and segment extraction over audio corpora with per-segment quality scoring.
+- ✅ **Audio dataset toolkit** _(stub, awaits wire-up)_: Voice-activity detection, diarization, transcription (Whisper), loudness normalization, and segment extraction over audio corpora with per-segment quality scoring.
 
 
 #### History and archival research
