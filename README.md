@@ -2324,7 +2324,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Compressed air system designer** _(stub, awaits wire-up)_: Sizes compressors, dryers, receivers, and distribution piping from CFM demand profiles and pressure-dew-point targets. Estimates leakage loss, specific energy (kW/cfm), and storage for peak shaving.
 
-- ⬜ **Fluid properties database** _(planned)_: CoolProp/REFPROP-style lookup of density, viscosity, cp, k, Pr, surface tension, and saturation curves for water, refrigerants, oils, air, and mixtures. Returns properties along arbitrary T,P or T,x paths for use by other tools.
+- ✅ **Fluid properties database** _(stub, awaits wire-up)_: CoolProp/REFPROP-style lookup of density, viscosity, cp, k, Pr, surface tension, and saturation curves for water, refrigerants, oils, air, and mixtures. Returns properties along arbitrary T,P or T,x paths for use by other tools.
 
 - ⬜ **View factor calculator** _(planned)_: Computes radiation view factors between surface pairs (parallel, perpendicular, coaxial disks, cylinders) via closed-form and numerical contour integration. Assembles a view-factor matrix with reciprocity and summation checks.
 
