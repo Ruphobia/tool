@@ -1231,7 +1231,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Problem Set Generator** _(stub, awaits wire-up)_: Generates quizzes and worksheets with answer keys, parameterized by topic, item count, difficulty band, and Bloom's level. Supports MCQ, short-answer, numeric, code, and proof items with AI-integrated drafting from a source text or learning objective.
 
-- ⬜ **Spaced Repetition Deck Builder** _(planned)_: Builds flashcard decks with SM-2 and FSRS scheduling, cloze deletion, and image occlusion. Imports and exports Anki .apkg, Mnemosyne, and CSV, with deduplication and reverse-card generation.
+- ✅ **Spaced Repetition Deck Builder** _(stub, awaits wire-up)_: Builds flashcard decks with SM-2 and FSRS scheduling, cloze deletion, and image occlusion. Imports and exports Anki .apkg, Mnemosyne, and CSV, with deduplication and reverse-card generation.
 
 - ⬜ **Lesson Plan Composer** _(planned)_: Drafts lesson plans with objectives, materials, timed segments, differentiation tiers, and standards alignment. Outputs to printable handouts, slides, and a structured JSON the rest of the workbench can read.
 
