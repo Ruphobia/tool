@@ -3653,7 +3653,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **GIF and sprite toolkit** _(stub, awaits wire-up)_: Lossy GIF optimization, palette quantization, sprite-sheet packing, and APNG/WebP-animated output. Includes onion-skin frame review.
 
-- ⬜ **Screenshot and capture** _(planned)_: Region, window, and scrolling-page capture with annotation, redaction, and screen recording to MP4/WebM. Pipes captures directly into the editor or generator.
+- ✅ **Screenshot and capture** _(stub, awaits wire-up)_: Region, window, and scrolling-page capture with annotation, redaction, and screen recording to MP4/WebM. Pipes captures directly into the editor or generator.
 
 - ⬜ **Image diff** _(planned)_: Pixel, perceptual (SSIM/LPIPS/DISTS), and structural diff with side-by-side and onion-skin views. Useful for regression checks on generated assets.
 
