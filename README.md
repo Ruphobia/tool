@@ -2369,7 +2369,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Egress & Occupancy Planner** _(stub, awaits wire-up)_: Computes occupant load, required exits, travel distance, and corridor/stair widths from a floor plan. Highlights dead-end and common-path violations live as the plan edits.
 
-- ⬜ **Site Plan Tool** _(planned)_: Drafts site plans with parcel, setback, easement, parking, and stormwater layers over imported survey or GeoJSON. Computes lot coverage, FAR, and impervious area against zoning rules.
+- ✅ **Site Plan Tool** _(stub, awaits wire-up)_: Drafts site plans with parcel, setback, easement, parking, and stormwater layers over imported survey or GeoJSON. Computes lot coverage, FAR, and impervious area against zoning rules.
 
 - ⬜ **Stormwater & Drainage Designer** _(planned)_: Sizes culverts, swales, detention basins, and pipe networks using rational, SCS curve number, and Manning's methods. Generates hydrographs and routes flow through detention with stage-storage curves.
 
