@@ -4778,7 +4778,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Gratitude and habit tracker** _(stub, awaits wire-up)_: Daily gratitude entries plus a Loop-style habit grid with streaks, miss-once-no-twice rule, and target frequencies (e.g. 5x/week). Exports to CSV and renders calendar heatmaps.
 
-- ⬜ **Encrypted therapy session notes** _(planned)_: Age- or libsodium-encrypted notes in SOAP or DAP format, with client/session metadata stored separately from body text. Local-only by default; supports offline passphrase-derived keys and a panic-lock shortcut.
+- ✅ **Encrypted therapy session notes** _(stub, awaits wire-up)_: Age- or libsodium-encrypted notes in SOAP or DAP format, with client/session metadata stored separately from body text. Local-only by default; supports offline passphrase-derived keys and a panic-lock shortcut.
 
 - ⬜ **Validated-instrument battery** _(planned)_: Self-administered PHQ-9, GAD-7, PSQI, ISI, AUDIT-C, K10, and PCL-5 with correct scoring, severity bands, and longitudinal plots. Flags clinical thresholds and surfaces item-level changes between administrations.
 
