@@ -780,7 +780,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Item & Stat Database** _(stub, awaits wire-up)_: Spreadsheet-style editor for items, enemies, weapons, and stat curves with formula columns, referential integrity, and what-if balance simulations. Exports to typed code or JSON and diffs cleanly in version control.
 
-- ⬜ **Input Mapping Designer** _(planned)_: Action-based input mapper covering keyboard, mouse, gamepad, and touch, with rebinding UI generation, accessibility profiles, and conflict detection. Records and replays input traces for deterministic test runs.
+- ✅ **Input Mapping Designer** _(stub, awaits wire-up)_: Action-based input mapper covering keyboard, mouse, gamepad, and touch, with rebinding UI generation, accessibility profiles, and conflict detection. Records and replays input traces for deterministic test runs.
 
 - ⬜ **UI/HUD Layout Editor** _(planned)_: Anchor-and-flex UI authoring with responsive breakpoints, theming, focus order, controller navigation, and live data bindings to game variables. Exports to engine UI formats or a portable retained-mode JSON.
 
