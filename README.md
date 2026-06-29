@@ -993,7 +993,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Cassette Audio Codec** _(stub, awaits wire-up)_: Encodes PRG, TAP, and T64 payloads to WAV (standard ROM loader plus Turbo Tape, Novaload, and Freeload variants) and decodes recovered audio with adaptive filtering for stretched tapes.
 
-- ⬜ **Filesystem Browser** _(planned)_: Mounts and edits CP/M, ProDOS, Apple DOS 3.3, Amiga FFS/OFS, CBM 1541, Atari DOS, and TRSDOS images at the file and sector level with undoable writes.
+- ✅ **Filesystem Browser** _(stub, awaits wire-up)_: Mounts and edits CP/M, ProDOS, Apple DOS 3.3, Amiga FFS/OFS, CBM 1541, Atari DOS, and TRSDOS images at the file and sector level with undoable writes.
 
 - ⬜ **Repair Notebook** _(planned)_: Structured per-unit log of symptoms, scope traces, swap history, voltage-rail readings, and photos; AI surfaces similar prior cases and likely-next-checks from the notebook corpus.
 
