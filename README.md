@@ -561,7 +561,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **HIL test runner** _(stub, awaits wire-up)_: Drives hardware-in-the-loop test rigs (relays, programmable loads, signal generators, robotic actuators) against firmware builds with pass/fail reporting. Records analog and digital traces alongside test outcomes.
 
-- ⬜ **HAL and driver generator** _(planned)_: Generates idiomatic drivers for sensors, displays, radios, and storage from datasheet excerpts or register tables in C, C++, Rust, and MicroPython. AI lifts initialization sequences and quirks from PDF datasheets into compilable stubs.
+- ✅ **HAL and driver generator** _(stub, awaits wire-up)_: Generates idiomatic drivers for sensors, displays, radios, and storage from datasheet excerpts or register tables in C, C++, Rust, and MicroPython. AI lifts initialization sequences and quirks from PDF datasheets into compilable stubs.
 
 - ⬜ **Datasheet ingester** _(planned)_: Indexes vendor datasheets, reference manuals, errata, and app notes into a searchable corpus with page-anchored citations. AI answers register and timing questions with the exact page and figure as evidence.
 
