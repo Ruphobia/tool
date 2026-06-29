@@ -1999,7 +1999,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Gaussian Beam Propagator** _(stub, awaits wire-up)_: ABCD matrix propagation for Gaussian beams through arbitrary element chains, computing waist, divergence, Rayleigh range, mode matching, and astigmatism. Plots beam radius and phase along the optical axis with interactive element drag.
 
-- ⬜ **Diffraction Calculator** _(planned)_: Scalar diffraction engine for Fraunhofer, Fresnel, and angular-spectrum propagation; computes PSF, MTF, encircled energy, and far-field patterns from arbitrary pupil amplitude/phase masks. Includes apodization presets and tilted-plane propagation.
+- ✅ **Diffraction Calculator** _(stub, awaits wire-up)_: Scalar diffraction engine for Fraunhofer, Fresnel, and angular-spectrum propagation; computes PSF, MTF, encircled energy, and far-field patterns from arbitrary pupil amplitude/phase masks. Includes apodization presets and tilted-plane propagation.
 
 - ⬜ **Zernike Wavefront Analyzer** _(planned)_: Decomposes measured or simulated wavefronts into Zernike (Noll/Fringe/OSA) and Seidel coefficients, with Strehl ratio, RMS/PV, and aberration-by-aberration PSF synthesis. Loads interferograms, Shack-Hartmann spot grids, and HDF5 wavefront cubes.
 
