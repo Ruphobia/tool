@@ -4599,7 +4599,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **ENC chart renderer** _(stub, awaits wire-up)_: Parses S-57 ENC cells and S-63 encrypted exchange sets, applies S-52 presentation library symbology with day/dusk/night palettes, and renders configurable safety contours, scamin filters, and CATZOC quality overlays. Supports M_QUAL accuracy diamonds and depth area shading at a chosen safety depth.
 
-- ⬜ **Raster chart georeferencer** _(planned)_: Imports BSB/KAP, GeoTIFF, and scanned pilot chart images, fits ground control points to WGS-84, and emits a calibrated tile pyramid. AI-assisted GCP suggestion reads printed graticule ticks and place names when metadata is missing.
+- ✅ **Raster chart georeferencer** _(stub, awaits wire-up)_: Imports BSB/KAP, GeoTIFF, and scanned pilot chart images, fits ground control points to WGS-84, and emits a calibrated tile pyramid. AI-assisted GCP suggestion reads printed graticule ticks and place names when metadata is missing.
 
 - ⬜ **Tidal harmonic predictor** _(planned)_: Computes tide height and slack/flood/ebb times from harmonic constituents (M2, S2, N2, K1, O1, etc.) using the standard 37- or 67-constituent set, with nodal corrections. Loads NOAA, UKHO TotalTide, and IHO TWL station files and can solve constituents from a logged water level series.
 
