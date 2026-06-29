@@ -1368,7 +1368,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Contract Drafter** _(stub, awaits wire-up)_: Composes structured agreements (NDAs, MSAs, employment, IP assignment, SAFEs, leases, wills, powers of attorney) from a template library and a parameter sheet. AI-integrated drafting from a one-line description of the deal, with jurisdiction-aware clause selection and party-role substitution.
 
-- ⬜ **Redline Diff** _(planned)_: Three-pane document comparison showing insertions, deletions, and moved blocks across DOCX, PDF (with OCR fallback), markdown, and plain text. Accept or reject per change, with export back to the original format and a changebar PDF for circulation.
+- ✅ **Redline Diff** _(stub, awaits wire-up)_: Three-pane document comparison showing insertions, deletions, and moved blocks across DOCX, PDF (with OCR fallback), markdown, and plain text. Accept or reject per change, with export back to the original format and a changebar PDF for circulation.
 
 - ⬜ **Clause Library** _(planned)_: Searchable repository of reusable contract clauses tagged by jurisdiction, party position (favorable, neutral, hostile), risk score, and dependencies. Drag into a draft; version history per clause; AI-integrated suggestion of a clause variant for the current deal.
 
