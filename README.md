@@ -2306,7 +2306,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Insulation thickness optimizer** _(stub, awaits wire-up)_: Finds economic insulation thickness for pipes, vessels, and walls from heat loss, energy cost, and capital cost. Checks surface temperature, condensation risk, and personnel protection limits.
 
-- ⬜ **Pipe network solver** _(planned)_: Solves looped and branched liquid/gas networks via Hardy Cross or global Newton with Darcy-Weisbach and Colebrook-White friction. Handles pumps, valves, fittings, elevation, and parallel paths.
+- ✅ **Pipe network solver** _(stub, awaits wire-up)_: Solves looped and branched liquid/gas networks via Hardy Cross or global Newton with Darcy-Weisbach and Colebrook-White friction. Handles pumps, valves, fittings, elevation, and parallel paths.
 
 - ⬜ **Pressure drop and Moody tool** _(planned)_: Computes friction factor, Reynolds number, and dP for pipes, ducts, and fittings across laminar, transitional, and turbulent regimes. Includes Crane K-factor and equivalent-length libraries for valves and bends.
 
