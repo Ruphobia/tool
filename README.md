@@ -4625,7 +4625,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sail trim assistant** _(stub, awaits wire-up)_: Compares live wind, heel, rudder angle, and boatspeed against polar targets and suggests sheet, traveller, halyard, backstay, and outhaul adjustments per sail. AI-integrated recommendation explains the dominant loss (twist, depth, angle of attack) and proposes one change at a time.
 
-- ⬜ **Sail and rig inventory** _(planned)_: Tracks each sail with cloth, year, hours under load, wind-range envelope, and last inspection, and the rig with standing wire, terminals, and tension log. Flags overdue inspections and AI-summarises wear patterns from uploaded photos of leech, luff, and clew.
+- ✅ **Sail and rig inventory** _(stub, awaits wire-up)_: Tracks each sail with cloth, year, hours under load, wind-range envelope, and last inspection, and the rig with standing wire, terminals, and tension log. Flags overdue inspections and AI-summarises wear patterns from uploaded photos of leech, luff, and clew.
 
 - ⬜ **Logbook and track recorder** _(planned)_: Records position, COG, SOG, heading, wind, baro, sea state, sail config, crew on watch, and freeform notes at a configurable cadence, with manual event entries. Exports GPX, CSV, and PDF voyage logs and emits a customs-ready crew and vessel declaration.
 
