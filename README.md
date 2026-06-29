@@ -4570,7 +4570,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Training load PMC** _(stub, awaits wire-up)_: Computes TSS/TRIMP, chronic training load (CTL), acute load (ATL), and form (TSB) on the Banister impulse-response model, with acute:chronic workload ratio flags and ramp-rate warnings.
 
-- ⬜ **Critical power and W-prime tracker** _(planned)_: Fits the CP/W' model from 3-minute all-out or multi-effort test data, then simulates W' balance during interval workouts to predict failure points.
+- ✅ **Critical power and W-prime tracker** _(stub, awaits wire-up)_: Fits the CP/W' model from 3-minute all-out or multi-effort test data, then simulates W' balance during interval workouts to predict failure points.
 
 - ⬜ **Race pacing planner** _(planned)_: Computes Daniels VDOT zones and Riegel equivalent times across distances; overlays target splits on a GPX course profile with grade-adjusted pace.
 
