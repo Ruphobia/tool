@@ -1970,7 +1970,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Firmware toolchain** _(stub, awaits wire-up)_: Cross-compilation, flashing, and on-chip debugging for AVR, ARM Cortex-M, RISC-V, ESP32, and PIC via OpenOCD, probe-rs, and avrdude. Integrates with the schematic so pin assignments stay in sync with code.
 
-- ⬜ **HDL workbench** _(planned)_: Verilog, VHDL, SystemVerilog, and Amaranth editor with Yosys synthesis, nextpnr place-and-route, and simulation via Verilator or Icarus. Targets ICE40, ECP5, Gowin, and Xilinx 7-series.
+- ✅ **HDL workbench** _(stub, awaits wire-up)_: Verilog, VHDL, SystemVerilog, and Amaranth editor with Yosys synthesis, nextpnr place-and-route, and simulation via Verilator or Icarus. Targets ICE40, ECP5, Gowin, and Xilinx 7-series.
 
 - ⬜ **RF design suite** _(planned)_: Smith chart, matching-network synthesis, microstrip and stripline calculators, S-parameter math, and Touchstone file viewer. AI-integrated suggestion of matching topology from a measured complex impedance.
 
