@@ -541,7 +541,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Memory map and footprint analyzer** _(stub, awaits wire-up)_: Visualizes flash and RAM occupancy by section, object, and symbol with stack usage estimates from call graphs and -fstack-usage data. AI suggests size reductions and flags symbols that ballooned since the last build.
 
-- ⬜ **Linker script editor** _(planned)_: Structured editor for GNU ld scripts and equivalents with region overlap detection, alignment checks, and overlay support. Visualizes the resulting memory map alongside the script.
+- ✅ **Linker script editor** _(stub, awaits wire-up)_: Structured editor for GNU ld scripts and equivalents with region overlap detection, alignment checks, and overlay support. Visualizes the resulting memory map alongside the script.
 
 - ⬜ **Startup and vector table generator** _(planned)_: Generates reset handlers, ISR vector tables, and C runtime init for ARM, RISC-V, AVR, and Xtensa targets. Cross-checks vector names against linker-referenced weak symbols.
 
