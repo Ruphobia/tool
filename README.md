@@ -453,7 +453,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **HAR viewer and diff** _(stub, awaits wire-up)_: Loads HAR archives from browsers or the embedded proxy and renders the waterfall, headers, payloads, and timings. Diffs two HARs to highlight changed requests, responses, and timing regressions.
 
-- ⬜ **Server-Sent Events viewer** _(planned)_: Subscribes to text/event-stream endpoints, decodes events with named types and ids, and renders the live stream with reconnection handling. Supports recording and replay of an event stream to a file.
+- ✅ **Server-Sent Events viewer** _(stub, awaits wire-up)_: Subscribes to text/event-stream endpoints, decodes events with named types and ids, and renders the live stream with reconnection handling. Supports recording and replay of an event stream to a file.
 
 - ⬜ **JWT and OAuth workbench** _(planned)_: Decodes, validates, and re-signs JWTs against HMAC and asymmetric keys, with header and claim editing and JWKS fetch. Walks through OAuth 2.0 authorization code, device, client credentials, and PKCE flows interactively and stores tokens with refresh handling.
 
