@@ -778,7 +778,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Localization Manager** _(stub, awaits wire-up)_: String table editor with keys, contexts, plural forms, gender, ICU MessageFormat, and screenshot attachments per key. Detects untranslated, stale, and overlong strings, and round-trips with PO/CSV/XLIFF.
 
-- ⬜ **Item & Stat Database** _(planned)_: Spreadsheet-style editor for items, enemies, weapons, and stat curves with formula columns, referential integrity, and what-if balance simulations. Exports to typed code or JSON and diffs cleanly in version control.
+- ✅ **Item & Stat Database** _(stub, awaits wire-up)_: Spreadsheet-style editor for items, enemies, weapons, and stat curves with formula columns, referential integrity, and what-if balance simulations. Exports to typed code or JSON and diffs cleanly in version control.
 
 - ⬜ **Input Mapping Designer** _(planned)_: Action-based input mapper covering keyboard, mouse, gamepad, and touch, with rebinding UI generation, accessibility profiles, and conflict detection. Records and replays input traces for deterministic test runs.
 
