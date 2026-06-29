@@ -2447,7 +2447,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Decline curve analyzer** _(stub, awaits wire-up)_: Fits Arps exponential, hyperbolic, and harmonic plus Duong and SEDM unconventional models; bootstraps EUR P10/P50/P90 uncertainty and exports type curves.
 
-- ⬜ **Nodal analysis tool** _(planned)_: Vogel and Fetkovich IPR intersected with Hagedorn-Brown, Beggs-Brill, or mechanistic VLP correlations; sensitivity over choke, tubing size, and reservoir pressure.
+- ✅ **Nodal analysis tool** _(stub, awaits wire-up)_: Vogel and Fetkovich IPR intersected with Hagedorn-Brown, Beggs-Brill, or mechanistic VLP correlations; sensitivity over choke, tubing size, and reservoir pressure.
 
 - ⬜ **Drilling hydraulics and torque/drag** _(planned)_: Bingham, power-law, and Herschel-Bulkley rheology for ECD, swab/surge, and bit pressure drop; soft-string torque-drag along the wellbore trajectory.
 
