@@ -3437,7 +3437,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Wave spectrum analyzer** _(stub, awaits wire-up)_: Computes 1D and directional wave spectra from NDBC buoy spectral files or raw heave/pitch/roll. Fits JONSWAP and Pierson-Moskowitz parameters and derives Hs, Tp, mean direction, and spreading.
 
-- ⬜ **ADCP profile processor** _(planned)_: Reads RDI PD0, Nortek Signature, and Sontek files; performs beam-to-earth coordinate transform, bottom-track removal, and shear/Reynolds stress estimation with bin-mapping and side-lobe masking.
+- ✅ **ADCP profile processor** _(stub, awaits wire-up)_: Reads RDI PD0, Nortek Signature, and Sontek files; performs beam-to-earth coordinate transform, bottom-track removal, and shear/Reynolds stress estimation with bin-mapping and side-lobe masking.
 
 - ⬜ **Argo float fetcher** _(planned)_: Queries the Argo GDAC for profiles by region, date, WMO ID, or float type (core, BGC, deep). Builds trajectory maps and overlays T/S casts against climatology (WOA, Roemmich-Gilson).
 
