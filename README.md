@@ -2841,7 +2841,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sun Path & Shading Analyzer** _(stub, awaits wire-up)_: Plots solar altitude/azimuth across the year on a stereographic chart and overlays a user-drawn horizon (terrain, buildings, trees). Computes per-hour shade losses and annual energy lost to obstructions.
 
-- ⬜ **PV Array Layout Designer** _(planned)_: Lays out modules on a rooftop or ground plot with row spacing, tilt, and azimuth, computing inter-row self-shading by ground coverage ratio. Reports kWp density and structural footprint.
+- ✅ **PV Array Layout Designer** _(stub, awaits wire-up)_: Lays out modules on a rooftop or ground plot with row spacing, tilt, and azimuth, computing inter-row self-shading by ground coverage ratio. Reports kWp density and structural footprint.
 
 - ⬜ **Tilt & Azimuth Optimizer** _(planned)_: Sweeps tilt and azimuth across the TMY year to find the angle that maximizes annual yield, winter-only yield, or a custom-weighted load match. Returns isocontour plots and sensitivity bands.
 
