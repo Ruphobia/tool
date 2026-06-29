@@ -2892,7 +2892,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **3D molecule viewer** _(stub, awaits wire-up)_: Renders structures from SMILES, MOL, SDF, PDB, and CIF in ball-and-stick, space-fill, ribbon, and surface modes. Supports measurement of distances, angles, dihedrals, electron density isosurfaces, and animated trajectories from MD or IRC files.
 
-- ⬜ **Name and identifier translator** _(planned)_: Round-trips between SMILES, canonical SMILES, InChI, InChIKey, IUPAC name, CAS number, and common synonyms. AI-integrated naming of arbitrary structures and structure-from-name resolution for ambiguous or trivial inputs.
+- ✅ **Name and identifier translator** _(stub, awaits wire-up)_: Round-trips between SMILES, canonical SMILES, InChI, InChIKey, IUPAC name, CAS number, and common synonyms. AI-integrated naming of arbitrary structures and structure-from-name resolution for ambiguous or trivial inputs.
 
 - ⬜ **Reaction balancer** _(planned)_: Balances arbitrary chemical equations including redox half-reactions, disproportionation, and net-ionic forms; reports coefficients, atom counts, charge balance, and oxidation state changes per atom.
 
