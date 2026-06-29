@@ -423,7 +423,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **WebSocket explorer** _(stub, awaits wire-up)_: Opens persistent WebSocket connections, sends framed text or binary payloads, and logs the full bidirectional transcript with timestamps. Supports subprotocol negotiation, ping/pong inspection, and scripted message sequences.
 
-- ⬜ **GraphQL playground** _(planned)_: Introspects a GraphQL endpoint, renders the schema as a navigable graph, and provides a query editor with autocompletion and variable binding. AI-integrated query generation from a question stated in plain English against the introspected schema.
+- ✅ **GraphQL playground** _(stub, awaits wire-up)_: Introspects a GraphQL endpoint, renders the schema as a navigable graph, and provides a query editor with autocompletion and variable binding. AI-integrated query generation from a question stated in plain English against the introspected schema.
 
 - ⬜ **gRPC client** _(planned)_: Loads .proto files or uses server reflection to call unary, server-streaming, client-streaming, and bidirectional gRPC methods. Renders request and response messages as editable structured forms and raw protobuf bytes.
 
