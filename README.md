@@ -573,7 +573,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Symbol and call graph explorer** _(stub, awaits wire-up)_: Interactive call graph and reverse call graph from compiled artifacts with cycle and recursion detection. Useful for stack budgeting and dead-code hunting.
 
-- ⬜ **Disassembler and binary diff** _(planned)_: Disassembles ARM, Thumb, RISC-V, AVR, Xtensa, and PIC binaries with cross-reference and string analysis. Diffs two builds at the instruction level and groups changes by function.
+- ✅ **Disassembler and binary diff** _(stub, awaits wire-up)_: Disassembles ARM, Thumb, RISC-V, AVR, Xtensa, and PIC binaries with cross-reference and string analysis. Diffs two builds at the instruction level and groups changes by function.
 
 - ⬜ **Firmware unpacker** _(planned)_: Identifies and extracts vendor firmware blobs, encrypted update packages, FAT/LittleFS/SPIFFS images, and JFFS2 containers. AI guesses container formats from headers and entropy patterns.
 
