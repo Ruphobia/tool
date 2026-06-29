@@ -2634,7 +2634,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **NOTAM and TFR browser** _(stub, awaits wire-up)_: Pulls FAA, ICAO, and military NOTAMs, decodes the four-letter codes, and filters by route corridor, altitude band, and time window. Highlights stadium TFRs, VIP movements, and active SUA.
 
-- ⬜ **Performance calculator** _(planned)_: Interpolates POH takeoff, landing, climb, and cruise charts for density altitude, weight, wind, runway slope, and surface. Computes accelerate-stop distance, single-engine service ceiling, and drift-down for twins.
+- ✅ **Performance calculator** _(stub, awaits wire-up)_: Interpolates POH takeoff, landing, climb, and cruise charts for density altitude, weight, wind, runway slope, and surface. Computes accelerate-stop distance, single-engine service ceiling, and drift-down for twins.
 
 - ⬜ **E6B flight computer** _(planned)_: Solves wind triangle, true airspeed, true altitude, density altitude, fuel burn, time and distance, crosswind components, and unit conversions. Available as both an interactive panel and a callable solver for chained calculations.
 
