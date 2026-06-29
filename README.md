@@ -4494,7 +4494,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Hunt and Catch Log** _(stub, awaits wire-up)_: Records each outing with GPS waypoint, species, weight, length, sex, weapon or tackle, conditions, and geotagged photos. Supports voice memos in the field, EXIF backfill, and CSV or GPX export for season summaries.
 
-- ⬜ **Trail-Cam Image Manager** _(planned)_: Ingests SD card dumps and deduplicates burst sequences, then runs on-device vision to tag species, sex, antler points, and individual deer by tine pattern. Time-of-day heatmaps and travel-corridor inference per camera location.
+- ✅ **Trail-Cam Image Manager** _(stub, awaits wire-up)_: Ingests SD card dumps and deduplicates burst sequences, then runs on-device vision to tag species, sex, antler points, and individual deer by tine pattern. Time-of-day heatmaps and travel-corridor inference per camera location.
 
 - ⬜ **Fish ID** _(planned)_: Identifies freshwater and saltwater species from a phone photo using a local vision model, with confidence scores and lookalike disambiguation (e.g., spotted vs largemouth bass). Links each ID to applicable size and bag rules from Regulation Lookup.
 
