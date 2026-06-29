@@ -1797,7 +1797,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Hero Journey Composer** _(stub, awaits wire-up)_: Authoring workspace that scaffolds a narrative against a chosen structural template (monomyth, Propp, kishotenketsu, three-act). Tracks stage completion and surfaces structural gaps as the draft evolves.
 
-- ⬜ **Trickster Taxonomy Viewer** _(planned)_: Specialized typology for trickster figures (Loki, Anansi, Coyote, Hermes, Sun Wukong, Eshu, Raven) cross-indexed by traits: shapeshifting, theft, boundary-crossing, culture-hero overlap, gender fluidity.
+- ✅ **Trickster Taxonomy Viewer** _(stub, awaits wire-up)_: Specialized typology for trickster figures (Loki, Anansi, Coyote, Hermes, Sun Wukong, Eshu, Raven) cross-indexed by traits: shapeshifting, theft, boundary-crossing, culture-hero overlap, gender fluidity.
 
 - ⬜ **Cosmogony Comparator** _(planned)_: Structured comparison of creation accounts: ex nihilo, world-egg, primordial dismemberment, earth-diver, emergence, world-parents. Aligns stages and lists exemplar traditions for each pattern.
 
