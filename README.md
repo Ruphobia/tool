@@ -811,7 +811,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Locomotion Lab** _(stub, awaits wire-up)_: Sandbox for trying teleport, snap-turn, smooth, arm-swing, and vehicle locomotion against a fixed test course, with telemetry on time-to-target, off-path deviation, and comfort score from the analyzer.
 
-- ⬜ **Passthrough Compositor** _(planned)_: Mixed-reality compositing preview that layers virtual content over a recorded passthrough RGB / depth stream, with occlusion mask debugging, depth-test toggles, and lighting estimation overlays.
+- ✅ **Passthrough Compositor** _(stub, awaits wire-up)_: Mixed-reality compositing preview that layers virtual content over a recorded passthrough RGB / depth stream, with occlusion mask debugging, depth-test toggles, and lighting estimation overlays.
 
 - ⬜ **Photogrammetry and Splat Importer** _(planned)_: Loads NeRF, 3D Gaussian Splatting, and classic photogrammetry meshes; decimates, recenters, and rebakes them into XR-ready assets with collision proxies. AI-integrated cleanup of floaters and background bleed.
 
