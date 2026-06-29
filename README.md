@@ -3757,7 +3757,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **USD Stage Editor** _(stub, awaits wire-up)_: Hierarchical USD composition browser with layer stacks, variants, references, payloads, and reference resolution. Provides a diff view between layers and an integrated USD-python script console.
 
-- ⬜ **Audio and Lip Sync** _(planned)_: Waveform-aligned dope-sheet for dialogue, with phoneme detection driving viseme blendshapes and procedural facial micro-expressions. AI phoneme alignment runs locally from an audio file and a transcript.
+- ✅ **Audio and Lip Sync** _(stub, awaits wire-up)_: Waveform-aligned dope-sheet for dialogue, with phoneme detection driving viseme blendshapes and procedural facial micro-expressions. AI phoneme alignment runs locally from an audio file and a transcript.
 
 - ⬜ **Edit and Color Suite** _(planned)_: Non-linear editor with EDL/XML/AAF round-trip, OCIO-managed timelines, primary and secondary color correction, and scopes. Conforms VFX shot ranges from an offline cut and tracks plate handles per shot.
 
