@@ -3419,7 +3419,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **T-S diagram explorer** _(stub, awaits wire-up)_: Overlays multiple CTD casts on a temperature-salinity diagram with TEOS-10 isopycnals and labelled water mass envelopes (NACW, AAIW, NADW, etc.) for mixing-line analysis.
 
-- ⬜ **TEOS-10 calculator** _(planned)_: Computes absolute salinity, conservative temperature, in-situ and potential density, sound speed, freezing point, and specific volume anomaly using the GSW (Gibbs SeaWater) toolbox formulas.
+- ✅ **TEOS-10 calculator** _(stub, awaits wire-up)_: Computes absolute salinity, conservative temperature, in-situ and potential density, sound speed, freezing point, and specific volume anomaly using the GSW (Gibbs SeaWater) toolbox formulas.
 
 - ⬜ **Sonar log viewer** _(planned)_: Parses Lowrance SL2/SL3, Humminbird DAT, and XTF side-scan files. Displays waterfall sidescan and down-imaging with bottom-track overlay, GPS track, and per-ping water column extraction.
 
