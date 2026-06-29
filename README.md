@@ -1619,7 +1619,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Authority record reconciler** _(stub, awaits wire-up)_: Links extracted entities to VIAF, LCNAF, GND, ULAN, and Wikidata QIDs with batch reconciliation, candidate scoring, and AI-integrated disambiguation from surrounding context.
 
-- ⬜ **Historical NER tagger** _(planned)_: Named entity recognition tuned for archaic orthography, abbreviations, and code-switching across Latin, Greek, Old English, and early modern vernaculars. Outputs CoNLL or standoff annotations with model confidence.
+- ✅ **Historical NER tagger** _(stub, awaits wire-up)_: Named entity recognition tuned for archaic orthography, abbreviations, and code-switching across Latin, Greek, Old English, and early modern vernaculars. Outputs CoNLL or standoff annotations with model confidence.
 
 - ⬜ **Correspondence network analyzer** _(planned)_: Builds sender-recipient and mention networks from letter corpora, computes centrality and community structure, and renders force-directed layouts in the Gephi/Cytoscape mode. Imports CMIF (Correspondence Metadata Interchange Format).
 
