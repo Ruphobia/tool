@@ -3099,7 +3099,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Connectome browser** _(stub, awaits wire-up)_: Loads DTI tractography, EM-derived synapse graphs, and Allen and FlyWire connectomes; computes graph metrics, traces multi-hop paths, and renders 3D wiring with cell-type filtering.
 
-- ⬜ **Behavioral assay logger** _(planned)_: Captures timestamped event streams synced with video and physiology, encodes trial and block structure, and exports BIDS-compatible session manifests for downstream analysis.
+- ✅ **Behavioral assay logger** _(stub, awaits wire-up)_: Captures timestamped event streams synced with video and physiology, encodes trial and block structure, and exports BIDS-compatible session manifests for downstream analysis.
 
 - ⬜ **Stimulus presentation builder** _(planned)_: Composes PsychoPy-style visual and auditory paradigms with frame-accurate timing, photodiode and TTL sync output, randomized trial schedules, and per-subject parameterization.
 
