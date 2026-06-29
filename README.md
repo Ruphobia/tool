@@ -675,7 +675,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### General computing and sysadmin
 
-- ⬜ **Process explorer** _(planned)_: Live tree of running processes with CPU, memory, IO, file descriptor, and thread counts. Supports kill, renice, signal, attach-strace, and pinning to per-process resource graphs. AI-integrated annotation of unfamiliar processes from binary path and cmdline.
+- ✅ **Process explorer** _(stub, awaits wire-up)_: Live tree of running processes with CPU, memory, IO, file descriptor, and thread counts. Supports kill, renice, signal, attach-strace, and pinning to per-process resource graphs. AI-integrated annotation of unfamiliar processes from binary path and cmdline.
 
 - ⬜ **Resource monitor** _(planned)_: Real-time and historical graphs of CPU, memory, swap, disk IO, network throughput, and load average, sampled per-core and per-device. Exports to CSV and links each spike to the processes running at that timestamp.
 
