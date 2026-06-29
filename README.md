@@ -1538,7 +1538,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Plot studio** _(stub, awaits wire-up)_: Composable charting surface supporting line, scatter, histogram, box, violin, heatmap, contour, ridge, and small-multiples plots over Matplotlib, Plotly, and Vega-Lite backends. AI-integrated chart-type suggestion from column dtypes and a stated analytical intent.
 
-- ⬜ **Statistics console** _(planned)_: Runs descriptive statistics, hypothesis tests (t, Mann-Whitney, chi-square, KS, ANOVA, Kruskal-Wallis), effect sizes, confidence intervals, and power analyses on selected columns or groups. Reports assumptions checked and assumptions violated alongside each result.
+- ✅ **Statistics console** _(stub, awaits wire-up)_: Runs descriptive statistics, hypothesis tests (t, Mann-Whitney, chi-square, KS, ANOVA, Kruskal-Wallis), effect sizes, confidence intervals, and power analyses on selected columns or groups. Reports assumptions checked and assumptions violated alongside each result.
 
 - ⬜ **Regression workbench** _(planned)_: Fits OLS, GLM, mixed-effects, quantile, robust, and regularized (Ridge/Lasso/ElasticNet) regressions with full diagnostics: residual plots, leverage, VIF, Cook's distance, and partial dependence. AI-integrated narration of which diagnostics actually matter for the fit at hand.
 
