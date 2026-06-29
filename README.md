@@ -2410,7 +2410,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Disinfection CT solver** _(stub, awaits wire-up)_: Computes CT (concentration times contact time) for free chlorine, chloramine, chlorine dioxide, and ozone against Giardia/virus log-removal credits per the SWTR. Includes UV dose calculation with transmittance, lamp aging, and validated reactor RED for Cryptosporidium.
 
-- ⬜ **Water quality kinetics** _(planned)_: Models chlorine residual decay (bulk + wall reaction), DBP formation (THM/HAA), nitrification in distribution, and corrosion indices (Langelier, Ryznar, CCPP). Couples to the network solver for age-and-quality propagation through the system.
+- ✅ **Water quality kinetics** _(stub, awaits wire-up)_: Models chlorine residual decay (bulk + wall reaction), DBP formation (THM/HAA), nitrification in distribution, and corrosion indices (Langelier, Ryznar, CCPP). Couples to the network solver for age-and-quality propagation through the system.
 
 - ⬜ **Leak locator** _(planned)_: Acoustic correlation and pressure-transient leak detection from time-series sensor data. Cross-correlates hydrophone signals to estimate leak position along a pipe segment and runs inverse transient analysis against the hydraulic model; AI-integrated anomaly flagging from DMA night-flow patterns.
 
