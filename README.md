@@ -4063,7 +4063,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Ring and Chain Sizer** _(stub, awaits wire-up)_: Converts ring sizes across US, UK, EU, JP, and CN scales; computes blank length from finger size, profile, and metal stretch. For chains, derives wire gauge, link aspect ratio, and weave density for byzantine, jens pind, foxtail, and european weaves.
 
-- ⬜ **Gemstone Setting Reference** _(planned)_: Catalogs prong, bezel, channel, pave, flush, and tension settings with seat geometry, undercut angles, and bur sizes for cushion, round, oval, marquise, and fancy cuts. Warns on cleavage planes, heat sensitivity, and acid intolerance per species.
+- ✅ **Gemstone Setting Reference** _(stub, awaits wire-up)_: Catalogs prong, bezel, channel, pave, flush, and tension settings with seat geometry, undercut angles, and bur sizes for cushion, round, oval, marquise, and fancy cuts. Warns on cleavage planes, heat sensitivity, and acid intolerance per species.
 
 - ⬜ **Lapidary Facet Layout** _(planned)_: Designs and previews faceted gem cuts with critical-angle checks per refractive index, dispersion modeling, and yield estimation from rough dimensions. Exports cutting prescriptions in GemCAD-compatible angle and index notation.
 
