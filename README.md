@@ -1341,7 +1341,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Monte Carlo Retirement Simulator** _(stub, awaits wire-up)_: Simulates lifetime spending, withdrawal strategies, Social Security claim timing, and Roth-conversion ladders over thousands of return-and-inflation paths; reports success probability, percentile wealth bands, and sequence-of-returns risk.
 
-- ⬜ **Cap Table Modeler** _(planned)_: Tracks shares, options, SAFEs, convertible notes, and warrants across founding, seed, and priced rounds; computes pre/post-money dilution, waterfall payouts at exit, and option-pool top-up effects. Generates 409A-style summary outputs.
+- ✅ **Cap Table Modeler** _(stub, awaits wire-up)_: Tracks shares, options, SAFEs, convertible notes, and warrants across founding, seed, and priced rounds; computes pre/post-money dilution, waterfall payouts at exit, and option-pool top-up effects. Generates 409A-style summary outputs.
 
 - ⬜ **Crypto Cost-Basis Tracker** _(planned)_: Ingests on-chain transactions and exchange exports, reconstructs cost basis per lot across wallets, handles staking, airdrops, hard forks, DeFi swaps, and bridges, and exports realized-gain reports for tax filing in multiple jurisdictions.
 
