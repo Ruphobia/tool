@@ -1458,7 +1458,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **OCR engine** _(stub, awaits wire-up)_: Runs Tesseract and neural OCR over scanned pages or images, producing searchable PDFs and plain text with per-token confidence. Supports multi-language passes and AI-integrated correction of low-confidence spans.
 
-- ⬜ **Math and equation OCR** _(planned)_: Extracts LaTeX from cropped equations, screenshots, or hand-drawn formulas using a vision model. Renders the output back to verify and lets the user edit before insertion into notes.
+- ✅ **Math and equation OCR** _(stub, awaits wire-up)_: Extracts LaTeX from cropped equations, screenshots, or hand-drawn formulas using a vision model. Renders the output back to verify and lets the user edit before insertion into notes.
 
 - ⬜ **Layout analyzer** _(planned)_: Detects page regions (columns, headers, footers, captions, figures, tables, footnotes) and emits a structured tree. Drives the table, figure, and reflow extractors downstream.
 
