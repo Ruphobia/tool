@@ -3386,7 +3386,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Phylogenetics workbench** _(stub, awaits wire-up)_: Edits character-taxon matrices in NEXUS/TNT format, runs parsimony, maximum likelihood, and tip-dated Bayesian inference, and visualizes consensus trees with bootstrap/posterior support. Maps stratigraphic ranges and computes ghost lineages.
 
-- ⬜ **Taxonomy browser** _(planned)_: Browses paleobiological and zoological taxonomy with synonymy lists, type specimens, stratigraphic ranges, and paleogeographic occurrences sourced from PBDB, GBIF, ITIS, and the Treatise on Invertebrate Paleontology. Resolves authorities and flags nomina dubia.
+- ✅ **Taxonomy browser** _(stub, awaits wire-up)_: Browses paleobiological and zoological taxonomy with synonymy lists, type specimens, stratigraphic ranges, and paleogeographic occurrences sourced from PBDB, GBIF, ITIS, and the Treatise on Invertebrate Paleontology. Resolves authorities and flags nomina dubia.
 
 - ⬜ **Faunal analysis** _(planned)_: Records NISP, MNI, MNE, MAU, %survivorship, age-at-death, and butchery/burning marks for zooarchaeological assemblages. Computes diversity indices, taphonomic profiles, and skeletal-part representation plots.
 
