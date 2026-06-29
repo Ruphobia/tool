@@ -4053,7 +4053,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Mainspring and Power Reserve Solver** _(stub, awaits wire-up)_: Sizes mainspring thickness, height, length, and barrel diameter for a target torque curve and runtime. Plots residual power across the unwinding cycle and flags fusee compensation needs.
 
-- ⬜ **Alloy Composer** _(planned)_: Selects ferrous, copper, silver, and gold alloys by hardness, color, melting range, workability, and cost. Predicts liquidus and solidus from composition, suggests deoxidizers, and surfaces hallmark thresholds (sterling, 14k, 18k, britannia, shibuichi, shakudo).
+- ✅ **Alloy Composer** _(stub, awaits wire-up)_: Selects ferrous, copper, silver, and gold alloys by hardness, color, melting range, workability, and cost. Predicts liquidus and solidus from composition, suggests deoxidizers, and surfaces hallmark thresholds (sterling, 14k, 18k, britannia, shibuichi, shakudo).
 
 - ⬜ **Forge Heat and Color Reference** _(planned)_: Maps visible incandescent color to temperature for low-light shop conditions across carbon steels, wrought iron, bronze, and silver. Cross-references forging, normalizing, hardening, and tempering windows for the selected alloy.
 
