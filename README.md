@@ -3910,7 +3910,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Weaving Draft Editor** _(stub, awaits wire-up)_: Edits threading, tie-up, and treadling with live drawdown, network drafting, profile drafts, and color-and-weave previews. Supports multi-shaft looms up to 32 shafts and exports WIF for loom software.
 
-- ⬜ **Beading Pattern Layout** _(planned)_: Grid-correct layouts for peyote, brick, herringbone, loom, right-angle weave, and bead crochet ropes. Maintains bead palettes keyed to Miyuki, Toho, and Czech codes and counts beads per color for the bill of materials.
+- ✅ **Beading Pattern Layout** _(stub, awaits wire-up)_: Grid-correct layouts for peyote, brick, herringbone, loom, right-angle weave, and bead crochet ropes. Maintains bead palettes keyed to Miyuki, Toho, and Czech codes and counts beads per color for the bill of materials.
 
 - ⬜ **Quilt Block Designer** _(planned)_: Block library and layout canvas with fabric swatches, sashing, borders, and on-point sets. Auto-computes piecing yardage, cutting list, and half-square-triangle math, and renders a fabric-colored preview.
 
