@@ -2196,7 +2196,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Printer Profile Manager** _(stub, awaits wire-up)_: Stores and edits machine, material, and process profiles with inheritance and diffing; imports from PrusaSlicer, OrcaSlicer, and Cura, and tracks per-printer calibration constants like flow, e-steps, PA, and bed mesh.
 
-- ⬜ **Filament and Resin Library** _(planned)_: Catalogs filaments and resins with vendor specs, glass transition, shrinkage, drying schedule, shelf life, and spool inventory; logs print results to refine recommended temps, speeds, and exposure over time.
+- ✅ **Filament and Resin Library** _(stub, awaits wire-up)_: Catalogs filaments and resins with vendor specs, glass transition, shrinkage, drying schedule, shelf life, and spool inventory; logs print results to refine recommended temps, speeds, and exposure over time.
 
 - ⬜ **Print Failure Diagnostician** _(planned)_: Analyzes photos of failed prints to identify causes (under-extrusion, warping, layer shift, elephant foot, ringing, delamination) and proposes profile changes, with AI integration for visual classification and remediation steps.
 
