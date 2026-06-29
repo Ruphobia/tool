@@ -1239,7 +1239,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Autograder** _(stub, awaits wire-up)_: Grades free-text, math, and code submissions against a rubric or reference solution, returning per-criterion scores, rationale, and partial credit. Sandboxes code execution with configurable test harnesses.
 
-- ⬜ **Plagiarism Checker** _(planned)_: Scores passage-level similarity against a local corpus and optional web sources using n-gram and embedding methods. Reports matched spans, sources, and a paraphrase-likelihood signal.
+- ✅ **Plagiarism Checker** _(stub, awaits wire-up)_: Scores passage-level similarity against a local corpus and optional web sources using n-gram and embedding methods. Reports matched spans, sources, and a paraphrase-likelihood signal.
 
 - ⬜ **Concept Map Builder** _(planned)_: Edits node-link graphs of prerequisites, relationships, and worked examples, with force-directed and hierarchical layouts. AI-integrated extraction pulls candidate concepts and edges from supplied text.
 
