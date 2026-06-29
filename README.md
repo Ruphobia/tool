@@ -4147,7 +4147,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Auction Price Comparator** _(stub, awaits wire-up)_: Aggregates realized prices from Heritage, Stack's Bowers, Spink, Kunker, Cherrystone, and other house archives, normalized by grade and population. Plots price-by-grade curves and flags outlier results worth investigating.
 
-- ⬜ **Population and Census Tracker** _(planned)_: Local snapshot of PCGS, NGC, CAC, PSE, and PMG population reports per issue and grade. Computes rarity ratios, condition census standings, and registry-set scoring against user holdings.
+- ✅ **Population and Census Tracker** _(stub, awaits wire-up)_: Local snapshot of PCGS, NGC, CAC, PSE, and PMG population reports per issue and grade. Computes rarity ratios, condition census standings, and registry-set scoring against user holdings.
 
 - ⬜ **Provenance and Pedigree Ledger** _(planned)_: Chain-of-custody log linking each item to prior owners, named collections (Eliasberg, Norweb, Pittman, Ferrari), auction lot numbers, and dated invoices. Generates a provenance dossier with citations for sale or insurance.
 
