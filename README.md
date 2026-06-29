@@ -4792,7 +4792,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Exposure hierarchy builder** _(stub, awaits wire-up)_: Constructs a SUDS-rated fear hierarchy with steps, planned exposures, expectancy vs outcome ratings, and inhibitory-learning prompts. Logs trial-by-trial SUDS curves to visualize habituation.
 
-- ⬜ **Reframing assistant** _(planned)_: Takes a hot thought plus distortion tags and drafts balanced alternative thoughts grounded in the user's stated evidence. AI-integrated, with deterministic citation of which evidence lines justify each reframe.
+- ✅ **Reframing assistant** _(stub, awaits wire-up)_: Takes a hot thought plus distortion tags and drafts balanced alternative thoughts grounded in the user's stated evidence. AI-integrated, with deterministic citation of which evidence lines justify each reframe.
 
 - ⬜ **Dream and imagery journal** _(planned)_: Free-text dream entries with lucidity flag, recurring-symbol tagger, and emotion vector. AI-integrated theme clustering over the corpus surfaces recurring motifs without exposing entries off-device.
 
