@@ -2481,7 +2481,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Neutronics shielding calculator** _(stub, awaits wire-up)_: Point-kernel gamma attenuation with buildup factors and ANSI/ANS-6.4.3 source terms; multilayer dose-rate maps for Co-60, Cs-137, and mixed spectra.
 
-- ⬜ **Reactor core point-kinetics sim** _(planned)_: Six-group delayed-neutron point kinetics with xenon, samarium, doppler, and moderator feedback; rod-worth curves and SCRAM transients.
+- ✅ **Reactor core point-kinetics sim** _(stub, awaits wire-up)_: Six-group delayed-neutron point kinetics with xenon, samarium, doppler, and moderator feedback; rod-worth curves and SCRAM transients.
 
 - ⬜ **Burnup and depletion tool** _(planned)_: Bateman-equation depletion across ENDF/B nuclides; tracks isotopic vector, reactivity letdown, and spent-fuel composition by assembly.
 
