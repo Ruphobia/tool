@@ -4049,7 +4049,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Escapement Designer** _(stub, awaits wire-up)_: Lays out lever, cylinder, deadbeat, and detent escapement geometries with pallet angles, drop, lock, and impulse arcs. Renders interactive SVG and exports DXF for jig cutting.
 
-- ⬜ **Pendulum and Balance Tuner** _(planned)_: Calculates pendulum length, period, and temperature compensation for gridiron and invar rods; for balance wheels, derives moment of inertia, hairspring stiffness, and isochronism error from amplitude.
+- ✅ **Pendulum and Balance Tuner** _(stub, awaits wire-up)_: Calculates pendulum length, period, and temperature compensation for gridiron and invar rods; for balance wheels, derives moment of inertia, hairspring stiffness, and isochronism error from amplitude.
 
 - ⬜ **Mainspring and Power Reserve Solver** _(planned)_: Sizes mainspring thickness, height, length, and barrel diameter for a target torque curve and runtime. Plots residual power across the unwinding cycle and flags fusee compensation needs.
 
