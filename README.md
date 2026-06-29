@@ -1067,7 +1067,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Gantt scheduler** _(stub, awaits wire-up)_: Time-axis chart of tasks with start/end dates, dependencies, critical-path highlighting, baseline vs current snapshots, and per-row resource assignment. Slippage is propagated through the dependency graph.
 
-- ⬜ **Roadmap visualizer** _(planned)_: Quarter or month grid of epics and themes with status, confidence, and target windows, rendered as swimlanes per team or product area. Supports now/next/later columns as an alternate layout.
+- ✅ **Roadmap visualizer** _(stub, awaits wire-up)_: Quarter or month grid of epics and themes with status, confidence, and target windows, rendered as swimlanes per team or product area. Supports now/next/later columns as an alternate layout.
 
 - ⬜ **Burndown and burnup charts** _(planned)_: Scope and remaining-work charts for sprints, releases, and epics, with ideal-trend overlays and scope-change annotations. Forecast lines are projected from rolling velocity.
 
