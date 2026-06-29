@@ -3790,7 +3790,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Melody Generator and Harmonizer** _(stub, awaits wire-up)_: Generates melodic lines constrained by scale, contour, range, motivic seed, and target harmony, or harmonizes an existing melody with multiple voicing styles. AI-integrated continuation when given a short motif.
 
-- ⬜ **Form and Structure Analyzer** _(planned)_: Segments a score or audio file into sections (intro, verse, chorus, bridge, coda), detects repetition and variation, and produces a labeled timeline with phrase and period grouping.
+- ✅ **Form and Structure Analyzer** _(stub, awaits wire-up)_: Segments a score or audio file into sections (intro, verse, chorus, bridge, coda), detects repetition and variation, and produces a labeled timeline with phrase and period grouping.
 
 - ⬜ **Set Theory Workbench** _(planned)_: Pitch-class set calculator producing prime form, normal form, interval vector, Forte number, complement, Z-relations, and transformations (Tn, TnI). Visualizes set webs for 20th-century and post-tonal analysis.
 
