@@ -2509,7 +2509,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Multiphase pipeline flow tool** _(stub, awaits wire-up)_: Beggs-Brill, OLGAS-style mechanistic, and Lockhart-Martinelli regimes for two- and three-phase pipelines; slug-catcher sizing and erosional velocity.
 
-- ⬜ **Subsea riser and umbilical analyzer** _(planned)_: Catenary, lazy-wave, and steel catenary riser configurations with VIV fatigue screening per DNV-RP-F204; touchdown-point fatigue hot spots.
+- ✅ **Subsea riser and umbilical analyzer** _(stub, awaits wire-up)_: Catenary, lazy-wave, and steel catenary riser configurations with VIV fatigue screening per DNV-RP-F204; touchdown-point fatigue hot spots.
 
 - ⬜ **Materials property database** _(planned)_: Indexed steels, nickel alloys, titanium, concrete, and composites with creep, fracture toughness, KIC, and irradiation-embrittlement (RTndt shift) curves.
 
