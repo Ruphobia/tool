@@ -3570,7 +3570,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Crop Yield Model** _(stub, awaits wire-up)_: Estimates yield per crop using degree-day accumulation, light interception (LAI, PAR), water stress index, and nutrient sufficiency. Calibrates against entered historical harvest weights to localize predictions.
 
-- ⬜ **Sun and Shade Analyzer** _(planned)_: Computes hour-by-hour solar exposure for any garden location given latitude, date range, and user-drawn obstructions (trees, fences, structures). Outputs daily light integral (DLI) heatmaps for siting beds, greenhouses, or PV-shaded agrivoltaics.
+- ✅ **Sun and Shade Analyzer** _(stub, awaits wire-up)_: Computes hour-by-hour solar exposure for any garden location given latitude, date range, and user-drawn obstructions (trees, fences, structures). Outputs daily light integral (DLI) heatmaps for siting beds, greenhouses, or PV-shaded agrivoltaics.
 
 - ⬜ **Greenhouse Climate Simulator** _(planned)_: Models heat load, ventilation, transpiration, and supplemental light for a hoop house or glasshouse given glazing, orientation, and local TMY weather. Sizes heaters, fans, shade cloth, and HAF circulation.
 
