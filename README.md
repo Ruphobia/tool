@@ -3881,7 +3881,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Tuner and intonation tools** _(stub, awaits wire-up)_: Chromatic and strobe tuner, temperament selector (equal, just, meantone, Pythagorean, custom Scala/.scl), and intonation analyzer for ensembles and recordings.
 
-- ⬜ **Podcast and dialogue production** _(planned)_: Multi-speaker leveling, dialogue ducking, mouth-click removal, silence-cut, and chapter-marker tools; AI-integrated transcript-driven editing where deleting text deletes audio.
+- ✅ **Podcast and dialogue production** _(stub, awaits wire-up)_: Multi-speaker leveling, dialogue ducking, mouth-click removal, silence-cut, and chapter-marker tools; AI-integrated transcript-driven editing where deleting text deletes audio.
 
 - ⬜ **Project versioning and stem archive** _(planned)_: Snapshots sessions, freezes tracks to stems, deduplicates audio assets, and stores reproducible render manifests for collaboration and recall.
 
