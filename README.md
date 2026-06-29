@@ -829,7 +829,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Frustum and FOV Visualizer** _(stub, awaits wire-up)_: Third-person view of headset and controller frustums, render bounds, and guardian / chaperone polygons, with measurements of effective horizontal / vertical FOV per eye and stereo overlap region.
 
-- ⬜ **XR Input Recorder** _(planned)_: Captures full OpenXR input state (poses, buttons, axes, haptic outputs, hand joints, eye gaze) into a deterministic timeline that can be replayed into the runtime for regression testing locomotion, UI, and gesture code.
+- ✅ **XR Input Recorder** _(stub, awaits wire-up)_: Captures full OpenXR input state (poses, buttons, axes, haptic outputs, hand joints, eye gaze) into a deterministic timeline that can be replayed into the runtime for regression testing locomotion, UI, and gesture code.
 
 
 #### Quantum computing
