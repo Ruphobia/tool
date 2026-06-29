@@ -399,7 +399,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **API schema designer** _(stub, awaits wire-up)_: Authors OpenAPI, GraphQL SDL, or tRPC routers visually with request/response examples, then emits server stubs, fetch clients, and mock servers from one source of truth.
 
-- ⬜ **Type generator** _(planned)_: Derives TypeScript types, Zod/Valibot schemas, and form validators from JSON samples, SQL DDL, OpenAPI specs, or Prisma models with round-trip diffing.
+- ✅ **Type generator** _(stub, awaits wire-up)_: Derives TypeScript types, Zod/Valibot schemas, and form validators from JSON samples, SQL DDL, OpenAPI specs, or Prisma models with round-trip diffing.
 
 - ⬜ **Responsive preview** _(planned)_: Renders the running app side-by-side in device frames at chosen breakpoints with touch emulation, prefers-color-scheme/reduced-motion toggles, and synchronized scroll.
 
