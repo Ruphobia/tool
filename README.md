@@ -577,7 +577,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Firmware unpacker** _(stub, awaits wire-up)_: Identifies and extracts vendor firmware blobs, encrypted update packages, FAT/LittleFS/SPIFFS images, and JFFS2 containers. AI guesses container formats from headers and entropy patterns.
 
-- ⬜ **Bus traffic replayer** _(planned)_: Plays captured bus traces back onto live hardware or into the simulator with timing scaled and fields rewritten by rule. Useful for reproducing intermittent peripheral bugs.
+- ✅ **Bus traffic replayer** _(stub, awaits wire-up)_: Plays captured bus traces back onto live hardware or into the simulator with timing scaled and fields rewritten by rule. Useful for reproducing intermittent peripheral bugs.
 
 - ⬜ **Sensor calibration suite** _(planned)_: Workflows for accelerometer, gyro, magnetometer, IMU fusion, ADC, thermistor, and load-cell calibration with curve fitting and coefficient export. AI proposes the model class from the residual shape.
 
