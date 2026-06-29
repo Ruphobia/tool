@@ -3657,7 +3657,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Image diff** _(stub, awaits wire-up)_: Pixel, perceptual (SSIM/LPIPS/DISTS), and structural diff with side-by-side and onion-skin views. Useful for regression checks on generated assets.
 
-- ⬜ **Trainer** _(planned)_: Local LoRA, DreamBooth, textual-inversion, and ControlNet training over diffusion backbones with mixed-precision and gradient-checkpointing. Live loss/sample previews during runs.
+- ✅ **Trainer** _(stub, awaits wire-up)_: Local LoRA, DreamBooth, textual-inversion, and ControlNet training over diffusion backbones with mixed-precision and gradient-checkpointing. Live loss/sample previews during runs.
 
 - ⬜ **Model hub** _(planned)_: Local registry of checkpoints, LoRAs, VAEs, embeddings, and ControlNets with hashes, sources, license tags, and per-model usage notes. Surfaces share-alike and restricted licenses per release-licensing intent.
 
