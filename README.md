@@ -1462,7 +1462,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Layout analyzer** _(stub, awaits wire-up)_: Detects page regions (columns, headers, footers, captions, figures, tables, footnotes) and emits a structured tree. Drives the table, figure, and reflow extractors downstream.
 
-- ⬜ **Table extractor** _(planned)_: Pulls tables out of PDF and scanned pages to CSV, TSV, or Markdown using rule-based detection with model-assisted cell merging and header inference.
+- ✅ **Table extractor** _(stub, awaits wire-up)_: Pulls tables out of PDF and scanned pages to CSV, TSV, or Markdown using rule-based detection with model-assisted cell merging and header inference.
 
 - ⬜ **Figure and diagram extractor** _(planned)_: Crops images, charts, and diagrams from documents with their captions and references, exporting to PNG or SVG and indexing them for later search by caption text or visual similarity.
 
