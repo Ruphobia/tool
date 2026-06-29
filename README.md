@@ -719,7 +719,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Reverse proxy editor** _(stub, awaits wire-up)_: Generates and lints nginx, Caddy, and Traefik configurations for virtual hosts, TLS termination, and upstream routing. AI-integrated synthesis of a working config from a list of services and domains.
 
-- ⬜ **Certificate manager** _(planned)_: Tracks local x509 certificates and ACME-issued certs with expiry calendar, SAN list, and chain validation. Drives certbot, acme.sh, or step-ca to issue, renew, and deploy certs to configured services.
+- ✅ **Certificate manager** _(stub, awaits wire-up)_: Tracks local x509 certificates and ACME-issued certs with expiry calendar, SAN list, and chain validation. Drives certbot, acme.sh, or step-ca to issue, renew, and deploy certs to configured services.
 
 - ⬜ **Secrets vault** _(planned)_: Local encrypted store for API keys, SSH keys, passwords, and tokens, with per-entry rotation reminders and clipboard auto-clear. Exposes entries to other workbench tools through a scoped reference rather than raw value.
 
