@@ -2255,7 +2255,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Corrosion Compatibility Matrix** _(stub, awaits wire-up)_: Material-vs-chemical resistance grid covering common metals, plastics, and elastomers against acids, bases, solvents, fuels, salts, and foods at various temperatures, sourced from compiled vendor and NACE tables.
 
-- ⬜ **Pourbaix Diagram Viewer** _(planned)_: E-pH (Pourbaix) diagrams for iron, copper, aluminum, zinc, nickel, titanium, lead, and chromium, with overlay of a user's electrolyte conditions to predict passivation, immunity, or active corrosion regions.
+- ✅ **Pourbaix Diagram Viewer** _(stub, awaits wire-up)_: E-pH (Pourbaix) diagrams for iron, copper, aluminum, zinc, nickel, titanium, lead, and chromium, with overlay of a user's electrolyte conditions to predict passivation, immunity, or active corrosion regions.
 
 - ⬜ **Polymer Property Tables** _(planned)_: Database of thermoplastics, thermosets, and elastomers (PLA, PETG, ABS, PC, PA6/66, POM, PEEK, PTFE, PP, PE, PMMA, PVC, TPU, silicone, EPDM, NBR, FKM, etc.) with Tg, Tm, HDT, modulus, elongation, density, dielectric, water absorption, and chemical resistance.
 
