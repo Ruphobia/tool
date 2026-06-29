@@ -488,7 +488,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Bundle size analyzer** _(stub, awaits wire-up)_: Decomposes IPA and APK/AAB payloads into per-framework, per-asset, and per-language contributions, diffs against the previous release, and AI-suggests removals (unused locales, duplicate fonts, oversized PNGs) ranked by byte impact.
 
-- ⬜ **Multi-device layout previewer** _(planned)_: Renders the current SwiftUI, Jetpack Compose, Flutter, or React Native screen simultaneously across a configurable device grid with light/dark, RTL, dynamic type, and accessibility-large-text axes shown side-by-side.
+- ✅ **Multi-device layout previewer** _(stub, awaits wire-up)_: Renders the current SwiftUI, Jetpack Compose, Flutter, or React Native screen simultaneously across a configurable device grid with light/dark, RTL, dynamic type, and accessibility-large-text axes shown side-by-side.
 
 - ⬜ **Localizable strings editor** _(planned)_: Edits Localizable.strings, .xcstrings, strings.xml, and ARB files in a single matrix view, marks stale translations against the source locale, and AI-translates pending rows with placeholder and plural form preservation.
 
