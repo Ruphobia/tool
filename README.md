@@ -3684,7 +3684,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Exposure Calculator** _(stub, awaits wire-up)_: Computes depth of field, hyperfocal distance, circle of confusion, equivalent exposure across ISO/aperture/shutter, ND filter stacking, long-exposure times, and film reciprocity failure for a chosen stock. Cross-links results to the focal length and sensor format selected in the lens browser.
 
-- ⬜ **Lens Database Browser** _(planned)_: Searchable catalog of lens specifications with focal length, max aperture, mount, weight, optical formula, MTF curves, vignetting, distortion, and field-of-view crop simulator. Imports manufacturer data sheets and user-measured calibrations.
+- ✅ **Lens Database Browser** _(stub, awaits wire-up)_: Searchable catalog of lens specifications with focal length, max aperture, mount, weight, optical formula, MTF curves, vignetting, distortion, and field-of-view crop simulator. Imports manufacturer data sheets and user-measured calibrations.
 
 - ⬜ **Sun and Moon Planner** _(planned)_: Ephemeris that plots sun and moon azimuth/altitude, sunrise/sunset, civil/nautical/astronomical twilight, golden and blue hour windows, and Milky Way core position for a given latitude, longitude, and date. Overlays the path on a map with terrain shadowing.
 
