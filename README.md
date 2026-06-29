@@ -2664,7 +2664,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Transmission line calculator** _(stub, awaits wire-up)_: Computes coax and ladder line loss, velocity factor, electrical length, matched and mismatched line behavior, and balun/unun turn ratios. Includes a library of common cables (LMR, RG, Heliax, Andrew) with temperature derating.
 
-- ⬜ **RF filter designer** _(planned)_: Synthesizes lumped LC, microstrip, stripline, helical, and SAW filters with Butterworth, Chebyshev, elliptic, Bessel, and Gaussian responses. Outputs schematic, layout estimate, and Touchstone S-parameters for cascade simulation.
+- ✅ **RF filter designer** _(stub, awaits wire-up)_: Synthesizes lumped LC, microstrip, stripline, helical, and SAW filters with Butterworth, Chebyshev, elliptic, Bessel, and Gaussian responses. Outputs schematic, layout estimate, and Touchstone S-parameters for cascade simulation.
 
 - ⬜ **Touchstone viewer** _(planned)_: Loads .s1p through .s4p files and plots magnitude, phase, group delay, Smith, and polar. Cascades networks, de-embeds fixtures, converts between S, Y, Z, T, and ABCD, and exports back to Touchstone or CITI.
 
