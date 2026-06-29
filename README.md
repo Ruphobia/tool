@@ -1362,7 +1362,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Trademark searcher** _(stub, awaits wire-up)_: searches USPTO TESS, Madrid, EUIPO, and common-law uses. Pulls similar marks by phonetic/visual/conceptual similarity. Drafts statements of use, opposition responses, and TTAB filings.
 
-- ⬜ **Patent litigation docket** _(planned)_: tracks ITC and district-court patent cases, attached complaints/answers/orders, claim-chart progress, expert reports, deposition transcripts. Reminders for deadlines.
+- ✅ **Patent litigation docket** _(stub, awaits wire-up)_: tracks ITC and district-court patent cases, attached complaints/answers/orders, claim-chart progress, expert reports, deposition transcripts. Reminders for deadlines.
 
 - ⬜ **Historical patent browser** _(planned)_: OCR + cleanup of 19th and early-20th century patents from USPTO/EPO/British archives. Searchable across original handwritten or letterpress text. Useful for prior-art beyond modern indexes and for engineering history research.
 
