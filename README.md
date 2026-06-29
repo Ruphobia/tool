@@ -4486,7 +4486,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Hunting, fishing, trapping, wildlife tracking
 
-- ⬜ **Solunar Tables** _(planned)_: Generates sunrise, sunset, moonrise, moonset, and twilight times for any coordinate, with major and minor feeding windows scored against barometric pressure and recent weather. Plots multi-day activity forecasts and exports ICS alarms for stand departure.
+- ✅ **Solunar Tables** _(stub, awaits wire-up)_: Generates sunrise, sunset, moonrise, moonset, and twilight times for any coordinate, with major and minor feeding windows scored against barometric pressure and recent weather. Plots multi-day activity forecasts and exports ICS alarms for stand departure.
 
 - ⬜ **Species Season Calendar** _(planned)_: Tracks legal open and close dates for game and fish species by state, zone, weapon, and method. Color-coded annual view with overlap detection for multi-species trips and reminder hooks for application periods.
 
