@@ -4500,7 +4500,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Lure and Bait Reference** _(stub, awaits wire-up)_: Cross-references species, water temperature, clarity, depth, structure, and season against a tackle library to recommend presentations. Includes retrieval cadence notes, knot pairing, and a personal confidence-bait ranking learned from your catch log.
 
-- ⬜ **Taxidermy Notebook** _(planned)_: Captures skinning measurements, eye-set references, pose sketches, form part numbers, tan recipes, and mount progress photos per specimen. Supplier order ledger and drying-time scheduler with humidity log integration.
+- ✅ **Taxidermy Notebook** _(stub, awaits wire-up)_: Captures skinning measurements, eye-set references, pose sketches, form part numbers, tan recipes, and mount progress photos per specimen. Supplier order ledger and drying-time scheduler with humidity log integration.
 
 - ⬜ **Topo and Property Atlas** _(planned)_: Offline topo, satellite, and contour layers with public land, WMA, and parcel-line overlays sourced from county GIS. Marks stands, blinds, scrapes, food plots, boat ramps, and access trails with custom icon sets.
 
