@@ -729,7 +729,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Performance profiler** _(stub, awaits wire-up)_: Wraps perf, eBPF, and bpftrace to record on-CPU and off-CPU profiles and render flamegraphs and latency histograms. AI-integrated narration of hot stacks and likely bottleneck classifications.
 
-- ⬜ **Syscall and IO tracer** _(planned)_: Attaches strace, ltrace, or bpftrace probes to a running process and streams decoded syscalls, opened files, and network IO. Filters by syscall family and replays captured traces offline.
+- ✅ **Syscall and IO tracer** _(stub, awaits wire-up)_: Attaches strace, ltrace, or bpftrace probes to a running process and streams decoded syscalls, opened files, and network IO. Filters by syscall family and replays captured traces offline.
 
 - ⬜ **Config diff and version tracker** _(planned)_: Watches /etc and other configured directories, snapshots changes to a local git repo, and shows per-file history with author and timestamp. AI-integrated commit messages describing what the change does.
 
