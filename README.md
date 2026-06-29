@@ -3629,7 +3629,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Transcoder** _(stub, awaits wire-up)_: FFmpeg-driven batch encoder/decoder with presets for H.264, H.265, AV1, VP9, ProRes, DNxHR, and HAP. Exposes hardware-accelerated paths (NVENC/QSV/VAAPI) and two-pass settings.
 
-- ⬜ **Frame interpolator** _(planned)_: Optical-flow and learned interpolation (RIFE, FILM, IFRNet) for slow motion and frame-rate upconversion. Supports scene-cut detection to avoid blending across cuts.
+- ✅ **Frame interpolator** _(stub, awaits wire-up)_: Optical-flow and learned interpolation (RIFE, FILM, IFRNet) for slow motion and frame-rate upconversion. Supports scene-cut detection to avoid blending across cuts.
 
 - ⬜ **Video upscaler** _(planned)_: Temporally-coherent super-resolution using Real-ESRGAN-Video, BasicVSR++, and Topaz-style pipelines. Streams frames through tiled inference with optional codec passthrough.
 
