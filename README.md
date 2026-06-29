@@ -374,7 +374,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **JVM toolchain (Java, Kotlin, Scala)** _(stub, awaits wire-up)_: a tool for JVM-language development: jdk version management (sdkman/jenv), gradle/maven, junit/kotest, dependency tree visualizer, jvm flag tuner, jconsole/jvisualvm bridge.
 
-- ⬜ **Embedded firmware toolchains** _(planned)_: platform-specific subtools: ESP-IDF for ESP32, STM32CubeIDE-equivalent for STM32, SDK + Keil for Silicon Labs EFM8 (8051), AVR + Atmel toolchain, RP2040 SDK, nRF Connect for nordic. Each handles compile + flash + RTT/SWO debug.
+- ✅ **Embedded firmware toolchains** _(stub, awaits wire-up)_: platform-specific subtools: ESP-IDF for ESP32, STM32CubeIDE-equivalent for STM32, SDK + Keil for Silicon Labs EFM8 (8051), AVR + Atmel toolchain, RP2040 SDK, nRF Connect for nordic. Each handles compile + flash + RTT/SWO debug.
 
 - ⬜ **Embedded image builders (Yocto, Buildroot)** _(planned)_: a tool for generating bootable Linux images for embedded targets: Yocto layer manager + recipe authoring, Buildroot config + defconfig manager, BSP customization, package selection, image artifact tracker, OTA update scaffold.
 
