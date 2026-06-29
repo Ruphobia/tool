@@ -3253,7 +3253,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **CMIP6 scenario browser** _(stub, awaits wire-up)_: Indexes local or Pangeo cloud CMIP6 Zarr stores; filters by experiment (historical, ssp245, ssp585), model, variant, and frequency; extracts time series, climatologies, and ensemble means with regridding via xESMF.
 
-- ⬜ **ERA5/reanalysis extractor** _(planned)_: Fetches ERA5, MERRA-2, JRA-55, and NCEP/NCAR reanalysis subsets from CDS, GES DISC, or Copernicus Marine; caches monthly tiles locally and exports point, transect, or area-weighted time series.
+- ✅ **ERA5/reanalysis extractor** _(stub, awaits wire-up)_: Fetches ERA5, MERRA-2, JRA-55, and NCEP/NCAR reanalysis subsets from CDS, GES DISC, or Copernicus Marine; caches monthly tiles locally and exports point, transect, or area-weighted time series.
 
 - ⬜ **Drought & precip index calculator** _(planned)_: Computes SPI, SPEI, PDSI, scPDSI, EDDI, and percent of normal from GHCN, PRISM, CHIRPS, or model precip and PET; produces gridded anomaly maps and basin-aggregated drought monitor overlays.
 
