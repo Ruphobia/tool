@@ -1775,7 +1775,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **ATU Motif Index Browser** _(stub, awaits wire-up)_: Searchable, cross-referenced index of Aarne-Thompson-Uther tale types and Thompson motif numbers, with filters by region, motif element, and tale family. Supports tagging custom corpus entries with ATU codes for later aggregation.
 
-- ⬜ **Pantheon Cross-Reference Atlas** _(planned)_: Side-by-side comparison grids of deities across cultures (Indo-European, Mesoamerican, West African, Polynesian, Sino-Tibetan, etc.), aligned by domain (sky, storm, trickster, underworld). Includes etymology trails and known syncretic identifications.
+- ✅ **Pantheon Cross-Reference Atlas** _(stub, awaits wire-up)_: Side-by-side comparison grids of deities across cultures (Indo-European, Mesoamerican, West African, Polynesian, Sino-Tibetan, etc.), aligned by domain (sky, storm, trickster, underworld). Includes etymology trails and known syncretic identifications.
 
 - ⬜ **Folk Tale Variant Browser** _(planned)_: Collation viewer for variants of a single tale type across collectors and regions (Grimm, Afanasyev, Calvino, Lang, Jacobs, El-Shamy). Highlights diffs in plot beats, character roles, and locale-specific substitutions.
 
