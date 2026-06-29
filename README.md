@@ -2804,7 +2804,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **CAD import and conversion** _(stub, awaits wire-up)_: Converts STEP, IGES, JT, and Parasolid bodies to triangle meshes or implicit surfaces with topology preservation, assembly extraction into URDF link trees, and inertial-tensor computation from solid density.
 
-- ⬜ **Motion capture studio** _(planned)_: Ingests BVH, FBX, C3D, and live OptiTrack, Vicon, and Rokoko streams; cleans marker gaps, solves skeletons, retargets to arbitrary URDFs, and exports joint trajectories for replay or imitation learning.
+- ✅ **Motion capture studio** _(stub, awaits wire-up)_: Ingests BVH, FBX, C3D, and live OptiTrack, Vicon, and Rokoko streams; cleans marker gaps, solves skeletons, retargets to arbitrary URDFs, and exports joint trajectories for replay or imitation learning.
 
 - ⬜ **Camera calibrator** _(planned)_: Performs intrinsic, extrinsic, stereo, and rolling-shutter calibration from checkerboard, ChArUco, or AprilTag captures, with reprojection error heatmaps, pose-coverage prompts, and Kalibr-compatible export.
 
