@@ -4110,7 +4110,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Value and notan studio** _(stub, awaits wire-up)_: Posterizes a reference image to 2 to 9 value steps, generates thumbnail variants, and overlays a notan mask so light/dark composition can be judged independently of hue.
 
-- ⬜ **Perspective grid overlay** _(planned)_: Generates 1-, 2-, 3-, 4-, and 5-point perspective grids plus fisheye and curvilinear projections, with adjustable horizon, station point, cone of vision, and exportable transparent overlays for tracing.
+- ✅ **Perspective grid overlay** _(stub, awaits wire-up)_: Generates 1-, 2-, 3-, 4-, and 5-point perspective grids plus fisheye and curvilinear projections, with adjustable horizon, station point, cone of vision, and exportable transparent overlays for tracing.
 
 - ⬜ **Calligraphy nib simulator** _(planned)_: Simulates broad-edge, pointed-pen, and brush-pen strokes with pressure- and angle-driven contrast, supports historical hands (Italic, Copperplate, Uncial, Kufic, Sōsho), and produces guide sheets at requested x-height and slant.
 
