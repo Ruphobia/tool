@@ -1321,7 +1321,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Bank Statement Importer** _(stub, awaits wire-up)_: Parses CSV, OFX, QIF, QFX, MT940, and CAMT.053 statements from any bank, normalizes column layouts, deduplicates against existing postings, and stages transactions for review with AI-suggested category mapping.
 
-- ⬜ **Reconciliation Studio** _(planned)_: Matches imported bank lines against ledger postings with fuzzy date/amount tolerance, surfaces unmatched items, and walks a guided three-way reconciliation against statement balance. Flags rounding, FX, and duplicate-entry causes of drift.
+- ✅ **Reconciliation Studio** _(stub, awaits wire-up)_: Matches imported bank lines against ledger postings with fuzzy date/amount tolerance, surfaces unmatched items, and walks a guided three-way reconciliation against statement balance. Flags rounding, FX, and duplicate-entry causes of drift.
 
 - ⬜ **Tax Form Filler** _(planned)_: Fills US and international tax forms (1040 and schedules, Schedule C, 1099, W-2, W-9, UK SA100, German EUR) from ledger data, with line-by-line provenance back to source transactions and an AI-integrated explanation of each computed figure.
 
