@@ -1157,7 +1157,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Inventory policy designer** _(stub, awaits wire-up)_: Computes EOQ, (s,S), (R,Q), and base-stock policies with safety stock from target cycle service level or fill rate. Handles lead-time variability, stochastic demand distributions, and joint replenishment; AI-suggested policy class given demand-pattern fingerprint (smooth, erratic, intermittent, lumpy).
 
-- ⬜ **Demand forecaster** _(planned)_: Fits ARIMA, ETS (Holt-Winters), Theta, Croston / TSB for intermittent series, and gradient-boosted hierarchical models with reconciliation (MinT, bottom-up, top-down). Reports MAPE/WAPE/MASE with backtesting folds and prediction intervals.
+- ✅ **Demand forecaster** _(stub, awaits wire-up)_: Fits ARIMA, ETS (Holt-Winters), Theta, Croston / TSB for intermittent series, and gradient-boosted hierarchical models with reconciliation (MinT, bottom-up, top-down). Reports MAPE/WAPE/MASE with backtesting folds and prediction intervals.
 
 - ⬜ **Newsvendor solver** _(planned)_: Computes optimal single-period order quantity from underage/overage costs and a demand distribution (empirical, normal, lognormal, custom). Sweeps service-level vs expected-profit curves and supports salvage value, emergency procurement, and risk-averse CVaR objectives.
 
