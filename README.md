@@ -903,7 +903,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Certificate and Key Inspector** _(stub, awaits wire-up)_: Parses X.509 certificates, CSRs, PEM/DER/PKCS#12 bundles, SSH keys, and JWKs with chain validation, revocation checks, and key strength analysis. Flags weak curves, short moduli, and pinning mismatches.
 
-- ⬜ **Crypto Playground** _(planned)_: Interactive encode/decode and encrypt/decrypt across base64/32/85, hex, URL, AES/ChaCha modes, RSA, ECC, HMAC, KDFs, and JWT. Chainable recipe pipeline in the style of CyberChef with local-only execution.
+- ✅ **Crypto Playground** _(stub, awaits wire-up)_: Interactive encode/decode and encrypt/decrypt across base64/32/85, hex, URL, AES/ChaCha modes, RSA, ECC, HMAC, KDFs, and JWT. Chainable recipe pipeline in the style of CyberChef with local-only execution.
 
 - ⬜ **Password Recovery Driver** _(planned)_: Frontend for hashcat and John the Ripper covering hash identification, wordlist/rule selection, mask attacks, and GPU job control. Tracks attack progress, ETA, and cracked artifacts across sessions.
 
