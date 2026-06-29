@@ -4584,7 +4584,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Rating system fitter** _(stub, awaits wire-up)_: Fits Elo, Glicko-2, TrueSkill, Massey, and Colley ratings on head-to-head results with margin-of-victory and home-field adjustment; exposes a prediction API for upcoming fixtures.
 
-- ⬜ **Season Monte Carlo simulator** _(planned)_: Walks a remaining schedule N times from team strength priors to produce win-total distributions, playoff seeding odds, and championship probabilities with confidence bands.
+- ✅ **Season Monte Carlo simulator** _(stub, awaits wire-up)_: Walks a remaining schedule N times from team strength priors to produce win-total distributions, playoff seeding odds, and championship probabilities with confidence bands.
 
 - ⬜ **Fantasy draft optimizer** _(planned)_: Computes VBD/VORP from projections and replacement levels, scrapes ADP, and solves lineup construction under salary cap and positional constraints for DFS and season-long formats.
 
