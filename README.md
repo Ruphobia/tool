@@ -1746,7 +1746,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Stemma builder** _(stub, awaits wire-up)_: Constructs manuscript family trees from variant data using Lachmannian, neighbor-joining, and RHM phylogenetic methods; visualizes contamination, lost archetypes, and bootstrap support.
 
-- ⬜ **Concordance and KWIC** _(planned)_: Generates keyword-in-context indexes, frequency tables, and collocation profiles over user corpora; supports lemmatized queries and regex across Greek, Hebrew, Latin, Sanskrit, Pali, and Arabic.
+- ✅ **Concordance and KWIC** _(stub, awaits wire-up)_: Generates keyword-in-context indexes, frequency tables, and collocation profiles over user corpora; supports lemmatized queries and regex across Greek, Hebrew, Latin, Sanskrit, Pali, and Arabic.
 
 - ⬜ **Morphological analyzer** _(planned)_: Parses ancient-language tokens to lemma, part-of-speech, and inflection using Perseus Morpheus, MorphHB, CLTK, and Buckwalter back-ends; flags ambiguities and proposes context-disambiguated readings.
 
