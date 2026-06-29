@@ -4270,7 +4270,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Misdirection Heatmap** _(stub, awaits wire-up)_: Simulated audience attention overlay derived from performer gesture, gaze, motion, and visual contrast in recorded footage. AI predicts where eyes go frame by frame and rates each sleight against ambient distraction.
 
-- ⬜ **Lighting and Sound Cue Sheet** _(planned)_: DMX, MIDI, and OSC cue table synced to the beat sheet, with practice playback locally. Exports to QLab, ETC EOS, and Ableton sessions, and round-trips changes back from the console.
+- ✅ **Lighting and Sound Cue Sheet** _(stub, awaits wire-up)_: DMX, MIDI, and OSC cue table synced to the beat sheet, with practice playback locally. Exports to QLab, ETC EOS, and Ableton sessions, and round-trips changes back from the console.
 
 - ⬜ **Gig and Tour Manager** _(planned)_: Venue specs, tech riders, contracts, travel manifests, hotel blocks, and customs paperwork for prop transport including blades, livestock, and pyrotechnics. Generates load-in run sheets per date.
 
