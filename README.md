@@ -770,7 +770,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Save Format Editor** _(stub, awaits wire-up)_: Structured editor for save files with schema inference, hex/text dual view, checksum repair, and field-level diffing between saves. Useful for testing migrations, debugging corruption, and authoring fixture saves.
 
-- ⬜ **Procedural Generation Sandbox** _(planned)_: Live laboratory for noise, cellular automata, L-systems, wave function collapse, and graph rewriting, with seedable runs and parameter sweeps. AI-integrated suggestion of constraints from a few hand-drawn example outputs.
+- ✅ **Procedural Generation Sandbox** _(stub, awaits wire-up)_: Live laboratory for noise, cellular automata, L-systems, wave function collapse, and graph rewriting, with seedable runs and parameter sweeps. AI-integrated suggestion of constraints from a few hand-drawn example outputs.
 
 - ⬜ **Navmesh & Pathfinding Lab** _(planned)_: Bakes navmeshes from level geometry, visualizes A*/JPS/HPA* searches step-by-step, and stress-tests with crowds of agents. Lets you tweak heuristics and agent radii with instant rebake.
 
