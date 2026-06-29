@@ -754,7 +754,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sound Effect Forge** _(stub, awaits wire-up)_: Sfxr/Bfxr-style procedural SFX synthesizer with parameter randomization, mutation history, and project-wide variation banks. Includes a denoiser, normalizer, and game-engine-ready WAV/OGG export.
 
-- ⬜ **Tracker Studio** _(planned)_: Pattern-based music tracker with chiptune and sample instruments, MIDI import, looped section markers, and interactive music states. Renders deterministic stems for layering by gameplay events.
+- ✅ **Tracker Studio** _(stub, awaits wire-up)_: Pattern-based music tracker with chiptune and sample instruments, MIDI import, looped section markers, and interactive music states. Renders deterministic stems for layering by gameplay events.
 
 - ⬜ **Shader Playground** _(planned)_: Live GLSL/WGSL/HLSL editor with hot-reload, uniform bindings, texture inputs, and a node-graph mode that compiles to the same source. Includes side-by-side diffing for portability across targets.
 
