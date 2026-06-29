@@ -1944,7 +1944,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Footprint editor** _(stub, awaits wire-up)_: Creates and edits land patterns with IPC-compliant courtyards, pad stacks, and assembly drawings. AI-integrated generation of footprints from datasheet PDFs and dimensioned drawings.
 
-- ⬜ **Component library manager** _(planned)_: Unified parts database linking symbols, footprints, 3D models, datasheets, manufacturer part numbers, distributor stock, and lifecycle status. Deduplicates across libraries and tracks per-project BOMs.
+- ✅ **Component library manager** _(stub, awaits wire-up)_: Unified parts database linking symbols, footprints, 3D models, datasheets, manufacturer part numbers, distributor stock, and lifecycle status. Deduplicates across libraries and tracks per-project BOMs.
 
 - ⬜ **BOM and sourcing** _(planned)_: Generates bills of materials with live pricing, stock, and lead times from Octopart, LCSC, Mouser, and Digi-Key. Suggests pin-compatible alternates when a part is EOL or out of stock.
 
