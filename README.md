@@ -4330,7 +4330,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **KataGo analysis bridge** _(stub, awaits wire-up)_: Drives a local KataGo binary via the analysis engine JSON protocol, requesting policy/value/ownership maps and score-lead estimates for SGF positions. Surfaces winrate graphs, blunder detection, and move suggestions with visit counts.
 
-- ⬜ **SGF library indexer** _(planned)_: Ingests SGF collections (pro games, OGS/KGS archives), normalizes metadata, and builds a searchable index by player, rank, opening pattern, and board-region motif. Exposes joseki and fuseki frequency tables.
+- ✅ **SGF library indexer** _(stub, awaits wire-up)_: Ingests SGF collections (pro games, OGS/KGS archives), normalizes metadata, and builds a searchable index by player, rank, opening pattern, and board-region motif. Exposes joseki and fuseki frequency tables.
 
 - ⬜ **Poker equity solver** _(planned)_: Computes hand-vs-hand and range-vs-range equity via exhaustive enumeration or Monte Carlo, supporting Hold'em, Omaha, and Stud variants. Returns equity distribution, board-texture breakdowns, and combo-by-combo grids.
 
