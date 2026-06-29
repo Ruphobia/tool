@@ -2245,7 +2245,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Heat Treatment Scheduler** _(stub, awaits wire-up)_: Step-by-step recipe builder for anneal/normalize/quench/temper/age cycles with ramp rates, soak times, atmosphere, and quench medium. AI-integrated suggestion of a starting recipe from the alloy designation and a target hardness or microstructure.
 
-- ⬜ **Hardness Converter** _(planned)_: Bidirectional conversion between Brinell, Rockwell B/C, Vickers, Knoop, Shore A/D, Leeb, and Mohs scales per ASTM E140, with approximate tensile-strength estimates for steels.
+- ✅ **Hardness Converter** _(stub, awaits wire-up)_: Bidirectional conversion between Brinell, Rockwell B/C, Vickers, Knoop, Shore A/D, Leeb, and Mohs scales per ASTM E140, with approximate tensile-strength estimates for steels.
 
 - ⬜ **Jominy Hardenability Estimator** _(planned)_: Predicts the Jominy end-quench curve from steel composition using Grossmann/ideal-diameter correlations, and estimates the maximum section size that will through-harden in a given quench medium.
 
