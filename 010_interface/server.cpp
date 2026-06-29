@@ -20,6 +20,7 @@
 #include "../009_tools/physics/physics.hpp"
 #include "../009_tools/chemistry/chemistry.hpp"
 #include "../009_tools/vision/vision.hpp"
+#include "../009_tools/components/components.hpp"
 
 #include <nlohmann/json.hpp>
 
@@ -523,14 +524,42 @@ void handle_chat(const httplib::Request & req, httplib::Response & res) {
                                        : is_electronics ? "electronics"
                                        : "answer";
                     std::string a;
-                    if      (is_chem)        a = chemistry::answer(final_text);
-                    else if (is_physics)     a = physics::answer  (final_text);
-                    else if (is_electronics) a = physics::answer  (final_text);
-                    else                     a = answer::respond  (final_text);
-                    context::append("answer", "response", a, which);
-                    handler["kind"]   = std::string(which) + "_answer";
-                    handler["answer"] = a;
-                    emit("layer", {{"name", which}, {"content", a}});
+                    bool        served_by_components = false;
+                    // Before falling into the generic electronics LLM, see
+                    // if this is a parts-search request the Mouser tool can
+                    // handle directly. Cheaper, more useful, and gives the
+                    // user actual orderable part numbers + prices.
+                    if (is_electronics && components::has_credentials()) {
+                        components::Intent it = components::extract_intent(final_text);
+                        emit("layer", {{"name", "parts_intent"},
+                                       {"content",
+                                        std::string("is_parts_request=") +
+                                        (it.is_parts_request ? "true" : "false") +
+                                        " keyword=\"" + it.keyword + "\" " +
+                                        it.reasoning}});
+                        if (it.is_parts_request) {
+                            auto parts = components::search(it.keyword, /*limit=*/20);
+                            a = components::format_results(parts, it.keyword);
+                            context::append("components", "response", a, it.keyword);
+                            handler["kind"]    = "components_answer";
+                            handler["answer"]  = a;
+                            handler["keyword"] = it.keyword;
+                            emit("layer", {{"name", "mouser"},
+                                           {"content", std::to_string(parts.size()) +
+                                                       " parts; keyword=" + it.keyword}});
+                            served_by_components = true;
+                        }
+                    }
+                    if (!served_by_components) {
+                        if      (is_chem)        a = chemistry::answer(final_text);
+                        else if (is_physics)     a = physics::answer  (final_text);
+                        else if (is_electronics) a = physics::answer  (final_text);
+                        else                     a = answer::respond  (final_text);
+                        context::append("answer", "response", a, which);
+                        handler["kind"]   = std::string(which) + "_answer";
+                        handler["answer"] = a;
+                        emit("layer", {{"name", which}, {"content", a}});
+                    }
                 } else if (act.act == "statement") {
                     bool persistent = false;
                     for (const auto & t : act.tags) if (t == "persistent") persistent = true;
