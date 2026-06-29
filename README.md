@@ -3511,7 +3511,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Watershed Analyzer** _(stub, awaits wire-up)_: Performs pit filling, D8/D-infinity flow direction, flow accumulation, stream network extraction, and basin delineation from a DEM. Computes runoff curves (SCS-CN) and time-of-concentration for a user-placed pour point.
 
-- ⬜ **Stereonet** _(planned)_: Equal-area and equal-angle lower-hemisphere projections for planes, lines, and fold axes, with contour plots of pole density (Kamb, Schmidt). Computes intersections, rotations, and best-fit fold-axis solutions from field measurements.
+- ✅ **Stereonet** _(stub, awaits wire-up)_: Equal-area and equal-angle lower-hemisphere projections for planes, lines, and fold axes, with contour plots of pole density (Kamb, Schmidt). Computes intersections, rotations, and best-fit fold-axis solutions from field measurements.
 
 - ⬜ **Cross-Section Builder** _(planned)_: Draws a section line on a map and extrudes a geological cross-section from a DEM plus mapped contacts, dips, and unit polygons. Supports vertical exaggeration, fault offsets, and apparent-dip correction along oblique transects.
 
