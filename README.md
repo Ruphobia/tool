@@ -881,7 +881,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **PCAP Analyzer** _(stub, awaits wire-up)_: Parses pcap/pcapng captures with per-packet decoding, flow reconstruction, and protocol stats. Provides display filters, follow-stream views, TLS metadata extraction, and AI-assisted explanation of suspicious conversations.
 
-- ⬜ **Vulnerability Scanner Driver** _(planned)_: Drives Nmap NSE, Nuclei templates, and OpenVAS-style checks against targets with a unified result schema. Deduplicates findings, ranks by exploitability, and links each finding to CVE/CWE references.
+- ✅ **Vulnerability Scanner Driver** _(stub, awaits wire-up)_: Drives Nmap NSE, Nuclei templates, and OpenVAS-style checks against targets with a unified result schema. Deduplicates findings, ranks by exploitability, and links each finding to CVE/CWE references.
 
 - ⬜ **Malware Sandbox Viewer** _(planned)_: Renders artifact reports from local sandbox runs (Cuckoo/CAPE/Detonate) with process tree, registry deltas, network IOCs, dropped files, and screenshots. Cross-references behaviors with MITRE ATT&CK techniques.
 
