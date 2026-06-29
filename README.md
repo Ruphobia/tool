@@ -2902,7 +2902,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Forward reaction predictor** _(stub, awaits wire-up)_: Predicts likely products and selectivities from reactants, reagents, solvent, and temperature; ranks side products, flags regiochemistry and stereochemistry concerns, and offers AI-integrated arrow-pushing mechanism walkthroughs.
 
-- ⬜ **NMR simulator** _(planned)_: Predicts 1H, 13C, DEPT, COSY, HSQC, and HMBC spectra from a structure; reports chemical shifts, multiplicities, coupling constants, and integrations, with overlay against an imported experimental spectrum.
+- ✅ **NMR simulator** _(stub, awaits wire-up)_: Predicts 1H, 13C, DEPT, COSY, HSQC, and HMBC spectra from a structure; reports chemical shifts, multiplicities, coupling constants, and integrations, with overlay against an imported experimental spectrum.
 
 - ⬜ **Vibrational spectrum simulator** _(planned)_: Predicts IR and Raman bands from structure via group contribution or computed force constants; annotates functional group regions and matches against measured JCAMP-DX traces.
 
