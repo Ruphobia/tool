@@ -2198,7 +2198,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Filament and Resin Library** _(stub, awaits wire-up)_: Catalogs filaments and resins with vendor specs, glass transition, shrinkage, drying schedule, shelf life, and spool inventory; logs print results to refine recommended temps, speeds, and exposure over time.
 
-- ⬜ **Print Failure Diagnostician** _(planned)_: Analyzes photos of failed prints to identify causes (under-extrusion, warping, layer shift, elephant foot, ringing, delamination) and proposes profile changes, with AI integration for visual classification and remediation steps.
+- ✅ **Print Failure Diagnostician** _(stub, awaits wire-up)_: Analyzes photos of failed prints to identify causes (under-extrusion, warping, layer shift, elephant foot, ringing, delamination) and proposes profile changes, with AI integration for visual classification and remediation steps.
 
 - ⬜ **Pressure Advance and Input Shaper Tuner** _(planned)_: Generates PA, input shaper, retraction, flow, temperature tower, and first-layer calibration test prints; reads resonance CSVs from Klipper or accelerometer logs and recommends shaper type and frequency.
 
