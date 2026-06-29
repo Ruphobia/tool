@@ -1192,7 +1192,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Manuscript outliner** _(stub, awaits wire-up)_: Hierarchical scene and chapter tree with beat-sheet templates (Save the Cat, Story Grid, Three-Act, Snowflake) and drag-reorder. Each node carries POV, setting, word-count target, status, and synopsis fields that roll up to act and book level.
 
-- ⬜ **Character bible** _(planned)_: Structured profiles with relationship graph, trait fields, voice samples, and arc tracker per character. AI-integrated continuity check surfaces later prose that contradicts earlier canonical facts with chapter and line references.
+- ✅ **Character bible** _(stub, awaits wire-up)_: Structured profiles with relationship graph, trait fields, voice samples, and arc tracker per character. AI-integrated continuity check surfaces later prose that contradicts earlier canonical facts with chapter and line references.
 
 - ⬜ **World atlas** _(planned)_: Wiki-style store for locations, factions, calendars, currencies, languages, and rules-of-magic or tech entries under custom schemas. Inline [[references]] resolve as backlinks across the manuscript and a map view plots geo entries.
 
