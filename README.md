@@ -2991,7 +2991,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Bioinformatics Format Converter** _(stub, awaits wire-up)_: One-stop conversion across FASTA, FASTQ, GenBank, EMBL, GFF/GTF, BED, VCF, SAM/BAM/CRAM, PDB/mmCIF, NEXUS, PHYLIP, Stockholm, and Newick. Validates input, flags malformed records, and preserves annotations across compatible formats.
 
-- ⬜ **Antibody and Epitope Designer** _(planned)_: Linear and conformational B-cell epitope prediction, MHC-I/II binding prediction (NetMHCpan-style), antibody CDR annotation (Kabat, Chothia, IMGT numbering), humanization suggestions, and developability flags (aggregation, deamidation, glycosylation sites).
+- ✅ **Antibody and Epitope Designer** _(stub, awaits wire-up)_: Linear and conformational B-cell epitope prediction, MHC-I/II binding prediction (NetMHCpan-style), antibody CDR annotation (Kabat, Chothia, IMGT numbering), humanization suggestions, and developability flags (aggregation, deamidation, glycosylation sites).
 
 - ⬜ **Microscopy Image Analyzer** _(planned)_: Opens TIFF, OME-TIFF, CZI, ND2, and LIF stacks with channel splitting, z-projection, and time-series scrubbing. Segmentation (Cellpose, StarDist), cell and colony counting, intensity quantification per ROI, and CSV export of measurements.
 
