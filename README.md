@@ -1603,7 +1603,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Diplomatic transcription editor** _(stub, awaits wire-up)_: TEI-conformant editor for diplomatic and semi-diplomatic transcriptions with brevigraph expansion, sigla, deletions, interlineations, and damage markup. Side-by-side with IIIF facsimile and zone-linked text.
 
-- ⬜ **Critical apparatus builder** _(planned)_: Collates variant readings across witnesses and generates a positive or negative critical apparatus. Supports stemma codicum visualization and conjectural emendation tracking.
+- ✅ **Critical apparatus builder** _(stub, awaits wire-up)_: Collates variant readings across witnesses and generates a positive or negative critical apparatus. Supports stemma codicum visualization and conjectural emendation tracking.
 
 - ⬜ **IIIF workspace** _(planned)_: Loads IIIF manifests from any compliant repository, supports deep zoom, multi-image comparison in a Mirador-style grid, and persists annotations as W3C Web Annotations linked to canvases.
 
