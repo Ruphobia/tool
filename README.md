@@ -1527,7 +1527,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Retraction and Errata Watch** _(stub, awaits wire-up)_: Monitors Retraction Watch, CrossRef update notices, PubPeer threads, and venue corrigenda for every paper in the local library. Marks affected citations in drafts and exports an impact report.
 
-- ⬜ **Writing and Citation Linter** _(planned)_: Lints manuscripts for missing citations, broken cross-references, undefined acronyms, inconsistent notation, and weak-claim/strong-claim mismatches against cited evidence. Integrates with LaTeX, Typst, Markdown, and Pandoc workflows.
+- ✅ **Writing and Citation Linter** _(stub, awaits wire-up)_: Lints manuscripts for missing citations, broken cross-references, undefined acronyms, inconsistent notation, and weak-claim/strong-claim mismatches against cited evidence. Integrates with LaTeX, Typst, Markdown, and Pandoc workflows.
 
 - ⬜ **Grant and CFP Radar** _(planned)_: Tracks funding calls and conference CFPs from NSF, NIH, ERC, UKRI, DARPA, OpenReview, WikiCFP, and society mailing lists with topic-matched alerts. Builds a per-deadline checklist with required documents and eligibility flags.
 
