@@ -2373,7 +2373,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Stormwater & Drainage Designer** _(stub, awaits wire-up)_: Sizes culverts, swales, detention basins, and pipe networks using rational, SCS curve number, and Manning's methods. Generates hydrographs and routes flow through detention with stage-storage curves.
 
-- ⬜ **Earthwork Calculator** _(planned)_: Computes cut/fill volumes between existing and proposed surfaces from contour or TIN input. Produces mass-haul diagrams and grading-balance optimization.
+- ✅ **Earthwork Calculator** _(stub, awaits wire-up)_: Computes cut/fill volumes between existing and proposed surfaces from contour or TIN input. Produces mass-haul diagrams and grading-balance optimization.
 
 - ⬜ **Concrete Mix Designer** _(planned)_: Proportions concrete mixes by ACI 211 absolute-volume method targeting strength, slump, and durability class. Tracks SCM substitution, embodied carbon, and cost per cubic yard.
 
