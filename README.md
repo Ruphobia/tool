@@ -4586,7 +4586,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Season Monte Carlo simulator** _(stub, awaits wire-up)_: Walks a remaining schedule N times from team strength priors to produce win-total distributions, playoff seeding odds, and championship probabilities with confidence bands.
 
-- ⬜ **Fantasy draft optimizer** _(planned)_: Computes VBD/VORP from projections and replacement levels, scrapes ADP, and solves lineup construction under salary cap and positional constraints for DFS and season-long formats.
+- ✅ **Fantasy draft optimizer** _(stub, awaits wire-up)_: Computes VBD/VORP from projections and replacement levels, scrapes ADP, and solves lineup construction under salary cap and positional constraints for DFS and season-long formats.
 
 - ⬜ **Body composition tracker** _(planned)_: Logs weight, skinfolds, bioimpedance, and DEXA scans; estimates body fat via Navy, Jackson-Pollock, and Durnin-Womersley with Kalman-smoothed lean-mass trajectory.
 
