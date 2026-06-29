@@ -1629,7 +1629,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Historical units converter** _(stub, awaits wire-up)_: Converts pre-metric weights, measures, currencies, and prices across periods and polities, with purchasing-power equivalence via wage-basket and silver-content series. Cites the underlying source table per conversion.
 
-- ⬜ **Watermark and codicology assistant** _(planned)_: Matches paper watermarks against Bernstein/Briquet/Piccard repertories from a traced or photographed image, and records quire structure, ruling pattern, and binding notes per manuscript.
+- ✅ **Watermark and codicology assistant** _(stub, awaits wire-up)_: Matches paper watermarks against Bernstein/Briquet/Piccard repertories from a traced or photographed image, and records quire structure, ruling pattern, and binding notes per manuscript.
 
 - ⬜ **Genealogy and GEDCOM editor** _(planned)_: Edits family trees with per-fact source citations, conflicting evidence handling, and DNA match notes. Imports and exports GEDCOM 7 and GEDCOM-X.
 
