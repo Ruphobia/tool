@@ -1181,7 +1181,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Multi-echelon inventory simulator** _(stub, awaits wire-up)_: Simulates serial, assembly, and distribution networks under METRIC, Clark-Scarf, and guaranteed-service models with stochastic lead times and capacitated nodes. Optimizes stock placement and reports fill rate, backorder cost, and on-hand by stage.
 
-- ⬜ **Crew scheduler** _(planned)_: Builds driver, picker, and shift rosters via set-partitioning column generation, honoring HOS / labor rules, skill requirements, and fairness constraints. Supports rolling-horizon re-optimization when call-outs or demand spikes occur.
+- ✅ **Crew scheduler** _(stub, awaits wire-up)_: Builds driver, picker, and shift rosters via set-partitioning column generation, honoring HOS / labor rules, skill requirements, and fairness constraints. Supports rolling-horizon re-optimization when call-outs or demand spikes occur.
 
 - ⬜ **Monte Carlo risk simulator** _(planned)_: Runs stochastic supply chain stress tests for supplier outages, port closures, and demand shocks with copula-correlated risk factors. Produces VaR, CVaR, and time-to-recovery distributions and identifies bottleneck nodes via sensitivity indices.
 
