@@ -4481,7 +4481,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Roof pitch and surface estimator** _(stub, awaits wire-up)_: Derives roof surface area, ridge/hip/valley lengths, and shingle/underlayment counts from footprint and pitch (or from a tilted photo with vanishing-point calibration); estimates ice-and-water shield and drip-edge runs.
 
-- ⬜ **Code and permit reference lookup** _(planned)_: Searches adopted local amendments to IRC, IPC, IMC, NEC, and IECC by jurisdiction and year, surfacing the controlling clause for a given calculation; AI-integrated paraphrase plus the verbatim quoted section.
+- ✅ **Code and permit reference lookup** _(stub, awaits wire-up)_: Searches adopted local amendments to IRC, IPC, IMC, NEC, and IECC by jurisdiction and year, surfacing the controlling clause for a given calculation; AI-integrated paraphrase plus the verbatim quoted section.
 
 
 #### Hunting, fishing, trapping, wildlife tracking
