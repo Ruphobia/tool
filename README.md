@@ -1948,7 +1948,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **BOM and sourcing** _(stub, awaits wire-up)_: Generates bills of materials with live pricing, stock, and lead times from Octopart, LCSC, Mouser, and Digi-Key. Suggests pin-compatible alternates when a part is EOL or out of stock.
 
-- ⬜ **SPICE simulator** _(planned)_: Ngspice-based mixed-signal simulator with transient, AC, DC sweep, noise, and Monte Carlo analyses. AI-integrated translation of plain-language goals ("keep ripple under 50mV at 2A") into testbench setups and parameter sweeps.
+- ✅ **SPICE simulator** _(stub, awaits wire-up)_: Ngspice-based mixed-signal simulator with transient, AC, DC sweep, noise, and Monte Carlo analyses. AI-integrated translation of plain-language goals ("keep ripple under 50mV at 2A") into testbench setups and parameter sweeps.
 
 - ⬜ **Waveform viewer** _(planned)_: Plots simulation outputs and captured scope traces with cursors, math channels, FFT, eye diagrams, and jitter histograms. Side-by-side comparison of simulated vs measured signals.
 
