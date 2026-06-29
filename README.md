@@ -2003,7 +2003,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Zernike Wavefront Analyzer** _(stub, awaits wire-up)_: Decomposes measured or simulated wavefronts into Zernike (Noll/Fringe/OSA) and Seidel coefficients, with Strehl ratio, RMS/PV, and aberration-by-aberration PSF synthesis. Loads interferograms, Shack-Hartmann spot grids, and HDF5 wavefront cubes.
 
-- ⬜ **Thin Film Coating Designer** _(planned)_: Multilayer transfer-matrix solver for reflectance, transmittance, absorptance, and group delay vs wavelength and angle, with material dispersion library (Sellmeier, Tauc-Lorentz) and needle/tunneling optimization to user targets (AR, HR, dichroic, beam splitter).
+- ✅ **Thin Film Coating Designer** _(stub, awaits wire-up)_: Multilayer transfer-matrix solver for reflectance, transmittance, absorptance, and group delay vs wavelength and angle, with material dispersion library (Sellmeier, Tauc-Lorentz) and needle/tunneling optimization to user targets (AR, HR, dichroic, beam splitter).
 
 - ⬜ **Polarization Calculator** _(planned)_: Jones and Mueller calculus workbench for polarizers, retarders, rotators, depolarizers, and arbitrary anisotropic stacks; visualizes states on the Poincare sphere and computes degree of polarization, ellipticity, and orientation through user-built optical chains.
 
