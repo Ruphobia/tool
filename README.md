@@ -2208,7 +2208,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Laser Toolpath Generator** _(stub, awaits wire-up)_: Plans laser cutting and vector engraving paths with kerf compensation, lead-ins, tab bridges, focus offset, and multi-pass strategies; orders cuts to minimize travel and heat buildup, and tags parts to keep falling pieces in place.
 
-- ⬜ **Laser Material Profile Library** _(planned)_: Stores power, speed, frequency, air-assist, and pass counts per material and thickness for CO2, fiber, and diode lasers; auto-generates test grids and refines profiles from measured kerf width, edge char, and cut-through.
+- ✅ **Laser Material Profile Library** _(stub, awaits wire-up)_: Stores power, speed, frequency, air-assist, and pass counts per material and thickness for CO2, fiber, and diode lasers; auto-generates test grids and refines profiles from measured kerf width, edge char, and cut-through.
 
 - ⬜ **Raster Engraving Halftoner** _(planned)_: Converts bitmaps and photographs into laser raster jobs with Floyd-Steinberg, Stucki, Jarvis, and ordered dithering, gamma correction, and per-material grayscale calibration curves.
 
