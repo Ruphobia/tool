@@ -2963,7 +2963,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Restriction Enzyme Mapper** _(stub, awaits wire-up)_: Catalogs enzyme cut sites across a sequence with isoschizomer awareness, methylation sensitivity, and star activity flags. Picks single, double, and triple digests for a desired fragment pattern and simulates the resulting gel.
 
-- ⬜ **CRISPR Guide Designer** _(planned)_: Designs sgRNAs for Cas9, Cas12a, base editors, and prime editors with on-target efficiency scoring (Doench, DeepCRISPR) and genome-wide off-target enumeration. Repair-template builder for HDR knock-ins and library design for pooled screens.
+- ✅ **CRISPR Guide Designer** _(stub, awaits wire-up)_: Designs sgRNAs for Cas9, Cas12a, base editors, and prime editors with on-target efficiency scoring (Doench, DeepCRISPR) and genome-wide off-target enumeration. Repair-template builder for HDR knock-ins and library design for pooled screens.
 
 - ⬜ **Codon Optimizer** _(planned)_: Re-codes a protein sequence for expression in a chosen host (E. coli, yeast, CHO, HEK, plant, custom codon table) while honoring constraints: avoided restriction sites, avoided repeats, target GC window, and preserved regulatory motifs. Multi-objective with tunable weights.
 
