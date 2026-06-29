@@ -4167,7 +4167,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Inventory and Insurance Manifest** _(stub, awaits wire-up)_: Holdings ledger with cost basis, acquisition source, storage location (safe, SDB, album page), insured value, and depreciation schedule. Exports schedule-of-items PDFs for riders, estate planning, and customs declarations.
 
-- ⬜ **Reference Library and OCR Shelf** _(planned)_: Searchable local corpus of out-of-copyright and licensed numismatic and philatelic literature (ANS journals, Numismatic Chronicle, Linn's, Coin World back issues, Spink Standard Catalogues). Full-text OCR with citation export and AI-assisted question answering grounded in the indexed sources.
+- ✅ **Reference Library and OCR Shelf** _(stub, awaits wire-up)_: Searchable local corpus of out-of-copyright and licensed numismatic and philatelic literature (ANS journals, Numismatic Chronicle, Linn's, Coin World back issues, Spink Standard Catalogues). Full-text OCR with citation export and AI-assisted question answering grounded in the indexed sources.
 
 
 #### Body art: tattoo and body modification
