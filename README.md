@@ -3768,7 +3768,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Harmonic Analyzer** _(stub, awaits wire-up)_: Parses a score or chord list and produces Roman numeral analysis, functional labels (T/PD/D), secondary dominants, modal interchange tags, and pivot-chord modulation points. Highlights ambiguous regions and offers AI-integrated alternate readings with rationale.
 
-- ⬜ **Score Notation Editor** _(planned)_: WYSIWYG engraver for multi-staff scores with proper beaming, slurs, dynamics, articulations, and lyrics. Imports and exports MusicXML, MEI, MIDI, ABC, and LilyPond, and renders engraver-quality PDF and SVG.
+- ✅ **Score Notation Editor** _(stub, awaits wire-up)_: WYSIWYG engraver for multi-staff scores with proper beaming, slurs, dynamics, articulations, and lyrics. Imports and exports MusicXML, MEI, MIDI, ABC, and LilyPond, and renders engraver-quality PDF and SVG.
 
 - ⬜ **Lead Sheet Generator** _(planned)_: Builds a single-staff melody plus chord-symbol chart from a chord progression, melody fragment, or AI-integrated prompt. Supports jazz, pop, and Nashville-number conventions and exports to iReal Pro, MusicXML, and PDF.
 
