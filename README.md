@@ -4776,7 +4776,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Breathing pacer** _(stub, awaits wire-up)_: Animated pacer for box breathing, 4-7-8, coherent (5.5 bpm) and physiological-sigh patterns, with optional inhale/exhale tones. Per-pattern timing is editable and sessions are logged with HRV deltas if a sensor stream is attached.
 
-- ⬜ **Gratitude and habit tracker** _(planned)_: Daily gratitude entries plus a Loop-style habit grid with streaks, miss-once-no-twice rule, and target frequencies (e.g. 5x/week). Exports to CSV and renders calendar heatmaps.
+- ✅ **Gratitude and habit tracker** _(stub, awaits wire-up)_: Daily gratitude entries plus a Loop-style habit grid with streaks, miss-once-no-twice rule, and target frequencies (e.g. 5x/week). Exports to CSV and renders calendar heatmaps.
 
 - ⬜ **Encrypted therapy session notes** _(planned)_: Age- or libsodium-encrypted notes in SOAP or DAP format, with client/session metadata stored separately from body text. Local-only by default; supports offline passphrase-derived keys and a panic-lock shortcut.
 
