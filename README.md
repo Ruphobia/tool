@@ -964,7 +964,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Merkle & Accumulator Builder** _(stub, awaits wire-up)_: Constructs Merkle trees, Merkle Patricia tries, Verkle trees, and RSA accumulators from arbitrary leaf sets. Generates and verifies inclusion and non-inclusion proofs with format export for common verifier contracts.
 
-- ⬜ **Wallet Helper** _(planned)_: Manages hot, watch-only, and air-gapped wallets with QR-based PSBT shuttling and hardware wallet (Ledger, Trezor, Coldcard) coordination. Computes UTXO coin-control selections, fee strategies, and privacy heuristics like change avoidance.
+- ✅ **Wallet Helper** _(stub, awaits wire-up)_: Manages hot, watch-only, and air-gapped wallets with QR-based PSBT shuttling and hardware wallet (Ledger, Trezor, Coldcard) coordination. Computes UTXO coin-control selections, fee strategies, and privacy heuristics like change avoidance.
 
 - ⬜ **Random & Entropy Auditor** _(planned)_: Samples system, hardware, and user-supplied entropy sources, running NIST SP 800-22, Dieharder, and ent statistical batteries. Detects biased RNGs, stuck bits, and PRNG state recovery from observed outputs.
 
