@@ -2009,7 +2009,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Fiber Mode Solver** _(stub, awaits wire-up)_: Finite-difference vector mode solver for step-index, graded-index, photonic-crystal, and arbitrary-cross-section fibers, returning effective index, group/chromatic/PMD dispersion, mode field diameter, confinement, and bend loss.
 
-- ⬜ **Laser Resonator Designer** _(planned)_: Designs linear and ring cavities with arbitrary mirror, lens, and gain-medium chains; computes stability (g1 g2), eigenmode size at each surface, longitudinal mode spacing, and thermal-lens-aware mode shifts. Plots stability diagrams and resonator round-trip Gaussian propagation.
+- ✅ **Laser Resonator Designer** _(stub, awaits wire-up)_: Designs linear and ring cavities with arbitrary mirror, lens, and gain-medium chains; computes stability (g1 g2), eigenmode size at each surface, longitudinal mode spacing, and thermal-lens-aware mode shifts. Plots stability diagrams and resonator round-trip Gaussian propagation.
 
 - ⬜ **Interferogram Analyzer** _(planned)_: Loads single-frame, phase-shifted, or carrier-fringe interferograms; performs Fourier-transform fringe analysis, quality-guided phase unwrapping, tilt/piston removal, and Zernike fitting to produce calibrated surface or wavefront maps.
 
