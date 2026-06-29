@@ -2359,7 +2359,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Psychrometric Chart** _(stub, awaits wire-up)_: Interactive ASHRAE psychrometric chart with state points, process lines (heating, cooling, mixing, humidification), and coil load extraction. Plots from typical-meteorological-year data overlays.
 
-- ⬜ **Refrigeration Cycle Modeler** _(planned)_: Models vapor-compression, absorption, and heat-pump cycles using CoolProp fluid property tables. Outputs COP, capacity, and T-s/P-h diagrams for variable lift conditions.
+- ✅ **Refrigeration Cycle Modeler** _(stub, awaits wire-up)_: Models vapor-compression, absorption, and heat-pump cycles using CoolProp fluid property tables. Outputs COP, capacity, and T-s/P-h diagrams for variable lift conditions.
 
 - ⬜ **Building Energy Model** _(planned)_: Whole-building hourly simulation with multi-zone heat balance, schedules, and HVAC plant equipment. Compares retrofits against baseline EUI and ASHRAE 90.1 budgets.
 
