@@ -1360,7 +1360,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Patent drafter** _(stub, awaits wire-up)_: writes provisional and non-provisional applications: spec, claims (independent + dependent), drawings markup, abstract. Generates claim trees, supports claim charts for infringement comparison, runs an AI prior-art sanity check before filing.
 
-- ⬜ **Trademark searcher** _(planned)_: searches USPTO TESS, Madrid, EUIPO, and common-law uses. Pulls similar marks by phonetic/visual/conceptual similarity. Drafts statements of use, opposition responses, and TTAB filings.
+- ✅ **Trademark searcher** _(stub, awaits wire-up)_: searches USPTO TESS, Madrid, EUIPO, and common-law uses. Pulls similar marks by phonetic/visual/conceptual similarity. Drafts statements of use, opposition responses, and TTAB filings.
 
 - ⬜ **Patent litigation docket** _(planned)_: tracks ITC and district-court patent cases, attached complaints/answers/orders, claim-chart progress, expert reports, deposition transcripts. Reminders for deadlines.
 
