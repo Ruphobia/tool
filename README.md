@@ -2308,7 +2308,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pipe network solver** _(stub, awaits wire-up)_: Solves looped and branched liquid/gas networks via Hardy Cross or global Newton with Darcy-Weisbach and Colebrook-White friction. Handles pumps, valves, fittings, elevation, and parallel paths.
 
-- ⬜ **Pressure drop and Moody tool** _(planned)_: Computes friction factor, Reynolds number, and dP for pipes, ducts, and fittings across laminar, transitional, and turbulent regimes. Includes Crane K-factor and equivalent-length libraries for valves and bends.
+- ✅ **Pressure drop and Moody tool** _(stub, awaits wire-up)_: Computes friction factor, Reynolds number, and dP for pipes, ducts, and fittings across laminar, transitional, and turbulent regimes. Includes Crane K-factor and equivalent-length libraries for valves and bends.
 
 - ⬜ **Pump and fan curve fitter** _(planned)_: Fits H-Q, eta-Q, and NPSHr-Q polynomial curves from manufacturer points and applies affinity laws for speed/diameter scaling. Finds operating point against a system curve and flags off-BEP operation.
 
