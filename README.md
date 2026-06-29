@@ -1364,7 +1364,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Patent litigation docket** _(stub, awaits wire-up)_: tracks ITC and district-court patent cases, attached complaints/answers/orders, claim-chart progress, expert reports, deposition transcripts. Reminders for deadlines.
 
-- ⬜ **Historical patent browser** _(planned)_: OCR + cleanup of 19th and early-20th century patents from USPTO/EPO/British archives. Searchable across original handwritten or letterpress text. Useful for prior-art beyond modern indexes and for engineering history research.
+- ✅ **Historical patent browser** _(stub, awaits wire-up)_: OCR + cleanup of 19th and early-20th century patents from USPTO/EPO/British archives. Searchable across original handwritten or letterpress text. Useful for prior-art beyond modern indexes and for engineering history research.
 
 - ⬜ **Contract Drafter** _(planned)_: Composes structured agreements (NDAs, MSAs, employment, IP assignment, SAFEs, leases, wills, powers of attorney) from a template library and a parameter sheet. AI-integrated drafting from a one-line description of the deal, with jurisdiction-aware clause selection and party-role substitution.
 
