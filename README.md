@@ -4539,7 +4539,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Paraglider Site Database** _(stub, awaits wire-up)_: Local database of launch and LZ sites with takeoff aspect, wind direction windows, hazards, regulations, and XC history. Cross-references current wind aloft, thermal index, and convergence forecasts to score flyability.
 
-- ⬜ **Geocache Hunter** _(planned)_: Manages GC waypoints, hint decoding (ROT13), puzzle solver notes, and field log offline. Filters by terrain/difficulty, cache type, and date placed; syncs found logs when reconnected.
+- ✅ **Geocache Hunter** _(stub, awaits wire-up)_: Manages GC waypoints, hint decoding (ROT13), puzzle solver notes, and field log offline. Filters by terrain/difficulty, cache type, and date placed; syncs found logs when reconnected.
 
 - ⬜ **Summit Log & Peak Bagger** _(planned)_: Tracks ascents against curated lists (14ers, Munros, Bulgers, Volcanic Seven, county highpoints, local 100-prominence) with date, partners, route, and conditions. Imports GPX summit waypoints and generates progress maps.
 
