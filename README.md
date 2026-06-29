@@ -2747,7 +2747,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Service Log & Receipts** _(stub, awaits wire-up)_: Per-vehicle ledger of oil changes, tire rotations, fluid flushes, filters, brake jobs, and timing belts. Captures odometer, parts numbers, fluid specs, torque values, cost, vendor, and scanned receipts; exports a complete service history PDF.
 
-- ⬜ **Tire & Wheel Calculator** _(planned)_: Converts between metric and inch tire sizes, computes overall diameter, sidewall height, revs-per-mile, and speedometer error from stock. Checks load and speed ratings, wheel offset/backspace fitment, and tire pressure recommendations by load.
+- ✅ **Tire & Wheel Calculator** _(stub, awaits wire-up)_: Converts between metric and inch tire sizes, computes overall diameter, sidewall height, revs-per-mile, and speedometer error from stock. Checks load and speed ratings, wheel offset/backspace fitment, and tire pressure recommendations by load.
 
 - ⬜ **Brake Pad & Rotor Reference** _(planned)_: Cross-references pad and rotor part numbers across FMSI, ATE, Brembo, Akebono, EBC, and OEM catalogs. Tracks pad thickness, rotor min-thickness, bedding procedures, and per-axle wear logs with projected replacement mileage.
 
