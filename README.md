@@ -1417,7 +1417,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **PDF417 Barcode Reader** _(stub, awaits wire-up)_: Decodes AAMVA PDF417 driver license barcodes, Code128, QR, and Aztec symbologies into structured demographic fields; cross-checks decoded values against visible OCR text for tamper signal.
 
-- ⬜ **Authenticity Inspector** _(planned)_: Runs tamper detection via Error Level Analysis, copy-move forensics, font-consistency checks, hologram region sampling, UV/IR layer review, and microprint inspection; renders a per-zone heatmap of suspect regions.
+- ✅ **Authenticity Inspector** _(stub, awaits wire-up)_: Runs tamper detection via Error Level Analysis, copy-move forensics, font-consistency checks, hologram region sampling, UV/IR layer review, and microprint inspection; renders a per-zone heatmap of suspect regions.
 
 - ⬜ **ePassport Chip Reader** _(planned)_: Performs BAC, PACE, Chip Authentication, and Terminal Authentication against eMRTD chips; parses LDS data groups DG1 through DG15 and verifies the SOD signature chain against the CSCA master list.
 
