@@ -4313,7 +4313,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Handout And Prop Studio** _(stub, awaits wire-up)_: Layout tool for letters, maps-in-the-fiction, ransom notes, wanted posters, and tavern menus with parchment/ink presets and aging effects. Exports print-ready PDFs and player-screen variants; AI drafts in-character prose from bullet briefs.
 
-- ⬜ **Voice And Ambience Mixer** _(planned)_: Local audio board for combat tracks, biome ambience, weather layers, and stinger cues with crossfade, ducking, and scene presets that follow the active map or encounter. Drives playback from initiative events (round start, low HP, boss phase).
+- ✅ **Voice And Ambience Mixer** _(stub, awaits wire-up)_: Local audio board for combat tracks, biome ambience, weather layers, and stinger cues with crossfade, ducking, and scene presets that follow the active map or encounter. Drives playback from initiative events (round start, low HP, boss phase).
 
 - ⬜ **Rules Oracle** _(planned)_: Retrieval-augmented Q&A over loaded rulebooks, errata, and house rules with citation-anchored answers and a ruling-history log. Answers route through the active system profile so cross-edition rules do not leak into responses.
 
