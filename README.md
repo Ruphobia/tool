@@ -4772,7 +4772,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Consensus sleep diary** _(stub, awaits wire-up)_: Implements the Carney et al. Consensus Sleep Diary fields: bedtime, sleep latency, WASO, final awakening, time out of bed. Computes sleep efficiency, total sleep time, and rolling 7- and 14-day averages.
 
-- ⬜ **Meditation timer with interval bells** _(planned)_: Configurable session timer with warm-up, primary interval, and cool-down phases, plus repeating interval bells (Tibetan bowl, woodblock, or custom WAV). Logs session length, technique tag, and post-session rating.
+- ✅ **Meditation timer with interval bells** _(stub, awaits wire-up)_: Configurable session timer with warm-up, primary interval, and cool-down phases, plus repeating interval bells (Tibetan bowl, woodblock, or custom WAV). Logs session length, technique tag, and post-session rating.
 
 - ⬜ **Breathing pacer** _(planned)_: Animated pacer for box breathing, 4-7-8, coherent (5.5 bpm) and physiological-sigh patterns, with optional inhale/exhale tones. Per-pattern timing is editable and sessions are logged with HRV deltas if a sensor stream is attached.
 
