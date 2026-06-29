@@ -2723,7 +2723,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Telemetry Log Viewer** _(stub, awaits wire-up)_: Loads MoTeC i2, AiM, RaceCapture, VBox, and generic CSV logs into a multi-channel scope with math channels, lap splits, and X-Y plots. Overlays multiple laps, computes time-loss histograms, and exports synchronized video frames.
 
-- ⬜ **GPS Lap and Sector Analyzer** _(planned)_: Builds a track map from GPS traces, auto-detects start/finish and segments, and reports per-sector deltas, theoretical best, and ideal racing line offset. Supports outlap/inlap trimming and weather-tagged stint stats.
+- ✅ **GPS Lap and Sector Analyzer** _(stub, awaits wire-up)_: Builds a track map from GPS traces, auto-detects start/finish and segments, and reports per-sector deltas, theoretical best, and ideal racing line offset. Supports outlap/inlap trimming and weather-tagged stint stats.
 
 - ⬜ **Race Strategy Planner** _(planned)_: Models fuel burn, tire deg, pit-stop loss, and safety-car probability to optimize stint length and tire choice across a race distance. AI-integrated what-if suggestions propose strategy alternatives from historical stint data.
 
