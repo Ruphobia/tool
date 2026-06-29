@@ -2404,7 +2404,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sanitary sewer designer** _(stub, awaits wire-up)_: Gravity main sizing against minimum scour velocity (typically 2 ft/s) and maximum d/D ratios, with peaking factors (Harmon, Babbitt, Federov) from contributing population. Generates slope, invert, and cover profiles, flags drop manholes, and checks H2S generation risk via Pomeroy-Parkhurst.
 
-- ⬜ **Septic system sizer** _(planned)_: Designs onsite wastewater systems from perc-test rates, soil texture, daily flow, and bedroom count. Sizes septic tank volume, drainfield trench length, dosing chamber, and pressure distribution laterals against state code (e.g. EPA 625, Ten States Standards) and reservation setbacks.
+- ✅ **Septic system sizer** _(stub, awaits wire-up)_: Designs onsite wastewater systems from perc-test rates, soil texture, daily flow, and bedroom count. Sizes septic tank volume, drainfield trench length, dosing chamber, and pressure distribution laterals against state code (e.g. EPA 625, Ten States Standards) and reservation setbacks.
 
 - ⬜ **Treatment train designer** _(planned)_: Process design for activated sludge (CMAS, SBR, MBR, A2O), trickling filter, RBC, lagoons, and constructed wetlands. Computes SRT, MLSS, F/M, aerator demand, clarifier surface overflow rate, and effluent BOD/TSS/NH3-N from influent load and kinetic coefficients (Metcalf & Eddy).
 
