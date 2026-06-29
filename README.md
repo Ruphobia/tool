@@ -1345,7 +1345,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Crypto Cost-Basis Tracker** _(stub, awaits wire-up)_: Ingests on-chain transactions and exchange exports, reconstructs cost basis per lot across wallets, handles staking, airdrops, hard forks, DeFi swaps, and bridges, and exports realized-gain reports for tax filing in multiple jurisdictions.
 
-- ⬜ **Financial Statement Analyzer** _(planned)_: Loads 10-K, 10-Q, and 20-F filings or pasted statements, normalizes line items, and computes liquidity, leverage, profitability, efficiency, and valuation ratios across periods; benchmarks against industry medians with AI-integrated commentary on outliers.
+- ✅ **Financial Statement Analyzer** _(stub, awaits wire-up)_: Loads 10-K, 10-Q, and 20-F filings or pasted statements, normalizes line items, and computes liquidity, leverage, profitability, efficiency, and valuation ratios across periods; benchmarks against industry medians with AI-integrated commentary on outliers.
 
 - ⬜ **Net Worth Dashboard** _(planned)_: Aggregates assets, liabilities, and unrealized positions from every linked account into a single net-worth time series with attribution by asset class, currency, and account; supports manual entries for illiquid holdings (real estate, private equity, art).
 
