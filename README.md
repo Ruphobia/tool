@@ -2086,7 +2086,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Signal processing lab** _(stub, awaits wire-up)_: FFT, STFT, wavelet, filter design (FIR/IIR, Butterworth/Chebyshev/elliptic), windowing, spectrogram, and system-identification tools. AI-integrated filter recommendation from a measured noise profile.
 
-- ⬜ **Control systems designer** _(planned)_: Transfer-function and state-space modeling with root-locus, Bode, Nyquist, Nichols, pole placement, LQR/LQG, and PID auto-tuning against a plant model.
+- ✅ **Control systems designer** _(stub, awaits wire-up)_: Transfer-function and state-space modeling with root-locus, Bode, Nyquist, Nichols, pole placement, LQR/LQG, and PID auto-tuning against a plant model.
 
 - ⬜ **Dimensional-analysis assistant** _(planned)_: Buckingham-pi reduction of governing equations to dimensionless groups, with named-group recognition (Reynolds, Nusselt, Prandtl, Mach, Weber) and scaling-law derivation.
 
