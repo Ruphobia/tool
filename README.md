@@ -3366,7 +3366,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Ancient tools and weapons typology** _(stub, awaits wire-up)_: classifies hand-axes, projectile points, swords, bows, slings, etc. by typology/period/material/culture. Replica construction notebook (knapping, smelting, lashing), conservation/restoration log, experimental archaeology trial logger, regional comparison atlas.
 
-- ⬜ **Specimen catalog** _(planned)_: Tracks fossils, artifacts, and samples with accession numbers, provenience, taxonomy, collector, lithology, and curation status. Generates Darwin Core exports and printable specimen labels with QR codes for tray/drawer linking.
+- ✅ **Specimen catalog** _(stub, awaits wire-up)_: Tracks fossils, artifacts, and samples with accession numbers, provenience, taxonomy, collector, lithology, and curation status. Generates Darwin Core exports and printable specimen labels with QR codes for tray/drawer linking.
 
 - ⬜ **Stratigraphic column builder** _(planned)_: Draws measured sections with lithology fills, grain-size profile, bed thickness, fossil/sample horizons, and contact types in the style of SedLog and StratDraw. Exports SVG and correlates multiple columns side-by-side along a chosen datum.
 
