@@ -668,7 +668,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **NL-to-SQL** _(stub, awaits wire-up)_: AI-integrated translator from plain-English questions to SQL grounded in the live schema, sample rows, and prior query history; shows generated SQL with EXPLAIN and required permissions before run.
 
-- ⬜ **Seed data generator** _(planned)_: Produces realistic synthetic rows respecting foreign keys, unique constraints, and check constraints; learns distributions from a sample of production data when permitted.
+- ✅ **Seed data generator** _(stub, awaits wire-up)_: Produces realistic synthetic rows respecting foreign keys, unique constraints, and check constraints; learns distributions from a sample of production data when permitted.
 
 - ⬜ **Cost and storage profiler** _(planned)_: Reports per-table and per-index size, toast and bloat estimates, hot/cold row ratios, and projected monthly cost on cloud providers (RDS, Aurora, Cloud SQL, Atlas) given current growth.
 
