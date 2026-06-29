@@ -3505,7 +3505,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Mineral Identifier** _(stub, awaits wire-up)_: Identifies likely minerals from observed properties (hardness, streak, luster, cleavage, density, optical signs, crystal system) against a vendored mineral database. AI-integrated reasoning over fuzzy or partial observations to rank candidates and suggest the next diagnostic test.
 
-- ⬜ **Geologic Time Scale** _(planned)_: Interactive ICS chronostratigraphic chart with zoomable eons, eras, periods, epochs, and ages, plus GSSP markers and major bio/geo events. Click any unit to get duration, key fossils, climate state, and references.
+- ✅ **Geologic Time Scale** _(stub, awaits wire-up)_: Interactive ICS chronostratigraphic chart with zoomable eons, eras, periods, epochs, and ages, plus GSSP markers and major bio/geo events. Click any unit to get duration, key fossils, climate state, and references.
 
 - ⬜ **Seismic Trace Viewer** _(planned)_: Reads SEG-Y, miniSEED, and SAC files and renders waveforms, wiggle traces, or variable-density displays with bandpass/notch filtering, picking, and FFT spectra. Supports event windowing, STA/LTA detection, and arrival-time picking with first-motion polarity.
 
