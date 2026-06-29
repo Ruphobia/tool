@@ -2922,7 +2922,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Solution and buffer calculator** _(stub, awaits wire-up)_: Computes molarity, molality, normality, mass percent, ppm, and serial dilutions; designs buffers via Henderson-Hasselbalch with ionic-strength and activity corrections, and outputs a weigh-and-dissolve recipe.
 
-- ⬜ **Property predictor** _(planned)_: Estimates pKa, logP, logD, solubility, melting point, boiling point, vapor pressure, and basic ADMET descriptors from structure; reports species distribution versus pH and confidence intervals from the underlying model.
+- ✅ **Property predictor** _(stub, awaits wire-up)_: Estimates pKa, logP, logD, solubility, melting point, boiling point, vapor pressure, and basic ADMET descriptors from structure; reports species distribution versus pH and confidence intervals from the underlying model.
 
 - ⬜ **Crystallography viewer** _(planned)_: Loads CIF and PDB files and visualizes unit cell, symmetry operations, asymmetric unit, packing diagrams, and Miller planes; simulates powder XRD patterns and indexes a measured pattern against candidate cells.
 
