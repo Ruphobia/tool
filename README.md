@@ -891,7 +891,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Memory Forensics Explorer** _(stub, awaits wire-up)_: Drives Volatility/Rekall-style plugins over RAM captures to enumerate processes, network sockets, injected code, handles, and registry hives. Surfaces hidden processes and DLL hollowing indicators.
 
-- ⬜ **Disk Image Browser** _(planned)_: Mounts and walks raw, E01, AFF4, and VMDK images read-only with NTFS, ext4, APFS, HFS+, and FAT support. Shows MFT entries, journals, deleted files, alternate data streams, and timestamp anomalies.
+- ✅ **Disk Image Browser** _(stub, awaits wire-up)_: Mounts and walks raw, E01, AFF4, and VMDK images read-only with NTFS, ext4, APFS, HFS+, and FAT support. Shows MFT entries, journals, deleted files, alternate data streams, and timestamp anomalies.
 
 - ⬜ **YARA Rule Builder** _(planned)_: Authors, tests, and tunes YARA rules against sample corpora with auto-generated atom suggestions and false-positive scoring. AI-integrated drafting of starter rules from a labeled sample plus negative set.
 
