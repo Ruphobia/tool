@@ -3796,7 +3796,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Tuning and Temperament Lab** _(stub, awaits wire-up)_: Compares equal temperament, just intonation, meantone, well-tempered, and custom Scala scales. Plays intervals and chords in each tuning and visualizes cents deviation and harmonic-entropy curves.
 
-- ⬜ **Modulation Planner** _(planned)_: Maps routes between any two keys via pivot chords, common-tone modulation, chromatic mediants, enharmonic reinterpretation, and direct shift, with audible previews and difficulty ranking by smoothness.
+- ✅ **Modulation Planner** _(stub, awaits wire-up)_: Maps routes between any two keys via pivot chords, common-tone modulation, chromatic mediants, enharmonic reinterpretation, and direct shift, with audible previews and difficulty ranking by smoothness.
 
 - ⬜ **Instrument Range and Orchestration Checker** _(planned)_: Validates parts against per-instrument range, transposition, idiomatic figuration, and standard doublings. Flags awkward passages and suggests reassignments across a configurable ensemble.
 
