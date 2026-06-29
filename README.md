@@ -4537,7 +4537,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Weather Window Planner** _(stub, awaits wire-up)_: Aggregates multi-model forecasts (GFS, ECMWF, HRRR, ICON, MeteoBlue) for a target coordinate and stacks precipitation, freezing level, wind aloft, and CAPE across the next 10 days. AI summarizes the best send/launch/tour windows with caveats.
 
-- ⬜ **Paraglider Site Database** _(planned)_: Local database of launch and LZ sites with takeoff aspect, wind direction windows, hazards, regulations, and XC history. Cross-references current wind aloft, thermal index, and convergence forecasts to score flyability.
+- ✅ **Paraglider Site Database** _(stub, awaits wire-up)_: Local database of launch and LZ sites with takeoff aspect, wind direction windows, hazards, regulations, and XC history. Cross-references current wind aloft, thermal index, and convergence forecasts to score flyability.
 
 - ⬜ **Geocache Hunter** _(planned)_: Manages GC waypoints, hint decoding (ROT13), puzzle solver notes, and field log offline. Filters by terrain/difficulty, cache type, and date placed; syncs found logs when reconnected.
 
