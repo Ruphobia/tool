@@ -2687,7 +2687,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Automotive and vehicle systems
 
-- ⬜ **OBD-II Live Console** _(planned)_: Connects to an ELM327 or J2534 adapter over USB/Bluetooth and streams live PIDs, freeze-frame data, and readiness monitors. Reads and clears DTCs with a built-in code dictionary across OBD-II, mode 22, and common manufacturer extensions.
+- ✅ **OBD-II Live Console** _(stub, awaits wire-up)_: Connects to an ELM327 or J2534 adapter over USB/Bluetooth and streams live PIDs, freeze-frame data, and readiness monitors. Reads and clears DTCs with a built-in code dictionary across OBD-II, mode 22, and common manufacturer extensions.
 
 - ⬜ **CAN Bus Analyzer** _(planned)_: Sniffs raw CAN frames at user-set baud rates, decodes them against loaded DBC/KCD files, and visualizes signals as time-series. Supports replay, filtering, and bit-level inspection for reverse-engineering proprietary buses.
 
