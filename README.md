@@ -395,7 +395,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Lighthouse runner** _(stub, awaits wire-up)_: Executes Lighthouse passes for performance, SEO, PWA, and best-practices, with throttled profiles, LCP/CLS/INP attribution, and per-resource waterfall annotation.
 
-- ⬜ **Bundle analyzer** _(planned)_: Visualizes chunk graphs and treemaps from stats output, flags duplicate deps, large transitive imports, and suggests dynamic-import boundaries with predicted savings.
+- ✅ **Bundle analyzer** _(stub, awaits wire-up)_: Visualizes chunk graphs and treemaps from stats output, flags duplicate deps, large transitive imports, and suggests dynamic-import boundaries with predicted savings.
 
 - ⬜ **API schema designer** _(planned)_: Authors OpenAPI, GraphQL SDL, or tRPC routers visually with request/response examples, then emits server stubs, fetch clients, and mock servers from one source of truth.
 
