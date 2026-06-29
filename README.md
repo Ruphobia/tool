@@ -449,7 +449,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Webhook receiver** _(stub, awaits wire-up)_: Exposes a local or tunneled HTTPS endpoint that captures inbound webhook deliveries, logs full payloads and headers, and supports scripted responses. Replays captured requests against a chosen target for development.
 
-- ⬜ **API schema explorer** _(planned)_: Loads OpenAPI, AsyncAPI, GraphQL SDL, and gRPC reflection schemas, renders them as browsable trees, and generates example requests and typed client stubs. AI-integrated summary of an endpoint's purpose and likely failure modes from its schema and examples.
+- ✅ **API schema explorer** _(stub, awaits wire-up)_: Loads OpenAPI, AsyncAPI, GraphQL SDL, and gRPC reflection schemas, renders them as browsable trees, and generates example requests and typed client stubs. AI-integrated summary of an endpoint's purpose and likely failure modes from its schema and examples.
 
 - ⬜ **HAR viewer and diff** _(planned)_: Loads HAR archives from browsers or the embedded proxy and renders the waterfall, headers, payloads, and timings. Diffs two HARs to highlight changed requests, responses, and timing regressions.
 
