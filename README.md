@@ -3198,7 +3198,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Redistricting plan editor** _(stub, awaits wire-up)_: Builds and edits district plans from precinct or block building blocks, enforces contiguity and population equality tolerances, and shows live compactness (Polsby-Popper, Reock, Schwartzberg), VRA-relevant demographic splits, and partisan composition.
 
-- ⬜ **Ensemble plan analyzer** _(planned)_: Runs Markov chain (ReCom) ensembles of legal districting plans for a state, scores each on partisan bias, efficiency gap, mean-median, and seat-vote curves, and locates the user's plan in the resulting distribution as an outlier test.
+- ✅ **Ensemble plan analyzer** _(stub, awaits wire-up)_: Runs Markov chain (ReCom) ensembles of legal districting plans for a state, scores each on partisan bias, efficiency gap, mean-median, and seat-vote curves, and locates the user's plan in the resulting distribution as an outlier test.
 
 - ⬜ **Precinct-to-district joiner** _(planned)_: Disaggregates precinct-level election returns to census blocks via population weights, then reaggregates to arbitrary district plans, with reconciliation reports for split precincts and missing returns.
 
