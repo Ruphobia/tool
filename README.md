@@ -2932,7 +2932,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Kinetics and calibration fitter** _(stub, awaits wire-up)_: Fits concentration-versus-time data to zeroth, first, second-order, Arrhenius, and Michaelis-Menten models, and fits linear or weighted calibration curves; reports rate constants, half-lives, LOD, LOQ, R squared, and back-calculated unknowns.
 
-- ⬜ **Chromatography method designer** _(planned)_: Plans HPLC, UPLC, and GC methods from analyte properties; predicts retention, resolution, and peak shape under a chosen column, mobile phase, gradient, and temperature. AI-integrated suggestion of starting conditions from a target analyte mixture.
+- ✅ **Chromatography method designer** _(stub, awaits wire-up)_: Plans HPLC, UPLC, and GC methods from analyte properties; predicts retention, resolution, and peak shape under a chosen column, mobile phase, gradient, and temperature. AI-integrated suggestion of starting conditions from a target analyte mixture.
 
 - ⬜ **Polymer builder** _(planned)_: Constructs homopolymer, copolymer, and block-copolymer chains from monomer repeats with chosen tacticity and dispersity; reports Mn, Mw, PDI, and predicts Tg, Tm, and solubility parameter from group contributions.
 
