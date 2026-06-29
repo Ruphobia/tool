@@ -4658,7 +4658,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Garden and permaculture planner** _(stub, awaits wire-up)_: Lays out beds, succession plantings, and companion groupings against local frost dates and hardiness zone, with caloric-yield-per-square-meter rankings for staple crops. Schedules seed-starting, transplant, and harvest windows and tracks seed-bank viability.
 
-- ⬜ **Foraging field guide** _(planned)_: Regional, season-aware reference for wild edibles with photographs, key ID features, look-alike warnings, and preparation notes. AI-assisted photo identification scores candidates and flags toxic confusions before any positive ID is returned.
+- ✅ **Foraging field guide** _(stub, awaits wire-up)_: Regional, season-aware reference for wild edibles with photographs, key ID features, look-alike warnings, and preparation notes. AI-assisted photo identification scores candidates and flags toxic confusions before any positive ID is returned.
 
 - ⬜ **Mushroom ID helper** _(planned)_: Photo-based mushroom identification with conservative scoring that hard-flags deadly look-alikes (Amanita, Galerina, Cortinarius) and refuses positive ID where spore print or microscopy is required. Cross-references regional fruiting calendars and substrate.
 
