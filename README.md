@@ -2257,7 +2257,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pourbaix Diagram Viewer** _(stub, awaits wire-up)_: E-pH (Pourbaix) diagrams for iron, copper, aluminum, zinc, nickel, titanium, lead, and chromium, with overlay of a user's electrolyte conditions to predict passivation, immunity, or active corrosion regions.
 
-- ⬜ **Polymer Property Tables** _(planned)_: Database of thermoplastics, thermosets, and elastomers (PLA, PETG, ABS, PC, PA6/66, POM, PEEK, PTFE, PP, PE, PMMA, PVC, TPU, silicone, EPDM, NBR, FKM, etc.) with Tg, Tm, HDT, modulus, elongation, density, dielectric, water absorption, and chemical resistance.
+- ✅ **Polymer Property Tables** _(stub, awaits wire-up)_: Database of thermoplastics, thermosets, and elastomers (PLA, PETG, ABS, PC, PA6/66, POM, PEEK, PTFE, PP, PE, PMMA, PVC, TPU, silicone, EPDM, NBR, FKM, etc.) with Tg, Tm, HDT, modulus, elongation, density, dielectric, water absorption, and chemical resistance.
 
 - ⬜ **Composite Laminate Calculator** _(planned)_: Classical lamination theory solver for fiber-reinforced laminates: stacks plies of CFRP/GFRP/AFRP with user-defined orientations, computes ABD matrix, in-plane and bending stiffness, ply stresses, and Tsai-Wu/Tsai-Hill/max-stress failure indices.
 
