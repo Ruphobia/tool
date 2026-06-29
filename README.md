@@ -2798,7 +2798,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Physics simulator** _(stub, awaits wire-up)_: Drives rigid-body and articulated-system simulation through MuJoCo, Bullet, Drake, or Genesis backends with contact dynamics, joint friction, sensor models, and headless batch rollouts for policy evaluation and domain randomization.
 
-- ⬜ **3D scene viewer** _(planned)_: Renders meshes, point clouds, coordinate frames, robot states, sensor readings, occupancy grids, and trajectories in a unified scene graph with time scrubbing, picking, and snapshot export.
+- ✅ **3D scene viewer** _(stub, awaits wire-up)_: Renders meshes, point clouds, coordinate frames, robot states, sensor readings, occupancy grids, and trajectories in a unified scene graph with time scrubbing, picking, and snapshot export.
 
 - ⬜ **Point cloud workbench** _(planned)_: Loads PLY, PCD, LAS, E57, and depth-image clouds, performs voxel downsampling, outlier removal, normal estimation, plane/cluster segmentation, and pairwise/global registration (ICP, GICP, NDT, Teaser++). AI-integrated semantic and instance segmentation against open-vocabulary prompts.
 
