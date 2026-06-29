@@ -2790,7 +2790,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Path planner** _(stub, awaits wire-up)_: Plans collision-free joint and Cartesian paths using sampling-based (RRT, RRT*, PRM, BIT*), grid-based (A*, D* Lite), and optimization-based (CHOMP, STOMP, TrajOpt) planners with constraint plugins for orientation, dual-arm, and mobile bases.
 
-- ⬜ **Trajectory designer** _(planned)_: Authors Cartesian and joint-space trajectories from waypoints with B-spline, quintic, minimum-jerk, and time-optimal (TOPP-RA) parameterization. Plots position, velocity, acceleration, and jerk envelopes against actuator limits.
+- ✅ **Trajectory designer** _(stub, awaits wire-up)_: Authors Cartesian and joint-space trajectories from waypoints with B-spline, quintic, minimum-jerk, and time-optimal (TOPP-RA) parameterization. Plots position, velocity, acceleration, and jerk envelopes against actuator limits.
 
 - ⬜ **Reachability analyzer** _(planned)_: Sweeps the workspace of a manipulator on a configurable voxel grid and produces reachability, dexterity, and manipulability heatmaps with collision-aware filtering and base-placement optimization.
 
