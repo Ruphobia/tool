@@ -3782,7 +3782,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Voicing Optimizer** _(stub, awaits wire-up)_: Computes idiomatic chord voicings (drop-2, drop-3, shell, rootless, quartal, spread) for piano, guitar, or arbitrary ensembles, optimizing voice leading across a progression and respecting instrument range and playability.
 
-- ⬜ **Key and Tempo Detector** _(planned)_: Analyzes audio or MIDI to estimate key, mode, tonic confidence, tempo, downbeat positions, time signature, and tempo map. Outputs a click track and beat grid aligned to the source.
+- ✅ **Key and Tempo Detector** _(stub, awaits wire-up)_: Analyzes audio or MIDI to estimate key, mode, tonic confidence, tempo, downbeat positions, time signature, and tempo map. Outputs a click track and beat grid aligned to the source.
 
 - ⬜ **Pitch and Chord Transcriber** _(planned)_: Polyphonic audio-to-MIDI with chord-symbol estimation, instrument-aware source separation, and editable piano-roll output. Useful for transcribing recordings into editable lead sheets or stems.
 
