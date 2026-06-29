@@ -2680,7 +2680,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **PCB RF stackup helper** _(stub, awaits wire-up)_: Solves microstrip, stripline, CPWG, and differential impedance for common laminates (FR-4, Rogers 4350B, Duroid, Isola). Estimates dielectric and conductor loss, via inductance, and recommends stitching for a target return path.
 
-- ⬜ **QTH and station planner** _(planned)_: Models the home or portable station with antenna heights, terrain (SRTM), HAAT, and obstruction profiles. Runs Longley-Rice/ITM, Splat!, and HFTA for VHF/UHF and HF takeoff angle studies.
+- ✅ **QTH and station planner** _(stub, awaits wire-up)_: Models the home or portable station with antenna heights, terrain (SRTM), HAAT, and obstruction profiles. Runs Longley-Rice/ITM, Splat!, and HFTA for VHF/UHF and HF takeoff angle studies.
 
 - ⬜ **Pre-flight briefing aggregator** _(planned)_: Pulls 1800wxbrief, Leidos, GFA, winds aloft, icing/turbulence (GTG, FIP), PIREPs, and SWPC HF impact tables into a single brief. Stores the brief with the flight log entry for FAR 91.103 compliance evidence.
 
