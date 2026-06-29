@@ -738,7 +738,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Game development
 
-- ⬜ **Sprite Editor** _(planned)_: Pixel-art canvas with layers, frame-by-frame animation, onion skinning, indexed palettes, and per-frame pivot points. Exports to spritesheets, GIF, APNG, or per-frame PNG with a sidecar atlas JSON.
+- ✅ **Sprite Editor** _(stub, awaits wire-up)_: Pixel-art canvas with layers, frame-by-frame animation, onion skinning, indexed palettes, and per-frame pivot points. Exports to spritesheets, GIF, APNG, or per-frame PNG with a sidecar atlas JSON.
 
 - ⬜ **Tilemap Composer** _(planned)_: Multi-layer 2D tilemap editor with autotiling rules (Wang/blob/47-tile), stamp brushes, randomized variants, and chunked streaming. AI-integrated rule inference from a small hand-painted example region.
 
