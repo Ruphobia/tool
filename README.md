@@ -654,7 +654,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Row-level lineage** _(stub, awaits wire-up)_: Traces a value across joins and views to its source tables and columns, parses CREATE VIEW and CTAS definitions, and renders column-level lineage graphs for impact analysis.
 
-- ⬜ **Audit and query log viewer** _(planned)_: Ingests pgaudit, MySQL general log, and MongoDB profiler output with per-user, per-table activity timelines, anomaly flagging on novel access patterns, and exportable compliance reports.
+- ✅ **Audit and query log viewer** _(stub, awaits wire-up)_: Ingests pgaudit, MySQL general log, and MongoDB profiler output with per-user, per-table activity timelines, anomaly flagging on novel access patterns, and exportable compliance reports.
 
 - ⬜ **Performance dashboard** _(planned)_: Live charts of QPS, latency percentiles, buffer cache hit ratio, lock waits, deadlocks, vacuum progress, autovacuum bloat, and connection pool saturation across configured instances.
 
