@@ -3241,7 +3241,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **MRMS mosaic browser** _(stub, awaits wire-up)_: Streams MRMS composite reflectivity, QPE, rotation tracks, and hail size grids; overlays SPC storm reports, NWS warnings, and county/CWA polygons for verification.
 
-- ⬜ **GOES ABI composer** _(planned)_: Loads GOES-16/18 and Himawari L1b/L2 NetCDF; generates true color, AirMass, day cloud phase, dust, fire, and GeoColor RGBs using Satpy recipes; supports CONUS, full disk, and mesoscale sector animation.
+- ✅ **GOES ABI composer** _(stub, awaits wire-up)_: Loads GOES-16/18 and Himawari L1b/L2 NetCDF; generates true color, AirMass, day cloud phase, dust, fire, and GeoColor RGBs using Satpy recipes; supports CONUS, full disk, and mesoscale sector animation.
 
 - ⬜ **Lightning density mapper** _(planned)_: Ingests GOES GLM flash/group/event data and NLDN/ENTLN CG/IC stroke feeds; produces flash extent density, total optical energy, and flash rate time series with parallax correction.
 
