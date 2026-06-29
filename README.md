@@ -557,7 +557,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Power profiler** _(stub, awaits wire-up)_: Streams from Nordic PPK2, Joulescope, Otii, and INA-based shunts to plot current versus firmware state with sleep-mode classification. AI-integrated correlation of current spikes to source lines via timestamped markers.
 
-- ⬜ **Peripheral simulator** _(planned)_: Renode and QEMU-backed virtual board runner with scriptable peripheral models for sensors, displays, and radios. Lets firmware run on CI without hardware and replays captured bus traffic into the virtual peripherals.
+- ✅ **Peripheral simulator** _(stub, awaits wire-up)_: Renode and QEMU-backed virtual board runner with scriptable peripheral models for sensors, displays, and radios. Lets firmware run on CI without hardware and replays captured bus traffic into the virtual peripherals.
 
 - ⬜ **HIL test runner** _(planned)_: Drives hardware-in-the-loop test rigs (relays, programmable loads, signal generators, robotic actuators) against firmware builds with pass/fail reporting. Records analog and digital traces alongside test outcomes.
 
