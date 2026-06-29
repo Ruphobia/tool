@@ -1245,7 +1245,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Standards Aligner** _(stub, awaits wire-up)_: Tags items, lessons, and units to Common Core, NGSS, ISTE, AP, IB, or a user-defined framework. Produces coverage heatmaps and gap reports across a course.
 
-- ⬜ **Distractor Generator** _(planned)_: Produces plausible wrong answers for multiple-choice items, biased toward common misconceptions or controlled error categories. Useful for converting open-response banks into MCQs without trivial decoys.
+- ✅ **Distractor Generator** _(stub, awaits wire-up)_: Produces plausible wrong answers for multiple-choice items, biased toward common misconceptions or controlled error categories. Useful for converting open-response banks into MCQs without trivial decoys.
 
 - ⬜ **Item Calibrator** _(planned)_: Fits 1PL, 2PL, and 3PL IRT models from response logs to estimate item difficulty, discrimination, and guessing. Flags misfit items and produces test information curves for blueprint planning.
 
