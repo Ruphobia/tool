@@ -2066,7 +2066,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **CFD playground** _(stub, awaits wire-up)_: 2D/3D incompressible and compressible flow solver (lattice-Boltzmann and finite-volume) with sketch-to-geometry input, turbulence model selection, and streamline/vorticity rendering.
 
-- ⬜ **Ray-trace optics bench** _(planned)_: Sequential and non-sequential optical ray tracing for lens systems, mirrors, prisms, and fibers with aberration plots, spot diagrams, and MTF. AI-integrated starting-point design from a desired focal length, f-number, and field.
+- ✅ **Ray-trace optics bench** _(stub, awaits wire-up)_: Sequential and non-sequential optical ray tracing for lens systems, mirrors, prisms, and fibers with aberration plots, spot diagrams, and MTF. AI-integrated starting-point design from a desired focal length, f-number, and field.
 
 - ⬜ **Wave optics simulator** _(planned)_: Fourier optics, diffraction (Fraunhofer/Fresnel), interferometry, and beam-propagation method for Gaussian and structured beams with phase-mask editor.
 
