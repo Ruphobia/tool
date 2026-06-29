@@ -2564,7 +2564,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Link Budget Calculator** _(stub, awaits wire-up)_: Builds RF and optical link budgets between spacecraft and ground stations or relay satellites, computing EIRP, free-space loss, atmospheric and rain attenuation, G/T, C/N0, Eb/N0, and margin versus required BER.
 
-- ⬜ **Power & Eclipse Budget** _(planned)_: Models solar array power generation versus sun angle, eclipse fraction, and degradation, sizes battery depth-of-discharge for the worst-case orbit, and balances against a load timeline keyed to mission modes.
+- ✅ **Power & Eclipse Budget** _(stub, awaits wire-up)_: Models solar array power generation versus sun angle, eclipse fraction, and degradation, sizes battery depth-of-discharge for the worst-case orbit, and balances against a load timeline keyed to mission modes.
 
 - ⬜ **Constellation Designer** _(planned)_: Lays out Walker-Delta, Walker-Star, flower, and custom constellations, evaluating global coverage, revisit time, gap statistics, and inter-satellite link geometry; supports automated phasing optimization.
 
