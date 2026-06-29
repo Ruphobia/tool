@@ -3144,7 +3144,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Microbiology Antibiogram** _(stub, awaits wire-up)_: Builds and queries local antibiograms from culture-and-sensitivity data, suggests empirical therapy by site of infection and local resistance patterns, and tracks MIC trends over time.
 
-- ⬜ **Nutrition and Metabolic Calculator** _(planned)_: Computes BMR/TDEE (Mifflin-St Jeor, Harris-Benedict), macronutrient targets, fluid maintenance (Holliday-Segar), TPN/PPN composition, and refeeding-syndrome risk.
+- ✅ **Nutrition and Metabolic Calculator** _(stub, awaits wire-up)_: Computes BMR/TDEE (Mifflin-St Jeor, Harris-Benedict), macronutrient targets, fluid maintenance (Holliday-Segar), TPN/PPN composition, and refeeding-syndrome risk.
 
 - ⬜ **Vitals and Growth Charts** _(planned)_: Plots longitudinal vitals and pediatric growth (WHO 0-2, CDC 2-20) with percentiles and Z-scores, BP percentiles for age/height/sex, and early-warning-score (NEWS2, PEWS) computation.
 
