@@ -4406,7 +4406,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Plant and pest ID** _(stub, awaits wire-up)_: Identifies plants, weeds, insects, and disease lesions from photos using a local visual model, returning species, confidence, and a short treatment note with source citation.
 
-- ⬜ **Hive inspection log** _(planned)_: Structured capture of brood pattern, frame counts, queen sighting, temperament, stores, supers, and treatments. Rolls up colony health timelines per yard and per queen.
+- ✅ **Hive inspection log** _(stub, awaits wire-up)_: Structured capture of brood pattern, frame counts, queen sighting, temperament, stores, supers, and treatments. Rolls up colony health timelines per yard and per queen.
 
 - ⬜ **Varroa load tracker** _(planned)_: Records alcohol-wash and sugar-roll counts, computes mites per 100 bees, and recommends a treatment window (oxalic dribble/vapor, formic, thymol) against a configurable threshold and brood status.
 
