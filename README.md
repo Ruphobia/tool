@@ -3495,7 +3495,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Geology, GIS, and earth sciences
 
-- ⬜ **Map Viewer** _(planned)_: Pannable, zoomable slippy-map canvas that overlays raster tiles (OSM, satellite, custom XYZ) with vector layers (GeoJSON, KML, GPX, Shapefile). Supports per-layer styling, opacity, attribute filtering, and on-map measurement of distance, bearing, and area.
+- ✅ **Map Viewer** _(stub, awaits wire-up)_: Pannable, zoomable slippy-map canvas that overlays raster tiles (OSM, satellite, custom XYZ) with vector layers (GeoJSON, KML, GPX, Shapefile). Supports per-layer styling, opacity, attribute filtering, and on-map measurement of distance, bearing, and area.
 
 - ⬜ **DEM Analyzer** _(planned)_: Loads digital elevation models (GeoTIFF, ASCII grid, HGT) and derives hillshade, slope, aspect, curvature, and TPI rasters. Includes an interactive elevation profile tool that samples along arbitrary polylines.
 
