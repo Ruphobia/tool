@@ -4796,7 +4796,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Dream and imagery journal** _(stub, awaits wire-up)_: Free-text dream entries with lucidity flag, recurring-symbol tagger, and emotion vector. AI-integrated theme clustering over the corpus surfaces recurring motifs without exposing entries off-device.
 
-- ⬜ **HRV and biofeedback viewer** _(planned)_: Ingests RR-interval CSV from Polar H10, EliteHRV, or Kubios exports and computes RMSSD, SDNN, LF/HF, and the resonant breathing frequency. Live mode renders a coherence score during paced-breathing sessions.
+- ✅ **HRV and biofeedback viewer** _(stub, awaits wire-up)_: Ingests RR-interval CSV from Polar H10, EliteHRV, or Kubios exports and computes RMSSD, SDNN, LF/HF, and the resonant breathing frequency. Live mode renders a coherence score during paced-breathing sessions.
 
 - ⬜ **Bilateral stimulation tool** _(planned)_: EMDR-style alternating audio (panned L/R) and visual (moving dot) stimulus with adjustable speed, set length, and set count. Logs SUDS and VOC ratings between sets per the standard protocol.
 
