@@ -3788,7 +3788,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Rhythm and Groove Builder** _(stub, awaits wire-up)_: Step sequencer plus pattern designer for drums and percussion, with swing, micro-timing, polyrhythm and polymeter layering, Euclidean rhythm generation, and a library of genre-tagged grooves.
 
-- ⬜ **Melody Generator and Harmonizer** _(planned)_: Generates melodic lines constrained by scale, contour, range, motivic seed, and target harmony, or harmonizes an existing melody with multiple voicing styles. AI-integrated continuation when given a short motif.
+- ✅ **Melody Generator and Harmonizer** _(stub, awaits wire-up)_: Generates melodic lines constrained by scale, contour, range, motivic seed, and target harmony, or harmonizes an existing melody with multiple voicing styles. AI-integrated continuation when given a short motif.
 
 - ⬜ **Form and Structure Analyzer** _(planned)_: Segments a score or audio file into sections (intro, verse, chorus, bridge, coda), detects repetition and variation, and produces a labeled timeline with phrase and period grouping.
 
