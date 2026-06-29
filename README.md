@@ -3476,7 +3476,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Citizen-science submission helper** _(stub, awaits wire-up)_: Formats field observations into iNaturalist, eBird, GBIF, and CitSci.org submission payloads with EXIF georeferencing and Darwin Core tagging. AI-integrated species suggestion from photo and call clip with confidence and reviewer notes.
 
-- ⬜ **Bioacoustic classifier** _(planned)_: Processes audio recordings with BirdNET, Perch, BatDetect2, and Koogu for bird, bat, and anuran identification. Generates spectrograms, detection timestamps, vocal activity rates, and species accumulation curves.
+- ✅ **Bioacoustic classifier** _(stub, awaits wire-up)_: Processes audio recordings with BirdNET, Perch, BatDetect2, and Koogu for bird, bat, and anuran identification. Generates spectrograms, detection timestamps, vocal activity rates, and species accumulation curves.
 
 - ⬜ **Remote sensing indexer** _(planned)_: Pulls Sentinel-2, Landsat, MODIS, and PlanetScope tiles via STAC and computes NDVI, EVI, NDWI, NBR, and tasseled cap indices. Builds time series for phenology, deforestation alerts, and burn severity mapping.
 
