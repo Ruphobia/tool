@@ -4488,7 +4488,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Solunar Tables** _(stub, awaits wire-up)_: Generates sunrise, sunset, moonrise, moonset, and twilight times for any coordinate, with major and minor feeding windows scored against barometric pressure and recent weather. Plots multi-day activity forecasts and exports ICS alarms for stand departure.
 
-- ⬜ **Species Season Calendar** _(planned)_: Tracks legal open and close dates for game and fish species by state, zone, weapon, and method. Color-coded annual view with overlap detection for multi-species trips and reminder hooks for application periods.
+- ✅ **Species Season Calendar** _(stub, awaits wire-up)_: Tracks legal open and close dates for game and fish species by state, zone, weapon, and method. Color-coded annual view with overlap detection for multi-species trips and reminder hooks for application periods.
 
 - ⬜ **Regulation Lookup** _(planned)_: Searches current statutes, bag limits, slot limits, weapon restrictions, and county exceptions across US, Canadian, and selected international jurisdictions. AI parses the official regs PDF and cites the rule paragraph; manual overrides flagged when local ordinances diverge.
 
