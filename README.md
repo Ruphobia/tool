@@ -1588,7 +1588,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Synthetic data generator** _(stub, awaits wire-up)_: Produces synthetic tabular (SDV, CTGAN, copulas), text (template + LLM), and image (diffusion) datasets with fidelity, utility, and privacy (membership-inference) metrics against a real reference set.
 
-- ⬜ **Image dataset toolkit** _(planned)_: Bulk crop, resize, dedup (perceptual hash), color-space convert, EXIF strip, and caption (BLIP/LLaVA) over image folders, with class-balance and resolution-distribution reports.
+- ✅ **Image dataset toolkit** _(stub, awaits wire-up)_: Bulk crop, resize, dedup (perceptual hash), color-space convert, EXIF strip, and caption (BLIP/LLaVA) over image folders, with class-balance and resolution-distribution reports.
 
 - ⬜ **Audio dataset toolkit** _(planned)_: Voice-activity detection, diarization, transcription (Whisper), loudness normalization, and segment extraction over audio corpora with per-segment quality scoring.
 
