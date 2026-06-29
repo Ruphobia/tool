@@ -4030,7 +4030,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **BeerRecipeDesigner** _(stub, awaits wire-up)_: Mash schedule, strike water, hop IBU via Tinseth, Rager, and Garetz, yeast pitch rate, and attenuation forecast in one recipe. Exports BeerXML and compares predicted versus measured gravities.
 
-- ⬜ **CarbonationCalculator** _(planned)_: Computes CO2 volumes from temperature and pressure for force carbonation, priming sugar dosage, or natural conditioning. Includes nitro blend ratios and bottle pressure safety checks.
+- ✅ **CarbonationCalculator** _(stub, awaits wire-up)_: Computes CO2 volumes from temperature and pressure for force carbonation, priming sugar dosage, or natural conditioning. Includes nitro blend ratios and bottle pressure safety checks.
 
 - ⬜ **FermentationLog** _(planned)_: Gravity, Brix, pH, and temperature curves for beer, wine, mead, cider, and kombucha. Detects stuck fermentation, predicts terminal gravity, and prompts dry hop or rack windows.
 
