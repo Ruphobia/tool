@@ -3749,7 +3749,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Path Tracer Preview** _(stub, awaits wire-up)_: Embedded interactive path tracer with denoiser, light groups, and AOV passes for IPR while editing the scene. Renders to OpenColorIO display transforms with VR/stereo support.
 
-- ⬜ **Shader Graph** _(planned)_: OSL and MaterialX node editor with live-compiled GPU preview, BRDF inspector, and energy-conservation checks. Imports and round-trips to Blender, USD MaterialX, and glTF KHR extensions.
+- ✅ **Shader Graph** _(stub, awaits wire-up)_: OSL and MaterialX node editor with live-compiled GPU preview, BRDF inspector, and energy-conservation checks. Imports and round-trips to Blender, USD MaterialX, and glTF KHR extensions.
 
 - ⬜ **Cloth and Hair Sim** _(planned)_: XPBD-based cloth, hair card and strand grooming, with collisions, wind fields, and pinning maps; cached to Alembic and previewable in the viewport with self-collision toggles.
 
