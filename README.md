@@ -1889,7 +1889,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Voice cloning lab** _(stub, awaits wire-up)_: Few-shot voice cloning from short reference samples, with consent-tag metadata, speaker embedding inspection, and similarity scoring against ground truth. Exports cloned voices as portable speaker profiles.
 
-- ⬜ **G2P and phonetic transcriber** _(planned)_: Grapheme-to-phoneme conversion with IPA, X-SAMPA, and language-specific phone sets. Per-project lexicon overrides and pronunciation variants.
+- ✅ **G2P and phonetic transcriber** _(stub, awaits wire-up)_: Grapheme-to-phoneme conversion with IPA, X-SAMPA, and language-specific phone sets. Per-project lexicon overrides and pronunciation variants.
 
 - ⬜ **OCR studio** _(planned)_: Document and image OCR with layout reconstruction, multi-column handling, RTL and vertical-script support, and per-character confidence overlays. AI-integrated postcorrection of recognizer errors against a language model.
 
