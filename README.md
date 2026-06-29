@@ -575,7 +575,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Disassembler and binary diff** _(stub, awaits wire-up)_: Disassembles ARM, Thumb, RISC-V, AVR, Xtensa, and PIC binaries with cross-reference and string analysis. Diffs two builds at the instruction level and groups changes by function.
 
-- ⬜ **Firmware unpacker** _(planned)_: Identifies and extracts vendor firmware blobs, encrypted update packages, FAT/LittleFS/SPIFFS images, and JFFS2 containers. AI guesses container formats from headers and entropy patterns.
+- ✅ **Firmware unpacker** _(stub, awaits wire-up)_: Identifies and extracts vendor firmware blobs, encrypted update packages, FAT/LittleFS/SPIFFS images, and JFFS2 containers. AI guesses container formats from headers and entropy patterns.
 
 - ⬜ **Bus traffic replayer** _(planned)_: Plays captured bus traces back onto live hardware or into the simulator with timing scaled and fields rewritten by rule. Useful for reproducing intermittent peripheral bugs.
 
