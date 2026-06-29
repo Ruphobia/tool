@@ -4656,7 +4656,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Ration and caloric needs calculator** _(stub, awaits wire-up)_: Computes daily caloric and macronutrient needs from body mass, activity tier, ambient temperature, and altitude, then assembles a ration plan from on-hand storage items. Outputs grams-per-day per item and total pack weight for bug-out or sheltered scenarios.
 
-- ⬜ **Garden and permaculture planner** _(planned)_: Lays out beds, succession plantings, and companion groupings against local frost dates and hardiness zone, with caloric-yield-per-square-meter rankings for staple crops. Schedules seed-starting, transplant, and harvest windows and tracks seed-bank viability.
+- ✅ **Garden and permaculture planner** _(stub, awaits wire-up)_: Lays out beds, succession plantings, and companion groupings against local frost dates and hardiness zone, with caloric-yield-per-square-meter rankings for staple crops. Schedules seed-starting, transplant, and harvest windows and tracks seed-bank viability.
 
 - ⬜ **Foraging field guide** _(planned)_: Regional, season-aware reference for wild edibles with photographs, key ID features, look-alike warnings, and preparation notes. AI-assisted photo identification scores candidates and flags toxic confusions before any positive ID is returned.
 
