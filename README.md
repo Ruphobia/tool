@@ -435,7 +435,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **DNS toolkit** _(stub, awaits wire-up)_: Resolves A, AAAA, MX, TXT, SRV, CAA, NS, SOA, and DNSKEY records against arbitrary resolvers, including DoH and DoT. Includes reverse DNS, DNSSEC chain validation, and a side-by-side resolver comparison view.
 
-- ⬜ **WHOIS and RDAP lookup** _(planned)_: Queries WHOIS and RDAP for domains, IP ranges, and ASNs across regional registries. Normalizes results into a single structured view with registration, expiry, registrar, and abuse contact fields.
+- ✅ **WHOIS and RDAP lookup** _(stub, awaits wire-up)_: Queries WHOIS and RDAP for domains, IP ranges, and ASNs across regional registries. Normalizes results into a single structured view with registration, expiry, registrar, and abuse contact fields.
 
 - ⬜ **Traceroute and latency map** _(planned)_: Runs ICMP, UDP, and TCP traceroutes with per-hop RTT histograms and renders the path on a geolocated map using offline GeoIP and ASN data. Supports MTR-style continuous probing and loss tracking.
 
