@@ -2343,7 +2343,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Foundation Sizer** _(stub, awaits wire-up)_: Designs spread footings, mat foundations, and drilled piers from soil bearing, lateral, and uplift inputs. Checks settlement, overturning, sliding, and reinforcement per ACI 318.
 
-- ⬜ **Retaining Wall Designer** _(planned)_: Sizes cantilever, gravity, and segmental retaining walls against active/passive earth pressure, surcharge, and seismic load. Outputs stem reinforcement, heel/toe stability, and bearing pressure diagrams.
+- ✅ **Retaining Wall Designer** _(stub, awaits wire-up)_: Sizes cantilever, gravity, and segmental retaining walls against active/passive earth pressure, surcharge, and seismic load. Outputs stem reinforcement, heel/toe stability, and bearing pressure diagrams.
 
 - ⬜ **Load Table Browser** _(planned)_: Searchable database of joist, deck, masonry, and lintel span tables from manufacturer and code sources. Filters by span, load, deflection limit, and material with AI-integrated explanation of why a row applies.
 
