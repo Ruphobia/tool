@@ -838,7 +838,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Bloch Sphere Visualizer** _(stub, awaits wire-up)_: Interactive Bloch sphere for single qubits with reduced-density rendering for multi-qubit registers, vector trails for time evolution, and a scrubbable timeline tied to the circuit timestep.
 
-- ⬜ **State Inspector** _(planned)_: Statevector, density matrix, and probability distribution views with amplitude bar charts, phase wheels, computational basis filtering, and hover-driven readout of complex amplitudes, fidelity, and purity.
+- ✅ **State Inspector** _(stub, awaits wire-up)_: Statevector, density matrix, and probability distribution views with amplitude bar charts, phase wheels, computational basis filtering, and hover-driven readout of complex amplitudes, fidelity, and purity.
 
 - ⬜ **Statevector Simulator** _(planned)_: Exact dense simulator up to roughly 25 qubits with parameter binding, conditional ops, deferred measurement, and caching of intermediate states for fast scrubbing inside the builder.
 
