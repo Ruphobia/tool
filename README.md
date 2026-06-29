@@ -2499,7 +2499,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pressure vessel designer** _(stub, awaits wire-up)_: ASME BPVC Section VIII Division 1 and 2 shell, head, flange, and nozzle-reinforcement calculations with MAWP and MDMT checks.
 
-- ⬜ **Pipe stress and flexibility analyzer** _(planned)_: B31.3 and B31.8 sustained, expansion, and occasional stress per Markl SIFs and flexibility factors; supports, anchors, and thermal growth.
+- ✅ **Pipe stress and flexibility analyzer** _(stub, awaits wire-up)_: B31.3 and B31.8 sustained, expansion, and occasional stress per Markl SIFs and flexibility factors; supports, anchors, and thermal growth.
 
 - ⬜ **Fatigue and S-N analyzer** _(planned)_: Rainflow counting and Miner-rule damage against DNV-RP-C203, BS 7608, and API 579 curves; mean-stress and weld-class corrections.
 
