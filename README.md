@@ -2763,7 +2763,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Valve Clearance & Shim Calculator** _(stub, awaits wire-up)_: Records measured intake/exhaust valve clearances for shim-under-bucket, shim-over-bucket, and screw-adjust heads. Computes the exact replacement shim sizes from current shim thickness and target clearance, with shim inventory tracking.
 
-- ⬜ **Carburetor & EFI Tuning Workbench** _(planned)_: Jet size selector by altitude, temperature, and humidity for common carbs (Mikuni, Keihin, Dell'Orto). For EFI, imports fuel and ignition tables (Tunerstudio, EcuTek, HPTuners exports) and visualizes AFR/timing maps against logged data.
+- ✅ **Carburetor & EFI Tuning Workbench** _(stub, awaits wire-up)_: Jet size selector by altitude, temperature, and humidity for common carbs (Mikuni, Keihin, Dell'Orto). For EFI, imports fuel and ignition tables (Tunerstudio, EcuTek, HPTuners exports) and visualizes AFR/timing maps against logged data.
 
 - ⬜ **Bicycle Gear-Inch Calculator** _(planned)_: Computes gear inches, gain ratio, development, and speed-at-cadence for any chainring/cog/wheel combination. Compares 1x, 2x, 3x, and internally-geared hubs side-by-side; flags cross-chain and unusable overlapping gears.
 
