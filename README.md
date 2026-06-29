@@ -2501,7 +2501,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pipe stress and flexibility analyzer** _(stub, awaits wire-up)_: B31.3 and B31.8 sustained, expansion, and occasional stress per Markl SIFs and flexibility factors; supports, anchors, and thermal growth.
 
-- ⬜ **Fatigue and S-N analyzer** _(planned)_: Rainflow counting and Miner-rule damage against DNV-RP-C203, BS 7608, and API 579 curves; mean-stress and weld-class corrections.
+- ✅ **Fatigue and S-N analyzer** _(stub, awaits wire-up)_: Rainflow counting and Miner-rule damage against DNV-RP-C203, BS 7608, and API 579 curves; mean-stress and weld-class corrections.
 
 - ⬜ **Corrosion and metallurgy advisor** _(planned)_: Galvanic series, mixed-potential, CO2/H2S corrosion (de Waard-Milliams), and NACE MR0175 sour-service envelope; material selection notes for CRAs.
 
