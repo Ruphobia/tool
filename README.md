@@ -2076,7 +2076,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Thermodynamics workbench** _(stub, awaits wire-up)_: State-equation evaluator (ideal gas, van der Waals, Peng-Robinson, IAPWS-IF97 for water/steam), PV/TS/HS diagram plotter, and cycle builder for Carnot, Rankine, Brayton, Otto, and Diesel.
 
-- ⬜ **Heat-transfer solver** _(planned)_: Conduction, convection, and radiation problems with 1D/2D/3D meshes, time-stepping, view-factor computation, and thermal-resistance network builder.
+- ✅ **Heat-transfer solver** _(stub, awaits wire-up)_: Conduction, convection, and radiation problems with 1D/2D/3D meshes, time-stepping, view-factor computation, and thermal-resistance network builder.
 
 - ⬜ **Quantum mechanics sandbox** _(planned)_: Bound-state, scattering, and time-dependent Schrödinger solver in 1D/2D/3D with interactive potential editor, eigenstate viewer, and density-matrix evolution for open systems.
 
