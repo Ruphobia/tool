@@ -1198,7 +1198,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Timeline editor** _(stub, awaits wire-up)_: Aeon-style multi-track timeline over a custom calendar with character arcs, world events, and POV scenes. Flags ordering inconsistencies between manuscript timestamps, timeline entries, and character ages.
 
-- ⬜ **Prose linter** _(planned)_: Longform-tuned style pass covering passive voice, filter words, adverb density, sentence-length variance, POV and tense drift, dialogue-tag overuse, and repeated openings. Configurable per project against AP, Chicago, MLA, or custom style guides.
+- ✅ **Prose linter** _(stub, awaits wire-up)_: Longform-tuned style pass covering passive voice, filter words, adverb density, sentence-length variance, POV and tense drift, dialogue-tag overuse, and repeated openings. Configurable per project against AP, Chicago, MLA, or custom style guides.
 
 - ⬜ **Readability analyzer** _(planned)_: Flesch-Kincaid, Gunning Fog, Dale-Chall, SMOG, and ARI scoring with per-paragraph reading level heatmap. Tracks deltas across drafts and target-audience bands (MG, YA, trade, academic).
 
