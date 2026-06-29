@@ -4241,7 +4241,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Show Control Router** _(stub, awaits wire-up)_: Monitors and routes LTC, MTC, MIDI, OSC, Art-Net, and sACN between devices. Logs traffic, generates and chases timecode, and triggers cues for paperless tech rehearsal.
 
-- ⬜ **Rigging Load Calculator** _(planned)_: Computes pipe point loads, batten weight balance, and counterweight requirements for hung scenery and electrics. Flags overloads against rated capacity and reports per-pickup tension.
+- ✅ **Rigging Load Calculator** _(stub, awaits wire-up)_: Computes pipe point loads, batten weight balance, and counterweight requirements for hung scenery and electrics. Flags overloads against rated capacity and reports per-pickup tension.
 
 
 #### Magic, juggling, stage illusion, performance
