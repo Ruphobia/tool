@@ -4260,7 +4260,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Rehearsal Log** _(stub, awaits wire-up)_: Per-routine practice journal capturing drop counts, run times, tempo, video diary entries, and skill-acquisition curves. Flags regressions and surfaces overdue review items based on a forgetting curve.
 
-- ⬜ **Audience Beat Sheet** _(planned)_: Timeline editor for buildup, misdirection, climax, and reveal beats with tension markers, applause windows, and patter sync. Calibrates pacing against recorded performances and live applause traces.
+- ✅ **Audience Beat Sheet** _(stub, awaits wire-up)_: Timeline editor for buildup, misdirection, climax, and reveal beats with tension markers, applause windows, and patter sync. Calibrates pacing against recorded performances and live applause traces.
 
 - ⬜ **Illusion Blueprint Workshop** _(planned)_: CAD-lite drafting for stage illusions with mirror angles, hinge geometry, load capacities, and bills of materials. Ships with a reference library of classic principles (Pepper's Ghost, black art, sub trunk, Zig Zag).
 
