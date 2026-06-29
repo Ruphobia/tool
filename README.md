@@ -4237,7 +4237,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Calling Script Formatter** _(stub, awaits wire-up)_: Annotates the prompt book with standby, warn, go, and follow markers, plus channel and spot callouts, inline against the script PDF for the stage manager to call the show from.
 
-- ⬜ **Paperwork Generator** _(planned)_: Generates channel hookup, instrument schedule, magic sheet, dimmer/circuit report, gel cut list, gobo order, and focus chart from the plot data in the Lightwright lineage.
+- ✅ **Paperwork Generator** _(stub, awaits wire-up)_: Generates channel hookup, instrument schedule, magic sheet, dimmer/circuit report, gel cut list, gobo order, and focus chart from the plot data in the Lightwright lineage.
 
 - ⬜ **Show Control Router** _(planned)_: Monitors and routes LTC, MTC, MIDI, OSC, Art-Net, and sACN between devices. Logs traffic, generates and chases timecode, and triggers cues for paperless tech rehearsal.
 
