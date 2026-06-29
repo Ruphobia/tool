@@ -3745,7 +3745,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Motion Tracker** _(stub, awaits wire-up)_: 2D point tracker, planar tracker, and full 3D camera solve from monocular footage with lens-distortion calibration and survey-point constraints. Exports solved cameras and tracked geometry to USD or Alembic.
 
-- ⬜ **Camera and Lens Sim** _(planned)_: Physically based camera with focal length, aperture, shutter, focus, ND, and lens distortion presets matched to real-world bodies. Includes anamorphic bokeh, chromatic aberration, and rolling-shutter playback.
+- ✅ **Camera and Lens Sim** _(stub, awaits wire-up)_: Physically based camera with focal length, aperture, shutter, focus, ND, and lens distortion presets matched to real-world bodies. Includes anamorphic bokeh, chromatic aberration, and rolling-shutter playback.
 
 - ⬜ **Path Tracer Preview** _(planned)_: Embedded interactive path tracer with denoiser, light groups, and AOV passes for IPR while editing the scene. Renders to OpenColorIO display transforms with VR/stereo support.
 
