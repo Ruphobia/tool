@@ -4750,7 +4750,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Nap Planner** _(stub, awaits wire-up)_: Schedules power (20 min), caffeine (20 min after 100 to 200 mg), and long (90 min) naps relative to current debt, circadian phase, and next obligation. Predicts sleep inertia severity at wake.
 
-- ⬜ **Jet Lag Schedule Builder** _(planned)_: Generates a per-day light, darkness, melatonin, and meal schedule for a planned timezone shift using direction-of-travel and chronotype. Exports to ICS calendar.
+- ✅ **Jet Lag Schedule Builder** _(stub, awaits wire-up)_: Generates a per-day light, darkness, melatonin, and meal schedule for a planned timezone shift using direction-of-travel and chronotype. Exports to ICS calendar.
 
 - ⬜ **Snore and Apnea Audio Analyzer** _(planned)_: Records overnight audio locally and runs on-device detection for snoring, apnea-suggestive silences, and arousals. Outputs an event timeline aligned with the hypnogram and a rough AHI proxy with clear non-diagnostic disclaimers.
 
