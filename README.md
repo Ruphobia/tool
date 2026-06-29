@@ -3417,7 +3417,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **CTD profile plotter** _(stub, awaits wire-up)_: Plots temperature, salinity, density, oxygen, and fluorometry against depth from CNV, ODV, and netCDF casts. Applies SBE-style despiking, loop-edit, and bin-averaging with per-channel QC flags.
 
-- ⬜ **T-S diagram explorer** _(planned)_: Overlays multiple CTD casts on a temperature-salinity diagram with TEOS-10 isopycnals and labelled water mass envelopes (NACW, AAIW, NADW, etc.) for mixing-line analysis.
+- ✅ **T-S diagram explorer** _(stub, awaits wire-up)_: Overlays multiple CTD casts on a temperature-salinity diagram with TEOS-10 isopycnals and labelled water mass envelopes (NACW, AAIW, NADW, etc.) for mixing-line analysis.
 
 - ⬜ **TEOS-10 calculator** _(planned)_: Computes absolute salinity, conservative temperature, in-situ and potential density, sound speed, freezing point, and specific volume anomaly using the GSW (Gibbs SeaWater) toolbox formulas.
 
