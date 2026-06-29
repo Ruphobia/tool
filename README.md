@@ -2867,7 +2867,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Wind Resource & Weibull Fitter** _(stub, awaits wire-up)_: Fits Weibull shape and scale parameters to measured or reanalysis wind speed time series and extrapolates to hub height via log or power law. Plots wind rose, turbulence intensity, and exceedance curves.
 
-- ⬜ **Wind Turbine Power Curve Studio** _(planned)_: Loads or sketches power curves, applies air density correction, hub-height extrapolation, and wake losses, then crosses with the site resource to compute annual energy production and capacity factor.
+- ✅ **Wind Turbine Power Curve Studio** _(stub, awaits wire-up)_: Loads or sketches power curves, applies air density correction, hub-height extrapolation, and wake losses, then crosses with the site resource to compute annual energy production and capacity factor.
 
 - ⬜ **Grid-Tie & Net Metering Calculator** _(planned)_: Models monthly bill impact under net metering, net billing, time-of-use, and demand charges, including export caps and true-up. Compares self-consumption vs full export economics.
 
