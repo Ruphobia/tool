@@ -2808,7 +2808,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Camera calibrator** _(stub, awaits wire-up)_: Performs intrinsic, extrinsic, stereo, and rolling-shutter calibration from checkerboard, ChArUco, or AprilTag captures, with reprojection error heatmaps, pose-coverage prompts, and Kalibr-compatible export.
 
-- ⬜ **Hand-eye and base calibrator** _(planned)_: Solves AX=XB and AX=ZB calibrations for camera-on-arm and camera-on-base mounts using Tsai-Lenz, Park-Martin, and Daniilidis dual-quaternion methods with bootstrap uncertainty estimates.
+- ✅ **Hand-eye and base calibrator** _(stub, awaits wire-up)_: Solves AX=XB and AX=ZB calibrations for camera-on-arm and camera-on-base mounts using Tsai-Lenz, Park-Martin, and Daniilidis dual-quaternion methods with bootstrap uncertainty estimates.
 
 - ⬜ **SLAM workbench** _(planned)_: Runs visual, LIDAR, and visual-inertial SLAM pipelines (ORB-SLAM3, RTAB-Map, LIO-SAM, Kiss-ICP) over recorded sessions with keyframe inspection, loop-closure editing, and exported map output to OctoMap, mesh, or Gaussian splat.
 
