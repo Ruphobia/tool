@@ -689,7 +689,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Disk usage analyzer** _(stub, awaits wire-up)_: Hierarchical treemap and sunburst of filesystem usage with per-directory size, file count, age, and largest-file lists. Identifies duplicate files by hash and offers in-place deletion or archive routing.
 
-- ⬜ **SMART and disk health** _(planned)_: Reads SMART attributes, runs short and long self-tests, and tracks attribute trends per device over time. AI-integrated failure-risk scoring from attribute drift, with replacement urgency suggestions.
+- ✅ **SMART and disk health** _(stub, awaits wire-up)_: Reads SMART attributes, runs short and long self-tests, and tracks attribute trends per device over time. AI-integrated failure-risk scoring from attribute drift, with replacement urgency suggestions.
 
 - ⬜ **Filesystem and mount manager** _(planned)_: Lists block devices, partitions, LVM volumes, and mount points; performs mount, unmount, fstab edits, and filesystem creation. Includes BTRFS and ZFS subvolume and snapshot management.
 
