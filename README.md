@@ -1852,7 +1852,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Phoneme Inventory Designer** _(stub, awaits wire-up)_: Builds consonant and vowel inventories via a clickable IPA matrix, tracks distinctive features, and flags gaps against typological norms (e.g., having /p t/ but no /k/). Exports the inventory as a feature table consumed by downstream tools.
 
-- ⬜ **Phonotactics Editor** _(planned)_: Defines syllable templates (onset, nucleus, coda), sonority constraints, cluster restrictions, and stress/tone placement rules. Validates candidate words against the active phonotactic grammar and reports which constraint each rejection violated.
+- ✅ **Phonotactics Editor** _(stub, awaits wire-up)_: Defines syllable templates (onset, nucleus, coda), sonority constraints, cluster restrictions, and stress/tone placement rules. Validates candidate words against the active phonotactic grammar and reports which constraint each rejection violated.
 
 - ⬜ **Word Generator** _(planned)_: Produces plausible lexemes from the active phonology and phonotactics with weighted phoneme and syllable-shape frequencies. AI biasing nudges output toward a target aesthetic (harsh, melodic, agglutinative-looking) described in natural language.
 
