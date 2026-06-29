@@ -2147,7 +2147,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Injection molding analyzer** _(stub, awaits wire-up)_: Predicts fill time, weld lines, air traps, sink marks, and warpage from part geometry and gate location. Suggests draft, wall thickness, and gate placement adjustments.
 
-- ⬜ **3D printing failure diagnoser** _(planned)_: Analyzes photos or videos of failed prints to identify warping, stringing, layer shifts, under/over extrusion, and adhesion issues. AI-integrated recommendation of slicer and hardware fixes.
+- ✅ **3D printing failure diagnoser** _(stub, awaits wire-up)_: Analyzes photos or videos of failed prints to identify warping, stringing, layer shifts, under/over extrusion, and adhesion issues. AI-integrated recommendation of slicer and hardware fixes.
 
 - ⬜ **G-code visualizer** _(planned)_: Renders toolpaths layer by layer or move by move with feed-rate, retract, and extrusion highlighting. Detects collisions, air-printing, and excessive travel.
 
