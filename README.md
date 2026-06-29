@@ -1704,7 +1704,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Religious studies and comparative religion
 
-- ⬜ **Cross-Tradition Concordance** _(planned)_: Indexes canonical scriptures (Tanakh, Bible variants, Quran, Tipitaka, Vedas, Avesta, Guru Granth Sahib, Tao Te Ching, Analects) into a unified searchable corpus. Supports lemma, root, and theme queries with side-by-side parallel views across traditions.
+- ✅ **Cross-Tradition Concordance** _(stub, awaits wire-up)_: Indexes canonical scriptures (Tanakh, Bible variants, Quran, Tipitaka, Vedas, Avesta, Guru Granth Sahib, Tao Te Ching, Analects) into a unified searchable corpus. Supports lemma, root, and theme queries with side-by-side parallel views across traditions.
 
 - ⬜ **Polyglot Scripture Viewer** _(planned)_: Aligns verse-keyed source texts (Hebrew, Koine Greek, Classical Arabic, Sanskrit, Pali, Ge'ez, Latin, Church Slavonic) with multiple translations and morphological tagging. Hover reveals lexicon entries, variant readings, and manuscript witnesses.
 
