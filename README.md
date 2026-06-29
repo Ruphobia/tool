@@ -1844,7 +1844,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Rhyme & Meter Scanner** _(stub, awaits wire-up)_: Finds perfect, slant, and consonance rhymes from pronouncing dictionaries (CMU, Espeak phonemes) and scans verse for iambic, trochaic, anapestic, and quantitative meter. Marks ictus, caesura, and enjambment.
 
-- ⬜ **Treebank Viewer** _(planned)_: Loads Universal Dependencies, Penn Treebank, and SUD corpora, renders trees, and queries with Grew, TGrep2, or a built-in pattern language. Computes inter-annotator agreement and label distributions.
+- ✅ **Treebank Viewer** _(stub, awaits wire-up)_: Loads Universal Dependencies, Penn Treebank, and SUD corpora, renders trees, and queries with Grew, TGrep2, or a built-in pattern language. Computes inter-annotator agreement and label distributions.
 
 - ⬜ **Sequence Alignment Lab** _(planned)_: Pairwise and multiple alignment for cognate sets and dialect forms using Levenshtein, Needleman-Wunsch, and SCA (sound-class-based) algorithms with custom feature-weighted substitution matrices.
 
