@@ -786,7 +786,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Bitmap Font Forge** _(stub, awaits wire-up)_: Generates SDF, MSDF, and classic bitmap fonts from TTF/OTF sources with kerning, custom glyph painting, and CJK subsetting. Packs into the atlas pipeline and previews against in-game UI styles.
 
-- ⬜ **Replay Recorder** _(planned)_: Captures deterministic input traces and engine snapshots, scrubbable like a video, with bookmarks, branch points, and side-by-side comparison. Doubles as a regression harness for gameplay bugs.
+- ✅ **Replay Recorder** _(stub, awaits wire-up)_: Captures deterministic input traces and engine snapshots, scrubbable like a video, with bookmarks, branch points, and side-by-side comparison. Doubles as a regression harness for gameplay bugs.
 
 
 #### VR / AR / XR
