@@ -1421,7 +1421,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **ePassport Chip Reader** _(stub, awaits wire-up)_: Performs BAC, PACE, Chip Authentication, and Terminal Authentication against eMRTD chips; parses LDS data groups DG1 through DG15 and verifies the SOD signature chain against the CSCA master list.
 
-- ⬜ **Face Matcher** _(planned)_: Computes a face embedding for the selfie and the document portrait, returns cosine and L2 similarity, and reports FMR/FNMR threshold guidance per ISO/IEC 19795 with bias slice diagnostics.
+- ✅ **Face Matcher** _(stub, awaits wire-up)_: Computes a face embedding for the selfie and the document portrait, returns cosine and L2 similarity, and reports FMR/FNMR threshold guidance per ISO/IEC 19795 with bias slice diagnostics.
 
 - ⬜ **Liveness Runner** _(planned)_: Drives passive (texture, depth-from-defocus, rPPG) and active (head turn, blink, prompt phrase) anti-spoof checks; scores presentation attack detection per ISO/IEC 30107-3 with attack-presentation logs.
 
