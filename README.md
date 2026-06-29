@@ -3030,7 +3030,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Protein structure predictor** _(stub, awaits wire-up)_: Runs AlphaFold, ColabFold, ESMFold, or RoseTTAFold locally for monomer and complex prediction with confidence (pLDDT, PAE) overlays and PDB or mmCIF export.
 
-- ⬜ **Structure viewer** _(planned)_: Renders proteins, ligands, and nucleic acids in cartoon, surface, and electrostatic modes via PyMOL or Mol* bindings with structural alignment via TM-align or Foldseek.
+- ✅ **Structure viewer** _(stub, awaits wire-up)_: Renders proteins, ligands, and nucleic acids in cartoon, surface, and electrostatic modes via PyMOL or Mol* bindings with structural alignment via TM-align or Foldseek.
 
 - ⬜ **Docking and binding workbench** _(planned)_: Runs AutoDock Vina, DiffDock, or HADDOCK for ligand and protein-protein docking; scores poses and computes interface residues for inhibitor and antibody studies.
 
