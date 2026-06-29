@@ -1544,7 +1544,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Bayesian sandbox** _(stub, awaits wire-up)_: PyMC and NumPyro front-end for specifying priors, running NUTS/HMC/SVI, and inspecting traces, R-hat, ESS, posterior predictive checks, and pair plots. Supports model comparison via LOO and WAIC.
 
-- ⬜ **Time-series lab** _(planned)_: Decomposes series into trend/seasonal/residual, fits ARIMA, SARIMAX, ETS, Prophet, and state-space models, runs stationarity and cointegration tests, and produces forecasts with prediction intervals. AI-integrated model-class recommendation based on ACF/PACF and seasonality signatures.
+- ✅ **Time-series lab** _(stub, awaits wire-up)_: Decomposes series into trend/seasonal/residual, fits ARIMA, SARIMAX, ETS, Prophet, and state-space models, runs stationarity and cointegration tests, and produces forecasts with prediction intervals. AI-integrated model-class recommendation based on ACF/PACF and seasonality signatures.
 
 - ⬜ **Survival analysis** _(planned)_: Kaplan-Meier curves, Cox proportional hazards, Aalen additive, and accelerated failure time models with log-rank tests, Schoenfeld residuals, and time-varying covariates.
 
