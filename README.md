@@ -268,7 +268,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **PDF Ingestor** _(stub, awaits wire-up)_: Extracts metadata, references, and structural sections from PDFs using GROBID-style parsing, then proposes a CSL record. AI assists when scans, preprints, or malformed headers defeat heuristic extraction.
 
-- ⬜ **Annotation Workbench** _(planned)_: PDF and EPUB reader with highlights, sticky notes, ink, and rectangular region captures. Annotations stay in an open sidecar format and sync back into note items linked to page anchors.
+- ✅ **Annotation Workbench** _(stub, awaits wire-up)_: PDF and EPUB reader with highlights, sticky notes, ink, and rectangular region captures. Annotations stay in an open sidecar format and sync back into note items linked to page anchors.
 
 - ✅ **In-Text Citation Inserter** _(in testing)_: Editor plugin and standalone picker that inserts citations into Markdown, LaTeX, Pandoc, Typst, Org, and word processor documents. Supports author-date, numeric, footnote, and prefix-suffix-locator variants.
 
