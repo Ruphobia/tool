@@ -1893,7 +1893,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **OCR studio** _(stub, awaits wire-up)_: Document and image OCR with layout reconstruction, multi-column handling, RTL and vertical-script support, and per-character confidence overlays. AI-integrated postcorrection of recognizer errors against a language model.
 
-- ⬜ **Keyboard layout designer** _(planned)_: Editor for custom IME and keyboard layouts targeting non-Latin scripts, dead keys, combining marks, and stenographic chords. Exports to xkb, Karabiner, MSKLC, and ibus.
+- ✅ **Keyboard layout designer** _(stub, awaits wire-up)_: Editor for custom IME and keyboard layouts targeting non-Latin scripts, dead keys, combining marks, and stenographic chords. Exports to xkb, Karabiner, MSKLC, and ibus.
 
 - ⬜ **Pronunciation coach** _(planned)_: Phoneme-level scoring of learner audio against reference pronunciation, with mispronunciation highlighting, minimal-pair drills, and articulator diagrams.
 
