@@ -3552,7 +3552,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Garden Plot Designer** _(stub, awaits wire-up)_: 2D bed and row editor with scale, sun exposure overlay, path widths, and plant spacing footprints from a built-in cultivar database. Snaps to companion planting and rotation constraints.
 
-- ⬜ **Crop Rotation Planner** _(planned)_: Plans multi-year rotations across beds using family grouping, nitrogen demand, allelopathy, disease carryover windows, and cover crop slots. AI-integrated suggestion of a rotation that satisfies the user's beds, crops, and constraints.
+- ✅ **Crop Rotation Planner** _(stub, awaits wire-up)_: Plans multi-year rotations across beds using family grouping, nitrogen demand, allelopathy, disease carryover windows, and cover crop slots. AI-integrated suggestion of a rotation that satisfies the user's beds, crops, and constraints.
 
 - ⬜ **Companion Matrix** _(planned)_: Interactive grid of beneficial, neutral, and antagonistic plant pairings sourced from published trial data and traditional polyculture references, with provenance flags so folk wisdom and replicated studies are distinguishable.
 
