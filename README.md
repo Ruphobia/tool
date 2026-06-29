@@ -4322,7 +4322,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **UCI engine driver** _(stub, awaits wire-up)_: Spawns and communicates with UCI-protocol chess engines (Stockfish, Lc0, Berserk), exposing position evaluation, multi-PV search, and ponder mode. Streams depth/score/PV lines back as structured data for charting and annotation.
 
-- ⬜ **PGN repertoire workbench** _(planned)_: Parses, merges, and queries PGN libraries into a unified opening tree with transposition detection, move-frequency stats, and ECO classification. Supports tagging variations as 'main line', 'sideline', or 'avoid' and exports Lichess-study-compatible PGN.
+- ✅ **PGN repertoire workbench** _(stub, awaits wire-up)_: Parses, merges, and queries PGN libraries into a unified opening tree with transposition detection, move-frequency stats, and ECO classification. Supports tagging variations as 'main line', 'sideline', or 'avoid' and exports Lichess-study-compatible PGN.
 
 - ⬜ **Lichess/chess.com explorer** _(planned)_: Queries the Lichess opening explorer and master games database for any FEN, returning move frequency, win percentages by rating band, and example games. Caches results locally for offline repertoire work.
 
