@@ -1116,7 +1116,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **SPC control chart studio** _(stub, awaits wire-up)_: Plots Xbar-R, Xbar-S, I-MR, p, np, c, u, CUSUM, and EWMA charts from time-series measurements, applies Nelson and Western Electric rules, and flags out-of-control points with annotated runs.
 
-- ⬜ **Process capability analyzer** _(planned)_: Computes Cp, Cpk, Pp, Ppk, and Cpm against engineering tolerances, tests normality (Anderson-Darling, Shapiro-Wilk), and fits Johnson or Box-Cox transforms for non-normal data with capability indices recalculated.
+- ✅ **Process capability analyzer** _(stub, awaits wire-up)_: Computes Cp, Cpk, Pp, Ppk, and Cpm against engineering tolerances, tests normality (Anderson-Darling, Shapiro-Wilk), and fits Johnson or Box-Cox transforms for non-normal data with capability indices recalculated.
 
 - ⬜ **Gage R&R workbench** _(planned)_: Runs Type 1, Type 2, and Type 3 MSA studies with ANOVA and Average-Range methods, decomposes variance into repeatability, reproducibility, part, and operator components, and reports %study variation, %tolerance, ndc, and Kappa for attribute gages.
 
