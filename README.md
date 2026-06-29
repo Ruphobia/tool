@@ -3124,7 +3124,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Literature Search** _(stub, awaits wire-up)_: Federated search over PubMed, Europe PMC, and bioRxiv/medRxiv with MeSH expansion, citation graph traversal, and AI summarization of abstracts into structured PICO (population, intervention, comparator, outcome) tuples.
 
-- ⬜ **Patient Case Notebook** _(planned)_: De-identified case workspace with HPI, ROS, exam, labs, imaging, problem list, and differential; enforces PHI redaction on import and supports SOAP, H&P, and discharge-summary templates.
+- ✅ **Patient Case Notebook** _(stub, awaits wire-up)_: De-identified case workspace with HPI, ROS, exam, labs, imaging, problem list, and differential; enforces PHI redaction on import and supports SOAP, H&P, and discharge-summary templates.
 
 - ⬜ **Differential Diagnosis Generator** _(planned)_: Takes signs, symptoms, labs, and demographics and produces a ranked differential with prior probabilities, distinguishing features, and suggested next tests; AI-integrated reasoning with citation back to source guidelines.
 
