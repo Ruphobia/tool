@@ -4734,7 +4734,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Lucid Technique Tracker** _(stub, awaits wire-up)_: Logs attempts and outcomes for MILD, WBTB, WILD, SSILD, FILD, and DEILD with protocol parameters (WBTB delay, mantra text, anchor duration). Computes per-technique success rate, dwell time before lucidity, and confounds.
 
-- ⬜ **Reality Check Scheduler** _(planned)_: Fires configurable randomized prompts during waking hours for digit-glance, hand-check, light-switch, and breath-through-nose tests. Logs hit, miss, and false-positive outcomes for habit-strength tracking.
+- ✅ **Reality Check Scheduler** _(stub, awaits wire-up)_: Fires configurable randomized prompts during waking hours for digit-glance, hand-check, light-switch, and breath-through-nose tests. Logs hit, miss, and false-positive outcomes for habit-strength tracking.
 
 - ⬜ **Sleep Cycle Calculator** _(planned)_: Computes candidate bedtimes or wake times in 90-minute (or user-tuned) ultradian increments, factoring sleep-onset latency. Outputs alarm targets aligned to predicted REM exits.
 
