@@ -1167,7 +1167,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Job shop scheduler** _(stub, awaits wire-up)_: Solves job-shop, flow-shop, open-shop, and flexible JSP via CP-SAT and disjunctive-graph heuristics (shifting bottleneck, tabu search). Optimizes makespan, total tardiness, or weighted flowtime; renders Gantt charts and critical paths.
 
-- ⬜ **Bullwhip simulator** _(planned)_: Runs the beer distribution game across a configurable echelon chain with adjustable ordering policies, lead times, and information sharing levels. Plots demand amplification, variance ratios, and inventory oscillation per echelon.
+- ✅ **Bullwhip simulator** _(stub, awaits wire-up)_: Runs the beer distribution game across a configurable echelon chain with adjustable ordering policies, lead times, and information sharing levels. Plots demand amplification, variance ratios, and inventory oscillation per echelon.
 
 - ⬜ **Facility location optimizer** _(planned)_: Solves p-median, p-center, set-cover, and capacitated facility location with fixed costs and assignment constraints via MILP. Performs sensitivity analysis on demand and overlays candidate sites on the map with weighted catchments.
 
