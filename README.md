@@ -2316,7 +2316,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Valve Cv and Kv sizer** _(stub, awaits wire-up)_: Sizes control valves for liquid, gas, and two-phase service per ISA-75.01/IEC 60534 with choked-flow, FL, xT, and piping geometry corrections. Recommends trim style and predicts aerodynamic/hydrodynamic noise.
 
-- ⬜ **Water hammer simulator** _(planned)_: Simulates transient pressure surges via method of characteristics with pump trip, valve closure, and check-valve slam scenarios. Sizes surge tanks, air vessels, and relief devices to keep pressures within envelope.
+- ✅ **Water hammer simulator** _(stub, awaits wire-up)_: Simulates transient pressure surges via method of characteristics with pump trip, valve closure, and check-valve slam scenarios. Sizes surge tanks, air vessels, and relief devices to keep pressures within envelope.
 
 - ⬜ **Pneumatic actuator sizer** _(planned)_: Sizes single- and double-acting cylinders and rotary actuators from load, stroke, cycle time, and supply pressure. Computes air consumption (Nl/min), Cv of supply lines, and cushion requirements at end-of-stroke.
 
