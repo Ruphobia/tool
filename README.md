@@ -2298,7 +2298,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Octave band spectrum tool** _(stub, awaits wire-up)_: Converts between narrowband, 1/1, 1/3, and 1/12 octave spectra with A/B/C/Z weighting. Performs band arithmetic (sum, difference, masking) and exports to common acoustic measurement formats.
 
-- ⬜ **Heat exchanger sizer** _(planned)_: Sizes shell-and-tube, plate, double-pipe, and finned-tube exchangers using LMTD and effectiveness-NTU methods. Computes UA, fouling allowance, tube count, baffle spacing, and shell-side pressure drop per Kern/Bell-Delaware.
+- ✅ **Heat exchanger sizer** _(stub, awaits wire-up)_: Sizes shell-and-tube, plate, double-pipe, and finned-tube exchangers using LMTD and effectiveness-NTU methods. Computes UA, fouling allowance, tube count, baffle spacing, and shell-side pressure drop per Kern/Bell-Delaware.
 
 - ⬜ **Thermal network solver** _(planned)_: Builds and solves nodal RC networks for conduction, convection, and radiation with temperature-dependent properties. Supports steady-state and transient runs with view-factor coupling for radiative branches.
 
