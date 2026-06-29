@@ -2916,7 +2916,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Chemical inventory** _(stub, awaits wire-up)_: Tracks reagents by CAS, location, container, amount, lot, purity, expiry, and supplier; logs check-outs against notebook entries, flags peroxide-formers past their date, and generates reorder lists.
 
-- ⬜ **Safety data lookup** _(planned)_: Pulls SDS data (GHS pictograms, H and P statements, flash point, LD50, exposure limits) for a compound by name or CAS. AI-integrated summary of the hazards, PPE, waste stream, and emergency response relevant to the specific procedure being planned.
+- ✅ **Safety data lookup** _(stub, awaits wire-up)_: Pulls SDS data (GHS pictograms, H and P statements, flash point, LD50, exposure limits) for a compound by name or CAS. AI-integrated summary of the hazards, PPE, waste stream, and emergency response relevant to the specific procedure being planned.
 
 - ⬜ **Incompatibility checker** _(planned)_: Cross-references a reagent and waste list against storage and reactivity matrices; warns on oxidizer-fuel pairs, water-reactives, peroxide formers, shock sensitives, and forbidden waste combinations before they are mixed.
 
