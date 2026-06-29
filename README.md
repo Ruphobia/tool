@@ -4504,7 +4504,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Topo and Property Atlas** _(stub, awaits wire-up)_: Offline topo, satellite, and contour layers with public land, WMA, and parcel-line overlays sourced from county GIS. Marks stands, blinds, scrapes, food plots, boat ramps, and access trails with custom icon sets.
 
-- ⬜ **Wind and Scent Planner** _(planned)_: Models prevailing and forecast wind at each stand against terrain-driven thermals to recommend morning vs evening sits. Visualizes scent cones over the atlas and flags entry and exit routes that stay downwind of bedding.
+- ✅ **Wind and Scent Planner** _(stub, awaits wire-up)_: Models prevailing and forecast wind at each stand against terrain-driven thermals to recommend morning vs evening sits. Visualizes scent cones over the atlas and flags entry and exit routes that stay downwind of bedding.
 
 - ⬜ **Ballistics and Arrow Calculator** _(planned)_: Computes bullet drop, wind drift, energy, and point-blank range for cataloged loads, and arrow trajectory with FOC, spine, and broadhead drag for compound and traditional setups. Range-card export sized for stock and quiver labels.
 
