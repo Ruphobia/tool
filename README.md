@@ -3464,7 +3464,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Diversity index calculator** _(stub, awaits wire-up)_: Computes Shannon, Simpson, Pielou evenness, Chao1, ACE, Hill numbers, and Faith's PD from community matrices. Supports alpha, beta (Jaccard, Bray-Curtis, Sorensen), and gamma diversity with rarefaction and extrapolation curves.
 
-- ⬜ **Landscape fragmentation analyzer** _(planned)_: Computes FRAGSTATS-style patch, class, and landscape metrics: patch density, edge density, mean nearest neighbor, contagion, Shannon's landscape diversity, and effective mesh size from categorical land cover rasters.
+- ✅ **Landscape fragmentation analyzer** _(stub, awaits wire-up)_: Computes FRAGSTATS-style patch, class, and landscape metrics: patch density, edge density, mean nearest neighbor, contagion, Shannon's landscape diversity, and effective mesh size from categorical land cover rasters.
 
 - ⬜ **Connectivity modeler** _(planned)_: Builds resistance surfaces and runs Circuitscape current-flow and Conefor graph-theoretic connectivity (dPC, IIC) between habitat patches. Identifies pinch points, corridors, and critical stepping-stone nodes.
 
