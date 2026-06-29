@@ -1982,7 +1982,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Connector and cable designer** _(stub, awaits wire-up)_: Pinout planning for ribbon, JST, Molex, D-sub, and circular connectors with cable-loss, voltage-drop, and shielding calculators. Generates wiring diagrams and crimp-spec sheets.
 
-- ⬜ **Test fixture and ICT planner** _(planned)_: Lays out bed-of-nails test points, pogo-pin grids, and boundary-scan chains. Generates a per-board test plan with pass/fail thresholds wired to the bench bridge.
+- ✅ **Test fixture and ICT planner** _(stub, awaits wire-up)_: Lays out bed-of-nails test points, pogo-pin grids, and boundary-scan chains. Generates a per-board test plan with pass/fail thresholds wired to the bench bridge.
 
 - ⬜ **Reliability and FMEA** _(planned)_: MTBF prediction (MIL-HDBK-217, Telcordia, IEC 62380), derating reports, and failure-mode tables linked to schematic nets. AI-integrated drafting of FMEA rows from the schematic and known stress conditions.
 
