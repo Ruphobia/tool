@@ -2163,7 +2163,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **BOM and cost estimator** _(stub, awaits wire-up)_: Rolls up multi-level bills of materials with vendor pricing, lead time, MOQ, and weight; estimates machining, printing, and molding cost from geometry. Exports CSV and supplier RFQs.
 
-- ⬜ **Vendor and supplier search** _(planned)_: Searches McMaster, Misumi, Digi-Key, Grainger, and machine shop networks for parts matching a CAD model or spec sheet. AI-integrated extraction of part specs from a screenshot or description.
+- ✅ **Vendor and supplier search** _(stub, awaits wire-up)_: Searches McMaster, Misumi, Digi-Key, Grainger, and machine shop networks for parts matching a CAD model or spec sheet. AI-integrated extraction of part specs from a screenshot or description.
 
 - ⬜ **PLM/revision tracker** _(planned)_: Versions CAD, drawings, BOMs, and G-code with branching, diffing, and ECO/ECR workflows. Visual diff of geometry highlights added, removed, and changed features.
 
