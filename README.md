@@ -1550,7 +1550,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Causal inference toolkit** _(stub, awaits wire-up)_: DoWhy/EconML-style interface for DAG specification, identification, estimation (IPW, doubly robust, double ML, synthetic control, regression discontinuity), and sensitivity analysis. AI-integrated DAG drafting from a written problem description.
 
-- ⬜ **Experiment tracker** _(planned)_: Local MLflow-compatible store for runs, params, metrics, artifacts, and model versions with side-by-side run comparison and parallel-coordinates plots over the hyperparameter space.
+- ✅ **Experiment tracker** _(stub, awaits wire-up)_: Local MLflow-compatible store for runs, params, metrics, artifacts, and model versions with side-by-side run comparison and parallel-coordinates plots over the hyperparameter space.
 
 - ⬜ **Hyperparameter sweeper** _(planned)_: Runs grid, random, Bayesian (Optuna), Hyperband, and population-based searches against any training script with early stopping, pruning, and live Pareto-front visualization.
 
