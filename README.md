@@ -3292,7 +3292,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Autoguider** _(stub, awaits wire-up)_: Locks on a guide star or multi-star centroid and emits pulse-guide corrections to the mount via ST-4 or ASCOM. Computes RMS, peak, and seeing estimates with calibration assistant.
 
-- ⬜ **Orbital Simulator** _(planned)_: Integrates N-body trajectories for solar-system bodies, spacecraft, and arbitrary scenarios using symplectic or Runge-Kutta integrators with JPL ephemerides as initial conditions. Includes patched-conics and lambert-solver helpers for mission design sketches.
+- ✅ **Orbital Simulator** _(stub, awaits wire-up)_: Integrates N-body trajectories for solar-system bodies, spacecraft, and arbitrary scenarios using symplectic or Runge-Kutta integrators with JPL ephemerides as initial conditions. Includes patched-conics and lambert-solver helpers for mission design sketches.
 
 - ⬜ **Redshift Distance** _(planned)_: Converts between redshift, comoving distance, luminosity distance, angular-diameter distance, lookback time, and age for user-selectable cosmologies (LCDM, wCDM, custom). Includes K-correction helpers and a cosmic-calculator-style table view.
 
