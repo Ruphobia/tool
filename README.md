@@ -715,7 +715,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **SSH and remote host manager** _(stub, awaits wire-up)_: Catalog of SSH hosts with known_hosts, identity file, jump host, and forwarding configuration per entry. Opens terminal, SFTP, or port-forward sessions and writes back to ~/.ssh/config.
 
-- ⬜ **VPN and tunnel manager** _(planned)_: Configures and toggles WireGuard, OpenVPN, and SSH tunnels with key generation, peer config export, and QR codes. Shows per-peer handshake age, transfer counters, and allowed-IP routing.
+- ✅ **VPN and tunnel manager** _(stub, awaits wire-up)_: Configures and toggles WireGuard, OpenVPN, and SSH tunnels with key generation, peer config export, and QR codes. Shows per-peer handshake age, transfer counters, and allowed-IP routing.
 
 - ⬜ **Reverse proxy editor** _(planned)_: Generates and lints nginx, Caddy, and Traefik configurations for virtual hosts, TLS termination, and upstream routing. AI-integrated synthesis of a working config from a list of services and domains.
 
