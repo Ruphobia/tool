@@ -2719,7 +2719,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Brake Bias and Thermal Calculator** _(stub, awaits wire-up)_: Computes brake bias from master cylinder, caliper piston area, pad mu, and rotor radius, and estimates rotor temperature rise per stop from kinetic energy and cooling coefficients. Plots bias against deceleration and weight transfer.
 
-- ⬜ **Aero CdA and Downforce Estimator** _(planned)_: Solves CdA and ClA from coast-down runs, constant-speed power data, or wind-tunnel CSV, and models drag, lift, and balance shifts versus ride height and yaw. Predicts top speed and braking-distance delta for a setup change.
+- ✅ **Aero CdA and Downforce Estimator** _(stub, awaits wire-up)_: Solves CdA and ClA from coast-down runs, constant-speed power data, or wind-tunnel CSV, and models drag, lift, and balance shifts versus ride height and yaw. Predicts top speed and braking-distance delta for a setup change.
 
 - ⬜ **Telemetry Log Viewer** _(planned)_: Loads MoTeC i2, AiM, RaceCapture, VBox, and generic CSV logs into a multi-channel scope with math channels, lap splits, and X-Y plots. Overlays multiple laps, computes time-loss histograms, and exports synchronized video frames.
 
