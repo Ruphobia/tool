@@ -3735,7 +3735,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Render Farm Dispatcher** _(stub, awaits wire-up)_: Local-first job scheduler that distributes Cycles, LuxCore, Arnold-CLI, Mantra, or custom render jobs across machines on the LAN, with per-frame retries, tile assembly, and live thumbnail preview.
 
-- ⬜ **Asset Library** _(planned)_: Tagged, versioned browser for models, materials, HDRIs, brushes, rigs, and FX setups with USD-based references, thumbnail bake, and dependency tracking. AI-tagged from preview renders to enable natural-language search.
+- ✅ **Asset Library** _(stub, awaits wire-up)_: Tagged, versioned browser for models, materials, HDRIs, brushes, rigs, and FX setups with USD-based references, thumbnail bake, and dependency tracking. AI-tagged from preview renders to enable natural-language search.
 
 - ⬜ **PBR Material Lab** _(planned)_: Layer-stack material editor producing metallic-roughness or specular-glossiness sets, with substance-like procedural noises, generators, and bake-to-texture from a high-poly source. Exports glTF, MaterialX, and OSL.
 
