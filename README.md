@@ -868,7 +868,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Entanglement Inspector** _(stub, awaits wire-up)_: Computes and plots entanglement entropy, concurrence, negativity, and mutual information across bipartitions, with a graph view of pairwise entanglement and Schmidt decomposition of any cut.
 
-- ⬜ **Resource Estimator** _(planned)_: Reports qubit count, circuit depth, T-count, Toffoli-count, two-qubit-gate count, and projected wall-clock runtime on selected devices, including fault-tolerant overhead estimates for a chosen code distance.
+- ✅ **Resource Estimator** _(stub, awaits wire-up)_: Reports qubit count, circuit depth, T-count, Toffoli-count, two-qubit-gate count, and projected wall-clock runtime on selected devices, including fault-tolerant overhead estimates for a chosen code distance.
 
 - ⬜ **Circuit Equivalence Checker** _(planned)_: Verifies two circuits implement the same unitary (or channel) up to global phase via ZX-calculus rewriting and Clifford-tableau methods, with a minimal counterexample basis state when they differ.
 
