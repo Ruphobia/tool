@@ -2479,7 +2479,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Heap-leach and tank-leach modeller** _(stub, awaits wire-up)_: Column kinetics, cyanide or acid consumption, and Merrill-Crowe or SX-EW recovery; pad inventory and pregnant solution grade over time.
 
-- ⬜ **Neutronics shielding calculator** _(planned)_: Point-kernel gamma attenuation with buildup factors and ANSI/ANS-6.4.3 source terms; multilayer dose-rate maps for Co-60, Cs-137, and mixed spectra.
+- ✅ **Neutronics shielding calculator** _(stub, awaits wire-up)_: Point-kernel gamma attenuation with buildup factors and ANSI/ANS-6.4.3 source terms; multilayer dose-rate maps for Co-60, Cs-137, and mixed spectra.
 
 - ⬜ **Reactor core point-kinetics sim** _(planned)_: Six-group delayed-neutron point kinetics with xenon, samarium, doppler, and moderator feedback; rod-worth curves and SCRAM transients.
 
