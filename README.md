@@ -378,7 +378,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Embedded image builders (Yocto, Buildroot)** _(stub, awaits wire-up)_: a tool for generating bootable Linux images for embedded targets: Yocto layer manager + recipe authoring, Buildroot config + defconfig manager, BSP customization, package selection, image artifact tracker, OTA update scaffold.
 
-- ⬜ **Meld-style diff and merge** _(planned)_: a graphical three-pane diff/merge for files and folders, with syntax-aware diffs, manual merge, conflict resolution UI, integration with git rebase/merge, image diff and PDF diff variants.
+- ✅ **Meld-style diff and merge** _(stub, awaits wire-up)_: a graphical three-pane diff/merge for files and folders, with syntax-aware diffs, manual merge, conflict resolution UI, integration with git rebase/merge, image diff and PDF diff variants.
 
 
 #### Web development
