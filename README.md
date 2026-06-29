@@ -2402,7 +2402,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **BMP sizer** _(stub, awaits wire-up)_: Sizes stormwater best-management practices: detention/retention ponds (modified Puls routing), bioretention cells, infiltration trenches, swales, and sand filters. Computes water-quality volume, channel-protection volume, and overflow weir/orifice geometry against local design storms.
 
-- ⬜ **Sanitary sewer designer** _(planned)_: Gravity main sizing against minimum scour velocity (typically 2 ft/s) and maximum d/D ratios, with peaking factors (Harmon, Babbitt, Federov) from contributing population. Generates slope, invert, and cover profiles, flags drop manholes, and checks H2S generation risk via Pomeroy-Parkhurst.
+- ✅ **Sanitary sewer designer** _(stub, awaits wire-up)_: Gravity main sizing against minimum scour velocity (typically 2 ft/s) and maximum d/D ratios, with peaking factors (Harmon, Babbitt, Federov) from contributing population. Generates slope, invert, and cover profiles, flags drop manholes, and checks H2S generation risk via Pomeroy-Parkhurst.
 
 - ⬜ **Septic system sizer** _(planned)_: Designs onsite wastewater systems from perc-test rates, soil texture, daily flow, and bedroom count. Sizes septic tank volume, drainfield trench length, dosing chamber, and pressure distribution laterals against state code (e.g. EPA 625, Ten States Standards) and reservation setbacks.
 
