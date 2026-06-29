@@ -457,7 +457,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **JWT and OAuth workbench** _(stub, awaits wire-up)_: Decodes, validates, and re-signs JWTs against HMAC and asymmetric keys, with header and claim editing and JWKS fetch. Walks through OAuth 2.0 authorization code, device, client credentials, and PKCE flows interactively and stores tokens with refresh handling.
 
-- ⬜ **Load tester** _(planned)_: Drives concurrent virtual users against an HTTP, WebSocket, or gRPC target with configurable ramp, rate, and request scripts. Reports latency percentiles, throughput, and error distributions; exports results as CSV and renders live charts.
+- ✅ **Load tester** _(stub, awaits wire-up)_: Drives concurrent virtual users against an HTTP, WebSocket, or gRPC target with configurable ramp, rate, and request scripts. Reports latency percentiles, throughput, and error distributions; exports results as CSV and renders live charts.
 
 - ⬜ **ASN and BGP browser** _(planned)_: Looks up IP-to-ASN mappings, prefix announcements, and peering relationships from a local snapshot of routing data. Visualizes upstreams, downstreams, and overlapping prefixes for a chosen AS.
 
