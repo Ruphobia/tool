@@ -4603,7 +4603,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Tidal harmonic predictor** _(stub, awaits wire-up)_: Computes tide height and slack/flood/ebb times from harmonic constituents (M2, S2, N2, K1, O1, etc.) using the standard 37- or 67-constituent set, with nodal corrections. Loads NOAA, UKHO TotalTide, and IHO TWL station files and can solve constituents from a logged water level series.
 
-- ⬜ **Tidal stream atlas** _(planned)_: Overlays vector current fields from HF-radar, ROMS, and tidal-diamond data on the chart at a chosen time, with hour-by-hour scrubbing relative to a reference port. Computes set-and-drift along a planned leg and flags tidal gates that close within a chosen window.
+- ✅ **Tidal stream atlas** _(stub, awaits wire-up)_: Overlays vector current fields from HF-radar, ROMS, and tidal-diamond data on the chart at a chosen time, with hour-by-hour scrubbing relative to a reference port. Computes set-and-drift along a planned leg and flags tidal gates that close within a chosen window.
 
 - ⬜ **GRIB weather router** _(planned)_: Reads GRIB1/GRIB2 wind, gust, pressure, wave, and current fields and computes isochrone-optimal routes against a polar with configurable comfort, gust, and squall-line penalties. Supports ensemble runs across GFS, ECMWF, ICON, and Arpege and reports route robustness across members.
 
