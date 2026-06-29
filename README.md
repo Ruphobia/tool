@@ -3572,7 +3572,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sun and Shade Analyzer** _(stub, awaits wire-up)_: Computes hour-by-hour solar exposure for any garden location given latitude, date range, and user-drawn obstructions (trees, fences, structures). Outputs daily light integral (DLI) heatmaps for siting beds, greenhouses, or PV-shaded agrivoltaics.
 
-- ⬜ **Greenhouse Climate Simulator** _(planned)_: Models heat load, ventilation, transpiration, and supplemental light for a hoop house or glasshouse given glazing, orientation, and local TMY weather. Sizes heaters, fans, shade cloth, and HAF circulation.
+- ✅ **Greenhouse Climate Simulator** _(stub, awaits wire-up)_: Models heat load, ventilation, transpiration, and supplemental light for a hoop house or glasshouse given glazing, orientation, and local TMY weather. Sizes heaters, fans, shade cloth, and HAF circulation.
 
 - ⬜ **Rainwater Catchment Calculator** _(planned)_: Sizes cisterns and gutters from roof area, local precipitation records, demand schedule, and first-flush losses. Plots reliability curves and overflow frequency for candidate tank volumes.
 
