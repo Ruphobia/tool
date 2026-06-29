@@ -3138,7 +3138,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Medical Image Segmenter** _(stub, awaits wire-up)_: Runs local segmentation models (TotalSegmentator, MONAI) on CT/MRI volumes for organs, lesions, and vessels, with manual brush/polygon correction and volumetric statistics export.
 
-- ⬜ **Pathway Browser** _(planned)_: Visualizes biochemical and signaling pathways (Reactome, KEGG-equivalent open data, WikiPathways) with gene/protein/metabolite overlays and drug-target annotation.
+- ✅ **Pathway Browser** _(stub, awaits wire-up)_: Visualizes biochemical and signaling pathways (Reactome, KEGG-equivalent open data, WikiPathways) with gene/protein/metabolite overlays and drug-target annotation.
 
 - ⬜ **Genomic Variant Annotator** _(planned)_: Annotates VCF variants against ClinVar, gnomAD, dbSNP, and OMIM with ACMG classification, pharmacogenomic (CPIC/PharmGKB) star-allele calling, and predicted protein effect.
 
