@@ -1607,7 +1607,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **IIIF workspace** _(stub, awaits wire-up)_: Loads IIIF manifests from any compliant repository, supports deep zoom, multi-image comparison in a Mirador-style grid, and persists annotations as W3C Web Annotations linked to canvases.
 
-- ⬜ **Archival finding-aid browser** _(planned)_: Parses and navigates EAD3 finding aids and EAC-CPF authority records. Renders the hierarchical fonds/series/file/item tree with scope notes and links to digital surrogates.
+- ✅ **Archival finding-aid browser** _(stub, awaits wire-up)_: Parses and navigates EAD3 finding aids and EAC-CPF authority records. Renders the hierarchical fonds/series/file/item tree with scope notes and links to digital surrogates.
 
 - ⬜ **Citation and footnote formatter** _(planned)_: Generates Chicago notes-bibliography, Turabian, MLA, and discipline-specific archival citations (box/folder/item, shelfmark, MS conventions). Imports CSL styles and produces clean BibTeX/CSL-JSON output.
 
