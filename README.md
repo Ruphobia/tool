@@ -3501,7 +3501,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Projection Converter** _(stub, awaits wire-up)_: Reprojects coordinates and full datasets between CRSes via PROJ strings, EPSG codes, or WKT. Handles single points, coordinate lists, bounding boxes, and whole vector/raster files with datum-shift awareness.
 
-- ⬜ **Geocoder** _(planned)_: Forward and reverse geocoding against a local Nominatim-style index plus optional online providers, returning ranked candidates with confidence and place hierarchy. Batch mode resolves CSV columns to lat/lon in one pass.
+- ✅ **Geocoder** _(stub, awaits wire-up)_: Forward and reverse geocoding against a local Nominatim-style index plus optional online providers, returning ranked candidates with confidence and place hierarchy. Batch mode resolves CSV columns to lat/lon in one pass.
 
 - ⬜ **Mineral Identifier** _(planned)_: Identifies likely minerals from observed properties (hardness, streak, luster, cleavage, density, optical signs, crystal system) against a vendored mineral database. AI-integrated reasoning over fuzzy or partial observations to rank candidates and suggest the next diagnostic test.
 
