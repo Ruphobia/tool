@@ -3052,7 +3052,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **qPCR and dPCR analyzer** _(stub, awaits wire-up)_: Ingests amplification curves, computes Cq via second derivative max, performs standard curve, efficiency, and melt analysis, and runs ddCt or Pfaffl relative quantification with reference gene validation (geNorm, NormFinder).
 
-- ⬜ **ELISA and Luminex analyzer** _(planned)_: Fits 4PL and 5PL standard curves with weighted regression, back-calculates analyte concentrations, flags out-of-range wells, and computes inter and intra-plate CVs.
+- ✅ **ELISA and Luminex analyzer** _(stub, awaits wire-up)_: Fits 4PL and 5PL standard curves with weighted regression, back-calculates analyte concentrations, flags out-of-range wells, and computes inter and intra-plate CVs.
 
 - ⬜ **Mass spec and proteomics pipeline** _(planned)_: Runs MaxQuant, FragPipe, or DIA-NN on shotgun proteomics data, identifies and quantifies peptides and PTMs, and links results to UniProt and STRING for pathway context.
 
