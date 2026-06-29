@@ -683,7 +683,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Journal browser** _(stub, awaits wire-up)_: Filterable view of the systemd journal with boot, unit, priority, and time-range facets. AI-integrated clustering of repeated error patterns and summarization of long failure runs into a single explanation.
 
-- ⬜ **Log aggregator** _(planned)_: Tails arbitrary log files and journald streams into one searchable timeline with regex, severity, and source filters. AI-integrated anomaly highlighting against a learned baseline of normal log volume and content.
+- ✅ **Log aggregator** _(stub, awaits wire-up)_: Tails arbitrary log files and journald streams into one searchable timeline with regex, severity, and source filters. AI-integrated anomaly highlighting against a learned baseline of normal log volume and content.
 
 - ⬜ **Cron and timer editor** _(planned)_: Unified editor for user crontabs, /etc/cron.d, anacron, and systemd timers, with next-fire-time preview and dry-run execution. AI-integrated translation between natural-language schedules and cron or OnCalendar expressions.
 
