@@ -3615,7 +3615,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Color tools** _(stub, awaits wire-up)_: Palette extraction, harmony generation, LUT authoring, gamut checking, and color-blindness simulation. Includes AI-integrated palette suggestion conditioned on a reference image or mood prompt.
 
-- ⬜ **Format converter** _(planned)_: Batch transcoder across PNG, JPEG, WebP, AVIF, HEIC, TIFF, JPEG-XL, DDS, and PSD with color-profile awareness and chroma subsampling control. Reports size and quality deltas per file.
+- ✅ **Format converter** _(stub, awaits wire-up)_: Batch transcoder across PNG, JPEG, WebP, AVIF, HEIC, TIFF, JPEG-XL, DDS, and PSD with color-profile awareness and chroma subsampling control. Reports size and quality deltas per file.
 
 - ⬜ **RAW developer** _(planned)_: Demosaicing and tone-mapping pipeline over CR2/NEF/ARW/DNG using libraw with white-balance, highlight recovery, and lens-profile correction. Exposes a node graph for non-destructive edits.
 
