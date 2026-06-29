@@ -1204,7 +1204,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Citation manager** _(stub, awaits wire-up)_: Local BibTeX and CSL-JSON library with PDF attachments, web-snapshot capture, DOI and ISBN lookup, and in-text cite insertion. Bibliography export in any CSL style; deduplicates entries across imported libraries.
 
-- ⬜ **Fact-checker** _(planned)_: Extracts factual claims from the draft and pairs each with cited or candidate sources, marking unsupported assertions. AI-integrated claim extraction with per-source confidence and a side panel for journalist sign-off.
+- ✅ **Fact-checker** _(stub, awaits wire-up)_: Extracts factual claims from the draft and pairs each with cited or candidate sources, marking unsupported assertions. AI-integrated claim extraction with per-source confidence and a side panel for journalist sign-off.
 
 - ⬜ **Interview transcriber** _(planned)_: Local-first ASR with speaker diarization, timestamped paragraphs, confidence-marked tokens, and click-to-play audio sync. Exports to plain text, SRT, VTT, or directly into the quote vault with source-file pointers preserved.
 
