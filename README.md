@@ -1294,7 +1294,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Bornhuetter-Ferguson and Cape Cod estimator** _(stub, awaits wire-up)_: Runs BF and Cape Cod reserving methods alongside chain-ladder using a priori loss ratios and exposure, with blended ultimates and a reconciliation report across methods.
 
-- ⬜ **Frequency-severity simulator** _(planned)_: Simulates aggregate losses from compound Poisson, negative binomial, and mixed frequency models combined with lognormal, Pareto, or empirical severity, producing VaR, TVaR, and exceedance probability curves.
+- ✅ **Frequency-severity simulator** _(stub, awaits wire-up)_: Simulates aggregate losses from compound Poisson, negative binomial, and mixed frequency models combined with lognormal, Pareto, or empirical severity, producing VaR, TVaR, and exceedance probability curves.
 
 - ⬜ **GLM rate modeler** _(planned)_: Fits Poisson, gamma, and Tweedie GLMs to policy-level frequency and severity data for ratemaking, with relativity tables, lift charts, double-lift comparisons, and one-way exhibits.
 
