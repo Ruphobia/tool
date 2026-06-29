@@ -3374,7 +3374,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Radiocarbon calibrator** _(stub, awaits wire-up)_: Calibrates uncalibrated 14C dates against IntCal20, SHCal20, and Marine20 curves with reservoir corrections, producing probability density distributions and 1/2-sigma ranges. Supports R_Combine, R_Date, sequence, and phase Bayesian models in the OxCal idiom.
 
-- ⬜ **Geochronology calculator** _(planned)_: Computes ages for K-Ar, 40Ar/39Ar, U-Pb concordia, U-Th, OSL/TL, ESR, and amino acid racemization from raw measurements with full uncertainty propagation. Plots isochrons, concordia diagrams, and probability-density spectra.
+- ✅ **Geochronology calculator** _(stub, awaits wire-up)_: Computes ages for K-Ar, 40Ar/39Ar, U-Pb concordia, U-Th, OSL/TL, ESR, and amino acid racemization from raw measurements with full uncertainty propagation. Plots isochrons, concordia diagrams, and probability-density spectra.
 
 - ⬜ **Dig site GIS** _(planned)_: Maps excavation grids, trenches, features, and finds in geographic and local site coordinates with total-station/GNSS import (DXF, CSV, Leica GSI). Overlays satellite, DEM hillshade, magnetometry, and GPR slices, and produces single-context plans.
 
