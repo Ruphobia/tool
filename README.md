@@ -1020,7 +1020,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Mind map** _(stub, awaits wire-up)_: Radial node-and-link concept-map canvas with auto-layout, collapsible branches, and export to outline or document. AI-assisted expansion of any node into child nodes from the surrounding context.
 
-- ⬜ **Linked notebook** _(planned)_: Zettelkasten-style wiki with bidirectional links, a backlinks pane, tag index, and a graph view of the whole vault. AI-suggested links and tags from note content.
+- ✅ **Linked notebook** _(stub, awaits wire-up)_: Zettelkasten-style wiki with bidirectional links, a backlinks pane, tag index, and a graph view of the whole vault. AI-suggested links and tags from note content.
 
 - ⬜ **Daily journal** _(planned)_: Date-indexed free-form journal with a calendar grid, daily / weekly / monthly templates, and full-text search across years. AI-integrated weekly and monthly digests.
 
