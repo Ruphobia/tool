@@ -4001,7 +4001,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Ingredient Substitution and Flavor Pairing Assistant** _(stub, awaits wire-up)_: Maps ingredients by dominant volatile compounds, fermentation behavior, and acid/sugar/salt ratios. AI suggests substitutions that preserve safety-critical parameters (Aw, pH, salt percent) rather than only flavor.
 
-- ⬜ **Recipe Scaling and Yield Tracker** _(planned)_: Scales fermentation and curing recipes by ingredient, batch volume, or vessel headspace while preserving ratio-critical parameters. Records actual yield, loss, and shrinkage against predicted values across runs.
+- ✅ **Recipe Scaling and Yield Tracker** _(stub, awaits wire-up)_: Scales fermentation and curing recipes by ingredient, batch volume, or vessel headspace while preserving ratio-critical parameters. Records actual yield, loss, and shrinkage against predicted values across runs.
 
 - ⬜ **Pantry and Culture Inventory** _(planned)_: Tracks live cultures (starters, mothers, koji, kefir grains), spice freshness, oil rancidity windows, and freezer cure stock. Issues refresh and feed reminders based on observed inactivity intervals.
 
