@@ -3308,7 +3308,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Exoplanet Modeler** _(stub, awaits wire-up)_: Fits transit and radial-velocity datasets to Keplerian + limb-darkened-transit models using MCMC or nested sampling. Reports planet radius, mass, eccentricity, and stellar-density posteriors with corner plots.
 
-- ⬜ **Optics Designer** _(planned)_: Computes telescope, eyepiece, and camera-train parameters: focal ratio, exit pupil, true field of view, pixel scale, critical sampling, and diffraction limit. Includes Bahtinov-mask focus simulator and Strehl-from-collimation estimator.
+- ✅ **Optics Designer** _(stub, awaits wire-up)_: Computes telescope, eyepiece, and camera-train parameters: focal ratio, exit pupil, true field of view, pixel scale, critical sampling, and diffraction limit. Includes Bahtinov-mask focus simulator and Strehl-from-collimation estimator.
 
 - ⬜ **Light Pollution Map** _(planned)_: Renders Bortle/SQM sky-brightness maps from VIIRS data with limiting-magnitude estimates per filter and zenith angle. Suggests dark-sky sites within a chosen drive radius.
 
