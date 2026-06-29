@@ -3014,7 +3014,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Variant caller** _(stub, awaits wire-up)_: Calls SNPs, indels, and structural variants on bacterial, viral, and eukaryotic data with bcftools, GATK, or LoFreq for low-frequency variants in viral quasispecies.
 
-- ⬜ **Pangenome analyzer** _(planned)_: Builds core and accessory gene matrices via Roary, Panaroo, or PPanGGOLiN, computes presence-absence, gene gain-loss, and rarefaction curves across isolate sets.
+- ✅ **Pangenome analyzer** _(stub, awaits wire-up)_: Builds core and accessory gene matrices via Roary, Panaroo, or PPanGGOLiN, computes presence-absence, gene gain-loss, and rarefaction curves across isolate sets.
 
 - ⬜ **Strain typer** _(planned)_: Runs MLST, cgMLST, wgMLST, spaTyping, serotyping (SISTR, SeqSero, Kaptive), and SNP-based clustering for outbreak investigation. Outputs minimum spanning trees and transmission inference.
 
