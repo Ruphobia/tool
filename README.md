@@ -4402,7 +4402,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Hobbies: gardening, beekeeping, aquariums, pets
 
-- ⬜ **Companion planting matrix** _(planned)_: Tabulates pairwise plant compatibility across allelopathy, shared pests, pollinator overlap, and nutrient guilds. Flags conflicts and suggests beneficial neighbors when laying out beds.
+- ✅ **Companion planting matrix** _(stub, awaits wire-up)_: Tabulates pairwise plant compatibility across allelopathy, shared pests, pollinator overlap, and nutrient guilds. Flags conflicts and suggests beneficial neighbors when laying out beds.
 
 - ⬜ **Plant and pest ID** _(planned)_: Identifies plants, weeds, insects, and disease lesions from photos using a local visual model, returning species, confidence, and a short treatment note with source citation.
 
