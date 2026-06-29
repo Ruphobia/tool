@@ -2658,7 +2658,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **NEC antenna designer** _(stub, awaits wire-up)_: Edits wire and surface geometries, runs NEC2, NEC4, and MININEC engines, and plots 2D/3D gain patterns, SWR sweeps, current distribution, and near-field. Supports radials, lossy ground, tapered elements, and Sommerfeld-Norton modeling.
 
-- ⬜ **Smith chart and matching** _(planned)_: Plots impedance and admittance with frequency markers, computes L, Pi, T, and stub matching networks, and shows Q-circles and VSWR contours. Synthesizes a schematic with realistic component Q and self-resonance.
+- ✅ **Smith chart and matching** _(stub, awaits wire-up)_: Plots impedance and admittance with frequency markers, computes L, Pi, T, and stub matching networks, and shows Q-circles and VSWR contours. Synthesizes a schematic with realistic component Q and self-resonance.
 
 - ⬜ **Propagation predictor** _(planned)_: Runs VOACAP, ITURHFProp, P2P, and area coverage with current SSN, SFI, Kp, and aurora ingest from NOAA SWPC. Renders MUF/LUF maps, gray-line, sporadic-E, tropo ducting, and meteor scatter windows.
 
