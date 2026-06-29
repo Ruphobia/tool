@@ -624,7 +624,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **EXPLAIN visualizer** _(stub, awaits wire-up)_: Renders EXPLAIN ANALYZE plans as a node graph with cost, rows, time, and buffer hits per operator; flags seq scans on large tables, bad estimates, and missing indexes with AI-integrated rewrite suggestions.
 
-- ⬜ **Index advisor** _(planned)_: Captures slow query logs or pg_stat_statements, proposes candidate indexes with hypothetical (HypoPG-style) testing, and reports redundant or unused indexes for removal.
+- ✅ **Index advisor** _(stub, awaits wire-up)_: Captures slow query logs or pg_stat_statements, proposes candidate indexes with hypothetical (HypoPG-style) testing, and reports redundant or unused indexes for removal.
 
 - ⬜ **Data grid editor** _(planned)_: Spreadsheet-style row editor with inline foreign key navigation, JSON/JSONB drill-down, BLOB hex/image preview, multi-row paste, and pending-change review before commit.
 
