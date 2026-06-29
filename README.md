@@ -2216,7 +2216,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Feeds, Speeds and Tool Library** _(stub, awaits wire-up)_: Computes feeds, speeds, chip load, axial/radial engagement, and HP/torque per tool, material, and operation; maintains an endmill, drill, and tap library with stickout, runout, and wear tracking.
 
-- ⬜ **G-code Visualizer and Simulator** _(planned)_: Renders FDM, laser, and CNC G-code with toolpath coloring by speed, layer, or extruder; simulates material removal, detects collisions and rapids through stock, and verifies post-processor output before machine time.
+- ✅ **G-code Visualizer and Simulator** _(stub, awaits wire-up)_: Renders FDM, laser, and CNC G-code with toolpath coloring by speed, layer, or extruder; simulates material removal, detects collisions and rapids through stock, and verifies post-processor output before machine time.
 
 - ⬜ **Welding Parameter Calculator** _(planned)_: Computes amperage, voltage, wire feed speed, travel speed, shielding gas mix, and filler diameter for MIG, TIG, stick, and flux-core across common steel, stainless, and aluminum joints, with heat input, distortion, and bead profile estimates.
 
