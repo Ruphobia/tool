@@ -3566,7 +3566,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Compost Recipe Builder** _(stub, awaits wire-up)_: Balances feedstocks to target C:N (typically 25-30), moisture (~55%), and bulk density across browns, greens, manures, and biochar inputs. Estimates pile temperature curve and turn schedule.
 
-- ⬜ **Hydroponic Solution Mixer** _(planned)_: Builds A/B stock tanks for hydroponics, fertigation, or foliar feeds from mineral salts (calcium nitrate, MKP, MgSO4, micros) to hit target ppm and EC with pH adjusted via acid or base. Validates ion balance and precipitation risk.
+- ✅ **Hydroponic Solution Mixer** _(stub, awaits wire-up)_: Builds A/B stock tanks for hydroponics, fertigation, or foliar feeds from mineral salts (calcium nitrate, MKP, MgSO4, micros) to hit target ppm and EC with pH adjusted via acid or base. Validates ion balance and precipitation risk.
 
 - ⬜ **Crop Yield Model** _(planned)_: Estimates yield per crop using degree-day accumulation, light interception (LAI, PAR), water stress index, and nutrient sufficiency. Calibrates against entered historical harvest weights to localize predictions.
 
