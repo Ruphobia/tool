@@ -3879,7 +3879,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Drum machine and step sequencer** _(stub, awaits wire-up)_: Pattern-based sequencer with per-step probability, ratchets, micro-timing, parameter locks, and song-mode chaining; samples or synthesized voices per track.
 
-- ⬜ **Tuner and intonation tools** _(planned)_: Chromatic and strobe tuner, temperament selector (equal, just, meantone, Pythagorean, custom Scala/.scl), and intonation analyzer for ensembles and recordings.
+- ✅ **Tuner and intonation tools** _(stub, awaits wire-up)_: Chromatic and strobe tuner, temperament selector (equal, just, meantone, Pythagorean, custom Scala/.scl), and intonation analyzer for ensembles and recordings.
 
 - ⬜ **Podcast and dialogue production** _(planned)_: Multi-speaker leveling, dialogue ducking, mouth-click removal, silence-cut, and chapter-marker tools; AI-integrated transcript-driven editing where deleting text deletes audio.
 
