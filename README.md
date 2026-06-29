@@ -4073,7 +4073,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Clay Body Formulator** _(stub, awaits wire-up)_: Blends earthenware, stoneware, and porcelain bodies from feldspar, silica, kaolin, ball clay, and grog by target shrinkage, absorption, plasticity, and maturing cone. Predicts thermal expansion for glaze fit and warns on dunting and crawling risks.
 
-- ⬜ **Glass COE and Color Match** _(planned)_: Compatibility checker for soft glass, borosilicate, quartz, and lead crystal across vendors (Bullseye 90, System 96, Effetre 104, Boro 33). Stores striking and reduction color libraries with working temperature ranges and suggests anneal soak times by section thickness.
+- ✅ **Glass COE and Color Match** _(stub, awaits wire-up)_: Compatibility checker for soft glass, borosilicate, quartz, and lead crystal across vendors (Bullseye 90, System 96, Effetre 104, Boro 33). Stores striking and reduction color libraries with working temperature ranges and suggests anneal soak times by section thickness.
 
 - ⬜ **Annealing and Lehr Planner** _(planned)_: Derives anneal point, strain point, hold, and cool-rate schedules for glass pieces by thickness and geometry; for metals, plans recrystallization anneals for sterling, copper, brass, gold, and titanium with pickle and oxide-mitigation steps.
 
