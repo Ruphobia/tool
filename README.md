@@ -347,7 +347,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Container sandbox** _(stub, awaits wire-up)_: Disposable rootless containers and ephemeral VMs for running untrusted code, reproducible builds, and matrix testing across distros, language versions, and architectures.
 
-- ⬜ **Documentation generator** _(planned)_: Builds API docs from docstrings, types, and examples across languages, with AI-drafted prose for undocumented surfaces and consistency checks between code and prose.
+- ✅ **Documentation generator** _(stub, awaits wire-up)_: Builds API docs from docstrings, types, and examples across languages, with AI-drafted prose for undocumented surfaces and consistency checks between code and prose.
 
 - ✅ **Changelog and release tool** _(in testing)_: Compiles changelogs from commit history and merged PRs, applies semver heuristics, tags releases, and produces signed artifacts and release notes with AI editing for tone and accuracy.
 
