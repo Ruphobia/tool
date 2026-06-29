@@ -2202,7 +2202,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pressure Advance and Input Shaper Tuner** _(stub, awaits wire-up)_: Generates PA, input shaper, retraction, flow, temperature tower, and first-layer calibration test prints; reads resonance CSVs from Klipper or accelerometer logs and recommends shaper type and frequency.
 
-- ⬜ **Mesh Repair and Orientation Optimizer** _(planned)_: Heals non-manifold meshes, fills holes, and re-meshes; finds print orientations that minimize support volume, maximize strength along load axes, and reduce visible seams on cosmetic faces.
+- ✅ **Mesh Repair and Orientation Optimizer** _(stub, awaits wire-up)_: Heals non-manifold meshes, fills holes, and re-meshes; finds print orientations that minimize support volume, maximize strength along load axes, and reduce visible seams on cosmetic faces.
 
 - ⬜ **Lattice and TPMS Infill Generator** _(planned)_: Generates gyroid, Schwarz, voronoi, and graded lattices inside arbitrary shells with target density, stiffness, and porosity for lightweighting, conformal cushioning, and heat exchanger geometry.
 
