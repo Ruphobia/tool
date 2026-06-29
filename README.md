@@ -2961,7 +2961,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Plasmid Map Editor** _(stub, awaits wire-up)_: Circular and linear vector design with feature annotation, restriction site mapping, ORF detection, and in-silico cloning (Gibson, Golden Gate, restriction-ligation, In-Fusion). Reads and writes GenBank and SnapGene .dna; renders publication-grade maps.
 
-- ⬜ **Restriction Enzyme Mapper** _(planned)_: Catalogs enzyme cut sites across a sequence with isoschizomer awareness, methylation sensitivity, and star activity flags. Picks single, double, and triple digests for a desired fragment pattern and simulates the resulting gel.
+- ✅ **Restriction Enzyme Mapper** _(stub, awaits wire-up)_: Catalogs enzyme cut sites across a sequence with isoschizomer awareness, methylation sensitivity, and star activity flags. Picks single, double, and triple digests for a desired fragment pattern and simulates the resulting gel.
 
 - ⬜ **CRISPR Guide Designer** _(planned)_: Designs sgRNAs for Cas9, Cas12a, base editors, and prime editors with on-target efficiency scoring (Doench, DeepCRISPR) and genome-wide off-target enumeration. Repair-template builder for HDR knock-ins and library design for pooled screens.
 
