@@ -4126,7 +4126,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Clay and shrinkage calculator** _(stub, awaits wire-up)_: Tracks wet, leather-hard, bone-dry, bisque, and glaze-fired dimensions for a clay body, computes total linear and volumetric shrinkage, and back-solves the wet size needed to hit a target finished dimension.
 
-- ⬜ **Maquette viewer** _(planned)_: Loads STL, OBJ, PLY, and 3MF maquettes with PBR or matcap shading, measures distances/angles/cross-sections, slices for armature planning, and snapshots reference views at standard sculptor angles.
+- ✅ **Maquette viewer** _(stub, awaits wire-up)_: Loads STL, OBJ, PLY, and 3MF maquettes with PBR or matcap shading, measures distances/angles/cross-sections, slices for armature planning, and snapshots reference views at standard sculptor angles.
 
 - ⬜ **Papercraft unfolder** _(planned)_: Unfolds a 3D mesh into flat polygon strips with user-controlled cut and glue-tab seams, optimizes for sheet count and tab visibility, and exports printable PDF/SVG with fold-direction line styles.
 
