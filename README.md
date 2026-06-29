@@ -985,7 +985,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Floppy Flux Workbench** _(stub, awaits wire-up)_: Ingests KryoFlux, Greaseweazle, and Applesauce flux streams, visualizes bit cells per track, detects common copy protections, and reconstructs sectors with confidence scores.
 
-- ⬜ **Capacitor Atlas** _(planned)_: Per-board capacitor lists (value, voltage, ESR target, polarity, footprint) with vendor part numbers and reform-versus-replace decisions logged per individual unit.
+- ✅ **Capacitor Atlas** _(stub, awaits wire-up)_: Per-board capacitor lists (value, voltage, ESR target, polarity, footprint) with vendor part numbers and reform-versus-replace decisions logged per individual unit.
 
 - ⬜ **Emulator Harness** _(planned)_: Launches MAME, VICE, FS-UAE, Stella, Hatari, openMSX, and similar cores with auto-selected ROM sets, controller maps, and savestate routing keyed off the local catalog.
 
