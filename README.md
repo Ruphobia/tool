@@ -917,7 +917,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Steganography and Carrier Scanner** _(stub, awaits wire-up)_: Detects LSB, DCT, palette, and append-after-EOF stego across images, audio, and PDFs with payload extraction and known-tool fingerprinting. Reports suspicion scores per carrier.
 
-- ⬜ **IOC Extractor and Normalizer** _(planned)_: Pulls indicators (IPs, domains, hashes, URLs, CVEs, mutexes, registry keys, Bitcoin addresses) from arbitrary text, PDFs, and reports. Defangs/refangs, deduplicates, and exports STIX, MISP, and CSV.
+- ✅ **IOC Extractor and Normalizer** _(stub, awaits wire-up)_: Pulls indicators (IPs, domains, hashes, URLs, CVEs, mutexes, registry keys, Bitcoin addresses) from arbitrary text, PDFs, and reports. Defangs/refangs, deduplicates, and exports STIX, MISP, and CSV.
 
 
 #### Cryptography and blockchain
