@@ -1940,7 +1940,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **PCB layout** _(stub, awaits wire-up)_: Multi-layer board editor with interactive routing, differential pairs, length matching, copper pours, and DRC. Imports netlists from the schematic tool and supports push-and-shove plus length-tuned serpentines.
 
-- ⬜ **3D board viewer** _(planned)_: Renders the PCB stack with component bodies, solder mask, and silkscreen for visual inspection and mechanical fit checks. Exports STEP for enclosure CAD.
+- ✅ **3D board viewer** _(stub, awaits wire-up)_: Renders the PCB stack with component bodies, solder mask, and silkscreen for visual inspection and mechanical fit checks. Exports STEP for enclosure CAD.
 
 - ⬜ **Footprint editor** _(planned)_: Creates and edits land patterns with IPC-compliant courtyards, pad stacks, and assembly drawings. AI-integrated generation of footprints from datasheet PDFs and dimensioned drawings.
 
