@@ -3276,7 +3276,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Ephemeris Calculator** _(stub, awaits wire-up)_: Computes positions, rise/set/transit times, illumination, and apparent magnitudes for planets, moons, asteroids, and comets using JPL DE kernels and MPC orbital elements. AI-integrated natural-language queries like 'when does Jupiter clear my eastern treeline'.
 
-- ⬜ **FITS Viewer** _(planned)_: Loads FITS images and cubes with WCS-aware pan/zoom, header inspection, multiple stretch functions (linear, log, asinh, zscale), and side-by-side blink comparison. Includes region drawing, pixel statistics, and HDU navigation.
+- ✅ **FITS Viewer** _(stub, awaits wire-up)_: Loads FITS images and cubes with WCS-aware pan/zoom, header inspection, multiple stretch functions (linear, log, asinh, zscale), and side-by-side blink comparison. Includes region drawing, pixel statistics, and HDU navigation.
 
 - ⬜ **Image Stacker** _(planned)_: Aligns and combines astrophotography subexposures with star detection, registration, sigma-clipped stacking, and dark/flat/bias calibration. Supports drizzle integration, dithered mosaics, and per-frame quality scoring.
 
