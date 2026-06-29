@@ -1329,7 +1329,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **DCF & Scenario Modeler** _(stub, awaits wire-up)_: Builds discounted-cash-flow models with assumption sheets, sensitivity tables, and tornado charts; supports terminal value via Gordon growth or exit multiple. Side-by-side scenarios share drivers so one knob updates every linked output.
 
-- ⬜ **Currency Converter** _(planned)_: Converts between fiat and crypto at spot or historical rates from vendored daily FX series, with offline fallback and pluggable live feeds. Handles cross-rate triangulation and inline conversion inside any other tool.
+- ✅ **Currency Converter** _(stub, awaits wire-up)_: Converts between fiat and crypto at spot or historical rates from vendored daily FX series, with offline fallback and pluggable live feeds. Handles cross-rate triangulation and inline conversion inside any other tool.
 
 - ⬜ **Budget & Cash Flow Forecaster** _(planned)_: Projects month-by-month inflows and outflows from recurring rules, scheduled invoices, and ledger trends; surfaces runway, minimum-balance dates, and seasonality. AI-integrated anomaly detection flags categories drifting from baseline.
 
