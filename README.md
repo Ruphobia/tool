@@ -2947,7 +2947,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Multiple Sequence Alignment** _(stub, awaits wire-up)_: Wraps MUSCLE, MAFFT, Clustal Omega, and T-Coffee with a common UI. Conservation tracks, consensus extraction, gap-stripping, profile-to-profile alignment, and export to PHYLIP, NEXUS, and Stockholm.
 
-- ⬜ **Pairwise Aligner** _(planned)_: Smith-Waterman and Needleman-Wunsch with configurable scoring matrices (BLOSUM, PAM, custom), gap penalties, and seed-and-extend for long sequences. Dot-plot view for spotting repeats, inversions, and duplications.
+- ✅ **Pairwise Aligner** _(stub, awaits wire-up)_: Smith-Waterman and Needleman-Wunsch with configurable scoring matrices (BLOSUM, PAM, custom), gap penalties, and seed-and-extend for long sequences. Dot-plot view for spotting repeats, inversions, and duplications.
 
 - ⬜ **Genome Browser** _(planned)_: Track-based viewer for assemblies and annotations (FASTA + GFF3, GTF, BED, BigWig, VCF, BAM, CRAM). Zoom from chromosome to base, synteny ribbons across loaded genomes, and read pileups with mismatch coloring.
 
