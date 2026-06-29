@@ -4034,7 +4034,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **FermentationLog** _(stub, awaits wire-up)_: Gravity, Brix, pH, and temperature curves for beer, wine, mead, cider, and kombucha. Detects stuck fermentation, predicts terminal gravity, and prompts dry hop or rack windows.
 
-- ⬜ **CuppingSession** _(planned)_: SCA cupping form with the ten scored attributes plus Q-grade overlays, triangle and duo-trio panels, and blind randomization. Aggregates panel scores and flags outlier graders.
+- ✅ **CuppingSession** _(stub, awaits wire-up)_: SCA cupping form with the ten scored attributes plus Q-grade overlays, triangle and duo-trio panels, and blind randomization. Aggregates panel scores and flags outlier graders.
 
 - ⬜ **FoodPairingEngine** _(planned)_: AI-assisted pairing across coffee, tea, wine, beer, and spirits given a dish, cooking technique, and dominant flavor compounds. Cross-references aromatic congruence and contrast strategies with cited tasting precedents.
 
