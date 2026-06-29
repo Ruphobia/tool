@@ -149,7 +149,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Test runner** _(in testing)_: standalone tool_test binary; each feature registers its own CLI smoke test; tool_test --all is the local quick-check.
 
-- ⬜ **Embedded browser tool** _(broken, needs rework)_: a full browser running inside the tool itself, executing server-side. Page loads, navigation, form submissions, and downloads all happen on the host running the tool rather than on the user's workstation, so when the user follows a vendor link and pulls a datasheet, a schematic symbol, or any other resource, it lands in the project tree on the server rather than in the workstation's download folder.
+- ✅ **Embedded browser tool** _(stub, awaits wire-up)_: a full browser running inside the tool itself, executing server-side. Page loads, navigation, form submissions, and downloads all happen on the host running the tool rather than on the user's workstation, so when the user follows a vendor link and pulls a datasheet, a schematic symbol, or any other resource, it lands in the project tree on the server rather than in the workstation's download folder.
 
 - ✅ **Scripting tool** _(in testing)_: a tool for writing and executing scripts that automate work across the other tools. AI drafts the script, the user reviews and approves, the scripting tool runs it. Outputs feed back into the chat or the project tree.
 
