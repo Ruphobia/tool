@@ -4102,7 +4102,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Gradient designer** _(stub, awaits wire-up)_: Composes multi-stop gradients with per-stop easing and interpolation chosen across sRGB, linear RGB, OKLab, OKLCH, or LCh, and exports CSS, SVG, GIMP .ggr, and Krita .svg presets.
 
-- ⬜ **Color space converter** _(planned)_: Round-trips colors between sRGB, Adobe RGB, Display P3, Rec.2020, CIE XYZ, CIELAB, OKLab, HSL, HSV, and CMYK with explicit white point and gamma handling, and flags out-of-gamut values.
+- ✅ **Color space converter** _(stub, awaits wire-up)_: Round-trips colors between sRGB, Adobe RGB, Display P3, Rec.2020, CIE XYZ, CIELAB, OKLab, HSL, HSV, and CMYK with explicit white point and gamma handling, and flags out-of-gamut values.
 
 - ⬜ **Color vision simulator** _(planned)_: Renders an image or palette as seen under protanopia, deuteranopia, tritanopia, achromatopsia, and low-contrast vision, and scores adjacent swatch pairs for confusability.
 
