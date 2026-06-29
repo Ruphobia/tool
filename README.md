@@ -1163,7 +1163,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Queueing analyzer** _(stub, awaits wire-up)_: Evaluates M/M/c, M/G/1, G/G/c (via Allen-Cunneen approximation), and finite-population queues, returning Lq, Wq, utilization, and tail probabilities. Composes Jackson and BCMP networks for multi-station systems and validates against Little's Law.
 
-- ⬜ **Discrete-event simulator** _(planned)_: Builds SimPy-style process models for warehouses, terminals, and supply chains with resources, queues, preemption, and stochastic arrivals. Runs replications with common random numbers, computes confidence intervals, and supports rare-event importance sampling.
+- ✅ **Discrete-event simulator** _(stub, awaits wire-up)_: Builds SimPy-style process models for warehouses, terminals, and supply chains with resources, queues, preemption, and stochastic arrivals. Runs replications with common random numbers, computes confidence intervals, and supports rare-event importance sampling.
 
 - ⬜ **Job shop scheduler** _(planned)_: Solves job-shop, flow-shop, open-shop, and flexible JSP via CP-SAT and disjunctive-graph heuristics (shifting bottleneck, tabu search). Optimizes makespan, total tardiness, or weighted flowtime; renders Gantt charts and critical paths.
 
