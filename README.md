@@ -2713,7 +2713,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pacejka Tire Model Lab** _(stub, awaits wire-up)_: Fits the Magic Formula (PAC2002 / MF6.1) to measured Fy/Fx/Mz data and plots slip angle, slip ratio, and combined-grip friction ellipses. Generates parameter sets ready for export to vehicle-dynamics solvers.
 
-- ⬜ **Tire Pressure and Temperature Logger** _(planned)_: Captures internal/external IR tire temperatures, hot and cold pressures, and tread depth per corner across sessions. Plots inside/middle/outside temperature spread against camber and pressure to guide alignment changes.
+- ✅ **Tire Pressure and Temperature Logger** _(stub, awaits wire-up)_: Captures internal/external IR tire temperatures, hot and cold pressures, and tread depth per corner across sessions. Plots inside/middle/outside temperature spread against camber and pressure to guide alignment changes.
 
 - ⬜ **Corner Weight and Setup Sheet** _(planned)_: Logs scale pad weights, computes cross-weight, front/rear and left/right bias, and tracks the effect of ride-height adjustments in real time. Stores per-event setup snapshots with alignment, sway bars, dampers, and tire data.
 
