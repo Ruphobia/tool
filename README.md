@@ -3274,7 +3274,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sky Chart** _(stub, awaits wire-up)_: Interactive planetarium rendering stars, deep-sky objects, planets, and constellations for any location and time. Supports horizon view, equatorial grid, telrad overlays, and tonight-visible filtering.
 
-- ⬜ **Ephemeris Calculator** _(planned)_: Computes positions, rise/set/transit times, illumination, and apparent magnitudes for planets, moons, asteroids, and comets using JPL DE kernels and MPC orbital elements. AI-integrated natural-language queries like 'when does Jupiter clear my eastern treeline'.
+- ✅ **Ephemeris Calculator** _(stub, awaits wire-up)_: Computes positions, rise/set/transit times, illumination, and apparent magnitudes for planets, moons, asteroids, and comets using JPL DE kernels and MPC orbital elements. AI-integrated natural-language queries like 'when does Jupiter clear my eastern treeline'.
 
 - ⬜ **FITS Viewer** _(planned)_: Loads FITS images and cubes with WCS-aware pan/zoom, header inspection, multiple stretch functions (linear, log, asinh, zscale), and side-by-side blink comparison. Includes region drawing, pixel statistics, and HDU navigation.
 
