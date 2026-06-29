@@ -4229,7 +4229,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Blocking Notation Pad** _(stub, awaits wire-up)_: Captures actor positions on a top-down stage diagram beat by beat or page by page. Scrubs through the script timeline to see entrances, crosses, exits, and stage picture changes.
 
-- ⬜ **Script Breakdown Grid** _(planned)_: Parses the script into French scenes and produces a character/scene presence grid with tagged props, costumes, sound effects, and lighting moments. AI-integrated parsing extracts entrances, exits, and implicit cues from the dramatic text.
+- ✅ **Script Breakdown Grid** _(stub, awaits wire-up)_: Parses the script into French scenes and produces a character/scene presence grid with tagged props, costumes, sound effects, and lighting moments. AI-integrated parsing extracts entrances, exits, and implicit cues from the dramatic text.
 
 - ⬜ **Rehearsal Scheduler** _(planned)_: Solves rehearsal calls against actor availability, French-scene presence, room and director conflicts, and Equity break rules. Emits daily call sheets and conflict reports.
 
