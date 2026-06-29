@@ -1860,7 +1860,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Morphology Sketcher** _(stub, awaits wire-up)_: Defines inflectional and derivational templates, declension and conjugation paradigms, and morphophonemic sandhi rules. Auto-fills paradigm tables from stems and surfaces irregulars for manual override.
 
-- ⬜ **Syntax Sandbox** _(planned)_: Configures word-order parameters, alignment (nominative-accusative, ergative-absolutive, active-stative, tripartite), agreement, and case marking. Renders constituency or dependency trees over sample sentences and checks them against the configured grammar.
+- ✅ **Syntax Sandbox** _(stub, awaits wire-up)_: Configures word-order parameters, alignment (nominative-accusative, ergative-absolutive, active-stative, tripartite), agreement, and case marking. Renders constituency or dependency trees over sample sentences and checks them against the configured grammar.
 
 - ⬜ **Interlinear Gloss Editor** _(planned)_: Composes Leipzig-conformant glossed examples with morpheme segmentation, gloss line, and free translation. Auto-suggests glosses from the lexicon and morphology layers, and re-glosses bulk corpora after rule edits.
 
