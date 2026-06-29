@@ -1958,7 +1958,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Power integrity analyzer** _(stub, awaits wire-up)_: PDN impedance solver with decoupling-capacitor optimization, IR drop maps, and rail transient analysis. Recommends cap value and placement to hit a target impedance curve.
 
-- ⬜ **Thermal simulator** _(planned)_: Finite-element thermal solver for board and enclosure heat flow with copper-pour modeling, airflow, and heatsink libraries. Flags components near junction-temperature limits under worst-case load.
+- ✅ **Thermal simulator** _(stub, awaits wire-up)_: Finite-element thermal solver for board and enclosure heat flow with copper-pour modeling, airflow, and heatsink libraries. Flags components near junction-temperature limits under worst-case load.
 
 - ⬜ **EMC pre-compliance** _(planned)_: Near-field and conducted-emissions estimator with antenna factor calibration, plus checklists for FCC Part 15, CISPR 22, and CE marking. AI-integrated triage of failing harmonics to likely radiating loops on the board.
 
