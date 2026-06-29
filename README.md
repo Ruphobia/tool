@@ -750,7 +750,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Behavior Tree Authoring** _(stub, awaits wire-up)_: Visual editor for behavior trees with selectors, sequences, decorators, services, blackboard inspection, and step-debugging against a live game instance. Includes a library of reusable subtrees and unit tests per node.
 
-- ⬜ **State Machine Editor** _(planned)_: Hierarchical FSM designer with transitions, guards, entry/exit actions, parallel regions, and statechart export. Live replay shows the active state path against recorded gameplay traces.
+- ✅ **State Machine Editor** _(stub, awaits wire-up)_: Hierarchical FSM designer with transitions, guards, entry/exit actions, parallel regions, and statechart export. Live replay shows the active state path against recorded gameplay traces.
 
 - ⬜ **Sound Effect Forge** _(planned)_: Sfxr/Bfxr-style procedural SFX synthesizer with parameter randomization, mutation history, and project-wide variation banks. Includes a denoiser, normalizer, and game-engine-ready WAV/OGG export.
 
