@@ -872,7 +872,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Circuit Equivalence Checker** _(stub, awaits wire-up)_: Verifies two circuits implement the same unitary (or channel) up to global phase via ZX-calculus rewriting and Clifford-tableau methods, with a minimal counterexample basis state when they differ.
 
-- ⬜ **QASM and Format Bridge** _(planned)_: Round-trip import and export of OpenQASM 2/3, Quil, Cirq JSON, Qiskit QPY, and PennyLane tape, with a textual editor that stays in sync with the visual builder.
+- ✅ **QASM and Format Bridge** _(stub, awaits wire-up)_: Round-trip import and export of OpenQASM 2/3, Quil, Cirq JSON, Qiskit QPY, and PennyLane tape, with a textual editor that stays in sync with the visual builder.
 
 
 #### Cybersecurity and digital forensics
