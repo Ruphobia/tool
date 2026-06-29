@@ -628,7 +628,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Data grid editor** _(stub, awaits wire-up)_: Spreadsheet-style row editor with inline foreign key navigation, JSON/JSONB drill-down, BLOB hex/image preview, multi-row paste, and pending-change review before commit.
 
-- ⬜ **Import/Export hub** _(planned)_: Bulk loads and dumps CSV, TSV, Parquet, Avro, JSONL, Excel, and SQL dumps with column mapping, type coercion, error quarantine, and resumable streaming for billion-row tables.
+- ✅ **Import/Export hub** _(stub, awaits wire-up)_: Bulk loads and dumps CSV, TSV, Parquet, Avro, JSONL, Excel, and SQL dumps with column mapping, type coercion, error quarantine, and resumable streaming for billion-row tables.
 
 - ⬜ **Backup and restore** _(planned)_: Schedules and runs pg_dump, mysqldump, mongodump, and physical base backups; verifies restore integrity to ephemeral instances and tracks PITR window and WAL/binlog retention.
 
