@@ -1554,7 +1554,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Hyperparameter sweeper** _(stub, awaits wire-up)_: Runs grid, random, Bayesian (Optuna), Hyperband, and population-based searches against any training script with early stopping, pruning, and live Pareto-front visualization.
 
-- ⬜ **AutoML pipeline** _(planned)_: Generates feature pipelines and model ensembles over tabular data using PyCaret/AutoGluon/TPOT backends, with leakage detection and target-leakage warnings. AI-integrated narration of why the chosen pipeline beat the others.
+- ✅ **AutoML pipeline** _(stub, awaits wire-up)_: Generates feature pipelines and model ensembles over tabular data using PyCaret/AutoGluon/TPOT backends, with leakage detection and target-leakage warnings. AI-integrated narration of why the chosen pipeline beat the others.
 
 - ⬜ **Feature store** _(planned)_: Versioned offline/online feature definitions with point-in-time correct joins, freshness tracking, and lineage from raw source to training example.
 
