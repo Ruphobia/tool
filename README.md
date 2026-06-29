@@ -459,7 +459,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Load tester** _(stub, awaits wire-up)_: Drives concurrent virtual users against an HTTP, WebSocket, or gRPC target with configurable ramp, rate, and request scripts. Reports latency percentiles, throughput, and error distributions; exports results as CSV and renders live charts.
 
-- ⬜ **ASN and BGP browser** _(planned)_: Looks up IP-to-ASN mappings, prefix announcements, and peering relationships from a local snapshot of routing data. Visualizes upstreams, downstreams, and overlapping prefixes for a chosen AS.
+- ✅ **ASN and BGP browser** _(stub, awaits wire-up)_: Looks up IP-to-ASN mappings, prefix announcements, and peering relationships from a local snapshot of routing data. Visualizes upstreams, downstreams, and overlapping prefixes for a chosen AS.
 
 - ⬜ **Subdomain and asset enumerator** _(planned)_: Discovers subdomains and exposed assets through certificate transparency logs, passive DNS snapshots, and active brute force against wordlists. Deduplicates findings into a single inventory per root domain with last-seen timestamps.
 
