@@ -3971,7 +3971,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Shelf-Life & Spoilage Modeler** _(stub, awaits wire-up)_: Predicts shelf life from water activity, pH, salt, and storage temperature using Q10 kinetics and published pathogen growth boundaries, with HACCP-style critical control point review.
 
-- ⬜ **Sourdough Starter Logger** _(planned)_: Tracks feedings, hydration ratio, peak times, and rise heights across multiple starters. Plots ambient temperature against doubling time to predict readiness windows.
+- ✅ **Sourdough Starter Logger** _(stub, awaits wire-up)_: Tracks feedings, hydration ratio, peak times, and rise heights across multiple starters. Plots ambient temperature against doubling time to predict readiness windows.
 
 - ⬜ **Kombucha SCOBY Tracker** _(planned)_: Logs brew batches with starting tea pH, sugar concentration, and daily acidity readings. Estimates F1 finish dates from temperature curves and flags vinegar-tier overshoot risk.
 
