@@ -4227,7 +4227,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Set Drafting Workspace** _(stub, awaits wire-up)_: Drafts ground plan, section, and elevation views at scale with line weights, hatches, dimensions, and a title block. Exports DWG/PDF for the scene shop and load-in crew.
 
-- ⬜ **Blocking Notation Pad** _(planned)_: Captures actor positions on a top-down stage diagram beat by beat or page by page. Scrubs through the script timeline to see entrances, crosses, exits, and stage picture changes.
+- ✅ **Blocking Notation Pad** _(stub, awaits wire-up)_: Captures actor positions on a top-down stage diagram beat by beat or page by page. Scrubs through the script timeline to see entrances, crosses, exits, and stage picture changes.
 
 - ⬜ **Script Breakdown Grid** _(planned)_: Parses the script into French scenes and produces a character/scene presence grid with tagged props, costumes, sound effects, and lighting moments. AI-integrated parsing extracts entrances, exits, and implicit cues from the dramatic text.
 
