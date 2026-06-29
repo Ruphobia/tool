@@ -1161,7 +1161,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Newsvendor solver** _(stub, awaits wire-up)_: Computes optimal single-period order quantity from underage/overage costs and a demand distribution (empirical, normal, lognormal, custom). Sweeps service-level vs expected-profit curves and supports salvage value, emergency procurement, and risk-averse CVaR objectives.
 
-- ⬜ **Queueing analyzer** _(planned)_: Evaluates M/M/c, M/G/1, G/G/c (via Allen-Cunneen approximation), and finite-population queues, returning Lq, Wq, utilization, and tail probabilities. Composes Jackson and BCMP networks for multi-station systems and validates against Little's Law.
+- ✅ **Queueing analyzer** _(stub, awaits wire-up)_: Evaluates M/M/c, M/G/1, G/G/c (via Allen-Cunneen approximation), and finite-population queues, returning Lq, Wq, utilization, and tail probabilities. Composes Jackson and BCMP networks for multi-station systems and validates against Little's Law.
 
 - ⬜ **Discrete-event simulator** _(planned)_: Builds SimPy-style process models for warehouses, terminals, and supply chains with resources, queues, preemption, and stochastic arrivals. Runs replications with common random numbers, computes confidence intervals, and supports rare-event importance sampling.
 
