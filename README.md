@@ -1103,7 +1103,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **SLA and cycle-time analytics** _(stub, awaits wire-up)_: Distributions of lead time, cycle time, time-in-state, and reopen rate across any ticket query, with percentile bands and breach detection against configured SLAs. Cohort comparisons across teams, labels, or releases.
 
-- ⬜ **Project template library** _(planned)_: Reusable bundles of epics, tickets, workflows, fields, and roadmap entries instantiable into a new project with parameter substitution. Templates are diffable and updatable so spawned projects can pull upstream changes.
+- ✅ **Project template library** _(stub, awaits wire-up)_: Reusable bundles of epics, tickets, workflows, fields, and roadmap entries instantiable into a new project with parameter substitution. Templates are diffable and updatable so spawned projects can pull upstream changes.
 
 - ⬜ **Cost and budget tracker** _(planned)_: Per-project ledger of estimated and actual cost from time entries, fixed costs, and external invoices, charted against budget over time. Drill-down by ticket, epic, or resource with burn-rate forecasting.
 
