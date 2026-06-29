@@ -2357,7 +2357,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pipe Sizer** _(stub, awaits wire-up)_: Sizes hydronic, steam, domestic water, and gas piping with Hazen-Williams, Darcy-Weisbach, and Spitzglass methods. Tracks fixture units, simultaneous demand, and pump head requirements.
 
-- ⬜ **Psychrometric Chart** _(planned)_: Interactive ASHRAE psychrometric chart with state points, process lines (heating, cooling, mixing, humidification), and coil load extraction. Plots from typical-meteorological-year data overlays.
+- ✅ **Psychrometric Chart** _(stub, awaits wire-up)_: Interactive ASHRAE psychrometric chart with state points, process lines (heating, cooling, mixing, humidification), and coil load extraction. Plots from typical-meteorological-year data overlays.
 
 - ⬜ **Refrigeration Cycle Modeler** _(planned)_: Models vapor-compression, absorption, and heat-pump cycles using CoolProp fluid property tables. Outputs COP, capacity, and T-s/P-h diagrams for variable lift conditions.
 
