@@ -1423,7 +1423,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Face Matcher** _(stub, awaits wire-up)_: Computes a face embedding for the selfie and the document portrait, returns cosine and L2 similarity, and reports FMR/FNMR threshold guidance per ISO/IEC 19795 with bias slice diagnostics.
 
-- ⬜ **Liveness Runner** _(planned)_: Drives passive (texture, depth-from-defocus, rPPG) and active (head turn, blink, prompt phrase) anti-spoof checks; scores presentation attack detection per ISO/IEC 30107-3 with attack-presentation logs.
+- ✅ **Liveness Runner** _(stub, awaits wire-up)_: Drives passive (texture, depth-from-defocus, rPPG) and active (head turn, blink, prompt phrase) anti-spoof checks; scores presentation attack detection per ISO/IEC 30107-3 with attack-presentation logs.
 
 - ⬜ **Watchlist Screener** _(planned)_: Searches consolidated OFAC SDN, UN, EU, UK HMT, and OpenSanctions lists plus PEP and RCA databases with locale-aware fuzzy name matching, DOB and nationality re-ranking, and reusable false-positive carve-outs.
 
