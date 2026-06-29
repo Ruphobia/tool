@@ -3323,7 +3323,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Zoology, veterinary, wildlife
 
-- ⬜ **Camera trap classifier** _(planned)_: Runs MegaDetector-style animal/person/vehicle detection on camera trap image folders, then routes detections through species classifiers (e.g. SpeciesNet, Wildlife Insights taxonomies) with per-site whitelists. Emits CamtrapDP-conformant CSVs with bounding boxes, confidence, and burst grouping.
+- ✅ **Camera trap classifier** _(stub, awaits wire-up)_: Runs MegaDetector-style animal/person/vehicle detection on camera trap image folders, then routes detections through species classifiers (e.g. SpeciesNet, Wildlife Insights taxonomies) with per-site whitelists. Emits CamtrapDP-conformant CSVs with bounding boxes, confidence, and burst grouping.
 
 - ⬜ **Acoustic species ID** _(planned)_: Analyzes audio files with BirdNET-Analyzer / Perch / BatDetect2 backends to produce time-stamped species predictions, confidence, and a reviewable spectrogram of each hit. Supports region/season filters and custom classifiers trained on the user's own annotations.
 
