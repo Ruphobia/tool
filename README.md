@@ -4274,7 +4274,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Gig and Tour Manager** _(stub, awaits wire-up)_: Venue specs, tech riders, contracts, travel manifests, hotel blocks, and customs paperwork for prop transport including blades, livestock, and pyrotechnics. Generates load-in run sheets per date.
 
-- ⬜ **Reveal Detector** _(planned)_: Scans performance video for tells: card flashes, palm knuckling, angle leaks, mic-bleed clicks, and shadow betrayals. AI flags vulnerable moments per camera position and suggests blocking or grip adjustments.
+- ✅ **Reveal Detector** _(stub, awaits wire-up)_: Scans performance video for tells: card flashes, palm knuckling, angle leaks, mic-bleed clicks, and shadow betrayals. AI flags vulnerable moments per camera position and suggests blocking or grip adjustments.
 
 - ⬜ **Mentalism Toolkit** _(planned)_: Pre-show work tracker, billet management, peek device inventory, swami and nail-writer consumables, and a dual reality log to keep stooged versus organic outcomes straight across a tour.
 
