@@ -612,7 +612,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Connection manager** _(stub, awaits wire-up)_: Stores connection profiles with SSH tunneling, TLS, IAM/Kerberos auth, secrets-manager passthrough, and per-environment color coding to mark production read-only sessions.
 
-- ⬜ **Schema browser** _(planned)_: Tree view of databases, schemas, tables, views, materialized views, functions, triggers, sequences, and types with inline DDL, dependency walking, and grep-across-schema search.
+- ✅ **Schema browser** _(stub, awaits wire-up)_: Tree view of databases, schemas, tables, views, materialized views, functions, triggers, sequences, and types with inline DDL, dependency walking, and grep-across-schema search.
 
 - ⬜ **ER diagram designer** _(planned)_: Visual entity-relationship editor with reverse engineering from live databases, forward DDL generation, foreign key inference, and round-trip sync between diagram and migration files.
 
