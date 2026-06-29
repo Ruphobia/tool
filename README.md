@@ -3659,7 +3659,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Trainer** _(stub, awaits wire-up)_: Local LoRA, DreamBooth, textual-inversion, and ControlNet training over diffusion backbones with mixed-precision and gradient-checkpointing. Live loss/sample previews during runs.
 
-- ⬜ **Model hub** _(planned)_: Local registry of checkpoints, LoRAs, VAEs, embeddings, and ControlNets with hashes, sources, license tags, and per-model usage notes. Surfaces share-alike and restricted licenses per release-licensing intent.
+- ✅ **Model hub** _(stub, awaits wire-up)_: Local registry of checkpoints, LoRAs, VAEs, embeddings, and ControlNets with hashes, sources, license tags, and per-model usage notes. Surfaces share-alike and restricted licenses per release-licensing intent.
 
 - ⬜ **Prompt library** _(planned)_: Versioned prompt and negative-prompt snippets with tags, sample grids, and seed history. Integrates with the interpretation pipeline so prompts can be replayed or remixed.
 
