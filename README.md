@@ -1210,7 +1210,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Quote vault** _(stub, awaits wire-up)_: Searchable store of speaker-attributed quotes with source clip pointer, consent and embargo status, on-record flag, and topic tags. One-click insertion drops a properly attributed pull quote into the active draft.
 
-- ⬜ **Reverse outliner** _(planned)_: Parses an existing draft into scene and chapter cards with auto-summarized purpose, conflict, stakes, and outcome per node. Useful for revision passes, structural audits, and producing back-of-envelope synopses for queries.
+- ✅ **Reverse outliner** _(stub, awaits wire-up)_: Parses an existing draft into scene and chapter cards with auto-summarized purpose, conflict, stakes, and outcome per node. Useful for revision passes, structural audits, and producing back-of-envelope synopses for queries.
 
 - ⬜ **Pacing visualizer** _(planned)_: Per-scene tension, word count, dialogue ratio, and POV plotted across the manuscript as a strip chart. Surfaces sag points, POV imbalance, and chapters that overrun typical length for the chosen genre.
 
