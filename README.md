@@ -2074,7 +2074,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Circuit physics sim** _(stub, awaits wire-up)_: SPICE-compatible analog and mixed-signal simulator with transient, AC, noise, and Monte-Carlo analyses; integrates with the EM solver for parasitic extraction.
 
-- ⬜ **Thermodynamics workbench** _(planned)_: State-equation evaluator (ideal gas, van der Waals, Peng-Robinson, IAPWS-IF97 for water/steam), PV/TS/HS diagram plotter, and cycle builder for Carnot, Rankine, Brayton, Otto, and Diesel.
+- ✅ **Thermodynamics workbench** _(stub, awaits wire-up)_: State-equation evaluator (ideal gas, van der Waals, Peng-Robinson, IAPWS-IF97 for water/steam), PV/TS/HS diagram plotter, and cycle builder for Carnot, Rankine, Brayton, Otto, and Diesel.
 
 - ⬜ **Heat-transfer solver** _(planned)_: Conduction, convection, and radiation problems with 1D/2D/3D meshes, time-stepping, view-factor computation, and thermal-resistance network builder.
 
