@@ -1803,7 +1803,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Symbol Concordance** _(stub, awaits wire-up)_: Cross-cultural concordance for recurring symbols (tree, serpent, twin, mountain, weaver, smith, threshold) with attested meanings per tradition. Links each symbol entry to motif index codes and corpus citations.
 
-- ⬜ **Genealogy Graph** _(planned)_: Interactive graph of divine and heroic lineages with support for non-tree relations (multiple parentage, self-generation, reincarnation cycles, syncretic merges). Renders Hesiodic, Norse, Vedic, and Mayan family trees from the database.
+- ✅ **Genealogy Graph** _(stub, awaits wire-up)_: Interactive graph of divine and heroic lineages with support for non-tree relations (multiple parentage, self-generation, reincarnation cycles, syncretic merges). Renders Hesiodic, Norse, Vedic, and Mayan family trees from the database.
 
 - ⬜ **Performance Variant Tracker** _(planned)_: Logs successive retellings of the same tale by a single performer or across performers to study oral-formulaic variation. Computes lexical and structural drift between sessions using Parry-Lord style formula detection.
 
