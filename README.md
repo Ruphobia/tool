@@ -2100,7 +2100,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Material property database** _(stub, awaits wire-up)_: Searchable library of mechanical, thermal, optical, and electrical properties for metals, polymers, ceramics, composites, and semiconductors with temperature-dependent curves and provenance.
 
-- ⬜ **Spectrum reference** _(planned)_: Atomic and molecular spectral-line database (NIST ASD, HITRAN) with line-list query, broadening models, and synthetic-spectrum generator for absorption and emission.
+- ✅ **Spectrum reference** _(stub, awaits wire-up)_: Atomic and molecular spectral-line database (NIST ASD, HITRAN) with line-list query, broadening models, and synthetic-spectrum generator for absorption and emission.
 
 
 #### Mechanical and manufacturing
