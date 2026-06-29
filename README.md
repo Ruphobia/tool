@@ -4443,7 +4443,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Motor and HVAC circuit sizer** _(stub, awaits wire-up)_: Computes MCA, MOCP, disconnect, and overload sizing for compressors and motors per NEC 430/440, using nameplate FLA/RLA/LRA and the appropriate code factors.
 
-- ⬜ **Plumbing fixture-unit pipe sizer** _(planned)_: Sizes water supply mains and branches by WSFU per IPC/UPC Hunter curves, with simultaneous Hazen-Williams pressure-loss check across fittings and elevation; sizes DWV by DFU and slope.
+- ✅ **Plumbing fixture-unit pipe sizer** _(stub, awaits wire-up)_: Sizes water supply mains and branches by WSFU per IPC/UPC Hunter curves, with simultaneous Hazen-Williams pressure-loss check across fittings and elevation; sizes DWV by DFU and slope.
 
 - ⬜ **Gas line sizer** _(planned)_: Sizes natural gas and LP piping per NFPA 54 longest-length and branch-length methods, given appliance BTU loads, pipe material (black iron, CSST, PE), inlet pressure, and allowable drop.
 
