@@ -2971,7 +2971,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Expression Analysis** _(stub, awaits wire-up)_: RNA-seq and single-cell pipeline: quantification (salmon/kallisto/STAR), differential expression (DESeq2/edgeR/limma-voom), PCA/UMAP/t-SNE, heatmaps, volcano plots, and GSEA against MSigDB. Reads in counts matrices or runs from FASTQ end-to-end.
 
-- ⬜ **Pathway and Network Viewer** _(planned)_: Loads KEGG, Reactome, WikiPathways, and BioCyc maps and overlays expression or variant data onto nodes. Force-directed and pathway-layout rendering for protein-protein interaction networks (STRING, BioGRID) with enrichment analysis.
+- ✅ **Pathway and Network Viewer** _(stub, awaits wire-up)_: Loads KEGG, Reactome, WikiPathways, and BioCyc maps and overlays expression or variant data onto nodes. Force-directed and pathway-layout rendering for protein-protein interaction networks (STRING, BioGRID) with enrichment analysis.
 
 - ⬜ **Gene Ontology Enrichment** _(planned)_: Computes GO term, KEGG pathway, and Reactome enrichment for a gene list with hypergeometric and GSEA statistics, FDR correction, and revigo-style redundancy reduction. Output ties back to the pathway viewer.
 
