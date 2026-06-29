@@ -539,7 +539,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Firmware image inspector** _(stub, awaits wire-up)_: Parses ELF, HEX, BIN, UF2, ESP image, and TI-TXT files with section maps, symbol tables, entropy plots, and signature/CRC validation. Diffs two images down to the symbol and basic block.
 
-- ⬜ **Memory map and footprint analyzer** _(planned)_: Visualizes flash and RAM occupancy by section, object, and symbol with stack usage estimates from call graphs and -fstack-usage data. AI suggests size reductions and flags symbols that ballooned since the last build.
+- ✅ **Memory map and footprint analyzer** _(stub, awaits wire-up)_: Visualizes flash and RAM occupancy by section, object, and symbol with stack usage estimates from call graphs and -fstack-usage data. AI suggests size reductions and flags symbols that ballooned since the last build.
 
 - ⬜ **Linker script editor** _(planned)_: Structured editor for GNU ld scripts and equivalents with region overlap detection, alignment checks, and overlay support. Visualizes the resulting memory map alongside the script.
 
