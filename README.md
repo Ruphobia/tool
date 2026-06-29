@@ -1243,7 +1243,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Concept Map Builder** _(stub, awaits wire-up)_: Edits node-link graphs of prerequisites, relationships, and worked examples, with force-directed and hierarchical layouts. AI-integrated extraction pulls candidate concepts and edges from supplied text.
 
-- ⬜ **Standards Aligner** _(planned)_: Tags items, lessons, and units to Common Core, NGSS, ISTE, AP, IB, or a user-defined framework. Produces coverage heatmaps and gap reports across a course.
+- ✅ **Standards Aligner** _(stub, awaits wire-up)_: Tags items, lessons, and units to Common Core, NGSS, ISTE, AP, IB, or a user-defined framework. Produces coverage heatmaps and gap reports across a course.
 
 - ⬜ **Distractor Generator** _(planned)_: Produces plausible wrong answers for multiple-choice items, biased toward common misconceptions or controlled error categories. Useful for converting open-response banks into MCQs without trivial decoys.
 
