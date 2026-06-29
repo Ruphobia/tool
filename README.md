@@ -1864,7 +1864,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Interlinear Gloss Editor** _(stub, awaits wire-up)_: Composes Leipzig-conformant glossed examples with morpheme segmentation, gloss line, and free translation. Auto-suggests glosses from the lexicon and morphology layers, and re-glosses bulk corpora after rule edits.
 
-- ⬜ **Script Designer** _(planned)_: Vector glyph editor for invented orthographies with stroke construction, ligatures, contextual variants, and OpenType feature authoring (cursive joining, positional forms, mark stacking). Exports UFO sources and compiled OTF/TTF fonts.
+- ✅ **Script Designer** _(stub, awaits wire-up)_: Vector glyph editor for invented orthographies with stroke construction, ligatures, contextual variants, and OpenType feature authoring (cursive joining, positional forms, mark stacking). Exports UFO sources and compiled OTF/TTF fonts.
 
 - ⬜ **Orthography Mapper** _(planned)_: Defines bidirectional phoneme-grapheme correspondences, romanization schemes, and transliteration tables between scripts. Renders any lexicon entry or text sample in the chosen orthography on demand.
 
