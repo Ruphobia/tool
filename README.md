@@ -4693,7 +4693,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Paleography OCR** _(stub, awaits wire-up)_: Handwriting recognition tuned for parish registers, ship manifests, and probate scripts (Secretary hand, Kurrent, Sutterlin, Spencerian). Outputs editable text with per-token confidence so a researcher can correct ambiguous letters in place.
 
-- ⬜ **Census Record Harvester** _(planned)_: Parses US, UK, Canadian, and Irish census images or HTML into structured household rows. Auto-links suggested INDI matches in the open tree using fuzzy name, age, and birthplace scoring.
+- ✅ **Census Record Harvester** _(stub, awaits wire-up)_: Parses US, UK, Canadian, and Irish census images or HTML into structured household rows. Auto-links suggested INDI matches in the open tree using fuzzy name, age, and birthplace scoring.
 
 - ⬜ **Immigration and Naturalization Search** _(planned)_: Cross-queries Ellis Island, Castle Garden, Hamburg, Bremen (reconstructed), and Canadian Border Crossings indices. Reconciles passenger manifests with later naturalization petitions and declarations of intent.
 
