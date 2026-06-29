@@ -2123,7 +2123,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **FEA solver** _(stub, awaits wire-up)_: Linear and nonlinear static, modal, thermal, and buckling analysis on tet/hex meshes with contact and mixed boundary conditions. AI-integrated boundary condition suggestion from a description of the loading scenario.
 
-- ⬜ **CFD solver** _(planned)_: Steady and unsteady incompressible/compressible flow with turbulence models, conjugate heat transfer, and porous media. Mesh generation from CAD with boundary layer refinement.
+- ✅ **CFD solver** _(stub, awaits wire-up)_: Steady and unsteady incompressible/compressible flow with turbulence models, conjugate heat transfer, and porous media. Mesh generation from CAD with boundary layer refinement.
 
 - ⬜ **Topology optimizer** _(planned)_: SIMP and level-set topology optimization under stress, displacement, and manufacturability constraints, with mesh export to CAD reconstruction. AI-integrated suggestion of design space, loads, and constraints from a functional description.
 
