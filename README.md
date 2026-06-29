@@ -1576,7 +1576,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Eval harness** _(stub, awaits wire-up)_: Runs MMLU, HumanEval, GSM8K, BIG-Bench, MT-Bench, IFEval, and user-defined rubric evals against any local or routed model with per-task breakdown and confidence intervals. Supports LLM-as-judge with bias controls.
 
-- ⬜ **Red-team console** _(planned)_: Adversarial-prompt and jailbreak battery, refusal-rate measurement, and abliteration verification suite specifically aimed at confirming an abliterated model behaves as claimed across categories.
+- ✅ **Red-team console** _(stub, awaits wire-up)_: Adversarial-prompt and jailbreak battery, refusal-rate measurement, and abliteration verification suite specifically aimed at confirming an abliterated model behaves as claimed across categories.
 
 - ⬜ **RAG builder** _(planned)_: End-to-end retrieval pipeline composer covering chunkers, embedders, rerankers, hybrid (BM25 + dense) retrieval, and generation with per-stage trace inspection and retrieval-quality metrics (nDCG, MRR, hit@k).
 
