@@ -2957,7 +2957,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Structure Predictor** _(stub, awaits wire-up)_: Local AlphaFold/ESMFold/RoseTTAFold-style monomer and complex structure prediction from sequence, with confidence (pLDDT, PAE) overlays. AI-integrated prompting for template selection and multimer stoichiometry from the project context.
 
-- ⬜ **Primer Designer** _(planned)_: Designs PCR, qPCR, sequencing, and cloning primers from a target region with Primer3-style Tm, GC, hairpin, self-dimer, and cross-dimer checks. Specificity check against a chosen genome via the local BLAST console; AI-integrated suggestion of a starting region when only the goal (e.g., spanning an exon junction) is given.
+- ✅ **Primer Designer** _(stub, awaits wire-up)_: Designs PCR, qPCR, sequencing, and cloning primers from a target region with Primer3-style Tm, GC, hairpin, self-dimer, and cross-dimer checks. Specificity check against a chosen genome via the local BLAST console; AI-integrated suggestion of a starting region when only the goal (e.g., spanning an exon junction) is given.
 
 - ⬜ **Plasmid Map Editor** _(planned)_: Circular and linear vector design with feature annotation, restriction site mapping, ORF detection, and in-silico cloning (Gibson, Golden Gate, restriction-ligation, In-Fusion). Reads and writes GenBank and SnapGene .dna; renders publication-grade maps.
 
