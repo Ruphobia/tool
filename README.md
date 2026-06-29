@@ -3008,7 +3008,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Read mapper** _(stub, awaits wire-up)_: Aligns reads to a reference with BWA-MEM, minimap2, or Bowtie2, calls variants via bcftools or DeepVariant, and produces coverage tracks and consensus FASTAs.
 
-- ⬜ **Genome annotator** _(planned)_: Predicts CDS, rRNA, tRNA, and CRISPR arrays via Prokka, Bakta, or Pharokka for prokaryotes and phages. Augments with eggNOG, InterProScan, and AMRFinderPlus functional layers.
+- ✅ **Genome annotator** _(stub, awaits wire-up)_: Predicts CDS, rRNA, tRNA, and CRISPR arrays via Prokka, Bakta, or Pharokka for prokaryotes and phages. Augments with eggNOG, InterProScan, and AMRFinderPlus functional layers.
 
 - ⬜ **Plasmid editor** _(planned)_: Edits circular constructs with restriction cloning, Gibson, Golden Gate, and Type IIS workflows. Validates junctions, autosuggests overhangs, and exports SBOL and SnapGene-compatible GenBank.
 
