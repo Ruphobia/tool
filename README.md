@@ -650,7 +650,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Stored procedure IDE** _(stub, awaits wire-up)_: Edits PL/pgSQL, T-SQL, PL/SQL, and MySQL routines with syntax-aware diff, dependency graph, step debugger where supported, and unit-test harness using transactional rollback.
 
-- ⬜ **Data masking and anonymizer** _(planned)_: Generates sanitized dev/test datasets from production via deterministic hashing, format-preserving encryption, fake-data substitution (Faker), and referential-integrity-preserving subsetting.
+- ✅ **Data masking and anonymizer** _(stub, awaits wire-up)_: Generates sanitized dev/test datasets from production via deterministic hashing, format-preserving encryption, fake-data substitution (Faker), and referential-integrity-preserving subsetting.
 
 - ⬜ **Row-level lineage** _(planned)_: Traces a value across joins and views to its source tables and columns, parses CREATE VIEW and CTAS definitions, and renders column-level lineage graphs for impact analysis.
 
