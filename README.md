@@ -4490,7 +4490,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Species Season Calendar** _(stub, awaits wire-up)_: Tracks legal open and close dates for game and fish species by state, zone, weapon, and method. Color-coded annual view with overlap detection for multi-species trips and reminder hooks for application periods.
 
-- ⬜ **Regulation Lookup** _(planned)_: Searches current statutes, bag limits, slot limits, weapon restrictions, and county exceptions across US, Canadian, and selected international jurisdictions. AI parses the official regs PDF and cites the rule paragraph; manual overrides flagged when local ordinances diverge.
+- ✅ **Regulation Lookup** _(stub, awaits wire-up)_: Searches current statutes, bag limits, slot limits, weapon restrictions, and county exceptions across US, Canadian, and selected international jurisdictions. AI parses the official regs PDF and cites the rule paragraph; manual overrides flagged when local ordinances diverge.
 
 - ⬜ **Hunt and Catch Log** _(planned)_: Records each outing with GPS waypoint, species, weight, length, sex, weapon or tackle, conditions, and geotagged photos. Supports voice memos in the field, EXIF backfill, and CSV or GPX export for season summaries.
 
