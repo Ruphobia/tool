@@ -3578,7 +3578,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Cover Crop Selector** _(stub, awaits wire-up)_: Recommends cover crop species or mixes for a target window based on biomass goal, N fixation, scavenging, weed suppression, soil compaction relief, and termination method. Computes seeding rates in lb/ac or g/m2.
 
-- ⬜ **Harvest and Yield Log** _(planned)_: Tracks per-bed harvest weights, dates, and quality notes; rolls them up into pounds per square foot, dollars per bed, and labor hours per crop. Exports CSV and feeds back into the yield model for next season.
+- ✅ **Harvest and Yield Log** _(stub, awaits wire-up)_: Tracks per-bed harvest weights, dates, and quality notes; rolls them up into pounds per square foot, dollars per bed, and labor hours per crop. Exports CSV and feeds back into the yield model for next season.
 
 
 #### Image and video
