@@ -3249,7 +3249,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Hurricane track plotter** _(stub, awaits wire-up)_: Loads HURDAT2, IBTrACS, and ATCF a-deck/b-deck files; plots best track, intensity, wind radii, and forecast cones; overlays ensemble spaghetti from GEFS/ECMWF-EPS and computes ACE/PDI.
 
-- ⬜ **HYSPLIT trajectory runner** _(planned)_: Wraps HYSPLIT for forward/back trajectories, dispersion, and concentration runs from GDAS/HRRR ARL files; generates ensemble trajectories and source-receptor matrices with plume animation.
+- ✅ **HYSPLIT trajectory runner** _(stub, awaits wire-up)_: Wraps HYSPLIT for forward/back trajectories, dispersion, and concentration runs from GDAS/HRRR ARL files; generates ensemble trajectories and source-receptor matrices with plume animation.
 
 - ⬜ **CMIP6 scenario browser** _(planned)_: Indexes local or Pangeo cloud CMIP6 Zarr stores; filters by experiment (historical, ssp245, ssp585), model, variant, and frequency; extracts time series, climatologies, and ensemble means with regridding via xESMF.
 
