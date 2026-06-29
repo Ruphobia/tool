@@ -3239,7 +3239,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **NEXRAD Level II viewer** _(stub, awaits wire-up)_: Decodes WSR-88D Archive II volumes via Py-ART; renders reflectivity, velocity, spectrum width, ZDR, KDP, CC, and RhoHV with PPI, RHI, and pseudo-CAPPI views; supports dealiasing, dual-pol HCA, and storm-relative motion.
 
-- ⬜ **MRMS mosaic browser** _(planned)_: Streams MRMS composite reflectivity, QPE, rotation tracks, and hail size grids; overlays SPC storm reports, NWS warnings, and county/CWA polygons for verification.
+- ✅ **MRMS mosaic browser** _(stub, awaits wire-up)_: Streams MRMS composite reflectivity, QPE, rotation tracks, and hail size grids; overlays SPC storm reports, NWS warnings, and county/CWA polygons for verification.
 
 - ⬜ **GOES ABI composer** _(planned)_: Loads GOES-16/18 and Himawari L1b/L2 NetCDF; generates true color, AirMass, day cloud phase, dust, fire, and GeoColor RGBs using Satpy recipes; supports CONUS, full disk, and mesoscale sector animation.
 
