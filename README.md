@@ -3509,7 +3509,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Seismic Trace Viewer** _(stub, awaits wire-up)_: Reads SEG-Y, miniSEED, and SAC files and renders waveforms, wiggle traces, or variable-density displays with bandpass/notch filtering, picking, and FFT spectra. Supports event windowing, STA/LTA detection, and arrival-time picking with first-motion polarity.
 
-- ⬜ **Watershed Analyzer** _(planned)_: Performs pit filling, D8/D-infinity flow direction, flow accumulation, stream network extraction, and basin delineation from a DEM. Computes runoff curves (SCS-CN) and time-of-concentration for a user-placed pour point.
+- ✅ **Watershed Analyzer** _(stub, awaits wire-up)_: Performs pit filling, D8/D-infinity flow direction, flow accumulation, stream network extraction, and basin delineation from a DEM. Computes runoff curves (SCS-CN) and time-of-concentration for a user-placed pour point.
 
 - ⬜ **Stereonet** _(planned)_: Equal-area and equal-angle lower-hemisphere projections for planes, lines, and fold axes, with contour plots of pole density (Kamb, Schmidt). Computes intersections, rotations, and best-fit fold-axis solutions from field measurements.
 
