@@ -3665,7 +3665,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **XYZ plot and grid** _(stub, awaits wire-up)_: Parameter-sweep renderer that varies prompts, seeds, CFG, samplers, and LoRA weights to produce comparison grids. Annotates each cell with its parameters.
 
-- ⬜ **Style transfer** _(planned)_: Reference-style restyling via IP-Adapter, InstantStyle, StyleAlign, and neural style transfer with content/style weight controls. Supports both image and video inputs.
+- ✅ **Style transfer** _(stub, awaits wire-up)_: Reference-style restyling via IP-Adapter, InstantStyle, StyleAlign, and neural style transfer with content/style weight controls. Supports both image and video inputs.
 
 - ⬜ **Face tools** _(planned)_: Detection, landmarking, recognition, swap (InsightFace/InSwapper/Roop-style), and identity-preserving re-render. Includes consent/provenance flags in metadata per release-licensing intent.
 
