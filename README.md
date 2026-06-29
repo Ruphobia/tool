@@ -746,7 +746,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Level Layout Studio** _(stub, awaits wire-up)_: Grid-and-free 2D/2.5D level editor with entities, prefab instances, rooms, doors, spawners, and runtime-tunable parameters. Supports tile-collision baking and navmesh generation in the same view.
 
-- ⬜ **Dialog Scripter** _(planned)_: Node-graph branching dialog editor with conditions, variables, speakers, voice-line slots, and inline localization. Compiles to Yarn, Ink, or a portable JSON runtime and round-trips with plain-text source.
+- ✅ **Dialog Scripter** _(stub, awaits wire-up)_: Node-graph branching dialog editor with conditions, variables, speakers, voice-line slots, and inline localization. Compiles to Yarn, Ink, or a portable JSON runtime and round-trips with plain-text source.
 
 - ⬜ **Behavior Tree Authoring** _(planned)_: Visual editor for behavior trees with selectors, sequences, decorators, services, blackboard inspection, and step-debugging against a live game instance. Includes a library of reusable subtrees and unit tests per node.
 
