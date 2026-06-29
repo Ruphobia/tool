@@ -2345,7 +2345,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Retaining Wall Designer** _(stub, awaits wire-up)_: Sizes cantilever, gravity, and segmental retaining walls against active/passive earth pressure, surcharge, and seismic load. Outputs stem reinforcement, heel/toe stability, and bearing pressure diagrams.
 
-- ⬜ **Load Table Browser** _(planned)_: Searchable database of joist, deck, masonry, and lintel span tables from manufacturer and code sources. Filters by span, load, deflection limit, and material with AI-integrated explanation of why a row applies.
+- ✅ **Load Table Browser** _(stub, awaits wire-up)_: Searchable database of joist, deck, masonry, and lintel span tables from manufacturer and code sources. Filters by span, load, deflection limit, and material with AI-integrated explanation of why a row applies.
 
 - ⬜ **Seismic Load Calculator** _(planned)_: Computes ASCE 7 equivalent lateral force, modal response, and base shear from site class, Ss/S1, and risk category. Distributes story shears and produces drift checks.
 
