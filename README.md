@@ -3318,7 +3318,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Stellar Atmosphere Synth** _(stub, awaits wire-up)_: Generates synthetic stellar spectra from Teff, log g, and metallicity via PHOENIX/ATLAS grid interpolation, with broadband-color and bolometric-correction outputs. Useful for SED fitting and ETC color predictions.
 
-- ⬜ **Exposure Time Calculator** _(planned)_: Estimates SNR, limiting magnitude, and saturation for a given telescope, camera, filter, target, sky brightness, and seeing. Inverts to recommend per-sub exposure and total integration time for a target SNR.
+- ✅ **Exposure Time Calculator** _(stub, awaits wire-up)_: Estimates SNR, limiting magnitude, and saturation for a given telescope, camera, filter, target, sky brightness, and seeing. Inverts to recommend per-sub exposure and total integration time for a target SNR.
 
 
 #### Zoology, veterinary, wildlife
