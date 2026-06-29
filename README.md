@@ -862,7 +862,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Variational Solver Lab** _(stub, awaits wire-up)_: VQE and QAOA workbench with ansatz library (hardware-efficient, UCCSD, QAOA-p), pluggable classical optimizers (COBYLA, SPSA, Adam), gradient methods (parameter shift, SPSA), and live energy/landscape plots.
 
-- ⬜ **QEC Workbench** _(planned)_: Build and simulate stabilizer codes (repetition, Steane, surface, color), inject Pauli errors, run minimum-weight perfect matching and union-find decoders, and plot logical error rate versus physical noise.
+- ✅ **QEC Workbench** _(stub, awaits wire-up)_: Build and simulate stabilizer codes (repetition, Steane, surface, color), inject Pauli errors, run minimum-weight perfect matching and union-find decoders, and plot logical error rate versus physical noise.
 
 - ⬜ **Tomography Suite** _(planned)_: State, process, and gate-set tomography with MLE and linear inversion reconstructions, randomized benchmarking and direct fidelity estimation protocols, and confidence intervals from bootstrap resampling.
 
