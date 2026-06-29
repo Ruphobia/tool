@@ -1253,7 +1253,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Mastery Tracker** _(stub, awaits wire-up)_: Maintains per-learner knowledge state across a skill graph using Bayesian knowledge tracing and forgetting-curve projections. Recommends the next review item and predicts retention at chosen horizons.
 
-- ⬜ **Worked Example Generator** _(planned)_: Produces step-by-step solutions for a target problem, plus faded-step and hint-laddered variants for scaffolded practice. Renders math via LaTeX and code via syntax-highlighted blocks.
+- ✅ **Worked Example Generator** _(stub, awaits wire-up)_: Produces step-by-step solutions for a target problem, plus faded-step and hint-laddered variants for scaffolded practice. Renders math via LaTeX and code via syntax-highlighted blocks.
 
 - ⬜ **Socratic Tutor** _(planned)_: Drives dialogic practice by asking leading questions, probing reasoning, and refusing to volunteer the answer until the learner is close. AI-integrated with configurable persona, patience, and scaffolding depth.
 
