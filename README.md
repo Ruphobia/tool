@@ -3155,7 +3155,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Counterbalancing designer** _(stub, awaits wire-up)_: Generates Latin squares, Williams designs, and blocked randomization schedules to balance order effects across participants. Verifies condition coverage and outputs per-participant assignment files.
 
-- ⬜ **Likert scale builder** _(planned)_: Composes ordinal item batteries with balanced anchors, reverse-scored items, and forced-choice variants. AI-integrated wording critique flags double-barreled, leading, or low-readability items.
+- ✅ **Likert scale builder** _(stub, awaits wire-up)_: Composes ordinal item batteries with balanced anchors, reverse-scored items, and forced-choice variants. AI-integrated wording critique flags double-barreled, leading, or low-readability items.
 
 - ⬜ **Power analysis calculator** _(planned)_: Computes a priori, post hoc, and sensitivity power for t-tests, ANOVA, regression, chi-square, and mixed-effects designs in a G*Power-style interface. Simulates power curves over varied effect sizes and sample sizes.
 
