@@ -1276,7 +1276,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Rental pro forma modeler** _(stub, awaits wire-up)_: Projects multi-year cash flow for an income property including rent growth, expense inflation, capex reserves, financing, depreciation, and after-tax IRR, NPV, equity multiple, and cash-on-cash return.
 
-- ⬜ **Comps analyzer** _(planned)_: Loads comparable sales, normalizes price per sqft, and applies grid adjustments (location, condition, GLA, beds/baths, lot, time) to produce an adjusted indicated value with a reconciled range.
+- ✅ **Comps analyzer** _(stub, awaits wire-up)_: Loads comparable sales, normalizes price per sqft, and applies grid adjustments (location, condition, GLA, beds/baths, lot, time) to produce an adjusted indicated value with a reconciled range.
 
 - ⬜ **DSCR and debt yield calculator** _(planned)_: Computes debt service coverage ratio, debt yield, LTV, and break-even occupancy for an income property given NOI and proposed loan terms, with sensitivity tables over rate and NOI.
 
