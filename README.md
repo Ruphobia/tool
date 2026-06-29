@@ -2572,7 +2572,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Mission Timeline Planner** _(stub, awaits wire-up)_: Sequences mission phases, maneuvers, ground passes, eclipses, and deliverables on a Gantt-style timeline with dependencies, resource consumption, and automatic conflict detection against the propagated ephemeris.
 
-- ⬜ **Rendezvous & Proximity Ops** _(planned)_: Plans and visualizes rendezvous, station-keeping, and docking using Clohessy-Wiltshire and Tschauner-Hempel relative motion, with V-bar/R-bar approach corridors, plume cone checks, and abort trajectories.
+- ✅ **Rendezvous & Proximity Ops** _(stub, awaits wire-up)_: Plans and visualizes rendezvous, station-keeping, and docking using Clohessy-Wiltshire and Tschauner-Hempel relative motion, with V-bar/R-bar approach corridors, plume cone checks, and abort trajectories.
 
 
 #### Aerodynamics and CFD
