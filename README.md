@@ -170,7 +170,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Project artifact maintainers
 
-- ⬜ **Safety folder maintainer** _(planned)_: auto-maintains `<project>/.tool/safety/` with one file per flagged hazard (material+process). The safety advisor stage reads existing entries to avoid re-explaining and writes new ones when novel hazards surface. Each file accumulates mitigation choices, PPE selected, and incidents over the life of the project.
+- ✅ **Safety folder maintainer** _(in testing)_: auto-maintains `<project>/.tool/safety/` with one file per flagged hazard (material+process). The safety advisor stage reads existing entries to avoid re-explaining and writes new ones when novel hazards surface. Each file accumulates mitigation choices, PPE selected, and incidents over the life of the project.
 
 - ⬜ **Legal folder maintainer** _(planned)_: auto-maintains `<project>/.tool/legal/` with one file per regulatory pathway flagged. Tracks application status, dates, follow-ups, agency contacts, fee schedules.
 
