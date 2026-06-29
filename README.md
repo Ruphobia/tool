@@ -966,7 +966,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Wallet Helper** _(stub, awaits wire-up)_: Manages hot, watch-only, and air-gapped wallets with QR-based PSBT shuttling and hardware wallet (Ledger, Trezor, Coldcard) coordination. Computes UTXO coin-control selections, fee strategies, and privacy heuristics like change avoidance.
 
-- ⬜ **Random & Entropy Auditor** _(planned)_: Samples system, hardware, and user-supplied entropy sources, running NIST SP 800-22, Dieharder, and ent statistical batteries. Detects biased RNGs, stuck bits, and PRNG state recovery from observed outputs.
+- ✅ **Random & Entropy Auditor** _(stub, awaits wire-up)_: Samples system, hardware, and user-supplied entropy sources, running NIST SP 800-22, Dieharder, and ent statistical batteries. Detects biased RNGs, stuck bits, and PRNG state recovery from observed outputs.
 
 - ⬜ **Password Cracker Sandbox** _(planned)_: Runs hashcat/John-style attacks against locally provided hashes with mask, dictionary, and rule-based strategies on CPU and GPU. Estimates crack time against current hardware for chosen hash and KDF parameters.
 
