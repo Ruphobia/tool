@@ -805,7 +805,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Hand Pose Authoring** _(stub, awaits wire-up)_: Design and record per-finger grip, pinch, point, and ASL-style poses against a skeletal rig, with blend trees between poses and a recognizer that fires events on match. Supports OpenXR hand-tracking joint conventions.
 
-- ⬜ **Stereo View Inspector** _(planned)_: Side-by-side per-eye render preview with adjustable IPD, vergence, and zero-parallax distance; highlights pixels with excessive stereo disparity that cause eye strain. Useful for tuning UI placement and depth budgets.
+- ✅ **Stereo View Inspector** _(stub, awaits wire-up)_: Side-by-side per-eye render preview with adjustable IPD, vergence, and zero-parallax distance; highlights pixels with excessive stereo disparity that cause eye strain. Useful for tuning UI placement and depth budgets.
 
 - ⬜ **Lens Distortion Profiler** _(planned)_: Generates and previews barrel / pincushion mesh warps and chromatic aberration correction curves for a given lens profile, with a calibration-grid loopback. Imports common headset distortion meshes and exports as shader LUTs.
 
