@@ -2894,7 +2894,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Name and identifier translator** _(stub, awaits wire-up)_: Round-trips between SMILES, canonical SMILES, InChI, InChIKey, IUPAC name, CAS number, and common synonyms. AI-integrated naming of arbitrary structures and structure-from-name resolution for ambiguous or trivial inputs.
 
-- ⬜ **Reaction balancer** _(planned)_: Balances arbitrary chemical equations including redox half-reactions, disproportionation, and net-ionic forms; reports coefficients, atom counts, charge balance, and oxidation state changes per atom.
+- ✅ **Reaction balancer** _(stub, awaits wire-up)_: Balances arbitrary chemical equations including redox half-reactions, disproportionation, and net-ionic forms; reports coefficients, atom counts, charge balance, and oxidation state changes per atom.
 
 - ⬜ **Stoichiometry calculator** _(planned)_: Computes limiting reagent, theoretical yield, percent yield, atom economy, and mass/mol/volume/concentration conversions for arbitrary balanced reactions; handles solvates, hydrates, and purity adjustments.
 
