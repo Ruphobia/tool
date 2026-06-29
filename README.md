@@ -3601,7 +3601,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Upscaler** _(stub, awaits wire-up)_: Tiled super-resolution using ESRGAN/Real-ESRGAN/SwinIR families with face-restore (GFPGAN/CodeFormer) and configurable denoise strength. Handles batch jobs and arbitrary integer or fractional factors.
 
-- ⬜ **Background remover** _(planned)_: Foreground extraction via segmentation models (RMBG, BiRefNet, U2Net) with alpha refinement around hair and translucent edges. Supports batch processing and replacement backgrounds.
+- ✅ **Background remover** _(stub, awaits wire-up)_: Foreground extraction via segmentation models (RMBG, BiRefNet, U2Net) with alpha refinement around hair and translucent edges. Supports batch processing and replacement backgrounds.
 
 - ⬜ **Segmenter** _(planned)_: Click, box, and text-prompt segmentation built on SAM/SAM2 and Grounding-DINO. Exports masks, cutouts, and polygons for use elsewhere in the workbench.
 
