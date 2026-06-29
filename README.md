@@ -2485,7 +2485,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Burnup and depletion tool** _(stub, awaits wire-up)_: Bateman-equation depletion across ENDF/B nuclides; tracks isotopic vector, reactivity letdown, and spent-fuel composition by assembly.
 
-- ⬜ **Cross-section viewer** _(planned)_: Loads ENDF/B-VIII and JEFF evaluations; plots resolved and unresolved resonances and reconstructs cross sections at user temperature with SLBW Doppler broadening.
+- ✅ **Cross-section viewer** _(stub, awaits wire-up)_: Loads ENDF/B-VIII and JEFF evaluations; plots resolved and unresolved resonances and reconstructs cross sections at user temperature with SLBW Doppler broadening.
 
 - ⬜ **Decay heat estimator** _(planned)_: ANSI/ANS-5.1 fission-product decay heat and explicit chain integration for actinides; cooling curves from shutdown through long-term storage.
 
