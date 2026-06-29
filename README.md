@@ -1515,7 +1515,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Journal Impact and Predatory Flag** _(stub, awaits wire-up)_: Combines JIF, SJR, SNIP, h5-index, and OpenAlex venue stats with predatory-publisher lists (Beall successor lists, DOAJ status, OASPA membership). Flags suspect APC patterns, fake metric badges, and hijacked-journal lookalikes.
 
-- ⬜ **Equation and Notation Workbench** _(planned)_: Extracts equations from PDFs into editable LaTeX, resolves symbol definitions across the paper, and aligns notation between multiple sources into a unified glossary. Renders inline with MathJax/KaTeX and supports symbolic diff.
+- ✅ **Equation and Notation Workbench** _(stub, awaits wire-up)_: Extracts equations from PDFs into editable LaTeX, resolves symbol definitions across the paper, and aligns notation between multiple sources into a unified glossary. Renders inline with MathJax/KaTeX and supports symbolic diff.
 
 - ⬜ **Dataset and Code Provenance Tracker** _(planned)_: Resolves dataset and code artifacts cited in a paper to canonical sources (Zenodo, HuggingFace, OSF, GitHub, Figshare), records licenses, and snapshots versions. Diffs against the paper's claimed version when a release moves.
 
