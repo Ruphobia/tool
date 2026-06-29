@@ -2566,7 +2566,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Power & Eclipse Budget** _(stub, awaits wire-up)_: Models solar array power generation versus sun angle, eclipse fraction, and degradation, sizes battery depth-of-discharge for the worst-case orbit, and balances against a load timeline keyed to mission modes.
 
-- ⬜ **Constellation Designer** _(planned)_: Lays out Walker-Delta, Walker-Star, flower, and custom constellations, evaluating global coverage, revisit time, gap statistics, and inter-satellite link geometry; supports automated phasing optimization.
+- ✅ **Constellation Designer** _(stub, awaits wire-up)_: Lays out Walker-Delta, Walker-Star, flower, and custom constellations, evaluating global coverage, revisit time, gap statistics, and inter-satellite link geometry; supports automated phasing optimization.
 
 - ⬜ **Gravity Assist Planner** _(planned)_: Designs single and multi-flyby trajectories using patched-conics with v-infinity matching, periapsis altitude constraints, and Tisserand parameter plots for tour design across moons or planets.
 
