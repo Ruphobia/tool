@@ -899,7 +899,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Entropy Mapper** _(stub, awaits wire-up)_: Plots byte entropy across files and disk regions to surface packed, encrypted, or compressed sections. Overlays section boundaries, signature hits, and suspected key material for triage.
 
-- ⬜ **Strings Triage** _(planned)_: Extracts ASCII, UTF-8, UTF-16, and stack-string candidates from binaries and dumps, classifying them into URLs, IPs, paths, registry keys, and credentials. AI-integrated clustering groups likely indicators.
+- ✅ **Strings Triage** _(stub, awaits wire-up)_: Extracts ASCII, UTF-8, UTF-16, and stack-string candidates from binaries and dumps, classifying them into URLs, IPs, paths, registry keys, and credentials. AI-integrated clustering groups likely indicators.
 
 - ⬜ **Certificate and Key Inspector** _(planned)_: Parses X.509 certificates, CSRs, PEM/DER/PKCS#12 bundles, SSH keys, and JWKs with chain validation, revocation checks, and key strength analysis. Flags weak curves, short moduli, and pinning mismatches.
 
