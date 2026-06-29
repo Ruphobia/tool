@@ -3525,7 +3525,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **LiDAR Point Cloud Viewer** _(stub, awaits wire-up)_: Streams LAS/LAZ tiles into a 3D viewer with classification-based coloring, intensity ramps, and ground/non-ground filtering. Supports cropping by polygon, decimation, profile extraction, and export to gridded DEM or DSM.
 
-- ⬜ **Borehole Log Viewer** _(planned)_: Renders LAS well-log curves (GR, resistivity, density, neutron, sonic) alongside lithology columns and core photos at matching depth. Supports zonation, crossplots (e.g. density-neutron), and porosity/Vshale calculations.
+- ✅ **Borehole Log Viewer** _(stub, awaits wire-up)_: Renders LAS well-log curves (GR, resistivity, density, neutron, sonic) alongside lithology columns and core photos at matching depth. Supports zonation, crossplots (e.g. density-neutron), and porosity/Vshale calculations.
 
 - ⬜ **Plate Reconstruction** _(planned)_: Rotates present-day plates to their paleogeographic positions using GPlates-compatible rotation files and topology models. Animates plate motion through time and reprojects user features onto the reconstructed basemap.
 
