@@ -3671,7 +3671,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **NSFW and safety classifier** _(stub, awaits wire-up)_: Optional local content classification with adjustable thresholds and per-tag reporting. Off by default since abliterated models are in scope.
 
-- ⬜ **Watermark and provenance** _(planned)_: Visible watermarking plus invisible signatures (StegaStamp, Trustmark) and C2PA manifest read/write. Verifies and strips watermarks where licensing allows.
+- ✅ **Watermark and provenance** _(stub, awaits wire-up)_: Visible watermarking plus invisible signatures (StegaStamp, Trustmark) and C2PA manifest read/write. Verifies and strips watermarks where licensing allows.
 
 - ⬜ **Steganography** _(planned)_: LSB and DCT hide/extract for text and small payloads inside images and audio-of-video tracks. Reports capacity and visual detectability estimates.
 
