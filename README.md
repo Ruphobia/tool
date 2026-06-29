@@ -155,7 +155,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Task scheduler** _(in testing)_: a tool for breaking a long work process into a list of steps, scheduling them, executing them sequentially or in parallel where independent, and following through across many turns or days. Persists state so the work survives restarts.
 
-- ⬜ **Hex editor** _(planned)_: a binary file editor with offset/value display in hex, decimal, ASCII; structure templates for common formats (ELF, PE, PNG, GGUF, etc.); diff and patch over a binary; checksum and entropy view.
+- ✅ **Hex editor** _(in testing)_: a binary file editor with offset/value display in hex, decimal, ASCII; structure templates for common formats (ELF, PE, PNG, GGUF, etc.); diff and patch over a binary; checksum and entropy view.
 
 - ⬜ **File format translators** _(planned)_: a collection of converters between common file formats: pandoc-style document conversion, image format conversion, point-cloud format conversion, audio/video transcoding, archive (zip/tar/7z) repacking. Single-command invocation, batch mode, AI-suggested target format from the use case.
 
