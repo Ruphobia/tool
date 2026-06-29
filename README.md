@@ -3908,7 +3908,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Crochet Chart Editor** _(stub, awaits wire-up)_: Symbol-based charts for amigurumi, granny squares, filet, Tunisian, and freeform crochet on rectangular and radial grids. Generates written pattern text from the chart with standard US or UK terminology.
 
-- ⬜ **Weaving Draft Editor** _(planned)_: Edits threading, tie-up, and treadling with live drawdown, network drafting, profile drafts, and color-and-weave previews. Supports multi-shaft looms up to 32 shafts and exports WIF for loom software.
+- ✅ **Weaving Draft Editor** _(stub, awaits wire-up)_: Edits threading, tie-up, and treadling with live drawdown, network drafting, profile drafts, and color-and-weave previews. Supports multi-shaft looms up to 32 shafts and exports WIF for loom software.
 
 - ⬜ **Beading Pattern Layout** _(planned)_: Grid-correct layouts for peyote, brick, herringbone, loom, right-angle weave, and bead crochet ropes. Maintains bead palettes keyed to Miyuki, Toho, and Czech codes and counts beads per color for the bill of materials.
 
