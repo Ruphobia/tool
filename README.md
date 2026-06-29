@@ -3304,7 +3304,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Solar Activity Monitor** _(stub, awaits wire-up)_: Pulls current and historical sunspot number, F10.7 flux, Kp/Ap, X-ray flux, and CME alerts from SWPC and SILSO. Overlays aurora oval forecasts on a world map for the user's location.
 
-- ⬜ **Satellite Tracker** _(planned)_: Propagates TLE/OMM elements with SGP4 to predict satellite passes, ISS sightings, Starlink trains, and iridium-style flares. Supports radio-link Doppler computation and antenna-rotator output.
+- ✅ **Satellite Tracker** _(stub, awaits wire-up)_: Propagates TLE/OMM elements with SGP4 to predict satellite passes, ISS sightings, Starlink trains, and iridium-style flares. Supports radio-link Doppler computation and antenna-rotator output.
 
 - ⬜ **Exoplanet Modeler** _(planned)_: Fits transit and radial-velocity datasets to Keplerian + limb-darkened-transit models using MCMC or nested sampling. Reports planet radius, mass, eccentricity, and stellar-density posteriors with corner plots.
 
