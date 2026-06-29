@@ -3404,7 +3404,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Geophysics survey processor** _(stub, awaits wire-up)_: Processes magnetometry, resistivity, and ground-penetrating-radar grids with gridding, despiking, destriping, gain control, and time-slice extraction. Detects linear and rectilinear anomalies and overlays them on site basemaps.
 
-- ⬜ **Bibliographic search** _(planned)_: Searches GeoRef, Biodiversity Heritage Library, JSTOR, BHL, ADS, and CrossRef for paleontological and archaeological literature with citation graph traversal and DOI resolution. Maintains a local BibTeX/CSL library with PDF storage and OCR full-text indexing.
+- ✅ **Bibliographic search** _(stub, awaits wire-up)_: Searches GeoRef, Biodiversity Heritage Library, JSTOR, BHL, ADS, and CrossRef for paleontological and archaeological literature with citation graph traversal and DOI resolution. Maintains a local BibTeX/CSL library with PDF storage and OCR full-text indexing.
 
 
 #### Oceanography and marine science
