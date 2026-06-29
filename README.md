@@ -3635,7 +3635,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Video matting** _(stub, awaits wire-up)_: Per-frame alpha extraction via RVM/MODNet/BiRefNet with temporal smoothing and trimap refinement. Outputs alpha video, mattes, and per-shot masks.
 
-- ⬜ **Text-to-video** _(planned)_: Local video generation using AnimateDiff, CogVideoX, Mochi, LTX-Video, and Wan-class models with ControlNet, motion LoRAs, and reference-image conditioning. Reuses prompts and seeds from the image generator.
+- ✅ **Text-to-video** _(stub, awaits wire-up)_: Local video generation using AnimateDiff, CogVideoX, Mochi, LTX-Video, and Wan-class models with ControlNet, motion LoRAs, and reference-image conditioning. Reuses prompts and seeds from the image generator.
 
 - ⬜ **Lipsync and talking head** _(planned)_: Audio-driven facial animation using SadTalker, Wav2Lip, and LivePortrait over a still portrait or driving video. Exposes head-pose and expression strength controls.
 
