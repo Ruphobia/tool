@@ -1599,7 +1599,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Calendar converter** _(stub, awaits wire-up)_: Converts dates across Julian, Gregorian, Hijri, Hebrew, Coptic, Byzantine AM, French Republican, Mayan Long Count, and regnal years. Handles the 1582 cutover region-by-region and old-style year-start conventions.
 
-- ⬜ **Paleography HTR** _(planned)_: Handwritten text recognition for manuscripts using local models in the Transkribus/eScriptorium tradition. Supports line segmentation, custom model training on user transcriptions, and confidence overlays per character.
+- ✅ **Paleography HTR** _(stub, awaits wire-up)_: Handwritten text recognition for manuscripts using local models in the Transkribus/eScriptorium tradition. Supports line segmentation, custom model training on user transcriptions, and confidence overlays per character.
 
 - ⬜ **Diplomatic transcription editor** _(planned)_: TEI-conformant editor for diplomatic and semi-diplomatic transcriptions with brevigraph expansion, sigla, deletions, interlineations, and damage markup. Side-by-side with IIIF facsimile and zone-linked text.
 
