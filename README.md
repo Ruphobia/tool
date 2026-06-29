@@ -2735,7 +2735,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **EV Pack and Range Calculator** _(stub, awaits wire-up)_: Designs series/parallel battery configurations from cell datasheets, computes pack voltage, capacity, internal resistance, and sag under load, and estimates range from a drive cycle. Models regen recovery and DC fast-charge time curves.
 
-- ⬜ **Cooling System Calculator** _(planned)_: Sizes radiator core area, fan CFM, oil cooler, and intercooler from engine heat rejection, coolant flow, and ambient conditions. Plots coolant and IAT temperatures over a simulated track stint.
+- ✅ **Cooling System Calculator** _(stub, awaits wire-up)_: Sizes radiator core area, fan CFM, oil cooler, and intercooler from engine heat rejection, coolant flow, and ambient conditions. Plots coolant and IAT temperatures over a simulated track stint.
 
 - ⬜ **VIN Decoder and Service Notebook** _(planned)_: Decodes VINs to year/make/model/engine/build options against an offline NHTSA-derived database, and keeps a maintenance log with parts, fluids, torque specs, and mileage reminders per vehicle.
 
