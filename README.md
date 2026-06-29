@@ -1677,7 +1677,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Parallel Versions Browser** _(stub, awaits wire-up)_: Aligns MT, LXX (Rahlfs and Göttingen), Vulgate, Peshitta, Targumim, and SP at verse and word level with synchronized scrolling. Surfaces quantitative and qualitative differences and links to underlying manuscript witnesses.
 
-- ⬜ **Scribal Hand Classifier** _(planned)_: Identifies and clusters scribal hands across folios using AI-assisted paleographic feature extraction (letter morphology, ductus, ligature inventory). Outputs dated comparisons against the Schøyen, BL Digitised Manuscripts, and Vatican reference corpora.
+- ✅ **Scribal Hand Classifier** _(stub, awaits wire-up)_: Identifies and clusters scribal hands across folios using AI-assisted paleographic feature extraction (letter morphology, ductus, ligature inventory). Outputs dated comparisons against the Schøyen, BL Digitised Manuscripts, and Vatican reference corpora.
 
 - ⬜ **Lacuna Reconstructor** _(planned)_: Proposes restorations for damaged papyri and parchment lacunae using context-conditioned language models trained on Greek, Latin, Coptic, Hebrew, and Aramaic corpora. Reports candidate fills with letter-width fit, parallels in extant witnesses, and confidence intervals.
 
