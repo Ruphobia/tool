@@ -218,7 +218,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ⬜ **Knowledge Graph View** _(planned)_: Interactive graph of entries linked by references, tags, people, and projects, with clustering, path-finding between two notes, and orphan detection.
 
-- ⬜ **People and Relationships** _(planned)_: Lightweight CRM-style records for collaborators and contacts with aliases, roles, project affiliations, and links to entries that mention them.
+- ✅ **People and Relationships** _(in testing)_: Lightweight CRM-style records for collaborators and contacts with aliases, roles, project affiliations, and links to entries that mention them.
 
 - ⬜ **Session Recap Distiller** _(planned)_: Reads a session transcript and proposes candidate memory entries (decisions made, preferences expressed, facts learned) for one-click acceptance, edit, or rejection.
 
