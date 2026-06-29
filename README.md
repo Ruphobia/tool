@@ -3347,7 +3347,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Track and sign identifier** _(stub, awaits wire-up)_: Image-based identification of mammal tracks, scat, browse, and other field sign with morphometric measurement overlays (stride, straddle, pad dimensions) and regional species shortlists. AI-integrated suggestion ranked against a reference photo library.
 
-- ⬜ **Parasitology bench** _(planned)_: Fecal egg count workflow (McMaster, Mini-FLOTAC, Wisconsin) with image-assisted ova/oocyst identification, FECR calculation for anthelmintic resistance, and a blood-smear differential counter. Tracks herd/colony parasite loads over time.
+- ✅ **Parasitology bench** _(stub, awaits wire-up)_: Fecal egg count workflow (McMaster, Mini-FLOTAC, Wisconsin) with image-assisted ova/oocyst identification, FECR calculation for anthelmintic resistance, and a blood-smear differential counter. Tracks herd/colony parasite loads over time.
 
 - ⬜ **Vaccine and prophylaxis scheduler** _(planned)_: Generates vaccine, anthelmintic, and zoonosis-screening schedules per WSAVA/AAHA/AAFP/AAEP guidelines for domestic species and per AZA/EAZA/AAZV husbandry manuals for exotics. Tracks lot numbers, sites, adverse events, and titer results.
 
