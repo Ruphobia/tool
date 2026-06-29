@@ -3997,7 +3997,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Salt and Brine Chemistry Solver** _(stub, awaits wire-up)_: Converts between percent salt by weight, baume, salometer degrees, and equilibrium brine for a given product mass. Includes nitrite ppm targets, sugar offsets, and water hardness adjustments.
 
-- ⬜ **Tempeh and Natto Incubator Log** _(planned)_: Tracks substrate hydration, acidulation, inoculation temperature, and mycelium or bacillus growth across multi-day incubations. AI summarizes failure modes from photo logs when batches go ammoniated or patchy.
+- ✅ **Tempeh and Natto Incubator Log** _(stub, awaits wire-up)_: Tracks substrate hydration, acidulation, inoculation temperature, and mycelium or bacillus growth across multi-day incubations. AI summarizes failure modes from photo logs when batches go ammoniated or patchy.
 
 - ⬜ **Ingredient Substitution and Flavor Pairing Assistant** _(planned)_: Maps ingredients by dominant volatile compounds, fermentation behavior, and acid/sugar/salt ratios. AI suggests substitutions that preserve safety-critical parameters (Aw, pH, salt percent) rather than only flavor.
 
