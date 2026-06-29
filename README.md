@@ -3314,7 +3314,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Radio Astronomy Toolkit** _(stub, awaits wire-up)_: Decodes hydrogen-line (1420 MHz) drift scans, pulsar dedispersion, and meteor-scatter detections from RTL-SDR/AirSpy inputs. Includes waterfall display, baseline subtraction, and galactic-plane survey mode.
 
-- ⬜ **Meteor Shower Forecaster** _(planned)_: Predicts ZHR, radiant position, and parent-body geometry for active and historical meteor showers. Cross-checks against user-supplied all-sky camera detections for automatic shower attribution.
+- ✅ **Meteor Shower Forecaster** _(stub, awaits wire-up)_: Predicts ZHR, radiant position, and parent-body geometry for active and historical meteor showers. Cross-checks against user-supplied all-sky camera detections for automatic shower attribution.
 
 - ⬜ **Stellar Atmosphere Synth** _(planned)_: Generates synthetic stellar spectra from Teff, log g, and metallicity via PHOENIX/ATLAS grid interpolation, with broadband-color and bolometric-correction outputs. Useful for SED fitting and ETC color predictions.
 
