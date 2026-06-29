@@ -2431,7 +2431,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Propeller series matcher** _(stub, awaits wire-up)_: Wageningen B-series and Gawn polynomial open-water curves matched to engine torque and hull wake; finds optimum diameter, pitch, and blade-area ratio for the design point.
 
-- ⬜ **Hydrostatics and stability calculator** _(planned)_: Builds Bonjean curves, KN tables, and intact/damage GZ curves from an offsets table; checks IMO IS Code and SOLAS damaged-stability criteria.
+- ✅ **Hydrostatics and stability calculator** _(stub, awaits wire-up)_: Builds Bonjean curves, KN tables, and intact/damage GZ curves from an offsets table; checks IMO IS Code and SOLAS damaged-stability criteria.
 
 - ⬜ **Mooring catenary solver** _(planned)_: Static and quasi-dynamic multi-segment catenary for spread and turret moorings; reports line tensions, vessel offsets, watch circles, and anchor uplift.
 
