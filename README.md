@@ -1899,7 +1899,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Language and script identifier** _(stub, awaits wire-up)_: Per-paragraph and per-line detection of language and script, including code-switched spans, mixed-script flagging, and confidence per candidate.
 
-- ⬜ **Terminology manager** _(planned)_: Termbase editor with definitions, domain tags, forbidden terms, and cross-language equivalents. Imports and exports TBX and pushes enforcement into the translation workbench.
+- ✅ **Terminology manager** _(stub, awaits wire-up)_: Termbase editor with definitions, domain tags, forbidden terms, and cross-language equivalents. Imports and exports TBX and pushes enforcement into the translation workbench.
 
 - ⬜ **Translation memory** _(planned)_: TMX-backed segment store with fuzzy match retrieval, leverage statistics, penalty configuration, and project-scoped concordance search.
 
