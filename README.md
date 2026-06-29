@@ -151,7 +151,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ⬜ **Embedded browser tool** _(broken, needs rework)_: a full browser running inside the tool itself, executing server-side. Page loads, navigation, form submissions, and downloads all happen on the host running the tool rather than on the user's workstation, so when the user follows a vendor link and pulls a datasheet, a schematic symbol, or any other resource, it lands in the project tree on the server rather than in the workstation's download folder.
 
-- ⬜ **Scripting tool** _(planned)_: a tool for writing and executing scripts that automate work across the other tools. AI drafts the script, the user reviews and approves, the scripting tool runs it. Outputs feed back into the chat or the project tree.
+- ✅ **Scripting tool** _(in testing)_: a tool for writing and executing scripts that automate work across the other tools. AI drafts the script, the user reviews and approves, the scripting tool runs it. Outputs feed back into the chat or the project tree.
 
 - ⬜ **Task scheduler** _(planned)_: a tool for breaking a long work process into a list of steps, scheduling them, executing them sequentially or in parallel where independent, and following through across many turns or days. Persists state so the work survives restarts.
 
