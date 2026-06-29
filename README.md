@@ -3861,7 +3861,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Room acoustics analyzer** _(stub, awaits wire-up)_: Measures RT60, EDT, C50/C80, STI, modal response, and waterfall decay from sine-sweep or MLS captures; suggests treatment placement. AI-integrated treatment recommendations from measured response.
 
-- ⬜ **Loudspeaker and headphone EQ tuner** _(planned)_: Captures system response with a measurement mic, computes correction FIR/IIR filters, and exports to convolution plugins or hardware DSPs.
+- ✅ **Loudspeaker and headphone EQ tuner** _(stub, awaits wire-up)_: Captures system response with a measurement mic, computes correction FIR/IIR filters, and exports to convolution plugins or hardware DSPs.
 
 - ⬜ **Plugin host and scanner** _(planned)_: Hosts LV2/VST3/CLAP/AU plugins in-process or sandboxed, scans and catalogs installed plugins, exposes parameters for automation, and bridges 32-bit/legacy formats.
 
