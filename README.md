@@ -2416,7 +2416,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **IDF curve generator** _(stub, awaits wire-up)_: Fits intensity-duration-frequency curves from rainfall gauge records or NOAA Atlas 14 grids. Outputs design storms (Chicago, NRCS, alternating block, Huff) at user-selected return periods for the runoff and routing tools.
 
-- ⬜ **Utility GIS overlay** _(planned)_: Layered map view of mains, laterals, valves, hydrants, manholes, lift stations, and outfalls over basemap and parcel data. Imports shapefile/GeoJSON/GeoPackage, snaps the hydraulic and sewer models to real geometry, and exports as-builts with attribute schemas (Esri Utility Network, INSPIRE).
+- ✅ **Utility GIS overlay** _(stub, awaits wire-up)_: Layered map view of mains, laterals, valves, hydrants, manholes, lift stations, and outfalls over basemap and parcel data. Imports shapefile/GeoJSON/GeoPackage, snaps the hydraulic and sewer models to real geometry, and exports as-builts with attribute schemas (Esri Utility Network, INSPIRE).
 
 - ⬜ **Asset deterioration model** _(planned)_: Pipe break and condition forecasting from age, material, soil corrosivity, traffic loading, and historical work-order data. Produces likelihood-of-failure scores, renewal prioritization, and capital plan curves; AI-integrated cohort survival fits where break records are sparse.
 
