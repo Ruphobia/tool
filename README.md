@@ -2585,7 +2585,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Polar Solver** _(stub, awaits wire-up)_: XFOIL-style viscous/inviscid 2D solver that sweeps angle of attack and Reynolds number to produce Cl, Cd, Cm, and L/D polars. Handles forced and free transition with selectable Ncrit and supports batch runs across an airfoil set.
 
-- ⬜ **Cp Plotter** _(planned)_: Plots chordwise pressure coefficient distributions for a given alpha and Re, with upper/lower surface separation, sonic line marker, and animated alpha sweep. Overlays multiple airfoils or operating points for direct comparison.
+- ✅ **Cp Plotter** _(stub, awaits wire-up)_: Plots chordwise pressure coefficient distributions for a given alpha and Re, with upper/lower surface separation, sonic line marker, and animated alpha sweep. Overlays multiple airfoils or operating points for direct comparison.
 
 - ⬜ **Boundary Layer Calculator** _(planned)_: Integral boundary-layer solver using Thwaites for laminar regions and Head's or Green's lag-entrainment for turbulent regions, reporting displacement thickness, momentum thickness, shape factor, and skin friction. Flags separation and laminar bubbles along the chord.
 
