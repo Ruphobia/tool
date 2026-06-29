@@ -3564,7 +3564,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Spray Mix Calculator** _(stub, awaits wire-up)_: Converts label rates (per acre, per 100 gal, ppm, or oz/gal) to tank-fill volumes for backpack, hand, or boom sprayers. Tracks REI, PHI, tank mixing compatibility, and surfactant or buffer additions.
 
-- ⬜ **Compost Recipe Builder** _(planned)_: Balances feedstocks to target C:N (typically 25-30), moisture (~55%), and bulk density across browns, greens, manures, and biochar inputs. Estimates pile temperature curve and turn schedule.
+- ✅ **Compost Recipe Builder** _(stub, awaits wire-up)_: Balances feedstocks to target C:N (typically 25-30), moisture (~55%), and bulk density across browns, greens, manures, and biochar inputs. Estimates pile temperature curve and turn schedule.
 
 - ⬜ **Hydroponic Solution Mixer** _(planned)_: Builds A/B stock tanks for hydroponics, fertigation, or foliar feeds from mineral salts (calcium nitrate, MKP, MgSO4, micros) to hit target ppm and EC with pH adjusted via acid or base. Validates ion balance and precipitation risk.
 
