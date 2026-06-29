@@ -1202,7 +1202,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Readability analyzer** _(stub, awaits wire-up)_: Flesch-Kincaid, Gunning Fog, Dale-Chall, SMOG, and ARI scoring with per-paragraph reading level heatmap. Tracks deltas across drafts and target-audience bands (MG, YA, trade, academic).
 
-- ⬜ **Citation manager** _(planned)_: Local BibTeX and CSL-JSON library with PDF attachments, web-snapshot capture, DOI and ISBN lookup, and in-text cite insertion. Bibliography export in any CSL style; deduplicates entries across imported libraries.
+- ✅ **Citation manager** _(stub, awaits wire-up)_: Local BibTeX and CSL-JSON library with PDF attachments, web-snapshot capture, DOI and ISBN lookup, and in-text cite insertion. Bibliography export in any CSL style; deduplicates entries across imported libraries.
 
 - ⬜ **Fact-checker** _(planned)_: Extracts factual claims from the draft and pairs each with cited or candidate sources, marking unsupported assertions. AI-integrated claim extraction with per-source confidence and a side panel for journalist sign-off.
 
