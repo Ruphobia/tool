@@ -299,7 +299,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ⬜ **Code editor** _(planned)_: Multi-language source editor with LSP, tree-sitter syntax, multi-cursor, and inline AI completions, edits, and explain-this-region actions backed by the pipeline.
 
-- ⬜ **Project search** _(planned)_: Ripgrep-style content and symbol search across the workspace with regex, structural (AST) queries, and AI-rephrased natural-language search that compiles to concrete patterns.
+- ✅ **Project search** _(in testing)_: Ripgrep-style content and symbol search across the workspace with regex, structural (AST) queries, and AI-rephrased natural-language search that compiles to concrete patterns.
 
 - ⬜ **Diff viewer** _(planned)_: Side-by-side and inline diff renderer for files, commits, branches, and arbitrary buffers, with hunk staging, three-way merge, and AI summarization of what a diff actually changes.
 
