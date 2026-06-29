@@ -2558,7 +2558,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Gravity Field Explorer** _(stub, awaits wire-up)_: Computes gravitational acceleration and potential from point mass, J2/J4 zonals, and full EGM2008/GRGM spherical harmonic models for Earth, Moon, Mars, and asteroids, with geoid and free-air anomaly visualization.
 
-- ⬜ **Attitude Dynamics Simulator** _(planned)_: Propagates rigid-body attitude using quaternions, MRPs, or Euler angles under reaction wheel, CMG, magnetic torquer, and RCS actuation, with gravity gradient, aero, SRP, and residual dipole disturbance torques.
+- ✅ **Attitude Dynamics Simulator** _(stub, awaits wire-up)_: Propagates rigid-body attitude using quaternions, MRPs, or Euler angles under reaction wheel, CMG, magnetic torquer, and RCS actuation, with gravity gradient, aero, SRP, and residual dipole disturbance torques.
 
 - ⬜ **RCS & Thruster Sizer** _(planned)_: Sizes reaction control thrusters and propellant tanks from required impulse bits, minimum-impulse pulses, slew rate, and translation delta-v, accounting for plume impingement and duty cycle.
 
