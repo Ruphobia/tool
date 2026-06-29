@@ -1390,7 +1390,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **DMCA Toolkit** _(stub, awaits wire-up)_: Generates takedown notices, counter-notices, and a repeat-infringer log from a URL and an asserted work; tracks response deadlines, maintains the designated-agent record, and produces a sworn statement template.
 
-- ⬜ **Patent Search** _(planned)_: Full-text search over a local mirror of USPTO and EPO grants and applications with CPC class browse, claim parsing, family resolution, and prior-art assembly into a report. AI-assisted novelty triage against a draft claim set.
+- ✅ **Patent Search** _(stub, awaits wire-up)_: Full-text search over a local mirror of USPTO and EPO grants and applications with CPC class browse, claim parsing, family resolution, and prior-art assembly into a report. AI-assisted novelty triage against a draft claim set.
 
 - ⬜ **Trademark Screener** _(planned)_: Searches USPTO TESS, EUIPO, and WIPO Madrid databases for word and design marks, runs phonetic (Soundex, Metaphone) and visual similarity checks, classifies under Nice classes, and produces a clearance memo.
 
