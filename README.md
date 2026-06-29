@@ -3961,7 +3961,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Modernist Hydrocolloid Calculator** _(stub, awaits wire-up)_: Computes agar, gellan (high and low acyl), xanthan, methylcellulose, and alginate doses for gels, fluid gels, foams, and spherification by texture target and syneresis tolerance.
 
-- ⬜ **Flavor & Aroma Pairing Explorer** _(planned)_: Maps shared volatile aroma compounds across ingredients with overlap scoring. AI-integrated suggestion of novel pairings constrained by cuisine, season, and dietary rules.
+- ✅ **Flavor & Aroma Pairing Explorer** _(stub, awaits wire-up)_: Maps shared volatile aroma compounds across ingredients with overlap scoring. AI-integrated suggestion of novel pairings constrained by cuisine, season, and dietary rules.
 
 - ⬜ **Smoke, Roast & Stall Modeler** _(planned)_: Predicts internal temperature curves for low-and-slow cooks including the evaporative stall; recommends wood, rub, and wrap timing by protein cut and target bark.
 
