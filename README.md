@@ -776,7 +776,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Collision Shape Editor** _(stub, awaits wire-up)_: Per-sprite and per-mesh collider authoring with polygon, capsule, and compound shapes, plus auto-fit from alpha or mesh silhouettes. Previews collisions against test bodies with adjustable physics parameters.
 
-- ⬜ **Localization Manager** _(planned)_: String table editor with keys, contexts, plural forms, gender, ICU MessageFormat, and screenshot attachments per key. Detects untranslated, stale, and overlong strings, and round-trips with PO/CSV/XLIFF.
+- ✅ **Localization Manager** _(stub, awaits wire-up)_: String table editor with keys, contexts, plural forms, gender, ICU MessageFormat, and screenshot attachments per key. Detects untranslated, stale, and overlong strings, and round-trips with PO/CSV/XLIFF.
 
 - ⬜ **Item & Stat Database** _(planned)_: Spreadsheet-style editor for items, enemies, weapons, and stat curves with formula columns, referential integrity, and what-if balance simulations. Exports to typed code or JSON and diffs cleanly in version control.
 
