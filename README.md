@@ -926,7 +926,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Key Inspector** _(stub, awaits wire-up)_: Parses any key blob (PEM, DER, JWK, SSH, PGP, BIP32 xprv) and surfaces algorithm, curve, key size, fingerprints, and entropy estimates. Detects weak primes, low-entropy generation, and known compromised keys.
 
-- ⬜ **Signature Workbench** _(planned)_: Signs and verifies messages across ECDSA, EdDSA, RSA-PSS, RSA-PKCS1, BLS, and Schnorr with selectable hash functions. Supports detached signatures, COSE, JWS, and raw r,s component editing for malleability experiments.
+- ✅ **Signature Workbench** _(stub, awaits wire-up)_: Signs and verifies messages across ECDSA, EdDSA, RSA-PSS, RSA-PKCS1, BLS, and Schnorr with selectable hash functions. Supports detached signatures, COSE, JWS, and raw r,s component editing for malleability experiments.
 
 - ⬜ **Cipher Playground** _(planned)_: Encrypts and decrypts payloads with AES (GCM, CBC, CTR, XTS), ChaCha20-Poly1305, AES-SIV, and legacy ciphers for educational use. Visualizes block-by-block transformations, IV/nonce reuse failures, and padding oracle behavior.
 
