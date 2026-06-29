@@ -2320,7 +2320,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Pneumatic actuator sizer** _(stub, awaits wire-up)_: Sizes single- and double-acting cylinders and rotary actuators from load, stroke, cycle time, and supply pressure. Computes air consumption (Nl/min), Cv of supply lines, and cushion requirements at end-of-stroke.
 
-- ⬜ **Hydraulic circuit designer** _(planned)_: Schematic editor for hydraulic power packs with pumps, valves, accumulators, and actuators; simulates flow, pressure, and load dynamics. Sizes reservoirs, coolers, and filters from duty cycle and contamination targets.
+- ✅ **Hydraulic circuit designer** _(stub, awaits wire-up)_: Schematic editor for hydraulic power packs with pumps, valves, accumulators, and actuators; simulates flow, pressure, and load dynamics. Sizes reservoirs, coolers, and filters from duty cycle and contamination targets.
 
 - ⬜ **Compressed air system designer** _(planned)_: Sizes compressors, dryers, receivers, and distribution piping from CFM demand profiles and pressure-dew-point targets. Estimates leakage loss, specific energy (kW/cfm), and storage for peak shaving.
 
