@@ -202,7 +202,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ⬜ **Inline Memory Editor** _(planned)_: Direct editor for individual entries with diff-aware history, markdown body, structured frontmatter, and live validation of links to other entries.
 
-- ⬜ **Merge and Deduplicate** _(planned)_: Detects near-duplicate or contradictory entries via embedding similarity plus rule checks, then proposes merges, supersessions, or splits with side-by-side review.
+- ✅ **Merge and Deduplicate** _(in testing)_: Detects near-duplicate or contradictory entries via embedding similarity plus rule checks, then proposes merges, supersessions, or splits with side-by-side review.
 
 - ✅ **Forget and Redact** _(in testing)_: Soft-forget, hard-delete, or redact entries by selector or query, with tombstones, audit trail, and a recoverable trash window before permanent removal.
 
