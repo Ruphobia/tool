@@ -2449,7 +2449,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Nodal analysis tool** _(stub, awaits wire-up)_: Vogel and Fetkovich IPR intersected with Hagedorn-Brown, Beggs-Brill, or mechanistic VLP correlations; sensitivity over choke, tubing size, and reservoir pressure.
 
-- ⬜ **Drilling hydraulics and torque/drag** _(planned)_: Bingham, power-law, and Herschel-Bulkley rheology for ECD, swab/surge, and bit pressure drop; soft-string torque-drag along the wellbore trajectory.
+- ✅ **Drilling hydraulics and torque/drag** _(stub, awaits wire-up)_: Bingham, power-law, and Herschel-Bulkley rheology for ECD, swab/surge, and bit pressure drop; soft-string torque-drag along the wellbore trajectory.
 
 - ⬜ **Material balance solver** _(planned)_: Havlena-Odeh straight-line plots and tank models for solution-gas, gas-cap, and water-drive reservoirs; estimates OOIP/OGIP and aquifer strength.
 
