@@ -2906,7 +2906,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Vibrational spectrum simulator** _(stub, awaits wire-up)_: Predicts IR and Raman bands from structure via group contribution or computed force constants; annotates functional group regions and matches against measured JCAMP-DX traces.
 
-- ⬜ **Mass spectrum workbench** _(planned)_: Predicts EI, ESI, and APCI fragmentation trees; computes isotope envelopes and exact masses; matches an observed spectrum against a candidate structure or a local library, with AI-integrated formula generation from accurate mass.
+- ✅ **Mass spectrum workbench** _(stub, awaits wire-up)_: Predicts EI, ESI, and APCI fragmentation trees; computes isotope envelopes and exact masses; matches an observed spectrum against a candidate structure or a local library, with AI-integrated formula generation from accurate mass.
 
 - ⬜ **Spectrum viewer** _(planned)_: Loads JCAMP-DX, mzML, nmrML, Bruker, and CSV traces with peak picking, integration, baseline and phase correction, deconvolution, and side-by-side overlay of predicted versus measured.
 
