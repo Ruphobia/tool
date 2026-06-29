@@ -391,7 +391,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Component playground** _(stub, awaits wire-up)_: Storybook-style isolated render harness with controls/args, viewport switcher, MDX docs, interaction tests, and snapshot capture per story.
 
-- ⬜ **Accessibility auditor** _(planned)_: Runs axe-core, Pa11y, and ARIA validators against routes or stories, then groups violations by impact with code-locating fixes and contrast remediation suggestions.
+- ✅ **Accessibility auditor** _(stub, awaits wire-up)_: Runs axe-core, Pa11y, and ARIA validators against routes or stories, then groups violations by impact with code-locating fixes and contrast remediation suggestions.
 
 - ⬜ **Lighthouse runner** _(planned)_: Executes Lighthouse passes for performance, SEO, PWA, and best-practices, with throttled profiles, LCP/CLS/INP attribution, and per-resource waterfall annotation.
 
