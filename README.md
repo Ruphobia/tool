@@ -1601,7 +1601,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Paleography HTR** _(stub, awaits wire-up)_: Handwritten text recognition for manuscripts using local models in the Transkribus/eScriptorium tradition. Supports line segmentation, custom model training on user transcriptions, and confidence overlays per character.
 
-- ⬜ **Diplomatic transcription editor** _(planned)_: TEI-conformant editor for diplomatic and semi-diplomatic transcriptions with brevigraph expansion, sigla, deletions, interlineations, and damage markup. Side-by-side with IIIF facsimile and zone-linked text.
+- ✅ **Diplomatic transcription editor** _(stub, awaits wire-up)_: TEI-conformant editor for diplomatic and semi-diplomatic transcriptions with brevigraph expansion, sigla, deletions, interlineations, and damage markup. Side-by-side with IIIF facsimile and zone-linked text.
 
 - ⬜ **Critical apparatus builder** _(planned)_: Collates variant readings across witnesses and generates a positive or negative critical apparatus. Supports stemma codicum visualization and conjectural emendation tracking.
 
