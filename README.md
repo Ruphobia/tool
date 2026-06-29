@@ -1272,7 +1272,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Mortgage scenario comparator** _(stub, awaits wire-up)_: Compares loan offers side by side across rate, term, points, PMI, and closing costs, computing APR, total interest, and break-even points between scenarios.
 
-- ⬜ **Cap rate and NOI calculator** _(planned)_: Builds net operating income from rent roll, vacancy, opex, and reserves, then derives cap rate, gross rent multiplier, and price per door from sale or list price.
+- ✅ **Cap rate and NOI calculator** _(stub, awaits wire-up)_: Builds net operating income from rent roll, vacancy, opex, and reserves, then derives cap rate, gross rent multiplier, and price per door from sale or list price.
 
 - ⬜ **Rental pro forma modeler** _(planned)_: Projects multi-year cash flow for an income property including rent growth, expense inflation, capex reserves, financing, depreciation, and after-tax IRR, NPV, equity multiple, and cash-on-cash return.
 
