@@ -2536,7 +2536,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Orbital Propagator** _(stub, awaits wire-up)_: Propagates state vectors and TLEs forward and backward in time using SGP4/SDP4, two-body Kepler, or a numerical integrator with J2/J4, atmospheric drag, solar radiation pressure, and third-body perturbations. Outputs ephemeris, ground tracks, and 3D orbit visualizations.
 
-- ⬜ **TLE Workbench** _(planned)_: Fetches, parses, edits, and validates two-line element sets from Celestrak or local catalogs, with checksum repair, epoch shifting, and side-by-side diffing of revisions for the same NORAD ID.
+- ✅ **TLE Workbench** _(stub, awaits wire-up)_: Fetches, parses, edits, and validates two-line element sets from Celestrak or local catalogs, with checksum repair, epoch shifting, and side-by-side diffing of revisions for the same NORAD ID.
 
 - ⬜ **Element Set Converter** _(planned)_: Round-trips between Cartesian state, classical orbital elements, equinoctial elements, modified equinoctial, TLE mean elements, and Keplerian osculating elements, with frame transforms across ECI, ECEF, RIC, LVLH, and J2000.
 
