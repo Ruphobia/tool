@@ -3341,7 +3341,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Occupancy and capture-recapture** _(stub, awaits wire-up)_: Fits single- and multi-season occupancy, N-mixture, and spatially explicit capture-recapture models (PRESENCE/unmarked/secr/oSCR style) to detection histories from camera traps and acoustic arrays. Reports detection probability, density estimates, and goodness-of-fit diagnostics.
 
-- ⬜ **Species distribution modeler** _(planned)_: Trains MaxEnt / Random Forest / boosted-tree SDMs on occurrence records and WorldClim/Chelsa/soil rasters with k-fold spatial cross-validation and variable-importance plots. Projects to future climate scenarios and writes range rasters as GeoTIFF.
+- ✅ **Species distribution modeler** _(stub, awaits wire-up)_: Trains MaxEnt / Random Forest / boosted-tree SDMs on occurrence records and WorldClim/Chelsa/soil rasters with k-fold spatial cross-validation and variable-importance plots. Projects to future climate scenarios and writes range rasters as GeoTIFF.
 
 - ⬜ **Ethogram and behavior coder** _(planned)_: BORIS-style live and video behavior coding with user-defined ethograms, modifiers, point and state events, multi-subject scoring, and inter-observer reliability (Cohen's kappa, ICC). Exports event sequences for sequential and bout analysis.
 
