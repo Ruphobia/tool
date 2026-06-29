@@ -3918,7 +3918,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Yarn Substitution Calculator** _(stub, awaits wire-up)_: Matches a target yarn by gauge, wraps per inch, fiber blend, twist, and weight category against a personal stash database. Recomputes ball quantity needed for a given pattern when substituting.
 
-- ⬜ **Stitch Library** _(planned)_: Searchable reference of embroidery, knit, crochet, sashiko, and tatting stitches with diagrams, video loops, and tension notes. Insertable into patterns as named stitches with parameters.
+- ✅ **Stitch Library** _(stub, awaits wire-up)_: Searchable reference of embroidery, knit, crochet, sashiko, and tatting stitches with diagrams, video loops, and tension notes. Insertable into patterns as named stitches with parameters.
 
 - ⬜ **Colorway Palette Builder** _(planned)_: Extracts palettes from reference images and matches each color to thread, floss, yarn, and bead inventories. Tests palettes against simulated daylight and tungsten white points and exports a colorway sheet.
 
