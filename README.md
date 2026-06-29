@@ -836,7 +836,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Circuit Builder** _(stub, awaits wire-up)_: Drag and drop quantum circuit editor with a categorized gate palette (Clifford, rotation, multi-qubit, custom unitaries), per-wire annotations, classical registers, and live Bloch and statevector previews of each wire's local state.
 
-- ⬜ **Bloch Sphere Visualizer** _(planned)_: Interactive Bloch sphere for single qubits with reduced-density rendering for multi-qubit registers, vector trails for time evolution, and a scrubbable timeline tied to the circuit timestep.
+- ✅ **Bloch Sphere Visualizer** _(stub, awaits wire-up)_: Interactive Bloch sphere for single qubits with reduced-density rendering for multi-qubit registers, vector trails for time evolution, and a scrubbable timeline tied to the circuit timestep.
 
 - ⬜ **State Inspector** _(planned)_: Statevector, density matrix, and probability distribution views with amplitude bar charts, phase wheels, computational basis filtering, and hover-driven readout of complex amplitudes, fidelity, and purity.
 
