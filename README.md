@@ -2277,7 +2277,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Density And Mass Calculator** _(stub, awaits wire-up)_: Computes mass, volume, buoyancy, and material cost for stock shapes (round bar, plate, tube, sheet, hex) in any alloy, with unit conversion and packing-density estimates for powders and pellets.
 
-- ⬜ **Thermal Expansion Mismatch Tool** _(planned)_: Computes interference, gap, or stress between two materials over a temperature range from CTE and modulus; useful for shrink fits, bimetallic strips, glass-to-metal seals, and PCB-to-component joints.
+- ✅ **Thermal Expansion Mismatch Tool** _(stub, awaits wire-up)_: Computes interference, gap, or stress between two materials over a temperature range from CTE and modulus; useful for shrink fits, bimetallic strips, glass-to-metal seals, and PCB-to-component joints.
 
 - ⬜ **Tempering Color And Spark Test Guide** _(planned)_: Visual chart of oxide tempering colors (straw to blue) versus temperature for plain carbon steels, plus a spark-stream identifier with reference imagery for distinguishing low/high carbon, tool, stainless, and cast iron grades.
 
