@@ -2192,7 +2192,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **FDM Slicer** _(stub, awaits wire-up)_: Slices STL/3MF/STEP meshes into G-code for FDM printers with per-object settings, variable layer height, tree and organic supports, ironing, and seam control. AI-integrated suggestion of starting parameters from material, geometry, and target strength.
 
-- ⬜ **Resin Slicer** _(planned)_: Slices meshes into masked layer images for MSLA, DLP, and SLA printers with anti-aliasing, light PWM, hollow-and-drain, automatic raft and support trees, and per-layer exposure compensation.
+- ✅ **Resin Slicer** _(stub, awaits wire-up)_: Slices meshes into masked layer images for MSLA, DLP, and SLA printers with anti-aliasing, light PWM, hollow-and-drain, automatic raft and support trees, and per-layer exposure compensation.
 
 - ⬜ **Printer Profile Manager** _(planned)_: Stores and edits machine, material, and process profiles with inheritance and diffing; imports from PrusaSlicer, OrcaSlicer, and Cura, and tracks per-printer calibration constants like flow, e-steps, PA, and bed mesh.
 
