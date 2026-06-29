@@ -4256,7 +4256,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Props Inventory** _(stub, awaits wire-up)_: Catalog of cards, coins, clubs, balls, silks, gimmicks, and consumables with condition tracking, retire-by dates, repair logs, travel case assignments, and per-routine load lists.
 
-- ⬜ **Stage Plot Designer** _(planned)_: Top-down stage diagrams with prop positions, blocking marks, light angles, audience risers, and sightline cones. Computes blind spots and exposure risk from any seat in the house.
+- ✅ **Stage Plot Designer** _(stub, awaits wire-up)_: Top-down stage diagrams with prop positions, blocking marks, light angles, audience risers, and sightline cones. Computes blind spots and exposure risk from any seat in the house.
 
 - ⬜ **Rehearsal Log** _(planned)_: Per-routine practice journal capturing drop counts, run times, tempo, video diary entries, and skill-acquisition curves. Flags regressions and surfaces overdue review items based on a forgetting curve.
 
