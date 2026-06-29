@@ -2171,7 +2171,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Machine controller bridge** _(stub, awaits wire-up)_: Streams G-code to LinuxCNC, GRBL, Klipper, Marlin, Smoothie, and Mach3/4 over USB, serial, or network with live overrides and probe support. Captures probing results back into CAM and CAD.
 
-- ⬜ **Probing and metrology suite** _(planned)_: Drives touch probes and CMMs for work coordinate setup, feature inspection, and best-fit alignment to nominal CAD. Generates inspection reports with deviation maps.
+- ✅ **Probing and metrology suite** _(stub, awaits wire-up)_: Drives touch probes and CMMs for work coordinate setup, feature inspection, and best-fit alignment to nominal CAD. Generates inspection reports with deviation maps.
 
 - ⬜ **Photogrammetry and scan-to-CAD** _(planned)_: Reconstructs meshes from photo sets or structured-light scans, then converts them to parametric features and primitives. AI-integrated segmentation of scans into recognizable mechanical features.
 
