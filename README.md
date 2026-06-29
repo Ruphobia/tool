@@ -258,7 +258,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Export and Replay** _(in testing)_: Writes the harvested corpus to WARC, JSONL, Parquet, or Markdown bundles, and can replay a WARC back through the extractor without re-fetching. Keeps the knowledge base reproducible from cold storage.
 
-- ⬜ **Reference Library** _(planned)_: Local-first reference database with collections, tags, smart folders, and full-text search across metadata and attached PDFs. Stores items in a portable SQLite store with CSL-JSON as the canonical record.
+- ✅ **Reference Library** _(in testing)_: Local-first reference database with collections, tags, smart folders, and full-text search across metadata and attached PDFs. Stores items in a portable SQLite store with CSL-JSON as the canonical record.
 
 - ⬜ **Format Import-Export Hub** _(planned)_: Bidirectional converter for BibTeX, BibLaTeX, RIS, EndNote XML, CSL-JSON, MODS, and Zotero RDF. Handles field mapping, character-encoding quirks, and round-trip fidelity checks.
 
