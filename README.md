@@ -2603,7 +2603,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **RANS Solver** _(stub, awaits wire-up)_: Local finite-volume Navier-Stokes solver for 2D and small 3D cases with Spalart-Allmaras and k-omega SST turbulence models, compressible and incompressible branches. Streams residuals, force coefficients, and convergence plots live during the run.
 
-- ⬜ **Flow Visualizer** _(planned)_: Interactive viewer for pressure, Mach, vorticity, and velocity fields with streamlines, line integral convolution, isosurfaces, and animated particle traces. Reads VTK, CGNS, and the workbench's native solver output.
+- ✅ **Flow Visualizer** _(stub, awaits wire-up)_: Interactive viewer for pressure, Mach, vorticity, and velocity fields with streamlines, line integral convolution, isosurfaces, and animated particle traces. Reads VTK, CGNS, and the workbench's native solver output.
 
 - ⬜ **Multi-Element Airfoil Analyzer** _(planned)_: Solves slat, main, and flap configurations with gap and overlap parameters, including confluent boundary layers and wake-on-element interactions. Optimizes gap/overlap for max Cl_max at a chosen Re.
 
