@@ -3247,7 +3247,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **METAR/SYNOP station plotter** _(stub, awaits wire-up)_: Pulls ASOS, AWOS, METAR, and SYNOP observations from MADIS, Iowa Mesonet, or Synoptic API; renders WMO-standard station models with wind barbs, sky cover, present weather, and pressure tendency.
 
-- ⬜ **Hurricane track plotter** _(planned)_: Loads HURDAT2, IBTrACS, and ATCF a-deck/b-deck files; plots best track, intensity, wind radii, and forecast cones; overlays ensemble spaghetti from GEFS/ECMWF-EPS and computes ACE/PDI.
+- ✅ **Hurricane track plotter** _(stub, awaits wire-up)_: Loads HURDAT2, IBTrACS, and ATCF a-deck/b-deck files; plots best track, intensity, wind radii, and forecast cones; overlays ensemble spaghetti from GEFS/ECMWF-EPS and computes ACE/PDI.
 
 - ⬜ **HYSPLIT trajectory runner** _(planned)_: Wraps HYSPLIT for forward/back trajectories, dispersion, and concentration runs from GDAS/HRRR ARL files; generates ensemble trajectories and source-receptor matrices with plume animation.
 
