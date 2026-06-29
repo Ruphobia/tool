@@ -3877,7 +3877,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Wavetable and sample editor** _(stub, awaits wire-up)_: Single-cycle and multi-frame wavetable editor with harmonic drawing, FFT resynthesis, morphing, and export to common synth wavetable formats; loop-point and zero-crossing tools for sampled instruments.
 
-- ⬜ **Drum machine and step sequencer** _(planned)_: Pattern-based sequencer with per-step probability, ratchets, micro-timing, parameter locks, and song-mode chaining; samples or synthesized voices per track.
+- ✅ **Drum machine and step sequencer** _(stub, awaits wire-up)_: Pattern-based sequencer with per-step probability, ratchets, micro-timing, parameter locks, and song-mode chaining; samples or synthesized voices per track.
 
 - ⬜ **Tuner and intonation tools** _(planned)_: Chromatic and strobe tuner, temperament selector (equal, just, meantone, Pythagorean, custom Scala/.scl), and intonation analyzer for ensembles and recordings.
 
