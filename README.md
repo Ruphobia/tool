@@ -2347,7 +2347,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Load Table Browser** _(stub, awaits wire-up)_: Searchable database of joist, deck, masonry, and lintel span tables from manufacturer and code sources. Filters by span, load, deflection limit, and material with AI-integrated explanation of why a row applies.
 
-- ⬜ **Seismic Load Calculator** _(planned)_: Computes ASCE 7 equivalent lateral force, modal response, and base shear from site class, Ss/S1, and risk category. Distributes story shears and produces drift checks.
+- ✅ **Seismic Load Calculator** _(stub, awaits wire-up)_: Computes ASCE 7 equivalent lateral force, modal response, and base shear from site class, Ss/S1, and risk category. Distributes story shears and produces drift checks.
 
 - ⬜ **Wind Load Calculator** _(planned)_: Generates ASCE 7 main wind-force and components-and-cladding pressures from exposure, topography, and building geometry. Produces pressure zone diagrams on plan and elevation.
 
