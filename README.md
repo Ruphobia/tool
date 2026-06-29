@@ -4328,7 +4328,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Syzygy tablebase probe** _(stub, awaits wire-up)_: Resolves 7-piece endgame positions against local or remote Syzygy tablebases, returning WDL and DTZ values plus the principal variation. Used to verify engine evaluations in technical endgames.
 
-- ⬜ **KataGo analysis bridge** _(planned)_: Drives a local KataGo binary via the analysis engine JSON protocol, requesting policy/value/ownership maps and score-lead estimates for SGF positions. Surfaces winrate graphs, blunder detection, and move suggestions with visit counts.
+- ✅ **KataGo analysis bridge** _(stub, awaits wire-up)_: Drives a local KataGo binary via the analysis engine JSON protocol, requesting policy/value/ownership maps and score-lead estimates for SGF positions. Surfaces winrate graphs, blunder detection, and move suggestions with visit counts.
 
 - ⬜ **SGF library indexer** _(planned)_: Ingests SGF collections (pro games, OGS/KGS archives), normalizes metadata, and builds a searchable index by player, rank, opening pattern, and board-region motif. Exposes joseki and fuseki frequency tables.
 
