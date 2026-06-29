@@ -3945,7 +3945,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Mash Water Chemistry Designer** _(stub, awaits wire-up)_: Models source water plus salt and acid additions against style-appropriate sulfate, chloride, and calcium targets; predicts mash pH from grist color and acidulated malt percentage.
 
-- ⬜ **Yeast Pitch & Starter Designer** _(planned)_: Computes pitch rate by gravity and volume for ale, lager, and Brettanomyces strains; designs stepped starters using stir-plate vs intermittent-shaking growth factors and viability decay.
+- ✅ **Yeast Pitch & Starter Designer** _(stub, awaits wire-up)_: Computes pitch rate by gravity and volume for ale, lager, and Brettanomyces strains; designs stepped starters using stir-plate vs intermittent-shaking growth factors and viability decay.
 
 - ⬜ **Gravity Log & Curve Fitter** _(planned)_: Logs hydrometer and refractometer readings with temperature and wort-correction-factor adjustment; fits Gompertz or logistic fermentation curves and forecasts terminal gravity and attenuation.
 
