@@ -240,7 +240,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ⬜ **Headless Browser Fetcher** _(planned)_: Renders JavaScript-heavy pages via a headless engine with cookie jar, viewport, and resource-blocking controls. Falls back from plain HTTP fetch only when DOM-after-script differs materially from the raw response.
 
-- ⬜ **Wayback Sweeper** _(planned)_: Queries the Internet Archive CDX API for snapshot history of a URL or host and bulk-fetches selected captures. Useful for recovering deleted pages and diffing content drift over time.
+- ✅ **Wayback Sweeper** _(in testing)_: Queries the Internet Archive CDX API for snapshot history of a URL or host and bulk-fetches selected captures. Useful for recovering deleted pages and diffing content drift over time.
 
 - ✅ **API Harvester** _(in testing)_: Declarative HTTP client for paginated REST and GraphQL endpoints with auth, retry, backoff, and cursor/offset/keyset pagination strategies. Streams results into the same ingest pipeline as the crawler.
 
