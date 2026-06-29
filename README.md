@@ -2314,7 +2314,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **NPSH and cavitation checker** _(stub, awaits wire-up)_: Computes NPSHa from suction-side geometry, vapor pressure, and elevation; compares against NPSHr with margin. Estimates cavitation damage risk and suction specific speed for centrifugal pumps.
 
-- ⬜ **Valve Cv and Kv sizer** _(planned)_: Sizes control valves for liquid, gas, and two-phase service per ISA-75.01/IEC 60534 with choked-flow, FL, xT, and piping geometry corrections. Recommends trim style and predicts aerodynamic/hydrodynamic noise.
+- ✅ **Valve Cv and Kv sizer** _(stub, awaits wire-up)_: Sizes control valves for liquid, gas, and two-phase service per ISA-75.01/IEC 60534 with choked-flow, FL, xT, and piping geometry corrections. Recommends trim style and predicts aerodynamic/hydrodynamic noise.
 
 - ⬜ **Water hammer simulator** _(planned)_: Simulates transient pressure surges via method of characteristics with pump trip, valve closure, and check-valve slam scenarios. Sizes surge tanks, air vessels, and relief devices to keep pressures within envelope.
 
