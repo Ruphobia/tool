@@ -2749,7 +2749,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Tire & Wheel Calculator** _(stub, awaits wire-up)_: Converts between metric and inch tire sizes, computes overall diameter, sidewall height, revs-per-mile, and speedometer error from stock. Checks load and speed ratings, wheel offset/backspace fitment, and tire pressure recommendations by load.
 
-- ⬜ **Brake Pad & Rotor Reference** _(planned)_: Cross-references pad and rotor part numbers across FMSI, ATE, Brembo, Akebono, EBC, and OEM catalogs. Tracks pad thickness, rotor min-thickness, bedding procedures, and per-axle wear logs with projected replacement mileage.
+- ✅ **Brake Pad & Rotor Reference** _(stub, awaits wire-up)_: Cross-references pad and rotor part numbers across FMSI, ATE, Brembo, Akebono, EBC, and OEM catalogs. Tracks pad thickness, rotor min-thickness, bedding procedures, and per-axle wear logs with projected replacement mileage.
 
 - ⬜ **Fluids & Capacities Database** _(planned)_: Engine oil grade and capacity, coolant type, ATF/CVT/MTF, brake fluid spec, power steering, differential, transfer case, and refrigerant charge by vehicle. Flags incompatible mixes (e.g., DOT 3/4/5, OAT/IAT coolants, PAG vs POE oils).
 
