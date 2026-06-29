@@ -1722,7 +1722,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Denominational Comparator** _(stub, awaits wire-up)_: Side-by-side doctrinal matrices for sects and schools (e.g., Sunni/Shia/Ibadi madhhabs, Theravada/Mahayana/Vajrayana, Orthodox/Catholic/Protestant/Oriental, Vaishnava/Shaiva/Shakta/Smarta). Compares positions on canon, ritual, ecclesiology, soteriology, and authority.
 
-- ⬜ **Prayer and Liturgy Translator** _(planned)_: Source-aware translator for liturgical texts that preserves meter, refrain structure, and theological loading. Handles common forms: psalmody, sutra recitation, mantra, doxology, kaddish, dua, and supports phonetic transliteration for non-reading users.
+- ✅ **Prayer and Liturgy Translator** _(stub, awaits wire-up)_: Source-aware translator for liturgical texts that preserves meter, refrain structure, and theological loading. Handles common forms: psalmody, sutra recitation, mantra, doxology, kaddish, dua, and supports phonetic transliteration for non-reading users.
 
 - ⬜ **Comparative Mythology Graph** _(planned)_: Knowledge graph of deities, archetypes, cosmogonies, eschatons, and culture heroes with typed edges for cognates, syncretisms, and influence vectors. Supports Dumezilian, Eliadean, and historicist queries.
 
