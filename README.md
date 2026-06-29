@@ -3040,7 +3040,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **BCR/TCR repertoire analyzer** _(stub, awaits wire-up)_: Processes AIRR-seq data with MiXCR or IgBLAST; computes V(D)J usage, CDR3 diversity (Shannon, Simpson, D50), clonotype tracking, and lineage trees via Change-O.
 
-- ⬜ **Flow cytometry workbench** _(planned)_: Loads FCS files, applies compensation, transforms (logicle, arcsinh), gates manually or via FlowSOM and UMAP, and exports population statistics and publication-grade plots.
+- ✅ **Flow cytometry workbench** _(stub, awaits wire-up)_: Loads FCS files, applies compensation, transforms (logicle, arcsinh), gates manually or via FlowSOM and UMAP, and exports population statistics and publication-grade plots.
 
 - ⬜ **Growth curve plotter** _(planned)_: Imports plate reader OD or fluorescence time series, fits Gompertz, logistic, and Baranyi models, and reports lag time, max growth rate, carrying capacity, and AUC with blank subtraction and outlier removal.
 
