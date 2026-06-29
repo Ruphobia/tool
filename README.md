@@ -3951,7 +3951,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Wine Must Adjustment Bench** _(stub, awaits wire-up)_: Solves chaptalization, acid additions, and SO2 dosing as a function of pH for free vs molecular SO2; tracks malolactic conversion, fining, and oak regimens across a vintage.
 
-- ⬜ **Sake Sandan-Jikomi Planner** _(planned)_: Schedules three-step moromi additions with rice, koji, mizu, and shubo masses; computes seimaibuai, expected SMV (nihonshudo), and acidity targets across the moto and main mash.
+- ✅ **Sake Sandan-Jikomi Planner** _(stub, awaits wire-up)_: Schedules three-step moromi additions with rice, koji, mizu, and shubo masses; computes seimaibuai, expected SMV (nihonshudo), and acidity targets across the moto and main mash.
 
 - ⬜ **Lacto-Ferment Workbench** _(planned)_: Solves salt percentage and brine ratios for vegetable ferments, kimchi, and pickles; tracks pH, temperature, and CO2 vent timeline with safety thresholds for Listeria and Clostridium.
 
