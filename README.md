@@ -4379,7 +4379,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Frame Data Inspector** _(stub, awaits wire-up)_: Per-move frame-data browser with startup, active, recovery, hitbox/hurtbox visualizations, and on-block/on-hit advantage tables. Cross-references community frame-data sets with in-engine extracted values.
 
-- ⬜ **Memory Watcher** _(planned)_: Lightweight RAM watcher and pointer-path resolver for emulators and PC processes, with named addresses, struct overlays, and tick-aligned logging. Used as the data source for auto-splitters and route validators.
+- ✅ **Memory Watcher** _(stub, awaits wire-up)_: Lightweight RAM watcher and pointer-path resolver for emulators and PC processes, with named addresses, struct overlays, and tick-aligned logging. Used as the data source for auto-splitters and route validators.
 
 - ⬜ **RNG Manipulator** _(planned)_: RNG state tracker and manipulation planner that models per-frame PRNG advancement for games with exposed seeds. Generates input sequences that hit target seeds and verifies them against captured runs.
 
