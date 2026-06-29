@@ -2691,7 +2691,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **CAN Bus Analyzer** _(stub, awaits wire-up)_: Sniffs raw CAN frames at user-set baud rates, decodes them against loaded DBC/KCD files, and visualizes signals as time-series. Supports replay, filtering, and bit-level inspection for reverse-engineering proprietary buses.
 
-- ⬜ **ECU Map Editor** _(planned)_: Opens fuel, ignition, boost, and VE tables from common ECU formats (Megasquirt, Speeduino, Haltech exports) as editable 2D/3D surfaces. AI-integrated smoothing and outlier detection suggest table edits from logged operating-point density.
+- ✅ **ECU Map Editor** _(stub, awaits wire-up)_: Opens fuel, ignition, boost, and VE tables from common ECU formats (Megasquirt, Speeduino, Haltech exports) as editable 2D/3D surfaces. AI-integrated smoothing and outlier detection suggest table edits from logged operating-point density.
 
 - ⬜ **Dyno Chart Plotter** _(planned)_: Imports chassis or engine dyno runs (CSV, SAE J1349) and overlays power and torque curves with correction factors, smoothing, and run-to-run delta comparison. Computes area-under-curve, peak holds, and powerband width.
 
