@@ -1454,7 +1454,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Comic and manga reader** _(stub, awaits wire-up)_: Page and strip viewers for CBZ, CBR, and PDF comics with right-to-left mode, double-page spreads, panel-by-panel zoom, and per-volume reading position.
 
-- ⬜ **Document converter** _(planned)_: Routes documents between PDF, EPUB, DOCX, ODT, HTML, Markdown, LaTeX, and plain text via pandoc and format-specific backends. Falls back to model-driven structure recovery when a source is too malformed for deterministic conversion.
+- ✅ **Document converter** _(stub, awaits wire-up)_: Routes documents between PDF, EPUB, DOCX, ODT, HTML, Markdown, LaTeX, and plain text via pandoc and format-specific backends. Falls back to model-driven structure recovery when a source is too malformed for deterministic conversion.
 
 - ⬜ **OCR engine** _(planned)_: Runs Tesseract and neural OCR over scanned pages or images, producing searchable PDFs and plain text with per-token confidence. Supports multi-language passes and AI-integrated correction of low-confidence spans.
 
