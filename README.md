@@ -2951,7 +2951,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Genome Browser** _(stub, awaits wire-up)_: Track-based viewer for assemblies and annotations (FASTA + GFF3, GTF, BED, BigWig, VCF, BAM, CRAM). Zoom from chromosome to base, synteny ribbons across loaded genomes, and read pileups with mismatch coloring.
 
-- ⬜ **Phylogenetic Tree Builder** _(planned)_: Constructs trees with neighbor-joining, maximum-likelihood (RAxML/IQ-TREE-style), and Bayesian (MrBayes-style) backends from an alignment. Bootstrap support, ultrafast bootstrap, model selection (ModelTest), and interactive radial/rectangular/circular tree rendering with reroot, collapse, and taxon coloring.
+- ✅ **Phylogenetic Tree Builder** _(stub, awaits wire-up)_: Constructs trees with neighbor-joining, maximum-likelihood (RAxML/IQ-TREE-style), and Bayesian (MrBayes-style) backends from an alignment. Bootstrap support, ultrafast bootstrap, model selection (ModelTest), and interactive radial/rectangular/circular tree rendering with reroot, collapse, and taxon coloring.
 
 - ⬜ **Protein Structure Viewer** _(planned)_: 3D viewer for PDB, mmCIF, and MMTF with cartoon, surface, stick, and electrostatics renderings. Sequence-to-structure linkage, residue selection by SQL-like query, B-factor and conservation coloring, and side-by-side superposition with TM-align/CE.
 
