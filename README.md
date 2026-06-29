@@ -1468,7 +1468,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Scan cleaner** _(stub, awaits wire-up)_: Deskews, despeckles, dewarps, and rebinarizes scanned pages, with batch presets for book scans, receipts, and whiteboards. Suggests cleanup parameters from a sample page using an AI quality estimator.
 
-- ⬜ **Page operations** _(planned)_: Splits, merges, reorders, rotates, crops, and renumbers PDF pages with a thumbnail editor. Handles bookmark and outline preservation across operations.
+- ✅ **Page operations** _(stub, awaits wire-up)_: Splits, merges, reorders, rotates, crops, and renumbers PDF pages with a thumbnail editor. Handles bookmark and outline preservation across operations.
 
 - ⬜ **RAG chat** _(planned)_: Question-answering interface over a selected library subset using embeddings, BM25, and rerankers. Returns answers with span-level citations back to the source pages.
 
