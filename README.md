@@ -2007,7 +2007,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Polarization Calculator** _(stub, awaits wire-up)_: Jones and Mueller calculus workbench for polarizers, retarders, rotators, depolarizers, and arbitrary anisotropic stacks; visualizes states on the Poincare sphere and computes degree of polarization, ellipticity, and orientation through user-built optical chains.
 
-- ⬜ **Fiber Mode Solver** _(planned)_: Finite-difference vector mode solver for step-index, graded-index, photonic-crystal, and arbitrary-cross-section fibers, returning effective index, group/chromatic/PMD dispersion, mode field diameter, confinement, and bend loss.
+- ✅ **Fiber Mode Solver** _(stub, awaits wire-up)_: Finite-difference vector mode solver for step-index, graded-index, photonic-crystal, and arbitrary-cross-section fibers, returning effective index, group/chromatic/PMD dispersion, mode field diameter, confinement, and bend loss.
 
 - ⬜ **Laser Resonator Designer** _(planned)_: Designs linear and ring cavities with arbitrary mirror, lens, and gain-medium chains; computes stability (g1 g2), eigenmode size at each surface, longitudinal mode spacing, and thermal-lens-aware mode shifts. Plots stability diagrams and resonator round-trip Gaussian propagation.
 
