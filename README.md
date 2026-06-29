@@ -500,7 +500,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Fastlane lane scaffolder** _(stub, awaits wire-up)_: Generates Fastfile lanes for match, gym, scan, supply, and pilot tuned to the project's signing setup, with secrets resolved from the signing identity vault and CI YAML stubs for GitHub Actions and Bitrise.
 
-- ⬜ **UI flow recorder** _(planned)_: Captures user flows from a connected simulator/emulator and emits Maestro YAML, XCUITest Swift, and Espresso Kotlin equivalents, with element selectors stabilized via accessibility identifiers rather than coordinates.
+- ✅ **UI flow recorder** _(stub, awaits wire-up)_: Captures user flows from a connected simulator/emulator and emits Maestro YAML, XCUITest Swift, and Espresso Kotlin equivalents, with element selectors stabilized via accessibility identifiers rather than coordinates.
 
 - ⬜ **Snapshot test diff viewer** _(planned)_: Compares Paparazzi, swift-snapshot-testing, and Roborazzi reference images against new runs, highlights pixel deltas with anti-aliasing tolerance, and lets the user accept or reject per-device baselines from one canvas.
 
