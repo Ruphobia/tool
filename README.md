@@ -1048,7 +1048,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Chart builder** _(stub, awaits wire-up)_: Axis, series, and style picker over a dataset with categorical, time-series, statistical, and geographic chart families. AI-integrated suggestion of chart type from the data shape and the question being asked.
 
-- ⬜ **Equation editor** _(planned)_: LaTeX and MathML equation editor with a palette, live preview, numbered references, and inline rendering in documents, slides, and notes. AI-integrated conversion from a natural-language description of an expression.
+- ✅ **Equation editor** _(stub, awaits wire-up)_: LaTeX and MathML equation editor with a palette, live preview, numbered references, and inline rendering in documents, slides, and notes. AI-integrated conversion from a natural-language description of an expression.
 
 - ⬜ **Mail merge** _(planned)_: Template-plus-dataset engine that produces per-recipient documents, PDFs, labels, envelopes, and email sends. Supports conditional sections and per-field formatters.
 
