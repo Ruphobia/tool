@@ -4644,7 +4644,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Water filter sizing planner** _(stub, awaits wire-up)_: Computes required filter throughput and replacement cadence from household size, source-water contaminant profile, and target log-reduction values for bacteria, protozoa, and viruses. Compares ceramic, hollow-fiber, carbon block, and RO elements against the demand curve.
 
-- ⬜ **Water treatment dose calculator** _(planned)_: Calculates chlorine, iodine, and UV doses for batch disinfection given volume, turbidity, and water temperature, and adjusts boil times for altitude. Includes SODIS exposure tables and pool-shock dilution for emergency potable conversion.
+- ✅ **Water treatment dose calculator** _(stub, awaits wire-up)_: Calculates chlorine, iodine, and UV doses for batch disinfection given volume, turbidity, and water temperature, and adjusts boil times for altitude. Includes SODIS exposure tables and pool-shock dilution for emergency potable conversion.
 
 - ⬜ **Rainwater catchment sizer** _(planned)_: Sizes roof catchment area, first-flush diverter, and storage tank volume from regional precipitation data and projected demand. Models multi-month dry-period reserve and overflow routing for swales or cisterns.
 
