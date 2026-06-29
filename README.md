@@ -2294,7 +2294,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Anechoic chamber sizer** _(stub, awaits wire-up)_: Sizes wedge depth, cutoff frequency, and free-field volume for anechoic and hemi-anechoic rooms. Generates wedge tip/base geometry and predicts low-frequency absorption performance.
 
-- ⬜ **Absorber and diffuser designer** _(planned)_: Designs porous, Helmholtz, membrane, and slot resonator absorbers to a target absorption curve. Includes QRD and PRD diffuser well-depth generation and far-field scattering estimates.
+- ✅ **Absorber and diffuser designer** _(stub, awaits wire-up)_: Designs porous, Helmholtz, membrane, and slot resonator absorbers to a target absorption curve. Includes QRD and PRD diffuser well-depth generation and far-field scattering estimates.
 
 - ⬜ **Octave band spectrum tool** _(planned)_: Converts between narrowband, 1/1, 1/3, and 1/12 octave spectra with A/B/C/Z weighting. Performs band arithmetic (sum, difference, masking) and exports to common acoustic measurement formats.
 
