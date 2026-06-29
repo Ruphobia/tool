@@ -1089,7 +1089,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Retrospective workspace** _(stub, awaits wire-up)_: Structured retro session with templates (start/stop/continue, 4Ls, sailboat), sticky-note clustering, dot voting, and action-item handoff to the ticket tracker. AI-integrated theme extraction clusters notes and drafts a session summary.
 
-- ⬜ **Standup and status synthesizer** _(planned)_: Compiles per-person daily notes, ticket transitions, commits, and time entries into a standup digest and a weekly status report. AI rewrites raw activity into prose at a chosen audience level (team, manager, stakeholder).
+- ✅ **Standup and status synthesizer** _(stub, awaits wire-up)_: Compiles per-person daily notes, ticket transitions, commits, and time entries into a standup digest and a weekly status report. AI rewrites raw activity into prose at a chosen audience level (team, manager, stakeholder).
 
 - ⬜ **Resource and capacity planner** _(planned)_: Per-person availability calendar with PTO, on-call, and meeting load, overlaid against committed work to expose over- and under-allocation. Plans across a quarter at team-resolution and per-week at individual-resolution.
 
