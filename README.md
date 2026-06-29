@@ -4455,7 +4455,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Refrigerant charge analyzer** _(stub, awaits wire-up)_: Computes superheat and subcooling targets for fixed-orifice and TXV systems from suction/liquid pressures and temperatures, with refrigerant property tables for R-410A, R-32, R-454B, and R-22; flags over/undercharge.
 
-- ⬜ **Heat pump balance point planner** _(planned)_: Overlays equipment capacity curves against the building heat-loss line versus outdoor temperature, locating the thermal and economic balance points and sizing auxiliary strip heat or backup fuel.
+- ✅ **Heat pump balance point planner** _(stub, awaits wire-up)_: Overlays equipment capacity curves against the building heat-loss line versus outdoor temperature, locating the thermal and economic balance points and sizing auxiliary strip heat or backup fuel.
 
 - ⬜ **Envelope heat-loss stack** _(planned)_: Builds U-value assemblies layer by layer (framing fraction, cavity insulation, sheathing, cladding) with parallel-path and isothermal-planes methods; rolls up whole-building UA and design heat loss/gain.
 
