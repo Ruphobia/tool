@@ -1730,7 +1730,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Hymnody and Chant Archive** _(stub, awaits wire-up)_: Searchable repository of hymns, chants, qawwali, kirtan, gregorian neumes, Byzantine ekphonetic notation, and shomyo with notation, audio, and lyric translations. Indexes by mode, occasion, and tradition.
 
-- ⬜ **Comparative Ethics Engine** _(planned)_: Queries normative positions across traditions on a given case (war, usury, sexuality, dietary law, end-of-life, environmental stewardship) with primary citations from each. AI synthesizes the spread of views and surfaces dissenting minorities.
+- ✅ **Comparative Ethics Engine** _(stub, awaits wire-up)_: Queries normative positions across traditions on a given case (war, usury, sexuality, dietary law, end-of-life, environmental stewardship) with primary citations from each. AI synthesizes the spread of views and surfaces dissenting minorities.
 
 - ⬜ **Mystical Praxis Codex** _(planned)_: Catalog of contemplative and ascetic techniques (hesychasm, dhikr, zazen, vipassana, kabbalistic meditation, hatha yoga, Ignatian exercises) with prerequisites, stages, and primary-source instructions. Cross-references phenomenological reports.
 
