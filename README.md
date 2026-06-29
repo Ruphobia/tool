@@ -2953,7 +2953,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Phylogenetic Tree Builder** _(stub, awaits wire-up)_: Constructs trees with neighbor-joining, maximum-likelihood (RAxML/IQ-TREE-style), and Bayesian (MrBayes-style) backends from an alignment. Bootstrap support, ultrafast bootstrap, model selection (ModelTest), and interactive radial/rectangular/circular tree rendering with reroot, collapse, and taxon coloring.
 
-- ⬜ **Protein Structure Viewer** _(planned)_: 3D viewer for PDB, mmCIF, and MMTF with cartoon, surface, stick, and electrostatics renderings. Sequence-to-structure linkage, residue selection by SQL-like query, B-factor and conservation coloring, and side-by-side superposition with TM-align/CE.
+- ✅ **Protein Structure Viewer** _(stub, awaits wire-up)_: 3D viewer for PDB, mmCIF, and MMTF with cartoon, surface, stick, and electrostatics renderings. Sequence-to-structure linkage, residue selection by SQL-like query, B-factor and conservation coloring, and side-by-side superposition with TM-align/CE.
 
 - ⬜ **Structure Predictor** _(planned)_: Local AlphaFold/ESMFold/RoseTTAFold-style monomer and complex structure prediction from sequence, with confidence (pLDDT, PAE) overlays. AI-integrated prompting for template selection and multimer stoichiometry from the project context.
 
