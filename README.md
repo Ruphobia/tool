@@ -2279,7 +2279,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Thermal Expansion Mismatch Tool** _(stub, awaits wire-up)_: Computes interference, gap, or stress between two materials over a temperature range from CTE and modulus; useful for shrink fits, bimetallic strips, glass-to-metal seals, and PCB-to-component joints.
 
-- ⬜ **Tempering Color And Spark Test Guide** _(planned)_: Visual chart of oxide tempering colors (straw to blue) versus temperature for plain carbon steels, plus a spark-stream identifier with reference imagery for distinguishing low/high carbon, tool, stainless, and cast iron grades.
+- ✅ **Tempering Color And Spark Test Guide** _(stub, awaits wire-up)_: Visual chart of oxide tempering colors (straw to blue) versus temperature for plain carbon steels, plus a spark-stream identifier with reference imagery for distinguishing low/high carbon, tool, stainless, and cast iron grades.
 
 - ⬜ **MSDS And Hazard Lookup** _(planned)_: Pulls safety data for metals dusts, fluxes, etchants, pickling acids, quench oils, and polymer outgassing products; flags incompatible storage, PPE requirements, and ventilation needs for the shop.
 
