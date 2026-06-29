@@ -3072,7 +3072,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **RNA structure and riboswitch tool** _(stub, awaits wire-up)_: Predicts secondary structures via RNAfold, ViennaRNA, and CONTRAfold, scans for riboswitches and CRISPR scaffolds, and renders dot-bracket and arc diagrams.
 
-- ⬜ **Glycan and post-translational analyzer** _(planned)_: Predicts N- and O-glycosylation, phosphorylation, ubiquitination, and signal peptide cleavage via NetNGlyc, NetOGlyc, SignalP, and DeepTMHMM with topology diagrams.
+- ✅ **Glycan and post-translational analyzer** _(stub, awaits wire-up)_: Predicts N- and O-glycosylation, phosphorylation, ubiquitination, and signal peptide cleavage via NetNGlyc, NetOGlyc, SignalP, and DeepTMHMM with topology diagrams.
 
 
 #### Genomics, synthetic biology, and neuroscience
