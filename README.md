@@ -1708,7 +1708,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Polyglot Scripture Viewer** _(stub, awaits wire-up)_: Aligns verse-keyed source texts (Hebrew, Koine Greek, Classical Arabic, Sanskrit, Pali, Ge'ez, Latin, Church Slavonic) with multiple translations and morphological tagging. Hover reveals lexicon entries, variant readings, and manuscript witnesses.
 
-- ⬜ **Liturgical Calendar Engine** _(planned)_: Computes feast days, fasts, observances, and moveable dates across Gregorian, Julian, Hebrew, Hijri, Bikram Sambat, Buddhist, and Bahai calendars. Supports recurrence queries, sect-specific variants, and ICS export.
+- ✅ **Liturgical Calendar Engine** _(stub, awaits wire-up)_: Computes feast days, fasts, observances, and moveable dates across Gregorian, Julian, Hebrew, Hijri, Bikram Sambat, Buddhist, and Bahai calendars. Supports recurrence queries, sect-specific variants, and ICS export.
 
 - ⬜ **Theological Lexicon** _(planned)_: A cross-referenced glossary of doctrinal, mystical, and ritual terminology (e.g., kenosis, tawhid, sunyata, halakhah, dharma, theosis) with etymology, tradition-of-origin, and conceptual neighbors. AI assists by surfacing analogous concepts across traditions when prompted.
 
