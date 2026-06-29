@@ -3472,7 +3472,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Carbon footprint calculator** _(stub, awaits wire-up)_: Computes GHG inventories across Scope 1/2/3 using EPA, DEFRA, IPCC AR6, and EXIOBASE emission factors. Supports product, organizational, and project boundaries with biogenic carbon and land-use change accounting.
 
-- ⬜ **Invasive species alert** _(planned)_: Cross-references occurrence streams against GISD, CABI, and EDDMapS invasive lists for the target region. Projects invasion fronts from current detections and AI-integrated risk scoring on climate suitability and propagule pressure.
+- ✅ **Invasive species alert** _(stub, awaits wire-up)_: Cross-references occurrence streams against GISD, CABI, and EDDMapS invasive lists for the target region. Projects invasion fronts from current detections and AI-integrated risk scoring on climate suitability and propagule pressure.
 
 - ⬜ **Citizen-science submission helper** _(planned)_: Formats field observations into iNaturalist, eBird, GBIF, and CitSci.org submission payloads with EXIF georeferencing and Darwin Core tagging. AI-integrated species suggestion from photo and call clip with confidence and reviewer notes.
 
