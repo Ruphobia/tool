@@ -634,7 +634,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Replication monitor** _(stub, awaits wire-up)_: Displays primary/replica topology, lag in bytes and seconds, slot status, and binlog position; alerts on stalled replicas and supports failover dry-runs against test clusters.
 
-- ⬜ **Redis client** _(planned)_: Connects to standalone, sentinel, and cluster Redis with key browser, TTL inspector, pub/sub viewer, stream consumer-group monitor, slowlog tail, and SCAN-based safe key search.
+- ✅ **Redis client** _(stub, awaits wire-up)_: Connects to standalone, sentinel, and cluster Redis with key browser, TTL inspector, pub/sub viewer, stream consumer-group monitor, slowlog tail, and SCAN-based safe key search.
 
 - ⬜ **MongoDB client** _(planned)_: Document browser with aggregation pipeline builder, explain plan viewer, index manager, change-streams tail, and schema sampler that infers field types and cardinality across a collection.
 
