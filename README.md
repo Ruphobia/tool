@@ -4287,7 +4287,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Encounter Builder** _(stub, awaits wire-up)_: Assembles combat encounters from the monster compendium with CR/XP budgeting, party-level balance heuristics, terrain tags, and difficulty estimation across multiple systems. Outputs initiative-ready stat blocks and loot rolls.
 
-- ⬜ **Initiative Tracker** _(planned)_: Round/turn tracker with HP, conditions, concentration, durations, lair actions, and legendary action slots. Supports hidden GM rolls, surprise rounds, delayed/readied actions, and reaction tagging; auto-decrements timed effects on turn transitions.
+- ✅ **Initiative Tracker** _(stub, awaits wire-up)_: Round/turn tracker with HP, conditions, concentration, durations, lair actions, and legendary action slots. Supports hidden GM rolls, surprise rounds, delayed/readied actions, and reaction tagging; auto-decrements timed effects on turn transitions.
 
 - ⬜ **World Bible** _(planned)_: Linked knowledge graph of places, factions, NPCs, deities, items, and events with bidirectional references, timeline pinning, and tag-based filtering. AI assists with consistency checks (contradictions, dangling references) and on-demand expansion of stub entries.
 
