@@ -1036,7 +1036,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Reference manager** _(stub, awaits wire-up)_: Bibliographic database with PDF ingest, automatic metadata extraction, citation keys, tags, and BibTeX/CSL export. Integrated with the word processor for in-text citations and bibliography generation.
 
-- ⬜ **PDF annotator** _(planned)_: PDF reader with highlight, sticky-note, free-text, and shape annotations, plus margin comments and exportable annotation lists in markdown. Annotations flow back into the linked notebook.
+- ✅ **PDF annotator** _(stub, awaits wire-up)_: PDF reader with highlight, sticky-note, free-text, and shape annotations, plus margin comments and exportable annotation lists in markdown. Annotations flow back into the linked notebook.
 
 - ⬜ **Whiteboard** _(planned)_: Infinite-canvas freeform surface with sketch, shape, text, sticky-note, image, and lasso-group tools, plus snap-to-grid for tidy diagrams. AI-assisted cleanup of hand-drawn shapes into rectilinear ones.
 
