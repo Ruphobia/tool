@@ -397,7 +397,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Bundle analyzer** _(stub, awaits wire-up)_: Visualizes chunk graphs and treemaps from stats output, flags duplicate deps, large transitive imports, and suggests dynamic-import boundaries with predicted savings.
 
-- ⬜ **API schema designer** _(planned)_: Authors OpenAPI, GraphQL SDL, or tRPC routers visually with request/response examples, then emits server stubs, fetch clients, and mock servers from one source of truth.
+- ✅ **API schema designer** _(stub, awaits wire-up)_: Authors OpenAPI, GraphQL SDL, or tRPC routers visually with request/response examples, then emits server stubs, fetch clients, and mock servers from one source of truth.
 
 - ⬜ **Type generator** _(planned)_: Derives TypeScript types, Zod/Valibot schemas, and form validators from JSON samples, SQL DDL, OpenAPI specs, or Prisma models with round-trip diffing.
 
