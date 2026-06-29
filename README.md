@@ -1846,7 +1846,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Treebank Viewer** _(stub, awaits wire-up)_: Loads Universal Dependencies, Penn Treebank, and SUD corpora, renders trees, and queries with Grew, TGrep2, or a built-in pattern language. Computes inter-annotator agreement and label distributions.
 
-- ⬜ **Sequence Alignment Lab** _(planned)_: Pairwise and multiple alignment for cognate sets and dialect forms using Levenshtein, Needleman-Wunsch, and SCA (sound-class-based) algorithms with custom feature-weighted substitution matrices.
+- ✅ **Sequence Alignment Lab** _(stub, awaits wire-up)_: Pairwise and multiple alignment for cognate sets and dialect forms using Levenshtein, Needleman-Wunsch, and SCA (sound-class-based) algorithms with custom feature-weighted substitution matrices.
 
 - ⬜ **Lemmatizer & POS Lab** _(planned)_: Runs and compares lemmatizers and POS taggers (spaCy, Stanza, UDPipe, Snowball stemmers) across languages on the same input, with confusion matrices and per-token disagreement highlighting.
 
