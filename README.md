@@ -252,7 +252,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Change Watcher** _(in testing)_: Diffs successive fetches of the same URL at the rendered-text level and emits a change event when meaningful content shifts. Ignores rotating ads, CSRF tokens, and timestamp churn via learned noise masks.
 
-- ⬜ **Link Graph Explorer** _(planned)_: Builds the in-crawl link graph and exposes it for centrality, community detection, and broken-link queries. Drives seed expansion and helps spot orphan clusters.
+- ✅ **Link Graph Explorer** _(in testing)_: Builds the in-crawl link graph and exposes it for centrality, community detection, and broken-link queries. Drives seed expansion and helps spot orphan clusters.
 
 - ⬜ **Crawl Politeness Dashboard** _(planned)_: Live view of per-host request rates, error budgets, 4xx/5xx clusters, and robots violations. Lets the operator throttle, pause, or blacklist hosts without restarting jobs.
 
