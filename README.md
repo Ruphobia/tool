@@ -3875,7 +3875,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **DSP code playground** _(stub, awaits wire-up)_: Live-coded DSP environment with NumPy/SciPy/Faust/SOUL-style cells, real-time audio I/O, and instant plot/scope feedback for prototyping algorithms. AI-integrated code generation from natural-language DSP specs.
 
-- ⬜ **Wavetable and sample editor** _(planned)_: Single-cycle and multi-frame wavetable editor with harmonic drawing, FFT resynthesis, morphing, and export to common synth wavetable formats; loop-point and zero-crossing tools for sampled instruments.
+- ✅ **Wavetable and sample editor** _(stub, awaits wire-up)_: Single-cycle and multi-frame wavetable editor with harmonic drawing, FFT resynthesis, morphing, and export to common synth wavetable formats; loop-point and zero-crossing tools for sampled instruments.
 
 - ⬜ **Drum machine and step sequencer** _(planned)_: Pattern-based sequencer with per-step probability, ratchets, micro-timing, parameter locks, and song-mode chaining; samples or synthesized voices per track.
 
