@@ -1012,7 +1012,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Word processor** _(stub, awaits wire-up)_: Formatted-document editor with headings, lists, tables, footnotes, cross-references, and track-changes review. Native format plus DOCX, ODT, RTF, and Markdown import and export. AI-integrated drafting, tone-preserving rewrite, and citation handling against the reference manager.
 
-- ⬜ **Spreadsheet** _(planned)_: Multi-sheet workbook with formulas, named ranges, conditional formatting, data validation, and CSV/XLSX/ODS exchange. AI-integrated formula synthesis from a plain-language description, data cleaning, and anomaly flagging.
+- ✅ **Spreadsheet** _(stub, awaits wire-up)_: Multi-sheet workbook with formulas, named ranges, conditional formatting, data validation, and CSV/XLSX/ODS exchange. AI-integrated formula synthesis from a plain-language description, data cleaning, and anomaly flagging.
 
 - ⬜ **Slide composer** _(planned)_: Deck builder with text, images, diagrams, charts, speaker notes, and a presenter view with timer. Markdown-to-slides import and PPTX/PDF export. AI-integrated outline drafting and layout suggestion from a topic.
 
