@@ -4437,7 +4437,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 #### Home and DIY (plumbing, residential electrical, HVAC, landscaping)
 
-- ⬜ **NEC wire and conduit sizer** _(planned)_: Sizes branch and feeder conductors per NEC 310 ampacity tables with derating for ambient temperature, raceway fill, and continuous-load factor; cross-checks voltage drop over the run and conduit fill per Chapter 9 tables 4 and 5.
+- ✅ **NEC wire and conduit sizer** _(stub, awaits wire-up)_: Sizes branch and feeder conductors per NEC 310 ampacity tables with derating for ambient temperature, raceway fill, and continuous-load factor; cross-checks voltage drop over the run and conduit fill per Chapter 9 tables 4 and 5.
 
 - ⬜ **Service panel load calculator** _(planned)_: Runs NEC Article 220 standard and optional-method dwelling load calculations, including 240V appliance branches, EV charger, heat pump, and PV backfeed; sizes the service entrance conductor and main breaker.
 
