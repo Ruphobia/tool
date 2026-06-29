@@ -1144,7 +1144,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **ISO and OSHA compliance crosswalk** _(stub, awaits wire-up)_: Maps controls across ISO 9001, 14001, 45001, 27001, IATF 16949, AS9100, OSHA 1910/1926, FDA 21 CFR 820, and EU MDR, highlights overlapping clauses, and tracks evidence artifacts per requirement.
 
-- ⬜ **Audit and nonconformance tracker** _(planned)_: Schedules internal, supplier, and certification audits with checklists derived from selected standards, logs findings as major, minor, observation, or OFI, and routes NCRs through root-cause, containment, correction, and verification.
+- ✅ **Audit and nonconformance tracker** _(stub, awaits wire-up)_: Schedules internal, supplier, and certification audits with checklists derived from selected standards, logs findings as major, minor, observation, or OFI, and routes NCRs through root-cause, containment, correction, and verification.
 
 - ⬜ **Ergonomics and exposure assessor** _(planned)_: Scores tasks with RULA, REBA, NIOSH Lifting Equation, Snook tables, Liberty Mutual MMH, and Strain Index, and computes noise dose (OSHA, NIOSH), heat stress (WBGT), and chemical TWA/STEL against ACGIH TLVs.
 
