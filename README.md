@@ -331,7 +331,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **REPL and scratchpad** _(stub, awaits wire-up)_: Per-language interactive shells (Python, Node, Ruby, Lua, shell, SQL) with persistent sessions, attachable to project venvs, and AI scaffolding of throwaway experiments from a one-line goal.
 
-- ⬜ **Notebook runner** _(planned)_: Jupyter-style mixed prose, code, and plot cells stored as plain files, with kernel switching, cached outputs, and AI cells that call the pipeline as a first-class block type.
+- ✅ **Notebook runner** _(stub, awaits wire-up)_: Jupyter-style mixed prose, code, and plot cells stored as plain files, with kernel switching, cached outputs, and AI cells that call the pipeline as a first-class block type.
 
 - ⬜ **API client** _(planned)_: Postman-style HTTP and gRPC client with request collections, environments, scripting, and AI generation of requests and assertions from an OpenAPI spec or a curl example.
 
