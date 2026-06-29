@@ -2210,7 +2210,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Laser Material Profile Library** _(stub, awaits wire-up)_: Stores power, speed, frequency, air-assist, and pass counts per material and thickness for CO2, fiber, and diode lasers; auto-generates test grids and refines profiles from measured kerf width, edge char, and cut-through.
 
-- ⬜ **Raster Engraving Halftoner** _(planned)_: Converts bitmaps and photographs into laser raster jobs with Floyd-Steinberg, Stucki, Jarvis, and ordered dithering, gamma correction, and per-material grayscale calibration curves.
+- ✅ **Raster Engraving Halftoner** _(stub, awaits wire-up)_: Converts bitmaps and photographs into laser raster jobs with Floyd-Steinberg, Stucki, Jarvis, and ordered dithering, gamma correction, and per-material grayscale calibration curves.
 
 - ⬜ **CNC CAM Studio** _(planned)_: Generates 2.5D and 3-axis toolpaths (contour, pocket, adaptive clearing, parallel, scallop, drilling, engraving, V-carving) from STEP/DXF with stock-aware roughing, rest machining, and post-processors per controller.
 
