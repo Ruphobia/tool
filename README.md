@@ -200,7 +200,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Memory Browser** _(in testing)_: Faceted browser over all memory entries with filters for scope, tag, project, author, confidence, age, and provenance. Provides timeline, list, and graph views.
 
-- ⬜ **Inline Memory Editor** _(planned)_: Direct editor for individual entries with diff-aware history, markdown body, structured frontmatter, and live validation of links to other entries.
+- ✅ **Inline Memory Editor** _(in testing)_: Direct editor for individual entries with diff-aware history, markdown body, structured frontmatter, and live validation of links to other entries.
 
 - ✅ **Merge and Deduplicate** _(in testing)_: Detects near-duplicate or contradictory entries via embedding similarity plus rule checks, then proposes merges, supersessions, or splits with side-by-side review.
 
