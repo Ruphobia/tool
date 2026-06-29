@@ -3368,7 +3368,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Specimen catalog** _(stub, awaits wire-up)_: Tracks fossils, artifacts, and samples with accession numbers, provenience, taxonomy, collector, lithology, and curation status. Generates Darwin Core exports and printable specimen labels with QR codes for tray/drawer linking.
 
-- ⬜ **Stratigraphic column builder** _(planned)_: Draws measured sections with lithology fills, grain-size profile, bed thickness, fossil/sample horizons, and contact types in the style of SedLog and StratDraw. Exports SVG and correlates multiple columns side-by-side along a chosen datum.
+- ✅ **Stratigraphic column builder** _(stub, awaits wire-up)_: Draws measured sections with lithology fills, grain-size profile, bed thickness, fossil/sample horizons, and contact types in the style of SedLog and StratDraw. Exports SVG and correlates multiple columns side-by-side along a chosen datum.
 
 - ⬜ **Harris matrix editor** _(planned)_: Builds and validates stratigraphic context relationships (above, below, equals, cuts, fills) for excavation units, detects cycles, and renders the matrix as a layered DAG. Imports context sheet CSVs from single-context recording systems.
 
