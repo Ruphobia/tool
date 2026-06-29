@@ -1054,7 +1054,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **OCR scanner** _(stub, awaits wire-up)_: Image and PDF to searchable text with layout preservation, table extraction to CSV, language detection, and handwriting recognition for scanned notebooks.
 
-- ⬜ **Meeting minutes extractor** _(planned)_: Pipeline that ingests an audio recording or transcript and emits a structured minutes document with summary, decisions, and action items linked into the task inbox.
+- ✅ **Meeting minutes extractor** _(stub, awaits wire-up)_: Pipeline that ingests an audio recording or transcript and emits a structured minutes document with summary, decisions, and action items linked into the task inbox.
 
 - ⬜ **Document diff and merge** _(planned)_: Side-by-side comparison and three-way merge across DOCX, ODT, PDF, and Markdown, with change-level accept/reject, semantic grouping of edits, and a per-author authorship view.
 
