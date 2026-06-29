@@ -2717,7 +2717,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Corner Weight and Setup Sheet** _(stub, awaits wire-up)_: Logs scale pad weights, computes cross-weight, front/rear and left/right bias, and tracks the effect of ride-height adjustments in real time. Stores per-event setup snapshots with alignment, sway bars, dampers, and tire data.
 
-- ⬜ **Brake Bias and Thermal Calculator** _(planned)_: Computes brake bias from master cylinder, caliper piston area, pad mu, and rotor radius, and estimates rotor temperature rise per stop from kinetic energy and cooling coefficients. Plots bias against deceleration and weight transfer.
+- ✅ **Brake Bias and Thermal Calculator** _(stub, awaits wire-up)_: Computes brake bias from master cylinder, caliper piston area, pad mu, and rotor radius, and estimates rotor temperature rise per stop from kinetic energy and cooling coefficients. Plots bias against deceleration and weight transfer.
 
 - ⬜ **Aero CdA and Downforce Estimator** _(planned)_: Solves CdA and ClA from coast-down runs, constant-speed power data, or wind-tunnel CSV, and models drag, lift, and balance shifts versus ride height and yaw. Predicts top speed and braking-distance delta for a setup change.
 
