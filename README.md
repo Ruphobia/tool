@@ -238,7 +238,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Structured Data Scraper** _(in testing)_: Pulls JSON-LD, microdata, RDFa, and OpenGraph blocks from pages and reconciles overlapping claims into a single schema.org-shaped record per URL.
 
-- ⬜ **Headless Browser Fetcher** _(planned)_: Renders JavaScript-heavy pages via a headless engine with cookie jar, viewport, and resource-blocking controls. Falls back from plain HTTP fetch only when DOM-after-script differs materially from the raw response.
+- ✅ **Headless Browser Fetcher** _(stub, awaits wire-up)_: Renders JavaScript-heavy pages via a headless engine with cookie jar, viewport, and resource-blocking controls. Falls back from plain HTTP fetch only when DOM-after-script differs materially from the raw response.
 
 - ✅ **Wayback Sweeper** _(in testing)_: Queries the Internet Archive CDX API for snapshot history of a URL or host and bulk-fetches selected captures. Useful for recovering deleted pages and diffing content drift over time.
 
