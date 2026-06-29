@@ -1241,7 +1241,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Plagiarism Checker** _(stub, awaits wire-up)_: Scores passage-level similarity against a local corpus and optional web sources using n-gram and embedding methods. Reports matched spans, sources, and a paraphrase-likelihood signal.
 
-- ⬜ **Concept Map Builder** _(planned)_: Edits node-link graphs of prerequisites, relationships, and worked examples, with force-directed and hierarchical layouts. AI-integrated extraction pulls candidate concepts and edges from supplied text.
+- ✅ **Concept Map Builder** _(stub, awaits wire-up)_: Edits node-link graphs of prerequisites, relationships, and worked examples, with force-directed and hierarchical layouts. AI-integrated extraction pulls candidate concepts and edges from supplied text.
 
 - ⬜ **Standards Aligner** _(planned)_: Tags items, lessons, and units to Common Core, NGSS, ISTE, AP, IB, or a user-defined framework. Produces coverage heatmaps and gap reports across a course.
 
