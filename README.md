@@ -2467,7 +2467,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Blast pattern designer** _(stub, awaits wire-up)_: Burden, spacing, subdrill, and stemming optimizer with Kuz-Ram and Swebrec fragmentation prediction; PPV attenuation and airblast contours.
 
-- ⬜ **Slope stability analyzer** _(planned)_: Limit-equilibrium (Bishop, Janbu, Spencer, Morgenstern-Price) and strength-reduction factor analysis for benches and overall pit walls.
+- ✅ **Slope stability analyzer** _(stub, awaits wire-up)_: Limit-equilibrium (Bishop, Janbu, Spencer, Morgenstern-Price) and strength-reduction factor analysis for benches and overall pit walls.
 
 - ⬜ **Mine ventilation network solver** _(planned)_: Hardy Cross and Kirchhoff solver for airway pressure and flow; auxiliary fans, diesel particulate heat load, and radon decay-product balance.
 
