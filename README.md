@@ -795,7 +795,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Tracking Pose Inspector** _(stub, awaits wire-up)_: Live 6DoF pose stream viewer for HMD, controllers, hand joints, and body trackers over OpenXR / WebXR / OSC, with frame-by-frame jitter, drift, and dropout plots. Records sessions to replay against later builds.
 
-- ⬜ **Spatial Audio Mixer** _(planned)_: Ambisonic (1st to 3rd order) and HRTF binaural mixer with per-source distance, occlusion, and reverb-zone controls. Includes head-locked rotation preview and A/B against a standard HRTF set.
+- ✅ **Spatial Audio Mixer** _(stub, awaits wire-up)_: Ambisonic (1st to 3rd order) and HRTF binaural mixer with per-source distance, occlusion, and reverb-zone controls. Includes head-locked rotation preview and A/B against a standard HRTF set.
 
 - ⬜ **World Anchor Workbench** _(planned)_: Place, name, and persist spatial anchors against a captured room mesh; export to ARKit, ARCore, OpenXR Spatial Anchors, and a portable JSON format. Visualizes anchor confidence and drift over relocalization passes.
 
