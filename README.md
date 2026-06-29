@@ -3727,7 +3727,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Mocap Cleanup** _(stub, awaits wire-up)_: Imports BVH, FBX, and C3D capture data, fixes marker swaps, gap fills, and foot-slide; retargets between skeletons of differing proportions. AI-assisted denoise and gap interpolation trained on locomotion priors.
 
-- ⬜ **Particle and Fluid Sim** _(planned)_: GPU-backed solver for SPH/FLIP fluids, smoke, fire, sand, and instanced particles with collision against signed-distance fields. Caches to OpenVDB and exports velocity fields for motion blur.
+- ✅ **Particle and Fluid Sim** _(stub, awaits wire-up)_: GPU-backed solver for SPH/FLIP fluids, smoke, fire, sand, and instanced particles with collision against signed-distance fields. Caches to OpenVDB and exports velocity fields for motion blur.
 
 - ⬜ **Node Compositor** _(planned)_: Nuke-style node graph compositor supporting EXR multilayer, deep compositing, premultiplication-correct merges, color management via OCIO, and animated reads. Renders out tiles in parallel with disk-backed caches.
 
