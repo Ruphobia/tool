@@ -1621,7 +1621,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Historical NER tagger** _(stub, awaits wire-up)_: Named entity recognition tuned for archaic orthography, abbreviations, and code-switching across Latin, Greek, Old English, and early modern vernaculars. Outputs CoNLL or standoff annotations with model confidence.
 
-- ⬜ **Correspondence network analyzer** _(planned)_: Builds sender-recipient and mention networks from letter corpora, computes centrality and community structure, and renders force-directed layouts in the Gephi/Cytoscape mode. Imports CMIF (Correspondence Metadata Interchange Format).
+- ✅ **Correspondence network analyzer** _(stub, awaits wire-up)_: Builds sender-recipient and mention networks from letter corpora, computes centrality and community structure, and renders force-directed layouts in the Gephi/Cytoscape mode. Imports CMIF (Correspondence Metadata Interchange Format).
 
 - ⬜ **Provenance chain tracker** _(planned)_: Records chain-of-custody for documents and objects from creation through repositories and private collections. Uses PROV-O/W3C PROV serialization and flags gaps, contradictions, and suspect transfers.
 
