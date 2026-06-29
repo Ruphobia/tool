@@ -1,0 +1,71 @@
+{
+  "_note": "Seed hazard dataset. Entries are factual mechanism-level notes, not policy. Extend at <project>/.tool/safety/local_hazards.json (same schema) to overlay project-specific entries.",
+  "entries": [
+    {
+      "id": "hf_skin",
+      "material": "hydrofluoric acid",
+      "synonyms": ["HF", "hydrogen fluoride"],
+      "process_keywords": ["etch", "etching", "clean", "strip", "polish"],
+      "mechanism": "Fluoride penetrates intact skin and chelates serum calcium, producing systemic hypocalcemia and arrhythmia after delayed pain onset. Burns continue to deepen for hours after exposure.",
+      "first_aid": "Copious water flush, then calcium gluconate gel massaged into the burn. Seek emergency care for any HF exposure regardless of size.",
+      "ppe": ["nitrile-over-neoprene gloves", "face shield", "splash apron", "calcium gluconate gel on hand"],
+      "severity": "life-threatening at small exposures",
+      "sources": ["OSHA OSHA-3196 HF guidance", "NIOSH IDLH 30 ppm"]
+    },
+    {
+      "id": "h2s_inhalation",
+      "material": "hydrogen sulfide",
+      "synonyms": ["H2S", "sour gas"],
+      "process_keywords": ["sewer", "sulfide", "sludge", "tannery", "manure", "well"],
+      "mechanism": "Inhibits mitochondrial cytochrome c oxidase. Olfactory paralysis above ~100 ppm removes the smell warning before the lethal exposure level.",
+      "first_aid": "Immediate evacuation to fresh air. Rescue requires SCBA; unprotected rescuers regularly become second victims.",
+      "ppe": ["four-gas monitor", "SCBA for entry above action level"],
+      "severity": "rapid loss of consciousness above ~500 ppm",
+      "sources": ["NIOSH IDLH 100 ppm", "OSHA PEL 20 ppm ceiling"]
+    },
+    {
+      "id": "co_combustion",
+      "material": "carbon monoxide",
+      "synonyms": ["CO"],
+      "process_keywords": ["combustion", "engine", "stove", "heater", "generator", "garage"],
+      "mechanism": "Binds hemoglobin ~240x more avidly than O2, blocking oxygen transport. Symptoms (headache, confusion) mimic flu and are easy to dismiss until collapse.",
+      "first_aid": "Move to fresh air; high-flow O2; 100% normobaric or hyperbaric depending on severity and pregnancy status.",
+      "ppe": ["CO alarm in any space with combustion", "do not run engines in enclosed spaces"],
+      "severity": "lethal at sustained exposures above ~1500 ppm",
+      "sources": ["NIOSH IDLH 1200 ppm", "OSHA PEL 50 ppm TWA"]
+    },
+    {
+      "id": "chlorine_mix",
+      "material": "household bleach + ammonia or acid",
+      "synonyms": ["bleach mix", "chloramine", "chlorine gas"],
+      "process_keywords": ["cleaning", "drain", "bathroom", "mix"],
+      "mechanism": "Bleach + ammonia releases chloramine gas; bleach + acid (vinegar, muriatic) releases chlorine gas. Both irritate airways and at high concentration cause chemical pneumonitis.",
+      "first_aid": "Evacuate, ventilate, fresh air. Persistent cough or chest tightness gets medical evaluation.",
+      "ppe": ["never combine bleach with other cleaners", "ventilate aggressively"],
+      "severity": "low concentration is irritant; enclosed space is acutely hazardous",
+      "sources": ["CDC NIOSH cleaning chemicals guidance"]
+    },
+    {
+      "id": "li_thermal_runaway",
+      "material": "lithium-ion battery",
+      "synonyms": ["Li-ion", "18650", "LiPo", "lithium polymer"],
+      "process_keywords": ["puncture", "short", "overcharge", "swell", "weld", "drill"],
+      "mechanism": "Internal short or physical damage initiates exothermic decomposition; vented gases (CO, HF, H2) are flammable and the fire is self-sustaining once propagation begins between cells.",
+      "first_aid": "Evacuate, isolate the cell in noncombustible container, copious water to cool surrounding cells. Class D extinguisher does not help; water mass does.",
+      "ppe": ["safety glasses for any disassembly", "isolate cells in sand or steel container while working"],
+      "severity": "small cells release significant heat and toxic gas",
+      "sources": ["UL 1973", "NFPA 855 storage guidance"]
+    },
+    {
+      "id": "mercury_vapor",
+      "material": "elemental mercury",
+      "synonyms": ["Hg", "quicksilver"],
+      "process_keywords": ["spill", "thermometer", "manometer", "amalgam"],
+      "mechanism": "Volatile at room temperature; vapor crosses the alveolar membrane and accumulates in the CNS, kidneys. Carpet and porous floors trap spills indefinitely.",
+      "first_aid": "Ventilate the room, evacuate while a spill kit (sulfur or zinc amalgam powder, mercury sponges) is brought in. Do not vacuum: standard vacuums aerosolize Hg.",
+      "ppe": ["disposable nitrile", "respirator with mercury cartridge for cleanup of beads"],
+      "severity": "chronic exposure produces irreversible neurologic damage",
+      "sources": ["EPA mercury spill guide", "OSHA PEL 0.1 mg/m^3"]
+    }
+  ]
+}

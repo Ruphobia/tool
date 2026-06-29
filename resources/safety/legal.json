@@ -1,0 +1,47 @@
+{
+  "_note": "Seed legal-citation dataset. Pointers to real authorities; not legal advice. Extend at <project>/.tool/safety/local_legal.json (same schema) to overlay project- or jurisdiction-specific entries.",
+  "entries": [
+    {
+      "id": "controlled_substances_us",
+      "jurisdiction": "US federal",
+      "topic_keywords": ["drug", "schedule i", "schedule ii", "controlled substance", "precursor"],
+      "cite": "21 U.S.C. § 802 / 21 C.F.R. Part 1308",
+      "summary": "DEA schedules controlled substances by abuse potential and accepted medical use. Manufacture, distribution, and possession outside an active DEA registration are federal offenses; state schedules may add to but not subtract from federal."
+    },
+    {
+      "id": "explosives_btf_us",
+      "jurisdiction": "US federal",
+      "topic_keywords": ["explosive", "energetic", "primary", "detonator", "blast", "blasting"],
+      "cite": "18 U.S.C. Chapter 40 / 27 C.F.R. Part 555",
+      "summary": "Manufacture, storage, and transport of explosive materials require ATF licenses (manufacturer, dealer, user) and adherence to magazine construction and recordkeeping standards. Possession without a license is a federal offense."
+    },
+    {
+      "id": "nfa_firearms_us",
+      "jurisdiction": "US federal",
+      "topic_keywords": ["NFA", "suppressor", "short-barreled", "SBR", "SBS", "machine gun", "destructive device"],
+      "cite": "26 U.S.C. Chapter 53 (National Firearms Act)",
+      "summary": "NFA-regulated items (suppressors, short-barreled rifles/shotguns, machine guns, destructive devices, AOWs) require ATF Form 4 approval plus a $200 tax stamp before transfer; manufacture requires Form 1 approval in advance."
+    },
+    {
+      "id": "radioactive_nrc_us",
+      "jurisdiction": "US federal",
+      "topic_keywords": ["radioactive", "radium", "uranium", "thorium", "sealed source", "isotope"],
+      "cite": "10 C.F.R. Parts 30-39",
+      "summary": "Source, byproduct, and special nuclear material are regulated by the NRC (or an Agreement State). Quantity-of-concern thresholds drive licensing, transport (49 C.F.R. 173), and security (Increased Controls) requirements."
+    },
+    {
+      "id": "epa_rcra_us",
+      "jurisdiction": "US federal",
+      "topic_keywords": ["hazardous waste", "disposal", "rcra", "solvent", "heavy metal"],
+      "cite": "42 U.S.C. § 6901 et seq. (RCRA) / 40 C.F.R. Parts 260-273",
+      "summary": "Generators of listed or characteristic hazardous waste must classify, manifest, and dispose through permitted TSDFs. Small-quantity (<100 kg/mo) and very-small-quantity generator thresholds determine recordkeeping burden."
+    },
+    {
+      "id": "drone_part107_us",
+      "jurisdiction": "US federal",
+      "topic_keywords": ["drone", "UAS", "unmanned aircraft", "quadcopter"],
+      "cite": "14 C.F.R. Part 107",
+      "summary": "Small UAS (<55 lb) operated for any non-recreational purpose requires a Part 107 Remote Pilot certificate, airworthiness compliance, registration, and Remote ID broadcast. Waivers cover BVLOS, night, and operations over people."
+    }
+  ]
+}
