@@ -4065,7 +4065,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Gemstone Setting Reference** _(stub, awaits wire-up)_: Catalogs prong, bezel, channel, pave, flush, and tension settings with seat geometry, undercut angles, and bur sizes for cushion, round, oval, marquise, and fancy cuts. Warns on cleavage planes, heat sensitivity, and acid intolerance per species.
 
-- ⬜ **Lapidary Facet Layout** _(planned)_: Designs and previews faceted gem cuts with critical-angle checks per refractive index, dispersion modeling, and yield estimation from rough dimensions. Exports cutting prescriptions in GemCAD-compatible angle and index notation.
+- ✅ **Lapidary Facet Layout** _(stub, awaits wire-up)_: Designs and previews faceted gem cuts with critical-angle checks per refractive index, dispersion modeling, and yield estimation from rough dimensions. Exports cutting prescriptions in GemCAD-compatible angle and index notation.
 
 - ⬜ **Glaze Chemistry Calculator** _(planned)_: Computes Seger and unity molecular formulae from raw material recipes, solves for limit-formula targets, and substitutes materials by available analyses. Flags eutectics, COE mismatch with the clay body, and food-safe boundaries for lead, barium, lithium, and cadmium.
 
