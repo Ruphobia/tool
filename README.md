@@ -1042,7 +1042,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Diagram editor** _(stub, awaits wire-up)_: Structured-diagram tool for flowcharts, swimlanes, sequence diagrams, ERDs, and state machines, driven by a text DSL (mermaid-style) with bidirectional graphical editing. AI-integrated generation from a textual description.
 
-- ⬜ **Gantt timeline** _(planned)_: Project timeline with tasks, dependencies, milestones, baselines, and critical-path highlighting. Imports from the task inbox and exports to MS Project XML.
+- ✅ **Gantt timeline** _(stub, awaits wire-up)_: Project timeline with tasks, dependencies, milestones, baselines, and critical-path highlighting. Imports from the task inbox and exports to MS Project XML.
 
 - ⬜ **Pivot table builder** _(planned)_: Drag-and-drop aggregation over a tabular dataset with row, column, value, and filter buckets, computed fields, and drill-down. AI-integrated suggestion of pivot configurations from a question about the data.
 
