@@ -3774,7 +3774,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Voice Leading Checker** _(stub, awaits wire-up)_: Validates four-part and chorale-style writing against configurable rules: parallel fifths and octaves, hidden parallels, doubled leading tone, voice crossing, spacing, and resolution of dissonances. Suggests minimum-move corrections.
 
-- ⬜ **Counterpoint Tutor** _(planned)_: Species counterpoint editor (Fux/Gradus) covering first through fifth species in two to four voices, with live error highlighting, cantus firmus library, and step-by-step Schenkerian-style reduction view.
+- ✅ **Counterpoint Tutor** _(stub, awaits wire-up)_: Species counterpoint editor (Fux/Gradus) covering first through fifth species in two to four voices, with live error highlighting, cantus firmus library, and step-by-step Schenkerian-style reduction view.
 
 - ⬜ **Ear Training Drills** _(planned)_: Adaptive trainers for intervals, chord qualities, inversions, scales, modes, cadences, melodic and rhythmic dictation, and functional bass. Tracks per-skill mastery and spaces review using SRS.
 
