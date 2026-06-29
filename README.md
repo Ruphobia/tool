@@ -4079,7 +4079,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Leather Pattern Drafter** _(stub, awaits wire-up)_: Unfolds 3D shapes into flat patterns for bags, sheaths, holsters, saddle skirts, and bookbinding cases with seam, turn, and skive allowances. Computes stitch line offsets, edge bevel, and burnish length per leather weight and tannage.
 
-- ⬜ **Saddle Stitch and Punch Spacing** _(planned)_: Calculates pricking iron pitch, thread diameter, awl angle, and SPI for a given leather thickness and seam strength target. Generates printable punch templates and corner radii to keep stitch count even around curves.
+- ✅ **Saddle Stitch and Punch Spacing** _(stub, awaits wire-up)_: Calculates pricking iron pitch, thread diameter, awl angle, and SPI for a given leather thickness and seam strength target. Generates printable punch templates and corner radii to keep stitch count even around curves.
 
 - ⬜ **Patina and Finish Recipe Book** _(planned)_: Catalogs liver-of-sulfur, cupric nitrate, ferric, fume, heat, and electrochemical patinas for copper, bronze, brass, silver, and steel; for leather, vinegaroon, oak gall, and oil finishes. Tracks dilutions, dwell, neutralization, and seal coats with reproducibility notes.
 
