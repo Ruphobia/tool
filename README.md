@@ -3865,7 +3865,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Plugin host and scanner** _(stub, awaits wire-up)_: Hosts LV2/VST3/CLAP/AU plugins in-process or sandboxed, scans and catalogs installed plugins, exposes parameters for automation, and bridges 32-bit/legacy formats.
 
-- ⬜ **Vocoder and talkbox** _(planned)_: Channel and phase vocoders with carrier/modulator routing, formant shifting, and cross-synthesis between arbitrary signals.
+- ✅ **Vocoder and talkbox** _(stub, awaits wire-up)_: Channel and phase vocoders with carrier/modulator routing, formant shifting, and cross-synthesis between arbitrary signals.
 
 - ⬜ **Granular and concatenative synthesis lab** _(planned)_: Grain-cloud synthesizer with corpus-based concatenative mode driven by target-audio descriptors (centroid, MFCC, loudness).
 
