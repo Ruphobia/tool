@@ -1317,7 +1317,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Invoice & Quote Builder** _(stub, awaits wire-up)_: Composes invoices, estimates, and quotes from line items, products, and contacts; renders to print-ready PDF with configurable templates, tax/VAT lines, and multi-currency totals. Tracks sent/paid/overdue state and emits matching ledger postings on payment.
 
-- ⬜ **Receipt & Document Capture** _(planned)_: Ingests receipts, bills, and statements via drag-drop or scan, runs OCR plus AI-integrated field extraction to populate vendor, date, amount, tax, and line items, and links the image to the resulting expense entry.
+- ✅ **Receipt & Document Capture** _(stub, awaits wire-up)_: Ingests receipts, bills, and statements via drag-drop or scan, runs OCR plus AI-integrated field extraction to populate vendor, date, amount, tax, and line items, and links the image to the resulting expense entry.
 
 - ⬜ **Bank Statement Importer** _(planned)_: Parses CSV, OFX, QIF, QFX, MT940, and CAMT.053 statements from any bank, normalizes column layouts, deduplicates against existing postings, and stages transactions for review with AI-suggested category mapping.
 
