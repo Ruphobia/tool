@@ -2025,7 +2025,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Color Science Workbench** _(stub, awaits wire-up)_: Spectral-to-tristimulus pipeline for CIE 1931/2015 observers, chromaticity diagrams, CCT and CRI/TM-30, chromatic adaptation, ICC profile inspection, and rendering of arbitrary illuminant-reflectance-observer products.
 
-- ⬜ **Spectrometer Designer** _(planned)_: Designs and analyzes Czerny-Turner, Echelle, Offner, and FT spectrometers, predicting spectral range, resolution, throughput, and stray light from grating, slit, detector, and folding-mirror choices. AI-integrated suggestion of layout topology from target resolving power and spectral band.
+- ✅ **Spectrometer Designer** _(stub, awaits wire-up)_: Designs and analyzes Czerny-Turner, Echelle, Offner, and FT spectrometers, predicting spectral range, resolution, throughput, and stray light from grating, slit, detector, and folding-mirror choices. AI-integrated suggestion of layout topology from target resolving power and spectral band.
 
 - ⬜ **Holography Designer** _(planned)_: Designs and simulates off-axis, in-line, and computer-generated holograms with iterative Fourier transform (Gerchberg-Saxton) and direct binary search algorithms; previews diffraction efficiency, speckle, and reconstruction under arbitrary illumination.
 
