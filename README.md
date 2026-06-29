@@ -2727,7 +2727,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Race Strategy Planner** _(stub, awaits wire-up)_: Models fuel burn, tire deg, pit-stop loss, and safety-car probability to optimize stint length and tire choice across a race distance. AI-integrated what-if suggestions propose strategy alternatives from historical stint data.
 
-- ⬜ **Vehicle Dynamics Simulator** _(planned)_: Runs quarter-car, bicycle, and seven-post models with user-defined mass, geometry, tires, and aero to simulate skidpad, slalom, and acceleration tests. Outputs lateral G, yaw response, and load transfer for comparison against logged data.
+- ✅ **Vehicle Dynamics Simulator** _(stub, awaits wire-up)_: Runs quarter-car, bicycle, and seven-post models with user-defined mass, geometry, tires, and aero to simulate skidpad, slalom, and acceleration tests. Outputs lateral G, yaw response, and load transfer for comparison against logged data.
 
 - ⬜ **Quarter-Mile Predictor** _(planned)_: Estimates 0-60, 60-foot, ET, and trap speed from weight, power curve, drivetrain loss, tire grip, gearing, and drag, with launch-RPM and clutch-slip sweeps. Reverse-solves for the power needed to hit a target ET.
 
