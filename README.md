@@ -2129,7 +2129,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Tolerance stackup analyzer** _(stub, awaits wire-up)_: Worst-case, RSS, and Monte Carlo tolerance stackup with GD&T support including position, profile, runout, and bonus tolerance. Sensitivity report identifies the dimensions driving variation.
 
-- ⬜ **GD&T annotator** _(planned)_: Applies and validates ASME Y14.5 and ISO 1101 feature control frames on 2D drawings and 3D PMI views. AI-integrated suggestion of datums and tolerance schemes from part function.
+- ✅ **GD&T annotator** _(stub, awaits wire-up)_: Applies and validates ASME Y14.5 and ISO 1101 feature control frames on 2D drawings and 3D PMI views. AI-integrated suggestion of datums and tolerance schemes from part function.
 
 - ⬜ **Drawing generator** _(planned)_: Produces dimensioned 2D drawings from 3D models with section, detail, and isometric views, BOM tables, and title block templating. Auto-projects views and infers reasonable dimensioning.
 
