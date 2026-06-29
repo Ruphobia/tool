@@ -2058,7 +2058,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Linear algebra studio** _(stub, awaits wire-up)_: Matrix entry, decomposition (LU, QR, SVD, eigen, Cholesky), sparse solvers, condition-number inspection, and visualization of linear maps as transformations of basis vectors.
 
-- ⬜ **Vector and tensor calculator** _(planned)_: Grad/div/curl/Laplacian in arbitrary coordinate systems, Christoffel symbols, Riemann/Ricci tensors, and index-notation manipulation for GR and continuum mechanics.
+- ✅ **Vector and tensor calculator** _(stub, awaits wire-up)_: Grad/div/curl/Laplacian in arbitrary coordinate systems, Christoffel symbols, Riemann/Ricci tensors, and index-notation manipulation for GR and continuum mechanics.
 
 - ⬜ **Rigid-body simulator** _(planned)_: Time-domain simulation of constrained rigid bodies with contacts, joints, friction, and gravity. Exports trajectories, energy, and momentum traces; takes natural-language scene descriptions and emits an editable scene graph.
 
