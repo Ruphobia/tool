@@ -1077,7 +1077,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Estimation board** _(stub, awaits wire-up)_: Planning-poker-style estimation surface for single-user or multi-seat sessions, with reference tickets, t-shirt or Fibonacci scales, and reveal/discuss flow. AI provides a baseline estimate from comparable closed tickets and is treated as one anonymous voter.
 
-- ⬜ **Backlog groomer** _(planned)_: Filtered list view that surfaces stale, underspecified, duplicate, or dependency-blocked tickets and walks them one at a time. AI-integrated rewriter expands one-line tickets into structured acceptance criteria and clarifying questions.
+- ✅ **Backlog groomer** _(stub, awaits wire-up)_: Filtered list view that surfaces stale, underspecified, duplicate, or dependency-blocked tickets and walks them one at a time. AI-integrated rewriter expands one-line tickets into structured acceptance criteria and clarifying questions.
 
 - ⬜ **Dependency graph** _(planned)_: Directed graph of blocks/blocked-by, parent/child, and cross-project links, with cycle detection and shortest-path tracing from any leaf to its containing epic. Nodes are colorable by status, owner, or risk.
 
