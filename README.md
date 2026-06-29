@@ -3427,7 +3427,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Plankton micrograph classifier** _(stub, awaits wire-up)_: AI-assisted taxonomic ID for diatoms, dinoflagellates, foraminifera, and copepods from microscope images, with confidence scores and links to WoRMS records. Logs cell counts per FOV into a field notebook.
 
-- ⬜ **Marine species ID** _(planned)_: Photo-based identification for reef fish, invertebrates, macroalgae, and corals with region-aware priors (Caribbean, Indo-Pacific, NE Pacific, etc.). Surfaces diagnostic features and GBIF occurrence overlays.
+- ✅ **Marine species ID** _(stub, awaits wire-up)_: Photo-based identification for reef fish, invertebrates, macroalgae, and corals with region-aware priors (Caribbean, Indo-Pacific, NE Pacific, etc.). Surfaces diagnostic features and GBIF occurrence overlays.
 
 - ⬜ **Dive log + decompression planner** _(planned)_: Records depth/time profiles from Suunto, Shearwater, and Garmin downloads. Runs Buhlmann ZH-L16C with configurable gradient factors and VPM-B; plans multi-gas, trimix, and CCR dives with bailout schedules.
 
