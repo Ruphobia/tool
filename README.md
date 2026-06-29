@@ -2693,7 +2693,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **ECU Map Editor** _(stub, awaits wire-up)_: Opens fuel, ignition, boost, and VE tables from common ECU formats (Megasquirt, Speeduino, Haltech exports) as editable 2D/3D surfaces. AI-integrated smoothing and outlier detection suggest table edits from logged operating-point density.
 
-- ⬜ **Dyno Chart Plotter** _(planned)_: Imports chassis or engine dyno runs (CSV, SAE J1349) and overlays power and torque curves with correction factors, smoothing, and run-to-run delta comparison. Computes area-under-curve, peak holds, and powerband width.
+- ✅ **Dyno Chart Plotter** _(stub, awaits wire-up)_: Imports chassis or engine dyno runs (CSV, SAE J1349) and overlays power and torque curves with correction factors, smoothing, and run-to-run delta comparison. Computes area-under-curve, peak holds, and powerband width.
 
 - ⬜ **Gear Ratio Designer** _(planned)_: Models transmission, final drive, and tire circumference to plot shift points, road speed per gear, and engine RPM crossover against a power curve. Solves for ideal ratios given target top speed, launch RPM, or course-specific shift count.
 
