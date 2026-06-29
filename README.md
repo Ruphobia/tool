@@ -913,7 +913,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Firmware and Binary Walker** _(stub, awaits wire-up)_: Performs binwalk-style recursive extraction of firmware images, archives, filesystems, and bootloaders. Detects embedded keys, hardcoded credentials, and known-vulnerable component versions.
 
-- ⬜ **Timeline Builder** _(planned)_: Fuses filesystem MAC times, registry, browser history, log events, and prefetch into a super-timeline with filtering, tagging, and narrative annotation. AI-integrated reconstruction of likely event sequences from selected rows.
+- ✅ **Timeline Builder** _(stub, awaits wire-up)_: Fuses filesystem MAC times, registry, browser history, log events, and prefetch into a super-timeline with filtering, tagging, and narrative annotation. AI-integrated reconstruction of likely event sequences from selected rows.
 
 - ⬜ **Steganography and Carrier Scanner** _(planned)_: Detects LSB, DCT, palette, and append-after-EOF stego across images, audio, and PDFs with payload extraction and known-tool fingerprinting. Reports suspicion scores per carrier.
 
