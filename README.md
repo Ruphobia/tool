@@ -1374,7 +1374,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Defined Terms Checker** _(stub, awaits wire-up)_: Scans a contract for capitalized defined terms, flags terms used but not defined, terms defined but not used, inconsistent capitalization, and circular definitions. Auto-generates a definitions section and cross-reference table.
 
-- ⬜ **Case Law Search** _(planned)_: Full-text search over a local corpus of court opinions (Caselaw Access Project, CourtListener bulk) with citation parsing, parallel citation resolution, headnote extraction, and treatment flags (overruled, distinguished, followed, criticized).
+- ✅ **Case Law Search** _(stub, awaits wire-up)_: Full-text search over a local corpus of court opinions (Caselaw Access Project, CourtListener bulk) with citation parsing, parallel citation resolution, headnote extraction, and treatment flags (overruled, distinguished, followed, criticized).
 
 - ⬜ **Statute Search** _(planned)_: Searchable local mirror of federal and state statutes, regulations, and treaties (US Code, CFR, state codes, EUR-Lex) with cross-reference traversal, section-history diffs across amendments, and effective-date awareness.
 
