@@ -1644,7 +1644,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Declension and Conjugation Tables** _(stub, awaits wire-up)_: Generates complete paradigms for any lemma: nominal declensions, verbal conjugations, participles, and irregular stems. Supports Latin five declensions, Greek thematic/athematic, Hebrew binyanim, Sanskrit ten classes, and Akkadian G/D/Š/N stems with side-by-side comparison.
 
-- ⬜ **Paleographic OCR** _(planned)_: Transcribes scanned manuscripts, papyri, ostraca, and inscriptions using script-specific models for uncial, minuscule, square Hebrew, Demotic, Greek majuscule, and Latin cursive hands. Outputs Unicode plus diplomatic XML with confidence heatmaps over the glyph image.
+- ✅ **Paleographic OCR** _(stub, awaits wire-up)_: Transcribes scanned manuscripts, papyri, ostraca, and inscriptions using script-specific models for uncial, minuscule, square Hebrew, Demotic, Greek majuscule, and Latin cursive hands. Outputs Unicode plus diplomatic XML with confidence heatmaps over the glyph image.
 
 - ⬜ **Cuneiform Sign Reader** _(planned)_: Identifies cuneiform signs from photographs and hand-copies, returning sign list numbers (MZL, LAK, ePSD), readings, and period (Old Babylonian, Neo-Assyrian, Ur III). Supports both Akkadian syllabic and Sumerian logographic interpretations with normalization.
 
