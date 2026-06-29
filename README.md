@@ -3723,7 +3723,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Keyframe Animator** _(stub, awaits wire-up)_: Dope-sheet and curve-editor based keyframe authoring with TCB, Bezier, and stepped tangents, onion skinning, and per-channel easing. AI-integrated suggestion of in-between keys and natural easing curves from a sparse pose set.
 
-- ⬜ **Rigging Studio** _(planned)_: Skeleton, IK/FK, spline, and ribbon rig builder with weight painting, corrective shape keys, and constraint graphs. Generates control rigs from a mesh plus joint hints, with auto-skinning via heat or biharmonic methods.
+- ✅ **Rigging Studio** _(stub, awaits wire-up)_: Skeleton, IK/FK, spline, and ribbon rig builder with weight painting, corrective shape keys, and constraint graphs. Generates control rigs from a mesh plus joint hints, with auto-skinning via heat or biharmonic methods.
 
 - ⬜ **Mocap Cleanup** _(planned)_: Imports BVH, FBX, and C3D capture data, fixes marker swaps, gap fills, and foot-slide; retargets between skeletons of differing proportions. AI-assisted denoise and gap interpolation trained on locomotion priors.
 
