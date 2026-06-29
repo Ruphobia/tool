@@ -2626,7 +2626,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Weight and balance calculator** _(stub, awaits wire-up)_: Stores per-tail aircraft envelopes, station arms, and useful load. Plots CG against the forward and aft envelope across fuel burn, validates zero-fuel and ramp limits, and supports multi-leg loading scenarios.
 
-- ⬜ **Chart viewer** _(planned)_: Renders georeferenced FAA sectional, TAC, IFR low/high enroute, terminal area, and approach plates with day/night palettes. Overlays the active route, airspace classes, MEAs, MOAs, and NOTAM polygons.
+- ✅ **Chart viewer** _(stub, awaits wire-up)_: Renders georeferenced FAA sectional, TAC, IFR low/high enroute, terminal area, and approach plates with day/night palettes. Overlays the active route, airspace classes, MEAs, MOAs, and NOTAM polygons.
 
 - ⬜ **Approach plate library** _(planned)_: Indexes terminal procedure publications (IAP, STAR, DP, airport diagrams) by airport, procedure name, and equipment requirement. Supports briefing strips, missed-approach extraction, and minima lookup by aircraft category.
 
