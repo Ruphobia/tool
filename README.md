@@ -3855,7 +3855,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Bode/network analyzer driver** _(stub, awaits wire-up)_: Drives sound-card and lab-instrument loopback measurements to characterize analog/digital signal chains: frequency response, THD+N, IMD, crosstalk, and phase. AI-integrated interpretation of measurement plots.
 
-- ⬜ **Signal generator** _(planned)_: Generates sine, square, triangle, sawtooth, white/pink/brown noise, sweeps (linear/log), MLS, chirps, multitones, and arbitrary user-defined waveforms with precise amplitude, phase, and DC offset control.
+- ✅ **Signal generator** _(stub, awaits wire-up)_: Generates sine, square, triangle, sawtooth, white/pink/brown noise, sweeps (linear/log), MLS, chirps, multitones, and arbitrary user-defined waveforms with precise amplitude, phase, and DC offset control.
 
 - ⬜ **Oscilloscope and logic-style viewer** _(planned)_: Time-domain viewer with triggering, persistence, XY mode, math channels, and cursor measurements; reads from audio interfaces or imported captures.
 
