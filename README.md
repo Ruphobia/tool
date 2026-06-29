@@ -3625,7 +3625,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Photogrammetry** _(stub, awaits wire-up)_: Structure-from-motion and multi-view stereo over image sets using COLMAP/OpenMVS to produce point clouds, meshes, and textured models. Optional Gaussian-splat export.
 
-- ⬜ **Video editor** _(planned)_: Non-linear timeline with multi-track audio/video, trimming, transitions, keyframed effects, and proxy editing. Renders via the transcoder with project-level color management.
+- ✅ **Video editor** _(stub, awaits wire-up)_: Non-linear timeline with multi-track audio/video, trimming, transitions, keyframed effects, and proxy editing. Renders via the transcoder with project-level color management.
 
 - ⬜ **Transcoder** _(planned)_: FFmpeg-driven batch encoder/decoder with presets for H.264, H.265, AV1, VP9, ProRes, DNxHR, and HAP. Exposes hardware-accelerated paths (NVENC/QSV/VAAPI) and two-pass settings.
 
