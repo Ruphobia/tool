@@ -4022,7 +4022,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **DilutionCalculator** _(stub, awaits wire-up)_: Solves final ABV, sugar, and acid given ice melt, top-up, water cuts, or proofing additions. Supports cask strength reductions and barrel-proof bottling targets.
 
-- ⬜ **WineTastingNotes** _(planned)_: Structured WSET SAT capture covering appearance, nose, palate, and conclusions, with grape, region, and producer taxonomy. Supports blind tasting modes and computes calibration accuracy over time.
+- ✅ **WineTastingNotes** _(stub, awaits wire-up)_: Structured WSET SAT capture covering appearance, nose, palate, and conclusions, with grape, region, and producer taxonomy. Supports blind tasting modes and computes calibration accuracy over time.
 
 - ⬜ **CellarInventory** _(planned)_: Tracks bottle location, vintage, provenance, purchase price, storage conditions, and projected drink window. Alerts on bottles drifting past peak and supports cellar valuation snapshots.
 
