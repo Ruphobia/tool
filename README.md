@@ -883,7 +883,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Vulnerability Scanner Driver** _(stub, awaits wire-up)_: Drives Nmap NSE, Nuclei templates, and OpenVAS-style checks against targets with a unified result schema. Deduplicates findings, ranks by exploitability, and links each finding to CVE/CWE references.
 
-- ⬜ **Malware Sandbox Viewer** _(planned)_: Renders artifact reports from local sandbox runs (Cuckoo/CAPE/Detonate) with process tree, registry deltas, network IOCs, dropped files, and screenshots. Cross-references behaviors with MITRE ATT&CK techniques.
+- ✅ **Malware Sandbox Viewer** _(stub, awaits wire-up)_: Renders artifact reports from local sandbox runs (Cuckoo/CAPE/Detonate) with process tree, registry deltas, network IOCs, dropped files, and screenshots. Cross-references behaviors with MITRE ATT&CK techniques.
 
 - ⬜ **File Carver** _(planned)_: Scans raw disks, images, or memory dumps for file signatures and reconstructs allocated and unallocated fragments. Supports custom magic definitions, slack-space recovery, and entropy-aware boundary detection.
 
