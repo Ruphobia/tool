@@ -1509,7 +1509,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Literature Review Tracker** _(stub, awaits wire-up)_: Project workspace for systematic reviews with PRISMA-style inclusion/exclusion logs, screening states, dual-reviewer reconciliation, and search-string version history. Exports the flow diagram and decision audit on demand.
 
-- ⬜ **Lab and Method Comparator** _(planned)_: Side-by-side matrix of methods, datasets, hyperparameters, metrics, and reported results extracted from selected papers. Highlights inconsistencies, missing ablations, and benchmark contamination risks.
+- ✅ **Lab and Method Comparator** _(stub, awaits wire-up)_: Side-by-side matrix of methods, datasets, hyperparameters, metrics, and reported results extracted from selected papers. Highlights inconsistencies, missing ablations, and benchmark contamination risks.
 
 - ⬜ **Peer-Review Reading Queue** _(planned)_: Prioritized queue with SLA timers, conflict-of-interest checks against the user's coauthor graph, and per-section comment drafting. Includes a reviewer-style checklist generator tuned to the venue's guidelines.
 
