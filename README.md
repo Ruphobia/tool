@@ -490,7 +490,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Multi-device layout previewer** _(stub, awaits wire-up)_: Renders the current SwiftUI, Jetpack Compose, Flutter, or React Native screen simultaneously across a configurable device grid with light/dark, RTL, dynamic type, and accessibility-large-text axes shown side-by-side.
 
-- ⬜ **Localizable strings editor** _(planned)_: Edits Localizable.strings, .xcstrings, strings.xml, and ARB files in a single matrix view, marks stale translations against the source locale, and AI-translates pending rows with placeholder and plural form preservation.
+- ✅ **Localizable strings editor** _(stub, awaits wire-up)_: Edits Localizable.strings, .xcstrings, strings.xml, and ARB files in a single matrix view, marks stale translations against the source locale, and AI-translates pending rows with placeholder and plural form preservation.
 
 - ⬜ **Push notification tester** _(planned)_: Sends APNs payloads via token or .p8 key and FCM messages via service account, with templates for alerts, silent background, Live Activity updates, and rich attachments; logs delivery receipts and decode errors.
 
