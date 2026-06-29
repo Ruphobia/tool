@@ -3527,7 +3527,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Borehole Log Viewer** _(stub, awaits wire-up)_: Renders LAS well-log curves (GR, resistivity, density, neutron, sonic) alongside lithology columns and core photos at matching depth. Supports zonation, crossplots (e.g. density-neutron), and porosity/Vshale calculations.
 
-- ⬜ **Plate Reconstruction** _(planned)_: Rotates present-day plates to their paleogeographic positions using GPlates-compatible rotation files and topology models. Animates plate motion through time and reprojects user features onto the reconstructed basemap.
+- ✅ **Plate Reconstruction** _(stub, awaits wire-up)_: Rotates present-day plates to their paleogeographic positions using GPlates-compatible rotation files and topology models. Animates plate motion through time and reprojects user features onto the reconstructed basemap.
 
 - ⬜ **Gravity and Magnetic Grids** _(planned)_: Loads and visualizes potential-field grids (Bouguer gravity, free-air, total-field magnetics) with upward continuation, derivative, analytic-signal, and reduction-to-pole filters. Extracts profiles and overlays interpreted lineaments.
 
