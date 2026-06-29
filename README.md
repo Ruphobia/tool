@@ -4100,7 +4100,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Color harmony generator** _(stub, awaits wire-up)_: Builds complementary, split-complementary, triadic, tetradic, square, and analogous schemes around a base hue, with editing in OKLCH or HSLuv so lightness stays perceptually even across the wheel.
 
-- ⬜ **Gradient designer** _(planned)_: Composes multi-stop gradients with per-stop easing and interpolation chosen across sRGB, linear RGB, OKLab, OKLCH, or LCh, and exports CSS, SVG, GIMP .ggr, and Krita .svg presets.
+- ✅ **Gradient designer** _(stub, awaits wire-up)_: Composes multi-stop gradients with per-stop easing and interpolation chosen across sRGB, linear RGB, OKLab, OKLCH, or LCh, and exports CSS, SVG, GIMP .ggr, and Krita .svg presets.
 
 - ⬜ **Color space converter** _(planned)_: Round-trips colors between sRGB, Adobe RGB, Display P3, Rec.2020, CIE XYZ, CIELAB, OKLab, HSL, HSV, and CMYK with explicit white point and gamma handling, and flags out-of-gamut values.
 
