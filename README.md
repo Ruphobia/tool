@@ -2796,7 +2796,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Collision checker** _(stub, awaits wire-up)_: Performs broad and narrow-phase collision and distance queries between robot links, meshes, point clouds, primitives, and swept volumes via FCL/HPP-FCL with per-pair allowed-collision matrices.
 
-- ⬜ **Physics simulator** _(planned)_: Drives rigid-body and articulated-system simulation through MuJoCo, Bullet, Drake, or Genesis backends with contact dynamics, joint friction, sensor models, and headless batch rollouts for policy evaluation and domain randomization.
+- ✅ **Physics simulator** _(stub, awaits wire-up)_: Drives rigid-body and articulated-system simulation through MuJoCo, Bullet, Drake, or Genesis backends with contact dynamics, joint friction, sensor models, and headless batch rollouts for policy evaluation and domain randomization.
 
 - ⬜ **3D scene viewer** _(planned)_: Renders meshes, point clouds, coordinate frames, robot states, sensor readings, occupancy grids, and trajectories in a unified scene graph with time scrubbing, picking, and snapshot export.
 
