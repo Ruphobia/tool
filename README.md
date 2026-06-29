@@ -2861,7 +2861,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Charge Controller Selector** _(stub, awaits wire-up)_: Picks PWM vs MPPT controllers and sizes them against array Isc, Voc-cold, and battery bus voltage with the required safety margins. Flags when paralleling controllers or moving to a higher bus voltage beats a single oversize unit.
 
-- ⬜ **Off-Grid System Sizer** _(planned)_: End-to-end sizing of array, battery, controller, and inverter against a load profile and worst-month solar resource, including loss-of-load probability. AI-integrated suggestion of a starting topology from constraints (budget, autonomy, climate).
+- ✅ **Off-Grid System Sizer** _(stub, awaits wire-up)_: End-to-end sizing of array, battery, controller, and inverter against a load profile and worst-month solar resource, including loss-of-load probability. AI-integrated suggestion of a starting topology from constraints (budget, autonomy, climate).
 
 - ⬜ **Hybrid Dispatch Simulator** _(planned)_: Hourly dispatch of PV, battery, grid, wind, and diesel/propane generator under a chosen control strategy (cycle charging, load following, peak shaving). Reports renewable fraction, generator runtime, fuel use, and unmet load.
 
