@@ -4371,7 +4371,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Draft Analyzer** _(stub, awaits wire-up)_: MOBA/TCG draft assistant that scores picks and bans against historical winrates, lane synergies, and tournament metas. Runs locally against vendored patch data and exposes a hot-seat captain mode for scrim drafting.
 
-- ⬜ **Patch Diff** _(planned)_: Patch-note differ that ingests official changelogs, datamines, and balance spreadsheets, then produces a structured diff of stats, abilities, and items. AI explainer translates raw stat deltas into projected meta impact with cited prior patches.
+- ✅ **Patch Diff** _(stub, awaits wire-up)_: Patch-note differ that ingests official changelogs, datamines, and balance spreadsheets, then produces a structured diff of stats, abilities, and items. AI explainer translates raw stat deltas into projected meta impact with cited prior patches.
 
 - ⬜ **Meta Tracker** _(planned)_: Time-series tracker for character/deck/strategy pick and win rates across regions and ranks. Detects emergent strategies via change-point analysis and tags them to specific patches or tournament events.
 
