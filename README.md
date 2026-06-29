@@ -272,7 +272,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **In-Text Citation Inserter** _(in testing)_: Editor plugin and standalone picker that inserts citations into Markdown, LaTeX, Pandoc, Typst, Org, and word processor documents. Supports author-date, numeric, footnote, and prefix-suffix-locator variants.
 
-- ⬜ **Bibliography Generator** _(planned)_: Renders bibliographies and in-text citations through a bundled CSL engine with the full Zotero style repository. Outputs to HTML, RTF, DOCX, LaTeX, and Typst with style-specific quirks honored.
+- ✅ **Bibliography Generator** _(in testing)_: Renders bibliographies and in-text citations through a bundled CSL engine with the full Zotero style repository. Outputs to HTML, RTF, DOCX, LaTeX, and Typst with style-specific quirks honored.
 
 - ✅ **Footnote and Endnote Manager** _(in testing)_: Tracks footnotes, endnotes, ibid/op-cit short forms, and cross-references across long documents. Renumbers and re-resolves automatically when sections move or sources change.
 
