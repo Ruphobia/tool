@@ -1159,7 +1159,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Demand forecaster** _(stub, awaits wire-up)_: Fits ARIMA, ETS (Holt-Winters), Theta, Croston / TSB for intermittent series, and gradient-boosted hierarchical models with reconciliation (MinT, bottom-up, top-down). Reports MAPE/WAPE/MASE with backtesting folds and prediction intervals.
 
-- ⬜ **Newsvendor solver** _(planned)_: Computes optimal single-period order quantity from underage/overage costs and a demand distribution (empirical, normal, lognormal, custom). Sweeps service-level vs expected-profit curves and supports salvage value, emergency procurement, and risk-averse CVaR objectives.
+- ✅ **Newsvendor solver** _(stub, awaits wire-up)_: Computes optimal single-period order quantity from underage/overage costs and a demand distribution (empirical, normal, lognormal, custom). Sweeps service-level vs expected-profit curves and supports salvage value, emergency procurement, and risk-averse CVaR objectives.
 
 - ⬜ **Queueing analyzer** _(planned)_: Evaluates M/M/c, M/G/1, G/G/c (via Allen-Cunneen approximation), and finite-population queues, returning Lq, Wq, utilization, and tail probabilities. Composes Jackson and BCMP networks for multi-station systems and validates against Little's Law.
 
