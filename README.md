@@ -288,7 +288,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Style Editor** _(stub, awaits wire-up)_: Visual and source editor for CSL 1.0.2 files with live preview against sample items, validation, and a diff view against upstream style repository versions.
 
-- ⬜ **Retraction and Errata Watcher** _(planned)_: Polls Retraction Watch, Crossref update notices, and publisher errata feeds; flags affected items in the library and in any document that cites them.
+- ✅ **Retraction and Errata Watcher** _(stub, awaits wire-up)_: Polls Retraction Watch, Crossref update notices, and publisher errata feeds; flags affected items in the library and in any document that cites them.
 
 - ⬜ **OCR and Scan Cleanup** _(planned)_: Runs Tesseract or a local vision model over image-only PDFs, repairs broken text layers, deskews pages, and produces searchable, citable copies without altering the original file.
 
