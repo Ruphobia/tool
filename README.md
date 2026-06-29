@@ -3396,7 +3396,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Sediment and soil logger** _(stub, awaits wire-up)_: Records Munsell color, texture, structure, inclusions, pH, and organic content for excavation contexts and core samples with controlled vocabularies. Plots grain-size distributions from sieve/laser data and computes sorting, skewness, and kurtosis.
 
-- ⬜ **Stable isotope analyzer** _(planned)_: Ingests delta 13C, delta 15N, delta 18O, and 87Sr/86Sr measurements from bone collagen, enamel, and shell to reconstruct diet, mobility, and paleoclimate. Plots mixing models (FRUITS/MixSIAR-style) and applies trophic enrichment factors.
+- ✅ **Stable isotope analyzer** _(stub, awaits wire-up)_: Ingests delta 13C, delta 15N, delta 18O, and 87Sr/86Sr measurements from bone collagen, enamel, and shell to reconstruct diet, mobility, and paleoclimate. Plots mixing models (FRUITS/MixSIAR-style) and applies trophic enrichment factors.
 
 - ⬜ **Body size and mass estimator** _(planned)_: Estimates body mass, stance, and locomotor parameters from limb element dimensions (femoral circumference, humeral length) using regression equations for mammals, dinosaurs, and other clades. Reports prediction intervals and the source equation used.
 
