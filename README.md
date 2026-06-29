@@ -1793,7 +1793,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Iconography Tagger** _(stub, awaits wire-up)_: Image library with attribute tagging (thunderbolt, caduceus, ankh, vajra, drum, twin-snake) and culture-of-origin metadata. Local vision model proposes attribute tags from uploaded artifact photos; tags are user-confirmed before commit.
 
-- ⬜ **Primary Source Reader** _(planned)_: Annotated reader for canonical texts (Theogony, Eddas, Mahabharata, Popol Vuh, Kojiki, Kalevala, Epic of Gilgamesh) with parallel-column translations, line numbering, and inline philological notes.
+- ✅ **Primary Source Reader** _(stub, awaits wire-up)_: Annotated reader for canonical texts (Theogony, Eddas, Mahabharata, Popol Vuh, Kojiki, Kalevala, Epic of Gilgamesh) with parallel-column translations, line numbering, and inline philological notes.
 
 - ⬜ **Hero Journey Composer** _(planned)_: Authoring workspace that scaffolds a narrative against a chosen structural template (monomyth, Propp, kishotenketsu, three-act). Tracks stage completion and surfaces structural gaps as the draft evolves.
 
