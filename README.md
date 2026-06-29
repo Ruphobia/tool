@@ -2759,7 +2759,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **CAN Bus & UDS Inspector** _(stub, awaits wire-up)_: Sniffs raw CAN frames at configurable baud rates, decodes against DBC files, and performs UDS/KWP2000 service requests (read DTCs, clear codes, read DIDs, actuator tests). Includes bit-rate detection and J1939 support for diesels.
 
-- ⬜ **Motorcycle Chain & Sprocket Sizer** _(planned)_: Computes chain length, sprocket ratios, final drive, top speed per RPM, and gearing changes by tooth count. Validates pitch (520/525/530, 428), o-ring vs x-ring compatibility, and tracks chain stretch from pin-to-pin measurements.
+- ✅ **Motorcycle Chain & Sprocket Sizer** _(stub, awaits wire-up)_: Computes chain length, sprocket ratios, final drive, top speed per RPM, and gearing changes by tooth count. Validates pitch (520/525/530, 428), o-ring vs x-ring compatibility, and tracks chain stretch from pin-to-pin measurements.
 
 - ⬜ **Valve Clearance & Shim Calculator** _(planned)_: Records measured intake/exhaust valve clearances for shim-under-bucket, shim-over-bucket, and screw-adjust heads. Computes the exact replacement shim sizes from current shim thickness and target clearance, with shim inventory tracking.
 
