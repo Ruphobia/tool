@@ -4404,7 +4404,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Companion planting matrix** _(stub, awaits wire-up)_: Tabulates pairwise plant compatibility across allelopathy, shared pests, pollinator overlap, and nutrient guilds. Flags conflicts and suggests beneficial neighbors when laying out beds.
 
-- ⬜ **Plant and pest ID** _(planned)_: Identifies plants, weeds, insects, and disease lesions from photos using a local visual model, returning species, confidence, and a short treatment note with source citation.
+- ✅ **Plant and pest ID** _(stub, awaits wire-up)_: Identifies plants, weeds, insects, and disease lesions from photos using a local visual model, returning species, confidence, and a short treatment note with source citation.
 
 - ⬜ **Hive inspection log** _(planned)_: Structured capture of brood pattern, frame counts, queen sighting, temperament, stores, supers, and treatments. Rolls up colony health timelines per yard and per queen.
 
