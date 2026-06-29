@@ -2237,7 +2237,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Alloy Database Browser** _(stub, awaits wire-up)_: Searchable database of steels, aluminums, titaniums, coppers, nickels, magnesiums, and superalloys keyed by UNS/AISI/EN/JIS designation, with composition ranges, tempers, and typical mechanical properties. Filter by yield, UTS, density, machinability, weldability, or cost.
 
-- ⬜ **Ashby Chart Plotter** _(planned)_: Plots any pair of material properties (modulus vs density, strength vs cost, toughness vs hardness, etc.) as a Cambridge-style Ashby map with envelope overlays for metals, polymers, ceramics, composites, woods, and foams. Supports custom material indices and selection lines.
+- ✅ **Ashby Chart Plotter** _(stub, awaits wire-up)_: Plots any pair of material properties (modulus vs density, strength vs cost, toughness vs hardness, etc.) as a Cambridge-style Ashby map with envelope overlays for metals, polymers, ceramics, composites, woods, and foams. Supports custom material indices and selection lines.
 
 - ⬜ **Phase Diagram Viewer** _(planned)_: Binary and ternary equilibrium phase diagrams (Fe-C, Cu-Sn, Al-Si, Pb-Sn, Cu-Zn, Ag-Cu, Ti-Al, etc.) with lever-rule readouts at a clicked composition/temperature. Overlays metastable lines and identifies the phases present plus their fractions.
 
