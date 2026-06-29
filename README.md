@@ -2615,7 +2615,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Wind Tunnel Importer** _(stub, awaits wire-up)_: Imports tabular and image-based polar data from NACA reports, UIUC low-Re tests, and CSV/JSON exports, applying solid-blockage, wake-blockage, and streamline-curvature corrections. Aligns imported data with solver output for validation overlays.
 
-- ⬜ **Aero Optimizer** _(planned)_: Gradient and genetic optimizer that drives airfoil shape, planform, or twist distribution toward objectives like min Cd at fixed Cl, max L/D, or robust performance across an operating envelope. AI-integrated proposal of seed designs and constraint sets from a natural-language goal.
+- ✅ **Aero Optimizer** _(stub, awaits wire-up)_: Gradient and genetic optimizer that drives airfoil shape, planform, or twist distribution toward objectives like min Cd at fixed Cl, max L/D, or robust performance across an operating envelope. AI-integrated proposal of seed designs and constraint sets from a natural-language goal.
 
 
 #### Aviation, amateur radio, and RF
