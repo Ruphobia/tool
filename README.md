@@ -585,7 +585,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Font and asset packer** _(stub, awaits wire-up)_: Generates bitmap fonts, glyph subsets, image sprites, and audio clips compressed and aligned for embedded use. Reports per-asset cost in flash and RAM.
 
-- ⬜ **DSP and filter designer** _(planned)_: Designs FIR, IIR, biquad, and adaptive filters with fixed-point quantization and CMSIS-DSP/ESP-DSP code emission. AI-integrated suggestion of filter topology from a captured noise profile.
+- ✅ **DSP and filter designer** _(stub, awaits wire-up)_: Designs FIR, IIR, biquad, and adaptive filters with fixed-point quantization and CMSIS-DSP/ESP-DSP code emission. AI-integrated suggestion of filter topology from a captured noise profile.
 
 - ⬜ **Edge ML deployer** _(planned)_: Converts and quantizes TensorFlow Lite Micro, ONNX, and Edge Impulse models for target MCUs with operator support checks and memory arena sizing. Benchmarks inference latency and energy on connected hardware.
 
