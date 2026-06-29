@@ -529,7 +529,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **On-chip debugger** _(stub, awaits wire-up)_: GDB front-end with breakpoints, watchpoints, register and memory views, RTOS-aware thread inspection, and reverse-step where supported. AI-integrated explanation of fault frames and suggested next probes.
 
-- ⬜ **Fault decoder** _(planned)_: Decodes ARM Cortex-M HardFault, MemManage, BusFault, UsageFault, and RISC-V mcause/mtval traps into a human-readable cause with the offending instruction, stack frame, and likely source line. AI proposes the root-cause class (null deref, stack overflow, unaligned access, MPU violation).
+- ✅ **Fault decoder** _(stub, awaits wire-up)_: Decodes ARM Cortex-M HardFault, MemManage, BusFault, UsageFault, and RISC-V mcause/mtval traps into a human-readable cause with the offending instruction, stack frame, and likely source line. AI proposes the root-cause class (null deref, stack overflow, unaligned access, MPU violation).
 
 - ⬜ **SWO/ITM/RTT console** _(planned)_: Live capture of SWO, ITM, and Segger RTT channels with timestamping, channel routing, and binary frame decoding. Streams into the workbench log pipeline for AI search and summarization.
 
