@@ -2351,7 +2351,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Wind Load Calculator** _(stub, awaits wire-up)_: Generates ASCE 7 main wind-force and components-and-cladding pressures from exposure, topography, and building geometry. Produces pressure zone diagrams on plan and elevation.
 
-- ⬜ **HVAC Load Calculator** _(planned)_: Performs Manual J / ASHRAE block and room-by-room heating and cooling load calculations from envelope, infiltration, internal gains, and design temperatures. Sizes equipment with bin-hour validation.
+- ✅ **HVAC Load Calculator** _(stub, awaits wire-up)_: Performs Manual J / ASHRAE block and room-by-room heating and cooling load calculations from envelope, infiltration, internal gains, and design temperatures. Sizes equipment with bin-hour validation.
 
 - ⬜ **Duct Sizer** _(planned)_: Sizes rectangular, round, and flat-oval ductwork using equal-friction, static-regain, or velocity methods. Computes pressure drop, noise rating, and fan operating point across the network.
 
