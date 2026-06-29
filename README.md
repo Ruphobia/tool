@@ -3521,7 +3521,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Earthquake Feed** _(stub, awaits wire-up)_: Queries USGS, EMSC, and IRIS catalogs for events filtered by magnitude, depth, time window, and polygon. Plots epicenters on the map with focal-mechanism beachballs and links to per-event waveform pulls.
 
-- ⬜ **Viewshed and Line-of-Sight** _(planned)_: Computes single-observer and cumulative viewsheds across a DEM, accounting for observer height, target height, earth curvature, and atmospheric refraction. Includes a point-to-point LOS profile with obstruction highlighting.
+- ✅ **Viewshed and Line-of-Sight** _(stub, awaits wire-up)_: Computes single-observer and cumulative viewsheds across a DEM, accounting for observer height, target height, earth curvature, and atmospheric refraction. Includes a point-to-point LOS profile with obstruction highlighting.
 
 - ⬜ **LiDAR Point Cloud Viewer** _(planned)_: Streams LAS/LAZ tiles into a 3D viewer with classification-based coloring, intensity ramps, and ground/non-ground filtering. Supports cropping by polygon, decimation, profile extraction, and export to gridded DEM or DSM.
 
