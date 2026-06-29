@@ -1689,7 +1689,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Abbreviation and Ligature Expander** _(stub, awaits wire-up)_: Expands Tironian notes, nomina sacra, suspension and contraction abbreviations, and scribal ligatures using script- and period-specific rule sets. Round-trips between abbreviated and expanded forms while preserving line and letter counts.
 
-- ⬜ **Patristic Citation Tracer** _(planned)_: Indexes scriptural and classical citations inside Church Fathers, rabbinic literature, and medieval florilegia. Links each citation back to candidate textual forms and helps date or localize textual variants by their reception.
+- ✅ **Patristic Citation Tracer** _(stub, awaits wire-up)_: Indexes scriptural and classical citations inside Church Fathers, rabbinic literature, and medieval florilegia. Links each citation back to candidate textual forms and helps date or localize textual variants by their reception.
 
 - ⬜ **Orthographic Normalizer** _(planned)_: Normalizes itacism, iotacism, scriptio continua, nu-movable, plene/defective spellings, and matres lectionis without destroying the diplomatic transcription. Keeps a reversible mapping layer so collation can run on normalized forms while display preserves the original.
 
