@@ -236,7 +236,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Readability Extractor** _(in testing)_: Strips boilerplate from HTML to recover the main article body, byline, and publish date. Supports site-specific overrides for templates the generic heuristic gets wrong.
 
-- ⬜ **Structured Data Scraper** _(planned)_: Pulls JSON-LD, microdata, RDFa, and OpenGraph blocks from pages and reconciles overlapping claims into a single schema.org-shaped record per URL.
+- ✅ **Structured Data Scraper** _(in testing)_: Pulls JSON-LD, microdata, RDFa, and OpenGraph blocks from pages and reconciles overlapping claims into a single schema.org-shaped record per URL.
 
 - ⬜ **Headless Browser Fetcher** _(planned)_: Renders JavaScript-heavy pages via a headless engine with cookie jar, viewport, and resource-blocking controls. Falls back from plain HTTP fetch only when DOM-after-script differs materially from the raw response.
 
