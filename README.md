@@ -232,7 +232,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Robots and Sitemap Inspector** _(in testing)_: Parses robots.txt directives, crawl-delay hints, and sitemap indexes (including gzipped and nested). Surfaces disallowed paths, lastmod timestamps, and coverage gaps before a crawl starts.
 
-- ⬜ **Feed Reader** _(planned)_: Polls RSS, Atom, and JSON Feed sources with conditional GET (ETag, If-Modified-Since) and per-feed schedules. Normalizes entries into a common record shape for downstream ingest.
+- ✅ **Feed Reader** _(in testing)_: Polls RSS, Atom, and JSON Feed sources with conditional GET (ETag, If-Modified-Since) and per-feed schedules. Normalizes entries into a common record shape for downstream ingest.
 
 - ⬜ **Readability Extractor** _(planned)_: Strips boilerplate from HTML to recover the main article body, byline, and publish date. Supports site-specific overrides for templates the generic heuristic gets wrong.
 
