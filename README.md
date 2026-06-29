@@ -4219,7 +4219,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Audio Patch Designer** _(stub, awaits wire-up)_: Documents the full signal flow: mics, DIs, stage box channels, console inputs, inserts, buses, matrix sends, amps, and speaker zones. Tracks snake counts, cable lengths, and rack U positions.
 
-- ⬜ **Speaker Coverage Predictor** _(planned)_: Maps SPL coverage, direct-to-reverberant ratio, and STI across the seating plan from speaker placement, aim angles, splay, and a venue acoustic model in the MAPP/EASE lineage.
+- ✅ **Speaker Coverage Predictor** _(stub, awaits wire-up)_: Maps SPL coverage, direct-to-reverberant ratio, and STI across the seating plan from speaker placement, aim angles, splay, and a venue acoustic model in the MAPP/EASE lineage.
 
 - ⬜ **Acoustic Measurement Suite** _(planned)_: Performs dual-channel FFT transfer function, RTA, impulse response, RT60, and coherence measurement against a reference signal; used to tune a PA or characterize a room.
 
