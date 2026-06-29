@@ -1396,7 +1396,7 @@ Entries marked ⬜ are planned (or, in one case, broken and pending rework).
 
 - ✅ **Docket Calendar** _(stub, awaits wire-up)_: Case and deadline tracker that computes hearing, response, appeal, and statute-of-limitations dates from filing dates and applicable court rules (federal, state, local, ex-US). ICS export, per-matter reminders, and a chain-of-deadlines view.
 
-- ⬜ **E-Signature** _(planned)_: Signs PDFs and contracts with a stored cryptographic identity (PAdES, eIDAS-style), embeds the signature certificate and audit trail (IP, timestamp, document hash, geolocation), and emits a signed PDF plus a sidecar JSON manifest. Operates entirely offline.
+- ✅ **E-Signature** _(stub, awaits wire-up)_: Signs PDFs and contracts with a stored cryptographic identity (PAdES, eIDAS-style), embeds the signature certificate and audit trail (IP, timestamp, document hash, geolocation), and emits a signed PDF plus a sidecar JSON manifest. Operates entirely offline.
 
 - ⬜ **Redaction Tool** _(planned)_: Irreversibly blacks out text and image regions in PDFs and images, strips XMP and EXIF metadata, flattens form fields and layers, and produces a redaction log coded per FOIA exemption, GDPR pseudonymization, or privilege type.
 
