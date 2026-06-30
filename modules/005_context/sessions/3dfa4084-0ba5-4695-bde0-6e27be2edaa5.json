@@ -1,0 +1,30 @@
+{
+  "created_at": 1782704937286,
+  "id": "3dfa4084-0ba5-4695-bde0-6e27be2edaa5",
+  "last_active": 1782706063399,
+  "name": "",
+  "root_dir": "/home/jwoods/work/tool",
+  "ui": {
+    "activeFilePath": "/home/jwoods/work/tool/README.md",
+    "activeTerm": "T12",
+    "nextTermId": 13,
+    "openFiles": [
+      "/home/jwoods/work/tool/README.md"
+    ],
+    "panes": {
+      "chatHidden": false,
+      "chatW": "800px",
+      "filesHidden": false,
+      "filesW": "240px",
+      "termH": "220px",
+      "termHidden": false
+    },
+    "rootDir": "/home/jwoods/work/tool",
+    "terminals": [
+      {
+        "cwd": "/home/jwoods/work/tool",
+        "id": "T12"
+      }
+    ]
+  }
+}

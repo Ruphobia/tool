@@ -1,0 +1,28 @@
+{
+  "created_at": 1782703229879,
+  "id": "805fd082-ac6c-41d6-93dd-541b54d87201",
+  "last_active": 1782703851507,
+  "name": "",
+  "root_dir": "/home/jwoods/work/test",
+  "ui": {
+    "activeFilePath": null,
+    "activeTerm": "T7",
+    "nextTermId": 8,
+    "openFiles": [],
+    "panes": {
+      "chatHidden": false,
+      "chatW": "360px",
+      "filesHidden": false,
+      "filesW": "240px",
+      "termH": "220px",
+      "termHidden": false
+    },
+    "rootDir": "/home/jwoods/work/test",
+    "terminals": [
+      {
+        "cwd": "/home/jwoods/work/test",
+        "id": "T7"
+      }
+    ]
+  }
+}

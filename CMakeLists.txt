@@ -80,6 +80,7 @@ add_executable(${PROJECT_NAME}
 
 target_include_directories(${PROJECT_NAME} PRIVATE
     "${CMAKE_SOURCE_DIR}"
+    "${CMAKE_SOURCE_DIR}/modules"
 )
 
 if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
@@ -157,10 +158,10 @@ target_link_libraries(${PROJECT_NAME} PRIVATE nlohmann_json::nlohmann_json)
 find_package(Threads REQUIRED)
 
 add_library(sqlite3_amalgamation STATIC
-    "${CMAKE_SOURCE_DIR}/005_context/sqlite3.c"
+    "${CMAKE_SOURCE_DIR}/modules/005_context/sqlite3.c"
 )
 target_include_directories(sqlite3_amalgamation PUBLIC
-    "${CMAKE_SOURCE_DIR}/005_context"
+    "${CMAKE_SOURCE_DIR}/modules/005_context"
 )
 target_compile_definitions(sqlite3_amalgamation PRIVATE
     SQLITE_ENABLE_FTS5
@@ -210,7 +211,7 @@ target_link_libraries(${PROJECT_NAME} PRIVATE ${LIBZIM_LIB})
 # cpp-httplib uses std::thread; no extra libs needed beyond pthreads
 # (already pulled in via Threads::Threads from sqlite block).
 
-set(_IFACE_DIR     "${CMAKE_SOURCE_DIR}/010_interface")
+set(_IFACE_DIR     "${CMAKE_SOURCE_DIR}/modules/010_interface")
 set(_IFACE_GEN_DIR "${CMAKE_BINARY_DIR}/interface_gen")
 set(_IFACE_GEN_CPP "${_IFACE_GEN_DIR}/assets_gen.cpp")
 set(_IFACE_GEN_HPP "${_IFACE_GEN_DIR}/assets_gen.hpp")

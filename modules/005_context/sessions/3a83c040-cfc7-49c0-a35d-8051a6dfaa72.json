@@ -1,0 +1,30 @@
+{
+  "created_at": 1782703851683,
+  "id": "3a83c040-cfc7-49c0-a35d-8051a6dfaa72",
+  "last_active": 1782704936342,
+  "name": "",
+  "root_dir": "/home/jwoods/work/test",
+  "ui": {
+    "activeFilePath": "/home/jwoods/work/test/parts-list.md",
+    "activeTerm": "T9",
+    "nextTermId": 10,
+    "openFiles": [
+      "/home/jwoods/work/test/parts-list.md"
+    ],
+    "panes": {
+      "chatHidden": false,
+      "chatW": "800px",
+      "filesHidden": false,
+      "filesW": "240px",
+      "termH": "220px",
+      "termHidden": false
+    },
+    "rootDir": "/home/jwoods/work/test",
+    "terminals": [
+      {
+        "cwd": "/home/jwoods/work/test",
+        "id": "T9"
+      }
+    ]
+  }
+}
